@@ -4451,12 +4451,32 @@
           setMode("battle");
         }
         if (state.mode === "relation" && !isStoryNode(node)) {
+          // 同時：選取節點（讓主圖反應）+ 填入路徑端點 + 提示
+          selectNode(node.id);
           fillPathEndpoint(node.name);
+          showPathToast(node.name);
           return;
         }
         selectNode(node.id);
       });
       return button;
+    }
+
+    function showPathToast(name) {
+      const toast = document.getElementById("shareToast");
+      if (!toast) return;
+      const from = (dom.pathFrom && dom.pathFrom.value || "").trim();
+      const to = (dom.pathTo && dom.pathTo.value || "").trim();
+      let msg = "已選：" + name;
+      if (from && to) {
+        msg = "已設定路徑：" + from + " → " + to + "（點「尋找路徑」搜尋）";
+      } else if (from && !to) {
+        msg = "起點：" + from + "（再點一人當終點）";
+      }
+      toast.textContent = msg;
+      toast.classList.add("is-visible");
+      clearTimeout(showPathToast._t);
+      showPathToast._t = setTimeout(() => toast.classList.remove("is-visible"), 2400);
     }
 
     function fillPathEndpoint(name) {
