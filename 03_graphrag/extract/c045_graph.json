@@ -1,0 +1,1932 @@
+{
+  "book": "三國演義",
+  "chapter_no": 45,
+  "chapter_title": "三江口曹操折兵　群英會蔣幹中計",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "公瑾",
+        "周郎",
+        "週都督"
+      ],
+      "description": "東吳都督，本章統軍抗曹，屢欲除孔明、玄德，後設反間計除蔡瑁、張允。",
+      "evidence": [
+        "周瑜在中央下寨",
+        "吾欲殺孔明",
+        "吾必設計先除此二人"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "孔明",
+      "type": "character",
+      "aliases": [
+        "諸葛亮",
+        "亮"
+      ],
+      "description": "劉備軍謀士，隨周瑜至江東軍中，識破周瑜用意，約劉備待東南風後接應。",
+      "evidence": [
+        "孔明欣然從之",
+        "公瑾令吾斷糧者，實欲使曹操殺吾耳",
+        "但看東南風起"
+      ]
+    },
+    {
+      "id": "char_zhuge_jin",
+      "name": "諸葛瑾",
+      "type": "character",
+      "aliases": [],
+      "description": "本章開首提及其言使周瑜轉恨孔明。",
+      "evidence": [
+        "周瑜聞諸葛瑾之言"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "權",
+        "吳侯"
+      ],
+      "description": "東吳之主，命周瑜先行，自己隨後起兵。",
+      "evidence": [
+        "權曰：卿先行，孤即起兵繼後"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [],
+      "description": "隨周瑜、魯肅領兵起行的東吳將領。",
+      "evidence": [
+        "與程普、魯肅領兵起行"
+      ]
+    },
+    {
+      "id": "char_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "子敬",
+        "肅"
+      ],
+      "description": "東吳謀臣，多次勸周瑜以大局為重，也向孔明通報周瑜言語。",
+      "evidence": [
+        "魯肅密謂瑜",
+        "肅曰：今用人之際"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "玄德",
+      "type": "character",
+      "aliases": [
+        "劉備",
+        "劉豫州",
+        "劉使君",
+        "備"
+      ],
+      "description": "劉備勢力之主，屯樊口，赴周瑜宴會時險遭誘殺。",
+      "evidence": [
+        "玄德分付劉琦守江夏",
+        "周瑜欲請主公到彼面會",
+        "若無雲長，主公幾為周郎所害"
+      ]
+    },
+    {
+      "id": "char_liu_qi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [],
+      "description": "受玄德分付守江夏。",
+      "evidence": [
+        "分付劉琦守江夏"
+      ]
+    },
+    {
+      "id": "char_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [
+        "竺"
+      ],
+      "description": "奉玄德命以犒軍為名往周瑜寨中探聽。",
+      "evidence": [
+        "糜竺曰：竺願往",
+        "以犒軍為名，探聽虛實"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "雲長",
+      "type": "character",
+      "aliases": [
+        "關雲長",
+        "關羽"
+      ],
+      "description": "隨玄德赴周瑜營，按劍護衛，使周瑜不敢下手。",
+      "evidence": [
+        "乃雲長也",
+        "雲長按劍立於玄德背後",
+        "關雲長，世之虎將也"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "子龍",
+      "type": "character",
+      "aliases": [
+        "趙雲"
+      ],
+      "description": "孔明囑玄德於約定日令子龍駕小舟南岸接應。",
+      "evidence": [
+        "可令子龍駕小舟來南岸邊等候"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [],
+      "description": "恐玄德有失，率五六十隻船來接應。",
+      "evidence": [
+        "乃張飛也",
+        "特來接應"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹賊",
+        "漢大丞相"
+      ],
+      "description": "北方統帥，遣書給周瑜，三江口水戰失利，後中周瑜反間計斬蔡瑁、張允。",
+      "evidence": [
+        "今操兵八十三萬",
+        "曹操遣使送書至",
+        "吾中計矣"
+      ]
+    },
+    {
+      "id": "char_gan_ning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [
+        "寧"
+      ],
+      "description": "被周瑜任為先鋒，三江口戰中射倒蔡壎並率船進攻。",
+      "evidence": [
+        "令甘寧為先鋒",
+        "甘寧拈弓搭箭"
+      ]
+    },
+    {
+      "id": "char_han_dang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [],
+      "description": "被周瑜任為左翼，三江口戰中衝入曹軍。",
+      "evidence": [
+        "韓當為左翼",
+        "左邊韓當，直衝入軍中"
+      ]
+    },
+    {
+      "id": "char_jiang_qin",
+      "name": "蔣欽",
+      "type": "character",
+      "aliases": [],
+      "description": "被周瑜任為右翼，三江口戰中衝擊曹軍。",
+      "evidence": [
+        "蔣欽為右翼",
+        "右邊蔣欽，直衝入軍中"
+      ]
+    },
+    {
+      "id": "char_cai_mao",
+      "name": "蔡瑁",
+      "type": "character",
+      "aliases": [
+        "蔡都督"
+      ],
+      "description": "荊州降將，曹操水軍都督，後被周瑜反間計害死。",
+      "evidence": [
+        "蔡瑁、張允等一班荊州降將",
+        "水軍都督是誰？蔡瑁、張允",
+        "推出斬之"
+      ]
+    },
+    {
+      "id": "char_zhang_yun",
+      "name": "張允",
+      "type": "character",
+      "aliases": [
+        "張都督",
+        "漲允"
+      ],
+      "description": "荊州降將，與蔡瑁同為曹操水軍都督，後被曹操斬殺。",
+      "evidence": [
+        "蔡瑁、張允等",
+        "蔡瑁張允謹封",
+        "推出斬之"
+      ]
+    },
+    {
+      "id": "char_cai_xun",
+      "name": "蔡壎",
+      "type": "character",
+      "aliases": [],
+      "description": "蔡瑁之弟，奉命前進，被甘寧射倒。",
+      "evidence": [
+        "蔡瑁令弟蔡壎前進",
+        "望蔡壎射來，應弦而倒"
+      ]
+    },
+    {
+      "id": "char_jiang_gan",
+      "name": "蔣幹",
+      "type": "character",
+      "aliases": [
+        "子翼"
+      ],
+      "description": "曹操帳下幕賓，自稱能說降周瑜，於群英會中中計帶回偽書。",
+      "evidence": [
+        "姓蔣，名幹，字子翼",
+        "願憑三寸不爛之舌",
+        "蔣幹只是不應，蒙頭假睡"
+      ]
+    },
+    {
+      "id": "char_taishi_ci",
+      "name": "太史慈",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜在群英會中付佩劍，命其監酒。",
+      "evidence": [
+        "解佩劍付太史慈",
+        "作監酒"
+      ]
+    },
+    {
+      "id": "char_mao_jie",
+      "name": "毛玠",
+      "type": "character",
+      "aliases": [],
+      "description": "蔡瑁、張允死後，被曹操選為水軍都督。",
+      "evidence": [
+        "選毛玠、於禁為水軍都督"
+      ]
+    },
+    {
+      "id": "char_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "蔡瑁、張允死後，被曹操選為水軍都督。",
+      "evidence": [
+        "選毛玠、於禁為水軍都督"
+      ]
+    },
+    {
+      "id": "char_cao_envoy",
+      "name": "曹操使者",
+      "type": "character",
+      "aliases": [
+        "使者",
+        "來使"
+      ],
+      "description": "奉曹操之命送書給周瑜，被周瑜斬殺。",
+      "evidence": [
+        "曹操遣使送書至",
+        "喝斬來使"
+      ]
+    },
+    {
+      "id": "faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "江東",
+        "江左",
+        "吳"
+      ],
+      "description": "孫權、周瑜所屬勢力，與劉備聯合抗曹。",
+      "evidence": [
+        "料是東吳已動兵矣",
+        "悉召江左英傑"
+      ]
+    },
+    {
+      "id": "faction_liu_bei",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "玄德所率勢力，移江夏兵至樊口屯紮。",
+      "evidence": [
+        "盡移江夏之兵，至樊口屯紮"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹軍",
+      "type": "faction",
+      "aliases": [
+        "曹操軍",
+        "北軍"
+      ],
+      "description": "曹操所率大軍，水戰初敗，後立水寨練水軍。",
+      "evidence": [
+        "操兵八十三萬",
+        "曹軍不能抵當",
+        "賺北軍困於寨中"
+      ]
+    },
+    {
+      "id": "faction_jingzhou_surrendered",
+      "name": "荊州降將",
+      "type": "faction",
+      "aliases": [
+        "荊州軍"
+      ],
+      "description": "蔡瑁、張允等降於曹操的荊州將領及水軍。",
+      "evidence": [
+        "蔡瑁、張允等一班荊州降將",
+        "荊州軍在外"
+      ]
+    },
+    {
+      "id": "army_dongwu_navy",
+      "name": "東吳水軍",
+      "type": "army",
+      "aliases": [
+        "江東水軍"
+      ],
+      "description": "周瑜統領的江東船隊，三江口出擊曹軍。",
+      "evidence": [
+        "五更開船，鳴鼓吶喊而進",
+        "左邊韓當，右邊蔣欽"
+      ]
+    },
+    {
+      "id": "army_cao_navy",
+      "name": "曹操水軍",
+      "type": "army",
+      "aliases": [
+        "曹軍水寨水軍"
+      ],
+      "description": "曹操在三江口受挫後，由蔡瑁、張允訓練的水軍。",
+      "evidence": [
+        "到三江口",
+        "自去訓練水軍",
+        "沿江一帶分二十四座水門"
+      ]
+    },
+    {
+      "id": "army_qingxu",
+      "name": "青、徐之軍",
+      "type": "army",
+      "aliases": [
+        "青徐軍"
+      ],
+      "description": "曹操軍中不習水戰的青州、徐州兵。",
+      "evidence": [
+        "青、徐之軍，又素不習水戰"
+      ]
+    },
+    {
+      "id": "army_axe_men",
+      "name": "刀斧手",
+      "type": "army",
+      "aliases": [
+        "刀斧手五十人"
+      ],
+      "description": "周瑜欲誘殺玄德時預先埋伏的殺手。",
+      "evidence": [
+        "先埋伏刀斧手五十人於壁衣中"
+      ]
+    },
+    {
+      "id": "location_sanjiangkou",
+      "name": "三江口",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操與周瑜水軍交戰之地。",
+      "evidence": [
+        "離三江口五六十里",
+        "催督戰船，到三江口"
+      ]
+    },
+    {
+      "id": "location_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜與玄德軍行動所指向的江邊要地。",
+      "evidence": [
+        "望夏口而進",
+        "引兵往夏口"
+      ]
+    },
+    {
+      "id": "location_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "劉琦守備之地，玄德移其兵至樊口。",
+      "evidence": [
+        "分付劉琦守江夏",
+        "盡移江夏之兵"
+      ]
+    },
+    {
+      "id": "location_fankou",
+      "name": "樊口",
+      "type": "location",
+      "aliases": [],
+      "description": "玄德屯紮軍兵之處。",
+      "evidence": [
+        "至樊口屯紮",
+        "同回樊口"
+      ]
+    },
+    {
+      "id": "location_xishan",
+      "name": "西山",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜水寨岸上結營處。",
+      "evidence": [
+        "岸上依西山結營"
+      ]
+    },
+    {
+      "id": "location_jutieshan",
+      "name": "聚鐵山",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜被孔明激怒後聲稱欲往斷曹操糧道之處。",
+      "evidence": [
+        "往聚鐵山斷操糧道"
+      ]
+    },
+    {
+      "id": "location_caocamp",
+      "name": "曹操水寨",
+      "type": "location",
+      "aliases": [
+        "曹寨",
+        "操寨"
+      ],
+      "description": "曹操沿江建立的水軍營寨，被周瑜親往窺探。",
+      "evidence": [
+        "先立水寨",
+        "至操寨邊",
+        "周瑜偷看吾寨"
+      ]
+    },
+    {
+      "id": "location_zhoucamp",
+      "name": "周瑜大寨",
+      "type": "location",
+      "aliases": [
+        "周瑜寨中",
+        "中軍帳"
+      ],
+      "description": "周瑜屯兵、宴客與設計蔣幹之處。",
+      "evidence": [
+        "周瑜大寨前",
+        "徑到周瑜寨中",
+        "至中軍帳"
+      ]
+    },
+    {
+      "id": "location_south_bank",
+      "name": "南岸",
+      "type": "location",
+      "aliases": [
+        "江南岸"
+      ],
+      "description": "玄德見東吳旗幡之處，也是孔明約子龍接應之地。",
+      "evidence": [
+        "遙望江南岸旗幡隱隱",
+        "南岸邊等候"
+      ]
+    },
+    {
+      "id": "location_jiangbei",
+      "name": "江北",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操陣營所在方向，蔣幹由江北往江東。",
+      "evidence": [
+        "雖從江北到此",
+        "江北有人到此"
+      ]
+    },
+    {
+      "id": "location_jiujiang",
+      "name": "九江",
+      "type": "location",
+      "aliases": [],
+      "description": "蔣幹籍貫。",
+      "evidence": [
+        "乃九江人，姓蔣，名幹"
+      ]
+    },
+    {
+      "id": "battle_sanjiangkou",
+      "name": "三江口水戰",
+      "type": "battle",
+      "aliases": [
+        "三江口曹操折兵"
+      ],
+      "description": "周瑜遣甘寧、韓當、蔣欽出擊，曹軍不習水戰而敗。",
+      "evidence": [
+        "五更開船，鳴鼓吶喊而進",
+        "曹軍不能抵當"
+      ]
+    },
+    {
+      "id": "event_qunyinghui",
+      "name": "群英會",
+      "type": "event",
+      "aliases": [
+        "群英會蔣幹中計"
+      ],
+      "description": "周瑜召江左英傑宴蔣幹，展示兵糧並禁談軍事，使蔣幹中反間計。",
+      "evidence": [
+        "今日此會，可名群英會",
+        "說客至矣"
+      ]
+    },
+    {
+      "id": "event_liu_visit",
+      "name": "玄德赴周瑜宴",
+      "type": "event",
+      "aliases": [
+        "周瑜誘玄德"
+      ],
+      "description": "周瑜邀玄德面會並伏刀斧手，因關雲長護衛而未敢動手。",
+      "evidence": [
+        "周瑜欲請主公到彼面會",
+        "擲杯為號",
+        "雲長按劍立於玄德背後"
+      ]
+    },
+    {
+      "id": "event_cao_envoy_killed",
+      "name": "周瑜斬曹使",
+      "type": "event",
+      "aliases": [
+        "斬使示威"
+      ],
+      "description": "周瑜不開曹操來書，扯碎書信並斬曹操使者。",
+      "evidence": [
+        "更不開看，將書扯碎",
+        "斬使以示威"
+      ]
+    },
+    {
+      "id": "event_spy_cao_camp",
+      "name": "周瑜探曹操水寨",
+      "type": "event",
+      "aliases": [
+        "窺看曹寨"
+      ],
+      "description": "周瑜乘樓船至曹操水寨邊觀察，得知蔡瑁、張允掌水軍。",
+      "evidence": [
+        "瑜欲親往探看曹軍水寨",
+        "水軍都督是誰？蔡瑁、張允"
+      ]
+    },
+    {
+      "id": "event_cai_zhang_executed",
+      "name": "蔡瑁張允被斬",
+      "type": "event",
+      "aliases": [
+        "曹操中反間計"
+      ],
+      "description": "蔣幹帶回偽書後，曹操疑蔡瑁、張允通敵，將二人斬首。",
+      "evidence": [
+        "蔡瑁張允謹封",
+        "操喝武士推出斬之",
+        "吾中計矣"
+      ]
+    },
+    {
+      "id": "title_dudu",
+      "name": "都督",
+      "type": "title",
+      "aliases": [
+        "週都督"
+      ],
+      "description": "周瑜在東吳軍中的統軍稱號。",
+      "evidence": [
+        "漢大丞相付週都督開拆"
+      ]
+    },
+    {
+      "id": "title_navy_dudu",
+      "name": "水軍都督",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操水軍統帥職名，先由蔡瑁、張允任，後由毛玠、於禁接替。",
+      "evidence": [
+        "汝既為水軍都督",
+        "選毛玠、於禁為水軍都督"
+      ]
+    },
+    {
+      "id": "title_prime_minister",
+      "name": "漢大丞相",
+      "type": "title",
+      "aliases": [
+        "丞相"
+      ],
+      "description": "曹操在書信與帳中被稱呼的官職。",
+      "evidence": [
+        "漢大丞相付週都督開拆",
+        "丞相放心"
+      ]
+    },
+    {
+      "id": "title_vanguard",
+      "name": "先鋒",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜任甘寧為前鋒職位。",
+      "evidence": [
+        "甘寧為先鋒"
+      ]
+    },
+    {
+      "id": "title_left_wing",
+      "name": "左翼",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜任韓當為左翼職位。",
+      "evidence": [
+        "韓當為左翼"
+      ]
+    },
+    {
+      "id": "title_right_wing",
+      "name": "右翼",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜任蔣欽為右翼職位。",
+      "evidence": [
+        "蔣欽為右翼"
+      ]
+    },
+    {
+      "id": "title_mubin",
+      "name": "幕賓",
+      "type": "title",
+      "aliases": [],
+      "description": "蔣幹在曹操帳下的身份。",
+      "evidence": [
+        "現為帳下幕賓"
+      ]
+    },
+    {
+      "id": "title_jianshi",
+      "name": "監酒",
+      "type": "title",
+      "aliases": [],
+      "description": "太史慈在群英會上受命監督宴飲。",
+      "evidence": [
+        "可佩我劍作監酒"
+      ]
+    },
+    {
+      "id": "object_cao_letter",
+      "name": "曹操書信",
+      "type": "object",
+      "aliases": [
+        "曹操送書"
+      ],
+      "description": "曹操遣使送至周瑜處的書信，被周瑜扯碎。",
+      "evidence": [
+        "曹操遣使送書至",
+        "將書扯碎"
+      ]
+    },
+    {
+      "id": "object_fake_letter",
+      "name": "偽蔡瑁張允書信",
+      "type": "object",
+      "aliases": [
+        "蔡瑁張允謹封書"
+      ],
+      "description": "周瑜布置給蔣幹偷看的偽書，造成曹操殺蔡瑁、張允。",
+      "evidence": [
+        "上寫著蔡瑁張允謹封",
+        "即將操賊之首，獻於麾下"
+      ]
+    },
+    {
+      "id": "object_sword",
+      "name": "佩劍",
+      "type": "object",
+      "aliases": [],
+      "description": "周瑜交給太史慈監酒用的佩劍。",
+      "evidence": [
+        "解佩劍付太史慈"
+      ]
+    },
+    {
+      "id": "object_louchuan",
+      "name": "樓船",
+      "type": "object",
+      "aliases": [],
+      "description": "周瑜探看曹操水寨時乘坐的船。",
+      "evidence": [
+        "收拾樓船一隻",
+        "樓船上鼓樂齊奏"
+      ]
+    },
+    {
+      "id": "object_gifts",
+      "name": "羊酒禮物",
+      "type": "object",
+      "aliases": [
+        "酒禮"
+      ],
+      "description": "玄德命糜竺犒東吳軍時帶去的禮物。",
+      "evidence": [
+        "備羊酒禮物",
+        "獻上酒禮"
+      ]
+    },
+    {
+      "id": "strategy_cut_grain",
+      "name": "斷糧之策",
+      "type": "strategy",
+      "aliases": [
+        "劫糧",
+        "斷糧"
+      ],
+      "description": "周瑜借斷曹操糧道名義欲使孔明送死。",
+      "evidence": [
+        "亦必須先斷糧",
+        "故藉曹操之手殺之"
+      ]
+    },
+    {
+      "id": "strategy_assassinate_liu",
+      "name": "誘殺玄德之計",
+      "type": "strategy",
+      "aliases": [
+        "擲杯為號",
+        "刀斧手埋伏"
+      ],
+      "description": "周瑜欲誘玄德入營，埋伏刀斧手，以擲杯為號殺之。",
+      "evidence": [
+        "誘至殺之",
+        "看吾擲杯為號"
+      ]
+    },
+    {
+      "id": "strategy_feint_letter",
+      "name": "反間計",
+      "type": "strategy",
+      "aliases": [
+        "偽書計",
+        "蔣幹中計"
+      ],
+      "description": "周瑜利用蔣幹偷書，使曹操誤殺蔡瑁、張允。",
+      "evidence": [
+        "吾必設計先除此二人",
+        "幹見帳內桌上，堆著一卷文書",
+        "吾中計矣"
+      ]
+    },
+    {
+      "id": "strategy_train_navy",
+      "name": "立水寨練水軍",
+      "type": "strategy",
+      "aliases": [
+        "二十四座水門"
+      ],
+      "description": "蔡瑁建議曹操先立水寨，分青徐與荊州軍訓練水戰。",
+      "evidence": [
+        "今當先立水寨",
+        "每日教習精熟"
+      ]
+    },
+    {
+      "id": "strategy_wait_wind",
+      "name": "東南風接應之約",
+      "type": "strategy",
+      "aliases": [
+        "十一月二十甲子日後為期"
+      ],
+      "description": "孔明囑玄德按日期備船馬，待東南風起由子龍接應。",
+      "evidence": [
+        "以十一月二十甲子日後為期",
+        "但看東南風起"
+      ]
+    },
+    {
+      "id": "strategy_kill_envoy",
+      "name": "斬使示威",
+      "type": "strategy",
+      "aliases": [],
+      "description": "周瑜以斬曹操使者展示軍威。",
+      "evidence": [
+        "斬使以示威"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_zhou_yu",
+      "target": "faction_dongwu",
+      "type": "隸屬",
+      "description": "周瑜為東吳都督，統領江東軍抗曹。",
+      "evidence": [
+        "週都督",
+        "江東之英傑"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "faction_dongwu",
+      "type": "統領",
+      "description": "孫權為東吳之主，令周瑜先行。",
+      "evidence": [
+        "卿先行，孤即起兵繼後"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_zhou_yu",
+      "type": "命令",
+      "description": "孫權命周瑜先率兵出發。",
+      "evidence": [
+        "卿先行"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_cheng_pu",
+      "type": "同行領兵",
+      "description": "程普與周瑜、魯肅一同領兵。",
+      "evidence": [
+        "與程普、魯肅領兵起行"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_lu_su",
+      "type": "同行領兵",
+      "description": "魯肅與周瑜、程普一同領兵。",
+      "evidence": [
+        "與程普、魯肅領兵起行"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_zhou_yu",
+      "type": "同營議事",
+      "description": "孔明隨周瑜上船至軍中議事。",
+      "evidence": [
+        "便邀孔明同住",
+        "請孔明議事"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strategy_cut_grain",
+      "type": "使用計策",
+      "description": "周瑜以劫糧為名欲借曹操之手殺孔明。",
+      "evidence": [
+        "公使孔明劫糧",
+        "藉曹操之手殺之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_cut_grain",
+      "target": "char_zhuge_liang",
+      "type": "針對",
+      "description": "斷糧任務被用來陷害孔明。",
+      "evidence": [
+        "吾欲殺孔明",
+        "公瑾令吾斷糧者"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strategy_cut_grain",
+      "type": "識破",
+      "description": "孔明明言周瑜命其斷糧實為借曹操殺他。",
+      "evidence": [
+        "實欲使曹操殺吾耳"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_su",
+      "target": "char_zhou_yu",
+      "type": "勸諫",
+      "description": "魯肅勸周瑜以國家為重，暫勿害孔明。",
+      "evidence": [
+        "望以國家為重"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_liu_qi",
+      "type": "命令守備",
+      "description": "玄德分付劉琦守江夏。",
+      "evidence": [
+        "分付劉琦守江夏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_qi",
+      "target": "location_jiangxia",
+      "type": "守備",
+      "description": "劉琦負責守江夏。",
+      "evidence": [
+        "劉琦守江夏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "location_fankou",
+      "type": "屯兵",
+      "description": "玄德將江夏兵移至樊口屯紮。",
+      "evidence": [
+        "至樊口屯紮"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_mi_zhu",
+      "type": "派遣",
+      "description": "玄德派糜竺至東吳犒軍並探聽消息。",
+      "evidence": [
+        "令糜竺至東吳",
+        "探聽虛實"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_mi_zhu",
+      "target": "object_gifts",
+      "type": "攜帶贈與",
+      "description": "糜竺奉命帶羊酒禮物獻給周瑜軍。",
+      "evidence": [
+        "備羊酒禮物",
+        "獻上酒禮"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_mi_zhu",
+      "target": "char_zhou_yu",
+      "type": "拜訪",
+      "description": "糜竺至周瑜大寨獻禮並受宴。",
+      "evidence": [
+        "徑至周瑜大寨前",
+        "瑜受諫，設宴款待糜竺"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strategy_assassinate_liu",
+      "type": "制定計策",
+      "description": "周瑜欲誘玄德來營中殺害。",
+      "evidence": [
+        "乘機誘至殺之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_assassinate_liu",
+      "target": "char_liu_bei",
+      "type": "針對",
+      "description": "誘殺計的目標是玄德。",
+      "evidence": [
+        "誘玄德至此",
+        "誘至殺之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_assassinate_liu",
+      "target": "army_axe_men",
+      "type": "使用軍隊",
+      "description": "周瑜命刀斧手藏於壁衣中待令。",
+      "evidence": [
+        "埋伏刀斧手五十人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_liu_bei",
+      "type": "護衛",
+      "description": "雲長按劍立於玄德背後，使周瑜不敢下手。",
+      "evidence": [
+        "按劍而立，乃雲長也",
+        "吾若下手，他必來害我"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "event_liu_visit",
+      "type": "識破危機",
+      "description": "孔明窺見周瑜殺氣與刀斧手，判斷玄德有危。",
+      "evidence": [
+        "面有殺氣",
+        "密排刀斧手"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_liu_bei",
+      "type": "接應",
+      "description": "張飛率船接應玄德歸寨。",
+      "evidence": [
+        "特來接應"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strategy_wait_wind",
+      "type": "安排",
+      "description": "孔明安排玄德備船馬，待東南風起後接應。",
+      "evidence": [
+        "但收拾船隻軍馬候用",
+        "但看東南風起"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strategy_wait_wind",
+      "target": "char_zhao_yun",
+      "type": "指定執行",
+      "description": "孔明指定子龍駕小舟到南岸等候。",
+      "evidence": [
+        "令子龍駕小舟來南岸邊等候"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_cao_envoy",
+      "type": "斬殺",
+      "description": "周瑜斬殺曹操來使。",
+      "evidence": [
+        "喝斬來使",
+        "遂斬使者"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "object_cao_letter",
+      "type": "遣送",
+      "description": "曹操遣使送書給周瑜。",
+      "evidence": [
+        "曹操遣使送書至"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "object_cao_letter",
+      "type": "毀壞",
+      "description": "周瑜不開書信，將其扯碎。",
+      "evidence": [
+        "更不開看，將書扯碎"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strategy_kill_envoy",
+      "type": "使用計策",
+      "description": "周瑜以斬使來顯示威勢。",
+      "evidence": [
+        "斬使以示威"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_gan_ning",
+      "type": "任命",
+      "description": "周瑜任命甘寧為先鋒。",
+      "evidence": [
+        "令甘寧為先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "title_vanguard",
+      "type": "擔任",
+      "description": "甘寧擔任先鋒。",
+      "evidence": [
+        "甘寧為先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_han_dang",
+      "type": "任命",
+      "description": "周瑜任命韓當為左翼。",
+      "evidence": [
+        "韓當為左翼"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_dang",
+      "target": "title_left_wing",
+      "type": "擔任",
+      "description": "韓當擔任左翼。",
+      "evidence": [
+        "韓當為左翼"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_jiang_qin",
+      "type": "任命",
+      "description": "周瑜任命蔣欽為右翼。",
+      "evidence": [
+        "蔣欽為右翼"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_jiang_qin",
+      "target": "title_right_wing",
+      "type": "擔任",
+      "description": "蔣欽擔任右翼。",
+      "evidence": [
+        "蔣欽為右翼"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_sanjiangkou",
+      "target": "location_sanjiangkou",
+      "type": "發生於",
+      "description": "三江口水戰發生於三江口。",
+      "evidence": [
+        "到三江口"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "battle_sanjiangkou",
+      "target": "army_dongwu_navy",
+      "type": "參戰方",
+      "description": "東吳水軍由周瑜部署進攻。",
+      "evidence": [
+        "五更開船，鳴鼓吶喊而進"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "battle_sanjiangkou",
+      "target": "army_cao_navy",
+      "type": "參戰方",
+      "description": "曹操水軍在三江口迎戰。",
+      "evidence": [
+        "催督戰船，到三江口"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "char_cai_xun",
+      "type": "射殺",
+      "description": "甘寧射倒蔡壎。",
+      "evidence": [
+        "望蔡壎射來，應弦而倒"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_dang",
+      "target": "faction_cao",
+      "type": "攻打",
+      "description": "韓當從左側衝入曹軍。",
+      "evidence": [
+        "左邊韓當，直衝入軍中"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_jiang_qin",
+      "target": "faction_cao",
+      "type": "攻打",
+      "description": "蔣欽從右側衝入曹軍。",
+      "evidence": [
+        "右邊蔣欽，直衝入軍中"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cai_mao",
+      "target": "faction_jingzhou_surrendered",
+      "type": "隸屬",
+      "description": "蔡瑁為荊州降將。",
+      "evidence": [
+        "蔡瑁、張允等一班荊州降將"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_yun",
+      "target": "faction_jingzhou_surrendered",
+      "type": "隸屬",
+      "description": "張允為荊州降將。",
+      "evidence": [
+        "蔡瑁、張允等一班荊州降將"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cai_mao",
+      "type": "任用",
+      "description": "曹操任蔡瑁為水軍都督，許其便宜從事。",
+      "evidence": [
+        "汝既為水軍都督，可以便宜從事"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_yun",
+      "type": "任用",
+      "description": "張允與蔡瑁同為曹操水軍都督。",
+      "evidence": [
+        "水軍都督是誰？蔡瑁、張允"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cai_mao",
+      "target": "title_navy_dudu",
+      "type": "擔任",
+      "description": "蔡瑁擔任曹操水軍都督。",
+      "evidence": [
+        "水軍都督是誰？蔡瑁、張允"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhang_yun",
+      "target": "title_navy_dudu",
+      "type": "擔任",
+      "description": "張允擔任曹操水軍都督。",
+      "evidence": [
+        "水軍都督是誰？蔡瑁、張允"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cai_mao",
+      "target": "strategy_train_navy",
+      "type": "提出",
+      "description": "蔡瑁建議曹操先立水寨並訓練水軍。",
+      "evidence": [
+        "今當先立水寨",
+        "每日教習精熟"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strategy_train_navy",
+      "target": "army_qingxu",
+      "type": "訓練對象",
+      "description": "青徐軍被置於水寨中訓練。",
+      "evidence": [
+        "青、徐軍在中"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "strategy_train_navy",
+      "target": "faction_jingzhou_surrendered",
+      "type": "部署",
+      "description": "荊州軍被置於水寨外層。",
+      "evidence": [
+        "荊州軍在外"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "strategy_train_navy",
+      "target": "location_caocamp",
+      "type": "形成",
+      "description": "立水寨之策形成曹操沿江水寨。",
+      "evidence": [
+        "沿江一帶分二十四座水門"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "event_spy_cao_camp",
+      "type": "執行",
+      "description": "周瑜親乘樓船探看曹操水寨。",
+      "evidence": [
+        "瑜欲親往探看曹軍水寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "event_spy_cao_camp",
+      "target": "object_louchuan",
+      "type": "使用物件",
+      "description": "周瑜探寨時乘樓船。",
+      "evidence": [
+        "收拾樓船一隻"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strategy_feint_letter",
+      "type": "制定計策",
+      "description": "周瑜見蔡瑁、張允善水戰，決定先設計除掉二人。",
+      "evidence": [
+        "吾必設計先除此二人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_feint_letter",
+      "target": "char_cai_mao",
+      "type": "針對",
+      "description": "反間計目標之一是蔡瑁。",
+      "evidence": [
+        "先除此二人",
+        "蔡瑁張允謹封"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_feint_letter",
+      "target": "char_zhang_yun",
+      "type": "針對",
+      "description": "反間計目標之一是張允。",
+      "evidence": [
+        "先除此二人",
+        "蔡瑁張允謹封"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jiang_gan",
+      "target": "char_cao_cao",
+      "type": "隸屬",
+      "description": "蔣幹是曹操帳下幕賓。",
+      "evidence": [
+        "現為帳下幕賓"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jiang_gan",
+      "target": "title_mubin",
+      "type": "擔任",
+      "description": "蔣幹在曹操帳下任幕賓。",
+      "evidence": [
+        "帳下幕賓"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jiang_gan",
+      "target": "char_zhou_yu",
+      "type": "舊交",
+      "description": "蔣幹稱自幼與周瑜同窗交契。",
+      "evidence": [
+        "自幼與周郎同窗交契"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_jiang_gan",
+      "type": "派遣",
+      "description": "曹操准蔣幹往江東說降周瑜並置酒送行。",
+      "evidence": [
+        "往江東說此人來降",
+        "置酒與蔣幹送行"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "event_qunyinghui",
+      "type": "主持",
+      "description": "周瑜召江左英傑設宴，稱為群英會。",
+      "evidence": [
+        "悉召江左英傑",
+        "今日此會，可名群英會"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_qunyinghui",
+      "target": "char_jiang_gan",
+      "type": "使中計",
+      "description": "蔣幹在群英會中被周瑜設局。",
+      "evidence": [
+        "說客至矣",
+        "蔣幹驚愕"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_taishi_ci",
+      "type": "任命",
+      "description": "周瑜命太史慈佩劍監酒。",
+      "evidence": [
+        "解佩劍付太史慈",
+        "作監酒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "title_jianshi",
+      "type": "擔任",
+      "description": "太史慈在宴中擔任監酒。",
+      "evidence": [
+        "作監酒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "object_sword",
+      "type": "交付",
+      "description": "周瑜將佩劍交給太史慈。",
+      "evidence": [
+        "解佩劍付太史慈"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jiang_gan",
+      "target": "object_fake_letter",
+      "type": "偷取",
+      "description": "蔣幹夜中偷看並帶走偽書。",
+      "evidence": [
+        "起床偷視之",
+        "潛步出帳"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "object_fake_letter",
+      "target": "char_cao_cao",
+      "type": "誤導",
+      "description": "偽書使曹操疑蔡瑁、張允反叛。",
+      "evidence": [
+        "即將操賊之首，獻於麾下",
+        "二賊如此無禮耶"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cai_mao",
+      "type": "斬殺",
+      "description": "曹操中計後斬蔡瑁。",
+      "evidence": [
+        "喚蔡瑁、張允到帳下",
+        "推出斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_yun",
+      "type": "斬殺",
+      "description": "曹操中計後斬張允。",
+      "evidence": [
+        "喚蔡瑁、張允到帳下",
+        "推出斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_cai_zhang_executed",
+      "target": "strategy_feint_letter",
+      "type": "結果",
+      "description": "蔡瑁、張允被斬是周瑜反間計的結果。",
+      "evidence": [
+        "吾中計矣",
+        "今既剿除，吾無憂矣"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_mao_jie",
+      "type": "任命",
+      "description": "曹操選毛玠為水軍都督。",
+      "evidence": [
+        "選毛玠、於禁為水軍都督"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mao_jie",
+      "target": "title_navy_dudu",
+      "type": "擔任",
+      "description": "毛玠接替蔡、張為水軍都督。",
+      "evidence": [
+        "以代蔡、張二人之職"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_yu_jin",
+      "type": "任命",
+      "description": "曹操選於禁為水軍都督。",
+      "evidence": [
+        "選毛玠、於禁為水軍都督"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "title_navy_dudu",
+      "type": "擔任",
+      "description": "於禁接替蔡、張為水軍都督。",
+      "evidence": [
+        "以代蔡、張二人之職"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_su",
+      "target": "char_zhuge_liang",
+      "type": "探問",
+      "description": "周瑜認為孔明能識破反間計，欲令魯肅去問。",
+      "evidence": [
+        "未知肅去問孔明還是如何"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "source": "faction_dongwu",
+      "target": "faction_cao",
+      "type": "敵對",
+      "description": "東吳軍與曹軍在三江口交戰。",
+      "evidence": [
+        "鳴鼓吶喊而進",
+        "曹軍不能抵當"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_liu_bei",
+      "target": "faction_dongwu",
+      "type": "同盟",
+      "description": "玄德認為應結東吳共破曹操。",
+      "evidence": [
+        "結東吳以共破曹操",
+        "非同盟之意"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "faction_liu_bei",
+      "target": "faction_cao",
+      "type": "敵對",
+      "description": "劉備與東吳共同抗曹。",
+      "evidence": [
+        "共破曹操"
+      ],
+      "confidence": 0.92
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_depart_to_xiakou",
+      "name": "周瑜領兵赴夏口",
+      "summary": "周瑜辭孫權後，與程普、魯肅領兵起行，邀孔明同住，船隊望夏口前進並近三江口下寨。",
+      "participants": [
+        "char_zhou_yu",
+        "char_sun_quan",
+        "char_cheng_pu",
+        "char_lu_su",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "location_xiakou",
+        "location_sanjiangkou",
+        "location_xishan"
+      ],
+      "evidence": [
+        "卿先行，孤即起兵繼後",
+        "與程普、魯肅領兵起行",
+        "望夏口而進"
+      ]
+    },
+    {
+      "id": "ev_cut_grain_plot",
+      "name": "周瑜借斷糧謀害孔明",
+      "summary": "周瑜提出先斷曹操糧道，實欲借曹操之手殺孔明；孔明識破，魯肅勸周瑜以大局為重。",
+      "participants": [
+        "char_zhou_yu",
+        "char_zhuge_liang",
+        "char_lu_su",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "location_zhoucamp",
+        "location_jutieshan"
+      ],
+      "evidence": [
+        "必須先斷糧",
+        "藉曹操之手殺之",
+        "實欲使曹操殺吾耳"
+      ]
+    },
+    {
+      "id": "ev_mi_zhu_scout",
+      "name": "糜竺往東吳探信",
+      "summary": "玄德屯樊口後，派糜竺帶羊酒禮物至周瑜寨中，以犒軍為名探聽孔明消息。",
+      "participants": [
+        "char_liu_bei",
+        "char_mi_zhu",
+        "char_zhou_yu",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "location_fankou",
+        "location_zhoucamp"
+      ],
+      "evidence": [
+        "以犒軍為名，探聽虛實",
+        "獻上酒禮"
+      ]
+    },
+    {
+      "id": "ev_liu_visit_trap",
+      "name": "玄德赴會險遭誘殺",
+      "summary": "周瑜邀玄德到營中面會，預伏刀斧手欲擲杯為號；因雲長按劍護衛，周瑜不敢動手。",
+      "participants": [
+        "char_zhou_yu",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhuge_liang",
+        "char_lu_su"
+      ],
+      "locations": [
+        "location_zhoucamp"
+      ],
+      "evidence": [
+        "誘至殺之",
+        "擲杯為號",
+        "雲長按劍立於玄德背後"
+      ]
+    },
+    {
+      "id": "ev_zhang_fei_rescue",
+      "name": "張飛接應玄德",
+      "summary": "玄德離周瑜營後，張飛率五六十隻船自上流而來，接應玄德與雲長回寨。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "location_south_bank",
+        "location_fankou"
+      ],
+      "evidence": [
+        "五、六十隻船來",
+        "乃張飛也",
+        "特來接應"
+      ]
+    },
+    {
+      "id": "ev_cao_envoy_killed",
+      "name": "周瑜毀書斬使",
+      "summary": "曹操遣使送書給周瑜，周瑜不開書而扯碎，並斬使者以示威。",
+      "participants": [
+        "char_cao_cao",
+        "char_cao_envoy",
+        "char_zhou_yu",
+        "char_lu_su"
+      ],
+      "locations": [
+        "location_zhoucamp"
+      ],
+      "evidence": [
+        "曹操遣使送書至",
+        "將書扯碎",
+        "斬使以示威"
+      ]
+    },
+    {
+      "id": "ev_sanjiangkou_battle",
+      "name": "三江口水戰曹軍敗",
+      "summary": "周瑜命甘寧為先鋒、韓當為左翼、蔣欽為右翼進攻曹軍；甘寧射倒蔡壎，曹軍因不習水戰而敗。",
+      "participants": [
+        "char_zhou_yu",
+        "char_gan_ning",
+        "char_han_dang",
+        "char_jiang_qin",
+        "char_cao_cao",
+        "char_cai_mao",
+        "char_cai_xun"
+      ],
+      "locations": [
+        "location_sanjiangkou"
+      ],
+      "evidence": [
+        "甘寧為先鋒",
+        "蔡壎射來，應弦而倒",
+        "曹軍不能抵當"
+      ]
+    },
+    {
+      "id": "ev_cao_train_navy",
+      "name": "曹操立水寨練水軍",
+      "summary": "三江口失利後，蔡瑁解釋荊州水軍久不操練、青徐軍不習水戰，建議先立水寨並每日訓練。",
+      "participants": [
+        "char_cao_cao",
+        "char_cai_mao",
+        "char_zhang_yun"
+      ],
+      "locations": [
+        "location_caocamp"
+      ],
+      "evidence": [
+        "荊州水軍，久不操練",
+        "今當先立水寨",
+        "每日教習精熟"
+      ]
+    },
+    {
+      "id": "ev_spy_cao_camp",
+      "name": "周瑜探看曹操水寨",
+      "summary": "周瑜乘樓船探看曹操水寨，得知蔡瑁、張允為水軍都督，認為須先除二人。",
+      "participants": [
+        "char_zhou_yu",
+        "char_cao_cao",
+        "char_cai_mao",
+        "char_zhang_yun"
+      ],
+      "locations": [
+        "location_caocamp"
+      ],
+      "evidence": [
+        "親往探看曹軍水寨",
+        "水軍都督是誰",
+        "設計先除此二人"
+      ]
+    },
+    {
+      "id": "ev_jiang_gan_to_jiangdong",
+      "name": "蔣幹往江東說降",
+      "summary": "蔣幹自稱與周瑜同窗交契，向曹操請命往江東說降周瑜，曹操置酒送行。",
+      "participants": [
+        "char_jiang_gan",
+        "char_cao_cao",
+        "char_zhou_yu"
+      ],
+      "locations": [
+        "location_jiangbei",
+        "location_zhoucamp"
+      ],
+      "evidence": [
+        "往江東說此人來降",
+        "置酒與蔣幹送行",
+        "故人蔣幹相訪"
+      ]
+    },
+    {
+      "id": "ev_qunyinghui",
+      "name": "群英會設局",
+      "summary": "周瑜召江左英傑宴蔣幹，交佩劍予太史慈監酒，展示軍士與糧草，表明不受說降。",
+      "participants": [
+        "char_zhou_yu",
+        "char_jiang_gan",
+        "char_taishi_ci"
+      ],
+      "locations": [
+        "location_zhoucamp"
+      ],
+      "evidence": [
+        "悉召江左英傑",
+        "可名群英會",
+        "作監酒"
+      ]
+    },
+    {
+      "id": "ev_fake_letter",
+      "name": "蔣幹偷看偽書",
+      "summary": "夜中蔣幹見帳內文書，偷看題為蔡瑁張允謹封的書信，又聽到周瑜假作夢語與低聲通報，遂信以為真。",
+      "participants": [
+        "char_jiang_gan",
+        "char_zhou_yu",
+        "char_cai_mao",
+        "char_zhang_yun"
+      ],
+      "locations": [
+        "location_zhoucamp"
+      ],
+      "evidence": [
+        "堆著一卷文書",
+        "蔡瑁張允謹封",
+        "張、蔡二都督道"
+      ]
+    },
+    {
+      "id": "ev_cai_zhang_executed",
+      "name": "曹操斬蔡瑁張允",
+      "summary": "蔣幹回報偽書後，曹操怒召蔡瑁、張允，因疑其通敵而斬之，事後才省悟中計。",
+      "participants": [
+        "char_jiang_gan",
+        "char_cao_cao",
+        "char_cai_mao",
+        "char_zhang_yun"
+      ],
+      "locations": [
+        "location_caocamp"
+      ],
+      "evidence": [
+        "二賊如此無禮耶",
+        "推出斬之",
+        "吾中計矣"
+      ]
+    },
+    {
+      "id": "ev_new_navy_dudu",
+      "name": "毛玠於禁接任水軍都督",
+      "summary": "蔡瑁、張允死後，曹操選毛玠、於禁為水軍都督；江東細作回報後，周瑜大喜。",
+      "participants": [
+        "char_cao_cao",
+        "char_mao_jie",
+        "char_yu_jin",
+        "char_zhou_yu",
+        "char_lu_su"
+      ],
+      "locations": [
+        "location_caocamp",
+        "location_zhoucamp"
+      ],
+      "evidence": [
+        "選毛玠、於禁為水軍都督",
+        "細作探知，報過江東",
+        "今既剿除，吾無憂矣"
+      ]
+    }
+  ],
+  "notes": [
+    "正文有少量異文或誤字，如「漲允」按同章多處作「張允」合併處理。",
+    "袁紹、許攸、烏巢、蘇秦、張儀、陸賈、酈生、師曠等多為比喻或典故性提及，未列為本章核心實體。"
+  ]
+}

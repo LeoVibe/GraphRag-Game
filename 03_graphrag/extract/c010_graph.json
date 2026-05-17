@@ -1,0 +1,2698 @@
+{
+  "book": "三國演義",
+  "chapter_no": 10,
+  "chapter_title": "勤王室馬騰舉義　報父仇曹操興師",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_xian_di",
+      "name": "獻帝",
+      "type": "character",
+      "aliases": [
+        "帝"
+      ],
+      "description": "漢帝，被李傕、郭汜挾制，封授諸將官爵，並密詔馬騰、韓遂討賊。",
+      "evidence": [
+        "李、郭欲弒獻帝",
+        "三人密奏獻帝"
+      ]
+    },
+    {
+      "id": "char_li_jue",
+      "name": "李傕",
+      "type": "character",
+      "aliases": [
+        "李"
+      ],
+      "description": "掌控長安朝政的軍閥，與郭汜同秉朝政，採納賈詡之策禦敵並宴殺樊稠。",
+      "evidence": [
+        "李傕、郭汜既掌大權",
+        "李傕大喜，便設宴"
+      ]
+    },
+    {
+      "id": "char_guo_si",
+      "name": "郭汜",
+      "type": "character",
+      "aliases": [
+        "郭"
+      ],
+      "description": "與李傕同掌朝政、鎮守長安的軍閥。",
+      "evidence": [
+        "郭汜為後將軍",
+        "同秉朝政"
+      ]
+    },
+    {
+      "id": "char_zhang_ji",
+      "name": "張濟",
+      "type": "character",
+      "aliases": [],
+      "description": "李傕、郭汜一方將領，勸止弒帝，後屯弘農並追擊馬騰。",
+      "evidence": [
+        "張濟、樊稠諫",
+        "領兵屯弘農"
+      ]
+    },
+    {
+      "id": "char_fan_chou",
+      "name": "樊稠",
+      "type": "character",
+      "aliases": [],
+      "description": "李傕、郭汜一方將領，追擊韓遂時放走韓遂，後被李傕設宴斬殺。",
+      "evidence": [
+        "樊稠放走韓遂",
+        "把樊稠斬首於案下"
+      ]
+    },
+    {
+      "id": "char_dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [
+        "卓"
+      ],
+      "description": "已死軍閥，李傕等為其遷葬郿塢，屍骨三葬不成。",
+      "evidence": [
+        "追尋董卓屍首",
+        "三次改葬，皆不能葬"
+      ]
+    },
+    {
+      "id": "char_zhu_jun",
+      "name": "朱儁",
+      "type": "character",
+      "aliases": [],
+      "description": "被宣入朝封太僕，同領朝政；後保舉曹操討青州黃巾。",
+      "evidence": [
+        "封為太僕",
+        "朱儁保舉一人"
+      ]
+    },
+    {
+      "id": "char_ma_teng",
+      "name": "馬騰",
+      "type": "character",
+      "aliases": [],
+      "description": "西涼太守，受密詔為徵西將軍，與韓遂起兵討李傕、郭汜。",
+      "evidence": [
+        "西涼太守馬騰",
+        "封馬騰為徵西將軍"
+      ]
+    },
+    {
+      "id": "char_han_sui",
+      "name": "韓遂",
+      "type": "character",
+      "aliases": [],
+      "description": "并州刺史，受密詔為鎮西將軍，與馬騰共同討賊。",
+      "evidence": [
+        "並州刺史韓遂",
+        "韓遂為鎮西將軍"
+      ]
+    },
+    {
+      "id": "char_ma_yu",
+      "name": "馬宇",
+      "type": "character",
+      "aliases": [],
+      "description": "侍中，與種邵、劉範為馬騰、韓遂內應，事洩被斬。",
+      "evidence": [
+        "侍中馬宇",
+        "欲為內應"
+      ]
+    },
+    {
+      "id": "char_zhong_shao",
+      "name": "種邵",
+      "type": "character",
+      "aliases": [],
+      "description": "諫議大夫，參與長安內應密謀，事洩被斬。",
+      "evidence": [
+        "諫議大夫種邵",
+        "內應又洩"
+      ]
+    },
+    {
+      "id": "char_liu_fan",
+      "name": "劉範",
+      "type": "character",
+      "aliases": [],
+      "description": "左中郎將，參與長安內應密謀，事洩被斬。",
+      "evidence": [
+        "左中郎將劉範",
+        "三顆首級"
+      ]
+    },
+    {
+      "id": "char_jia_xu",
+      "name": "賈詡",
+      "type": "character",
+      "aliases": [
+        "賈詬",
+        "詬",
+        "賈翊"
+      ],
+      "description": "李傕一方謀士，獻堅守耗糧、盩厔防守與宴殺樊稠等計。",
+      "evidence": [
+        "謀士賈詬曰",
+        "賈詡屢勸"
+      ]
+    },
+    {
+      "id": "char_li_meng",
+      "name": "李蒙",
+      "type": "character",
+      "aliases": [],
+      "description": "李傕、郭汜部將，主張迎戰馬騰、韓遂，後被馬超生擒並斬首。",
+      "evidence": [
+        "李蒙、王方出曰",
+        "李蒙斬首號令"
+      ]
+    },
+    {
+      "id": "char_wang_fang",
+      "name": "王方",
+      "type": "character",
+      "aliases": [],
+      "description": "李傕、郭汜部將，迎戰馬超，被馬超刺死。",
+      "evidence": [
+        "王方欺他年幼",
+        "被馬超一槍刺於馬下"
+      ]
+    },
+    {
+      "id": "char_ma_chao",
+      "name": "馬超",
+      "type": "character",
+      "aliases": [
+        "孟起"
+      ],
+      "description": "馬騰之子，十七歲即在陣前刺王方、擒李蒙，後死戰殺退張濟。",
+      "evidence": [
+        "馬騰之子馬超",
+        "殺退張濟"
+      ]
+    },
+    {
+      "id": "char_li_bie",
+      "name": "李別",
+      "type": "character",
+      "aliases": [],
+      "description": "李傕之侄，見樊稠放走韓遂後回報李傕。",
+      "evidence": [
+        "李傕之侄李別",
+        "回報叔"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹孟德",
+        "孟德",
+        "操"
+      ],
+      "description": "東郡太守，受命討青州黃巾，招賢納士；其父被殺後興兵攻徐州。",
+      "evidence": [
+        "非曹孟德不可",
+        "悉起大軍，洗蕩徐州"
+      ]
+    },
+    {
+      "id": "char_bao_xin",
+      "name": "鮑信",
+      "type": "character",
+      "aliases": [],
+      "description": "與曹操會合討青州黃巾，殺入重地後遇害。",
+      "evidence": [
+        "會合鮑信",
+        "為賊所害"
+      ]
+    },
+    {
+      "id": "char_xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [
+        "文若"
+      ],
+      "description": "潁川潁陰人，棄袁紹投曹操，被任為行軍司馬，並薦程昱。",
+      "evidence": [
+        "姓荀，名彧，字文若",
+        "遂以為行軍司馬"
+      ]
+    },
+    {
+      "id": "char_xun_you",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [
+        "公達"
+      ],
+      "description": "荀彧之侄，曾拜黃門侍郎，與叔同投曹操，被任行軍教授。",
+      "evidence": [
+        "其侄荀攸",
+        "以為行軍教授"
+      ]
+    },
+    {
+      "id": "char_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [
+        "仲德"
+      ],
+      "description": "東郡東阿賢士，由荀彧薦給曹操，又薦郭嘉。",
+      "evidence": [
+        "姓程，名昱，字仲德",
+        "何不羅而致之"
+      ]
+    },
+    {
+      "id": "char_guo_jia",
+      "name": "郭嘉",
+      "type": "character",
+      "aliases": [
+        "奉孝"
+      ],
+      "description": "荀彧鄉人，程昱稱其為當今賢士；後薦劉曄。",
+      "evidence": [
+        "姓郭，名嘉，字奉孝",
+        "郭嘉薦光武嫡派子孫"
+      ]
+    },
+    {
+      "id": "char_liu_ye",
+      "name": "劉曄",
+      "type": "character",
+      "aliases": [
+        "子陽"
+      ],
+      "description": "淮南成德人，由郭嘉推薦，後薦滿寵、呂虔。",
+      "evidence": [
+        "姓劉，名曄，字子陽",
+        "曄又薦二人"
+      ]
+    },
+    {
+      "id": "char_man_chong",
+      "name": "滿寵",
+      "type": "character",
+      "aliases": [
+        "伯寧"
+      ],
+      "description": "山陽昌邑人，由劉曄薦於曹操，任軍中從事，並與呂虔共薦毛玠。",
+      "evidence": [
+        "姓滿，名寵，字伯寧",
+        "滿寵、呂虔共薦一人"
+      ]
+    },
+    {
+      "id": "char_lu_qian",
+      "name": "呂虔",
+      "type": "character",
+      "aliases": [
+        "子恪"
+      ],
+      "description": "武城人，由劉曄薦於曹操，任軍中從事，並與滿寵共薦毛玠。",
+      "evidence": [
+        "姓呂，名虔，字子恪",
+        "聘為軍中從事"
+      ]
+    },
+    {
+      "id": "char_mao_jie",
+      "name": "毛玠",
+      "type": "character",
+      "aliases": [
+        "孝先"
+      ],
+      "description": "陳留平邱人，由滿寵、呂虔推薦，受曹操聘為從事。",
+      "evidence": [
+        "姓毛，名玠，字孝先",
+        "曹操亦聘為從事"
+      ]
+    },
+    {
+      "id": "char_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [
+        "文則"
+      ],
+      "description": "泰山巨平人，率數百人投曹操，被任為點軍司馬。",
+      "evidence": [
+        "姓於，名禁，字文則",
+        "命為點軍司馬"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，引薦典韋，後為攻徐州先鋒並奉命截殺邊讓。",
+      "evidence": [
+        "夏侯惇引一大漢來見",
+        "夏侯惇、於禁、典韋為先鋒"
+      ]
+    },
+    {
+      "id": "char_dian_wei",
+      "name": "典韋",
+      "type": "character",
+      "aliases": [
+        "古之惡來"
+      ],
+      "description": "陳留勇士，由夏侯惇引見曹操，因勇力被任帳前都尉並受賜。",
+      "evidence": [
+        "姓典，名韋",
+        "此古之惡來也"
+      ]
+    },
+    {
+      "id": "char_zhang_miao",
+      "name": "張邈",
+      "type": "character",
+      "aliases": [],
+      "description": "典韋舊主，典韋因與帳下人不和離去。",
+      "evidence": [
+        "舊跟張邈"
+      ]
+    },
+    {
+      "id": "char_ying_shao",
+      "name": "應劭",
+      "type": "character",
+      "aliases": [],
+      "description": "泰山太守，受曹操派遣往瑯琊接曹嵩。",
+      "evidence": [
+        "遣泰山太守應劭",
+        "往瑯琊郡取父曹嵩"
+      ]
+    },
+    {
+      "id": "char_cao_song",
+      "name": "曹嵩",
+      "type": "character",
+      "aliases": [
+        "嵩"
+      ],
+      "description": "曹操之父，避難瑯琊，前往兗州途中全家遇害。",
+      "evidence": [
+        "取父曹嵩",
+        "盡曹嵩全家"
+      ]
+    },
+    {
+      "id": "char_cao_de",
+      "name": "曹德",
+      "type": "character",
+      "aliases": [],
+      "description": "曹嵩之弟，隨曹嵩一家從瑯琊往兗州。",
+      "evidence": [
+        "與弟曹德"
+      ]
+    },
+    {
+      "id": "char_tao_qian",
+      "name": "陶謙",
+      "type": "character",
+      "aliases": [
+        "恭祖",
+        "府君"
+      ],
+      "description": "徐州太守，款待曹嵩並派都尉護送；曹操認為他縱兵殺父而攻徐州。",
+      "evidence": [
+        "太守陶謙，字恭祖",
+        "陶謙縱兵殺吾父"
+      ]
+    },
+    {
+      "id": "char_zhang_corrupt",
+      "name": "張輳??",
+      "type": "character",
+      "aliases": [
+        "張昊",
+        "張曛?"
+      ],
+      "description": "陶謙所差都尉；原檔姓名處有亂碼，後文顯示其部殺曹嵩全家、取財逃淮南。",
+      "evidence": [
+        "特差都尉張輳??",
+        "盡曹嵩全家"
+      ]
+    },
+    {
+      "id": "char_bian_rang",
+      "name": "邊讓",
+      "type": "character",
+      "aliases": [],
+      "description": "九江太守，與陶謙交好，率兵五千救徐州，被曹操派夏侯惇截殺。",
+      "evidence": [
+        "九江太守邊讓",
+        "自引兵五千來救"
+      ]
+    },
+    {
+      "id": "char_chen_gong",
+      "name": "陳宮",
+      "type": "character",
+      "aliases": [],
+      "description": "東郡從事，與陶謙交好，星夜見曹操勸止屠戮徐州百姓。",
+      "evidence": [
+        "陳宮為東郡從事",
+        "特來進言"
+      ]
+    },
+    {
+      "id": "char_cao_bao",
+      "name": "曹豹",
+      "type": "character",
+      "aliases": [],
+      "description": "陶謙部下，主張助陶謙迎戰曹操。",
+      "evidence": [
+        "曹豹曰",
+        "願助使君破之"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [],
+      "description": "荀彧舊主，荀彧棄袁紹而投曹操。",
+      "evidence": [
+        "舊事袁紹",
+        "棄紹投操"
+      ]
+    },
+    {
+      "id": "faction_court",
+      "name": "朝廷",
+      "type": "faction",
+      "aliases": [
+        "王室"
+      ],
+      "description": "漢室朝廷，受李傕、郭汜把持，仍能封授官爵與下詔。",
+      "evidence": [
+        "同秉朝政",
+        "朝廷加曹操"
+      ]
+    },
+    {
+      "id": "faction_li_guo",
+      "name": "李傕、郭汜勢力",
+      "type": "faction",
+      "aliases": [
+        "二賊",
+        "賊黨"
+      ],
+      "description": "以李傕、郭汜為首的長安軍政勢力。",
+      "evidence": [
+        "李、郭二賊",
+        "共謀賊黨"
+      ]
+    },
+    {
+      "id": "faction_qingzhou_huangjin",
+      "name": "青州黃巾",
+      "type": "faction",
+      "aliases": [
+        "山東群賊",
+        "群賊"
+      ],
+      "description": "青州起事的黃巾眾，聚眾數十萬，劫掠良民。",
+      "evidence": [
+        "青州黃巾又起",
+        "劫掠良民"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹操部下"
+      ],
+      "description": "曹操在兗州聚集的謀臣猛將與軍隊。",
+      "evidence": [
+        "曹操部下文有謀臣",
+        "威鎮山東"
+      ]
+    },
+    {
+      "id": "faction_tao",
+      "name": "陶謙勢力",
+      "type": "faction",
+      "aliases": [
+        "徐州勢力"
+      ],
+      "description": "陶謙在徐州的官員與軍隊。",
+      "evidence": [
+        "陶謙在徐州",
+        "急聚眾官商議"
+      ]
+    },
+    {
+      "id": "army_xiliang",
+      "name": "西涼軍",
+      "type": "army",
+      "aliases": [
+        "西涼兵",
+        "二軍"
+      ],
+      "description": "馬騰、韓遂所率十餘萬軍馬，攻向長安討賊。",
+      "evidence": [
+        "引軍十餘萬",
+        "西涼兵到"
+      ]
+    },
+    {
+      "id": "army_qingzhou",
+      "name": "青州兵",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操從青州黃巾降兵中擇精銳編成的軍隊。",
+      "evidence": [
+        "號為青州兵"
+      ]
+    },
+    {
+      "id": "army_cao",
+      "name": "曹操大軍",
+      "type": "army",
+      "aliases": [
+        "曹兵",
+        "操大軍"
+      ],
+      "description": "曹操討黃巾、攻徐州所率軍隊。",
+      "evidence": [
+        "悉起大軍",
+        "曹兵既至"
+      ]
+    },
+    {
+      "id": "army_xuzhou",
+      "name": "徐州軍",
+      "type": "army",
+      "aliases": [
+        "陶謙軍"
+      ],
+      "description": "陶謙守徐州、迎戰曹操的兵馬。",
+      "evidence": [
+        "陶謙只得引兵出迎"
+      ]
+    },
+    {
+      "id": "loc_changan",
+      "name": "長安",
+      "type": "location",
+      "aliases": [],
+      "description": "獻帝所在與李傕、郭汜掌權之地，也是馬騰、韓遂攻擊目標。",
+      "evidence": [
+        "殺奔長安來"
+      ]
+    },
+    {
+      "id": "loc_hongnong",
+      "name": "弘農",
+      "type": "location",
+      "aliases": [],
+      "description": "張濟受封後領兵屯守並返回之地。",
+      "evidence": [
+        "領兵屯弘農",
+        "自回弘農"
+      ]
+    },
+    {
+      "id": "loc_meiwu",
+      "name": "郿塢",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓屍骨遷葬地。",
+      "evidence": [
+        "遷葬郿塢"
+      ]
+    },
+    {
+      "id": "loc_xiliang",
+      "name": "西涼",
+      "type": "location",
+      "aliases": [],
+      "description": "馬騰為太守之地，西涼軍名由此來。",
+      "evidence": [
+        "西涼太守馬騰"
+      ]
+    },
+    {
+      "id": "loc_bingzhou",
+      "name": "并州",
+      "type": "location",
+      "aliases": [],
+      "description": "韓遂任刺史之地。",
+      "evidence": [
+        "並州刺史韓遂"
+      ]
+    },
+    {
+      "id": "loc_zhongzhi_shan",
+      "name": "盩厔山",
+      "type": "location",
+      "aliases": [],
+      "description": "長安西險峻山道，賈詡建議張濟、樊稠屯兵堅守。",
+      "evidence": [
+        "長安西二百里盩厔山"
+      ]
+    },
+    {
+      "id": "loc_aikou",
+      "name": "隘口",
+      "type": "location",
+      "aliases": [],
+      "description": "馬騰、韓遂追殺李蒙、王方後逼近下寨之處。",
+      "evidence": [
+        "直逼隘口下寨"
+      ]
+    },
+    {
+      "id": "loc_chencang",
+      "name": "陳倉",
+      "type": "location",
+      "aliases": [],
+      "description": "樊稠追韓遂至此附近，後放韓遂。",
+      "evidence": [
+        "相近陳倉"
+      ]
+    },
+    {
+      "id": "loc_qingzhou",
+      "name": "青州",
+      "type": "location",
+      "aliases": [],
+      "description": "黃巾再起之地，也是青州兵來源。",
+      "evidence": [
+        "青州黃巾又起"
+      ]
+    },
+    {
+      "id": "loc_shandong",
+      "name": "山東",
+      "type": "location",
+      "aliases": [],
+      "description": "青州黃巾被稱為山東群賊，曹操討平後威鎮此地。",
+      "evidence": [
+        "破山東群賊",
+        "威鎮山東"
+      ]
+    },
+    {
+      "id": "loc_dongjun",
+      "name": "東郡",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操任太守、陳宮任從事之地。",
+      "evidence": [
+        "現為東郡太守",
+        "東郡從事"
+      ]
+    },
+    {
+      "id": "loc_shouyang",
+      "name": "壽陽",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操、鮑信與青州黃巾交戰之地。",
+      "evidence": [
+        "擊賊於壽陽"
+      ]
+    },
+    {
+      "id": "loc_jibei",
+      "name": "濟北",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操追趕黃巾賊兵至此，降者數萬。",
+      "evidence": [
+        "直到濟北"
+      ]
+    },
+    {
+      "id": "loc_yanzhou",
+      "name": "兗州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操招賢納士與曹嵩欲前往之地。",
+      "evidence": [
+        "操在兗州",
+        "徑望兗州而來"
+      ]
+    },
+    {
+      "id": "loc_langya",
+      "name": "瑯琊郡",
+      "type": "location",
+      "aliases": [
+        "瑯琊"
+      ],
+      "description": "曹嵩避難隱居之地，曹操遣應劭前往接取。",
+      "evidence": [
+        "往瑯琊郡取父曹嵩"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "陶謙治所，曹操因父仇發兵攻打。",
+      "evidence": [
+        "洗蕩徐州",
+        "陶謙在徐州"
+      ]
+    },
+    {
+      "id": "loc_juancheng",
+      "name": "鄄城",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操留荀彧、程昱守備的三縣之一。",
+      "evidence": [
+        "守鄄城"
+      ]
+    },
+    {
+      "id": "loc_fanxian",
+      "name": "範縣",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操留荀彧、程昱守備的三縣之一。",
+      "evidence": [
+        "範縣"
+      ]
+    },
+    {
+      "id": "loc_donga",
+      "name": "東阿",
+      "type": "location",
+      "aliases": [
+        "東郡東阿"
+      ],
+      "description": "程昱籍貫地，也是曹操留守三縣之一。",
+      "evidence": [
+        "東郡東阿人",
+        "東阿三縣"
+      ]
+    },
+    {
+      "id": "loc_huainan",
+      "name": "淮南",
+      "type": "location",
+      "aliases": [],
+      "description": "張輳??等殺曹嵩後逃奔之處。",
+      "evidence": [
+        "逃奔淮南去了"
+      ]
+    },
+    {
+      "id": "loc_jiujiang",
+      "name": "九江",
+      "type": "location",
+      "aliases": [],
+      "description": "邊讓任太守之地。",
+      "evidence": [
+        "九江太守邊讓"
+      ]
+    },
+    {
+      "id": "title_li_jue_bundle",
+      "name": "車騎將軍池陽侯領司隸校尉假節鉞",
+      "type": "title",
+      "aliases": [
+        "車騎將軍",
+        "池陽侯",
+        "司隸校尉",
+        "假節鉞"
+      ],
+      "description": "獻帝封授李傕的官爵。",
+      "evidence": [
+        "封李傕為車騎將軍池陽侯"
+      ]
+    },
+    {
+      "id": "title_guo_si_bundle",
+      "name": "後將軍美陽侯假節鈀",
+      "type": "title",
+      "aliases": [
+        "後將軍",
+        "美陽侯",
+        "假節鈀"
+      ],
+      "description": "獻帝封授郭汜的官爵。",
+      "evidence": [
+        "郭汜為後將軍美陽侯"
+      ]
+    },
+    {
+      "id": "title_fan_chou_bundle",
+      "name": "右將軍萬年侯",
+      "type": "title",
+      "aliases": [
+        "右將軍",
+        "萬年侯"
+      ],
+      "description": "獻帝封授樊稠的官爵。",
+      "evidence": [
+        "樊稠為右將軍萬年侯"
+      ]
+    },
+    {
+      "id": "title_zhang_ji_bundle",
+      "name": "驃騎將軍平陽侯",
+      "type": "title",
+      "aliases": [
+        "驃騎將軍",
+        "平陽侯"
+      ],
+      "description": "獻帝封授張濟的官爵。",
+      "evidence": [
+        "張濟為驃騎將軍平陽侯"
+      ]
+    },
+    {
+      "id": "title_xiaowei",
+      "name": "校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "李蒙、王方等所受官職。",
+      "evidence": [
+        "李蒙、王方等，各為校尉"
+      ]
+    },
+    {
+      "id": "title_taipu",
+      "name": "太僕",
+      "type": "title",
+      "aliases": [],
+      "description": "朱儁入朝後所受官職。",
+      "evidence": [
+        "封為太僕"
+      ]
+    },
+    {
+      "id": "title_zhengxi",
+      "name": "徵西將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝密詔封馬騰的將軍號。",
+      "evidence": [
+        "封馬騰為徵西將軍"
+      ]
+    },
+    {
+      "id": "title_zhenxi",
+      "name": "鎮西將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝密詔封韓遂的將軍號。",
+      "evidence": [
+        "韓遂為鎮西將軍"
+      ]
+    },
+    {
+      "id": "title_dongjun_taishou",
+      "name": "東郡太守",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操時任官職。",
+      "evidence": [
+        "現為東郡太守"
+      ]
+    },
+    {
+      "id": "title_zhendong",
+      "name": "鎮東將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操討黃巾捷報後受朝廷加封的將軍號。",
+      "evidence": [
+        "加曹操為鎮東將軍"
+      ]
+    },
+    {
+      "id": "title_xingjun_sima",
+      "name": "行軍司馬",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操任命荀彧的職位。",
+      "evidence": [
+        "遂以為行軍司馬"
+      ]
+    },
+    {
+      "id": "title_xingjun_jiaoshou",
+      "name": "行軍教授",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操任命荀攸的職位。",
+      "evidence": [
+        "以為行軍教授"
+      ]
+    },
+    {
+      "id": "title_junzhong_congshi",
+      "name": "軍中從事",
+      "type": "title",
+      "aliases": [
+        "從事"
+      ],
+      "description": "曹操任用滿寵、呂虔、毛玠等人的職位。",
+      "evidence": [
+        "聘為軍中從事",
+        "聘為從事"
+      ]
+    },
+    {
+      "id": "title_dianjun_sima",
+      "name": "點軍司馬",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操任命於禁的職位。",
+      "evidence": [
+        "命為點軍司馬"
+      ]
+    },
+    {
+      "id": "title_zhangqian_duwei",
+      "name": "帳前都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操任命典韋的職位。",
+      "evidence": [
+        "命為帳前都尉"
+      ]
+    },
+    {
+      "id": "title_taishan_taishou",
+      "name": "泰山太守",
+      "type": "title",
+      "aliases": [],
+      "description": "應劭的官職。",
+      "evidence": [
+        "泰山太守應劭"
+      ]
+    },
+    {
+      "id": "title_duwei",
+      "name": "都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "陶謙所差護送曹嵩者的官職。",
+      "evidence": [
+        "特差都尉"
+      ]
+    },
+    {
+      "id": "title_jiujiang_taishou",
+      "name": "九江太守",
+      "type": "title",
+      "aliases": [],
+      "description": "邊讓的官職。",
+      "evidence": [
+        "九江太守邊讓"
+      ]
+    },
+    {
+      "id": "title_dongjun_congshi",
+      "name": "東郡從事",
+      "type": "title",
+      "aliases": [],
+      "description": "陳宮的官職。",
+      "evidence": [
+        "陳宮為東郡從事"
+      ]
+    },
+    {
+      "id": "title_shizhong",
+      "name": "侍中",
+      "type": "title",
+      "aliases": [],
+      "description": "馬宇的官職。",
+      "evidence": [
+        "侍中馬宇"
+      ]
+    },
+    {
+      "id": "title_jianyidafu",
+      "name": "諫議大夫",
+      "type": "title",
+      "aliases": [],
+      "description": "種邵的官職。",
+      "evidence": [
+        "諫議大夫種邵"
+      ]
+    },
+    {
+      "id": "title_zuo_zhonglangjiang",
+      "name": "左中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "劉範的官職。",
+      "evidence": [
+        "左中郎將劉範"
+      ]
+    },
+    {
+      "id": "obj_mizhao",
+      "name": "密詔",
+      "type": "object",
+      "aliases": [],
+      "description": "獻帝授馬騰、韓遂討賊的秘密詔命。",
+      "evidence": [
+        "各受密詔"
+      ]
+    },
+    {
+      "id": "obj_shengzhi",
+      "name": "聖旨",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操討青州黃巾時領受的朝廷命令。",
+      "evidence": [
+        "操領了聖旨"
+      ]
+    },
+    {
+      "id": "obj_jinpao",
+      "name": "錦襖",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操賜給典韋的衣物。",
+      "evidence": [
+        "解身上錦襖"
+      ]
+    },
+    {
+      "id": "obj_horse_saddle",
+      "name": "駿馬雕鞍",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操賜給典韋的馬與鞍。",
+      "evidence": [
+        "駿馬雕鞍賜之"
+      ]
+    },
+    {
+      "id": "obj_white_flag",
+      "name": "白旗",
+      "type": "object",
+      "aliases": [
+        "報仇雪恨旗"
+      ],
+      "description": "曹操攻徐州時中軍所豎，書有報仇雪恨。",
+      "evidence": [
+        "白旗二面",
+        "報仇雪恨"
+      ]
+    },
+    {
+      "id": "obj_dong_bones",
+      "name": "董卓屍骨",
+      "type": "object",
+      "aliases": [
+        "董卓屍首",
+        "零碎皮骨"
+      ],
+      "description": "李傕等追尋董卓屍首後取得的屍骨。",
+      "evidence": [
+        "董卓屍首",
+        "零碎皮骨"
+      ]
+    },
+    {
+      "id": "strat_lure_lords",
+      "name": "奉帝誘諸侯",
+      "type": "strategy",
+      "aliases": [
+        "仍舊奉之為主"
+      ],
+      "description": "張濟、樊稠建議暫奉獻帝為主，誘諸侯入關後剪除其羽翼。",
+      "evidence": [
+        "奉之為主，賺諸侯入關"
+      ]
+    },
+    {
+      "id": "strat_hold_defense",
+      "name": "深溝高壘堅守拒敵",
+      "type": "strategy",
+      "aliases": [
+        "堅守以拒之"
+      ],
+      "description": "賈詡建議面對遠來二軍時守壘耗糧，再追擊擒將。",
+      "evidence": [
+        "深溝高壘，堅守以拒之"
+      ]
+    },
+    {
+      "id": "strat_zhongzhi_defense",
+      "name": "盩厔山堅壁",
+      "type": "strategy",
+      "aliases": [
+        "堅壁守之"
+      ],
+      "description": "賈詡建議令張濟、樊稠屯盩厔山，憑險防守。",
+      "evidence": [
+        "盩厔山，其路險峻"
+      ]
+    },
+    {
+      "id": "strat_banquet_kill",
+      "name": "宴間擒斬樊稠",
+      "type": "strategy",
+      "aliases": [
+        "設宴擒斬"
+      ],
+      "description": "賈詡建議李傕設宴請張濟、樊稠，席間斬樊稠。",
+      "evidence": [
+        "就席間擒稠斬之"
+      ]
+    },
+    {
+      "id": "strat_use_surrendered",
+      "name": "招安降兵為前驅",
+      "type": "strategy",
+      "aliases": [
+        "用賊為前驅"
+      ],
+      "description": "曹操招降黃巾並用降兵為前驅，使沿途降順。",
+      "evidence": [
+        "用賊為前驅"
+      ]
+    },
+    {
+      "id": "strat_self_bind",
+      "name": "自縛救徐州",
+      "type": "strategy",
+      "aliases": [],
+      "description": "陶謙因曹兵勢大，欲自縛入曹營以救徐州百姓。",
+      "evidence": [
+        "吾當自縛往操營"
+      ]
+    },
+    {
+      "id": "strat_hold_xuzhou",
+      "name": "堅守勿出",
+      "type": "strategy",
+      "aliases": [
+        "守城小策"
+      ],
+      "description": "章末無名進策者建議陶謙與百姓堅守徐州勿出。",
+      "evidence": [
+        "堅守勿出"
+      ]
+    },
+    {
+      "id": "battle_xiliang_changan",
+      "name": "西涼兵攻長安",
+      "type": "battle",
+      "aliases": [
+        "馬騰韓遂討賊"
+      ],
+      "description": "馬騰、韓遂率西涼軍攻向長安討李傕、郭汜。",
+      "evidence": [
+        "殺奔長安來"
+      ]
+    },
+    {
+      "id": "battle_cao_qingzhou",
+      "name": "曹操討青州黃巾",
+      "type": "battle",
+      "aliases": [
+        "擊賊於壽陽"
+      ],
+      "description": "曹操奉命會合鮑信討青州黃巾，追至濟北並收降眾多。",
+      "evidence": [
+        "擊賊於壽陽",
+        "直到濟北"
+      ]
+    },
+    {
+      "id": "battle_cao_xuzhou",
+      "name": "曹操攻徐州",
+      "type": "battle",
+      "aliases": [
+        "洗蕩徐州",
+        "報父仇"
+      ],
+      "description": "曹操因曹嵩遇害，起大軍攻徐州並欲屠城雪恨。",
+      "evidence": [
+        "洗蕩徐州",
+        "以雪父仇"
+      ]
+    },
+    {
+      "id": "event_dong_burial",
+      "name": "董卓改葬失敗",
+      "type": "event",
+      "aliases": [],
+      "description": "李傕等以王者禮遷葬董卓於郿塢，三次皆遭雷火毀骨。",
+      "evidence": [
+        "三次改葬，皆不能葬"
+      ]
+    },
+    {
+      "id": "event_inner_leak",
+      "name": "馬宇等內應洩露",
+      "type": "event",
+      "aliases": [],
+      "description": "馬宇家僮告發馬宇、劉範、種邵通連馬騰、韓遂為內應。",
+      "evidence": [
+        "馬宇家僮出首",
+        "內應又洩"
+      ]
+    },
+    {
+      "id": "event_fan_chou_killed",
+      "name": "樊稠被宴殺",
+      "type": "event",
+      "aliases": [],
+      "description": "李傕依計設宴，指樊稠交通韓遂而斬之。",
+      "evidence": [
+        "樊稠何故交通韓遂",
+        "斬首於案下"
+      ]
+    },
+    {
+      "id": "event_cao_recruit",
+      "name": "曹操招賢納士",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操在兗州延攬荀彧、荀攸、程昱、郭嘉、劉曄、滿寵、呂虔、毛玠、於禁、典韋等。",
+      "evidence": [
+        "操在兗州，招賢納士"
+      ]
+    },
+    {
+      "id": "event_cao_song_killed",
+      "name": "曹嵩遇害",
+      "type": "event",
+      "aliases": [
+        "曹嵩全家被殺"
+      ],
+      "description": "曹嵩一家過徐州後，被陶謙所差都尉部眾殺害，財物被取。",
+      "evidence": [
+        "盡曹嵩全家",
+        "取了財物"
+      ]
+    },
+    {
+      "id": "event_xuzhou_defense",
+      "name": "陶謙守徐州議策",
+      "type": "event",
+      "aliases": [],
+      "description": "陶謙聞曹操屠戮徐州，聚眾商議迎敵與守城之策。",
+      "evidence": [
+        "急聚眾官商議",
+        "堅守勿出"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_li_jue",
+      "target": "char_xian_di",
+      "type": "欲弒",
+      "description": "李傕與郭汜起初欲殺獻帝。",
+      "evidence": [
+        "李、郭二賊欲弒獻帝"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "char_xian_di",
+      "type": "欲弒",
+      "description": "郭汜與李傕起初欲殺獻帝。",
+      "evidence": [
+        "李、郭二賊欲弒獻帝"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "strat_lure_lords",
+      "type": "建議",
+      "description": "張濟勸李傕、郭汜暫奉獻帝以誘諸侯。",
+      "evidence": [
+        "張濟、樊稠諫"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_fan_chou",
+      "target": "strat_lure_lords",
+      "type": "建議",
+      "description": "樊稠同張濟勸止弒帝並提出誘諸侯之策。",
+      "evidence": [
+        "張濟、樊稠諫"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_jue",
+      "target": "title_li_jue_bundle",
+      "type": "受封",
+      "description": "李傕被封車騎將軍、池陽侯等。",
+      "evidence": [
+        "封李傕為車騎將軍池陽侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guo_si",
+      "target": "title_guo_si_bundle",
+      "type": "受封",
+      "description": "郭汜被封後將軍、美陽侯等。",
+      "evidence": [
+        "郭汜為後將軍美陽侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_fan_chou",
+      "target": "title_fan_chou_bundle",
+      "type": "受封",
+      "description": "樊稠被封右將軍、萬年侯。",
+      "evidence": [
+        "樊稠為右將軍萬年侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "title_zhang_ji_bundle",
+      "type": "受封",
+      "description": "張濟被封驃騎將軍、平陽侯。",
+      "evidence": [
+        "張濟為驃騎將軍平陽侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_meng",
+      "target": "title_xiaowei",
+      "type": "受封",
+      "description": "李蒙受封為校尉。",
+      "evidence": [
+        "李蒙、王方等，各為校尉"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_wang_fang",
+      "target": "title_xiaowei",
+      "type": "受封",
+      "description": "王方受封為校尉。",
+      "evidence": [
+        "李蒙、王方等，各為校尉"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_jue",
+      "target": "faction_court",
+      "type": "掌控",
+      "description": "李傕掌握朝政，升降朝官。",
+      "evidence": [
+        "既掌大權",
+        "官員並由二賊升降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "faction_court",
+      "type": "掌控",
+      "description": "郭汜與李傕共同把持朝政。",
+      "evidence": [
+        "同秉朝政",
+        "二賊升降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "title_taipu",
+      "type": "受封",
+      "description": "朱儁被宣入朝封為太僕。",
+      "evidence": [
+        "朱儁入朝封為太僕"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "title_zhengxi",
+      "type": "受封",
+      "description": "獻帝密封馬騰為徵西將軍。",
+      "evidence": [
+        "封馬騰為徵西將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_sui",
+      "target": "title_zhenxi",
+      "type": "受封",
+      "description": "獻帝密封韓遂為鎮西將軍。",
+      "evidence": [
+        "韓遂為鎮西將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ma_yu",
+      "target": "title_shizhong",
+      "type": "任職",
+      "description": "馬宇任侍中。",
+      "evidence": [
+        "侍中馬宇"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhong_shao",
+      "target": "title_jianyidafu",
+      "type": "任職",
+      "description": "種邵任諫議大夫。",
+      "evidence": [
+        "諫議大夫種邵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_fan",
+      "target": "title_zuo_zhonglangjiang",
+      "type": "任職",
+      "description": "劉範任左中郎將。",
+      "evidence": [
+        "左中郎將劉範"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "army_xiliang",
+      "type": "統領",
+      "description": "馬騰與韓遂率西涼軍十餘萬攻長安。",
+      "evidence": [
+        "二將引軍十餘萬"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_han_sui",
+      "target": "army_xiliang",
+      "type": "統領",
+      "description": "韓遂與馬騰共同率軍討賊。",
+      "evidence": [
+        "二將引軍十餘萬"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "army_xiliang",
+      "target": "loc_changan",
+      "type": "行軍攻向",
+      "description": "西涼軍殺奔長安討李傕、郭汜。",
+      "evidence": [
+        "殺奔長安來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ma_yu",
+      "target": "char_ma_teng",
+      "type": "內應",
+      "description": "馬宇在長安結連馬騰為內應。",
+      "evidence": [
+        "外連馬騰、韓遂，欲為內應"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhong_shao",
+      "target": "char_ma_teng",
+      "type": "內應",
+      "description": "種邵參與為馬騰、韓遂作內應。",
+      "evidence": [
+        "種邵...為內應"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_fan",
+      "target": "char_ma_teng",
+      "type": "內應",
+      "description": "劉範參與為馬騰、韓遂作內應。",
+      "evidence": [
+        "劉範...為內應"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "strat_hold_defense",
+      "type": "獻策",
+      "description": "賈詡建議深溝高壘、待敵糧盡後追擊。",
+      "evidence": [
+        "深溝高壘，堅守以拒之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "strat_zhongzhi_defense",
+      "type": "獻策",
+      "description": "賈詡建議張濟、樊稠屯兵盩厔山堅壁守之。",
+      "evidence": [
+        "可使張、樊兩將軍屯兵於此"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "loc_zhongzhi_shan",
+      "type": "屯兵",
+      "description": "張濟依計在盩厔山一帶屯守。",
+      "evidence": [
+        "張、樊兩將軍屯兵於此"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_fan_chou",
+      "target": "loc_zhongzhi_shan",
+      "type": "屯兵",
+      "description": "樊稠依計在盩厔山一帶屯守。",
+      "evidence": [
+        "張、樊兩將軍屯兵於此"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_li_meng",
+      "target": "army_xiliang",
+      "type": "迎戰",
+      "description": "李蒙引兵迎擊西涼軍。",
+      "evidence": [
+        "兩個引軍迎去"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_wang_fang",
+      "target": "char_ma_chao",
+      "type": "迎戰",
+      "description": "王方欺馬超年幼，躍馬迎戰。",
+      "evidence": [
+        "王方欺他年幼，躍馬迎戰"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_ma_teng",
+      "type": "父子",
+      "description": "馬超是馬騰之子。",
+      "evidence": [
+        "馬騰之子馬超"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_wang_fang",
+      "type": "擊殺",
+      "description": "馬超一槍刺死王方。",
+      "evidence": [
+        "一槍刺於馬下"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_li_meng",
+      "type": "生擒",
+      "description": "馬超誘李蒙追近後將其生擒。",
+      "evidence": [
+        "生擒過去"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "char_li_meng",
+      "type": "斬首號令",
+      "description": "馬騰、韓遂追勝後斬李蒙示眾。",
+      "evidence": [
+        "把李蒙斬首號令"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_jue",
+      "target": "strat_hold_defense",
+      "type": "採用",
+      "description": "李傕聽聞李蒙、王方敗亡後重用賈詡守策。",
+      "evidence": [
+        "重用其計"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_guo_si",
+      "target": "strat_hold_defense",
+      "type": "採用",
+      "description": "郭汜同李傕採取緊守關防策略。",
+      "evidence": [
+        "緊守關防"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "event_inner_leak",
+      "target": "char_ma_yu",
+      "type": "牽連",
+      "description": "馬宇家僮告發馬宇等通外為內應。",
+      "evidence": [
+        "馬宇家僮出首"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_ma_yu",
+      "type": "處死",
+      "description": "李傕、郭汜斬馬宇等三家老少並號令。",
+      "evidence": [
+        "盡收三家...斬於市"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_zhong_shao",
+      "type": "處死",
+      "description": "種邵因內應事洩被李傕、郭汜處死。",
+      "evidence": [
+        "三顆首級"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_liu_fan",
+      "type": "處死",
+      "description": "劉範因內應事洩被李傕、郭汜處死。",
+      "evidence": [
+        "三顆首級"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "char_ma_teng",
+      "type": "追擊",
+      "description": "李傕、郭汜令張濟追趕馬騰。",
+      "evidence": [
+        "令張濟引軍趕馬騰"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_fan_chou",
+      "target": "char_han_sui",
+      "type": "追擊",
+      "description": "李傕、郭汜令樊稠追趕韓遂。",
+      "evidence": [
+        "樊稠引軍趕韓遂"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_zhang_ji",
+      "type": "殺退",
+      "description": "馬超在後死戰，殺退張濟。",
+      "evidence": [
+        "馬超在後死戰，殺退張濟"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_fan_chou",
+      "target": "char_han_sui",
+      "type": "放走",
+      "description": "樊稠追至陳倉附近後放走韓遂。",
+      "evidence": [
+        "樊稠放走韓遂"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_bie",
+      "target": "char_li_jue",
+      "type": "叔侄",
+      "description": "李別是李傕之侄。",
+      "evidence": [
+        "李傕之侄李別"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_li_bie",
+      "target": "char_fan_chou",
+      "type": "告發",
+      "description": "李別見樊稠放走韓遂，回報李傕。",
+      "evidence": [
+        "見樊稠放走韓遂，回報叔"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "strat_banquet_kill",
+      "type": "獻策",
+      "description": "賈詡建議設宴席間斬樊稠。",
+      "evidence": [
+        "不若設一宴"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_fan_chou",
+      "type": "設宴斬殺",
+      "description": "李傕設宴指樊稠交通韓遂並斬之。",
+      "evidence": [
+        "把樊稠斬首於案下"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "army_xuzhou",
+      "type": "無",
+      "description": "本章未支持張濟與徐州軍直接關係；此條不應用於推理。",
+      "evidence": [
+        ""
+      ],
+      "confidence": 0.0
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_zhang_ji",
+      "type": "撥軍管領",
+      "description": "李傕殺樊稠後，將樊稠軍撥給張濟。",
+      "evidence": [
+        "將樊稠軍撥與張濟管領"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_qingzhou_huangjin",
+      "target": "loc_qingzhou",
+      "type": "起事",
+      "description": "青州黃巾聚眾再起。",
+      "evidence": [
+        "青州黃巾又起"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "char_cao_cao",
+      "type": "保舉",
+      "description": "朱儁向李傕、郭汜保舉曹操討黃巾。",
+      "evidence": [
+        "非曹孟德不可"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_dongjun_taishou",
+      "type": "任職",
+      "description": "曹操時為東郡太守。",
+      "evidence": [
+        "現為東郡太守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_shengzhi",
+      "type": "領受",
+      "description": "曹操領聖旨討賊。",
+      "evidence": [
+        "操領了聖旨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_bao_xin",
+      "type": "會合",
+      "description": "曹操會合鮑信共同興兵討青州黃巾。",
+      "evidence": [
+        "會合鮑信"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_qingzhou_huangjin",
+      "type": "攻打",
+      "description": "曹操奉命攻擊青州黃巾。",
+      "evidence": [
+        "擊賊於壽陽"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_bao_xin",
+      "target": "faction_qingzhou_huangjin",
+      "type": "戰死於",
+      "description": "鮑信攻入重地後被黃巾所害。",
+      "evidence": [
+        "為賊所害"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_use_surrendered",
+      "type": "採用",
+      "description": "曹操招降黃巾並用降兵為前驅。",
+      "evidence": [
+        "用賊為前驅"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_qingzhou",
+      "type": "編成",
+      "description": "曹操從降兵中選精銳，號為青州兵。",
+      "evidence": [
+        "擇精銳者，號為青州兵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_zhendong",
+      "type": "受封",
+      "description": "曹操討黃巾捷報至長安後受封鎮東將軍。",
+      "evidence": [
+        "加曹操為鎮東將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "char_yuan_shao",
+      "type": "舊事",
+      "description": "荀彧原先事袁紹。",
+      "evidence": [
+        "舊事袁紹"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "char_cao_cao",
+      "type": "投奔",
+      "description": "荀彧棄袁紹投曹操。",
+      "evidence": [
+        "棄紹投操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xun_yu",
+      "type": "任命",
+      "description": "曹操任荀彧為行軍司馬。",
+      "evidence": [
+        "遂以為行軍司馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xun_you",
+      "target": "char_xun_yu",
+      "type": "叔侄",
+      "description": "荀攸是荀彧之侄。",
+      "evidence": [
+        "其侄荀攸"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xun_you",
+      "target": "char_cao_cao",
+      "type": "投奔",
+      "description": "荀攸與荀彧同投曹操。",
+      "evidence": [
+        "今與其叔同投曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xun_you",
+      "type": "任命",
+      "description": "曹操任荀攸為行軍教授。",
+      "evidence": [
+        "以為行軍教授"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "char_cheng_yu",
+      "type": "推薦",
+      "description": "荀彧向曹操推薦程昱。",
+      "evidence": [
+        "乃東郡東阿人...程昱"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cheng_yu",
+      "type": "聘請",
+      "description": "曹操遣人尋訪並拜請程昱。",
+      "evidence": [
+        "操拜請之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "char_guo_jia",
+      "type": "推薦",
+      "description": "程昱向荀彧提醒郭嘉是賢士。",
+      "evidence": [
+        "姓郭，名嘉，字奉孝"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_jia",
+      "target": "char_liu_ye",
+      "type": "推薦",
+      "description": "郭嘉推薦劉曄。",
+      "evidence": [
+        "郭嘉薦...劉曄"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_ye",
+      "target": "char_man_chong",
+      "type": "推薦",
+      "description": "劉曄推薦滿寵。",
+      "evidence": [
+        "曄又薦二人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_ye",
+      "target": "char_lu_qian",
+      "type": "推薦",
+      "description": "劉曄推薦呂虔。",
+      "evidence": [
+        "曄又薦二人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_man_chong",
+      "target": "char_mao_jie",
+      "type": "推薦",
+      "description": "滿寵與呂虔共同推薦毛玠。",
+      "evidence": [
+        "滿寵、呂虔共薦一人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_qian",
+      "target": "char_mao_jie",
+      "type": "推薦",
+      "description": "呂虔與滿寵共同推薦毛玠。",
+      "evidence": [
+        "滿寵、呂虔共薦一人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_man_chong",
+      "type": "任用",
+      "description": "曹操聘滿寵為軍中從事。",
+      "evidence": [
+        "聘為軍中從事"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_lu_qian",
+      "type": "任用",
+      "description": "曹操聘呂虔為軍中從事。",
+      "evidence": [
+        "聘為軍中從事"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_mao_jie",
+      "type": "任用",
+      "description": "曹操聘毛玠為從事。",
+      "evidence": [
+        "曹操亦聘為從事"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "char_cao_cao",
+      "type": "投奔",
+      "description": "於禁率數百人投曹操。",
+      "evidence": [
+        "來投曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_yu_jin",
+      "type": "任命",
+      "description": "曹操任於禁為點軍司馬。",
+      "evidence": [
+        "命為點軍司馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "char_dian_wei",
+      "type": "引薦",
+      "description": "夏侯惇引典韋見曹操。",
+      "evidence": [
+        "夏侯惇引一大漢來見"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dian_wei",
+      "target": "char_zhang_miao",
+      "type": "舊屬",
+      "description": "典韋舊時跟隨張邈。",
+      "evidence": [
+        "舊跟張邈"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_dian_wei",
+      "type": "任命",
+      "description": "曹操任典韋為帳前都尉。",
+      "evidence": [
+        "命為帳前都尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_dian_wei",
+      "type": "贈與",
+      "description": "曹操將錦襖與駿馬雕鞍賜給典韋。",
+      "evidence": [
+        "錦襖，及駿馬雕鞍賜之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_ying_shao",
+      "type": "派遣",
+      "description": "曹操派應劭往瑯琊接曹嵩。",
+      "evidence": [
+        "遣泰山太守應劭"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cao_song",
+      "type": "父子",
+      "description": "曹嵩是曹操之父。",
+      "evidence": [
+        "取父曹嵩"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_song",
+      "target": "loc_langya",
+      "type": "隱居",
+      "description": "曹嵩從陳留避難後隱居瑯琊。",
+      "evidence": [
+        "隱居瑯琊"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_de",
+      "target": "char_cao_song",
+      "type": "兄弟",
+      "description": "曹德是曹嵩之弟。",
+      "evidence": [
+        "與弟曹德"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_tao_qian",
+      "target": "char_cao_song",
+      "type": "迎接款待",
+      "description": "陶謙出境迎接曹嵩並筵宴款待兩日。",
+      "evidence": [
+        "出境迎接",
+        "款待兩日"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_tao_qian",
+      "target": "char_zhang_corrupt",
+      "type": "派遣護送",
+      "description": "陶謙派都尉張輳??護送曹嵩。",
+      "evidence": [
+        "特差都尉張輳??"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "source": "char_zhang_corrupt",
+      "target": "char_cao_song",
+      "type": "殺害",
+      "description": "張輳??相關部眾殺曹嵩全家並取財。",
+      "evidence": [
+        "盡曹嵩全家，取了財物"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "source": "char_zhang_corrupt",
+      "target": "loc_huainan",
+      "type": "逃奔",
+      "description": "張輳??等殺曹嵩後逃往淮南。",
+      "evidence": [
+        "逃奔淮南去了"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "source": "char_ying_shao",
+      "target": "char_cao_cao",
+      "type": "報信",
+      "description": "應劭部下逃命軍士將曹嵩遇害報給曹操。",
+      "evidence": [
+        "報與曹操"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_tao_qian",
+      "type": "認定仇敵",
+      "description": "曹操認為陶謙縱兵殺父，發誓報仇。",
+      "evidence": [
+        "陶謙縱兵殺吾父"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "battle_cao_xuzhou",
+      "type": "發動",
+      "description": "曹操起大軍攻徐州報父仇。",
+      "evidence": [
+        "悉起大軍，洗蕩徐州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao",
+      "type": "統領",
+      "description": "曹操統率大軍攻徐州。",
+      "evidence": [
+        "操大軍所到之處"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xun_yu",
+      "type": "留守任務",
+      "description": "曹操留荀彧守鄄城、範縣、東阿。",
+      "evidence": [
+        "留荀彧、程昱領軍三萬守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cheng_yu",
+      "type": "留守任務",
+      "description": "曹操留程昱守鄄城、範縣、東阿。",
+      "evidence": [
+        "留荀彧、程昱領軍三萬守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "army_cao",
+      "type": "先鋒",
+      "description": "夏侯惇為曹操攻徐州先鋒。",
+      "evidence": [
+        "夏侯惇、於禁、典韋為先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "army_cao",
+      "type": "先鋒",
+      "description": "於禁為曹操攻徐州先鋒。",
+      "evidence": [
+        "夏侯惇、於禁、典韋為先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dian_wei",
+      "target": "army_cao",
+      "type": "先鋒",
+      "description": "典韋為曹操攻徐州先鋒。",
+      "evidence": [
+        "夏侯惇、於禁、典韋為先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_bian_rang",
+      "target": "char_tao_qian",
+      "type": "救援",
+      "description": "邊讓與陶謙交好，率五千兵來救徐州。",
+      "evidence": [
+        "與陶謙交厚",
+        "自引兵五千來救"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "char_bian_rang",
+      "type": "截殺",
+      "description": "曹操派夏侯惇於路截殺邊讓。",
+      "evidence": [
+        "使夏侯惇於路截殺之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "char_tao_qian",
+      "type": "交好",
+      "description": "陳宮與陶謙交情深厚。",
+      "evidence": [
+        "亦與陶謙交厚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "char_cao_cao",
+      "type": "勸諫",
+      "description": "陳宮星夜見曹操，勸其勿因父仇盡殺徐州百姓。",
+      "evidence": [
+        "特來進言",
+        "所到欲盡殺百姓"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_cao_bao",
+      "target": "char_tao_qian",
+      "type": "助戰",
+      "description": "曹豹願助陶謙破曹兵。",
+      "evidence": [
+        "願助使君破之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_tao_qian",
+      "target": "battle_cao_xuzhou",
+      "type": "迎戰",
+      "description": "陶謙引兵出城迎戰曹操。",
+      "evidence": [
+        "陶謙只得引兵出迎"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_white_flag",
+      "type": "使用",
+      "description": "曹操攻徐州時中軍豎白旗，書報仇雪恨。",
+      "evidence": [
+        "白旗二面"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_tao_qian",
+      "target": "strat_self_bind",
+      "type": "提出",
+      "description": "陶謙欲自縛往曹營以救徐州百姓。",
+      "evidence": [
+        "吾當自縛往操營"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_hold_xuzhou",
+      "target": "battle_cao_xuzhou",
+      "type": "防守策略",
+      "description": "章末進策者主張陶謙與百姓堅守徐州勿出。",
+      "evidence": [
+        "堅守勿出"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "events": [
+    {
+      "id": "event_fengjue_li_guo",
+      "name": "獻帝封授李傕等官爵",
+      "summary": "李傕、郭汜稱未蒙賜爵不退兵，獻帝封李傕、郭汜、樊稠、張濟及李蒙、王方等官爵。",
+      "participants": [
+        "char_xian_di",
+        "char_li_jue",
+        "char_guo_si",
+        "char_fan_chou",
+        "char_zhang_ji",
+        "char_li_meng",
+        "char_wang_fang"
+      ],
+      "locations": [
+        "loc_changan",
+        "loc_hongnong"
+      ],
+      "evidence": [
+        "未蒙賜爵",
+        "各寫職官"
+      ]
+    },
+    {
+      "id": "event_dong_burial",
+      "name": "董卓改葬失敗",
+      "summary": "李傕等為董卓收拾屍骨、以王者衣冠棺槨遷葬郿塢，但三次皆被雷火毀滅。",
+      "participants": [
+        "char_li_jue",
+        "char_dong_zhuo"
+      ],
+      "locations": [
+        "loc_meiwu"
+      ],
+      "evidence": [
+        "遷葬郿塢",
+        "雷火消滅"
+      ]
+    },
+    {
+      "id": "event_ma_han_attack",
+      "name": "馬騰韓遂攻長安討賊",
+      "summary": "馬騰、韓遂受密詔，結連長安內應，率西涼軍十餘萬攻向長安討李傕、郭汜。",
+      "participants": [
+        "char_ma_teng",
+        "char_han_sui",
+        "army_xiliang",
+        "char_ma_yu",
+        "char_zhong_shao",
+        "char_liu_fan",
+        "faction_li_guo"
+      ],
+      "locations": [
+        "loc_xiliang",
+        "loc_changan",
+        "loc_zhongzhi_shan"
+      ],
+      "evidence": [
+        "引軍十餘萬",
+        "並力討賊"
+      ]
+    },
+    {
+      "id": "event_ma_chao_duel",
+      "name": "馬超斬王方擒李蒙",
+      "summary": "西涼軍前鋒交戰時，馬超刺死王方、生擒李蒙，馬騰、韓遂乘勢追殺。",
+      "participants": [
+        "char_ma_chao",
+        "char_wang_fang",
+        "char_li_meng",
+        "char_ma_teng",
+        "char_han_sui"
+      ],
+      "locations": [
+        "loc_aikou"
+      ],
+      "evidence": [
+        "刺於馬下",
+        "生擒過去"
+      ]
+    },
+    {
+      "id": "event_inner_leak",
+      "name": "長安內應事洩",
+      "summary": "馬宇家僮告發馬宇、劉範、種邵外連馬騰、韓遂為內應，李傕、郭汜斬其三家並號令。",
+      "participants": [
+        "char_ma_yu",
+        "char_liu_fan",
+        "char_zhong_shao",
+        "char_li_jue",
+        "char_guo_si",
+        "char_ma_teng",
+        "char_han_sui"
+      ],
+      "locations": [
+        "loc_changan"
+      ],
+      "evidence": [
+        "家僮出首",
+        "三顆首級"
+      ]
+    },
+    {
+      "id": "event_fan_chou_killed",
+      "name": "李傕宴殺樊稠",
+      "summary": "樊稠放走韓遂後被李別告發，賈詡勸李傕設宴斬之，李傕席間誅樊稠並把其軍撥給張濟。",
+      "participants": [
+        "char_fan_chou",
+        "char_han_sui",
+        "char_li_bie",
+        "char_jia_xu",
+        "char_li_jue",
+        "char_zhang_ji"
+      ],
+      "locations": [
+        "loc_chencang",
+        "loc_changan",
+        "loc_hongnong"
+      ],
+      "evidence": [
+        "放走韓遂",
+        "席間擒稠斬之"
+      ]
+    },
+    {
+      "id": "event_cao_qingzhou",
+      "name": "曹操討平青州黃巾",
+      "summary": "朱儁保舉曹操討青州黃巾；曹操會合鮑信作戰，鮑信遇害，曹操追至濟北並收降編青州兵。",
+      "participants": [
+        "char_zhu_jun",
+        "char_cao_cao",
+        "char_bao_xin",
+        "faction_qingzhou_huangjin",
+        "army_qingzhou"
+      ],
+      "locations": [
+        "loc_qingzhou",
+        "loc_shouyang",
+        "loc_jibei",
+        "loc_changan"
+      ],
+      "evidence": [
+        "擊賊於壽陽",
+        "號為青州兵"
+      ]
+    },
+    {
+      "id": "event_cao_recruit",
+      "name": "曹操在兗州招賢納士",
+      "summary": "曹操在兗州延攬荀彧、荀攸、程昱、郭嘉、劉曄、滿寵、呂虔、毛玠、於禁、典韋等文武。",
+      "participants": [
+        "char_cao_cao",
+        "char_xun_yu",
+        "char_xun_you",
+        "char_cheng_yu",
+        "char_guo_jia",
+        "char_liu_ye",
+        "char_man_chong",
+        "char_lu_qian",
+        "char_mao_jie",
+        "char_yu_jin",
+        "char_xiahou_dun",
+        "char_dian_wei"
+      ],
+      "locations": [
+        "loc_yanzhou",
+        "loc_dongjun"
+      ],
+      "evidence": [
+        "招賢納士",
+        "文有謀臣，武有猛將"
+      ]
+    },
+    {
+      "id": "event_dian_wei_join",
+      "name": "典韋投曹操",
+      "summary": "夏侯惇引典韋見曹操，典韋展現勇力扶住大旗，被曹操稱為古之惡來，任帳前都尉並受賜。",
+      "participants": [
+        "char_xiahou_dun",
+        "char_dian_wei",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_yanzhou"
+      ],
+      "evidence": [
+        "一手執定旗桿",
+        "命為帳前都尉"
+      ]
+    },
+    {
+      "id": "event_cao_song_killed",
+      "name": "曹嵩全家遇害",
+      "summary": "曹操遣應劭接曹嵩，曹嵩路經徐州受陶謙款待；陶謙所差都尉部眾殺曹嵩全家、取財逃淮南。",
+      "participants": [
+        "char_cao_cao",
+        "char_ying_shao",
+        "char_cao_song",
+        "char_cao_de",
+        "char_tao_qian",
+        "char_zhang_corrupt"
+      ],
+      "locations": [
+        "loc_langya",
+        "loc_xuzhou",
+        "loc_huainan"
+      ],
+      "evidence": [
+        "款待兩日",
+        "盡曹嵩全家"
+      ]
+    },
+    {
+      "id": "event_cao_xuzhou",
+      "name": "曹操興兵攻徐州",
+      "summary": "曹操聞父遇害，認定陶謙縱兵殺父，留荀彧、程昱守三縣，其餘大軍殺奔徐州，夏侯惇、於禁、典韋為先鋒。",
+      "participants": [
+        "char_cao_cao",
+        "char_tao_qian",
+        "char_xun_yu",
+        "char_cheng_yu",
+        "char_xiahou_dun",
+        "char_yu_jin",
+        "char_dian_wei",
+        "army_cao"
+      ],
+      "locations": [
+        "loc_juancheng",
+        "loc_fanxian",
+        "loc_donga",
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "此仇不共戴天",
+        "殺奔徐州"
+      ]
+    },
+    {
+      "id": "event_chen_gong_advice",
+      "name": "陳宮勸曹操勿屠徐州",
+      "summary": "陳宮因與陶謙交好，聞曹操欲盡殺徐州百姓，星夜見曹操進言，辯稱陶謙非好利忘義之人。",
+      "participants": [
+        "char_chen_gong",
+        "char_cao_cao",
+        "char_tao_qian"
+      ],
+      "locations": [
+        "loc_xuzhou",
+        "loc_dongjun"
+      ],
+      "evidence": [
+        "星夜前來見操",
+        "某因此特來進言"
+      ]
+    },
+    {
+      "id": "event_xuzhou_defense",
+      "name": "陶謙守徐州議策",
+      "summary": "曹操軍到徐州屠戮百姓、掘墓；陶謙聚眾官商議，曹豹願助戰，陶謙欲自縛救民，章末有人提出堅守勿出之策。",
+      "participants": [
+        "char_cao_cao",
+        "char_tao_qian",
+        "char_cao_bao",
+        "army_cao",
+        "army_xuzhou"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "殺戮人民，發掘墳墓",
+        "堅守勿出"
+      ]
+    }
+  ],
+  "notes": [
+    "原檔第十回後半段有局部亂碼；張闓相關姓名在檔中呈現為「張輳??」「張昊」「張曛?」等失真形式，未補入正文未清楚顯示的標準校名。",
+    "「賈詡」在本章文字中兼見「賈詬」「賈翊」等異寫，已歸併為同一人物並列入 aliases。",
+    "有一條低信心空關係用於標示不應推理的錯誤連結。"
+  ]
+}

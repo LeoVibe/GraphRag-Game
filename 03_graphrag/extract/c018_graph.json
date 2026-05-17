@@ -1,0 +1,1739 @@
+{
+  "book": "三國演義",
+  "chapter_no": 18,
+  "chapter_title": "賈文和料敵決勝　夏侯惇拔矢啖睛",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "ch18_char_jiaxu",
+      "name": "賈詡",
+      "type": "character",
+      "aliases": [
+        "賈文和",
+        "賈詔",
+        "賈詬"
+      ],
+      "description": "張繡謀士，識破曹操攻城意圖，設伏並判斷追擊勝敗。",
+      "evidence": [
+        "賈文和料敵決勝",
+        "同賈詡引兵襲操"
+      ]
+    },
+    {
+      "id": "ch18_char_zhangxiu",
+      "name": "張繡",
+      "type": "character",
+      "aliases": [
+        "繡"
+      ],
+      "description": "據城抗曹，採賈詡之計，與劉表聯合追擊曹操。",
+      "evidence": [
+        "繡喜，從其計",
+        "張繡隨後引軍趕來"
+      ]
+    },
+    {
+      "id": "ch18_char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹丞相",
+        "丞相"
+      ],
+      "description": "率軍攻張繡，後回許都議東征呂布，派兵援劉備。",
+      "evidence": [
+        "曹操繞城而觀者三日",
+        "遂議東徵呂布"
+      ]
+    },
+    {
+      "id": "ch18_char_liubiao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "表"
+      ],
+      "description": "應張繡之約截曹操後路，後與張繡同追曹操。",
+      "evidence": [
+        "自己統兵至安眾縣截操後路"
+      ]
+    },
+    {
+      "id": "ch18_char_huangzu",
+      "name": "黃祖",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表部將，被命堅守隘口。",
+      "evidence": [
+        "令黃祖堅守隘口"
+      ]
+    },
+    {
+      "id": "ch18_char_xunyu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [
+        "彧"
+      ],
+      "description": "曹操謀臣，報袁紹動向並建議先約劉備。",
+      "evidence": [
+        "荀彧探知袁紹欲興兵犯許都",
+        "可先使人往約劉備"
+      ]
+    },
+    {
+      "id": "ch18_char_yuanshao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "紹"
+      ],
+      "description": "欲借糧兵攻公孫瓚，並被曹操奏封高位。",
+      "evidence": [
+        "言欲出兵攻公孫瓚",
+        "奏封紹為大將軍"
+      ]
+    },
+    {
+      "id": "ch18_char_litong",
+      "name": "李通",
+      "type": "character",
+      "aliases": [
+        "文達"
+      ],
+      "description": "鎮威中郎將，守汝南，接應曹操後受封建功侯。",
+      "evidence": [
+        "姓李，名通，字文達",
+        "特來接應"
+      ]
+    },
+    {
+      "id": "ch18_char_sunce",
+      "name": "孫策",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操表奏其有功，受討逆將軍、吳侯之封。",
+      "evidence": [
+        "表奏孫策有功"
+      ]
+    },
+    {
+      "id": "ch18_char_guojia",
+      "name": "郭嘉",
+      "type": "character",
+      "aliases": [
+        "郭奉孝",
+        "奉孝"
+      ],
+      "description": "曹操謀臣，提出十勝十敗，勸先取呂布。",
+      "evidence": [
+        "郭奉孝十勝十敗之說",
+        "先取呂布"
+      ]
+    },
+    {
+      "id": "ch18_char_gongsunzan",
+      "name": "公孫瓚",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹北征的對象。",
+      "evidence": [
+        "紹北徵公孫瓚"
+      ]
+    },
+    {
+      "id": "ch18_char_lubu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "呂佈",
+        "奉先",
+        "布"
+      ],
+      "description": "據徐州，因截獲劉備密書而發兵攻小沛。",
+      "evidence": [
+        "呂佈在徐州",
+        "令高順、張遼取沛城"
+      ]
+    },
+    {
+      "id": "ch18_faction_chengui_family",
+      "name": "陳珪父子",
+      "type": "faction",
+      "aliases": [],
+      "description": "徐州陳氏父子，在宴會中稱頌呂布，被陳宮疑忌。",
+      "evidence": [
+        "陳珪父子必盛稱布德"
+      ]
+    },
+    {
+      "id": "ch18_char_chengong",
+      "name": "陳宮",
+      "type": "character",
+      "aliases": [
+        "宮"
+      ],
+      "description": "呂布謀士，疑陳珪父子，截獲劉備與曹操密書。",
+      "evidence": [
+        "陳宮不悅",
+        "得玄德回答曹操密書"
+      ]
+    },
+    {
+      "id": "ch18_char_zangba",
+      "name": "臧霸",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，奉命與陳宮、泰山寇東取山東兗州。",
+      "evidence": [
+        "陳宮、臧霸、結連泰山寇"
+      ]
+    },
+    {
+      "id": "ch18_char_gaoshun",
+      "name": "高順",
+      "type": "character",
+      "aliases": [
+        "順"
+      ],
+      "description": "呂布將領，攻小沛，與夏侯惇交戰並擊敗曹兵。",
+      "evidence": [
+        "令高順、張遼取沛城",
+        "高順從背後趕來"
+      ]
+    },
+    {
+      "id": "ch18_char_zhangliao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [
+        "遼"
+      ],
+      "description": "呂布將領，攻小沛西門，後參與三路攻寨。",
+      "evidence": [
+        "張遼引兵攻打西門"
+      ]
+    },
+    {
+      "id": "ch18_char_songxian",
+      "name": "宋憲",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，奉命西取汝、潁。",
+      "evidence": [
+        "令宋憲、魏續西取汝、潁"
+      ]
+    },
+    {
+      "id": "ch18_char_weixu",
+      "name": "魏續",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，與宋憲奉命西取汝、潁。",
+      "evidence": [
+        "令宋憲、魏續西取汝、潁"
+      ]
+    },
+    {
+      "id": "ch18_char_liubei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉豫州",
+        "備"
+      ],
+      "description": "守小沛，回曹操密書願為前驅，遭呂布軍攻擊。",
+      "evidence": [
+        "玄德自守南門",
+        "備當為前驅"
+      ]
+    },
+    {
+      "id": "ch18_char_sunqian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [
+        "孫幹"
+      ],
+      "description": "劉備幕下，建議向曹操告急並守小沛北門。",
+      "evidence": [
+        "可速告急於曹操",
+        "孫幹守北門"
+      ]
+    },
+    {
+      "id": "ch18_char_jianyong",
+      "name": "簡雍",
+      "type": "character",
+      "aliases": [
+        "憲和"
+      ],
+      "description": "劉備同鄉幕賓，奉命赴許都向曹操求援。",
+      "evidence": [
+        "姓簡，名雍，字憲和",
+        "赴許都求援"
+      ]
+    },
+    {
+      "id": "ch18_char_guanyu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關公"
+      ],
+      "description": "守小沛西門，勸張遼知義，後與劉備接應曹軍。",
+      "evidence": [
+        "雲長守西門",
+        "公儀表非俗"
+      ]
+    },
+    {
+      "id": "ch18_char_zhangfei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "飛"
+      ],
+      "description": "守小沛東門，欲追張遼，後與劉備出城下寨。",
+      "evidence": [
+        "張飛守東門",
+        "飛欲追趕"
+      ]
+    },
+    {
+      "id": "ch18_char_mizhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備親屬與部下，守護中軍及妻小。",
+      "evidence": [
+        "令糜竺與其弟糜芳守護中軍"
+      ]
+    },
+    {
+      "id": "ch18_char_mifang",
+      "name": "糜芳",
+      "type": "character",
+      "aliases": [],
+      "description": "糜竺之弟，奉劉備命守護中軍。",
+      "evidence": [
+        "糜竺與其弟糜芳守護中軍"
+      ]
+    },
+    {
+      "id": "ch18_char_xiahoudun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [
+        "惇"
+      ],
+      "description": "曹操先鋒，戰高順時中箭失左目，拔矢啖睛並殺曹性。",
+      "evidence": [
+        "正中夏侯惇左目",
+        "直取曹性"
+      ]
+    },
+    {
+      "id": "ch18_char_xiahouyuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，救護受傷的夏侯惇撤退。",
+      "evidence": [
+        "夏侯淵救護其兄而走"
+      ]
+    },
+    {
+      "id": "ch18_char_luqian",
+      "name": "呂虔",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，隨五萬先鋒出兵，敗後退濟北。",
+      "evidence": [
+        "夏侯淵、呂虔、李典領兵五萬"
+      ]
+    },
+    {
+      "id": "ch18_char_lidian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，隨五萬先鋒出兵，敗後退濟北。",
+      "evidence": [
+        "呂虔、李典將敗軍退去濟北"
+      ]
+    },
+    {
+      "id": "ch18_char_caoxing",
+      "name": "曹性",
+      "type": "character",
+      "aliases": [
+        "性"
+      ],
+      "description": "呂布部將，暗箭射中夏侯惇左目，旋被夏侯惇殺死。",
+      "evidence": [
+        "曹性看見，暗地拈弓搭箭",
+        "死於馬下"
+      ]
+    },
+    {
+      "id": "ch18_char_houcheng",
+      "name": "侯成",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，奉命率騎接應高順。",
+      "evidence": [
+        "令侯成、郝萌、曹性引二百餘騎"
+      ]
+    },
+    {
+      "id": "ch18_char_haomeng",
+      "name": "郝萌",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，奉命與侯成、曹性接應高順。",
+      "evidence": [
+        "侯成、郝萌、曹性引二百餘騎"
+      ]
+    },
+    {
+      "id": "ch18_char_xunyou",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，指出呂布若結袁術將難圖，支持速攻。",
+      "evidence": [
+        "荀攸曰：二人新破"
+      ]
+    },
+    {
+      "id": "ch18_char_yuanshu",
+      "name": "袁術",
+      "type": "character",
+      "aliases": [],
+      "description": "被荀攸視為呂布可能結連的勢力。",
+      "evidence": [
+        "若更結連袁術"
+      ]
+    },
+    {
+      "id": "ch18_char_dianwei",
+      "name": "典韋",
+      "type": "character",
+      "aliases": [],
+      "description": "已亡將領，曹操在清水設祭吊奠。",
+      "evidence": [
+        "吊奠典韋亡魂"
+      ]
+    },
+    {
+      "id": "ch18_char_caoang",
+      "name": "曹昂",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操長子，已亡，受曹操祭奠。",
+      "evidence": [
+        "長子曹昂"
+      ]
+    },
+    {
+      "id": "ch18_char_caoanmin",
+      "name": "曹安民",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操之侄，已亡，受曹操祭奠。",
+      "evidence": [
+        "祭侄曹安民"
+      ]
+    },
+    {
+      "id": "ch18_faction_caocao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹兵",
+        "曹家兵"
+      ],
+      "description": "曹操統領的軍政勢力。",
+      "evidence": [
+        "曹軍奮力接戰",
+        "曹家兵至"
+      ]
+    },
+    {
+      "id": "ch18_faction_zhangxiu",
+      "name": "張繡勢力",
+      "type": "faction",
+      "aliases": [
+        "繡軍"
+      ],
+      "description": "張繡所統軍隊與城中守軍。",
+      "evidence": [
+        "繡軍大敗",
+        "張繡直殺至天明"
+      ]
+    },
+    {
+      "id": "ch18_faction_liubiao",
+      "name": "劉表勢力",
+      "type": "faction",
+      "aliases": [
+        "表軍"
+      ],
+      "description": "劉表所統荊州兵馬。",
+      "evidence": [
+        "錶兵已起",
+        "劉表軍已守險要"
+      ]
+    },
+    {
+      "id": "ch18_faction_lubu",
+      "name": "呂布勢力",
+      "type": "faction",
+      "aliases": [
+        "呂布軍"
+      ],
+      "description": "呂布在徐州統率的軍事勢力。",
+      "evidence": [
+        "布自總中軍",
+        "呂布大軍亦至"
+      ]
+    },
+    {
+      "id": "ch18_faction_liubei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備與關羽、張飛等守小沛的兵馬。",
+      "evidence": [
+        "玄德閉門不出",
+        "關、張二公"
+      ]
+    },
+    {
+      "id": "ch18_faction_taishan",
+      "name": "泰山寇",
+      "type": "faction",
+      "aliases": [
+        "孫觀",
+        "吳敦",
+        "尹禮",
+        "昌稀"
+      ],
+      "description": "呂布結連的泰山群寇，奉命同取山東兗州。",
+      "evidence": [
+        "結連泰山寇孫觀、吳敦、尹禮、昌稀"
+      ]
+    },
+    {
+      "id": "ch18_location_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操根據地，袁紹被疑欲犯，簡雍赴此求援。",
+      "evidence": [
+        "袁紹欲興兵犯許都",
+        "簡雍至許都"
+      ]
+    },
+    {
+      "id": "ch18_location_anzhong",
+      "name": "安眾縣",
+      "type": "location",
+      "aliases": [
+        "安眾"
+      ],
+      "description": "曹操設伏破張繡、劉表之地。",
+      "evidence": [
+        "至安眾縣界"
+      ]
+    },
+    {
+      "id": "ch18_location_xiangcheng",
+      "name": "襄城",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操退軍途中經過之地；張繡後守此地。",
+      "evidence": [
+        "至襄城，到清水",
+        "繡守襄城"
+      ]
+    },
+    {
+      "id": "ch18_location_qingshui",
+      "name": "清水",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操途中痛哭並祭奠典韋等亡者之處。",
+      "evidence": [
+        "到清水，操忽於馬上放聲大哭"
+      ]
+    },
+    {
+      "id": "ch18_location_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表勢力所在，賈詡勸劉表回守。",
+      "evidence": [
+        "勸表回荊州"
+      ]
+    },
+    {
+      "id": "ch18_location_runan",
+      "name": "汝南",
+      "type": "location",
+      "aliases": [
+        "汝南西界"
+      ],
+      "description": "李通防守之地，後受曹操命守西界。",
+      "evidence": [
+        "近守汝南",
+        "守汝南西界"
+      ]
+    },
+    {
+      "id": "ch18_location_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "呂布據守之州，曹操議東征之地。",
+      "evidence": [
+        "呂佈在徐州",
+        "徐州呂布"
+      ]
+    },
+    {
+      "id": "ch18_location_xiaopei",
+      "name": "小沛",
+      "type": "location",
+      "aliases": [
+        "沛城"
+      ],
+      "description": "劉備屯守之城，被呂布軍攻打。",
+      "evidence": [
+        "將至小沛",
+        "令高順、張遼取沛城"
+      ]
+    },
+    {
+      "id": "ch18_location_jibei",
+      "name": "濟北",
+      "type": "location",
+      "aliases": [],
+      "description": "呂虔、李典敗後退兵下寨之地。",
+      "evidence": [
+        "退去濟北下寨"
+      ]
+    },
+    {
+      "id": "ch18_location_yanzhou",
+      "name": "山東兗州諸郡",
+      "type": "location",
+      "aliases": [
+        "兗州諸郡"
+      ],
+      "description": "呂布命陳宮、臧霸等東取的目標。",
+      "evidence": [
+        "東取山東兗州諸郡"
+      ]
+    },
+    {
+      "id": "ch18_location_ruying",
+      "name": "汝、潁",
+      "type": "location",
+      "aliases": [],
+      "description": "呂布命宋憲、魏續西取的目標。",
+      "evidence": [
+        "西取汝、潁"
+      ]
+    },
+    {
+      "id": "ch18_battle_southeast_ambush",
+      "name": "東南角伏擊",
+      "type": "battle",
+      "aliases": [
+        "城東南角伏兵"
+      ],
+      "description": "賈詡誘曹軍夜入東南角後伏兵齊起。",
+      "evidence": [
+        "東南角上爬城",
+        "伏兵齊起"
+      ]
+    },
+    {
+      "id": "ch18_battle_anzhong",
+      "name": "安眾伏擊",
+      "type": "battle",
+      "aliases": [
+        "安眾之戰"
+      ],
+      "description": "曹操在安眾黑夜鑿險開道，暗伏奇兵迎擊劉表、張繡。",
+      "evidence": [
+        "黑夜鑿險開道，暗伏奇兵"
+      ]
+    },
+    {
+      "id": "ch18_battle_xiaopei",
+      "name": "小沛攻防",
+      "type": "battle",
+      "aliases": [
+        "沛城攻防"
+      ],
+      "description": "呂布命高順、張遼攻劉備守城，曹操派兵援救。",
+      "evidence": [
+        "攻玄德",
+        "整頓守城器具"
+      ]
+    },
+    {
+      "id": "ch18_battle_xiahoudun_gaoshun",
+      "name": "夏侯惇高順交戰",
+      "type": "battle",
+      "aliases": [
+        "拔矢啖睛之戰"
+      ],
+      "description": "夏侯惇追高順時被曹性射中左目，殺曹性後曹兵敗退。",
+      "evidence": [
+        "高順抵敵不住",
+        "正中夏侯惇左目"
+      ]
+    },
+    {
+      "id": "ch18_strategy_jiangji",
+      "name": "將計就計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "賈詡針對曹操預判攻點反設圈套。",
+      "evidence": [
+        "便欲將計就計而行"
+      ]
+    },
+    {
+      "id": "ch18_strategy_se_ambush_nw_feint",
+      "name": "東南伏兵西北虛守",
+      "type": "strategy",
+      "aliases": [
+        "虛守西北",
+        "東南房屋伏兵"
+      ],
+      "description": "精兵伏東南，百姓假扮軍士虛守西北，誘曹操夜攻。",
+      "evidence": [
+        "盡蒙於東南房屋內",
+        "虛守西北"
+      ]
+    },
+    {
+      "id": "ch18_strategy_pursuit",
+      "name": "先敗後勝追擊判斷",
+      "type": "strategy",
+      "aliases": [],
+      "description": "賈詡判斷首次追曹必敗，再追則勝。",
+      "evidence": [
+        "追之必敗",
+        "今番追去，必獲大勝"
+      ]
+    },
+    {
+      "id": "ch18_strategy_tensheng",
+      "name": "十勝十敗",
+      "type": "strategy",
+      "aliases": [
+        "郭奉孝十勝十敗"
+      ],
+      "description": "郭嘉比較袁紹十敗與曹操十勝，勸曹操不懼袁紹。",
+      "evidence": [
+        "今紹有十敗，公有十勝"
+      ]
+    },
+    {
+      "id": "ch18_strategy_take_lubu",
+      "name": "先取呂布後圖袁紹",
+      "type": "strategy",
+      "aliases": [],
+      "description": "郭嘉建議趁袁紹北征，先取徐州呂布再對付袁紹。",
+      "evidence": [
+        "先取呂布，掃除東南，然後圖紹"
+      ]
+    },
+    {
+      "id": "ch18_strategy_three_way",
+      "name": "呂布三路攻勢",
+      "type": "strategy",
+      "aliases": [
+        "三路救應"
+      ],
+      "description": "呂布分派東、西、小沛三路軍，自己統中軍救應。",
+      "evidence": [
+        "布自總中軍為三路救應"
+      ]
+    },
+    {
+      "id": "ch18_title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [
+        "曹丞相"
+      ],
+      "description": "曹操在章中被稱的官職。",
+      "evidence": [
+        "曹丞相差我"
+      ]
+    },
+    {
+      "id": "ch18_title_zhwzlj",
+      "name": "鎮威中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "李通原任官職。",
+      "evidence": [
+        "乃鎮威中郎將"
+      ]
+    },
+    {
+      "id": "ch18_title_jiangonghou",
+      "name": "建功侯",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操封李通之爵。",
+      "evidence": [
+        "封之為建功侯"
+      ]
+    },
+    {
+      "id": "ch18_title_taoni",
+      "name": "討逆將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "孫策受封將軍號。",
+      "evidence": [
+        "封為討逆將軍"
+      ]
+    },
+    {
+      "id": "ch18_title_wuhou",
+      "name": "吳侯",
+      "type": "title",
+      "aliases": [],
+      "description": "孫策受賜侯爵。",
+      "evidence": [
+        "賜吳侯"
+      ]
+    },
+    {
+      "id": "ch18_title_dajiangjun",
+      "name": "大將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "袁紹受曹操奏封之官職。",
+      "evidence": [
+        "奏封紹為大將軍"
+      ]
+    },
+    {
+      "id": "ch18_title_taiwei",
+      "name": "太尉",
+      "type": "title",
+      "aliases": [],
+      "description": "袁紹受曹操奏封之官職。",
+      "evidence": [
+        "太尉"
+      ]
+    },
+    {
+      "id": "ch18_title_dudu4",
+      "name": "都督冀、青、幽、並四州",
+      "type": "title",
+      "aliases": [],
+      "description": "袁紹受封的都督職權。",
+      "evidence": [
+        "兼都督冀、青、幽、並四州"
+      ]
+    },
+    {
+      "id": "ch18_object_mishu",
+      "name": "劉備回曹操密書",
+      "type": "object",
+      "aliases": [
+        "玄德回答曹操密書"
+      ],
+      "description": "劉備回覆曹操約攻呂布的密信，被陳宮截獲。",
+      "evidence": [
+        "得玄德回答曹操密書一封"
+      ]
+    },
+    {
+      "id": "ch18_object_yuanshao_letter",
+      "name": "袁紹致書",
+      "type": "object",
+      "aliases": [],
+      "description": "袁紹致曹操借糧借兵攻公孫瓚之書。",
+      "evidence": [
+        "袁紹使人致書丞相"
+      ]
+    },
+    {
+      "id": "ch18_object_lujiao",
+      "name": "鹿角",
+      "type": "object",
+      "aliases": [],
+      "description": "城防障礙，曹軍夜攻時砍開。",
+      "evidence": [
+        "砍開鹿角"
+      ]
+    },
+    {
+      "id": "ch18_object_siege_tools",
+      "name": "鍬钁爬城器具",
+      "type": "object",
+      "aliases": [
+        "爬城器具"
+      ],
+      "description": "曹操命軍中密備的夜攻工具。",
+      "evidence": [
+        "密備鍬钁爬城器具"
+      ]
+    },
+    {
+      "id": "ch18_object_arrow",
+      "name": "箭",
+      "type": "object",
+      "aliases": [],
+      "description": "曹性射中夏侯惇左目的箭。",
+      "evidence": [
+        "一箭射去"
+      ]
+    },
+    {
+      "id": "ch18_army_vanguard",
+      "name": "五萬先鋒",
+      "type": "army",
+      "aliases": [
+        "曹操五萬先行軍"
+      ],
+      "description": "曹操命夏侯惇、夏侯淵、呂虔、李典率領先行援小沛。",
+      "evidence": [
+        "領兵五萬先行"
+      ]
+    },
+    {
+      "id": "ch18_army_lubu_center",
+      "name": "呂布中軍",
+      "type": "army",
+      "aliases": [],
+      "description": "呂布親自統率，用於三路救應。",
+      "evidence": [
+        "布自總中軍"
+      ]
+    },
+    {
+      "id": "ch18_army_ambush",
+      "name": "伏兵",
+      "type": "army",
+      "aliases": [
+        "東南伏兵"
+      ],
+      "description": "張繡依賈詡之計布置的伏兵。",
+      "evidence": [
+        "伏兵齊起"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ch18_char_jiaxu",
+      "target": "ch18_char_zhangxiu",
+      "type": "獻策",
+      "description": "賈詡向張繡提出將計就計，誘曹軍入伏。",
+      "evidence": [
+        "乃謂張繡曰"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_zhangxiu",
+      "target": "ch18_strategy_se_ambush_nw_feint",
+      "type": "採用計策",
+      "description": "張繡採納東南伏兵、西北虛守之計。",
+      "evidence": [
+        "繡喜，從其計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_battle_southeast_ambush",
+      "type": "攻入中伏",
+      "description": "曹操夜率精兵從東南角入城而中伏。",
+      "evidence": [
+        "東南角上爬過壕去",
+        "伏兵齊起"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch18_army_ambush",
+      "target": "ch18_faction_caocao",
+      "type": "伏擊",
+      "description": "伏兵在砲響後攻擊曹軍。",
+      "evidence": [
+        "一聲砲響，伏兵齊起"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch18_char_zhangxiu",
+      "target": "ch18_char_liubiao",
+      "type": "求援聯合",
+      "description": "張繡遣書劉表，請其出兵截曹操後路。",
+      "evidence": [
+        "遺書劉表，使起兵截其後路"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "ch18_char_liubiao",
+      "target": "ch18_char_huangzu",
+      "type": "命令",
+      "description": "劉表命黃祖守隘口。",
+      "evidence": [
+        "令黃祖堅守隘口"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_liubiao",
+      "target": "ch18_location_anzhong",
+      "type": "行軍截擊",
+      "description": "劉表統兵到安眾縣截曹操後路。",
+      "evidence": [
+        "統兵至安眾縣截操後路"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_zhangxiu",
+      "target": "ch18_char_caocao",
+      "type": "襲擊",
+      "description": "張繡得知劉表起兵後，同賈詡引兵襲曹。",
+      "evidence": [
+        "同賈詡引兵襲操"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_char_dianwei",
+      "type": "祭奠",
+      "description": "曹操在清水設祭弔典韋亡魂。",
+      "evidence": [
+        "吊奠典韋亡魂"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_char_caoanmin",
+      "type": "祭奠",
+      "description": "曹操祭奠侄子曹安民。",
+      "evidence": [
+        "祭侄曹安民"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_char_caoang",
+      "type": "祭奠",
+      "description": "曹操祭奠長子曹昂。",
+      "evidence": [
+        "長子曹昂"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_xunyu",
+      "target": "ch18_char_caocao",
+      "type": "報信",
+      "description": "荀彧星夜馳書告知袁紹欲犯許都。",
+      "evidence": [
+        "星夜馳書報曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_battle_anzhong",
+      "type": "設伏",
+      "description": "曹操在安眾令軍開道並暗伏奇兵。",
+      "evidence": [
+        "黑夜鑿險開道，暗伏奇兵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch18_char_liubiao",
+      "target": "ch18_battle_anzhong",
+      "type": "參戰",
+      "description": "劉表軍守險要並與張繡軍會合。",
+      "evidence": [
+        "劉表軍已守險要"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "ch18_char_zhangxiu",
+      "target": "ch18_battle_anzhong",
+      "type": "參戰",
+      "description": "張繡隨後引軍趕到安眾。",
+      "evidence": [
+        "張繡隨後引軍趕來"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "ch18_char_jiaxu",
+      "target": "ch18_strategy_pursuit",
+      "type": "料敵",
+      "description": "賈詡判定初追曹軍必敗，再追必勝。",
+      "evidence": [
+        "追之必敗",
+        "今番追去，必獲大勝"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_zhangxiu",
+      "target": "ch18_char_caocao",
+      "type": "追擊",
+      "description": "張繡先與劉表追曹失敗，後獨自追曹得勝。",
+      "evidence": [
+        "自引一軍往追",
+        "操兵果然大敗"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "ch18_char_liubiao",
+      "target": "ch18_strategy_pursuit",
+      "type": "部分不從",
+      "description": "劉表先力勸追擊，後對再追持疑不往。",
+      "evidence": [
+        "力勸繡引軍",
+        "疑慮，不肯同往"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch18_char_litong",
+      "target": "ch18_char_caocao",
+      "type": "接應",
+      "description": "李通聞曹操與張繡、劉表交戰，來接應曹操。",
+      "evidence": [
+        "特來接應"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_title_jiangonghou",
+      "type": "封賞",
+      "description": "曹操封李通為建功侯。",
+      "evidence": [
+        "封之為建功侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_litong",
+      "target": "ch18_location_runan",
+      "type": "守衛",
+      "description": "李通受命守汝南西界防劉表、張繡。",
+      "evidence": [
+        "守汝南西界"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_char_sunce",
+      "type": "表奏封賞",
+      "description": "曹操表奏孫策有功，封官賜侯。",
+      "evidence": [
+        "表奏孫策有功"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch18_char_guojia",
+      "target": "ch18_strategy_tensheng",
+      "type": "提出",
+      "description": "郭嘉提出袁紹十敗、曹操十勝。",
+      "evidence": [
+        "今紹有十敗，公有十勝"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_guojia",
+      "target": "ch18_strategy_take_lubu",
+      "type": "獻策",
+      "description": "郭嘉勸曹操趁袁紹北征先取呂布。",
+      "evidence": [
+        "先取呂布，掃除東南"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_xunyu",
+      "target": "ch18_char_guojia",
+      "type": "贊同",
+      "description": "荀彧稱郭嘉十勝十敗與自己看法相合。",
+      "evidence": [
+        "正與愚見相合"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_char_yuanshao",
+      "type": "奏封與通書",
+      "description": "曹操厚遣袁紹使者，奏封袁紹並密書相助攻公孫瓚。",
+      "evidence": [
+        "奏封紹為大將軍",
+        "公可討公孫瓚"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch18_char_yuanshao",
+      "target": "ch18_char_gongsunzan",
+      "type": "攻打",
+      "description": "袁紹得書後進兵攻公孫瓚。",
+      "evidence": [
+        "便進兵攻公孫瓚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_char_liubei",
+      "type": "結約",
+      "description": "曹操發書約劉備共同圖呂布。",
+      "evidence": [
+        "發書與玄德"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch18_char_liubei",
+      "target": "ch18_object_mishu",
+      "type": "回覆",
+      "description": "劉備回密書，表示願待曹操命令為前驅。",
+      "evidence": [
+        "備當為前驅"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_chengong",
+      "target": "ch18_object_mishu",
+      "type": "截獲",
+      "description": "陳宮搜使者身得劉備回曹操密書。",
+      "evidence": [
+        "搜其身，得玄德回答曹操密書"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_chengong",
+      "target": "ch18_char_lubu",
+      "type": "呈報",
+      "description": "陳宮將使者與密書拿見呂布。",
+      "evidence": [
+        "拿見呂布"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_lubu",
+      "target": "ch18_strategy_three_way",
+      "type": "部署",
+      "description": "呂布分派三路出兵，自己總中軍救應。",
+      "evidence": [
+        "為三路救應"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_lubu",
+      "target": "ch18_char_gaoshun",
+      "type": "命令攻城",
+      "description": "呂布命高順攻取沛城，攻劉備。",
+      "evidence": [
+        "令高順、張遼取沛城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_lubu",
+      "target": "ch18_char_zhangliao",
+      "type": "命令攻城",
+      "description": "呂布命張遼與高順攻小沛。",
+      "evidence": [
+        "令高順、張遼取沛城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_lubu",
+      "target": "ch18_char_songxian",
+      "type": "命令出兵",
+      "description": "呂布命宋憲西取汝、潁。",
+      "evidence": [
+        "令宋憲、魏續西取汝、潁"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_lubu",
+      "target": "ch18_char_weixu",
+      "type": "命令出兵",
+      "description": "呂布命魏續西取汝、潁。",
+      "evidence": [
+        "令宋憲、魏續西取汝、潁"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_lubu",
+      "target": "ch18_faction_taishan",
+      "type": "結連",
+      "description": "呂布命陳宮、臧霸結連泰山寇攻兗州。",
+      "evidence": [
+        "結連泰山寇"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_chengong",
+      "target": "ch18_faction_chengui_family",
+      "type": "疑忌防範",
+      "description": "陳宮勸呂布防備陳珪父子。",
+      "evidence": [
+        "其心不可測，宜善防之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_faction_chengui_family",
+      "target": "ch18_char_lubu",
+      "type": "稱頌",
+      "description": "陳珪父子在宴會上稱頌呂布德行。",
+      "evidence": [
+        "盛稱布德"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch18_char_sunqian",
+      "target": "ch18_char_liubei",
+      "type": "建議求援",
+      "description": "孫乾勸劉備速向曹操告急。",
+      "evidence": [
+        "可速告急於曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_liubei",
+      "target": "ch18_char_jianyong",
+      "type": "派遣",
+      "description": "劉備命簡雍赴許都向曹操求援。",
+      "evidence": [
+        "付簡雍，使星夜赴許都求援"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_liubei",
+      "target": "ch18_location_xiaopei",
+      "type": "守城",
+      "description": "劉備守小沛南門並布置各門防務。",
+      "evidence": [
+        "玄德自守南門"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_guanyu",
+      "target": "ch18_char_zhangliao",
+      "type": "勸諭",
+      "description": "關羽在城上以義理勸張遼。",
+      "evidence": [
+        "何故失身於賊"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "ch18_char_mizhu",
+      "target": "ch18_faction_liubei",
+      "type": "守護中軍",
+      "description": "糜竺奉命與糜芳守護劉備中軍及妻小。",
+      "evidence": [
+        "守護中軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_mifang",
+      "target": "ch18_faction_liubei",
+      "type": "守護中軍",
+      "description": "糜芳與糜竺一同守護劉備中軍。",
+      "evidence": [
+        "糜竺與其弟糜芳守護中軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_caocao",
+      "target": "ch18_army_vanguard",
+      "type": "派遣",
+      "description": "曹操命夏侯惇等領五萬兵先行救援。",
+      "evidence": [
+        "領兵五萬先行"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_xiahoudun",
+      "target": "ch18_army_vanguard",
+      "type": "統領",
+      "description": "夏侯惇是曹操五萬先鋒主將之一。",
+      "evidence": [
+        "命夏侯惇與夏侯淵、呂虔、李典領兵五萬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_xiahoudun",
+      "target": "ch18_char_gaoshun",
+      "type": "交戰",
+      "description": "夏侯惇與高順交戰四五十合。",
+      "evidence": [
+        "戰有四五十合"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_caoxing",
+      "target": "ch18_char_xiahoudun",
+      "type": "射傷",
+      "description": "曹性暗放一箭射中夏侯惇左目。",
+      "evidence": [
+        "正中夏侯惇左目"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_xiahoudun",
+      "target": "ch18_char_caoxing",
+      "type": "擊殺",
+      "description": "夏侯惇拔箭啖睛後縱馬殺曹性。",
+      "evidence": [
+        "一槍搠透面門，死於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_xiahouyuan",
+      "target": "ch18_char_xiahoudun",
+      "type": "救護",
+      "description": "夏侯淵救護其兄夏侯惇撤走。",
+      "evidence": [
+        "救護其兄而走"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch18_char_luqian",
+      "target": "ch18_location_jibei",
+      "type": "退兵",
+      "description": "呂虔與李典率敗軍退至濟北下寨。",
+      "evidence": [
+        "退去濟北下寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_lidian",
+      "target": "ch18_location_jibei",
+      "type": "退兵",
+      "description": "李典與呂虔率敗軍退至濟北。",
+      "evidence": [
+        "退去濟北下寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch18_char_lubu",
+      "target": "ch18_faction_liubei",
+      "type": "三路攻擊",
+      "description": "呂布與張遼、高順分三路攻劉備、關羽、張飛三寨。",
+      "evidence": [
+        "分兵三路，來攻玄德、關、張三寨"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "ch18_event_jiaxu_counterplan",
+      "name": "賈詡識破攻城方向",
+      "summary": "賈詡判斷曹操欲從城東南角攻入，向張繡獻將計就計之策。",
+      "participants": [
+        "ch18_char_jiaxu",
+        "ch18_char_zhangxiu",
+        "ch18_char_caocao"
+      ],
+      "locations": [],
+      "evidence": [
+        "見曹操繞城而觀者三日"
+      ]
+    },
+    {
+      "id": "ch18_event_southeast_ambush",
+      "name": "曹操夜攻中伏",
+      "summary": "曹操夜領精兵從東南角爬城，砍開鹿角入城後遭張繡伏兵襲擊。",
+      "participants": [
+        "ch18_char_caocao",
+        "ch18_char_zhangxiu",
+        "ch18_army_ambush",
+        "ch18_faction_caocao"
+      ],
+      "locations": [],
+      "evidence": [
+        "夜間任他在東南角上爬城",
+        "伏兵齊起"
+      ]
+    },
+    {
+      "id": "ch18_event_liubiao_rear_cut",
+      "name": "劉表截曹操後路",
+      "summary": "張繡約劉表起兵，劉表命黃祖守隘，自統兵至安眾縣截曹操後路。",
+      "participants": [
+        "ch18_char_zhangxiu",
+        "ch18_char_liubiao",
+        "ch18_char_huangzu"
+      ],
+      "locations": [
+        "ch18_location_anzhong"
+      ],
+      "evidence": [
+        "截操後路"
+      ]
+    },
+    {
+      "id": "ch18_event_caocao_memorial",
+      "name": "曹操清水設祭",
+      "summary": "曹操退軍至襄城、清水，痛哭並祭奠典韋、曹安民、曹昂與陣亡軍士。",
+      "participants": [
+        "ch18_char_caocao",
+        "ch18_char_dianwei",
+        "ch18_char_caoanmin",
+        "ch18_char_caoang"
+      ],
+      "locations": [
+        "ch18_location_xiangcheng",
+        "ch18_location_qingshui"
+      ],
+      "evidence": [
+        "大設祭筵"
+      ]
+    },
+    {
+      "id": "ch18_event_anzhong_and_pursuit",
+      "name": "安眾伏擊與追曹勝敗",
+      "summary": "曹操在安眾設伏；張繡、劉表追曹先敗，張繡依賈詡再追而勝。",
+      "participants": [
+        "ch18_char_caocao",
+        "ch18_char_zhangxiu",
+        "ch18_char_liubiao",
+        "ch18_char_jiaxu"
+      ],
+      "locations": [
+        "ch18_location_anzhong"
+      ],
+      "evidence": [
+        "暗伏奇兵",
+        "追之必敗",
+        "必獲大勝"
+      ]
+    },
+    {
+      "id": "ch18_event_litong_assists",
+      "name": "李通接應曹操",
+      "summary": "李通自汝南來接應曹操，曹操封其為建功侯並令守汝南西界。",
+      "participants": [
+        "ch18_char_litong",
+        "ch18_char_caocao"
+      ],
+      "locations": [
+        "ch18_location_runan"
+      ],
+      "evidence": [
+        "特來接應",
+        "封之為建功侯"
+      ]
+    },
+    {
+      "id": "ch18_event_guojia_strategy",
+      "name": "郭嘉獻十勝十敗與先取呂布策",
+      "summary": "郭嘉以十勝十敗勸曹操不懼袁紹，並建議先取呂布、後圖袁紹。",
+      "participants": [
+        "ch18_char_guojia",
+        "ch18_char_caocao",
+        "ch18_char_yuanshao",
+        "ch18_char_lubu"
+      ],
+      "locations": [
+        "ch18_location_xuzhou"
+      ],
+      "evidence": [
+        "紹有十敗，公有十勝",
+        "先取呂布"
+      ]
+    },
+    {
+      "id": "ch18_event_yuanshao_gongsunzan",
+      "name": "袁紹進兵攻公孫瓚",
+      "summary": "曹操厚遣袁紹使者並密書表示相助，袁紹遂進兵攻公孫瓚。",
+      "participants": [
+        "ch18_char_caocao",
+        "ch18_char_yuanshao",
+        "ch18_char_gongsunzan"
+      ],
+      "locations": [],
+      "evidence": [
+        "公可討公孫瓚",
+        "便進兵攻公孫瓚"
+      ]
+    },
+    {
+      "id": "ch18_event_secret_letter_intercepted",
+      "name": "陳宮截獲劉備密書",
+      "summary": "陳宮在小沛附近截住使者，搜得劉備回曹操的密書並交給呂布。",
+      "participants": [
+        "ch18_char_chengong",
+        "ch18_char_liubei",
+        "ch18_char_caocao",
+        "ch18_char_lubu"
+      ],
+      "locations": [
+        "ch18_location_xiaopei"
+      ],
+      "evidence": [
+        "得玄德回答曹操密書一封"
+      ]
+    },
+    {
+      "id": "ch18_event_lubu_three_campaign",
+      "name": "呂布分三路出兵",
+      "summary": "呂布怒斬使者後，派陳宮、臧霸與泰山寇東取兗州，高順、張遼攻小沛，宋憲、魏續取汝潁。",
+      "participants": [
+        "ch18_char_lubu",
+        "ch18_char_chengong",
+        "ch18_char_zangba",
+        "ch18_char_gaoshun",
+        "ch18_char_zhangliao",
+        "ch18_char_songxian",
+        "ch18_char_weixu",
+        "ch18_faction_taishan"
+      ],
+      "locations": [
+        "ch18_location_yanzhou",
+        "ch18_location_xiaopei",
+        "ch18_location_ruying"
+      ],
+      "evidence": [
+        "三路救應"
+      ]
+    },
+    {
+      "id": "ch18_event_liubei_defense_aid",
+      "name": "劉備守小沛並求援",
+      "summary": "劉備布置小沛各門防守，派簡雍赴許都求曹操救援。",
+      "participants": [
+        "ch18_char_liubei",
+        "ch18_char_sunqian",
+        "ch18_char_jianyong",
+        "ch18_char_guanyu",
+        "ch18_char_zhangfei",
+        "ch18_char_mizhu",
+        "ch18_char_mifang"
+      ],
+      "locations": [
+        "ch18_location_xiaopei",
+        "ch18_location_xudu"
+      ],
+      "evidence": [
+        "整頓守城器具",
+        "赴許都求援"
+      ]
+    },
+    {
+      "id": "ch18_event_caocao_vanguard",
+      "name": "曹操遣五萬先鋒援小沛",
+      "summary": "曹操納荀攸之議，命夏侯惇、夏侯淵、呂虔、李典領五萬先行，自己統大軍後發。",
+      "participants": [
+        "ch18_char_caocao",
+        "ch18_char_xunyou",
+        "ch18_char_xiahoudun",
+        "ch18_char_xiahouyuan",
+        "ch18_char_luqian",
+        "ch18_char_lidian",
+        "ch18_char_jianyong"
+      ],
+      "locations": [
+        "ch18_location_xudu",
+        "ch18_location_xiaopei"
+      ],
+      "evidence": [
+        "領兵五萬先行",
+        "自統大軍陸續進發"
+      ]
+    },
+    {
+      "id": "ch18_event_xiahoudun_eye",
+      "name": "夏侯惇拔矢啖睛殺曹性",
+      "summary": "夏侯惇追高順時被曹性射中左目，拔箭帶出眼珠，啖睛後殺曹性，但曹兵終被高順擊敗。",
+      "participants": [
+        "ch18_char_xiahoudun",
+        "ch18_char_gaoshun",
+        "ch18_char_caoxing",
+        "ch18_char_xiahouyuan",
+        "ch18_char_luqian",
+        "ch18_char_lidian"
+      ],
+      "locations": [
+        "ch18_location_xiaopei",
+        "ch18_location_jibei"
+      ],
+      "evidence": [
+        "正中夏侯惇左目",
+        "遂納於口內噉之",
+        "曹兵大敗"
+      ]
+    }
+  ],
+  "notes": [
+    "章節文本有少量 OCR 誤字；賈詔、賈詬按上下文併入賈詡。",
+    "僅抽取正文或回目直接支持的關係；未具名使者、探馬、細作未列為重要人物。"
+  ]
+}

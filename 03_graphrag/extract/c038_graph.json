@@ -1,0 +1,2102 @@
+{
+  "book": "三國演義",
+  "chapter_no": 38,
+  "chapter_title": "定三分隆中決策　戰長江孫氏報仇",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "c038_char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉皇叔"
+      ],
+      "description": "親往隆中三訪孔明，接受隆中決策，請孔明出山相助。",
+      "evidence": [
+        "劉備專來拜見先生",
+        "願先生不棄鄙賤"
+      ]
+    },
+    {
+      "id": "c038_title_liu_huangshu",
+      "name": "劉皇叔",
+      "type": "title",
+      "aliases": [],
+      "description": "正文中對劉備的稱呼。",
+      "evidence": [
+        "劉皇叔在此"
+      ]
+    },
+    {
+      "id": "c038_char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "先生",
+        "南陽臥龍"
+      ],
+      "description": "居隆中草廬，向劉備提出三分天下之策，後答應出山。",
+      "evidence": [
+        "孔明未出茅廬",
+        "願效犬馬之勞"
+      ]
+    },
+    {
+      "id": "c038_char_guan_yu",
+      "name": "關公",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關羽"
+      ],
+      "description": "隨劉備往隆中拜訪孔明，並勸住張飛。",
+      "evidence": [
+        "我自與雲長去",
+        "雲長再三勸住"
+      ]
+    },
+    {
+      "id": "c038_char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [],
+      "description": "隨劉備往隆中，因孔明晝寢未起而發怒。",
+      "evidence": [
+        "張飛大怒",
+        "放一把火"
+      ]
+    },
+    {
+      "id": "c038_char_zhuge_jun",
+      "name": "諸葛均",
+      "type": "character",
+      "aliases": [],
+      "description": "孔明之弟，在隆中遇見劉備，孔明出山前囑其躬耕。",
+      "evidence": [
+        "正遇諸葛均",
+        "令兄在莊否"
+      ]
+    },
+    {
+      "id": "c038_char_sima_decao",
+      "name": "司馬德操",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備引用其言作為信任孔明的依據。",
+      "evidence": [
+        "司馬德操之言"
+      ]
+    },
+    {
+      "id": "c038_char_xu_yuanzhi",
+      "name": "徐元直",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備引用其語作為信任孔明的依據。",
+      "evidence": [
+        "徐元直之語"
+      ]
+    },
+    {
+      "id": "c038_char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [],
+      "description": "破袁紹，命孫權遣子入朝，並在冀州練水軍，有侵江南之意。",
+      "evidence": [
+        "曹操破袁紹",
+        "作玄武池以練水軍"
+      ]
+    },
+    {
+      "id": "c038_char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [],
+      "description": "建安七年為曹操所破。",
+      "evidence": [
+        "曹操破袁紹"
+      ]
+    },
+    {
+      "id": "c038_char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [],
+      "description": "荊州之主，劉備稱其為漢室宗親。",
+      "evidence": [
+        "荊州劉表",
+        "皆漢室宗親"
+      ]
+    },
+    {
+      "id": "c038_char_liu_zhang",
+      "name": "劉璋",
+      "type": "character",
+      "aliases": [],
+      "description": "益州之主，劉備稱其為漢室宗親。",
+      "evidence": [
+        "益州劉璋",
+        "皆漢室宗親"
+      ]
+    },
+    {
+      "id": "c038_char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "權"
+      ],
+      "description": "據江東，承父兄基業，招納賢士，多次伐黃祖並為孫氏報仇。",
+      "evidence": [
+        "據住江東",
+        "承父兄基業"
+      ]
+    },
+    {
+      "id": "c038_char_sun_ce",
+      "name": "孫策",
+      "type": "character",
+      "aliases": [
+        "策"
+      ],
+      "description": "孫權兄，死後江東基業由孫權承繼。",
+      "evidence": [
+        "孫策死後",
+        "不幸策早喪"
+      ]
+    },
+    {
+      "id": "c038_faction_sun_clan",
+      "name": "孫氏",
+      "type": "faction",
+      "aliases": [
+        "江東孫氏"
+      ],
+      "description": "江東基業所屬家族勢力。",
+      "evidence": [
+        "江東孫氏開鴻業"
+      ]
+    },
+    {
+      "id": "c038_faction_jiangdong",
+      "name": "江東",
+      "type": "faction",
+      "aliases": [
+        "東吳"
+      ],
+      "description": "孫權統轄的勢力，文武諸人輔佐。",
+      "evidence": [
+        "由此江東稱得人之盛",
+        "收軍還東吳"
+      ]
+    },
+    {
+      "id": "c038_char_gu_yong",
+      "name": "顧雍",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權命其延接四方賓客。",
+      "evidence": [
+        "命顧雍、張纮延接"
+      ]
+    },
+    {
+      "id": "c038_char_zhang_hong",
+      "name": "張纮",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權命其延接四方賓客。",
+      "evidence": [
+        "命顧雍、張纮延接"
+      ]
+    },
+    {
+      "id": "c038_faction_jiangdong_talents",
+      "name": "江東文武諸人",
+      "type": "faction",
+      "aliases": [
+        "闞澤",
+        "嚴畯",
+        "薛綜",
+        "程秉",
+        "朱桓",
+        "陸績",
+        "張溫",
+        "呂蒙",
+        "陸遜",
+        "徐盛",
+        "潘璋",
+        "丁奉"
+      ],
+      "description": "孫權招納的江東文臣武將群體。",
+      "evidence": [
+        "文武諸人，共相輔佐"
+      ]
+    },
+    {
+      "id": "c038_char_wu_taifuren",
+      "name": "吳太夫人",
+      "type": "character",
+      "aliases": [
+        "權母"
+      ],
+      "description": "孫權之母，病危時召周瑜、張昭交代江東基業。",
+      "evidence": [
+        "權母吳太夫人病危"
+      ]
+    },
+    {
+      "id": "c038_char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [],
+      "description": "輔佐孫權，反對遣子為質，後被拜為大都督。",
+      "evidence": [
+        "周瑜曰",
+        "拜周瑜為大都督"
+      ]
+    },
+    {
+      "id": "c038_char_zhang_zhao",
+      "name": "張昭",
+      "type": "character",
+      "aliases": [],
+      "description": "輔佐孫權，參與遣子入朝與伐黃祖的議論。",
+      "evidence": [
+        "張昭曰",
+        "召周瑜、張昭二人"
+      ]
+    },
+    {
+      "id": "c038_title_da_dudu",
+      "name": "大都督",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權授予周瑜的統軍職位。",
+      "evidence": [
+        "拜周瑜為大都督"
+      ]
+    },
+    {
+      "id": "c038_army_jiangdong_landwater",
+      "name": "江東水陸軍馬",
+      "type": "army",
+      "aliases": [],
+      "description": "由周瑜總統的江東軍隊。",
+      "evidence": [
+        "總統江東水陸軍馬"
+      ]
+    },
+    {
+      "id": "c038_char_huang_zu",
+      "name": "黃祖",
+      "type": "character",
+      "aliases": [
+        "祖"
+      ],
+      "description": "江夏勢力首領，與孫權交戰。",
+      "evidence": [
+        "孫權引兵伐黃祖",
+        "祖軍大敗"
+      ]
+    },
+    {
+      "id": "c038_army_huangzu",
+      "name": "黃祖軍",
+      "type": "army",
+      "aliases": [
+        "祖軍"
+      ],
+      "description": "黃祖所統軍隊，於大江、沔口、夏口與東吳交戰。",
+      "evidence": [
+        "祖軍敗績",
+        "祖軍大敗"
+      ]
+    },
+    {
+      "id": "c038_char_ling_cao",
+      "name": "凌操",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權部將，伐黃祖時被甘寧射死。",
+      "evidence": [
+        "權部將凌操",
+        "一箭射死"
+      ]
+    },
+    {
+      "id": "c038_char_ling_tong",
+      "name": "凌統",
+      "type": "character",
+      "aliases": [],
+      "description": "凌操之子，父死後奮力奪屍而歸。",
+      "evidence": [
+        "凌操子凌統",
+        "奮力往奪父屍"
+      ]
+    },
+    {
+      "id": "c038_char_gan_ning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [
+        "興霸",
+        "錦帆賊"
+      ],
+      "description": "原黃祖部將，後降孫權，獻破黃祖之策，並在沔口斬鄧龍。",
+      "evidence": [
+        "甘寧來降",
+        "願教我以破黃祖之策"
+      ]
+    },
+    {
+      "id": "c038_char_sun_yi",
+      "name": "孫翊",
+      "type": "character",
+      "aliases": [
+        "翊"
+      ],
+      "description": "孫權之弟、丹陽太守，被邊洪刺殺。",
+      "evidence": [
+        "孫權弟孫翊",
+        "丹陽太守"
+      ]
+    },
+    {
+      "id": "c038_title_danyang_taishou",
+      "name": "丹陽太守",
+      "type": "title",
+      "aliases": [],
+      "description": "孫翊所任官職。",
+      "evidence": [
+        "孫翊為丹陽太守"
+      ]
+    },
+    {
+      "id": "c038_char_xu_shi",
+      "name": "徐氏",
+      "type": "character",
+      "aliases": [
+        "翊妻"
+      ],
+      "description": "孫翊之妻，設計誘殺媯覽、戴員為夫報仇。",
+      "evidence": [
+        "翊妻徐氏",
+        "妾已詐許之"
+      ]
+    },
+    {
+      "id": "c038_char_gui_lan",
+      "name": "媯覽",
+      "type": "character",
+      "aliases": [
+        "嫵覽"
+      ],
+      "description": "丹陽督將，與戴員、邊洪謀殺孫翊，後被徐氏設計殺死。",
+      "evidence": [
+        "丹陽督將媯覽",
+        "謀殺我夫"
+      ]
+    },
+    {
+      "id": "c038_char_dai_yuan",
+      "name": "戴員",
+      "type": "character",
+      "aliases": [
+        "戴官"
+      ],
+      "description": "郡丞，參與謀殺孫翊，後被孫高、傅嬰殺死。",
+      "evidence": [
+        "郡丞戴員",
+        "亦被孫、傅二將所殺"
+      ]
+    },
+    {
+      "id": "c038_char_bian_hong",
+      "name": "邊洪",
+      "type": "character",
+      "aliases": [],
+      "description": "孫翊從人，受媯覽、戴員勾結而殺孫翊，後被歸罪斬殺。",
+      "evidence": [
+        "邊洪結為心腹",
+        "砍死孫翊"
+      ]
+    },
+    {
+      "id": "c038_char_sun_gao",
+      "name": "孫高",
+      "type": "character",
+      "aliases": [],
+      "description": "孫翊心腹舊將，協助徐氏復仇，後被封牙門將。",
+      "evidence": [
+        "孫高、傅嬰二人",
+        "封孫高、傅嬰為牙門將"
+      ]
+    },
+    {
+      "id": "c038_char_fu_ying",
+      "name": "傅嬰",
+      "type": "character",
+      "aliases": [],
+      "description": "孫翊心腹舊將，協助徐氏復仇，後被封牙門將。",
+      "evidence": [
+        "孫高、傅嬰二人",
+        "傅嬰一刀砍倒"
+      ]
+    },
+    {
+      "id": "c038_title_yamen_jiang",
+      "name": "牙門將",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權封孫高、傅嬰的軍職。",
+      "evidence": [
+        "封孫高、傅嬰為牙門將"
+      ]
+    },
+    {
+      "id": "c038_char_lu_meng",
+      "name": "呂蒙",
+      "type": "character",
+      "aliases": [
+        "子明"
+      ],
+      "description": "平北都尉，報告甘寧來降，沔口之戰中燒船並斬陳就。",
+      "evidence": [
+        "平北都尉呂蒙",
+        "放火燒船"
+      ]
+    },
+    {
+      "id": "c038_title_pingbei_duwei",
+      "name": "平北都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "呂蒙所任官職。",
+      "evidence": [
+        "平北都尉呂蒙"
+      ]
+    },
+    {
+      "id": "c038_char_su_fei",
+      "name": "蘇飛",
+      "type": "character",
+      "aliases": [],
+      "description": "黃祖所令大將，兵敗後被潘璋生擒。",
+      "evidence": [
+        "令蘇飛為大將",
+        "被璋生擒"
+      ]
+    },
+    {
+      "id": "c038_char_chen_jiu",
+      "name": "陳就",
+      "type": "character",
+      "aliases": [],
+      "description": "黃祖先鋒，守沔口，後被呂蒙斬殺。",
+      "evidence": [
+        "陳就、鄧龍為先鋒",
+        "一刀砍翻"
+      ]
+    },
+    {
+      "id": "c038_char_deng_long",
+      "name": "鄧龍",
+      "type": "character",
+      "aliases": [],
+      "description": "黃祖先鋒，守沔口，後被甘寧斬殺。",
+      "evidence": [
+        "陳就、鄧龍為先鋒",
+        "將鄧龍砍死"
+      ]
+    },
+    {
+      "id": "c038_char_dong_xi",
+      "name": "董襲",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，甘寧在破艨艟前與其商議進兵。",
+      "evidence": [
+        "甘寧謂董襲曰"
+      ]
+    },
+    {
+      "id": "c038_char_pan_zhang",
+      "name": "潘璋",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳大將，生擒蘇飛。",
+      "evidence": [
+        "東吳大將潘璋",
+        "被璋生擒"
+      ]
+    },
+    {
+      "id": "c038_location_longzhong",
+      "name": "隆中",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明隱居處，劉備三訪並得隆中決策。",
+      "evidence": [
+        "三人乘馬引從者往隆中"
+      ]
+    },
+    {
+      "id": "c038_location_caolu",
+      "name": "草廬",
+      "type": "location",
+      "aliases": [
+        "草堂"
+      ],
+      "description": "孔明所居之處，劉備在此等候孔明晝寢醒來。",
+      "evidence": [
+        "離草廬半里",
+        "草堂春睡足"
+      ]
+    },
+    {
+      "id": "c038_location_xinye",
+      "name": "新野",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備與孔明同歸之地。",
+      "evidence": [
+        "與孔明同歸新野"
+      ]
+    },
+    {
+      "id": "c038_location_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明建議劉備先取作為根基。",
+      "evidence": [
+        "先取荊州為家"
+      ]
+    },
+    {
+      "id": "c038_location_yizhou",
+      "name": "益州",
+      "type": "location",
+      "aliases": [
+        "西川"
+      ],
+      "description": "孔明建議劉備後取以建基業。",
+      "evidence": [
+        "益州劉璋",
+        "後即取西川建基業"
+      ]
+    },
+    {
+      "id": "c038_location_wanluo",
+      "name": "宛、洛",
+      "type": "location",
+      "aliases": [
+        "宛洛"
+      ],
+      "description": "隆中策中荊州兵所向之地。",
+      "evidence": [
+        "荊州之兵以向宛、洛"
+      ]
+    },
+    {
+      "id": "c038_location_qinchuan",
+      "name": "秦川",
+      "type": "location",
+      "aliases": [],
+      "description": "隆中策中劉備率益州之眾所出之地。",
+      "evidence": [
+        "以出秦川"
+      ]
+    },
+    {
+      "id": "c038_location_jiangdong",
+      "name": "江東",
+      "type": "location",
+      "aliases": [
+        "東吳"
+      ],
+      "description": "孫權據守之地，也是劉備派人探聽之地。",
+      "evidence": [
+        "據住江東",
+        "往江東探聽"
+      ]
+    },
+    {
+      "id": "c038_location_jizhou",
+      "name": "冀州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操修玄武池練水軍之地。",
+      "evidence": [
+        "曹操於冀州作玄武池"
+      ]
+    },
+    {
+      "id": "c038_location_xuanwu_chi",
+      "name": "玄武池",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操在冀州修作以練水軍的池。",
+      "evidence": [
+        "作玄武池以練水軍"
+      ]
+    },
+    {
+      "id": "c038_location_jiangnan",
+      "name": "江南",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明推測曹操將侵之地。",
+      "evidence": [
+        "必有侵江南之意"
+      ]
+    },
+    {
+      "id": "c038_location_dajiang",
+      "name": "大江",
+      "type": "location",
+      "aliases": [],
+      "description": "孫權伐黃祖時交戰之水域。",
+      "evidence": [
+        "戰於大江之中"
+      ]
+    },
+    {
+      "id": "c038_location_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "黃祖方據點，東吳後續攻打之地。",
+      "evidence": [
+        "殺入夏口",
+        "攻打夏口"
+      ]
+    },
+    {
+      "id": "c038_location_danyang",
+      "name": "丹陽",
+      "type": "location",
+      "aliases": [],
+      "description": "孫翊任太守之地，徐氏復仇與孫權處置皆在此發生。",
+      "evidence": [
+        "丹陽太守",
+        "至丹陽"
+      ]
+    },
+    {
+      "id": "c038_location_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "黃祖所據，探知東吳動向後聚眾迎敵。",
+      "evidence": [
+        "報至江夏",
+        "盡起江夏之兵"
+      ]
+    },
+    {
+      "id": "c038_location_longqiu",
+      "name": "龍湫水口",
+      "type": "location",
+      "aliases": [],
+      "description": "呂蒙把守處，甘寧來降。",
+      "evidence": [
+        "某把龍湫水口"
+      ]
+    },
+    {
+      "id": "c038_location_miankou",
+      "name": "沔口",
+      "type": "location",
+      "aliases": [],
+      "description": "陳就、鄧龍以艨艟截住東吳兵之處。",
+      "evidence": [
+        "截住沔口"
+      ]
+    },
+    {
+      "id": "c038_object_xichuan_map",
+      "name": "西川五十四州之圖",
+      "type": "object",
+      "aliases": [],
+      "description": "孔明掛於中堂，用以指示劉備取西川建業。",
+      "evidence": [
+        "西川五十四州之圖"
+      ]
+    },
+    {
+      "id": "c038_object_gifts",
+      "name": "金麻禮物",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備拜請孔明出山時所獻禮物。",
+      "evidence": [
+        "拜獻金麻禮物"
+      ]
+    },
+    {
+      "id": "c038_object_mengchong",
+      "name": "艨艟",
+      "type": "object",
+      "aliases": [],
+      "description": "黃祖軍用以截沔口的大船。",
+      "evidence": [
+        "各引一隊艨艟"
+      ]
+    },
+    {
+      "id": "c038_object_dasuo",
+      "name": "大索",
+      "type": "object",
+      "aliases": [],
+      "description": "黃祖軍將艨艟繫定水面的繩索，被甘寧所部砍斷。",
+      "evidence": [
+        "大索系定艨艟",
+        "砍斷大索"
+      ]
+    },
+    {
+      "id": "c038_object_menkanche",
+      "name": "門檻車",
+      "type": "object",
+      "aliases": [],
+      "description": "孫權命人囚禁蘇飛的車。",
+      "evidence": [
+        "以門檻車囚之"
+      ]
+    },
+    {
+      "id": "c038_army_jingzhou",
+      "name": "荊州之兵",
+      "type": "army",
+      "aliases": [],
+      "description": "隆中策中由上將率往宛、洛的軍隊。",
+      "evidence": [
+        "荊州之兵以向宛、洛"
+      ]
+    },
+    {
+      "id": "c038_army_yizhou",
+      "name": "益州之眾",
+      "type": "army",
+      "aliases": [],
+      "description": "隆中策中由劉備親率出秦川的軍隊。",
+      "evidence": [
+        "益州之眾以出秦川"
+      ]
+    },
+    {
+      "id": "c038_army_jiangxia",
+      "name": "江夏之兵",
+      "type": "army",
+      "aliases": [],
+      "description": "黃祖盡起迎敵的兵力。",
+      "evidence": [
+        "盡起江夏之兵迎敵"
+      ]
+    },
+    {
+      "id": "c038_army_small_boat_force",
+      "name": "小船精兵",
+      "type": "army",
+      "aliases": [],
+      "description": "甘寧選用以破艨艟、斷大索的突擊兵。",
+      "evidence": [
+        "小船百餘只",
+        "每船用精兵五十人"
+      ]
+    },
+    {
+      "id": "c038_strategy_longzhong",
+      "name": "隆中決策",
+      "type": "strategy",
+      "aliases": [
+        "三分天下",
+        "鼎足之勢"
+      ],
+      "description": "孔明為劉備設計的取荊州、西川，聯孫抗曹以成鼎足之勢的方略。",
+      "evidence": [
+        "定三分隆中決策",
+        "以成鼎足之勢"
+      ]
+    },
+    {
+      "id": "c038_strategy_ally_sun",
+      "name": "外結孫權，內修政理",
+      "type": "strategy",
+      "aliases": [],
+      "description": "隆中策中的外交與內政安排。",
+      "evidence": [
+        "外結孫權，內修政理"
+      ]
+    },
+    {
+      "id": "c038_strategy_hostage",
+      "name": "遣子入朝隨駕",
+      "type": "strategy",
+      "aliases": [
+        "牽制諸侯之法"
+      ],
+      "description": "曹操要求孫權遣子入朝，用以牽制諸侯。",
+      "evidence": [
+        "遣子入朝隨駕",
+        "牽制諸侯之法"
+      ]
+    },
+    {
+      "id": "c038_strategy_xushi_revenge",
+      "name": "徐氏復仇計",
+      "type": "strategy",
+      "aliases": [
+        "詐許媯覽"
+      ],
+      "description": "徐氏假意答應媯覽，暗伏孫高、傅嬰以殺仇人。",
+      "evidence": [
+        "妾已詐許之",
+        "伏於密室"
+      ]
+    },
+    {
+      "id": "c038_strategy_huangzu_block",
+      "name": "沔口大索守禦",
+      "type": "strategy",
+      "aliases": [],
+      "description": "黃祖軍以艨艟、強弓硬弩、大索截住沔口。",
+      "evidence": [
+        "強弓硬弩",
+        "大索系定艨艟"
+      ]
+    },
+    {
+      "id": "c038_strategy_cut_rope",
+      "name": "砍斷大索之策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "甘寧用小船精兵冒矢石砍斷大索，破沔口艨艟。",
+      "evidence": [
+        "不避矢石",
+        "砍斷大索"
+      ]
+    },
+    {
+      "id": "c038_battle_first_huangzu",
+      "name": "大江伐黃祖",
+      "type": "battle",
+      "aliases": [
+        "戰於大江"
+      ],
+      "description": "建安八年孫權伐黃祖，凌操戰死，孫權收軍。",
+      "evidence": [
+        "孫權引兵伐黃祖",
+        "戰於大江之中"
+      ]
+    },
+    {
+      "id": "c038_battle_miankou_xiakou",
+      "name": "沔口攻夏口之戰",
+      "type": "battle",
+      "aliases": [
+        "攻打夏口"
+      ],
+      "description": "孫權再伐黃祖，甘寧、呂蒙破沔口水軍，潘璋擒蘇飛，三軍攻夏口。",
+      "evidence": [
+        "截住沔口",
+        "攻打夏口"
+      ]
+    },
+    {
+      "id": "c038_event_sunyi_death",
+      "name": "孫翊遇害",
+      "type": "event",
+      "aliases": [],
+      "description": "媯覽、戴員、邊洪共謀，邊洪在宴散後殺孫翊。",
+      "evidence": [
+        "共謀殺翊",
+        "砍死孫翊"
+      ]
+    },
+    {
+      "id": "c038_event_xushi_revenge",
+      "name": "徐氏報仇",
+      "type": "event",
+      "aliases": [],
+      "description": "徐氏與孫高、傅嬰伏兵殺媯覽、戴員，並以首級祭孫翊。",
+      "evidence": [
+        "二將所殺",
+        "首級，祭於孫翊靈前"
+      ]
+    },
+    {
+      "id": "c038_event_sangu_chushan",
+      "name": "三顧出山",
+      "type": "event",
+      "aliases": [
+        "三顧之恩"
+      ],
+      "description": "劉備三訪孔明，孔明受其誠意而同歸新野。",
+      "evidence": [
+        "三顧之恩",
+        "與孔明同歸新野"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "c038_char_liu_bei",
+      "target": "c038_title_liu_huangshu",
+      "type": "稱號",
+      "description": "劉備在孔明處被稱為劉皇叔。",
+      "evidence": [
+        "劉皇叔在此"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_guan_yu",
+      "target": "c038_char_liu_bei",
+      "type": "同行拜訪",
+      "description": "關公隨劉備前往隆中拜訪孔明。",
+      "evidence": [
+        "我自與雲長去"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c038_char_zhang_fei",
+      "target": "c038_char_liu_bei",
+      "type": "同行拜訪",
+      "description": "張飛隨劉備前往隆中。",
+      "evidence": [
+        "三人乘馬"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c038_char_liu_bei",
+      "target": "c038_char_zhuge_liang",
+      "type": "拜訪",
+      "description": "劉備三次親往拜見孔明。",
+      "evidence": [
+        "兩次親往拜謁",
+        "專來拜見先生"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_zhuge_jun",
+      "target": "c038_char_zhuge_liang",
+      "type": "兄弟",
+      "description": "諸葛均為孔明之弟。",
+      "evidence": [
+        "令兄在莊否"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c038_char_sima_decao",
+      "target": "c038_char_zhuge_liang",
+      "type": "推重",
+      "description": "劉備以司馬德操之言證明孔明非虛名。",
+      "evidence": [
+        "司馬德操之言"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "source": "c038_char_xu_yuanzhi",
+      "target": "c038_char_zhuge_liang",
+      "type": "推重",
+      "description": "劉備以徐元直之語證明孔明之才。",
+      "evidence": [
+        "徐元直之語"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "source": "c038_char_zhuge_liang",
+      "target": "c038_strategy_longzhong",
+      "type": "提出策略",
+      "description": "孔明在隆中為劉備提出三分天下的方略。",
+      "evidence": [
+        "孔明未出茅廬，已知三分天下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_strategy_longzhong",
+      "target": "c038_location_jingzhou",
+      "type": "戰略目標",
+      "description": "隆中策主張先取荊州為家。",
+      "evidence": [
+        "先取荊州為家"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_strategy_longzhong",
+      "target": "c038_location_yizhou",
+      "type": "戰略目標",
+      "description": "隆中策主張後取西川以建基業。",
+      "evidence": [
+        "後即取西川建基業"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_strategy_longzhong",
+      "target": "c038_strategy_ally_sun",
+      "type": "包含策略",
+      "description": "隆中策包含外結孫權與內修政理。",
+      "evidence": [
+        "外結孫權，內修政理"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_strategy_longzhong",
+      "target": "c038_army_jingzhou",
+      "type": "調兵規劃",
+      "description": "隆中策規劃上將率荊州兵向宛、洛。",
+      "evidence": [
+        "荊州之兵以向宛、洛"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_army_jingzhou",
+      "target": "c038_location_wanluo",
+      "type": "進軍方向",
+      "description": "荊州之兵按策應向宛、洛進軍。",
+      "evidence": [
+        "以向宛、洛"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_strategy_longzhong",
+      "target": "c038_army_yizhou",
+      "type": "調兵規劃",
+      "description": "隆中策規劃劉備親率益州之眾出秦川。",
+      "evidence": [
+        "身率益州之眾"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_army_yizhou",
+      "target": "c038_location_qinchuan",
+      "type": "進軍方向",
+      "description": "益州之眾按策應出秦川。",
+      "evidence": [
+        "以出秦川"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_zhuge_liang",
+      "target": "c038_object_xichuan_map",
+      "type": "展示物件",
+      "description": "孔明取出西川五十四州之圖，向劉備指示基業方向。",
+      "evidence": [
+        "取出畫一軸",
+        "西川五十四州之圖"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_liu_biao",
+      "target": "c038_location_jingzhou",
+      "type": "據有",
+      "description": "劉表為荊州之主。",
+      "evidence": [
+        "荊州劉表"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c038_char_liu_zhang",
+      "target": "c038_location_yizhou",
+      "type": "據有",
+      "description": "劉璋為益州之主。",
+      "evidence": [
+        "益州劉璋"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c038_char_liu_bei",
+      "target": "c038_char_liu_biao",
+      "type": "宗親顧慮",
+      "description": "劉備因劉表為漢室宗親而不忍奪荊州。",
+      "evidence": [
+        "皆漢室宗親，備安忍奪之"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c038_char_liu_bei",
+      "target": "c038_char_liu_zhang",
+      "type": "宗親顧慮",
+      "description": "劉備因劉璋為漢室宗親而不忍奪益州。",
+      "evidence": [
+        "皆漢室宗親，備安忍奪之"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c038_char_liu_bei",
+      "target": "c038_char_zhuge_liang",
+      "type": "聘請",
+      "description": "劉備請孔明出山相助。",
+      "evidence": [
+        "出山相助"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_zhuge_liang",
+      "target": "c038_char_liu_bei",
+      "type": "效力",
+      "description": "孔明答應為劉備效力。",
+      "evidence": [
+        "願效犬馬之勞"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_liu_bei",
+      "target": "c038_object_gifts",
+      "type": "贈與",
+      "description": "劉備向孔明獻金麻禮物表寸心。",
+      "evidence": [
+        "拜獻金麻禮物"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c038_char_zhuge_liang",
+      "target": "c038_char_zhuge_jun",
+      "type": "囑咐",
+      "description": "孔明出山前囑諸葛均在家躬耕。",
+      "evidence": [
+        "汝可躬耕於此"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c038_char_liu_bei",
+      "target": "c038_location_xinye",
+      "type": "行軍返回",
+      "description": "劉備等與孔明同歸新野。",
+      "evidence": [
+        "同歸新野"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_zhuge_liang",
+      "target": "c038_char_cao_cao",
+      "type": "判斷意圖",
+      "description": "孔明認為曹操練水軍，有侵江南之意。",
+      "evidence": [
+        "練水軍",
+        "侵江南之意"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c038_char_cao_cao",
+      "target": "c038_location_xuanwu_chi",
+      "type": "建造練兵",
+      "description": "曹操在冀州作玄武池練水軍。",
+      "evidence": [
+        "作玄武池以練水軍"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_cao_cao",
+      "target": "c038_location_jiangnan",
+      "type": "潛在進攻",
+      "description": "孔明推測曹操將侵江南。",
+      "evidence": [
+        "必有侵江南之意"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c038_char_liu_bei",
+      "target": "c038_location_jiangdong",
+      "type": "派人探聽",
+      "description": "劉備從孔明建議，派人往江東探聽虛實。",
+      "evidence": [
+        "使人往江東探聽"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_faction_jiangdong",
+      "type": "統治",
+      "description": "孫權據守江東。",
+      "evidence": [
+        "據住江東"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_char_sun_ce",
+      "type": "繼承基業",
+      "description": "孫權在孫策死後承父兄基業。",
+      "evidence": [
+        "孫策死後",
+        "承父兄基業"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_char_gu_yong",
+      "type": "任命接賓",
+      "description": "孫權命顧雍延接四方賓客。",
+      "evidence": [
+        "命顧雍、張纮延接"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_char_zhang_hong",
+      "type": "任命接賓",
+      "description": "孫權命張纮延接四方賓客。",
+      "evidence": [
+        "命顧雍、張纮延接"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c038_faction_jiangdong_talents",
+      "target": "c038_char_sun_quan",
+      "type": "輔佐",
+      "description": "江東文武諸人共同輔佐孫權。",
+      "evidence": [
+        "文武諸人，共相輔佐"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c038_char_cao_cao",
+      "target": "c038_char_yuan_shao",
+      "type": "擊破",
+      "description": "建安七年曹操擊破袁紹。",
+      "evidence": [
+        "曹操破袁紹"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_cao_cao",
+      "target": "c038_char_sun_quan",
+      "type": "命令",
+      "description": "曹操遣使命孫權遣子入朝隨駕。",
+      "evidence": [
+        "命孫權遣子入朝隨駕"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_strategy_hostage",
+      "target": "c038_char_sun_quan",
+      "type": "牽制",
+      "description": "張昭指出遣子入朝是曹操牽制諸侯之法。",
+      "evidence": [
+        "牽制諸侯之法"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c038_char_zhang_zhao",
+      "target": "c038_char_sun_quan",
+      "type": "進言",
+      "description": "張昭認為不遣子入朝恐招曹操興兵。",
+      "evidence": [
+        "恐其興兵下江東"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c038_char_zhou_yu",
+      "target": "c038_char_sun_quan",
+      "type": "進言",
+      "description": "周瑜反對孫權以子為質。",
+      "evidence": [
+        "何逼迫而欲質於人"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_char_huang_zu",
+      "type": "攻打",
+      "description": "建安八年孫權引兵伐黃祖。",
+      "evidence": [
+        "孫權引兵伐黃祖"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_battle_first_huangzu",
+      "target": "c038_location_dajiang",
+      "type": "發生地",
+      "description": "大江伐黃祖之戰發生於大江。",
+      "evidence": [
+        "戰於大江之中"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_gan_ning",
+      "target": "c038_char_ling_cao",
+      "type": "射殺",
+      "description": "甘寧以箭射死凌操。",
+      "evidence": [
+        "甘寧一箭射死"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_ling_tong",
+      "target": "c038_char_ling_cao",
+      "type": "父子",
+      "description": "凌統是凌操之子。",
+      "evidence": [
+        "凌操子凌統"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_ling_tong",
+      "target": "c038_battle_first_huangzu",
+      "type": "奪屍參與",
+      "description": "凌統於戰中奮力奪父屍而歸。",
+      "evidence": [
+        "奮力往奪父屍而歸"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_sun_yi",
+      "target": "c038_char_sun_quan",
+      "type": "兄弟",
+      "description": "孫翊是孫權之弟。",
+      "evidence": [
+        "孫權弟孫翊"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_sun_yi",
+      "target": "c038_title_danyang_taishou",
+      "type": "任職",
+      "description": "孫翊任丹陽太守。",
+      "evidence": [
+        "孫翊為丹陽太守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_gui_lan",
+      "target": "c038_event_sunyi_death",
+      "type": "共謀",
+      "description": "媯覽參與謀殺孫翊。",
+      "evidence": [
+        "常有殺翊之心"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_dai_yuan",
+      "target": "c038_event_sunyi_death",
+      "type": "共謀",
+      "description": "戴員參與謀殺孫翊。",
+      "evidence": [
+        "常有殺翊之心"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_bian_hong",
+      "target": "c038_char_sun_yi",
+      "type": "刺殺",
+      "description": "邊洪於宴散後砍死孫翊。",
+      "evidence": [
+        "抽刀砍死孫翊"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_gui_lan",
+      "target": "c038_char_bian_hong",
+      "type": "歸罪斬殺",
+      "description": "媯覽與戴員將罪歸於邊洪並斬之。",
+      "evidence": [
+        "歸罪邊洪，斬之於市"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_dai_yuan",
+      "target": "c038_char_bian_hong",
+      "type": "歸罪斬殺",
+      "description": "戴員與媯覽將罪歸於邊洪並斬之。",
+      "evidence": [
+        "歸罪邊洪，斬之於市"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_gui_lan",
+      "target": "c038_char_xu_shi",
+      "type": "脅迫婚娶",
+      "description": "媯覽欲強佔徐氏，威脅不從則死。",
+      "evidence": [
+        "欲強佔妾身",
+        "不從則死"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_xu_shi",
+      "target": "c038_strategy_xushi_revenge",
+      "type": "設計",
+      "description": "徐氏假意答應媯覽，設下復仇計。",
+      "evidence": [
+        "妾已詐許之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_xu_shi",
+      "target": "c038_char_sun_gao",
+      "type": "密召協力",
+      "description": "徐氏密召孫高協助報仇。",
+      "evidence": [
+        "密召孫翊心腹舊將孫高、傅嬰"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_xu_shi",
+      "target": "c038_char_fu_ying",
+      "type": "密召協力",
+      "description": "徐氏密召傅嬰協助報仇。",
+      "evidence": [
+        "密召孫翊心腹舊將孫高、傅嬰"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_fu_ying",
+      "target": "c038_char_gui_lan",
+      "type": "斬殺",
+      "description": "傅嬰先將媯覽砍倒。",
+      "evidence": [
+        "傅嬰一刀砍倒"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_sun_gao",
+      "target": "c038_char_gui_lan",
+      "type": "斬殺",
+      "description": "孫高補刀殺死媯覽。",
+      "evidence": [
+        "孫高再復一刀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_sun_gao",
+      "target": "c038_char_dai_yuan",
+      "type": "斬殺",
+      "description": "孫高與傅嬰殺死戴員。",
+      "evidence": [
+        "被孫、傅二將所殺"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_fu_ying",
+      "target": "c038_char_dai_yuan",
+      "type": "斬殺",
+      "description": "傅嬰與孫高殺死戴員。",
+      "evidence": [
+        "被孫、傅二將所殺"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_char_sun_gao",
+      "type": "任命",
+      "description": "孫權封孫高為牙門將。",
+      "evidence": [
+        "封孫高、傅嬰為牙門將"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_char_fu_ying",
+      "type": "任命",
+      "description": "孫權封傅嬰為牙門將。",
+      "evidence": [
+        "封孫高、傅嬰為牙門將"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_sun_gao",
+      "target": "c038_location_danyang",
+      "type": "鎮守",
+      "description": "孫權令孫高守丹陽。",
+      "evidence": [
+        "令守丹陽"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c038_char_fu_ying",
+      "target": "c038_location_danyang",
+      "type": "鎮守",
+      "description": "孫權令傅嬰守丹陽。",
+      "evidence": [
+        "令守丹陽"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_char_xu_shi",
+      "type": "安置",
+      "description": "孫權取徐氏歸家養老。",
+      "evidence": [
+        "取徐氏歸家養老"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_char_zhou_yu",
+      "type": "任命",
+      "description": "孫權拜周瑜為大都督。",
+      "evidence": [
+        "拜周瑜為大都督"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_zhou_yu",
+      "target": "c038_army_jiangdong_landwater",
+      "type": "統領",
+      "description": "周瑜總統江東水陸軍馬。",
+      "evidence": [
+        "總統江東水陸軍馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_wu_taifuren",
+      "target": "c038_char_zhou_yu",
+      "type": "臨終召見",
+      "description": "吳太夫人病危時召周瑜。",
+      "evidence": [
+        "召周瑜、張昭二人至"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c038_char_wu_taifuren",
+      "target": "c038_char_zhang_zhao",
+      "type": "臨終召見",
+      "description": "吳太夫人病危時召張昭。",
+      "evidence": [
+        "召周瑜、張昭二人至"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c038_char_lu_meng",
+      "target": "c038_title_pingbei_duwei",
+      "type": "任職",
+      "description": "呂蒙任平北都尉。",
+      "evidence": [
+        "平北都尉呂蒙"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_lu_meng",
+      "target": "c038_location_longqiu",
+      "type": "把守",
+      "description": "呂蒙把守龍湫水口。",
+      "evidence": [
+        "某把龍湫水口"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_gan_ning",
+      "target": "c038_char_huang_zu",
+      "type": "原屬部將",
+      "description": "甘寧原為黃祖部將。",
+      "evidence": [
+        "黃祖部將甘寧來降"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_gan_ning",
+      "target": "c038_char_sun_quan",
+      "type": "投降歸附",
+      "description": "甘寧來降孫權。",
+      "evidence": [
+        "甘寧來降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_gan_ning",
+      "target": "c038_char_sun_quan",
+      "type": "獻策",
+      "description": "甘寧向孫權提出破黃祖之策。",
+      "evidence": [
+        "教我以破黃祖之策"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_huang_zu",
+      "target": "c038_char_su_fei",
+      "type": "任命大將",
+      "description": "黃祖令蘇飛為大將迎敵。",
+      "evidence": [
+        "令蘇飛為大將"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_huang_zu",
+      "target": "c038_char_chen_jiu",
+      "type": "任命先鋒",
+      "description": "黃祖令陳就為先鋒。",
+      "evidence": [
+        "陳就、鄧龍為先鋒"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_huang_zu",
+      "target": "c038_char_deng_long",
+      "type": "任命先鋒",
+      "description": "黃祖令鄧龍為先鋒。",
+      "evidence": [
+        "陳就、鄧龍為先鋒"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_huang_zu",
+      "target": "c038_army_jiangxia",
+      "type": "動員",
+      "description": "黃祖盡起江夏之兵迎敵。",
+      "evidence": [
+        "盡起江夏之兵迎敵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_char_chen_jiu",
+      "target": "c038_strategy_huangzu_block",
+      "type": "執行守禦",
+      "description": "陳就在沔口以艨艟和大索截兵。",
+      "evidence": [
+        "各引一隊艨艟截住沔口"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c038_char_deng_long",
+      "target": "c038_strategy_huangzu_block",
+      "type": "執行守禦",
+      "description": "鄧龍在沔口以艨艟和大索截兵。",
+      "evidence": [
+        "各引一隊艨艟截住沔口"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c038_strategy_huangzu_block",
+      "target": "c038_object_mengchong",
+      "type": "使用物件",
+      "description": "沔口守禦以艨艟為水上屏障。",
+      "evidence": [
+        "艨艟於水面上"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_strategy_huangzu_block",
+      "target": "c038_object_dasuo",
+      "type": "使用物件",
+      "description": "沔口守禦以大索繫定艨艟。",
+      "evidence": [
+        "大索系定艨艟"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_gan_ning",
+      "target": "c038_char_dong_xi",
+      "type": "戰前商議",
+      "description": "甘寧對董襲表示必須進兵。",
+      "evidence": [
+        "甘寧謂董襲曰"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "c038_char_gan_ning",
+      "target": "c038_strategy_cut_rope",
+      "type": "執行計策",
+      "description": "甘寧選小船精兵冒矢石砍斷大索。",
+      "evidence": [
+        "選小船百餘只",
+        "砍斷大索"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c038_strategy_cut_rope",
+      "target": "c038_army_small_boat_force",
+      "type": "使用軍隊",
+      "description": "砍斷大索之策由小船精兵執行。",
+      "evidence": [
+        "每船用精兵五十人"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_gan_ning",
+      "target": "c038_char_deng_long",
+      "type": "斬殺",
+      "description": "甘寧飛上艨艟斬殺鄧龍。",
+      "evidence": [
+        "將鄧龍砍死"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_lu_meng",
+      "target": "c038_object_mengchong",
+      "type": "放火燒船",
+      "description": "呂蒙直入船隊放火燒船。",
+      "evidence": [
+        "放火燒船"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c038_char_lu_meng",
+      "target": "c038_char_chen_jiu",
+      "type": "斬殺",
+      "description": "呂蒙追上陳就並砍翻。",
+      "evidence": [
+        "一刀砍翻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_pan_zhang",
+      "target": "c038_char_su_fei",
+      "type": "生擒",
+      "description": "潘璋在戰中生擒蘇飛。",
+      "evidence": [
+        "被璋生擒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_object_menkanche",
+      "type": "囚禁命令",
+      "description": "孫權命左右以門檻車囚蘇飛。",
+      "evidence": [
+        "以門檻車囚之"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c038_char_sun_quan",
+      "target": "c038_location_xiakou",
+      "type": "攻打",
+      "description": "孫權催動三軍攻打夏口。",
+      "evidence": [
+        "攻打夏口"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "events": [
+    {
+      "id": "c038_event_sangu_chushan",
+      "name": "三顧出山",
+      "summary": "劉備第三次往隆中拜訪孔明，恭候其醒後相談，孔明受三顧之恩，答應出山，同歸新野。",
+      "participants": [
+        "c038_char_liu_bei",
+        "c038_char_zhuge_liang",
+        "c038_char_guan_yu",
+        "c038_char_zhang_fei",
+        "c038_char_zhuge_jun"
+      ],
+      "locations": [
+        "c038_location_longzhong",
+        "c038_location_caolu",
+        "c038_location_xinye"
+      ],
+      "evidence": [
+        "三顧之恩",
+        "與孔明同歸新野"
+      ]
+    },
+    {
+      "id": "c038_event_longzhong_strategy",
+      "name": "隆中決策",
+      "summary": "孔明向劉備分析曹操、孫權形勢，提出取荊州、西川，外結孫權、內修政理，以成鼎足之勢。",
+      "participants": [
+        "c038_char_liu_bei",
+        "c038_char_zhuge_liang",
+        "c038_char_cao_cao",
+        "c038_char_sun_quan"
+      ],
+      "locations": [
+        "c038_location_caolu",
+        "c038_location_jingzhou",
+        "c038_location_yizhou"
+      ],
+      "evidence": [
+        "北讓曹操佔天時",
+        "南讓孫權佔地利",
+        "以成鼎足之勢"
+      ]
+    },
+    {
+      "id": "c038_event_probe_jiangdong",
+      "name": "遣人探聽江東",
+      "summary": "孔明判斷曹操練水軍將侵江南，劉備依其言派人過江探聽江東虛實。",
+      "participants": [
+        "c038_char_liu_bei",
+        "c038_char_zhuge_liang",
+        "c038_char_cao_cao"
+      ],
+      "locations": [
+        "c038_location_jizhou",
+        "c038_location_jiangdong",
+        "c038_location_jiangnan"
+      ],
+      "evidence": [
+        "練水軍",
+        "過江探聽虛實"
+      ]
+    },
+    {
+      "id": "c038_event_sunquan_recruiting",
+      "name": "孫權廣納賢士",
+      "summary": "孫權承父兄基業，開賓館於吳會，命顧雍、張纮延接賓客，江東文武共輔其政。",
+      "participants": [
+        "c038_char_sun_quan",
+        "c038_char_gu_yong",
+        "c038_char_zhang_hong",
+        "c038_faction_jiangdong_talents"
+      ],
+      "locations": [
+        "c038_location_jiangdong"
+      ],
+      "evidence": [
+        "廣納賢士",
+        "共相輔佐"
+      ]
+    },
+    {
+      "id": "c038_event_hostage_request",
+      "name": "曹操命孫權遣子入朝",
+      "summary": "曹操破袁紹後命孫權遣子入朝，張昭憂其興兵，周瑜則反對質於人。",
+      "participants": [
+        "c038_char_cao_cao",
+        "c038_char_sun_quan",
+        "c038_char_zhang_zhao",
+        "c038_char_zhou_yu",
+        "c038_char_wu_taifuren"
+      ],
+      "locations": [
+        "c038_location_jiangdong"
+      ],
+      "evidence": [
+        "遣子入朝隨駕",
+        "質於人"
+      ]
+    },
+    {
+      "id": "c038_battle_first_huangzu",
+      "name": "大江伐黃祖",
+      "summary": "建安八年十一月，孫權引兵伐黃祖，黃祖軍敗；凌操突入夏口，被甘寧射死，凌統奪父屍而歸，孫權收軍。",
+      "participants": [
+        "c038_char_sun_quan",
+        "c038_char_huang_zu",
+        "c038_char_ling_cao",
+        "c038_char_gan_ning",
+        "c038_char_ling_tong"
+      ],
+      "locations": [
+        "c038_location_dajiang",
+        "c038_location_xiakou"
+      ],
+      "evidence": [
+        "戰於大江之中",
+        "一箭射死",
+        "收軍還東吳"
+      ]
+    },
+    {
+      "id": "c038_event_sunyi_death",
+      "name": "孫翊遇害",
+      "summary": "媯覽、戴員與邊洪共謀，趁孫翊宴會散後由邊洪行刺，再將罪歸於邊洪並斬之。",
+      "participants": [
+        "c038_char_sun_yi",
+        "c038_char_gui_lan",
+        "c038_char_dai_yuan",
+        "c038_char_bian_hong",
+        "c038_char_xu_shi"
+      ],
+      "locations": [
+        "c038_location_danyang"
+      ],
+      "evidence": [
+        "共謀殺翊",
+        "砍死孫翊",
+        "歸罪邊洪"
+      ]
+    },
+    {
+      "id": "c038_event_xushi_revenge",
+      "name": "徐氏報仇",
+      "summary": "徐氏假意答應媯覽，密召孫高、傅嬰伏於密室，先殺媯覽，復誘殺戴員，並以二人首級祭孫翊。",
+      "participants": [
+        "c038_char_xu_shi",
+        "c038_char_sun_gao",
+        "c038_char_fu_ying",
+        "c038_char_gui_lan",
+        "c038_char_dai_yuan",
+        "c038_char_sun_yi"
+      ],
+      "locations": [
+        "c038_location_danyang"
+      ],
+      "evidence": [
+        "伏於密室",
+        "被孫、傅二將所殺",
+        "祭於孫翊靈前"
+      ]
+    },
+    {
+      "id": "c038_event_danyang_settlement",
+      "name": "孫權處置丹陽",
+      "summary": "孫權自領軍馬至丹陽，見徐氏已誅二賊，封孫高、傅嬰為牙門將，令守丹陽，並安置徐氏。",
+      "participants": [
+        "c038_char_sun_quan",
+        "c038_char_xu_shi",
+        "c038_char_sun_gao",
+        "c038_char_fu_ying"
+      ],
+      "locations": [
+        "c038_location_danyang"
+      ],
+      "evidence": [
+        "自領軍馬至丹陽",
+        "封孫高、傅嬰為牙門將"
+      ]
+    },
+    {
+      "id": "c038_event_zhouyu_appointment",
+      "name": "周瑜拜大都督",
+      "summary": "東吳山賊平復、戰船充足後，孫權拜周瑜為大都督，總統江東水陸軍馬。",
+      "participants": [
+        "c038_char_sun_quan",
+        "c038_char_zhou_yu"
+      ],
+      "locations": [
+        "c038_location_jiangdong",
+        "c038_location_dajiang"
+      ],
+      "evidence": [
+        "戰船七千餘隻",
+        "拜周瑜為大都督"
+      ]
+    },
+    {
+      "id": "c038_event_ganning_surrender",
+      "name": "甘寧來降",
+      "summary": "呂蒙報告黃祖部將甘寧來降，孫權不記凌操之仇，請甘寧教以破黃祖之策。",
+      "participants": [
+        "c038_char_lu_meng",
+        "c038_char_gan_ning",
+        "c038_char_sun_quan",
+        "c038_char_huang_zu"
+      ],
+      "locations": [
+        "c038_location_longqiu",
+        "c038_location_jiangdong"
+      ],
+      "evidence": [
+        "甘寧來降",
+        "豈有記恨之理",
+        "破黃祖之策"
+      ]
+    },
+    {
+      "id": "c038_battle_miankou_xiakou",
+      "name": "沔口攻夏口之戰",
+      "summary": "黃祖令蘇飛為大將、陳就與鄧龍為先鋒，以艨艟大索截沔口。甘寧率小船精兵斷索殺鄧龍，呂蒙燒船殺陳就，潘璋擒蘇飛，孫權催三軍攻夏口。",
+      "participants": [
+        "c038_char_sun_quan",
+        "c038_char_huang_zu",
+        "c038_char_gan_ning",
+        "c038_char_lu_meng",
+        "c038_char_su_fei",
+        "c038_char_chen_jiu",
+        "c038_char_deng_long",
+        "c038_char_pan_zhang",
+        "c038_char_dong_xi"
+      ],
+      "locations": [
+        "c038_location_jiangxia",
+        "c038_location_miankou",
+        "c038_location_xiakou"
+      ],
+      "evidence": [
+        "截住沔口",
+        "砍斷大索",
+        "放火燒船",
+        "攻打夏口"
+      ]
+    }
+  ],
+  "notes": [
+    "章節文字有局部錯簡與重複，抽取僅採可由可讀正文支持的內容。"
+  ]
+}

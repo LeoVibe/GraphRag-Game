@@ -1,0 +1,2972 @@
+{
+  "book": "三國演義",
+  "chapter_no": 13,
+  "chapter_title": "李傕郭汜大交兵　楊奉董承雙救駕",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹賊"
+      ],
+      "description": "於定陶大破呂布，後受朝廷加官封侯。",
+      "evidence": [
+        "曹操大破呂佈於定陶",
+        "加操為建德將軍費亭侯"
+      ]
+    },
+    {
+      "id": "char_lu_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "呂佈",
+        "布"
+      ],
+      "description": "敗於曹操後投奔徐州劉備，後被安置於小沛。",
+      "evidence": [
+        "布乃收集敗殘軍馬",
+        "竟投徐州來"
+      ]
+    },
+    {
+      "id": "char_chen_gong",
+      "name": "陳宮",
+      "type": "character",
+      "aliases": [
+        "宮"
+      ],
+      "description": "呂布謀士，建議暫避曹操、投奔劉備。",
+      "evidence": [
+        "陳宮曰：曹兵勢大",
+        "聞劉玄德新領徐州"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "紹"
+      ],
+      "description": "據冀州，聽從審配建議派兵助曹操攻呂布。",
+      "evidence": [
+        "袁紹在冀州",
+        "遣良將兵五萬"
+      ]
+    },
+    {
+      "id": "char_shen_pei",
+      "name": "審配",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀士，主張助曹操以防呂布。",
+      "evidence": [
+        "謀士審配進曰"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "使君"
+      ],
+      "description": "新領徐州，接納呂布並安置小沛。",
+      "evidence": [
+        "劉玄德新領徐州",
+        "可出迎之"
+      ]
+    },
+    {
+      "id": "char_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "勸劉備不可收留呂布。",
+      "evidence": [
+        "呂布乃虎狼之徒，不可收留"
+      ]
+    },
+    {
+      "id": "char_guan_gong",
+      "name": "關公",
+      "type": "character",
+      "aliases": [
+        "關"
+      ],
+      "description": "隨劉備赴呂布席，勸止張飛。",
+      "evidence": [
+        "關、張二公各有怒色",
+        "關公勸飛出"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張",
+        "劣弟"
+      ],
+      "description": "怒斥呂布稱劉備為賢弟，屢欲與呂布交戰。",
+      "evidence": [
+        "敢稱我哥哥為賢弟",
+        "我和你鬥三百合"
+      ]
+    },
+    {
+      "id": "char_xian_di",
+      "name": "獻帝",
+      "type": "character",
+      "aliases": [
+        "天子",
+        "帝",
+        "陛下",
+        "朕"
+      ],
+      "description": "被李傕、郭汜挾制，經楊奉、董承等多次救駕轉徙。",
+      "evidence": [
+        "朕奕被二賊霸凌",
+        "請天子駕幸弘農"
+      ]
+    },
+    {
+      "id": "char_fu_hou",
+      "name": "伏皇后",
+      "type": "character",
+      "aliases": [
+        "伏皇后",
+        "後",
+        "皇后"
+      ],
+      "description": "隨獻帝被劫與逃難，黃河渡難時由伏德背負下船。",
+      "evidence": [
+        "一乘載伏皇后",
+        "伏德，負後下船中"
+      ]
+    },
+    {
+      "id": "char_li_jue",
+      "name": "李傕",
+      "type": "character",
+      "aliases": [
+        "傕",
+        "李司馬"
+      ],
+      "description": "自為大司馬，劫持天子，與郭汜反覆交兵。",
+      "evidence": [
+        "李傕自為大司馬",
+        "劫了天子"
+      ]
+    },
+    {
+      "id": "char_guo_si",
+      "name": "郭汜",
+      "type": "character",
+      "aliases": [
+        "汜",
+        "郭阿多"
+      ],
+      "description": "自為大將軍，與李傕互攻，劫公卿並追奪車駕。",
+      "evidence": [
+        "郭汜自為大將軍",
+        "偏我劫不得公卿"
+      ]
+    },
+    {
+      "id": "char_yang_biao",
+      "name": "楊彪",
+      "type": "character",
+      "aliases": [],
+      "description": "太尉，向獻帝獻離間李傕、郭汜之計，後多次護主。",
+      "evidence": [
+        "太尉楊彪",
+        "先令二賊自相殘害"
+      ]
+    },
+    {
+      "id": "char_zhu_jun",
+      "name": "朱儁",
+      "type": "character",
+      "aliases": [],
+      "description": "大司農，與楊彪同謀救朝廷，獲釋後病死。",
+      "evidence": [
+        "大司農朱儁暗奏",
+        "歸家成病而死"
+      ]
+    },
+    {
+      "id": "char_guo_wife",
+      "name": "郭汜妻",
+      "type": "character",
+      "aliases": [
+        "汜妻"
+      ],
+      "description": "受楊彪夫人離間，疑李傕害郭汜，於李傕送來酒食中置毒試犬。",
+      "evidence": [
+        "告汜妻曰",
+        "暗置毒於中"
+      ]
+    },
+    {
+      "id": "char_li_xian",
+      "name": "李暹",
+      "type": "character",
+      "aliases": [
+        "傕侄李暹"
+      ],
+      "description": "李傕之侄，引兵圍宮院並載走帝后。",
+      "evidence": [
+        "傕侄李暹引兵圍住宮院"
+      ]
+    },
+    {
+      "id": "char_jia_xu",
+      "name": "賈詡",
+      "type": "character",
+      "aliases": [
+        "詡"
+      ],
+      "description": "奉李傕監押車駕，後暗助獻帝並獻以爵賞誘李傕之策。",
+      "evidence": [
+        "賈詡、左靈監押車駕",
+        "可以重爵餌之"
+      ]
+    },
+    {
+      "id": "char_zuo_ling",
+      "name": "左靈",
+      "type": "character",
+      "aliases": [],
+      "description": "與賈詡一同監押車駕。",
+      "evidence": [
+        "賈詡、左靈監押車駕"
+      ]
+    },
+    {
+      "id": "char_yang_qi",
+      "name": "楊琦",
+      "type": "character",
+      "aliases": [],
+      "description": "侍中，勸獻帝暫忍李傕欺凌。",
+      "evidence": [
+        "侍中楊琦急奏"
+      ]
+    },
+    {
+      "id": "char_yang_mi",
+      "name": "楊密",
+      "type": "character",
+      "aliases": [],
+      "description": "中郎將，力勸郭汜勿殺楊彪。",
+      "evidence": [
+        "中郎將楊密力勸"
+      ]
+    },
+    {
+      "id": "char_huangfu_li",
+      "name": "皇甫酈",
+      "type": "character",
+      "aliases": [
+        "酈"
+      ],
+      "description": "奉詔往李傕、郭汜兩邊勸和，當面斥責李傕劫至尊。",
+      "evidence": [
+        "詔使往兩邊解和",
+        "將軍劫至尊"
+      ]
+    },
+    {
+      "id": "char_hu_miao",
+      "name": "胡邈",
+      "type": "character",
+      "aliases": [
+        "胡敬才"
+      ],
+      "description": "侍中，制止皇甫酈高呼李傕欲弒君自立。",
+      "evidence": [
+        "侍中胡邈急止之"
+      ]
+    },
+    {
+      "id": "char_wang_chang",
+      "name": "王昌",
+      "type": "character",
+      "aliases": [],
+      "description": "虎賁，奉命追皇甫酈但因敬其忠義而未追。",
+      "evidence": [
+        "差虎賁王昌追之",
+        "竟不往追"
+      ]
+    },
+    {
+      "id": "char_witch",
+      "name": "女巫",
+      "type": "character",
+      "aliases": [],
+      "description": "在李傕軍中擊鼓降神，受李傕重賞。",
+      "evidence": [
+        "女巫擊鼓降神",
+        "遂重賞女巫"
+      ]
+    },
+    {
+      "id": "char_yang_feng",
+      "name": "楊奉",
+      "type": "character",
+      "aliases": [],
+      "description": "騎都尉，先謀殺李傕失敗，後多次率軍救護獻帝。",
+      "evidence": [
+        "騎都尉楊奉大怒",
+        "特來保護"
+      ]
+    },
+    {
+      "id": "char_song_guo",
+      "name": "宋果",
+      "type": "character",
+      "aliases": [],
+      "description": "與楊奉約定放火為號謀殺李傕，事泄被殺。",
+      "evidence": [
+        "謂宋果曰",
+        "擒宋果先殺之"
+      ]
+    },
+    {
+      "id": "char_zhang_ji",
+      "name": "張濟",
+      "type": "character",
+      "aliases": [
+        "濟"
+      ],
+      "description": "統領大軍調停李傕、郭汜，請天子駕幸弘農。",
+      "evidence": [
+        "張濟統領大軍",
+        "請天子駕幸弘農"
+      ]
+    },
+    {
+      "id": "char_xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [
+        "公明"
+      ],
+      "description": "楊奉部將，持大斧斬崔勇並助救駕。",
+      "evidence": [
+        "字公明",
+        "斬崔勇於馬下"
+      ]
+    },
+    {
+      "id": "char_cui_yong",
+      "name": "崔勇",
+      "type": "character",
+      "aliases": [],
+      "description": "郭汜將領，出馬罵楊奉，被徐晃斬殺。",
+      "evidence": [
+        "汜將崔勇出馬",
+        "斬崔勇於馬下"
+      ]
+    },
+    {
+      "id": "char_duan_wei",
+      "name": "段煨",
+      "type": "character",
+      "aliases": [],
+      "description": "將軍，在華陰向天子獻衣服飲膳。",
+      "evidence": [
+        "將軍段煨，具衣服飲膳上獻"
+      ]
+    },
+    {
+      "id": "char_dong_cheng",
+      "name": "董承",
+      "type": "character",
+      "aliases": [
+        "承",
+        "國戚董承"
+      ],
+      "description": "國戚，率軍救駕，與楊奉誓斬李傕、郭汜。",
+      "evidence": [
+        "乃國戚董承也",
+        "誓斬二賊"
+      ]
+    },
+    {
+      "id": "char_han_xian",
+      "name": "韓暹",
+      "type": "character",
+      "aliases": [],
+      "description": "故白波帥之一，奉密詔來救應，後受封徵東將軍。",
+      "evidence": [
+        "故白波帥韓暹",
+        "封韓暹為徵東將軍"
+      ]
+    },
+    {
+      "id": "char_li_le",
+      "name": "李樂",
+      "type": "character",
+      "aliases": [
+        "樂"
+      ],
+      "description": "白波軍首領之一，先奉詔救駕，後專權並暗結李傕、郭汜追駕。",
+      "evidence": [
+        "那李樂亦是嘯聚山林之賊",
+        "暗令人結連李傕、郭汜"
+      ]
+    },
+    {
+      "id": "char_hu_cai",
+      "name": "胡才",
+      "type": "character",
+      "aliases": [],
+      "description": "白波軍首領之一，救駕途中被亂軍所殺。",
+      "evidence": [
+        "胡才三處軍兵",
+        "胡才被亂軍所殺"
+      ]
+    },
+    {
+      "id": "char_fu_de",
+      "name": "伏德",
+      "type": "character",
+      "aliases": [
+        "國舅伏德",
+        "後兄伏德"
+      ],
+      "description": "伏皇后之兄，於黃河渡難時提供白絹並背伏皇后下船。",
+      "evidence": [
+        "國舅伏德挾白絹",
+        "負後下船中"
+      ]
+    },
+    {
+      "id": "char_shang_hong",
+      "name": "尚弘",
+      "type": "character",
+      "aliases": [],
+      "description": "行軍校尉，在黃河渡難中協助帝后下船。",
+      "evidence": [
+        "行軍校尉尚弘"
+      ]
+    },
+    {
+      "id": "char_han_rong",
+      "name": "韓融",
+      "type": "character",
+      "aliases": [],
+      "description": "太僕，願捨命說李傕、郭汜罷兵，後使二賊放還百官宮人。",
+      "evidence": [
+        "太僕韓融",
+        "捨命去說二賊罷兵"
+      ]
+    },
+    {
+      "id": "char_zhang_yang",
+      "name": "張楊",
+      "type": "character",
+      "aliases": [],
+      "description": "河內太守，向逃難中的獻帝獻米肉。",
+      "evidence": [
+        "河內太守張楊獻米肉"
+      ]
+    },
+    {
+      "id": "char_wang_yi",
+      "name": "王邑",
+      "type": "character",
+      "aliases": [],
+      "description": "河東太守，向逃難中的獻帝獻絹帛。",
+      "evidence": [
+        "河東太守王邑獻絹帛"
+      ]
+    },
+    {
+      "id": "faction_han_court",
+      "name": "漢朝朝廷",
+      "type": "faction",
+      "aliases": [
+        "朝廷",
+        "社稷",
+        "漢朝"
+      ],
+      "description": "本章被李傕、郭汜挾制，百官流離。",
+      "evidence": [
+        "扶持社稷",
+        "以安朝廷"
+      ]
+    },
+    {
+      "id": "faction_public_officials",
+      "name": "公卿百官",
+      "type": "faction",
+      "aliases": [
+        "百官",
+        "公卿",
+        "眾官",
+        "朝廷官僚"
+      ],
+      "description": "隨獻帝受難，曾被郭汜劫持監禁。",
+      "evidence": [
+        "朝廷官僚六十餘人",
+        "眾官盡行監下"
+      ]
+    },
+    {
+      "id": "army_cao",
+      "name": "曹兵",
+      "type": "army",
+      "aliases": [
+        "曹軍"
+      ],
+      "description": "曹操部隊，勢大使呂布不敢再戰。",
+      "evidence": [
+        "今曹兵勢大"
+      ]
+    },
+    {
+      "id": "army_yuan",
+      "name": "袁紹援軍",
+      "type": "army",
+      "aliases": [
+        "良將兵五萬"
+      ],
+      "description": "袁紹派往助曹操攻呂布的兵馬。",
+      "evidence": [
+        "遣良將兵五萬，往助曹操"
+      ]
+    },
+    {
+      "id": "army_lu_bu",
+      "name": "呂布軍",
+      "type": "army",
+      "aliases": [
+        "敗殘軍馬"
+      ],
+      "description": "呂布敗後收集於海濱的殘軍。",
+      "evidence": [
+        "收集敗殘軍馬於海濱"
+      ]
+    },
+    {
+      "id": "army_li_jue",
+      "name": "李傕軍",
+      "type": "army",
+      "aliases": [
+        "傕軍"
+      ],
+      "description": "李傕本部兵馬，劫天子、攻郭汜並追車駕。",
+      "evidence": [
+        "點本部甲兵",
+        "傕收拾車駕東行"
+      ]
+    },
+    {
+      "id": "army_guo_si",
+      "name": "郭汜軍",
+      "type": "army",
+      "aliases": [
+        "汜軍"
+      ],
+      "description": "郭汜本部兵馬，攻李傕、劫公卿並追車駕。",
+      "evidence": [
+        "密整本部甲兵",
+        "汜軍大敗"
+      ]
+    },
+    {
+      "id": "army_xiliang",
+      "name": "西涼軍士",
+      "type": "army",
+      "aliases": [
+        "西涼人"
+      ],
+      "description": "李傕軍中大半為西涼人，後受皇甫酈言論影響軍心漸渙。",
+      "evidence": [
+        "大半是西涼人氏",
+        "軍心漸渙"
+      ]
+    },
+    {
+      "id": "army_qiang",
+      "name": "羌兵",
+      "type": "army",
+      "aliases": [
+        "羌人"
+      ],
+      "description": "李傕倚為助力的兵眾，被賈詡密諭。",
+      "evidence": [
+        "更賴羌兵為助",
+        "密諦羌人"
+      ]
+    },
+    {
+      "id": "army_yulin",
+      "name": "御林軍",
+      "type": "army",
+      "aliases": [],
+      "description": "李傕遣數百舊御林軍持戟護送車駕東行。",
+      "evidence": [
+        "舊有御林軍數百，持戟護送"
+      ]
+    },
+    {
+      "id": "army_zhang_ji",
+      "name": "張濟軍",
+      "type": "army",
+      "aliases": [],
+      "description": "張濟統領的大軍，用以威懾李傕、郭汜和解。",
+      "evidence": [
+        "張濟統領大軍"
+      ]
+    },
+    {
+      "id": "army_yang_feng",
+      "name": "楊奉軍",
+      "type": "army",
+      "aliases": [],
+      "description": "楊奉所率救駕兵馬。",
+      "evidence": [
+        "引軍千餘殺來"
+      ]
+    },
+    {
+      "id": "army_dong_cheng",
+      "name": "董承軍",
+      "type": "army",
+      "aliases": [],
+      "description": "董承所率救駕兵馬。",
+      "evidence": [
+        "一將引軍縱馬殺來"
+      ]
+    },
+    {
+      "id": "army_baibo",
+      "name": "白波軍",
+      "type": "army",
+      "aliases": [
+        "故白波帥三處軍兵"
+      ],
+      "description": "韓暹、李樂、胡才三處兵馬，被密詔召來救應。",
+      "evidence": [
+        "故白波帥韓暹、李樂、胡才三處軍兵"
+      ]
+    },
+    {
+      "id": "army_han_xian",
+      "name": "韓暹軍",
+      "type": "army",
+      "aliases": [],
+      "description": "韓暹所部白波兵。",
+      "evidence": [
+        "韓暹、李樂、胡才三處軍兵"
+      ]
+    },
+    {
+      "id": "army_li_le",
+      "name": "李樂軍",
+      "type": "army",
+      "aliases": [],
+      "description": "李樂所部，曾被郭汜棄物之計擾亂。",
+      "evidence": [
+        "樂軍見衣服滿地"
+      ]
+    },
+    {
+      "id": "army_hu_cai",
+      "name": "胡才軍",
+      "type": "army",
+      "aliases": [],
+      "description": "胡才所部白波兵。",
+      "evidence": [
+        "胡才三處軍兵"
+      ]
+    },
+    {
+      "id": "army_dare_to_die",
+      "name": "敢死軍",
+      "type": "army",
+      "aliases": [],
+      "description": "李傕、郭汜臨敵驅民在前所稱之軍。",
+      "evidence": [
+        "驅民兵在前，名曰：敢死軍"
+      ]
+    },
+    {
+      "id": "loc_dingtao",
+      "name": "定陶",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操大破呂布之地。",
+      "evidence": [
+        "大破呂佈於定陶"
+      ]
+    },
+    {
+      "id": "loc_jizhou",
+      "name": "冀州",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹所在之地。",
+      "evidence": [
+        "袁紹在冀州"
+      ]
+    },
+    {
+      "id": "loc_yanzhou",
+      "name": "兗州",
+      "type": "location",
+      "aliases": [],
+      "description": "呂布曾襲取、袁紹憂其圖冀州之地。",
+      "evidence": [
+        "若得兗州，必圖冀州"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備新領之地，呂布前往投奔。",
+      "evidence": [
+        "劉玄德新領徐州"
+      ]
+    },
+    {
+      "id": "loc_xiaopei",
+      "name": "小沛",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備用以安置呂布的近邑。",
+      "evidence": [
+        "近邑小沛"
+      ]
+    },
+    {
+      "id": "loc_shandong",
+      "name": "山東",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操平定之區域，亦為李郭恐車駕立足之處。",
+      "evidence": [
+        "曹操平了山東",
+        "若到山東"
+      ]
+    },
+    {
+      "id": "loc_changan",
+      "name": "長安",
+      "type": "location",
+      "aliases": [
+        "長安城"
+      ],
+      "description": "李傕、郭汜在城下混戰並劫掠之地。",
+      "evidence": [
+        "長安城下混戰"
+      ]
+    },
+    {
+      "id": "loc_palace",
+      "name": "宮院",
+      "type": "location",
+      "aliases": [
+        "宮殿"
+      ],
+      "description": "李暹圍住並移出帝后，郭汜兵後來焚燒宮殿。",
+      "evidence": [
+        "圍住宮院",
+        "放火燒宮殿"
+      ]
+    },
+    {
+      "id": "loc_li_jue_camp",
+      "name": "李傕營",
+      "type": "location",
+      "aliases": [
+        "傕營"
+      ],
+      "description": "獻帝被李傕擁至之營。",
+      "evidence": [
+        "擁到李傕營中"
+      ]
+    },
+    {
+      "id": "loc_guo_si_camp",
+      "name": "郭汜營",
+      "type": "location",
+      "aliases": [
+        "汜營"
+      ],
+      "description": "郭汜監禁公卿之營。",
+      "evidence": [
+        "郭汜營中勸和",
+        "監在營中"
+      ]
+    },
+    {
+      "id": "loc_meiwu",
+      "name": "郿塢",
+      "type": "location",
+      "aliases": [],
+      "description": "郭汜欲再劫車駕返回之地。",
+      "evidence": [
+        "劫駕再入郿塢"
+      ]
+    },
+    {
+      "id": "loc_baling",
+      "name": "霸陵",
+      "type": "location",
+      "aliases": [],
+      "description": "車駕東行經過並遇攔阻之地。",
+      "evidence": [
+        "至霸陵"
+      ]
+    },
+    {
+      "id": "loc_huayin",
+      "name": "華陰",
+      "type": "location",
+      "aliases": [
+        "華陰縣"
+      ],
+      "description": "楊奉、徐晃救駕並駐蹕之地。",
+      "evidence": [
+        "車駕正到華陰縣",
+        "保駕至華陰駐蹕"
+      ]
+    },
+    {
+      "id": "loc_zhongnan",
+      "name": "終南山",
+      "type": "location",
+      "aliases": [],
+      "description": "楊奉敗後屯軍之處。",
+      "evidence": [
+        "屯終南山下"
+      ]
+    },
+    {
+      "id": "loc_hongnong",
+      "name": "弘農",
+      "type": "location",
+      "aliases": [],
+      "description": "張濟請駕幸之地，後李郭兵入劫掠。",
+      "evidence": [
+        "駕幸弘農",
+        "入弘農劫掠"
+      ]
+    },
+    {
+      "id": "loc_luoyang",
+      "name": "東都洛陽",
+      "type": "location",
+      "aliases": [
+        "東都",
+        "洛陽"
+      ],
+      "description": "獻帝與董承、楊奉欲返回的漢都。",
+      "evidence": [
+        "朕思東都久矣",
+        "奉駕還洛陽"
+      ]
+    },
+    {
+      "id": "loc_dongjian",
+      "name": "東澗",
+      "type": "location",
+      "aliases": [],
+      "description": "楊奉、董承與李傕、郭汜大戰之處。",
+      "evidence": [
+        "大戰於東澗"
+      ]
+    },
+    {
+      "id": "loc_hedong",
+      "name": "河東",
+      "type": "location",
+      "aliases": [],
+      "description": "密詔召白波軍之方向，亦為徐晃籍貫與王邑轄地。",
+      "evidence": [
+        "往河東",
+        "河東楊郡人"
+      ]
+    },
+    {
+      "id": "loc_weiyang",
+      "name": "渭陽",
+      "type": "location",
+      "aliases": [],
+      "description": "李樂軍來會並遭傕汜擊敗之地。",
+      "evidence": [
+        "李樂軍到，會於渭陽"
+      ]
+    },
+    {
+      "id": "loc_yellow_river",
+      "name": "黃河",
+      "type": "location",
+      "aliases": [],
+      "description": "獻帝、伏皇后逃難渡河之處。",
+      "evidence": [
+        "步行到黃河岸邊"
+      ]
+    },
+    {
+      "id": "loc_dayang",
+      "name": "大陽",
+      "type": "location",
+      "aliases": [],
+      "description": "楊奉用牛車載獻帝到達之地。",
+      "evidence": [
+        "載帝至大陽"
+      ]
+    },
+    {
+      "id": "loc_anyi",
+      "name": "安邑縣",
+      "type": "location",
+      "aliases": [
+        "安邑"
+      ],
+      "description": "獻帝暫都並困居茅屋之地。",
+      "evidence": [
+        "請帝都安邑縣"
+      ]
+    },
+    {
+      "id": "loc_jiguan",
+      "name": "箕關",
+      "type": "location",
+      "aliases": [],
+      "description": "董承、楊奉、韓暹護送車駕前奔之處。",
+      "evidence": [
+        "護送車駕前奔箕關"
+      ]
+    },
+    {
+      "id": "loc_jishan",
+      "name": "箕山",
+      "type": "location",
+      "aliases": [
+        "箕山下"
+      ],
+      "description": "李樂追上車駕並恐嚇獻帝之地。",
+      "evidence": [
+        "趕到箕山下"
+      ]
+    },
+    {
+      "id": "title_jian_de",
+      "name": "建德將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操受加之官號。",
+      "evidence": [
+        "加操為建德將軍"
+      ]
+    },
+    {
+      "id": "title_fei_ting_hou",
+      "name": "費亭侯",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操受封之侯爵。",
+      "evidence": [
+        "費亭侯"
+      ]
+    },
+    {
+      "id": "title_da_sima",
+      "name": "大司馬",
+      "type": "title",
+      "aliases": [],
+      "description": "李傕自任且後受詔封的官號。",
+      "evidence": [
+        "李傕自為大司馬",
+        "封傕為大司馬"
+      ]
+    },
+    {
+      "id": "title_da_jiangjun",
+      "name": "大將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "郭汜自任之官號。",
+      "evidence": [
+        "郭汜自為大將軍"
+      ]
+    },
+    {
+      "id": "title_taiwei",
+      "name": "太尉",
+      "type": "title",
+      "aliases": [],
+      "description": "楊彪官職。",
+      "evidence": [
+        "太尉楊彪"
+      ]
+    },
+    {
+      "id": "title_da_sinong",
+      "name": "大司農",
+      "type": "title",
+      "aliases": [],
+      "description": "朱儁官職。",
+      "evidence": [
+        "大司農朱儁"
+      ]
+    },
+    {
+      "id": "title_shizhong",
+      "name": "侍中",
+      "type": "title",
+      "aliases": [],
+      "description": "楊琦、胡邈官職。",
+      "evidence": [
+        "侍中楊琦",
+        "侍中胡邈"
+      ]
+    },
+    {
+      "id": "title_zhonglangjiang",
+      "name": "中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "楊密官職。",
+      "evidence": [
+        "中郎將楊密"
+      ]
+    },
+    {
+      "id": "title_qiduwei",
+      "name": "騎都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "楊奉官職。",
+      "evidence": [
+        "騎都尉楊奉"
+      ]
+    },
+    {
+      "id": "title_piaoqi",
+      "name": "驃騎將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "張濟受封官號。",
+      "evidence": [
+        "封張濟為驃騎將軍"
+      ]
+    },
+    {
+      "id": "title_zhengbei",
+      "name": "徵北將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "李樂受封官號。",
+      "evidence": [
+        "封李樂為徵北將軍"
+      ]
+    },
+    {
+      "id": "title_zhengdong",
+      "name": "徵東將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "韓暹受封官號。",
+      "evidence": [
+        "韓暹為徵東將軍"
+      ]
+    },
+    {
+      "id": "title_taipu",
+      "name": "太僕",
+      "type": "title",
+      "aliases": [],
+      "description": "韓融官職。",
+      "evidence": [
+        "太僕韓融"
+      ]
+    },
+    {
+      "id": "title_heinei_taishou",
+      "name": "河內太守",
+      "type": "title",
+      "aliases": [],
+      "description": "張楊官職。",
+      "evidence": [
+        "河內太守張楊"
+      ]
+    },
+    {
+      "id": "title_hedong_taishou",
+      "name": "河東太守",
+      "type": "title",
+      "aliases": [],
+      "description": "王邑官職。",
+      "evidence": [
+        "河東太守王邑"
+      ]
+    },
+    {
+      "id": "title_guojiu",
+      "name": "國舅",
+      "type": "title",
+      "aliases": [],
+      "description": "伏德稱號。",
+      "evidence": [
+        "國舅伏德"
+      ]
+    },
+    {
+      "id": "title_xingjun_xiaowei",
+      "name": "行軍校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "尚弘官職。",
+      "evidence": [
+        "行軍校尉尚弘"
+      ]
+    },
+    {
+      "id": "obj_chariot",
+      "name": "車駕",
+      "type": "object",
+      "aliases": [
+        "鑾輿"
+      ],
+      "description": "獻帝與伏皇后乘坐及被諸軍爭奪護送的帝后車駕。",
+      "evidence": [
+        "監押車駕",
+        "鑾輿新豐"
+      ]
+    },
+    {
+      "id": "obj_poisoned_wine",
+      "name": "毒酒",
+      "type": "object",
+      "aliases": [
+        "酒筵"
+      ],
+      "description": "郭汜妻在李傕送來酒食中暗置毒，以犬試之致死。",
+      "evidence": [
+        "暗置毒於中",
+        "犬立死"
+      ]
+    },
+    {
+      "id": "obj_rotten_food",
+      "name": "腐肉朽糧",
+      "type": "object",
+      "aliases": [],
+      "description": "李傕給獻帝的不可食之物。",
+      "evidence": [
+        "腐肉朽糧與之"
+      ]
+    },
+    {
+      "id": "obj_edict",
+      "name": "聖旨",
+      "type": "object",
+      "aliases": [
+        "詔",
+        "密詔"
+      ],
+      "description": "獻帝用以封賞、召兵與令臣行事的詔令。",
+      "evidence": [
+        "帝乃降詔",
+        "密傳聖旨"
+      ]
+    },
+    {
+      "id": "obj_books_seals",
+      "name": "符冊典籍",
+      "type": "object",
+      "aliases": [
+        "御用之物"
+      ],
+      "description": "東澗敗走時被拋棄的朝廷文物。",
+      "evidence": [
+        "符冊典籍，一應禦用之物，盡皆拋棄"
+      ]
+    },
+    {
+      "id": "obj_white_silk",
+      "name": "白絹",
+      "type": "object",
+      "aliases": [],
+      "description": "伏德於亂軍中拾得，用來接連拽輦下船。",
+      "evidence": [
+        "伏德挾白絹十數匹"
+      ]
+    },
+    {
+      "id": "obj_boat",
+      "name": "小舟",
+      "type": "object",
+      "aliases": [
+        "渡船"
+      ],
+      "description": "李樂等尋得用來渡帝后過黃河的船。",
+      "evidence": [
+        "尋得一艘小舟作渡船"
+      ]
+    },
+    {
+      "id": "obj_oxcart",
+      "name": "牛車",
+      "type": "object",
+      "aliases": [],
+      "description": "楊奉尋得，用以載獻帝至大陽。",
+      "evidence": [
+        "尋得牛車一輛"
+      ]
+    },
+    {
+      "id": "obj_improvised_seals",
+      "name": "錐畫印",
+      "type": "object",
+      "aliases": [
+        "官印"
+      ],
+      "description": "李樂、韓暹濫保官職時來不及刻印而以錐畫之。",
+      "evidence": [
+        "刻印不及，以錐畫之"
+      ]
+    },
+    {
+      "id": "strategy_divide_li_guo",
+      "name": "離間傕汜",
+      "type": "strategy",
+      "aliases": [
+        "二賊自相殘害"
+      ],
+      "description": "楊彪、朱儁欲先令李傕、郭汜相害，再召曹操討賊。",
+      "evidence": [
+        "先令二賊自相殘害"
+      ]
+    },
+    {
+      "id": "strategy_call_cao",
+      "name": "詔曹操討賊",
+      "type": "strategy",
+      "aliases": [],
+      "description": "楊彪、朱儁計畫待李郭相殘後詔曹操引兵剿除。",
+      "evidence": [
+        "然後詔曹操引兵殺之"
+      ]
+    },
+    {
+      "id": "strategy_title_bait",
+      "name": "重爵餌李傕",
+      "type": "strategy",
+      "aliases": [
+        "爵賞誘敵"
+      ],
+      "description": "賈詡建議以重爵安撫貪而無謀的李傕。",
+      "evidence": [
+        "可以重爵餌之"
+      ]
+    },
+    {
+      "id": "strategy_fire_signal",
+      "name": "放火為號",
+      "type": "strategy",
+      "aliases": [],
+      "description": "楊奉、宋果約定由宋果中軍放火，楊奉外應殺李傕。",
+      "evidence": [
+        "放火為號",
+        "引兵外應"
+      ]
+    },
+    {
+      "id": "strategy_throw_goods",
+      "name": "棄物誘敵",
+      "type": "strategy",
+      "aliases": [],
+      "description": "郭汜令軍士拋衣物於道，誘使李樂軍爭取而亂隊。",
+      "evidence": [
+        "衣服物件拋棄於道",
+        "隊伍盡失"
+      ]
+    },
+    {
+      "id": "strategy_secret_baibo",
+      "name": "密召白波軍",
+      "type": "strategy",
+      "aliases": [],
+      "description": "董承、楊奉密傳聖旨召韓暹、李樂、胡才三軍救應。",
+      "evidence": [
+        "密傳聖旨往河東",
+        "急召故白波帥"
+      ]
+    },
+    {
+      "id": "strategy_drive_people",
+      "name": "驅民敢死",
+      "type": "strategy",
+      "aliases": [
+        "敢死軍"
+      ],
+      "description": "李傕、郭汜臨敵驅百姓在前，稱為敢死軍。",
+      "evidence": [
+        "臨敵則驅民兵在前"
+      ]
+    },
+    {
+      "id": "strategy_li_le_collusion",
+      "name": "李樂結連傕汜",
+      "type": "strategy",
+      "aliases": [
+        "三賊合一"
+      ],
+      "description": "李樂暗中聯絡李傕、郭汜，一同劫駕。",
+      "evidence": [
+        "暗令人結連李傕、郭汜"
+      ]
+    },
+    {
+      "id": "battle_dingtao",
+      "name": "定陶之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹操大破呂布的戰事。",
+      "evidence": [
+        "大破呂佈於定陶"
+      ]
+    },
+    {
+      "id": "battle_changan",
+      "name": "李傕郭汜長安混戰",
+      "type": "battle",
+      "aliases": [
+        "長安城下混戰"
+      ],
+      "description": "李傕、郭汜本部兵馬在長安城下大戰並劫掠居民。",
+      "evidence": [
+        "長安城下混戰"
+      ]
+    },
+    {
+      "id": "battle_yang_feng_revolt",
+      "name": "楊奉寨中混戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "楊奉謀殺李傕事泄後，與李傕軍在寨中混戰至四更。",
+      "evidence": [
+        "就寨中混戰到四更"
+      ]
+    },
+    {
+      "id": "battle_huayin",
+      "name": "華陰救駕之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "楊奉率軍救駕，徐晃斬崔勇，郭汜軍敗走。",
+      "evidence": [
+        "華陰縣",
+        "汜軍大敗"
+      ]
+    },
+    {
+      "id": "battle_dongjian",
+      "name": "東澗之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "楊奉、董承與李傕、郭汜追兵在東澗交戰，帝后車駕勉強脫出。",
+      "evidence": [
+        "大戰於東澗"
+      ]
+    },
+    {
+      "id": "battle_weiyang",
+      "name": "渭陽之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "李樂軍會於渭陽後受郭汜棄物誘亂，遭傕汜二軍擊敗。",
+      "evidence": [
+        "會於渭陽",
+        "樂軍大敗"
+      ]
+    },
+    {
+      "id": "battle_jishan",
+      "name": "箕山追駕",
+      "type": "battle",
+      "aliases": [],
+      "description": "李樂追至箕山下，阻遏車駕前行。",
+      "evidence": [
+        "趕到箕山下",
+        "車駕休行"
+      ]
+    },
+    {
+      "id": "event_lu_bu_xuzhou",
+      "name": "呂布投徐州",
+      "type": "event",
+      "aliases": [],
+      "description": "呂布敗後聽陳宮之言投奔徐州劉備，並被安置。",
+      "evidence": [
+        "竟投徐州來"
+      ]
+    },
+    {
+      "id": "event_li_guo_rift",
+      "name": "李郭反目",
+      "type": "event",
+      "aliases": [],
+      "description": "郭汜因毒酒與讒言疑李傕害己，雙方起兵相攻。",
+      "evidence": [
+        "自此汜心懷疑",
+        "欲攻李傕"
+      ]
+    },
+    {
+      "id": "event_abduct_emperor",
+      "name": "李傕劫駕",
+      "type": "event",
+      "aliases": [],
+      "description": "李暹等奉李傕勢力圍宮載走帝后，擁至李傕營。",
+      "evidence": [
+        "載天子",
+        "擁到李傕營中"
+      ]
+    },
+    {
+      "id": "event_guo_captures_officials",
+      "name": "郭汜劫公卿",
+      "type": "event",
+      "aliases": [],
+      "description": "郭汜監禁前來勸和的朝廷官僚。",
+      "evidence": [
+        "眾官盡行監下"
+      ]
+    },
+    {
+      "id": "event_huangfu_mediation",
+      "name": "皇甫酈奉詔勸和",
+      "type": "event",
+      "aliases": [],
+      "description": "皇甫酈奉獻帝詔往郭汜、李傕兩邊解和，激怒李傕。",
+      "evidence": [
+        "詔使往兩邊解和"
+      ]
+    },
+    {
+      "id": "event_zhang_ji_mediation",
+      "name": "張濟調停東幸弘農",
+      "type": "event",
+      "aliases": [],
+      "description": "張濟統軍調停李郭，請天子駕幸弘農並供給百官。",
+      "evidence": [
+        "張濟統領大軍",
+        "駕幸弘農"
+      ]
+    },
+    {
+      "id": "event_huanghe_crossing",
+      "name": "黃河渡難",
+      "type": "event",
+      "aliases": [],
+      "description": "帝后棄車步至黃河，以小舟、白絹與馬韁渡河。",
+      "evidence": [
+        "步行到黃河岸邊",
+        "小舟作渡船"
+      ]
+    },
+    {
+      "id": "event_anyi_sojourn",
+      "name": "安邑暫駐",
+      "type": "event",
+      "aliases": [],
+      "description": "獻帝至安邑後困居茅屋，李樂、韓暹專權侮慢百官。",
+      "evidence": [
+        "帝後都居於茅屋中",
+        "李樂等專權"
+      ]
+    },
+    {
+      "id": "event_return_luoyang",
+      "name": "奉駕還洛陽",
+      "type": "event",
+      "aliases": [],
+      "description": "董承、楊奉欲奉車駕還洛陽，李樂不從並暗結李郭追駕。",
+      "evidence": [
+        "欲奉車駕還東都",
+        "李樂暗令人結連李傕、郭汜"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_cao_cao",
+      "target": "char_lu_bu",
+      "type": "擊敗",
+      "description": "曹操在定陶大破呂布。",
+      "evidence": [
+        "曹操大破呂佈於定陶"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "char_lu_bu",
+      "type": "進言",
+      "description": "陳宮勸呂布暫避曹操，先尋安身之地。",
+      "evidence": [
+        "今曹兵勢大，未可與爭"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_shen_pei",
+      "target": "char_yuan_shao",
+      "type": "進言",
+      "description": "審配建議袁紹助曹操攻呂布。",
+      "evidence": [
+        "不若助操攻之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_cao_cao",
+      "type": "援助",
+      "description": "袁紹派五萬兵助曹操。",
+      "evidence": [
+        "往助曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "loc_xuzhou",
+      "type": "投奔",
+      "description": "呂布率敗軍投徐州。",
+      "evidence": [
+        "竟投徐州來"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_lu_bu",
+      "type": "接納",
+      "description": "劉備出迎呂布並設宴安置。",
+      "evidence": [
+        "可出迎之",
+        "收拾宅院安下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_mi_zhu",
+      "target": "char_liu_bei",
+      "type": "勸諫",
+      "description": "糜竺勸劉備不可收留呂布。",
+      "evidence": [
+        "不可收留"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_lu_bu",
+      "type": "敵視挑戰",
+      "description": "張飛怒斥呂布並欲鬥三百合。",
+      "evidence": [
+        "我和你鬥三百合"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_fei",
+      "type": "制止",
+      "description": "劉備喝住張飛，避免與呂布衝突。",
+      "evidence": [
+        "玄德連忙喝住"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "char_zhang_fei",
+      "type": "勸止",
+      "description": "關公勸張飛退出並止鬥。",
+      "evidence": [
+        "關公勸飛出"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "loc_xiaopei",
+      "type": "屯駐",
+      "description": "呂布後被安置於小沛。",
+      "evidence": [
+        "近邑小沛"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_jian_de",
+      "type": "受封",
+      "description": "曹操受加建德將軍。",
+      "evidence": [
+        "加操為建德將軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_fei_ting_hou",
+      "type": "受封",
+      "description": "曹操受封費亭侯。",
+      "evidence": [
+        "費亭侯"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_li_jue",
+      "target": "title_da_sima",
+      "type": "自任／受封",
+      "description": "李傕先自為大司馬，後又受詔封。",
+      "evidence": [
+        "自為大司馬",
+        "封傕為大司馬"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guo_si",
+      "target": "title_da_jiangjun",
+      "type": "自任",
+      "description": "郭汜自為大將軍。",
+      "evidence": [
+        "郭汜自為大將軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_biao",
+      "target": "title_taiwei",
+      "type": "擔任",
+      "description": "楊彪官為太尉。",
+      "evidence": [
+        "太尉楊彪"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "title_da_sinong",
+      "type": "擔任",
+      "description": "朱儁官為大司農。",
+      "evidence": [
+        "大司農朱儁"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_biao",
+      "target": "strategy_divide_li_guo",
+      "type": "提出並執行",
+      "description": "楊彪向獻帝提出離間李郭之策。",
+      "evidence": [
+        "有一計：先令二賊自相殘害"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "strategy_divide_li_guo",
+      "type": "參與謀議",
+      "description": "朱儁與楊彪共同暗奏救朝廷之策。",
+      "evidence": [
+        "楊彪、大司農朱儁暗奏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_divide_li_guo",
+      "target": "strategy_call_cao",
+      "type": "前置計策",
+      "description": "離間李郭後再詔曹操討賊。",
+      "evidence": [
+        "然後詔曹操引兵殺之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yang_biao",
+      "target": "char_guo_wife",
+      "type": "離間",
+      "description": "楊彪使夫人入郭汜府告知讒言。",
+      "evidence": [
+        "暗使夫人...告汜妻"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_guo_wife",
+      "target": "obj_poisoned_wine",
+      "type": "置毒",
+      "description": "郭汜妻在李傕送來酒食中暗置毒。",
+      "evidence": [
+        "暗置毒於中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_poisoned_wine",
+      "target": "char_guo_si",
+      "type": "引發猜疑",
+      "description": "犬食毒死後，郭汜懷疑李傕。",
+      "evidence": [
+        "犬立死",
+        "汜心懷疑"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "char_li_jue",
+      "type": "謀攻",
+      "description": "郭汜密整本部甲兵欲攻李傕。",
+      "evidence": [
+        "欲攻李傕"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_guo_si",
+      "type": "攻打",
+      "description": "李傕得報後點兵攻郭汜。",
+      "evidence": [
+        "來殺郭汜"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "battle_changan",
+      "target": "loc_changan",
+      "type": "發生於",
+      "description": "李郭混戰發生在長安城下。",
+      "evidence": [
+        "長安城下混戰"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_li_xian",
+      "target": "char_xian_di",
+      "type": "劫持",
+      "description": "李暹引兵圍宮，用車載走天子。",
+      "evidence": [
+        "一乘載天子"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_xian",
+      "target": "char_fu_hou",
+      "type": "劫持",
+      "description": "李暹同時用車載走伏皇后。",
+      "evidence": [
+        "一乘載伏皇后"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "obj_chariot",
+      "type": "監押",
+      "description": "賈詡奉命監押車駕。",
+      "evidence": [
+        "賈詡...監押車駕"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zuo_ling",
+      "target": "obj_chariot",
+      "type": "監押",
+      "description": "左靈奉命監押車駕。",
+      "evidence": [
+        "左靈監押車駕"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_xian_di",
+      "type": "劫駕",
+      "description": "李傕將帝后擁到自己營中。",
+      "evidence": [
+        "劫了天子",
+        "擁到李傕營中"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guo_si",
+      "target": "loc_palace",
+      "type": "焚掠",
+      "description": "郭汜入宮搶掠宮嬪采女並焚燒宮殿。",
+      "evidence": [
+        "盡搶擄宮嬪採女",
+        "放火燒宮殿"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guo_si",
+      "target": "faction_public_officials",
+      "type": "劫持監禁",
+      "description": "郭汜把來勸和的眾官監在營中。",
+      "evidence": [
+        "眾官盡行監下"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_mi",
+      "target": "char_yang_biao",
+      "type": "救護",
+      "description": "楊密力勸郭汜，楊彪得免於死。",
+      "evidence": [
+        "楊密力勸，汜乃放了楊彪"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "char_yang_biao",
+      "type": "釋放",
+      "description": "郭汜放了楊彪。",
+      "evidence": [
+        "放了楊彪、朱儁"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "char_zhu_jun",
+      "type": "釋放",
+      "description": "郭汜放了朱儁。",
+      "evidence": [
+        "放了楊彪、朱儁"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "char_xian_di",
+      "type": "暗助",
+      "description": "賈詡向獻帝表示會自圖救援。",
+      "evidence": [
+        "臣自圖之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_huangfu_li",
+      "target": "char_xian_di",
+      "type": "奉詔",
+      "description": "皇甫酈奉獻帝詔往兩邊解和。",
+      "evidence": [
+        "詔使往兩邊解和"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_huangfu_li",
+      "target": "char_guo_si",
+      "type": "勸和",
+      "description": "皇甫酈先往郭汜營說和。",
+      "evidence": [
+        "走至汜營說汜"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_huangfu_li",
+      "target": "char_li_jue",
+      "type": "諫責",
+      "description": "皇甫酈當面斥李傕劫至尊重於郭汜劫公卿。",
+      "evidence": [
+        "將軍劫至尊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_huangfu_li",
+      "type": "欲殺",
+      "description": "李傕怒拔劍欲殺皇甫酈。",
+      "evidence": [
+        "拔劍叱曰",
+        "先斬汝頭"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "char_li_jue",
+      "type": "勸止",
+      "description": "楊奉勸李傕勿殺天使，以免郭汜有名興兵。",
+      "evidence": [
+        "殺天使，則汜興兵有名"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "char_li_jue",
+      "type": "勸止",
+      "description": "賈詡亦力勸李傕放過皇甫酈。",
+      "evidence": [
+        "賈詡亦力勸"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_wang_chang",
+      "target": "char_huangfu_li",
+      "type": "放過",
+      "description": "王昌知皇甫酈忠義而不追。",
+      "evidence": [
+        "竟不往追"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_huangfu_li",
+      "target": "army_xiliang",
+      "type": "宣告",
+      "description": "皇甫酈向西涼人宣稱從李傕者為賊黨。",
+      "evidence": [
+        "揚言於西涼人"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "army_qiang",
+      "type": "密諭",
+      "description": "賈詡密諭羌人，使李傕助兵離散。",
+      "evidence": [
+        "密諦羌人"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "strategy_title_bait",
+      "type": "提出",
+      "description": "賈詡建議用重爵餌李傕。",
+      "evidence": [
+        "可以重爵餌之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "char_li_jue",
+      "type": "封賞",
+      "description": "獻帝降詔封李傕為大司馬。",
+      "evidence": [
+        "封傕為大司馬"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_witch",
+      "type": "重賞",
+      "description": "李傕把受封歸功於女巫降神並重賞女巫。",
+      "evidence": [
+        "重賞女巫"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "char_song_guo",
+      "type": "共謀",
+      "description": "楊奉與宋果約定放火為號殺李傕。",
+      "evidence": [
+        "何不殺此賊",
+        "放火為號"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "strategy_fire_signal",
+      "type": "策劃",
+      "description": "楊奉計畫在外引兵應宋果火號。",
+      "evidence": [
+        "吾當引兵外應"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_song_guo",
+      "target": "strategy_fire_signal",
+      "type": "執行預定",
+      "description": "宋果被約定在中軍放火為號。",
+      "evidence": [
+        "你於中軍放火為號"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_song_guo",
+      "type": "殺害",
+      "description": "李傕事先得報，擒宋果殺之。",
+      "evidence": [
+        "擒宋果先殺之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_yang_feng",
+      "type": "交戰",
+      "description": "李傕自將兵出，與楊奉混戰。",
+      "evidence": [
+        "恰遇楊奉",
+        "混戰到四更"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "loc_zhongnan",
+      "type": "屯兵",
+      "description": "楊奉敗後屯於終南山下。",
+      "evidence": [
+        "屯終南山下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "char_li_jue",
+      "type": "調停威懾",
+      "description": "張濟聲稱不從和解即引兵擊之。",
+      "evidence": [
+        "欲與二公解和"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "char_guo_si",
+      "type": "調停威懾",
+      "description": "張濟同時迫郭汜許和。",
+      "evidence": [
+        "郭汜亦只得許諾"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "char_xian_di",
+      "type": "請駕",
+      "description": "張濟上表請天子駕幸弘農。",
+      "evidence": [
+        "請天子駕幸弘農"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "char_zhang_ji",
+      "type": "封賞",
+      "description": "獻帝封張濟為驃騎將軍。",
+      "evidence": [
+        "封張濟為驃騎將軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "faction_public_officials",
+      "type": "供給",
+      "description": "張濟進糧食酒肉供給百官。",
+      "evidence": [
+        "進糧食酒肉，供給百官"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "obj_chariot",
+      "type": "追劫",
+      "description": "郭汜欲哄過張濟後再劫駕入郿塢。",
+      "evidence": [
+        "劫駕再入郿塢"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "char_xian_di",
+      "type": "救援保護",
+      "description": "楊奉聞駕至，率軍救護獻帝。",
+      "evidence": [
+        "特來保護"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "char_xu_huang",
+      "type": "統屬",
+      "description": "楊奉陣中呼公明出戰，徐晃為其部將。",
+      "evidence": [
+        "回顧陣中曰：公明何在"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_cui_yong",
+      "type": "斬殺",
+      "description": "徐晃一合斬郭汜將崔勇。",
+      "evidence": [
+        "一合，斬崔勇於馬下"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_xian_di",
+      "type": "受慰勞",
+      "description": "獻帝詢問斬賊將者並慰勞徐晃。",
+      "evidence": [
+        "帝慰勞之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_duan_wei",
+      "target": "char_xian_di",
+      "type": "進獻",
+      "description": "段煨向天子獻衣服飲膳。",
+      "evidence": [
+        "衣服飲膳上獻"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "char_xian_di",
+      "type": "救援",
+      "description": "董承率軍殺來，解郭汜圍困。",
+      "evidence": [
+        "一將引軍縱馬殺來",
+        "乃國戚董承也"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "char_yang_feng",
+      "type": "同盟救駕",
+      "description": "董承與楊奉誓斬李郭以靖天下。",
+      "evidence": [
+        "臣與楊將軍誓斬二賊"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_guo_si",
+      "type": "合兵",
+      "description": "郭汜敗回後遇李傕，二人合兵追劫。",
+      "evidence": [
+        "二人合兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_dong_cheng",
+      "type": "追擊交戰",
+      "description": "李傕與郭汜追擊董承、楊奉，在東澗大戰。",
+      "evidence": [
+        "大戰於東澗"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "char_yang_feng",
+      "type": "追擊交戰",
+      "description": "郭汜與李傕追擊楊奉，在東澗大戰。",
+      "evidence": [
+        "傕、汜分兵趕來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "loc_hongnong",
+      "type": "劫掠",
+      "description": "郭汜引軍入弘農劫掠。",
+      "evidence": [
+        "引軍入弘農劫掠"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "battle_dongjian",
+      "target": "obj_books_seals",
+      "type": "造成遺棄",
+      "description": "東澗敗走時朝廷符冊典籍等被拋棄。",
+      "evidence": [
+        "盡皆拋棄"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "strategy_secret_baibo",
+      "type": "策劃",
+      "description": "董承與楊奉密傳聖旨召白波軍救應。",
+      "evidence": [
+        "一面密傳聖旨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "strategy_secret_baibo",
+      "type": "策劃",
+      "description": "楊奉與董承共同密召韓暹等軍。",
+      "evidence": [
+        "承、奉...密傳聖旨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_secret_baibo",
+      "target": "char_han_xian",
+      "type": "召集",
+      "description": "密旨召韓暹前來救應。",
+      "evidence": [
+        "急召故白波帥韓暹"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strategy_secret_baibo",
+      "target": "char_li_le",
+      "type": "召集",
+      "description": "密旨召李樂前來救應。",
+      "evidence": [
+        "韓暹、李樂、胡才"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strategy_secret_baibo",
+      "target": "char_hu_cai",
+      "type": "召集",
+      "description": "密旨召胡才前來救應。",
+      "evidence": [
+        "胡才三處軍兵"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guo_si",
+      "target": "strategy_throw_goods",
+      "type": "施計",
+      "description": "郭汜命軍士將衣物拋棄於道。",
+      "evidence": [
+        "郭汜令軍士將衣服物件拋棄於道"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strategy_throw_goods",
+      "target": "army_li_le",
+      "type": "誘亂",
+      "description": "李樂軍爭取衣服而隊伍盡失。",
+      "evidence": [
+        "爭往取之，隊伍盡失"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_hu_cai",
+      "target": "battle_weiyang",
+      "type": "戰死於",
+      "description": "胡才在亂軍中被殺。",
+      "evidence": [
+        "胡才被亂軍所殺"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "faction_public_officials",
+      "type": "不忍拋棄",
+      "description": "危急時獻帝拒絕捨百官先走。",
+      "evidence": [
+        "朕不可捨百官而去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "char_xian_di",
+      "type": "協助渡河",
+      "description": "楊奉建議用馬韁拴帝腰放下船去。",
+      "evidence": [
+        "拴縛帝腰，放下船去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_fu_de",
+      "target": "obj_white_silk",
+      "type": "提供",
+      "description": "伏德於亂軍中拾得白絹用於渡河。",
+      "evidence": [
+        "伏德挾白絹十數匹"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_fu_de",
+      "target": "char_fu_hou",
+      "type": "背負救護",
+      "description": "伏德背伏皇后下船。",
+      "evidence": [
+        "負後下船中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_le",
+      "target": "obj_boat",
+      "type": "守船",
+      "description": "李樂仗劍立於船頭控制渡船。",
+      "evidence": [
+        "李樂仗劍立在船頭上"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "obj_oxcart",
+      "type": "尋得",
+      "description": "楊奉尋牛車載帝至大陽。",
+      "evidence": [
+        "尋得牛車一輛"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "obj_oxcart",
+      "target": "char_xian_di",
+      "type": "運載",
+      "description": "牛車載獻帝到大陽。",
+      "evidence": [
+        "載帝至大陽"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "char_li_le",
+      "type": "封賞",
+      "description": "獻帝封李樂為徵北將軍。",
+      "evidence": [
+        "封李樂為徵北將軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "char_han_xian",
+      "type": "封賞",
+      "description": "獻帝封韓暹為徵東將軍。",
+      "evidence": [
+        "韓暹為徵東將軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_han_rong",
+      "target": "char_xian_di",
+      "type": "請命",
+      "description": "韓融願捨命去說李傕、郭汜罷兵。",
+      "evidence": [
+        "臣捨命去說二賊罷兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_rong",
+      "target": "char_li_jue",
+      "type": "說服",
+      "description": "韓融曲說李傕，使其放百官及宮人。",
+      "evidence": [
+        "二賊從其言，乃放百官"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_han_rong",
+      "target": "char_guo_si",
+      "type": "說服",
+      "description": "韓融曲說郭汜，使其放百官及宮人。",
+      "evidence": [
+        "二賊從其言"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_le",
+      "target": "char_xian_di",
+      "type": "專權侮慢",
+      "description": "李樂等專權，送濁酒粗食給獻帝。",
+      "evidence": [
+        "李樂等專權",
+        "濁酒粗食與帝"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_han_xian",
+      "target": "obj_improvised_seals",
+      "type": "濫保官職",
+      "description": "韓暹與李樂連名保奏二百餘人為官，刻印不及以錐畫。",
+      "evidence": [
+        "李樂、韓暹又連名保奏",
+        "以錐畫之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_yang",
+      "target": "char_xian_di",
+      "type": "進獻",
+      "description": "張楊向獻帝獻米肉，使帝稍得寧。",
+      "evidence": [
+        "張楊獻米肉"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wang_yi",
+      "target": "char_xian_di",
+      "type": "進獻",
+      "description": "王邑向獻帝獻絹帛。",
+      "evidence": [
+        "王邑獻絹帛"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "loc_luoyang",
+      "type": "主張奉駕",
+      "description": "董承與楊奉商議奉車駕還洛陽。",
+      "evidence": [
+        "欲奉車駕還東都"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "loc_luoyang",
+      "type": "主張奉駕",
+      "description": "楊奉與董承商議奉駕還洛陽。",
+      "evidence": [
+        "董承、楊奉商議"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_le",
+      "target": "char_dong_cheng",
+      "type": "反對",
+      "description": "李樂不從董承奉駕還洛陽之議。",
+      "evidence": [
+        "李樂不從"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_le",
+      "target": "strategy_li_le_collusion",
+      "type": "策劃",
+      "description": "李樂暗令人結連李傕、郭汜劫駕。",
+      "evidence": [
+        "暗令人結連李傕、郭汜"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strategy_li_le_collusion",
+      "target": "char_li_jue",
+      "type": "聯絡",
+      "description": "李樂計畫聯絡李傕。",
+      "evidence": [
+        "結連李傕"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strategy_li_le_collusion",
+      "target": "char_guo_si",
+      "type": "聯絡",
+      "description": "李樂計畫聯絡郭汜。",
+      "evidence": [
+        "郭汜，一同劫駕"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "loc_jiguan",
+      "type": "護送前奔",
+      "description": "董承知李樂謀，護送車駕前奔箕關。",
+      "evidence": [
+        "護送車駕前奔箕關"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "loc_jiguan",
+      "type": "護送前奔",
+      "description": "楊奉知李樂謀，護送車駕前奔箕關。",
+      "evidence": [
+        "董承、楊奉、韓暹知其謀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_xian",
+      "target": "loc_jiguan",
+      "type": "護送前奔",
+      "description": "韓暹與董承、楊奉共同護送車駕前奔箕關。",
+      "evidence": [
+        "董承、楊奉、韓暹知其謀"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_le",
+      "target": "obj_chariot",
+      "type": "追趕",
+      "description": "李樂未等李郭軍至，自引本部追趕車駕。",
+      "evidence": [
+        "自引本部人馬前來追趕"
+      ],
+      "confidence": 1
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_001",
+      "name": "曹操定陶破呂布",
+      "summary": "曹操在定陶擊敗呂布，呂布收殘軍至海濱，因曹兵勢大轉求安身之地。",
+      "participants": [
+        "char_cao_cao",
+        "char_lu_bu",
+        "char_chen_gong",
+        "army_cao",
+        "army_lu_bu"
+      ],
+      "locations": [
+        "loc_dingtao"
+      ],
+      "evidence": [
+        "曹操大破呂佈於定陶"
+      ]
+    },
+    {
+      "id": "ev_002",
+      "name": "呂布投徐州",
+      "summary": "審配勸袁紹助曹操攻呂布，呂布得報後聽陳宮之議投奔新領徐州的劉備。",
+      "participants": [
+        "char_lu_bu",
+        "char_chen_gong",
+        "char_yuan_shao",
+        "char_shen_pei",
+        "char_liu_bei",
+        "army_yuan"
+      ],
+      "locations": [
+        "loc_jizhou",
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "聞劉玄德新領徐州",
+        "竟投徐州來"
+      ]
+    },
+    {
+      "id": "ev_003",
+      "name": "劉備接納呂布並安置小沛",
+      "summary": "劉備不聽糜竺勸阻而接納呂布，席間張飛怒斥呂布，後劉備安置呂布於小沛。",
+      "participants": [
+        "char_liu_bei",
+        "char_lu_bu",
+        "char_mi_zhu",
+        "char_guan_gong",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_xuzhou",
+        "loc_xiaopei"
+      ],
+      "evidence": [
+        "不可收留",
+        "我和你鬥三百合",
+        "近邑小沛"
+      ]
+    },
+    {
+      "id": "ev_004",
+      "name": "楊彪朱儁獻離間計",
+      "summary": "楊彪、朱儁向獻帝暗奏，欲使李傕、郭汜自相殘害，再詔曹操討賊。",
+      "participants": [
+        "char_yang_biao",
+        "char_zhu_jun",
+        "char_xian_di",
+        "char_cao_cao",
+        "char_li_jue",
+        "char_guo_si"
+      ],
+      "locations": [
+        "loc_changan"
+      ],
+      "evidence": [
+        "先令二賊自相殘害",
+        "詔曹操引兵殺之"
+      ]
+    },
+    {
+      "id": "ev_005",
+      "name": "毒酒離間李郭反目",
+      "summary": "楊彪派夫人向郭汜妻造疑，郭汜妻置毒試犬，使郭汜疑李傕謀害，雙方起兵。",
+      "participants": [
+        "char_yang_biao",
+        "char_guo_wife",
+        "char_guo_si",
+        "char_li_jue"
+      ],
+      "locations": [
+        "loc_changan"
+      ],
+      "evidence": [
+        "暗置毒於中",
+        "汜心懷疑",
+        "欲攻李傕"
+      ]
+    },
+    {
+      "id": "ev_006",
+      "name": "長安混戰與李傕劫駕",
+      "summary": "李傕、郭汜在長安城下混戰，李暹圍宮載走帝后，賈詡、左靈監押車駕至李傕營。",
+      "participants": [
+        "char_li_jue",
+        "char_guo_si",
+        "char_li_xian",
+        "char_xian_di",
+        "char_fu_hou",
+        "char_jia_xu",
+        "char_zuo_ling",
+        "army_li_jue",
+        "army_guo_si"
+      ],
+      "locations": [
+        "loc_changan",
+        "loc_palace",
+        "loc_li_jue_camp"
+      ],
+      "evidence": [
+        "長安城下混戰",
+        "一乘載天子",
+        "擁到李傕營中"
+      ]
+    },
+    {
+      "id": "ev_007",
+      "name": "郭汜劫公卿",
+      "summary": "楊彪、朱儁率眾官入郭汜營勸和，郭汜監禁公卿，後因楊密勸說放楊彪、朱儁。",
+      "participants": [
+        "char_guo_si",
+        "char_yang_biao",
+        "char_zhu_jun",
+        "char_yang_mi",
+        "faction_public_officials"
+      ],
+      "locations": [
+        "loc_guo_si_camp"
+      ],
+      "evidence": [
+        "眾官盡行監下",
+        "放了楊彪、朱儁"
+      ]
+    },
+    {
+      "id": "ev_008",
+      "name": "皇甫酈奉詔勸和",
+      "summary": "獻帝遣皇甫酈往兩邊解和，皇甫酈勸郭汜後諫李傕，李傕怒欲殺之，楊奉與賈詡勸止。",
+      "participants": [
+        "char_xian_di",
+        "char_huangfu_li",
+        "char_guo_si",
+        "char_li_jue",
+        "char_yang_feng",
+        "char_jia_xu",
+        "char_hu_miao",
+        "char_wang_chang"
+      ],
+      "locations": [
+        "loc_li_jue_camp",
+        "loc_guo_si_camp"
+      ],
+      "evidence": [
+        "詔使往兩邊解和",
+        "我先斬汝頭",
+        "賈詡亦力勸"
+      ]
+    },
+    {
+      "id": "ev_009",
+      "name": "楊奉宋果謀殺李傕失敗",
+      "summary": "李傕重賞女巫不賞軍將，楊奉與宋果約放火為號殺李傕，事泄後宋果被殺，楊奉敗走。",
+      "participants": [
+        "char_li_jue",
+        "char_witch",
+        "char_yang_feng",
+        "char_song_guo",
+        "army_li_jue",
+        "army_yang_feng"
+      ],
+      "locations": [
+        "loc_zhongnan"
+      ],
+      "evidence": [
+        "功反不及女巫",
+        "放火為號",
+        "擒宋果先殺之"
+      ]
+    },
+    {
+      "id": "ev_010",
+      "name": "張濟調停遷弘農",
+      "summary": "張濟統大軍調停李傕、郭汜，兩方許和，張濟請天子駕幸弘農並受封驃騎將軍。",
+      "participants": [
+        "char_zhang_ji",
+        "char_li_jue",
+        "char_guo_si",
+        "char_xian_di",
+        "faction_public_officials",
+        "army_zhang_ji",
+        "army_yulin"
+      ],
+      "locations": [
+        "loc_hongnong"
+      ],
+      "evidence": [
+        "張濟統領大軍",
+        "駕幸弘農",
+        "封張濟為驃騎將軍"
+      ]
+    },
+    {
+      "id": "ev_011",
+      "name": "華陰楊奉徐晃救駕",
+      "summary": "郭汜追車駕至華陰，楊奉自終南山率軍保護，徐晃斬崔勇，郭汜軍敗退。",
+      "participants": [
+        "char_guo_si",
+        "char_yang_feng",
+        "char_xu_huang",
+        "char_cui_yong",
+        "char_xian_di",
+        "army_guo_si",
+        "army_yang_feng"
+      ],
+      "locations": [
+        "loc_huayin",
+        "loc_zhongnan"
+      ],
+      "evidence": [
+        "特來保護",
+        "斬崔勇於馬下",
+        "汜軍大敗"
+      ]
+    },
+    {
+      "id": "ev_012",
+      "name": "董承再救駕",
+      "summary": "郭汜再攻華陰，徐晃迎戰時帝與楊奉被困，董承自東南率軍殺來解圍。",
+      "participants": [
+        "char_guo_si",
+        "char_xu_huang",
+        "char_yang_feng",
+        "char_dong_cheng",
+        "char_xian_di",
+        "army_guo_si",
+        "army_dong_cheng"
+      ],
+      "locations": [
+        "loc_huayin",
+        "loc_hongnong"
+      ],
+      "evidence": [
+        "將天子、楊奉困在垓心",
+        "乃國戚董承也"
+      ]
+    },
+    {
+      "id": "ev_013",
+      "name": "東澗大戰與弘農劫掠",
+      "summary": "李傕、郭汜合兵追擊，楊奉、董承在東澗死戰護帝后出走，百官與符冊典籍多被拋棄，郭汜入弘農劫掠。",
+      "participants": [
+        "char_li_jue",
+        "char_guo_si",
+        "char_yang_feng",
+        "char_dong_cheng",
+        "char_xian_di",
+        "char_fu_hou",
+        "faction_public_officials"
+      ],
+      "locations": [
+        "loc_dongjian",
+        "loc_hongnong"
+      ],
+      "evidence": [
+        "大戰於東澗",
+        "符冊典籍...盡皆拋棄",
+        "入弘農劫掠"
+      ]
+    },
+    {
+      "id": "ev_014",
+      "name": "密召白波軍與渭陽敗戰",
+      "summary": "董承、楊奉密召韓暹、李樂、胡才三軍救應；李樂軍在渭陽被郭汜棄物誘亂，傕汜二軍混戰取勝，胡才戰死。",
+      "participants": [
+        "char_dong_cheng",
+        "char_yang_feng",
+        "char_han_xian",
+        "char_li_le",
+        "char_hu_cai",
+        "char_li_jue",
+        "char_guo_si",
+        "army_baibo",
+        "army_li_le"
+      ],
+      "locations": [
+        "loc_hedong",
+        "loc_weiyang"
+      ],
+      "evidence": [
+        "密傳聖旨往河東",
+        "隊伍盡失",
+        "胡才被亂軍所殺"
+      ]
+    },
+    {
+      "id": "ev_015",
+      "name": "黃河渡難",
+      "summary": "承、奉請獻帝棄車步至黃河，以小舟渡帝后；伏德獻白絹並背皇后，楊奉尋牛車載帝至大陽。",
+      "participants": [
+        "char_xian_di",
+        "char_fu_hou",
+        "char_yang_feng",
+        "char_dong_cheng",
+        "char_li_le",
+        "char_fu_de",
+        "char_shang_hong"
+      ],
+      "locations": [
+        "loc_yellow_river",
+        "loc_dayang"
+      ],
+      "evidence": [
+        "步行到黃河岸邊",
+        "小舟作渡船",
+        "載帝至大陽"
+      ]
+    },
+    {
+      "id": "ev_016",
+      "name": "安邑困居與韓融說賊",
+      "summary": "獻帝至安邑困居茅屋，李樂、韓暹專權；韓融請命說李傕、郭汜，二賊放百官宮人，張楊、王邑進獻物資。",
+      "participants": [
+        "char_xian_di",
+        "char_fu_hou",
+        "char_li_le",
+        "char_han_xian",
+        "char_han_rong",
+        "char_li_jue",
+        "char_guo_si",
+        "char_zhang_yang",
+        "char_wang_yi",
+        "faction_public_officials"
+      ],
+      "locations": [
+        "loc_anyi"
+      ],
+      "evidence": [
+        "居於茅屋中",
+        "李樂等專權",
+        "放百官及宮人歸"
+      ]
+    },
+    {
+      "id": "ev_017",
+      "name": "奉駕還洛陽與箕山追駕",
+      "summary": "董承、楊奉欲奉車駕還洛陽，李樂反對並暗結李傕、郭汜劫駕；董承、楊奉、韓暹護駕奔箕關，李樂追至箕山下。",
+      "participants": [
+        "char_dong_cheng",
+        "char_yang_feng",
+        "char_han_xian",
+        "char_li_le",
+        "char_li_jue",
+        "char_guo_si",
+        "char_xian_di"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_jiguan",
+        "loc_jishan"
+      ],
+      "evidence": [
+        "奉駕還洛陽",
+        "暗令人結連李傕、郭汜",
+        "趕到箕山下"
+      ]
+    }
+  ],
+  "notes": [
+    "部分正文有疑似 OCR 異文或重複字句；抽取以可辨識情節與短證據為準。"
+  ]
+}

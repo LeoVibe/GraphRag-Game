@@ -1,0 +1,16 @@
+{
+  "source_manifest": "data_ref/sanguo_chaptered/manifests/chunks.jsonl",
+  "output": "data_ref/sanguo_chaptered/embeddings_embeddinggemma-300m",
+  "model": "embeddinggemma:300m",
+  "base_url": "http://127.0.0.1:11434",
+  "chunk_count": 452,
+  "existing_checkpoint_count": 136,
+  "embedded_this_run": 316,
+  "vector_dim": 768,
+  "batch_size": 1,
+  "current_run_seconds": 6943.823,
+  "current_run_seconds_per_new_chunk": 21.974,
+  "parquet": "data_ref/sanguo_chaptered/embeddings_embeddinggemma-300m/embeddings.parquet",
+  "lancedb_table": "data_ref/sanguo_chaptered/embeddings_embeddinggemma-300m/lancedb/sanguo_chunks_embeddinggemma_300m.lance",
+  "embedding_manifest": "data_ref/sanguo_chaptered/embeddings_embeddinggemma-300m/embedding_manifest.jsonl"
+}

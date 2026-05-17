@@ -1,0 +1,1382 @@
+{
+  "book": "三國演義",
+  "chapter_no": 46,
+  "chapter_title": "用奇謀孔明借箭　獻密計黃蓋受刑",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_kongming",
+      "name": "孔明",
+      "type": "character",
+      "aliases": [
+        "諸葛亮",
+        "亮",
+        "先生"
+      ],
+      "description": "以三日之限應周瑜造箭要求，借大霧誘曹軍放箭，並識破火攻、詐降與苦肉計。",
+      "evidence": [
+        "用奇謀孔明借箭",
+        "已得十萬餘箭",
+        "不用苦肉計"
+      ]
+    },
+    {
+      "id": "char_lusu",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "子敬",
+        "肅"
+      ],
+      "description": "周瑜與孔明之間的傳話者，隨孔明見證借箭，又向孔明詢問蔡中蔡和之降與黃蓋受刑。",
+      "evidence": [
+        "魯肅領了周瑜言語",
+        "魯肅拜服",
+        "乃往告孔明"
+      ]
+    },
+    {
+      "id": "char_zhouyu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "公瑾",
+        "瑜",
+        "都督"
+      ],
+      "description": "東吳都督，欲以造箭之限害孔明，後與孔明同定火攻，又將計就計收蔡中蔡和，並與黃蓋行苦肉計。",
+      "evidence": [
+        "吾決意斬之",
+        "督兵破曹",
+        "將計就計"
+      ]
+    },
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "丞相"
+      ],
+      "description": "曹軍統帥，因大霧中不敢出戰而命弓弩手射箭，後採荀攸之計派蔡中、蔡和詐降。",
+      "evidence": [
+        "曹操懊悔不已",
+        "操從之",
+        "丞相勿疑"
+      ]
+    },
+    {
+      "id": "char_maojie",
+      "name": "毛玠",
+      "type": "character",
+      "aliases": [],
+      "description": "曹寨將領之一，孔明借箭時在水寨應對南軍動靜。",
+      "evidence": [
+        "毛玠、於禁怕南軍搶入水寨"
+      ]
+    },
+    {
+      "id": "char_yujin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹寨將領之一，孔明借箭時與毛玠在水寨防守。",
+      "evidence": [
+        "毛玠、於禁怕南軍搶入水寨"
+      ]
+    },
+    {
+      "id": "char_zhangliao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，受命帶弓弩軍到江邊助射。",
+      "evidence": [
+        "喚張遼、徐晃各帶弓弩軍三千"
+      ]
+    },
+    {
+      "id": "char_xuhuang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，受命帶弓弩軍到江邊助射。",
+      "evidence": [
+        "喚張遼、徐晃各帶弓弩軍三千"
+      ]
+    },
+    {
+      "id": "char_xunyou",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [
+        "攸"
+      ],
+      "description": "曹操謀士，建議派蔡中、蔡和詐降東吳作內應。",
+      "evidence": [
+        "荀攸進計曰",
+        "可差人去東吳詐降"
+      ]
+    },
+    {
+      "id": "char_caimao",
+      "name": "蔡瑁",
+      "type": "character",
+      "aliases": [
+        "瑁"
+      ],
+      "description": "已被曹操誅殺，其族弟蔡中、蔡和被用作詐降人選。",
+      "evidence": [
+        "蔡瑁被誅",
+        "瑁之族弟蔡中、蔡和"
+      ]
+    },
+    {
+      "id": "char_caizhong",
+      "name": "蔡中",
+      "type": "character",
+      "aliases": [],
+      "description": "蔡瑁族弟、曹軍副將，受曹操密命詐降東吳。",
+      "evidence": [
+        "蔡中、蔡和現為副將",
+        "特來投降"
+      ]
+    },
+    {
+      "id": "char_caihe",
+      "name": "蔡和",
+      "type": "character",
+      "aliases": [],
+      "description": "蔡瑁族弟、曹軍副將，受曹操密命與蔡中一同詐降東吳。",
+      "evidence": [
+        "蔡和、蔡中",
+        "吾二人欲報兄仇"
+      ]
+    },
+    {
+      "id": "char_ganning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，受周瑜密囑提防蔡中、蔡和，並為黃蓋求情。",
+      "evidence": [
+        "密喚甘寧分付",
+        "望寬恕之"
+      ]
+    },
+    {
+      "id": "char_huanggai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [
+        "公覆",
+        "黃公覆",
+        "蓋"
+      ],
+      "description": "東吳舊臣，向周瑜獻火攻與詐降之計，後在苦肉計中受杖責。",
+      "evidence": [
+        "公覆夜至",
+        "何不用火攻之",
+        "打了五十脊杖"
+      ]
+    },
+    {
+      "id": "char_kanze",
+      "name": "闞澤",
+      "type": "character",
+      "aliases": [
+        "閔澤",
+        "參謀"
+      ],
+      "description": "參謀，探問黃蓋傷勢並看出其受責乃苦肉計。",
+      "evidence": [
+        "參謀閔澤來問",
+        "莫非苦肉計乎"
+      ]
+    },
+    {
+      "id": "char_zhangzibu",
+      "name": "張子佈",
+      "type": "character",
+      "aliases": [
+        "張子布"
+      ],
+      "description": "黃蓋在帳前爭辯時提及其主降之言。",
+      "evidence": [
+        "可依張子佈之言"
+      ]
+    },
+    {
+      "id": "faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "江東",
+        "南軍"
+      ],
+      "description": "周瑜、魯肅、甘寧、黃蓋等所屬勢力，與曹軍隔江對峙。",
+      "evidence": [
+        "不費江東半分之力",
+        "詐降東吳",
+        "南軍搶入水寨"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹兵"
+      ],
+      "description": "曹操統領的北岸軍勢，設水寨與東吳對峙。",
+      "evidence": [
+        "曹軍交戰",
+        "曹寨中"
+      ]
+    },
+    {
+      "id": "army_dongwu",
+      "name": "東吳軍",
+      "type": "army",
+      "aliases": [
+        "南軍",
+        "諸將"
+      ],
+      "description": "周瑜統領的江東軍隊。",
+      "evidence": [
+        "大會諸將",
+        "督兵破曹"
+      ]
+    },
+    {
+      "id": "army_cao",
+      "name": "曹軍",
+      "type": "army",
+      "aliases": [
+        "曹兵",
+        "曹操水軍"
+      ],
+      "description": "曹操軍隊，包含水寨守軍與弓弩軍。",
+      "evidence": [
+        "曹軍寨內",
+        "水軍弓弩手"
+      ]
+    },
+    {
+      "id": "army_gongnu",
+      "name": "弓弩軍",
+      "type": "army",
+      "aliases": [
+        "弓弩手",
+        "水軍弓弩手"
+      ],
+      "description": "曹操調用在江邊亂箭射孔明船隊的軍隊。",
+      "evidence": [
+        "水軍弓弩手亂箭射之",
+        "各帶弓弩軍三千"
+      ]
+    },
+    {
+      "id": "title_dudu",
+      "name": "都督",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜在東吳軍中的統兵稱號。",
+      "evidence": [
+        "望督寬恕",
+        "公瑾使先生"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操被部下稱呼的官職。",
+      "evidence": [
+        "丞相可以恩結之",
+        "丞相勿疑"
+      ]
+    },
+    {
+      "id": "title_fujiang",
+      "name": "副將",
+      "type": "title",
+      "aliases": [],
+      "description": "蔡中、蔡和在曹軍中的職位。",
+      "evidence": [
+        "蔡中、蔡和現為副將"
+      ]
+    },
+    {
+      "id": "title_canmo",
+      "name": "參謀",
+      "type": "title",
+      "aliases": [],
+      "description": "闞澤被稱為參謀。",
+      "evidence": [
+        "忽報參謀閔澤來問"
+      ]
+    },
+    {
+      "id": "title_polujiangjun",
+      "name": "破虜將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "黃蓋自述早年追隨之主的稱號。",
+      "evidence": [
+        "吾自隨破虜將軍"
+      ]
+    },
+    {
+      "id": "loc_changjiang",
+      "name": "長江",
+      "type": "location",
+      "aliases": [
+        "大江"
+      ],
+      "description": "孔明借箭與吳曹對峙的主要水域。",
+      "evidence": [
+        "大江之上",
+        "長江之中，霧氣更甚"
+      ]
+    },
+    {
+      "id": "loc_north_bank",
+      "name": "北岸",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明船隊乘霧前往的曹軍方向。",
+      "evidence": [
+        "徑望北岸"
+      ]
+    },
+    {
+      "id": "loc_south_bank",
+      "name": "南岸",
+      "type": "location",
+      "aliases": [],
+      "description": "蔡中、蔡和駕船投往東吳的方向。",
+      "evidence": [
+        "順風望著南岸來"
+      ]
+    },
+    {
+      "id": "loc_cao_camp",
+      "name": "曹寨",
+      "type": "location",
+      "aliases": [
+        "曹操水寨",
+        "水寨",
+        "曹軍寨"
+      ],
+      "description": "曹操水軍營寨，孔明借箭時在此誘使曹軍射箭。",
+      "evidence": [
+        "曹寨中",
+        "怕南軍搶入水寨"
+      ]
+    },
+    {
+      "id": "loc_jiangbian",
+      "name": "江邊",
+      "type": "location",
+      "aliases": [],
+      "description": "曹軍弓弩軍助射與周瑜軍搬箭之處。",
+      "evidence": [
+        "火速到江邊助射",
+        "江邊等候搬箭"
+      ]
+    },
+    {
+      "id": "loc_jiangkou",
+      "name": "江口",
+      "type": "location",
+      "aliases": [],
+      "description": "蔡中、蔡和船隻來到東吳時通報的地點。",
+      "evidence": [
+        "江北有船來到江口"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "蔡中、蔡和稱其妻子所在之地。",
+      "evidence": [
+        "吾等妻子俱在荊州"
+      ]
+    },
+    {
+      "id": "loc_zhongjun_tent",
+      "name": "中軍帳",
+      "type": "location",
+      "aliases": [
+        "中軍"
+      ],
+      "description": "周瑜軍中議事、交箭與黃蓋夜見周瑜之處。",
+      "evidence": [
+        "搬入中軍帳交納",
+        "潛入中軍來見周瑜"
+      ]
+    },
+    {
+      "id": "loc_huanggai_tent",
+      "name": "黃蓋帳中",
+      "type": "location",
+      "aliases": [
+        "帳中",
+        "臥內"
+      ],
+      "description": "黃蓋受刑後臥病，闞澤入內探問之處。",
+      "evidence": [
+        "黃蓋臥於帳中",
+        "請入臥內"
+      ]
+    },
+    {
+      "id": "obj_arrows_100k",
+      "name": "十萬枝箭",
+      "type": "object",
+      "aliases": [
+        "十萬餘箭",
+        "十五六萬箭"
+      ],
+      "description": "周瑜要求孔明造辦、孔明從曹軍射箭中取得的軍需物。",
+      "evidence": [
+        "十萬枝箭",
+        "得十萬餘箭",
+        "折了十五六萬箭"
+      ]
+    },
+    {
+      "id": "obj_boats_20",
+      "name": "二十隻船",
+      "type": "object",
+      "aliases": [
+        "船隻",
+        "戰艦"
+      ],
+      "description": "孔明借箭時用長索相連、接近曹寨的船隊。",
+      "evidence": [
+        "命將二十隻船",
+        "船隻頭西尾東"
+      ]
+    },
+    {
+      "id": "obj_long_rope",
+      "name": "長索",
+      "type": "object",
+      "aliases": [],
+      "description": "連接孔明二十隻船的繩索。",
+      "evidence": [
+        "用長索相連"
+      ]
+    },
+    {
+      "id": "obj_bows_crossbows",
+      "name": "弓箭",
+      "type": "object",
+      "aliases": [
+        "弓弩",
+        "兵器"
+      ],
+      "description": "水戰所需兵器，曹軍以此射孔明船隊。",
+      "evidence": [
+        "以弓箭為先",
+        "弓弩手亂箭射之"
+      ]
+    },
+    {
+      "id": "obj_grain_3months",
+      "name": "三個月糧草",
+      "type": "object",
+      "aliases": [
+        "糧草"
+      ],
+      "description": "周瑜大會諸將時命各領的禦敵軍需，用於引出黃蓋爭辯。",
+      "evidence": [
+        "各領三個月糧草"
+      ]
+    },
+    {
+      "id": "obj_wenshu",
+      "name": "文書",
+      "type": "object",
+      "aliases": [
+        "軍令文書"
+      ],
+      "description": "周瑜讓孔明當眾承諾造箭任務的憑據。",
+      "evidence": [
+        "明白對眾要了文書"
+      ]
+    },
+    {
+      "id": "strategy_borrow_arrows",
+      "name": "孔明借箭",
+      "type": "strategy",
+      "aliases": [
+        "奇謀借箭",
+        "借箭"
+      ],
+      "description": "孔明預知大霧，以船隊逼近曹寨擂鼓吶喊，誘曹軍射箭而取箭。",
+      "evidence": [
+        "用奇謀孔明借箭",
+        "吾料曹操於重霧中必不敢出"
+      ]
+    },
+    {
+      "id": "strategy_fire_attack",
+      "name": "火攻",
+      "type": "strategy",
+      "aliases": [
+        "火計"
+      ],
+      "description": "周瑜、孔明、黃蓋皆指向的破曹方法。",
+      "evidence": [
+        "乃一火字",
+        "何不用火攻之"
+      ]
+    },
+    {
+      "id": "strategy_false_surrender",
+      "name": "詐降計",
+      "type": "strategy",
+      "aliases": [
+        "詐降",
+        "姦細內應"
+      ],
+      "description": "曹操派蔡中、蔡和假投東吳，黃蓋亦準備以詐降配合火攻。",
+      "evidence": [
+        "可差人去東吳詐降",
+        "黃公覆去詐降"
+      ]
+    },
+    {
+      "id": "strategy_counterplan",
+      "name": "將計就計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "周瑜看破蔡中、蔡和是假降，反利用二人通報消息。",
+      "evidence": [
+        "吾今欲將計就計",
+        "教他通報消息"
+      ]
+    },
+    {
+      "id": "strategy_bitter_flesh",
+      "name": "苦肉計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "周瑜杖責黃蓋，使曹操相信黃蓋真要投降。",
+      "evidence": [
+        "不用苦肉計，何能瞞過曹操",
+        "莫非苦肉計乎"
+      ]
+    },
+    {
+      "id": "battle_po_cao",
+      "name": "破曹",
+      "type": "battle",
+      "aliases": [
+        "水路交兵",
+        "與曹軍交戰"
+      ],
+      "description": "東吳對曹操的戰事背景，本章各計皆為破曹而設。",
+      "evidence": [
+        "即日將與曹軍交戰",
+        "督兵破曹",
+        "以破曹操"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_zhouyu",
+      "target": "char_lusu",
+      "type": "派遣",
+      "description": "周瑜派魯肅去探孔明。",
+      "evidence": [
+        "魯肅領了周瑜言語"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lusu",
+      "target": "char_kongming",
+      "type": "探問",
+      "description": "魯肅到舟中探訪孔明。",
+      "evidence": [
+        "相探孔明"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_kongming",
+      "type": "欲害",
+      "description": "周瑜認為孔明不可留，想尋公道斬之。",
+      "evidence": [
+        "此人決不可留",
+        "吾決意斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "obj_arrows_100k",
+      "type": "命令監造",
+      "description": "周瑜要求孔明造辦十萬枝箭以應敵。",
+      "evidence": [
+        "造箭十萬枝箭"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "obj_wenshu",
+      "type": "立約",
+      "description": "周瑜當眾要文書，使孔明受造箭期限約束。",
+      "evidence": [
+        "對眾要了文書"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_kongming",
+      "target": "strategy_borrow_arrows",
+      "type": "施行",
+      "description": "孔明施行借箭奇謀。",
+      "evidence": [
+        "用奇謀孔明借箭"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_borrow_arrows",
+      "target": "obj_boats_20",
+      "type": "使用",
+      "description": "孔明借箭時使用二十隻船。",
+      "evidence": [
+        "命將二十隻船"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_boats_20",
+      "target": "obj_long_rope",
+      "type": "相連",
+      "description": "二十隻船以長索相連。",
+      "evidence": [
+        "用長索相連"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_borrow_arrows",
+      "target": "loc_changjiang",
+      "type": "發生於",
+      "description": "借箭行動發生在長江大霧之中。",
+      "evidence": [
+        "長江之中，霧氣更甚"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_kongming",
+      "target": "loc_north_bank",
+      "type": "行軍",
+      "description": "孔明命船隊往北岸去。",
+      "evidence": [
+        "徑望北岸"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_kongming",
+      "target": "loc_cao_camp",
+      "type": "誘敵",
+      "description": "孔明在曹寨前擂鼓吶喊，誘曹軍射箭。",
+      "evidence": [
+        "就船上擂鼓吶喊"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_caocao",
+      "target": "army_gongnu",
+      "type": "命令",
+      "description": "曹操命水軍弓弩手亂箭射孔明船隊。",
+      "evidence": [
+        "可撥水軍弓弩手亂箭射之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_zhangliao",
+      "type": "調遣",
+      "description": "曹操傳令張遼帶弓弩軍到江邊助射。",
+      "evidence": [
+        "喚張遼、徐晃各帶弓弩軍三千"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_xuhuang",
+      "type": "調遣",
+      "description": "曹操傳令徐晃帶弓弩軍到江邊助射。",
+      "evidence": [
+        "喚張遼、徐晃各帶弓弩軍三千"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhangliao",
+      "target": "army_gongnu",
+      "type": "統領",
+      "description": "張遼各帶三千弓弩軍。",
+      "evidence": [
+        "各帶弓弩軍三千"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xuhuang",
+      "target": "army_gongnu",
+      "type": "統領",
+      "description": "徐晃各帶三千弓弩軍。",
+      "evidence": [
+        "各帶弓弩軍三千"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "army_gongnu",
+      "target": "obj_boats_20",
+      "type": "射擊",
+      "description": "曹軍弓弩軍向孔明船隊放箭。",
+      "evidence": [
+        "箭如雨發"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_kongming",
+      "target": "obj_arrows_100k",
+      "type": "取得",
+      "description": "孔明不費江東之力取得十萬餘箭。",
+      "evidence": [
+        "已得十萬餘箭"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_kongming",
+      "target": "char_zhouyu",
+      "type": "交納",
+      "description": "孔明回岸後把箭交入周瑜中軍帳。",
+      "evidence": [
+        "搬入中軍帳交納"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_lusu",
+      "target": "char_zhouyu",
+      "type": "報告",
+      "description": "魯肅向周瑜詳述孔明取箭之事。",
+      "evidence": [
+        "備說孔明取箭之事"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "strategy_fire_attack",
+      "type": "主張",
+      "description": "周瑜掌中寫火，顯示其破曹計策為火攻。",
+      "evidence": [
+        "周瑜掌中字，乃一火字"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_kongming",
+      "target": "strategy_fire_attack",
+      "type": "主張",
+      "description": "孔明亦在掌中寫火，與周瑜所見相同。",
+      "evidence": [
+        "孔明掌中，亦一火字"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_huanggai",
+      "target": "strategy_fire_attack",
+      "type": "獻計",
+      "description": "黃蓋夜見周瑜，提出火攻曹軍。",
+      "evidence": [
+        "何不用火攻之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xunyou",
+      "target": "strategy_false_surrender",
+      "type": "獻計",
+      "description": "荀攸建議曹操派人到東吳詐降為內應。",
+      "evidence": [
+        "可差人去東吳詐降"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_caizhong",
+      "type": "派遣",
+      "description": "曹操密令蔡中去東吳詐降。",
+      "evidence": [
+        "去東吳詐欺"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_caihe",
+      "type": "派遣",
+      "description": "曹操密令蔡和去東吳詐降。",
+      "evidence": [
+        "去東吳詐欺"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caizhong",
+      "target": "char_caimao",
+      "type": "族弟",
+      "description": "蔡中是蔡瑁族弟。",
+      "evidence": [
+        "瑁之族弟蔡中、蔡和"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caihe",
+      "target": "char_caimao",
+      "type": "族弟",
+      "description": "蔡和是蔡瑁族弟。",
+      "evidence": [
+        "瑁之族弟蔡中、蔡和"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caizhong",
+      "target": "title_fujiang",
+      "type": "任職",
+      "description": "蔡中在曹軍中為副將。",
+      "evidence": [
+        "現為副將"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caihe",
+      "target": "title_fujiang",
+      "type": "任職",
+      "description": "蔡和在曹軍中為副將。",
+      "evidence": [
+        "現為副將"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caizhong",
+      "target": "loc_jingzhou",
+      "type": "家屬所在",
+      "description": "蔡中稱妻子在荊州，因此不敢懷二心。",
+      "evidence": [
+        "妻子俱在荊州"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_caihe",
+      "target": "loc_jingzhou",
+      "type": "家屬所在",
+      "description": "蔡和稱妻子在荊州，因此不敢懷二心。",
+      "evidence": [
+        "妻子俱在荊州"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_caizhong",
+      "target": "faction_dongwu",
+      "type": "詐降",
+      "description": "蔡中到東吳自稱投降。",
+      "evidence": [
+        "特來投降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caihe",
+      "target": "faction_dongwu",
+      "type": "詐降",
+      "description": "蔡和到東吳自稱投降。",
+      "evidence": [
+        "特來投降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_caizhong",
+      "type": "表面收錄",
+      "description": "周瑜表面歡迎蔡中投降並重賞。",
+      "evidence": [
+        "大喜，重賞二人"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_caihe",
+      "type": "表面收錄",
+      "description": "周瑜表面歡迎蔡和投降並重賞。",
+      "evidence": [
+        "大喜，重賞二人"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_ganning",
+      "type": "密囑",
+      "description": "周瑜私下吩咐甘寧接待並提防蔡中、蔡和。",
+      "evidence": [
+        "密喚甘寧分付"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ganning",
+      "target": "char_caizhong",
+      "type": "提防",
+      "description": "甘寧按周瑜之命對蔡中殷勤相待且暗中提防。",
+      "evidence": [
+        "殷勤相待，就裡提防"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ganning",
+      "target": "char_caihe",
+      "type": "提防",
+      "description": "甘寧按周瑜之命對蔡和殷勤相待且暗中提防。",
+      "evidence": [
+        "殷勤相待，就裡提防"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "strategy_counterplan",
+      "type": "採用",
+      "description": "周瑜看破詐降後採用將計就計。",
+      "evidence": [
+        "吾今欲將計就計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_kongming",
+      "target": "strategy_counterplan",
+      "type": "識破",
+      "description": "孔明向魯肅說明周瑜是在將計就計。",
+      "evidence": [
+        "不識公瑾用計耳"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_huanggai",
+      "target": "strategy_false_surrender",
+      "type": "執行",
+      "description": "黃蓋準備親自用詐降計配合火攻。",
+      "evidence": [
+        "黃公覆去詐降"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "strategy_bitter_flesh",
+      "type": "實施",
+      "description": "周瑜以杖責黃蓋來實施苦肉計。",
+      "evidence": [
+        "不用苦肉計"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_huanggai",
+      "target": "strategy_bitter_flesh",
+      "type": "參與",
+      "description": "黃蓋承受杖責，作為苦肉計的一方。",
+      "evidence": [
+        "公之受責，莫非苦肉計乎"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_huanggai",
+      "type": "杖責",
+      "description": "周瑜命人責打黃蓋五十脊杖。",
+      "evidence": [
+        "打了五十脊杖"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ganning",
+      "target": "char_huanggai",
+      "type": "求情",
+      "description": "甘寧為黃蓋求周瑜寬恕。",
+      "evidence": [
+        "望寬恕之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_kongming",
+      "target": "strategy_bitter_flesh",
+      "type": "識破",
+      "description": "孔明看出黃蓋受刑是為瞞過曹操的苦肉計。",
+      "evidence": [
+        "何能瞞過曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_bitter_flesh",
+      "target": "char_caocao",
+      "type": "欺瞞對象",
+      "description": "苦肉計的目的在於騙過曹操。",
+      "evidence": [
+        "何能瞞過曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_bitter_flesh",
+      "target": "char_caizhong",
+      "type": "藉由通報",
+      "description": "孔明指出黃蓋受刑會由蔡中通報曹操。",
+      "evidence": [
+        "教蔡中、蔡和報知其事"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strategy_bitter_flesh",
+      "target": "char_caihe",
+      "type": "藉由通報",
+      "description": "孔明指出黃蓋受刑會由蔡和通報曹操。",
+      "evidence": [
+        "教蔡中、蔡和報知其事"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_kanze",
+      "target": "strategy_bitter_flesh",
+      "type": "識破",
+      "description": "闞澤看出黃蓋受責是苦肉計。",
+      "evidence": [
+        "莫非苦肉計乎"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huanggai",
+      "target": "title_polujiangjun",
+      "type": "曾追隨",
+      "description": "黃蓋自述曾追隨破虜將軍。",
+      "evidence": [
+        "吾自隨破虜將軍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_dongwu",
+      "type": "統領",
+      "description": "周瑜奉命督兵破曹，統率東吳軍。",
+      "evidence": [
+        "督兵破曹"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "army_cao",
+      "type": "統領",
+      "description": "曹操統率曹軍與東吳對峙。",
+      "evidence": [
+        "操引百萬之眾"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "title_chengxiang",
+      "type": "官職",
+      "description": "曹操被稱為丞相。",
+      "evidence": [
+        "丞相勿疑"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_kanze",
+      "target": "title_canmo",
+      "type": "官職",
+      "description": "闞澤被稱作參謀。",
+      "evidence": [
+        "參謀閔澤"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "faction_dongwu",
+      "target": "battle_po_cao",
+      "type": "參戰",
+      "description": "東吳軍此章諸計皆為破曹。",
+      "evidence": [
+        "督兵破曹"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_cao",
+      "target": "battle_po_cao",
+      "type": "敵對",
+      "description": "曹軍是東吳破曹戰事的對手。",
+      "evidence": [
+        "與曹軍交戰"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhouyu_demands_arrows",
+      "name": "周瑜限孔明造箭",
+      "summary": "周瑜以軍中缺箭為由，要求孔明短期造辦十萬枝箭，意在用公法害孔明。",
+      "participants": [
+        "char_zhouyu",
+        "char_kongming",
+        "char_lusu"
+      ],
+      "locations": [
+        "loc_zhongjun_tent"
+      ],
+      "evidence": [
+        "軍中正缺箭用",
+        "三日內如何造得十萬箭",
+        "他自送死"
+      ]
+    },
+    {
+      "id": "event_borrow_arrows_fog",
+      "name": "孔明大霧借箭",
+      "summary": "孔明乘長江大霧，以二十隻船長索相連，近曹寨擂鼓吶喊，誘曹軍亂射，取得十萬餘箭。",
+      "participants": [
+        "char_kongming",
+        "char_lusu",
+        "char_caocao",
+        "char_maojie",
+        "char_yujin",
+        "char_zhangliao",
+        "char_xuhuang",
+        "army_gongnu"
+      ],
+      "locations": [
+        "loc_changjiang",
+        "loc_north_bank",
+        "loc_cao_camp",
+        "loc_jiangbian"
+      ],
+      "evidence": [
+        "大霧漫天",
+        "擂鼓吶喊",
+        "箭如雨發",
+        "已得十萬餘箭"
+      ]
+    },
+    {
+      "id": "event_arrows_delivered",
+      "name": "十萬箭交納周瑜",
+      "summary": "孔明回岸後，周瑜派軍在江邊搬箭，所得十餘萬枝箭搬入中軍帳交納。",
+      "participants": [
+        "char_kongming",
+        "char_zhouyu",
+        "char_lusu",
+        "army_dongwu"
+      ],
+      "locations": [
+        "loc_jiangbian",
+        "loc_zhongjun_tent"
+      ],
+      "evidence": [
+        "江邊等候搬箭",
+        "搬入中軍帳交納"
+      ]
+    },
+    {
+      "id": "event_fire_plan_shared",
+      "name": "周瑜孔明同議火攻",
+      "summary": "周瑜與孔明各自把破曹之計寫在掌中，二人皆寫火，確認火攻方向。",
+      "participants": [
+        "char_zhouyu",
+        "char_kongming"
+      ],
+      "locations": [
+        "loc_zhongjun_tent"
+      ],
+      "evidence": [
+        "各自寫於手內",
+        "皆大笑",
+        "亦一火字"
+      ]
+    },
+    {
+      "id": "event_cao_orders_false_surrender",
+      "name": "曹操命蔡中蔡和詐降",
+      "summary": "荀攸向曹操獻詐降內應之計，曹操密命蔡中、蔡和帶少量軍士投往東吳刺探消息。",
+      "participants": [
+        "char_xunyou",
+        "char_caocao",
+        "char_caizhong",
+        "char_caihe"
+      ],
+      "locations": [
+        "loc_cao_camp",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "荀攸進計",
+        "去東吳詐欺",
+        "密報"
+      ]
+    },
+    {
+      "id": "event_cai_brothers_arrive",
+      "name": "蔡中蔡和投降周瑜",
+      "summary": "蔡中、蔡和到江口自稱為報蔡瑁之仇而降，周瑜表面收錄重賞，命其與甘寧為前部。",
+      "participants": [
+        "char_caizhong",
+        "char_caihe",
+        "char_zhouyu",
+        "char_ganning"
+      ],
+      "locations": [
+        "loc_jiangkou",
+        "loc_south_bank"
+      ],
+      "evidence": [
+        "特來投降",
+        "欲報兄仇",
+        "命與甘寧引軍為前部"
+      ]
+    },
+    {
+      "id": "event_zhouyu_counterplan",
+      "name": "周瑜將計就計",
+      "summary": "周瑜私下告訴甘寧二蔡並非真降，而是曹操姦細，令甘寧殷勤相待並暗中提防。",
+      "participants": [
+        "char_zhouyu",
+        "char_ganning",
+        "char_caizhong",
+        "char_caihe",
+        "char_lusu",
+        "char_kongming"
+      ],
+      "locations": [
+        "loc_zhongjun_tent"
+      ],
+      "evidence": [
+        "非真投降",
+        "將計就計",
+        "就裡提防"
+      ]
+    },
+    {
+      "id": "event_huanggai_fire_false_surrender",
+      "name": "黃蓋夜獻火攻詐降",
+      "summary": "黃蓋夜入中軍見周瑜，指出敵眾我寡不宜久持，提出火攻並願行詐降。",
+      "participants": [
+        "char_huanggai",
+        "char_zhouyu"
+      ],
+      "locations": [
+        "loc_zhongjun_tent"
+      ],
+      "evidence": [
+        "公覆夜至",
+        "何不用火攻之",
+        "行詐降計"
+      ]
+    },
+    {
+      "id": "event_huanggai_punished",
+      "name": "黃蓋受刑苦肉計",
+      "summary": "周瑜會諸將時，黃蓋佯言不如投降並頂撞周瑜，周瑜命杖責黃蓋，藉此使曹操相信其降意。",
+      "participants": [
+        "char_zhouyu",
+        "char_huanggai",
+        "char_ganning",
+        "char_lusu",
+        "char_kongming",
+        "army_dongwu"
+      ],
+      "locations": [
+        "loc_zhongjun_tent"
+      ],
+      "evidence": [
+        "棄甲倒戈",
+        "喝令速斬",
+        "打了五十脊杖",
+        "不用苦肉計"
+      ]
+    },
+    {
+      "id": "event_kanze_visits_huanggai",
+      "name": "闞澤探問黃蓋",
+      "summary": "黃蓋受刑後臥於帳中，闞澤入內探問並看出此為苦肉計，黃蓋說為破曹受苦無恨。",
+      "participants": [
+        "char_huanggai",
+        "char_kanze"
+      ],
+      "locations": [
+        "loc_huanggai_tent"
+      ],
+      "evidence": [
+        "黃蓋臥於帳中",
+        "莫非苦肉計乎",
+        "以破曹操"
+      ]
+    }
+  ],
+  "notes": [
+    "章節文本有少量斷句與異字，抽取以可辨正文為準。",
+    "未抽取正文無明確支持的推測性關係。"
+  ]
+}

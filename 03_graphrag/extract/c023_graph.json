@@ -1,0 +1,1469 @@
+{
+  "book": "三國演義",
+  "chapter_no": 23,
+  "chapter_title": "禰正平裸衣罵賊　吉太醫下毒遭刑",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹公",
+        "丞相",
+        "曹孟德",
+        "曹瞞"
+      ],
+      "description": "掌權丞相，招降張繡，借禰衡出使，後識破吉平下毒並追查董承密謀。",
+      "evidence": [
+        "曹操欲斬劉岱、王忠",
+        "詐患頭風，召吉平"
+      ]
+    },
+    {
+      "id": "char_liubei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德"
+      ],
+      "description": "曹操欲攻伐的對象；董承稱謀事不成因劉玄德已離去。",
+      "evidence": [
+        "欲自起兵伐玄德",
+        "劉玄德、馬騰各自去了"
+      ]
+    },
+    {
+      "id": "char_liudai",
+      "name": "劉岱",
+      "type": "character",
+      "aliases": [],
+      "description": "敗於劉備後本將被曹操處斬，因孔融諫阻免死。",
+      "evidence": [
+        "欲斬劉岱、王忠",
+        "免其死"
+      ]
+    },
+    {
+      "id": "char_wangzhong",
+      "name": "王忠",
+      "type": "character",
+      "aliases": [],
+      "description": "與劉岱同被曹操欲斬，後免死黜爵祿。",
+      "evidence": [
+        "欲斬劉岱、王忠",
+        "黜罷爵祿"
+      ]
+    },
+    {
+      "id": "char_kongrong",
+      "name": "孔融",
+      "type": "character",
+      "aliases": [
+        "孔文舉"
+      ],
+      "description": "諫曹操勿殺劉岱、王忠，又薦禰衡於天子。",
+      "evidence": [
+        "孔融諫",
+        "吾友禰衡，字正平"
+      ]
+    },
+    {
+      "id": "char_zhangxiu",
+      "name": "張繡",
+      "type": "character",
+      "aliases": [],
+      "description": "受曹操、袁紹兩方招安，聽賈詡之勸投降曹操。",
+      "evidence": [
+        "張繡...赴許都投降",
+        "封繡為揚武將軍"
+      ]
+    },
+    {
+      "id": "char_liuye",
+      "name": "劉曄",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操派往襄城說降張繡的使者。",
+      "evidence": [
+        "先遣劉曄往說張繡"
+      ]
+    },
+    {
+      "id": "char_jiaxu",
+      "name": "賈詡",
+      "type": "character",
+      "aliases": [
+        "詡"
+      ],
+      "description": "勸張繡歸曹，後受曹操封官，並建議以文名之士說劉表。",
+      "evidence": [
+        "不如去從曹操",
+        "封賈詡為執金吾使"
+      ]
+    },
+    {
+      "id": "char_yuanshao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "袁本初",
+        "本初"
+      ],
+      "description": "遣使招安張繡與劉表，是曹操當前主要敵手。",
+      "evidence": [
+        "袁紹有使至",
+        "袁本初又遣使來"
+      ]
+    },
+    {
+      "id": "char_liubiao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "劉景升"
+      ],
+      "description": "荊州之主，接見禰衡後遣往江夏，又派韓嵩赴許都探曹操動靜。",
+      "evidence": [
+        "劉表...令去江夏見黃祖",
+        "汝且去許都"
+      ]
+    },
+    {
+      "id": "char_xunyou",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [
+        "攸"
+      ],
+      "description": "向曹操推舉孔融作出使劉表的人選。",
+      "evidence": [
+        "孔文舉可當其任"
+      ]
+    },
+    {
+      "id": "char_xunyu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "阻止眾人殺禰衡，後諫曹操先平袁紹、劉備再圖江漢。",
+      "evidence": [
+        "荀彧急止之",
+        "可先滅袁紹"
+      ]
+    },
+    {
+      "id": "char_niheng",
+      "name": "禰衡",
+      "type": "character",
+      "aliases": [
+        "正平",
+        "禰正平",
+        "你衡"
+      ],
+      "description": "孔融所薦名士，辱罵曹操及其文武，被曹操遣往荊州，後為黃祖所殺。",
+      "evidence": [
+        "字正平",
+        "黃祖斬了禰衡"
+      ]
+    },
+    {
+      "id": "char_huangzu",
+      "name": "黃祖",
+      "type": "character",
+      "aliases": [],
+      "description": "江夏人物，醉中因禰衡言語而將其斬殺。",
+      "evidence": [
+        "令去江夏見黃祖",
+        "遂斬之"
+      ]
+    },
+    {
+      "id": "char_hansong",
+      "name": "韓嵩",
+      "type": "character",
+      "aliases": [
+        "嵩"
+      ],
+      "description": "劉表從事中郎將，主張荊州附曹，赴許都受曹操官職。",
+      "evidence": [
+        "從事中郎將韓嵩",
+        "拜嵩為侍中"
+      ]
+    },
+    {
+      "id": "char_kuailiang",
+      "name": "蒯良",
+      "type": "character",
+      "aliases": [],
+      "description": "為韓嵩辯解，使劉表赦免韓嵩。",
+      "evidence": [
+        "蒯良曰：嵩未去之前"
+      ]
+    },
+    {
+      "id": "char_dongcheng",
+      "name": "董承",
+      "type": "character",
+      "aliases": [
+        "國舅"
+      ],
+      "description": "奉衣帶詔密謀除曹，病中與吉平定下毒殺曹操之計，後事敗。",
+      "evidence": [
+        "董承...日夜與王子服等商議",
+        "承乃取出衣帶詔"
+      ]
+    },
+    {
+      "id": "char_wangzifu",
+      "name": "王子服",
+      "type": "character",
+      "aliases": [
+        "子服"
+      ],
+      "description": "董承同謀之一，被曹操留宴審問並監禁。",
+      "evidence": [
+        "王子服等四人面面相覷",
+        "將四人拿住監禁"
+      ]
+    },
+    {
+      "id": "char_jiping",
+      "name": "吉平",
+      "type": "character",
+      "aliases": [
+        "吉太醫",
+        "太醫吉平"
+      ],
+      "description": "奉詔醫治董承，向董承誓殺曹操，毒藥事敗後受刑而死。",
+      "evidence": [
+        "吉平向前叫曰",
+        "暗下毒藥"
+      ]
+    },
+    {
+      "id": "char_qinqingtong",
+      "name": "秦慶童",
+      "type": "character",
+      "aliases": [
+        "慶童"
+      ],
+      "description": "董承家奴，受責後逃往曹操府告密。",
+      "evidence": [
+        "家奴秦慶童",
+        "告有機密事"
+      ]
+    },
+    {
+      "id": "char_yunying",
+      "name": "雲英",
+      "type": "character",
+      "aliases": [],
+      "description": "董承侍妾，與秦慶童暗處私語而事發。",
+      "evidence": [
+        "侍妾雲英在暗處私語"
+      ]
+    },
+    {
+      "id": "char_xiandi",
+      "name": "漢獻帝",
+      "type": "character",
+      "aliases": [
+        "帝",
+        "天子",
+        "陛下"
+      ],
+      "description": "衣帶詔所奉之君；曹操事後欲廢之另立新君。",
+      "evidence": [
+        "我當薦之天子",
+        "要廢獻帝"
+      ]
+    },
+    {
+      "id": "char_mateng",
+      "name": "馬騰",
+      "type": "character",
+      "aliases": [],
+      "description": "董承稱原謀牽涉者之一，已離去而使謀望不成。",
+      "evidence": [
+        "馬騰各自去了"
+      ]
+    },
+    {
+      "id": "char_hansui",
+      "name": "韓遂",
+      "type": "character",
+      "aliases": [],
+      "description": "在董承夢中計策裡與馬騰、西涼軍同被提及。",
+      "evidence": [
+        "馬騰結連韓遂"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹操文武",
+        "曹瞞黨"
+      ],
+      "description": "曹操麾下文武、謀士與執行刑訊的勢力。",
+      "evidence": [
+        "手下文武",
+        "吾已拿下廷尉"
+      ]
+    },
+    {
+      "id": "faction_han",
+      "name": "漢朝朝廷",
+      "type": "faction",
+      "aliases": [
+        "朝廷",
+        "漢朝",
+        "漢室"
+      ],
+      "description": "獻帝名義下的朝廷，董承、吉平皆稱為其除曹。",
+      "evidence": [
+        "未嘗忘漢",
+        "救漢朝社稷"
+      ]
+    },
+    {
+      "id": "faction_jingzhou",
+      "name": "荊州劉表勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州"
+      ],
+      "description": "劉表控制的荊州政權，面臨附曹或觀望袁曹的選擇。",
+      "evidence": [
+        "荊州劉表",
+        "舉荊州以附操"
+      ]
+    },
+    {
+      "id": "faction_dongcheng_plot",
+      "name": "董承密黨",
+      "type": "faction",
+      "aliases": [
+        "王子服等四人",
+        "同謀者"
+      ],
+      "description": "董承、王子服等奉衣帶詔謀殺曹操的秘密團體。",
+      "evidence": [
+        "日夜與王子服等商議",
+        "同謀者先有六人"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [
+        "京師"
+      ],
+      "description": "曹操政權所在，張繡投降、韓嵩受官、吉平下毒案均在此發生。",
+      "evidence": [
+        "赴許都投降",
+        "到許都見操"
+      ]
+    },
+    {
+      "id": "loc_xiangcheng",
+      "name": "襄城",
+      "type": "location",
+      "aliases": [],
+      "description": "劉曄前往說張繡之地。",
+      "evidence": [
+        "曄至襄城"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表治地，禰衡奉使所至。",
+      "evidence": [
+        "往荊州為使",
+        "衡至荊州"
+      ]
+    },
+    {
+      "id": "loc_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表遣禰衡去見黃祖之地。",
+      "evidence": [
+        "令去江夏見黃祖"
+      ]
+    },
+    {
+      "id": "loc_yingwuzhou",
+      "name": "鸚鵡洲",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表命安葬禰衡之處。",
+      "evidence": [
+        "令葬於鸚鵡洲邊"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操原欲待招安張繡、劉表後再圖之地。",
+      "evidence": [
+        "然後再圖徐州"
+      ]
+    },
+    {
+      "id": "loc_jianghan",
+      "name": "江漢",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操欲用兵問罪劉表的方向，荀彧諫其暫緩。",
+      "evidence": [
+        "用兵江漢"
+      ]
+    },
+    {
+      "id": "obj_yidaizhao",
+      "name": "衣帶詔",
+      "type": "object",
+      "aliases": [
+        "白絹",
+        "詔狀"
+      ],
+      "description": "董承持有的密詔，作為誅曹密謀憑據，後被曹操取得。",
+      "evidence": [
+        "取出衣帶詔",
+        "白絹中寫著何事"
+      ]
+    },
+    {
+      "id": "obj_poison",
+      "name": "毒藥",
+      "type": "object",
+      "aliases": [],
+      "description": "吉平用以謀殺曹操的藥物。",
+      "evidence": [
+        "只用一服毒藥",
+        "暗下毒藥"
+      ]
+    },
+    {
+      "id": "title_yangwu",
+      "name": "揚武將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操封張繡之官職。",
+      "evidence": [
+        "封繡為揚武將軍"
+      ]
+    },
+    {
+      "id": "title_zhijinwu",
+      "name": "執金吾使",
+      "type": "title",
+      "aliases": [
+        "執金吾"
+      ],
+      "description": "曹操封賈詡之官職。",
+      "evidence": [
+        "封賈詡為執金吾使"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在本章所居官位。",
+      "evidence": [
+        "丞相欲得一有文名之士"
+      ]
+    },
+    {
+      "id": "title_guojiu",
+      "name": "國舅",
+      "type": "title",
+      "aliases": [],
+      "description": "董承在朝中的稱號。",
+      "evidence": [
+        "帝知國舅染病"
+      ]
+    },
+    {
+      "id": "title_taiyi",
+      "name": "隨朝太醫",
+      "type": "title",
+      "aliases": [
+        "太醫"
+      ],
+      "description": "吉平奉命醫治董承的醫官身分。",
+      "evidence": [
+        "令隨朝太醫前去醫治"
+      ]
+    },
+    {
+      "id": "title_congshi_zhonglang",
+      "name": "從事中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "韓嵩在劉表處的官職。",
+      "evidence": [
+        "從事中郎將韓嵩"
+      ]
+    },
+    {
+      "id": "title_shizhong",
+      "name": "侍中",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操拜韓嵩之官職。",
+      "evidence": [
+        "拜嵩為侍中"
+      ]
+    },
+    {
+      "id": "title_lingling",
+      "name": "零陵太守",
+      "type": "title",
+      "aliases": [],
+      "description": "韓嵩受曹操所領之職。",
+      "evidence": [
+        "領零陵太守"
+      ]
+    },
+    {
+      "id": "strategy_zhaoan_then_xuzhou",
+      "name": "招安張繡劉表再圖徐州",
+      "type": "strategy",
+      "aliases": [
+        "先招安再圖徐州"
+      ],
+      "description": "孔融向曹操提出的暫緩出兵、先安外援策略。",
+      "evidence": [
+        "先使人招安張繡、劉表",
+        "再圖徐州"
+      ]
+    },
+    {
+      "id": "strategy_lend_liubiao_kill_niheng",
+      "name": "藉劉表手殺禰衡",
+      "type": "strategy",
+      "aliases": [
+        "借刀殺禰衡"
+      ],
+      "description": "曹操遣禰衡往劉表處，意在使劉表承擔殺賢之名。",
+      "evidence": [
+        "故藉劉表手殺之"
+      ]
+    },
+    {
+      "id": "strategy_jingzhou_attach_cao",
+      "name": "舉荊州附曹",
+      "type": "strategy",
+      "aliases": [
+        "荊州歸曹"
+      ],
+      "description": "韓嵩建議劉表投附曹操的策略。",
+      "evidence": [
+        "莫若舉荊州以附操"
+      ]
+    },
+    {
+      "id": "strategy_yuan_liu_before_jianghan",
+      "name": "先滅袁紹後滅劉備",
+      "type": "strategy",
+      "aliases": [
+        "先袁後劉再平江漢"
+      ],
+      "description": "荀彧勸曹操暫緩問罪劉表，先處理袁紹、劉備。",
+      "evidence": [
+        "可先滅袁紹，後滅劉備"
+      ]
+    },
+    {
+      "id": "army_yuzu",
+      "name": "二十個精壯獄卒",
+      "type": "army",
+      "aliases": [
+        "二十獄卒"
+      ],
+      "description": "曹操用以拷問吉平的獄卒隊。",
+      "evidence": [
+        "二十個精壯獄卒",
+        "教二十個獄卒"
+      ]
+    },
+    {
+      "id": "event_zhangxiu_surrender",
+      "name": "張繡投曹",
+      "type": "event",
+      "aliases": [],
+      "description": "張繡聽賈詡勸告，與賈詡赴許都投降曹操並受封。",
+      "evidence": [
+        "赴許都投降",
+        "封繡為揚武將軍"
+      ]
+    },
+    {
+      "id": "event_niheng_insults",
+      "name": "禰衡裸衣罵曹",
+      "type": "event",
+      "aliases": [
+        "禰正平裸衣罵賊"
+      ],
+      "description": "禰衡在曹操前裸衣擊鼓並辱罵曹操與其文武。",
+      "evidence": [
+        "裸衣罵賊",
+        "不作曹瞞黨"
+      ]
+    },
+    {
+      "id": "event_jiping_poison",
+      "name": "吉平下毒",
+      "type": "event",
+      "aliases": [
+        "吉太醫下毒"
+      ],
+      "description": "吉平趁曹操詐稱頭風時暗下毒藥，企圖灌曹操服下。",
+      "evidence": [
+        "暗下毒藥",
+        "扯住操耳而灌之"
+      ]
+    },
+    {
+      "id": "event_jiping_execution",
+      "name": "吉平遭刑而死",
+      "type": "event",
+      "aliases": [
+        "吉太醫遭刑"
+      ],
+      "description": "吉平受曹操嚴刑逼供仍不招，後撞階而死。",
+      "evidence": [
+        "截去其九指",
+        "撞階而死"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_caocao",
+      "target": "char_liudai",
+      "type": "欲斬",
+      "description": "曹操原欲處斬劉岱。",
+      "evidence": [
+        "曹操欲斬劉岱"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_wangzhong",
+      "type": "欲斬",
+      "description": "曹操原欲處斬王忠。",
+      "evidence": [
+        "曹操欲斬劉岱、王忠"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_kongrong",
+      "target": "char_caocao",
+      "type": "諫阻",
+      "description": "孔融勸曹操勿殺劉岱、王忠。",
+      "evidence": [
+        "孔融諫"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_liubei",
+      "type": "欲攻伐",
+      "description": "曹操想親自起兵討伐劉備。",
+      "evidence": [
+        "欲自起兵伐玄德"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_kongrong",
+      "target": "strategy_zhaoan_then_xuzhou",
+      "type": "建策",
+      "description": "孔融建議曹操先招安張繡、劉表，再圖徐州。",
+      "evidence": [
+        "可先使人招安張繡、劉表"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_liuye",
+      "type": "派遣",
+      "description": "曹操派劉曄前往說降張繡。",
+      "evidence": [
+        "先遣劉曄往說張繡"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liuye",
+      "target": "char_zhangxiu",
+      "type": "招安",
+      "description": "劉曄奉曹操命到襄城招安張繡。",
+      "evidence": [
+        "往說張繡"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuanshao",
+      "target": "char_zhangxiu",
+      "type": "招安",
+      "description": "袁紹也遣使向張繡提出招安。",
+      "evidence": [
+        "袁紹有使至",
+        "亦是招安之意"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_jiaxu",
+      "target": "char_zhangxiu",
+      "type": "勸降曹操",
+      "description": "賈詡勸張繡歸附曹操。",
+      "evidence": [
+        "不如去從曹操"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhangxiu",
+      "target": "char_caocao",
+      "type": "投降",
+      "description": "張繡與賈詡赴許都投降曹操。",
+      "evidence": [
+        "赴許都投降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_zhangxiu",
+      "type": "封任",
+      "description": "曹操封張繡為揚武將軍。",
+      "evidence": [
+        "封繡為揚武將軍"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhangxiu",
+      "target": "title_yangwu",
+      "type": "受封",
+      "description": "張繡受封揚武將軍。",
+      "evidence": [
+        "封繡為揚武將軍"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_jiaxu",
+      "type": "封任",
+      "description": "曹操封賈詡為執金吾使。",
+      "evidence": [
+        "封賈詡為執金吾使"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_jiaxu",
+      "target": "title_zhijinwu",
+      "type": "受封",
+      "description": "賈詡受封執金吾使。",
+      "evidence": [
+        "封賈詡為執金吾使"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_zhangxiu",
+      "type": "命令",
+      "description": "曹操命張繡寫信招安劉表。",
+      "evidence": [
+        "命繡作書招安劉表"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_jiaxu",
+      "target": "char_caocao",
+      "type": "建議",
+      "description": "賈詡建議須用有文名之士去說劉表。",
+      "evidence": [
+        "必得一有文名之士往說之"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_xunyou",
+      "target": "char_kongrong",
+      "type": "推舉",
+      "description": "荀攸推舉孔融可作出使人選。",
+      "evidence": [
+        "孔文舉可當其任"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_kongrong",
+      "target": "char_niheng",
+      "type": "推薦",
+      "description": "孔融向天子薦禰衡。",
+      "evidence": [
+        "吾友禰衡，字正平",
+        "我當薦之天子"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_niheng",
+      "type": "派使",
+      "description": "曹操使禰衡往荊州為使。",
+      "evidence": [
+        "使汝往荊州為使"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_niheng",
+      "target": "char_caocao",
+      "type": "辱罵敵對",
+      "description": "禰衡公開辱罵曹操，不願作曹操黨羽。",
+      "evidence": [
+        "不作曹瞞黨"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caocao",
+      "target": "strategy_lend_liubiao_kill_niheng",
+      "type": "用計",
+      "description": "曹操藉派禰衡出使，意圖借劉表之手殺禰衡。",
+      "evidence": [
+        "故藉劉表手殺之"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_niheng",
+      "type": "遣往",
+      "description": "劉表不喜禰衡，令其去江夏見黃祖。",
+      "evidence": [
+        "令去江夏見黃祖"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_huangzu",
+      "target": "char_niheng",
+      "type": "斬殺",
+      "description": "黃祖醉後殺禰衡。",
+      "evidence": [
+        "黃祖斬了禰衡",
+        "遂斬之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_niheng",
+      "type": "安葬",
+      "description": "劉表聽聞禰衡死後命葬於鸚鵡洲。",
+      "evidence": [
+        "令葬於鸚鵡洲邊"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_yuanshao",
+      "target": "char_liubiao",
+      "type": "遣使",
+      "description": "袁紹遣使至劉表處。",
+      "evidence": [
+        "袁紹亦遣使至"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "source": "char_hansong",
+      "target": "char_liubiao",
+      "type": "建議",
+      "description": "韓嵩勸劉表舉荊州歸附曹操。",
+      "evidence": [
+        "莫若舉荊州以附操"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_hansong",
+      "target": "strategy_jingzhou_attach_cao",
+      "type": "提出",
+      "description": "舉荊州附曹是韓嵩提出的策略。",
+      "evidence": [
+        "舉荊州以附操"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_hansong",
+      "type": "派遣",
+      "description": "劉表派韓嵩赴許都觀察曹操動靜。",
+      "evidence": [
+        "汝且去許都，觀其動靜"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_hansong",
+      "type": "任命",
+      "description": "曹操授韓嵩侍中並領零陵太守。",
+      "evidence": [
+        "拜嵩為侍中，領零陵太守"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_hansong",
+      "target": "title_shizhong",
+      "type": "受拜",
+      "description": "韓嵩受拜侍中。",
+      "evidence": [
+        "拜嵩為侍中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hansong",
+      "target": "title_lingling",
+      "type": "領官",
+      "description": "韓嵩兼領零陵太守。",
+      "evidence": [
+        "領零陵太守"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hansong",
+      "target": "char_liubiao",
+      "type": "勸說",
+      "description": "韓嵩回荊州後勸劉表遣子入侍。",
+      "evidence": [
+        "勸表遣子入侍"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_kuailiang",
+      "target": "char_hansong",
+      "type": "辯護",
+      "description": "蒯良證明韓嵩出使前已先明言立場。",
+      "evidence": [
+        "嵩未去之前，先有此言"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_hansong",
+      "type": "赦免",
+      "description": "劉表欲斬韓嵩，後赦免。",
+      "evidence": [
+        "劉表遂赦之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_liubiao",
+      "type": "欲問罪",
+      "description": "曹操因劉表不降而想起兵問罪。",
+      "evidence": [
+        "便欲興兵問罪"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_xunyu",
+      "target": "strategy_yuan_liu_before_jianghan",
+      "type": "建策",
+      "description": "荀彧勸曹操先滅袁紹、劉備，再平江漢。",
+      "evidence": [
+        "可先滅袁紹，後滅劉備"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_xunyu",
+      "target": "char_caocao",
+      "type": "諫阻",
+      "description": "荀彧諫止曹操此時用兵江漢。",
+      "evidence": [
+        "而欲用兵江漢"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_dongcheng",
+      "target": "char_wangzifu",
+      "type": "密謀",
+      "description": "董承與王子服等日夜商議除曹。",
+      "evidence": [
+        "日夜與王子服等商議"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_xiandi",
+      "target": "char_jiping",
+      "type": "派醫",
+      "description": "獻帝命太醫吉平去醫治董承。",
+      "evidence": [
+        "令隨朝太醫前去醫治"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_jiping",
+      "target": "char_dongcheng",
+      "type": "表忠結盟",
+      "description": "吉平向董承表示不忘漢室，願冒死效力。",
+      "evidence": [
+        "未嘗忘漢",
+        "雖滅九族，亦無後悔"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_dongcheng",
+      "target": "obj_yidaizhao",
+      "type": "持有出示",
+      "description": "董承取出衣帶詔給吉平觀看。",
+      "evidence": [
+        "承乃取出衣帶詔"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_jiping",
+      "target": "obj_poison",
+      "type": "使用",
+      "description": "吉平計畫以毒藥害曹操。",
+      "evidence": [
+        "只用一服毒藥"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_jiping",
+      "target": "char_caocao",
+      "type": "謀殺",
+      "description": "吉平趁治病機會下毒謀殺曹操。",
+      "evidence": [
+        "暗下毒藥",
+        "欲害曹公"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_qinqingtong",
+      "target": "char_yunying",
+      "type": "私通",
+      "description": "秦慶童與雲英暗處私語，被董承發覺。",
+      "evidence": [
+        "同侍妾雲英在暗處私語"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "source": "char_dongcheng",
+      "target": "char_qinqingtong",
+      "type": "杖責囚禁",
+      "description": "董承怒責秦慶童，杖脊後鎖於冷房。",
+      "evidence": [
+        "杖脊四十",
+        "鎖於冷房"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_qinqingtong",
+      "target": "char_caocao",
+      "type": "告密",
+      "description": "秦慶童逃出後向曹操告發董承機密。",
+      "evidence": [
+        "徑入曹操府中，告有機密事"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_qinqingtong",
+      "type": "藏匿",
+      "description": "曹操將秦慶童藏在府中作證。",
+      "evidence": [
+        "藏匿慶童於府中"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_jiping",
+      "type": "詐病誘捕",
+      "description": "曹操詐稱頭風召吉平用藥以試探。",
+      "evidence": [
+        "詐患頭風，召吉平"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "army_yuzu",
+      "type": "調用",
+      "description": "曹操命獄卒拷問吉平。",
+      "evidence": [
+        "二十個精壯獄卒"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_jiping",
+      "type": "拷問處死",
+      "description": "曹操嚴刑逼供吉平，吉平死後又令分屍號令。",
+      "evidence": [
+        "教獄卒痛打",
+        "分其肢體號令"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_wangzifu",
+      "type": "監禁",
+      "description": "曹操將王子服等四人拿住監禁。",
+      "evidence": [
+        "將四人拿住監禁"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_dongcheng",
+      "type": "監禁全家",
+      "description": "曹操命將董承全家良賤監禁。",
+      "evidence": [
+        "將董承全家良賤，盡皆監禁"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_xiandi",
+      "type": "謀廢",
+      "description": "曹操取得詔狀後與謀士商議廢獻帝。",
+      "evidence": [
+        "要廢獻帝，更立新君"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_jiping",
+      "target": "faction_han",
+      "type": "效忠",
+      "description": "吉平自稱未忘漢室，願為國家除賊。",
+      "evidence": [
+        "未嘗忘漢",
+        "為國家除賊"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_dongcheng",
+      "target": "faction_han",
+      "type": "奉詔密謀",
+      "description": "董承以衣帶詔為憑，謀求救漢除曹。",
+      "evidence": [
+        "救漢朝社稷",
+        "衣帶詔"
+      ],
+      "confidence": 0.94
+    }
+  ],
+  "events": [
+    {
+      "id": "event_pardon_liudai_wangzhong",
+      "name": "孔融諫免劉岱王忠",
+      "summary": "曹操欲斬劉岱、王忠，孔融諫阻後，二人免死而被黜爵祿。",
+      "participants": [
+        "char_caocao",
+        "char_liudai",
+        "char_wangzhong",
+        "char_kongrong"
+      ],
+      "locations": [],
+      "evidence": [
+        "欲斬劉岱、王忠",
+        "免其死"
+      ]
+    },
+    {
+      "id": "event_zhaoan_zhangxiu",
+      "name": "兩方招安張繡",
+      "summary": "曹操派劉曄說張繡，袁紹也遣使招安；賈詡分析利害，勸張繡歸曹。",
+      "participants": [
+        "char_caocao",
+        "char_liuye",
+        "char_zhangxiu",
+        "char_yuanshao",
+        "char_jiaxu"
+      ],
+      "locations": [
+        "loc_xiangcheng"
+      ],
+      "evidence": [
+        "先遣劉曄往說張繡",
+        "袁紹有使至",
+        "不如去從曹操"
+      ]
+    },
+    {
+      "id": "event_zhangxiu_surrender",
+      "name": "張繡投曹",
+      "summary": "張繡同賈詡赴許都投降曹操，曹操釋舊怨並封張繡、賈詡官職。",
+      "participants": [
+        "char_zhangxiu",
+        "char_jiaxu",
+        "char_caocao"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "赴許都投降",
+        "封繡為揚武將軍"
+      ]
+    },
+    {
+      "id": "event_niheng_recommendation",
+      "name": "孔融薦禰衡",
+      "summary": "孔融稱禰衡才高，奏薦於天子；曹操後欲使禰衡往荊州說劉表。",
+      "participants": [
+        "char_kongrong",
+        "char_niheng",
+        "char_xiandi",
+        "char_caocao",
+        "char_xunyou"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "吾友禰衡，字正平",
+        "使汝往荊州為使"
+      ]
+    },
+    {
+      "id": "event_niheng_insults",
+      "name": "禰衡裸衣罵曹",
+      "summary": "禰衡在曹操前裸衣擊鼓，又在送行時辱罵曹操文武，荀彧阻眾人殺之。",
+      "participants": [
+        "char_niheng",
+        "char_caocao",
+        "char_xunyu",
+        "faction_cao"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "裸衣罵賊",
+        "不作曹瞞黨"
+      ]
+    },
+    {
+      "id": "event_niheng_death",
+      "name": "禰衡江夏遇害",
+      "summary": "禰衡至荊州見劉表，劉表遣其見黃祖；黃祖醉後斬禰衡，劉表命葬鸚鵡洲。",
+      "participants": [
+        "char_niheng",
+        "char_liubiao",
+        "char_huangzu",
+        "char_caocao"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_jiangxia",
+        "loc_yingwuzhou"
+      ],
+      "evidence": [
+        "令去江夏見黃祖",
+        "黃祖斬了禰衡",
+        "令葬於鸚鵡洲邊"
+      ]
+    },
+    {
+      "id": "event_hansong_mission",
+      "name": "韓嵩赴許都",
+      "summary": "韓嵩勸劉表附曹，奉命赴許都觀察；曹操授官後遣回，韓嵩勸劉表遣子入侍，險被處斬而得赦。",
+      "participants": [
+        "char_hansong",
+        "char_liubiao",
+        "char_caocao",
+        "char_kuailiang"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "觀其動靜",
+        "拜嵩為侍中",
+        "劉表遂赦之"
+      ]
+    },
+    {
+      "id": "event_liubiao_policy",
+      "name": "荀彧諫緩江漢",
+      "summary": "曹操因劉表不降想興兵問罪，荀彧勸其先平袁紹、劉備，再圖江漢。",
+      "participants": [
+        "char_caocao",
+        "char_liubiao",
+        "char_xunyu",
+        "char_yuanshao",
+        "char_liubei"
+      ],
+      "locations": [
+        "loc_jianghan"
+      ],
+      "evidence": [
+        "欲興兵問罪",
+        "先滅袁紹，後滅劉備"
+      ]
+    },
+    {
+      "id": "event_dongcheng_jiping_oath",
+      "name": "董承吉平定毒計",
+      "summary": "董承病中洩露除曹心事，吉平咬指為誓，觀看衣帶詔後提出趁治頭風以毒藥殺曹。",
+      "participants": [
+        "char_dongcheng",
+        "char_jiping",
+        "char_xiandi",
+        "char_liubei",
+        "char_mateng"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "咬下一指為誓",
+        "取出衣帶詔",
+        "只用一服毒藥"
+      ]
+    },
+    {
+      "id": "event_qinqingtong_betrayal",
+      "name": "秦慶童告密",
+      "summary": "秦慶童與雲英事發受杖鎖禁，夜逃曹府，向曹操告發董承與吉平機密。",
+      "participants": [
+        "char_qinqingtong",
+        "char_yunying",
+        "char_dongcheng",
+        "char_caocao"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "杖脊四十",
+        "告有機密事",
+        "藏匿慶童於府中"
+      ]
+    },
+    {
+      "id": "event_jiping_poison",
+      "name": "吉平下毒事敗",
+      "summary": "曹操詐患頭風召吉平；吉平煎藥下毒，事洩後強灌未成，被左右拿下。",
+      "participants": [
+        "char_jiping",
+        "char_caocao",
+        "char_qinqingtong"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "詐患頭風",
+        "暗下毒藥",
+        "左右已將吉平執下"
+      ]
+    },
+    {
+      "id": "event_jiping_execution",
+      "name": "吉平遭刑而死",
+      "summary": "曹操反覆拷問吉平同謀；吉平不招，在董承府前拜國後撞階而死，曹操分其肢體號令。",
+      "participants": [
+        "char_caocao",
+        "char_jiping",
+        "char_dongcheng",
+        "char_wangzifu",
+        "army_yuzu"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "皮開肉裂",
+        "撞階而死",
+        "分其肢體號令"
+      ]
+    },
+    {
+      "id": "event_dongcheng_plot_exposed",
+      "name": "董承密謀敗露",
+      "summary": "曹操以秦慶童對證，監禁董承全家與王子服等，並以詔狀示謀士，商議廢獻帝。",
+      "participants": [
+        "char_caocao",
+        "char_dongcheng",
+        "char_qinqingtong",
+        "char_wangzifu",
+        "char_xiandi"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "盡皆監禁",
+        "詔狀示眾謀士",
+        "要廢獻帝"
+      ]
+    }
+  ],
+  "notes": [
+    "本章以招降、使節、罵曹、毒殺密謀與刑訊為主，未出現正式命名戰役。",
+    "正文有少量疑似異文，如禰衡作你衡；已以章題與上下文正名，異文列入 aliases。"
+  ]
+}

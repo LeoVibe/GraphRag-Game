@@ -1,0 +1,2085 @@
+{
+  "book": "三國演義",
+  "chapter_no": 27,
+  "chapter_title": "美髯公千里走單騎　漢壽侯五關斬六將",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_guanyu",
+      "name": "關公",
+      "type": "character",
+      "aliases": [
+        "關羽",
+        "雲長",
+        "關雲長",
+        "關某",
+        "美髯公"
+      ],
+      "description": "辭別曹操，護送劉備二夫人尋兄，沿途過關斬將。",
+      "evidence": [
+        "辭丞相，特往河北尋兄",
+        "護送車仗",
+        "五關斬六將"
+      ]
+    },
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹公",
+        "丞相"
+      ],
+      "description": "敬重關公忠義，不許追趕，親自送行並贈錦袍。",
+      "evidence": [
+        "不忘故主，來去明白",
+        "欲來相送",
+        "蒙丞相賜袍"
+      ]
+    },
+    {
+      "id": "char_liubei",
+      "name": "劉玄德",
+      "type": "character",
+      "aliases": [
+        "劉備",
+        "玄德",
+        "劉皇叔",
+        "皇叔",
+        "故主",
+        "兄長"
+      ],
+      "description": "關公尋找的兄長與故主；先在袁紹處，後往汝南。",
+      "evidence": [
+        "故主在河北",
+        "欲投河北去尋兄長劉玄德",
+        "脫身往汝南去了"
+      ]
+    },
+    {
+      "id": "char_zhangliao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [
+        "文遠"
+      ],
+      "description": "曹操部將，與關公交厚，受命先行請關公停步。",
+      "evidence": [
+        "張遼拍馬而至",
+        "特先使我請住台駕"
+      ]
+    },
+    {
+      "id": "char_xuhuang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，與關公交厚，隨曹操送行。",
+      "evidence": [
+        "徐晃與雲長交厚",
+        "背後乃是許褚、徐晃"
+      ]
+    },
+    {
+      "id": "char_chengyu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，建議追殺關公以絕後患。",
+      "evidence": [
+        "不若追而殺了，以絕後為患"
+      ]
+    },
+    {
+      "id": "char_caiyang",
+      "name": "蔡陽",
+      "type": "character",
+      "aliases": [],
+      "description": "不服關公，欲追趕，被曹操叱退。",
+      "evidence": [
+        "獨蔡陽不服關公",
+        "遂叱退蔡陽"
+      ]
+    },
+    {
+      "id": "char_xuchu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "隨曹操送行，因關公不下馬受袍而主張擒之。",
+      "evidence": [
+        "背後乃是許褚",
+        "何不擒之"
+      ]
+    },
+    {
+      "id": "char_yujin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，隨曹操送關公。",
+      "evidence": [
+        "許褚、徐晃、於禁、李典之輩"
+      ]
+    },
+    {
+      "id": "char_lidian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，隨曹操送關公。",
+      "evidence": [
+        "許褚、徐晃、於禁、李典之輩"
+      ]
+    },
+    {
+      "id": "char_erfuren",
+      "name": "二夫人",
+      "type": "character",
+      "aliases": [
+        "二嫂",
+        "二位夫人",
+        "劉皇叔夫人",
+        "尊嫂"
+      ],
+      "description": "劉備夫人，由關公護送；途中曾被杜遠劫上山。",
+      "evidence": [
+        "兩夫人劫掠上山",
+        "車上還有二位夫人"
+      ]
+    },
+    {
+      "id": "char_liaohua",
+      "name": "廖化",
+      "type": "character",
+      "aliases": [
+        "字符儉"
+      ],
+      "description": "襄陽人，黃巾餘黨出身，保全二夫人並欲送關公。",
+      "evidence": [
+        "姓廖，名化，字符儉",
+        "因世亂流落江湖",
+        "若非廖將軍保全"
+      ]
+    },
+    {
+      "id": "char_duyuan",
+      "name": "杜遠",
+      "type": "character",
+      "aliases": [],
+      "description": "廖化同伴，誤劫二夫人上山。",
+      "evidence": [
+        "同伴杜遠下山巡",
+        "誤將兩夫人劫掠上山"
+      ]
+    },
+    {
+      "id": "char_huhua",
+      "name": "胡華",
+      "type": "character",
+      "aliases": [],
+      "description": "村莊主人，曾任議郎，託關公帶書給其子胡班。",
+      "evidence": [
+        "吾姓胡，名華",
+        "桓帝時曾為議郎",
+        "有一書寄與小兒"
+      ]
+    },
+    {
+      "id": "char_huban",
+      "name": "胡班",
+      "type": "character",
+      "aliases": [],
+      "description": "胡華之子，滎陽太守王植部下從事；受命縱火後改為密告關公。",
+      "evidence": [
+        "小兒胡班",
+        "在榮陽太守王植部下為從事",
+        "險些誤殺忠良"
+      ]
+    },
+    {
+      "id": "char_kongxiu",
+      "name": "孔秀",
+      "type": "character",
+      "aliases": [],
+      "description": "東嶺關把關將，阻攔關公，被關公斬殺。",
+      "evidence": [
+        "把關將姓孔，名秀",
+        "只一合，孔秀屍橫馬下"
+      ]
+    },
+    {
+      "id": "char_hanfu",
+      "name": "韓福",
+      "type": "character",
+      "aliases": [],
+      "description": "洛陽太守，設計用暗箭射關公，後被關公斬殺。",
+      "evidence": [
+        "洛陽太守韓福",
+        "盡力放了一箭",
+        "斬於馬下"
+      ]
+    },
+    {
+      "id": "char_mengtan",
+      "name": "孟坦",
+      "type": "character",
+      "aliases": [],
+      "description": "韓福牙將，提出佯敗誘追之計，被關公砍為兩段。",
+      "evidence": [
+        "牙將孟坦曰",
+        "佯敗誘他來追",
+        "砍為兩段"
+      ]
+    },
+    {
+      "id": "char_bianxi",
+      "name": "卞喜",
+      "type": "character",
+      "aliases": [],
+      "description": "汜水關守將，黃巾餘黨後投曹操，於鎮國寺設伏害關公，被斬。",
+      "evidence": [
+        "姓卞，名喜",
+        "原是黃巾餘黨，後投曹操",
+        "一刀劈卞喜為兩段"
+      ]
+    },
+    {
+      "id": "char_pujing",
+      "name": "普淨",
+      "type": "character",
+      "aliases": [],
+      "description": "鎮國寺僧，關公同鄉，以戒刀示警，使關公識破伏兵。",
+      "evidence": [
+        "法名普淨",
+        "卻是關公同鄉人",
+        "以手舉所佩戒刀"
+      ]
+    },
+    {
+      "id": "char_wangzhi",
+      "name": "王植",
+      "type": "character",
+      "aliases": [],
+      "description": "滎陽太守，韓福親家，命胡班火燒館驛害關公，被關公斬殺。",
+      "evidence": [
+        "滎陽太守王植",
+        "與韓福是兩親家",
+        "砍為兩段"
+      ]
+    },
+    {
+      "id": "char_liuyan",
+      "name": "劉延",
+      "type": "character",
+      "aliases": [],
+      "description": "滑州地方官，出迎關公並談及劉備在袁紹處。",
+      "evidence": [
+        "行至滑州界首",
+        "劉延引數十騎，出郭而迎"
+      ]
+    },
+    {
+      "id": "char_qinqi",
+      "name": "秦琪",
+      "type": "character",
+      "aliases": [],
+      "description": "黃河渡口守將，奉夏侯將軍將令把守，阻關公渡河，被斬。",
+      "evidence": [
+        "秦琪引軍出問",
+        "奉夏侯將軍將令",
+        "秦琪頭落"
+      ]
+    },
+    {
+      "id": "char_sungan",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [],
+      "description": "自北而來報信，告知劉備已往汝南，使關公改道。",
+      "evidence": [
+        "乃孫乾也",
+        "幸脫身往汝南去了",
+        "徑取汝南來"
+      ]
+    },
+    {
+      "id": "char_liupi",
+      "name": "劉闢",
+      "type": "character",
+      "aliases": [],
+      "description": "與龔都復奪汝南，遣孫乾往河北結好袁紹。",
+      "evidence": [
+        "劉闢、龔都",
+        "復奪了汝南",
+        "遣某往河北結好袁紹"
+      ]
+    },
+    {
+      "id": "char_gongdu",
+      "name": "龔都",
+      "type": "character",
+      "aliases": [],
+      "description": "與劉闢復奪汝南，遣孫乾往河北結好袁紹。",
+      "evidence": [
+        "劉闢、龔都",
+        "復奪了汝南"
+      ]
+    },
+    {
+      "id": "char_xiahoudun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "章末率軍追趕關公。",
+      "evidence": [
+        "當先夏侯惇大叫",
+        "關某休走"
+      ]
+    },
+    {
+      "id": "char_yuanshao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [],
+      "description": "河北勢力領袖，曹操仇敵；劉備曾在其處。",
+      "evidence": [
+        "河北袁紹",
+        "紹乃丞相仇人",
+        "玄德在袁紹處"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹操部下",
+        "丞相部下"
+      ],
+      "description": "曹操所統轄的軍政勢力，沿途多處關隘守將受其系統節制。",
+      "evidence": [
+        "曹操部下諸將",
+        "吾奉承相鈞命"
+      ]
+    },
+    {
+      "id": "faction_liubei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "皇叔一方"
+      ],
+      "description": "以劉備為核心，關公與二夫人欲回歸的一方。",
+      "evidence": [
+        "大漢劉皇叔夫人",
+        "尋兄長劉玄德"
+      ]
+    },
+    {
+      "id": "faction_yuanshao",
+      "name": "袁紹勢力",
+      "type": "faction",
+      "aliases": [
+        "河北袁紹"
+      ],
+      "description": "位於河北，與曹操敵對，劉備曾投其處。",
+      "evidence": [
+        "河北袁紹，正是丞相對頭"
+      ]
+    },
+    {
+      "id": "faction_huangjin",
+      "name": "黃巾餘黨",
+      "type": "faction",
+      "aliases": [],
+      "description": "廖化、卞喜曾出身或被稱為此類勢力。",
+      "evidence": [
+        "終是黃巾餘黨",
+        "原是黃巾餘黨"
+      ]
+    },
+    {
+      "id": "loc_hebei",
+      "name": "河北",
+      "type": "location",
+      "aliases": [],
+      "description": "關公原欲前往尋找劉備，亦是袁紹勢力所在。",
+      "evidence": [
+        "故主在河北",
+        "渡過黃河，便是袁紹地方"
+      ]
+    },
+    {
+      "id": "loc_donglingguan",
+      "name": "東嶺關",
+      "type": "location",
+      "aliases": [],
+      "description": "關公所過第一處關隘，孔秀把守。",
+      "evidence": [
+        "前至一關，名東嶺關"
+      ]
+    },
+    {
+      "id": "loc_luoyang",
+      "name": "洛陽",
+      "type": "location",
+      "aliases": [],
+      "description": "韓福任太守之地，關公在此遭暗箭。",
+      "evidence": [
+        "取路投洛陽來",
+        "洛陽太守韓福"
+      ]
+    },
+    {
+      "id": "loc_sishuiguan",
+      "name": "汜水關",
+      "type": "location",
+      "aliases": [],
+      "description": "卞喜把守之關，關前有鎮國寺。",
+      "evidence": [
+        "連夜投汜水關來",
+        "過了汜水關"
+      ]
+    },
+    {
+      "id": "loc_zhenguosi",
+      "name": "鎮國寺",
+      "type": "location",
+      "aliases": [],
+      "description": "卞喜設伏之處，也是普淨所在寺院。",
+      "evidence": [
+        "關前鎮國寺中",
+        "到鎮國寺前下馬"
+      ]
+    },
+    {
+      "id": "loc_yingyang",
+      "name": "滎陽",
+      "type": "location",
+      "aliases": [
+        "榮陽"
+      ],
+      "description": "王植任太守之地，關公在館驛遭縱火暗算。",
+      "evidence": [
+        "往滎陽進發",
+        "滎陽太守王植"
+      ]
+    },
+    {
+      "id": "loc_guanyi",
+      "name": "館驛",
+      "type": "location",
+      "aliases": [],
+      "description": "王植安排關公與二夫人歇宿並計劃縱火之處。",
+      "evidence": [
+        "館驛中暫歇一宵",
+        "圍住館驛"
+      ]
+    },
+    {
+      "id": "loc_huazhou",
+      "name": "滑州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉延出迎關公之地。",
+      "evidence": [
+        "行至滑州界首"
+      ]
+    },
+    {
+      "id": "loc_huanghe_dukou",
+      "name": "黃河渡口",
+      "type": "location",
+      "aliases": [],
+      "description": "秦琪守把的渡口，關公斬秦琪後渡河。",
+      "evidence": [
+        "到黃河渡口",
+        "秦琪引軍出問"
+      ]
+    },
+    {
+      "id": "loc_huanghe",
+      "name": "黃河",
+      "type": "location",
+      "aliases": [],
+      "description": "關公渡過後便到袁紹地方。",
+      "evidence": [
+        "渡過黃河，便是袁紹地方"
+      ]
+    },
+    {
+      "id": "loc_runan",
+      "name": "汝南",
+      "type": "location",
+      "aliases": [],
+      "description": "劉闢、龔都復奪之地，劉備後往此處，關公改道前往。",
+      "evidence": [
+        "復奪了汝南",
+        "徑取汝南來"
+      ]
+    },
+    {
+      "id": "loc_huhua_village",
+      "name": "村莊",
+      "type": "location",
+      "aliases": [
+        "胡華所居村莊"
+      ],
+      "description": "關公與二夫人夜宿之處，遇見胡華。",
+      "evidence": [
+        "至天晚，投一村莊安歇"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "廖化自稱本籍。",
+      "evidence": [
+        "吾本襄陽人"
+      ]
+    },
+    {
+      "id": "battle_wuguan",
+      "name": "五關斬六將",
+      "type": "battle",
+      "aliases": [
+        "過五關斬六將"
+      ],
+      "description": "關公護送二夫人途中，歷五處關隘，斬孔秀、孟坦、韓福、卞喜、王植、秦琪。",
+      "evidence": [
+        "所歷關隘五處，斬將六員"
+      ]
+    },
+    {
+      "id": "battle_dongling",
+      "name": "東嶺關斬孔秀",
+      "type": "battle",
+      "aliases": [],
+      "description": "孔秀阻關，關公一合斬之。",
+      "evidence": [
+        "孔秀屍橫馬下"
+      ]
+    },
+    {
+      "id": "battle_luoyang",
+      "name": "洛陽斬韓福孟坦",
+      "type": "battle",
+      "aliases": [],
+      "description": "孟坦誘戰、韓福暗箭射中關公，皆被關公斬殺。",
+      "evidence": [
+        "孟坦戰不三合",
+        "正射中關公左臂",
+        "斬於馬下"
+      ]
+    },
+    {
+      "id": "battle_sishui",
+      "name": "汜水關斬卞喜",
+      "type": "battle",
+      "aliases": [],
+      "description": "卞喜於鎮國寺設伏，關公識破後斬卞喜。",
+      "evidence": [
+        "壁衣中有刀斧手",
+        "劈卞喜為兩段"
+      ]
+    },
+    {
+      "id": "battle_yingyang",
+      "name": "滎陽斬王植",
+      "type": "battle",
+      "aliases": [],
+      "description": "王植縱火害關公未成，追擊時被斬。",
+      "evidence": [
+        "放火燒我",
+        "王植拍馬挺槍",
+        "砍為兩段"
+      ]
+    },
+    {
+      "id": "battle_huanghe",
+      "name": "黃河渡口斬秦琪",
+      "type": "battle",
+      "aliases": [],
+      "description": "秦琪阻關公渡河，被關公一合斬殺。",
+      "evidence": [
+        "秦琪頭落",
+        "速備船隻"
+      ]
+    },
+    {
+      "id": "event_fengjin_guayin",
+      "name": "封金掛印",
+      "type": "event",
+      "aliases": [],
+      "description": "關公拜書告辭，封還曹操所賜金印財物。",
+      "evidence": [
+        "拜書告辭",
+        "封金掛印"
+      ]
+    },
+    {
+      "id": "event_caocao_farewell",
+      "name": "曹操送行贈袍",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操遣張遼留住關公，親自送行並贈錦袍。",
+      "evidence": [
+        "欲來相送",
+        "用青龍刀尖挑錦袍"
+      ]
+    },
+    {
+      "id": "event_liaohua_protects",
+      "name": "廖化保全二夫人",
+      "type": "event",
+      "aliases": [],
+      "description": "杜遠誤劫二夫人，廖化保全並送回車仗。",
+      "evidence": [
+        "誤將兩夫人劫掠上山",
+        "若非廖將軍保全"
+      ]
+    },
+    {
+      "id": "event_huhua_letter",
+      "name": "胡華託書",
+      "type": "event",
+      "aliases": [],
+      "description": "胡華款待關公並託其帶書給胡班。",
+      "evidence": [
+        "有一書寄與小兒",
+        "取了胡華書信"
+      ]
+    },
+    {
+      "id": "event_sungan_report",
+      "name": "孫乾報信改道汝南",
+      "type": "event",
+      "aliases": [],
+      "description": "孫乾告知劉備已離袁紹往汝南，關公改道。",
+      "evidence": [
+        "幸脫身往汝南去了",
+        "徑取汝南來"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [
+        "曹丞相"
+      ],
+      "description": "曹操在本章被稱呼的官職。",
+      "evidence": [
+        "丞相知兄遠行",
+        "曹丞相"
+      ]
+    },
+    {
+      "id": "title_hanshoutinghou",
+      "name": "漢壽亭侯",
+      "type": "title",
+      "aliases": [
+        "漢壽侯"
+      ],
+      "description": "關公自稱爵號。",
+      "evidence": [
+        "吾漢壽亭侯關某"
+      ]
+    },
+    {
+      "id": "title_liuhuangshu",
+      "name": "劉皇叔",
+      "type": "title",
+      "aliases": [
+        "皇叔"
+      ],
+      "description": "劉備的稱號。",
+      "evidence": [
+        "大漢劉皇叔夫人"
+      ]
+    },
+    {
+      "id": "title_yilang",
+      "name": "議郎",
+      "type": "title",
+      "aliases": [],
+      "description": "胡華昔日官職。",
+      "evidence": [
+        "桓帝時曾為議郎"
+      ]
+    },
+    {
+      "id": "title_taishou",
+      "name": "太守",
+      "type": "title",
+      "aliases": [],
+      "description": "韓福、王植、劉延等地方官職。",
+      "evidence": [
+        "洛陽太守韓福",
+        "滎陽太守王植"
+      ]
+    },
+    {
+      "id": "title_congshi",
+      "name": "從事",
+      "type": "title",
+      "aliases": [],
+      "description": "胡班在王植部下的職位。",
+      "evidence": [
+        "王植部下為從事"
+      ]
+    },
+    {
+      "id": "title_yajiang",
+      "name": "牙將",
+      "type": "title",
+      "aliases": [],
+      "description": "孟坦在韓福麾下的職位。",
+      "evidence": [
+        "牙將孟坦曰"
+      ]
+    },
+    {
+      "id": "title_baguanjiang",
+      "name": "把關將",
+      "type": "title",
+      "aliases": [],
+      "description": "孔秀、卞喜等守關將領的職司。",
+      "evidence": [
+        "把關將姓孔",
+        "把關將乃併州人氏"
+      ]
+    },
+    {
+      "id": "obj_chituma",
+      "name": "赤兔馬",
+      "type": "object",
+      "aliases": [],
+      "description": "關公所騎名馬，日行千里。",
+      "evidence": [
+        "所騎赤兔馬，日行千里"
+      ]
+    },
+    {
+      "id": "obj_qinglongdao",
+      "name": "青龍刀",
+      "type": "object",
+      "aliases": [],
+      "description": "關公所用大刀，也用來挑起曹操所贈錦袍。",
+      "evidence": [
+        "按定青龍刀",
+        "用青龍刀尖挑錦袍"
+      ]
+    },
+    {
+      "id": "obj_jinpao",
+      "name": "錦袍",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操送行時贈給關公的袍服。",
+      "evidence": [
+        "青龍刀尖挑錦袍披於身上"
+      ]
+    },
+    {
+      "id": "obj_huhua_letter",
+      "name": "胡華書信",
+      "type": "object",
+      "aliases": [
+        "書信"
+      ],
+      "description": "胡華託關公帶給胡班的信。",
+      "evidence": [
+        "有一書寄與小兒",
+        "取了胡華書信"
+      ]
+    },
+    {
+      "id": "obj_liuxingchui",
+      "name": "流星錘",
+      "type": "object",
+      "aliases": [
+        "飛錘"
+      ],
+      "description": "卞喜擅使並用來暗打關公的武器。",
+      "evidence": [
+        "善使流星錘",
+        "暗取飛錘擲打關公"
+      ]
+    },
+    {
+      "id": "obj_jiedao",
+      "name": "戒刀",
+      "type": "object",
+      "aliases": [],
+      "description": "普淨以此向關公示警。",
+      "evidence": [
+        "以手舉所佩戒刀"
+      ]
+    },
+    {
+      "id": "obj_lujiao",
+      "name": "鹿角",
+      "type": "object",
+      "aliases": [],
+      "description": "韓福、孟坦計中攔定關口的障礙。",
+      "evidence": [
+        "先將鹿角攔定關口"
+      ]
+    },
+    {
+      "id": "obj_anji",
+      "name": "暗箭",
+      "type": "object",
+      "aliases": [],
+      "description": "韓福用來射傷關公的伏擊手段。",
+      "evidence": [
+        "可用暗箭射之",
+        "正射中關公左臂"
+      ]
+    },
+    {
+      "id": "obj_huoba",
+      "name": "火把",
+      "type": "object",
+      "aliases": [],
+      "description": "王植命胡班縱火時要求軍士持用。",
+      "evidence": [
+        "一人一個火把",
+        "一齊放火"
+      ]
+    },
+    {
+      "id": "obj_chezhang",
+      "name": "車仗",
+      "type": "object",
+      "aliases": [],
+      "description": "二夫人乘坐並由關公護送的車隊。",
+      "evidence": [
+        "護送車仗",
+        "催促車仗前進"
+      ]
+    },
+    {
+      "id": "strat_youbai_anji",
+      "name": "佯敗誘追暗箭",
+      "type": "strategy",
+      "aliases": [
+        "佯敗誘敵"
+      ],
+      "description": "孟坦先詐敗誘關公追擊，韓福趁機暗箭射之。",
+      "evidence": [
+        "佯敗誘他來追",
+        "用暗箭射之"
+      ]
+    },
+    {
+      "id": "strat_temple_ambush",
+      "name": "鎮國寺刀斧伏擊",
+      "type": "strategy",
+      "aliases": [
+        "擊盞為號"
+      ],
+      "description": "卞喜在鎮國寺埋伏刀斧手，約以擊盞為號謀害關公。",
+      "evidence": [
+        "埋伏下刀斧手二百餘人",
+        "約擊盞為號"
+      ]
+    },
+    {
+      "id": "strat_inn_fire",
+      "name": "館驛三更縱火",
+      "type": "strategy",
+      "aliases": [
+        "火燒館驛"
+      ],
+      "description": "王植命胡班三更時以一千軍火燒館驛。",
+      "evidence": [
+        "三更時分，一齊放火",
+        "盡皆燒死"
+      ]
+    },
+    {
+      "id": "strat_caocao_renqing",
+      "name": "送行結人情",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操不追殺關公，反以送行贈物結識人情。",
+      "evidence": [
+        "一發結識他做個人情",
+        "不可追也"
+      ]
+    },
+    {
+      "id": "army_liaohua_500",
+      "name": "廖化五百餘人",
+      "type": "army",
+      "aliases": [
+        "百餘步卒"
+      ],
+      "description": "廖化聚集的部眾，曾送車仗下山。",
+      "evidence": [
+        "聚眾五百餘人",
+        "引百餘步卒"
+      ]
+    },
+    {
+      "id": "army_kongxiu_500",
+      "name": "孔秀五百兵",
+      "type": "army",
+      "aliases": [],
+      "description": "孔秀在東嶺關統領的守軍。",
+      "evidence": [
+        "引五百兵在嶺上把守"
+      ]
+    },
+    {
+      "id": "army_hanfu_1000",
+      "name": "韓福一千人馬",
+      "type": "army",
+      "aliases": [],
+      "description": "韓福排列關口阻截關公的兵馬。",
+      "evidence": [
+        "引一千人馬，排列關口"
+      ]
+    },
+    {
+      "id": "army_bianxi_daofushou",
+      "name": "二百餘刀斧手",
+      "type": "army",
+      "aliases": [],
+      "description": "卞喜埋伏於鎮國寺的伏兵。",
+      "evidence": [
+        "埋伏下刀斧手二百餘人"
+      ]
+    },
+    {
+      "id": "army_wangzhi_1000",
+      "name": "王植一千軍",
+      "type": "army",
+      "aliases": [],
+      "description": "王植命胡班夜圍館驛縱火的軍隊。",
+      "evidence": [
+        "今晚點一千軍圍住館驛"
+      ]
+    },
+    {
+      "id": "army_xiahoudun_column",
+      "name": "夏侯惇一彪人馬",
+      "type": "army",
+      "aliases": [],
+      "description": "章末追趕關公的人馬。",
+      "evidence": [
+        "一彪人馬趕來",
+        "當先夏侯惇"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_guanyu",
+      "target": "char_liubei",
+      "type": "兄弟／尋主",
+      "description": "關公自稱劉玄德之弟，辭曹後急尋劉備。",
+      "evidence": [
+        "吾乃劉玄德之弟關某也",
+        "去尋家兄"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_erfuren",
+      "target": "char_liubei",
+      "type": "夫人",
+      "description": "二夫人是劉皇叔夫人。",
+      "evidence": [
+        "大漢劉皇叔夫人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_erfuren",
+      "type": "護送",
+      "description": "關公一路護送二夫人車仗。",
+      "evidence": [
+        "護送車仗",
+        "請二嫂上車"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_caocao",
+      "type": "辭別",
+      "description": "關公拜書告辭，封還財物印信。",
+      "evidence": [
+        "拜書告辭",
+        "納還丞相"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guanyu",
+      "target": "event_fengjin_guayin",
+      "type": "執行",
+      "description": "關公以封金掛印表明離去。",
+      "evidence": [
+        "雲長封金掛印"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_caiyang",
+      "type": "制止",
+      "description": "蔡陽欲追關公，曹操叱退不許。",
+      "evidence": [
+        "欲往追之",
+        "遂叱退蔡陽"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_chengyu",
+      "target": "char_caocao",
+      "type": "進言",
+      "description": "程昱建議曹操追殺關公。",
+      "evidence": [
+        "不若追而殺了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "strat_caocao_renqing",
+      "type": "採用",
+      "description": "曹操選擇送行結人情，不追殺關公。",
+      "evidence": [
+        "結識他做個人情",
+        "不可追也"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_zhangliao",
+      "type": "派遣",
+      "description": "曹操命張遼先去請關公停步。",
+      "evidence": [
+        "特先使我請住台駕"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhangliao",
+      "target": "char_guanyu",
+      "type": "交厚",
+      "description": "張遼與關公交情深厚。",
+      "evidence": [
+        "自張遼而外",
+        "與雲長交厚"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_xuhuang",
+      "target": "char_guanyu",
+      "type": "交厚",
+      "description": "徐晃與關公交情深厚。",
+      "evidence": [
+        "徐晃與雲長交厚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "obj_jinpao",
+      "type": "贈與",
+      "description": "曹操送行時贈錦袍給關公。",
+      "evidence": [
+        "蒙丞相賜袍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guanyu",
+      "target": "obj_jinpao",
+      "type": "受贈",
+      "description": "關公不下馬，以刀尖挑袍披身。",
+      "evidence": [
+        "挑錦袍披於身上"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guanyu",
+      "target": "obj_chituma",
+      "type": "騎乘",
+      "description": "關公所騎為赤兔馬。",
+      "evidence": [
+        "所騎赤兔馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guanyu",
+      "target": "obj_qinglongdao",
+      "type": "持有／使用",
+      "description": "關公持青龍刀護身殺敵。",
+      "evidence": [
+        "按定青龍刀",
+        "刀起處"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liaohua",
+      "target": "faction_huangjin",
+      "type": "出身",
+      "description": "關公認為廖化仍是黃巾餘黨。",
+      "evidence": [
+        "終是黃巾餘黨"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_duyuan",
+      "target": "char_erfuren",
+      "type": "劫掠",
+      "description": "杜遠誤將二夫人劫上山。",
+      "evidence": [
+        "誤將兩夫人劫掠上山"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liaohua",
+      "target": "char_erfuren",
+      "type": "保全",
+      "description": "廖化保護二夫人免受杜遠侵害。",
+      "evidence": [
+        "若非廖將軍保全"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liaohua",
+      "target": "army_liaohua_500",
+      "type": "統領",
+      "description": "廖化聚眾五百餘人。",
+      "evidence": [
+        "聚眾五百餘人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liaohua",
+      "target": "char_guanyu",
+      "type": "請隨行被拒",
+      "description": "廖化欲以部下相送，關公謝卻。",
+      "evidence": [
+        "欲以部下人送關公",
+        "乃謝卻之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_huhua",
+      "target": "char_huban",
+      "type": "父子",
+      "description": "胡華稱胡班為小兒。",
+      "evidence": [
+        "小兒胡班"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huhua",
+      "target": "title_yilang",
+      "type": "曾任",
+      "description": "胡華曾在桓帝時為議郎。",
+      "evidence": [
+        "曾為議郎"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huhua",
+      "target": "char_guanyu",
+      "type": "託付書信",
+      "description": "胡華託關公將書信帶給胡班。",
+      "evidence": [
+        "有一書寄與小兒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guanyu",
+      "target": "obj_huhua_letter",
+      "type": "攜帶",
+      "description": "關公取胡華書信後上路。",
+      "evidence": [
+        "取了胡華書信"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_huban",
+      "target": "char_wangzhi",
+      "type": "隸屬",
+      "description": "胡班為王植部下從事。",
+      "evidence": [
+        "王植部下為從事"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_kongxiu",
+      "target": "loc_donglingguan",
+      "type": "把守",
+      "description": "孔秀把守東嶺關。",
+      "evidence": [
+        "東嶺關",
+        "孔秀引五百兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_kongxiu",
+      "target": "army_kongxiu_500",
+      "type": "統領",
+      "description": "孔秀統領五百守兵。",
+      "evidence": [
+        "引五百兵在嶺上把守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_kongxiu",
+      "target": "char_guanyu",
+      "type": "阻攔",
+      "description": "孔秀要求關公持曹操文憑才可過關。",
+      "evidence": [
+        "必有丞相文憑",
+        "汝敢過去麼"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_kongxiu",
+      "type": "斬殺",
+      "description": "關公一合斬孔秀。",
+      "evidence": [
+        "孔秀屍橫馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_hanfu",
+      "target": "loc_luoyang",
+      "type": "治理",
+      "description": "韓福是洛陽太守。",
+      "evidence": [
+        "洛陽太守韓福"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_hanfu",
+      "target": "title_taishou",
+      "type": "官職",
+      "description": "韓福官職為太守。",
+      "evidence": [
+        "洛陽太守韓福"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mengtan",
+      "target": "char_hanfu",
+      "type": "部屬",
+      "description": "孟坦是韓福牙將。",
+      "evidence": [
+        "牙將孟坦"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mengtan",
+      "target": "title_yajiang",
+      "type": "官職",
+      "description": "孟坦職為牙將。",
+      "evidence": [
+        "牙將孟坦"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_hanfu",
+      "target": "strat_youbai_anji",
+      "type": "採用計策",
+      "description": "韓福採納用暗箭擒關公之計。",
+      "evidence": [
+        "只須設計擒之",
+        "用暗箭射之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_mengtan",
+      "target": "strat_youbai_anji",
+      "type": "執行計策",
+      "description": "孟坦負責佯敗誘關公追擊。",
+      "evidence": [
+        "佯敗誘他來追"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hanfu",
+      "target": "char_guanyu",
+      "type": "射傷",
+      "description": "韓福暗箭射中關公左臂。",
+      "evidence": [
+        "正射中關公左臂"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_mengtan",
+      "type": "斬殺",
+      "description": "關公追上孟坦並斬之。",
+      "evidence": [
+        "砍為兩段"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_hanfu",
+      "type": "斬殺",
+      "description": "關公中箭後回馬斬韓福。",
+      "evidence": [
+        "斬於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_bianxi",
+      "target": "loc_sishuiguan",
+      "type": "把守",
+      "description": "卞喜為汜水關把關將。",
+      "evidence": [
+        "汜水關來",
+        "把關將乃併州人氏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_bianxi",
+      "target": "faction_huangjin",
+      "type": "舊屬",
+      "description": "卞喜原為黃巾餘黨。",
+      "evidence": [
+        "原是黃巾餘黨"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_bianxi",
+      "target": "faction_cao",
+      "type": "投靠",
+      "description": "卞喜後投曹操並被派守關。",
+      "evidence": [
+        "後投曹操，撥來守關"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_bianxi",
+      "target": "obj_liuxingchui",
+      "type": "使用",
+      "description": "卞喜善使流星錘，伏擊時擲打關公。",
+      "evidence": [
+        "善使流星錘",
+        "飛錘擲打關公"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_bianxi",
+      "target": "strat_temple_ambush",
+      "type": "設計伏擊",
+      "description": "卞喜在鎮國寺埋伏刀斧手害關公。",
+      "evidence": [
+        "埋伏下刀斧手",
+        "欲圖相害"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_temple_ambush",
+      "target": "loc_zhenguosi",
+      "type": "發生地",
+      "description": "鎮國寺是卞喜伏擊關公之處。",
+      "evidence": [
+        "鎮國寺中，埋伏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_temple_ambush",
+      "target": "army_bianxi_daofushou",
+      "type": "使用兵力",
+      "description": "伏擊使用二百餘刀斧手。",
+      "evidence": [
+        "刀斧手二百餘人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_pujing",
+      "target": "char_guanyu",
+      "type": "同鄉／示警",
+      "description": "普淨是關公同鄉，舉戒刀以目示警。",
+      "evidence": [
+        "關公同鄉人",
+        "以目視關公"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_pujing",
+      "target": "obj_jiedao",
+      "type": "使用示警",
+      "description": "普淨以戒刀暗示寺中有伏。",
+      "evidence": [
+        "舉所佩戒刀"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_bianxi",
+      "type": "斬殺",
+      "description": "關公識破伏兵後斬卞喜。",
+      "evidence": [
+        "一刀劈卞喜為兩段"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wangzhi",
+      "target": "loc_yingyang",
+      "type": "治理",
+      "description": "王植為滎陽太守。",
+      "evidence": [
+        "滎陽太守王植"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wangzhi",
+      "target": "title_taishou",
+      "type": "官職",
+      "description": "王植官職為太守。",
+      "evidence": [
+        "滎陽太守王植"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wangzhi",
+      "target": "char_hanfu",
+      "type": "親家",
+      "description": "王植與韓福是兩親家。",
+      "evidence": [
+        "與韓福是兩親家"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wangzhi",
+      "target": "strat_inn_fire",
+      "type": "策劃",
+      "description": "王植命胡班三更火燒館驛。",
+      "evidence": [
+        "待三更時分，一齊放火"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wangzhi",
+      "target": "char_huban",
+      "type": "下令",
+      "description": "王植密令胡班率軍縱火。",
+      "evidence": [
+        "密喚從事胡班聽令"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_inn_fire",
+      "target": "loc_guanyi",
+      "type": "目標地",
+      "description": "縱火目標是關公投宿的館驛。",
+      "evidence": [
+        "圍住館驛"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_inn_fire",
+      "target": "army_wangzhi_1000",
+      "type": "使用兵力",
+      "description": "王植計劃以一千軍圍館驛放火。",
+      "evidence": [
+        "點一千軍圍住館驛"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huban",
+      "target": "char_guanyu",
+      "type": "密告救援",
+      "description": "胡班見關公與書信後，密告王植火計並開城門。",
+      "evidence": [
+        "險些誤殺忠良",
+        "當先去開了城門"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_wangzhi",
+      "type": "斬殺",
+      "description": "王植追來時被關公攔腰斬殺。",
+      "evidence": [
+        "攔腰一刀，砍為兩段"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liuyan",
+      "target": "loc_huazhou",
+      "type": "出迎地",
+      "description": "劉延在滑州界首出迎關公。",
+      "evidence": [
+        "滑州界首",
+        "出郭而迎"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liuyan",
+      "target": "char_guanyu",
+      "type": "迎接",
+      "description": "劉延引數十騎迎接關公。",
+      "evidence": [
+        "引數十騎，出郭而迎"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_qinqi",
+      "target": "loc_huanghe_dukou",
+      "type": "把守",
+      "description": "秦琪在黃河渡口把關。",
+      "evidence": [
+        "到黃河渡口，秦琪引軍出問"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_qinqi",
+      "target": "char_guanyu",
+      "type": "阻渡",
+      "description": "秦琪奉令阻止關公渡河。",
+      "evidence": [
+        "守把關隘",
+        "飛不過去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_qinqi",
+      "type": "斬殺",
+      "description": "關公一合斬秦琪。",
+      "evidence": [
+        "只一合，關公刀起，秦琪頭落"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guanyu",
+      "target": "loc_huanghe",
+      "type": "渡河",
+      "description": "關公請二夫人上船渡過黃河。",
+      "evidence": [
+        "請二嫂上船渡河"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guanyu",
+      "target": "battle_wuguan",
+      "type": "主角",
+      "description": "關公是五關斬六將的行動主角。",
+      "evidence": [
+        "所歷關隘五處，斬將六員"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_wuguan",
+      "target": "char_kongxiu",
+      "type": "被斬將領",
+      "description": "孔秀是六將之一。",
+      "evidence": [
+        "孔秀屍橫馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_wuguan",
+      "target": "char_mengtan",
+      "type": "被斬將領",
+      "description": "孟坦是六將之一。",
+      "evidence": [
+        "砍為兩段"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_wuguan",
+      "target": "char_hanfu",
+      "type": "被斬將領",
+      "description": "韓福是六將之一。",
+      "evidence": [
+        "斬於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_wuguan",
+      "target": "char_bianxi",
+      "type": "被斬將領",
+      "description": "卞喜是六將之一。",
+      "evidence": [
+        "劈卞喜為兩段"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_wuguan",
+      "target": "char_wangzhi",
+      "type": "被斬將領",
+      "description": "王植是六將之一。",
+      "evidence": [
+        "王植...砍為兩段"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_wuguan",
+      "target": "char_qinqi",
+      "type": "被斬將領",
+      "description": "秦琪是六將之一。",
+      "evidence": [
+        "秦琪頭落"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sungan",
+      "target": "char_guanyu",
+      "type": "報信",
+      "description": "孫乾向關公說明劉備已往汝南。",
+      "evidence": [
+        "備說",
+        "幸脫身往汝南去了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liupi",
+      "target": "loc_runan",
+      "type": "奪取",
+      "description": "劉闢與龔都復奪汝南。",
+      "evidence": [
+        "復奪了汝南"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gongdu",
+      "target": "loc_runan",
+      "type": "奪取",
+      "description": "龔都與劉闢復奪汝南。",
+      "evidence": [
+        "劉闢、龔都",
+        "復奪了汝南"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liupi",
+      "target": "char_sungan",
+      "type": "派遣",
+      "description": "劉闢等遣孫乾往河北結好袁紹。",
+      "evidence": [
+        "遣某往河北結好袁紹"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sungan",
+      "target": "char_yuanshao",
+      "type": "出使結好",
+      "description": "孫乾受遣往河北結好袁紹。",
+      "evidence": [
+        "往河北結好袁紹"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liubei",
+      "target": "char_yuanshao",
+      "type": "曾依附",
+      "description": "劉備曾在袁紹處。",
+      "evidence": [
+        "玄德在袁紹處"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liubei",
+      "target": "loc_runan",
+      "type": "前往",
+      "description": "孫乾報稱劉備已脫身往汝南。",
+      "evidence": [
+        "脫身往汝南去了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guanyu",
+      "target": "loc_runan",
+      "type": "改道前往",
+      "description": "關公聽孫乾之言，不投河北，徑往汝南。",
+      "evidence": [
+        "不投河北去，徑取汝南來"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahoudun",
+      "target": "char_guanyu",
+      "type": "追趕",
+      "description": "章末夏侯惇率一彪人馬追趕關公。",
+      "evidence": [
+        "夏侯惇大叫：關某休走"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahoudun",
+      "target": "army_xiahoudun_column",
+      "type": "統領",
+      "description": "夏侯惇率一彪人馬追來。",
+      "evidence": [
+        "一彪人馬趕來，當先夏侯惇"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_cao",
+      "target": "faction_yuanshao",
+      "type": "敵對",
+      "description": "文中明言袁紹是曹操對頭、仇人。",
+      "evidence": [
+        "河北袁紹，正是丞相對頭",
+        "紹乃丞相仇人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "title_chengxiang",
+      "type": "官職稱呼",
+      "description": "曹操被稱為丞相。",
+      "evidence": [
+        "丞相待關某甚厚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guanyu",
+      "target": "title_hanshoutinghou",
+      "type": "爵號",
+      "description": "關公自稱漢壽亭侯。",
+      "evidence": [
+        "吾漢壽亭侯關某"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liubei",
+      "target": "title_liuhuangshu",
+      "type": "稱號",
+      "description": "劉備被稱為劉皇叔。",
+      "evidence": [
+        "劉皇叔夫人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huban",
+      "target": "title_congshi",
+      "type": "官職",
+      "description": "胡班為王植部下從事。",
+      "evidence": [
+        "部下為從事"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "event_fengjin_guayin",
+      "name": "封金掛印辭曹",
+      "summary": "關公拜書告辭，封還曹操金印財物，表明去尋劉備。",
+      "participants": [
+        "char_guanyu",
+        "char_caocao"
+      ],
+      "locations": [],
+      "evidence": [
+        "拜書告辭",
+        "封金掛印"
+      ]
+    },
+    {
+      "id": "event_caocao_farewell",
+      "name": "曹操送行贈袍",
+      "summary": "曹操遣張遼留住關公，率諸將送行；關公疑有變，不下馬，以青龍刀挑錦袍受贈後北去。",
+      "participants": [
+        "char_caocao",
+        "char_guanyu",
+        "char_zhangliao",
+        "char_xuchu",
+        "char_xuhuang",
+        "char_yujin",
+        "char_lidian"
+      ],
+      "locations": [],
+      "evidence": [
+        "欲來相送",
+        "青龍刀尖挑錦袍"
+      ]
+    },
+    {
+      "id": "event_liaohua_protects",
+      "name": "廖化保全二夫人",
+      "summary": "杜遠誤劫二夫人上山，廖化保全並送回車仗；關公謝卻其部下相送與金帛。",
+      "participants": [
+        "char_guanyu",
+        "char_erfuren",
+        "char_liaohua",
+        "char_duyuan"
+      ],
+      "locations": [],
+      "evidence": [
+        "誤將兩夫人劫掠上山",
+        "若非廖將軍保全"
+      ]
+    },
+    {
+      "id": "event_huhua_letter",
+      "name": "胡華留宿託書",
+      "summary": "關公與二夫人夜宿村莊，胡華款待並託關公帶書給胡班。",
+      "participants": [
+        "char_guanyu",
+        "char_erfuren",
+        "char_huhua",
+        "char_huban"
+      ],
+      "locations": [
+        "loc_huhua_village"
+      ],
+      "evidence": [
+        "投一村莊安歇",
+        "有一書寄與小兒"
+      ]
+    },
+    {
+      "id": "battle_dongling",
+      "name": "東嶺關斬孔秀",
+      "summary": "孔秀以無曹操文憑為由阻關，關公約退車仗，一合斬孔秀後出關。",
+      "participants": [
+        "char_guanyu",
+        "char_kongxiu",
+        "char_erfuren"
+      ],
+      "locations": [
+        "loc_donglingguan"
+      ],
+      "evidence": [
+        "東嶺關",
+        "孔秀屍橫馬下"
+      ]
+    },
+    {
+      "id": "battle_luoyang",
+      "name": "洛陽斬韓福孟坦",
+      "summary": "韓福與孟坦設佯敗暗箭之計，孟坦被追斬，韓福射中關公左臂後亦被斬。",
+      "participants": [
+        "char_guanyu",
+        "char_hanfu",
+        "char_mengtan",
+        "char_erfuren"
+      ],
+      "locations": [
+        "loc_luoyang"
+      ],
+      "evidence": [
+        "佯敗誘他來追",
+        "射中關公左臂",
+        "斬於馬下"
+      ]
+    },
+    {
+      "id": "battle_sishui",
+      "name": "汜水關鎮國寺斬卞喜",
+      "summary": "卞喜於鎮國寺設伏，普淨以戒刀示警，關公識破伏兵並斬卞喜。",
+      "participants": [
+        "char_guanyu",
+        "char_bianxi",
+        "char_pujing",
+        "char_erfuren"
+      ],
+      "locations": [
+        "loc_sishuiguan",
+        "loc_zhenguosi"
+      ],
+      "evidence": [
+        "鎮國寺中，埋伏",
+        "以目視關公",
+        "劈卞喜為兩段"
+      ]
+    },
+    {
+      "id": "battle_yingyang",
+      "name": "滎陽館驛縱火未遂",
+      "summary": "王植命胡班三更火燒館驛；胡班見關公與胡華書信後密告開門，關公出城斬王植。",
+      "participants": [
+        "char_guanyu",
+        "char_erfuren",
+        "char_wangzhi",
+        "char_huban"
+      ],
+      "locations": [
+        "loc_yingyang",
+        "loc_guanyi"
+      ],
+      "evidence": [
+        "圍住館驛",
+        "當先去開了城門",
+        "砍為兩段"
+      ]
+    },
+    {
+      "id": "battle_huanghe",
+      "name": "黃河渡口斬秦琪",
+      "summary": "關公經滑州至黃河渡口，秦琪奉令阻渡，被關公一合斬殺，關公遂護二夫人渡河。",
+      "participants": [
+        "char_guanyu",
+        "char_erfuren",
+        "char_liuyan",
+        "char_qinqi"
+      ],
+      "locations": [
+        "loc_huazhou",
+        "loc_huanghe_dukou",
+        "loc_huanghe"
+      ],
+      "evidence": [
+        "秦琪引軍出問",
+        "秦琪頭落",
+        "上船渡河"
+      ]
+    },
+    {
+      "id": "battle_wuguan",
+      "name": "五關斬六將",
+      "summary": "關公護送二夫人歷東嶺關、洛陽、汜水關、滎陽、黃河渡口五處，斬孔秀、孟坦、韓福、卞喜、王植、秦琪六將。",
+      "participants": [
+        "char_guanyu",
+        "char_erfuren",
+        "char_kongxiu",
+        "char_mengtan",
+        "char_hanfu",
+        "char_bianxi",
+        "char_wangzhi",
+        "char_qinqi"
+      ],
+      "locations": [
+        "loc_donglingguan",
+        "loc_luoyang",
+        "loc_sishuiguan",
+        "loc_yingyang",
+        "loc_huanghe_dukou"
+      ],
+      "evidence": [
+        "所歷關隘五處，斬將六員"
+      ]
+    },
+    {
+      "id": "event_sungan_report",
+      "name": "孫乾報信改道汝南",
+      "summary": "孫乾告知關公，劉闢、龔都復奪汝南，劉備已脫身往汝南，關公遂不投河北而改道。",
+      "participants": [
+        "char_guanyu",
+        "char_sungan",
+        "char_liubei",
+        "char_liupi",
+        "char_gongdu",
+        "char_erfuren"
+      ],
+      "locations": [
+        "loc_hebei",
+        "loc_runan"
+      ],
+      "evidence": [
+        "復奪了汝南",
+        "脫身往汝南去了",
+        "徑取汝南來"
+      ]
+    },
+    {
+      "id": "event_xiahoudun_pursuit",
+      "name": "夏侯惇追趕關公",
+      "summary": "章末夏侯惇率一彪人馬追至，攔路與關公爭鋒。",
+      "participants": [
+        "char_xiahoudun",
+        "char_guanyu",
+        "army_xiahoudun_column"
+      ],
+      "locations": [],
+      "evidence": [
+        "一彪人馬趕來",
+        "夏侯惇大叫"
+      ]
+    }
+  ],
+  "notes": [
+    "抽取僅依本章正文可辨識內容；原檔有少量重複與錯字，未據正文不足處延伸推論。"
+  ]
+}

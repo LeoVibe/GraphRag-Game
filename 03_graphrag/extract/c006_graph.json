@@ -1,0 +1,1882 @@
+{
+  "book": "三國演義",
+  "chapter_no": 6,
+  "chapter_title": "焚金闕董卓行兇　匿玉璽孫堅背約",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [
+        "董賊",
+        "丞相"
+      ],
+      "description": "挾天子西遷長安，焚燒洛陽並掠奪財物的權臣。",
+      "evidence": [
+        "劫了天子併後妃",
+        "放火燒宗廟宮府"
+      ]
+    },
+    {
+      "id": "char_sun_jian",
+      "name": "孫堅",
+      "type": "character",
+      "aliases": [
+        "文台",
+        "堅"
+      ],
+      "description": "率軍先入洛陽，獲得傳國璽後遭袁紹與劉表追逼。",
+      "evidence": [
+        "孫堅飛奔洛陽",
+        "堅得璽"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "本初",
+        "紹"
+      ],
+      "description": "諸侯盟主，令孫堅進兵，後逼問玉璽並致書劉表截奪。",
+      "evidence": [
+        "紹遂移檄孫堅",
+        "送與刺史劉表"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操"
+      ],
+      "description": "主張追擊董卓，率軍至滎陽受伏大敗，後離眾投揚州。",
+      "evidence": [
+        "自引兵萬餘",
+        "大敗而回"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "玄德",
+      "type": "character",
+      "aliases": [
+        "劉備"
+      ],
+      "description": "與關、張同入虎牢關，後受公孫瓚令為平原相。",
+      "evidence": [
+        "玄德、關、張殺入虎牢關",
+        "令玄德為平原相"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關",
+      "type": "character",
+      "aliases": [
+        "關羽"
+      ],
+      "description": "與玄德、張飛參與攻入虎牢關。",
+      "evidence": [
+        "玄德、關、張殺入虎牢關"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張"
+      ],
+      "description": "追至關下，後與玄德、關羽受諸侯賀功。",
+      "evidence": [
+        "張飛拍馬趕到關下",
+        "玄德、關、張賀功"
+      ]
+    },
+    {
+      "id": "char_yuan_shu",
+      "name": "袁術",
+      "type": "character",
+      "aliases": [
+        "公路"
+      ],
+      "description": "孫堅曾至其寨相見；曹操後建議其率南陽軍入武關。",
+      "evidence": [
+        "至袁術寨相見",
+        "公路率南陽之軍"
+      ]
+    },
+    {
+      "id": "char_li_jue",
+      "name": "李傕",
+      "type": "character",
+      "aliases": [
+        "傕"
+      ],
+      "description": "董卓愛將，奉命向孫堅求親，後參與夾攻曹操。",
+      "evidence": [
+        "乃董卓愛將李傕",
+        "從左邊殺來"
+      ]
+    },
+    {
+      "id": "char_li_ru",
+      "name": "李儒",
+      "type": "character",
+      "aliases": [
+        "儒"
+      ],
+      "description": "董卓謀士，提出遷帝長安與滎陽伏兵之計。",
+      "evidence": [
+        "不若引兵回洛陽，遷帝於長安",
+        "防有追兵"
+      ]
+    },
+    {
+      "id": "char_lv_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "溫侯",
+        "布"
+      ],
+      "description": "董卓麾下猛將，奉命掘陵並在滎陽迎擊曹操。",
+      "evidence": [
+        "差呂布發掘",
+        "呂布大笑"
+      ]
+    },
+    {
+      "id": "char_guo_si",
+      "name": "郭汜",
+      "type": "character",
+      "aliases": [
+        "汜"
+      ],
+      "description": "董卓部將，驅民西遷並於滎陽從右路攻曹操。",
+      "evidence": [
+        "李傕、郭汜盡驅洛陽之民",
+        "右邊喊聲又起"
+      ]
+    },
+    {
+      "id": "char_zhao_cen",
+      "name": "趙岑",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓部將，見董卓棄洛陽後獻出汜水關。",
+      "evidence": [
+        "趙岑見卓已棄洛陽",
+        "便獻了汜水關"
+      ]
+    },
+    {
+      "id": "char_xu_rong",
+      "name": "徐榮",
+      "type": "character",
+      "aliases": [],
+      "description": "滎陽太守，依李儒計伏擊曹操，後為夏侯惇所殺。",
+      "evidence": [
+        "太守徐榮出接",
+        "惇刺徐榮於馬下"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [
+        "洪"
+      ],
+      "description": "救起落馬被擒的曹操，讓馬並負操渡水。",
+      "evidence": [
+        "下馬救起曹操",
+        "負操渡水"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [
+        "惇"
+      ],
+      "description": "曹操部將，先戰呂布，後刺死徐榮。",
+      "evidence": [
+        "夏侯惇挺槍躍馬",
+        "惇刺徐榮於馬下"
+      ]
+    },
+    {
+      "id": "char_xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，於滎陽迎敵並救援曹操。",
+      "evidence": [
+        "夏侯淵迎敵",
+        "引數十騎飛至"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，奉命迎擊郭汜。",
+      "evidence": [
+        "操急令曹仁迎敵"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，隨曹操追董卓。",
+      "evidence": [
+        "領夏侯惇、夏侯淵、曹仁、曹洪、李典、樂進"
+      ]
+    },
+    {
+      "id": "char_yue_jin",
+      "name": "樂進",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，隨曹操追董卓。",
+      "evidence": [
+        "李典、樂進，星夜來趕董卓"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [
+        "普"
+      ],
+      "description": "孫堅部將，辨識傳國璽並在袁紹逼問時護主。",
+      "evidence": [
+        "堅乃問程普",
+        "程普、黃蓋、韓當亦掣刀"
+      ]
+    },
+    {
+      "id": "char_huang_gai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [
+        "蓋"
+      ],
+      "description": "孫堅部將，與蔡瑁交戰並擊退之。",
+      "evidence": [
+        "命黃蓋出戰",
+        "蓋揮鞭打瑁"
+      ]
+    },
+    {
+      "id": "char_han_dang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [],
+      "description": "孫堅部將，在袁紹與孫堅爭璽時拔刀護衛。",
+      "evidence": [
+        "韓當亦掣刀在手"
+      ]
+    },
+    {
+      "id": "char_yan_liang",
+      "name": "顏良",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部將，在爭璽衝突中拔劍。",
+      "evidence": [
+        "顏良、文醜皆拔劍"
+      ]
+    },
+    {
+      "id": "char_wen_chou",
+      "name": "文醜",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部將，在爭璽衝突中拔劍。",
+      "evidence": [
+        "顏良、文醜皆拔劍"
+      ]
+    },
+    {
+      "id": "char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "景升"
+      ],
+      "description": "荊州刺史，受袁紹書信後派兵截孫堅奪璽。",
+      "evidence": [
+        "荊州刺史劉表",
+        "令蒯越、蔡瑁引兵"
+      ]
+    },
+    {
+      "id": "char_kuai_yue",
+      "name": "蒯越",
+      "type": "character",
+      "aliases": [
+        "異度"
+      ],
+      "description": "劉表部下，奉命引兵截孫堅。",
+      "evidence": [
+        "蒯越、蔡瑁引兵一萬",
+        "蒯異度何故引兵"
+      ]
+    },
+    {
+      "id": "char_kuai_liang",
+      "name": "蒯良",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表輔佐者之一。",
+      "evidence": [
+        "蒯良、蒯越，襄陽人蔡瑁為輔"
+      ]
+    },
+    {
+      "id": "char_cai_mao",
+      "name": "蔡瑁",
+      "type": "character",
+      "aliases": [
+        "瑁"
+      ],
+      "description": "劉表部下，與黃蓋交戰後退走。",
+      "evidence": [
+        "蔡瑁舞刀來迎",
+        "瑁撥回馬走"
+      ]
+    },
+    {
+      "id": "char_gongsun_zan",
+      "name": "公孫瓚",
+      "type": "character",
+      "aliases": [],
+      "description": "認為袁紹不能成事，率眾北行並任玄德為平原相。",
+      "evidence": [
+        "袁紹無能為也",
+        "令玄德為平原相"
+      ]
+    },
+    {
+      "id": "char_liu_dai",
+      "name": "劉岱",
+      "type": "character",
+      "aliases": [],
+      "description": "兗州太守，因借糧不成攻殺喬瑁。",
+      "evidence": [
+        "兗州太守劉岱",
+        "殺死喬瑁"
+      ]
+    },
+    {
+      "id": "char_qiao_mao",
+      "name": "喬瑁",
+      "type": "character",
+      "aliases": [
+        "瑁"
+      ],
+      "description": "東郡太守，拒絕借糧後被劉岱所殺。",
+      "evidence": [
+        "東郡太守喬瑁借糧",
+        "瑁推詞不與"
+      ]
+    },
+    {
+      "id": "char_yang_biao",
+      "name": "楊彪",
+      "type": "character",
+      "aliases": [],
+      "description": "司徒，反對董卓遷都長安。",
+      "evidence": [
+        "司徒楊彪曰"
+      ]
+    },
+    {
+      "id": "char_zhou_bi",
+      "name": "週毖",
+      "type": "character",
+      "aliases": [
+        "周毖"
+      ],
+      "description": "尚書，諫阻遷都，被董卓處斬。",
+      "evidence": [
+        "尚書週毖",
+        "推出都門斬首"
+      ]
+    },
+    {
+      "id": "char_wu_qiong",
+      "name": "伍瓊",
+      "type": "character",
+      "aliases": [],
+      "description": "城門校尉，諫阻遷都，被董卓處斬。",
+      "evidence": [
+        "城門校尉伍瓊",
+        "推出都門斬首"
+      ]
+    },
+    {
+      "id": "char_report_soldier",
+      "name": "報璽軍士",
+      "type": "character",
+      "aliases": [
+        "袁紹鄉人",
+        "孫堅軍中一軍"
+      ],
+      "description": "孫堅軍中向袁紹告密傳國璽之事的人。",
+      "evidence": [
+        "袁紹鄉人",
+        "來報袁紹"
+      ]
+    },
+    {
+      "id": "title_tianzi",
+      "name": "天子",
+      "type": "title",
+      "aliases": [
+        "皇帝"
+      ],
+      "description": "被董卓劫遷至長安的皇帝身份。",
+      "evidence": [
+        "劫遷天子"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓在本章被稱呼的權位。",
+      "evidence": [
+        "丞相所敬者"
+      ]
+    },
+    {
+      "id": "title_pingyuan_xiang",
+      "name": "平原相",
+      "type": "title",
+      "aliases": [],
+      "description": "公孫瓚任命玄德擔任的官職。",
+      "evidence": [
+        "令玄德為平原相"
+      ]
+    },
+    {
+      "id": "army_coalition",
+      "name": "諸侯聯軍",
+      "type": "army",
+      "aliases": [
+        "八路諸侯",
+        "眾諸侯"
+      ],
+      "description": "討董諸侯共同軍勢，入洛陽後逐漸分散。",
+      "evidence": [
+        "八路諸侯",
+        "諸侯各引軍入"
+      ]
+    },
+    {
+      "id": "army_dong_zhuo",
+      "name": "董卓軍",
+      "type": "army",
+      "aliases": [
+        "卓兵"
+      ],
+      "description": "董卓所統兵馬，負責焚掠洛陽、押民西遷與抵禦追兵。",
+      "evidence": [
+        "卓兵自往長安",
+        "三路軍馬"
+      ]
+    },
+    {
+      "id": "army_sun_jian",
+      "name": "孫堅軍",
+      "type": "army",
+      "aliases": [
+        "堅軍"
+      ],
+      "description": "孫堅所率軍隊，先入洛陽並在歸途中遭劉表軍截擊。",
+      "evidence": [
+        "堅驅兵先入",
+        "堅軍方到"
+      ]
+    },
+    {
+      "id": "army_cao_cao",
+      "name": "曹操軍",
+      "type": "army",
+      "aliases": [
+        "操軍"
+      ],
+      "description": "曹操率領追擊董卓的萬餘兵馬，滎陽大敗後殘兵五百餘人回河內。",
+      "evidence": [
+        "自引兵萬餘",
+        "聚集殘兵五百餘人"
+      ]
+    },
+    {
+      "id": "army_jingzhou",
+      "name": "荊州軍",
+      "type": "army",
+      "aliases": [
+        "劉表軍"
+      ],
+      "description": "劉表派蒯越、蔡瑁率領截擊孫堅的兵馬。",
+      "evidence": [
+        "引兵一萬來截孫堅"
+      ]
+    },
+    {
+      "id": "army_xu_rong_ambush",
+      "name": "徐榮伏兵",
+      "type": "army",
+      "aliases": [
+        "滎陽伏兵"
+      ],
+      "description": "徐榮埋伏於滎陽城外山塢旁，用以截殺曹操追兵。",
+      "evidence": [
+        "伏軍滎陽城外山塢之旁"
+      ]
+    },
+    {
+      "id": "army_lv_bu_cavalry",
+      "name": "呂布鐵騎",
+      "type": "army",
+      "aliases": [
+        "精兵",
+        "鐵騎"
+      ],
+      "description": "呂布所領後軍，於滎陽掩殺曹操軍。",
+      "evidence": [
+        "令呂布引精兵後",
+        "布引鐵騎掩殺"
+      ]
+    },
+    {
+      "id": "faction_luoyang_people",
+      "name": "洛陽之民",
+      "type": "faction",
+      "aliases": [
+        "洛陽民眾",
+        "百姓"
+      ],
+      "description": "被李傕、郭汜驅往長安，途中受軍士逼迫殘害。",
+      "evidence": [
+        "盡驅洛陽之民數百萬口"
+      ]
+    },
+    {
+      "id": "faction_luoyang_rich",
+      "name": "洛陽富戶",
+      "type": "faction",
+      "aliases": [
+        "富戶"
+      ],
+      "description": "被李儒建議籍沒，遭董卓派兵抄掠。",
+      "evidence": [
+        "洛陽富戶極多",
+        "可籍沒入官"
+      ]
+    },
+    {
+      "id": "loc_luoyang",
+      "name": "洛陽",
+      "type": "location",
+      "aliases": [
+        "東都洛陽",
+        "京城"
+      ],
+      "description": "漢東都，被董卓焚掠後由諸侯進入。",
+      "evidence": [
+        "漢東都洛陽",
+        "火焰沖天"
+      ]
+    },
+    {
+      "id": "loc_changan",
+      "name": "長安",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓遷帝西幸的目的地。",
+      "evidence": [
+        "遷帝於長安",
+        "前往長安"
+      ]
+    },
+    {
+      "id": "loc_sishui_pass",
+      "name": "汜水關",
+      "type": "location",
+      "aliases": [],
+      "description": "趙岑獻出的關口，孫堅軍先入。",
+      "evidence": [
+        "便獻了汜水關"
+      ]
+    },
+    {
+      "id": "loc_hulao_pass",
+      "name": "虎牢關",
+      "type": "location",
+      "aliases": [],
+      "description": "玄德、關、張殺入的關口。",
+      "evidence": [
+        "殺入虎牢關"
+      ]
+    },
+    {
+      "id": "loc_xingyang",
+      "name": "滎陽",
+      "type": "location",
+      "aliases": [
+        "滎陽地方"
+      ],
+      "description": "曹操追董卓時遭伏擊大敗之地。",
+      "evidence": [
+        "行至滎陽地方",
+        "戰於滎陽"
+      ]
+    },
+    {
+      "id": "loc_henei",
+      "name": "河內",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操敗後與殘兵退回之地。",
+      "evidence": [
+        "同回河內"
+      ]
+    },
+    {
+      "id": "loc_jianzhang",
+      "name": "建章殿",
+      "type": "location",
+      "aliases": [
+        "建章殿基"
+      ],
+      "description": "孫堅在洛陽設帳與清理宮殿之處。",
+      "evidence": [
+        "設帳於建章殿基上"
+      ]
+    },
+    {
+      "id": "loc_palace_well",
+      "name": "殿南井",
+      "type": "location",
+      "aliases": [
+        "井中"
+      ],
+      "description": "傳國璽從婦人屍首錦囊中被撈出的地方。",
+      "evidence": [
+        "五色毫光起於井中"
+      ]
+    },
+    {
+      "id": "loc_taimiao",
+      "name": "太廟",
+      "type": "location",
+      "aliases": [
+        "太廟基"
+      ],
+      "description": "孫堅草創殿屋祭祀列聖神位之處。",
+      "evidence": [
+        "於太廟基上"
+      ]
+    },
+    {
+      "id": "loc_lingqin",
+      "name": "先皇及後妃陵寢",
+      "type": "location",
+      "aliases": [
+        "陵寢",
+        "墳塚"
+      ],
+      "description": "董卓令呂布發掘取寶的陵墓。",
+      "evidence": [
+        "發掘先皇及後妃陵寢"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表任刺史之地，袁紹致書請其截孫堅。",
+      "evidence": [
+        "往荊州，送與刺史劉表"
+      ]
+    },
+    {
+      "id": "loc_jiekou",
+      "name": "界口",
+      "type": "location",
+      "aliases": [],
+      "description": "孫堅突破蔡瑁後又遭伏兵圍困的路口。",
+      "evidence": [
+        "乘勢殺過界口"
+      ]
+    },
+    {
+      "id": "loc_changsha",
+      "name": "長沙",
+      "type": "location",
+      "aliases": [],
+      "description": "孫堅託病稱欲返回之地。",
+      "evidence": [
+        "欲歸長沙"
+      ]
+    },
+    {
+      "id": "loc_pingyuan",
+      "name": "平原",
+      "type": "location",
+      "aliases": [],
+      "description": "公孫瓚至此任玄德為平原相。",
+      "evidence": [
+        "至平原"
+      ]
+    },
+    {
+      "id": "loc_yangzhou",
+      "name": "揚州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操離開諸侯後投往之地。",
+      "evidence": [
+        "自引軍投揚州去了"
+      ]
+    },
+    {
+      "id": "loc_guandong",
+      "name": "關東",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹離洛陽後投往之地。",
+      "evidence": [
+        "投關東去了"
+      ]
+    },
+    {
+      "id": "obj_imperial_seal",
+      "name": "傳國璽",
+      "type": "object",
+      "aliases": [
+        "玉璽",
+        "傳國之寶"
+      ],
+      "description": "孫堅在殿南井中所得玉璽，篆有受命於天，既壽永昌。",
+      "evidence": [
+        "乃一玉璽",
+        "此傳國璽也"
+      ]
+    },
+    {
+      "id": "obj_yuan_shao_letter",
+      "name": "袁紹書",
+      "type": "object",
+      "aliases": [
+        "書一封",
+        "袁紹之書"
+      ],
+      "description": "袁紹送給劉表，令其途中截奪孫堅玉璽的書信。",
+      "evidence": [
+        "寫書一封",
+        "信袁紹之書"
+      ]
+    },
+    {
+      "id": "obj_treasures",
+      "name": "金珠緞匹好物",
+      "type": "object",
+      "aliases": [
+        "金寶",
+        "好物"
+      ],
+      "description": "董卓從洛陽掠奪並裝車帶走的財物。",
+      "evidence": [
+        "裝載金珠緞匹好物"
+      ]
+    },
+    {
+      "id": "strat_move_changan",
+      "name": "遷帝長安之策",
+      "type": "strategy",
+      "aliases": [
+        "遷都長安",
+        "奉駕西幸"
+      ],
+      "description": "李儒勸董卓棄洛陽、遷帝長安，以避諸侯兵鋒。",
+      "evidence": [
+        "遷帝於長安",
+        "奉駕西幸"
+      ]
+    },
+    {
+      "id": "strat_confiscate_rich",
+      "name": "籍沒富戶之策",
+      "type": "strategy",
+      "aliases": [
+        "籍沒入官"
+      ],
+      "description": "李儒建議抄掠洛陽富戶與袁紹門下以補錢糧。",
+      "evidence": [
+        "今錢糧缺少",
+        "可籍沒入官"
+      ]
+    },
+    {
+      "id": "strat_xingyang_ambush",
+      "name": "滎陽伏兵之計",
+      "type": "strategy",
+      "aliases": [
+        "山塢伏軍"
+      ],
+      "description": "李儒安排徐榮伏兵滎陽，配合呂布後軍截殺追兵。",
+      "evidence": [
+        "伏軍滎陽城外山塢之旁"
+      ]
+    },
+    {
+      "id": "strat_cao_deployment",
+      "name": "曹操據險追董之策",
+      "type": "strategy",
+      "aliases": [
+        "分兵據險之策"
+      ],
+      "description": "曹操建議袁紹、袁術與諸將分據險要、震動三輔。",
+      "evidence": [
+        "固守成皋，據敖倉",
+        "入武關，以震三輔"
+      ]
+    },
+    {
+      "id": "strat_intercept_seal",
+      "name": "截奪玉璽之策",
+      "type": "strategy",
+      "aliases": [
+        "路上截住奪之"
+      ],
+      "description": "袁紹請劉表在孫堅歸途上截住奪取傳國璽。",
+      "evidence": [
+        "教就路上截住奪之"
+      ]
+    },
+    {
+      "id": "battle_xingyang",
+      "name": "滎陽之戰",
+      "type": "battle",
+      "aliases": [
+        "滎陽伏擊"
+      ],
+      "description": "曹操追擊董卓時遭呂布、李傕、郭汜、徐榮合擊而敗。",
+      "evidence": [
+        "戰於滎陽，大敗而回"
+      ]
+    },
+    {
+      "id": "battle_jiekou",
+      "name": "界口截擊",
+      "type": "battle",
+      "aliases": [
+        "劉表截孫堅"
+      ],
+      "description": "劉表軍為奪傳國璽在界口截擊並圍困孫堅。",
+      "evidence": [
+        "引兵一萬來截孫堅",
+        "困在垓心"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_dong_zhuo",
+      "target": "title_chengxiang",
+      "type": "擔任稱號",
+      "description": "李傕稱董卓為丞相。",
+      "evidence": [
+        "丞相所敬者"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_sun_jian",
+      "type": "命令進兵",
+      "description": "袁紹移檄命孫堅進兵。",
+      "evidence": [
+        "移檄孫堅，令其進兵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_li_jue",
+      "type": "派遣",
+      "description": "董卓派愛將李傕往孫堅營中求親。",
+      "evidence": [
+        "特使傕來結親"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_sun_jian",
+      "type": "求親",
+      "description": "李傕代表董卓提出與孫堅結親。",
+      "evidence": [
+        "欲配將軍之子"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_dong_zhuo",
+      "type": "拒絕結親",
+      "description": "孫堅怒斥董卓為逆賊，不肯結親。",
+      "evidence": [
+        "安肯與逆賊結親"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_li_ru",
+      "target": "strat_move_changan",
+      "type": "提出計策",
+      "description": "李儒勸董卓棄洛陽、遷帝長安。",
+      "evidence": [
+        "不若引兵回洛陽，遷帝於長安"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "strat_move_changan",
+      "type": "採納",
+      "description": "董卓召集文武宣布奉駕西幸。",
+      "evidence": [
+        "吾欲奉駕西幸"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yang_biao",
+      "target": "strat_move_changan",
+      "type": "諫止",
+      "description": "楊彪以關中殘破、宗廟皇陵為由反對遷都。",
+      "evidence": [
+        "無故捐宗廟，棄皇陵"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "source": "char_zhou_bi",
+      "target": "strat_move_changan",
+      "type": "諫止",
+      "description": "週毖前來諫阻董卓遷都長安。",
+      "evidence": [
+        "欲遷都長安，故來諫"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_wu_qiong",
+      "target": "strat_move_changan",
+      "type": "諫止",
+      "description": "伍瓊與週毖同來諫阻遷都。",
+      "evidence": [
+        "尚書週毖、城門校尉伍瓊"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_zhou_bi",
+      "type": "處死",
+      "description": "董卓怒斥週毖與袁紹同黨，命斬於都門。",
+      "evidence": [
+        "推出都門斬首"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_wu_qiong",
+      "type": "處死",
+      "description": "董卓怒斥伍瓊與袁紹同黨，命斬於都門。",
+      "evidence": [
+        "推出都門斬首"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_li_ru",
+      "target": "strat_confiscate_rich",
+      "type": "提出計策",
+      "description": "李儒建議籍沒洛陽富戶以補錢糧。",
+      "evidence": [
+        "洛陽富戶極多，可籍沒入官"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "faction_luoyang_rich",
+      "type": "抄掠",
+      "description": "董卓差鐵騎捉拿洛陽富戶並抄掠。",
+      "evidence": [
+        "差鐵騎五千",
+        "捉拿洛陽富戶"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_li_jue",
+      "target": "faction_luoyang_people",
+      "type": "驅徙",
+      "description": "李傕驅趕洛陽百姓前往長安。",
+      "evidence": [
+        "盡驅洛陽之民"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_guo_si",
+      "target": "faction_luoyang_people",
+      "type": "驅徙",
+      "description": "郭汜與李傕共同驅民西遷。",
+      "evidence": [
+        "李傕、郭汜盡驅"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "loc_luoyang",
+      "type": "焚毀",
+      "description": "董卓臨行下令焚燒居民、宗廟與宮府。",
+      "evidence": [
+        "放火燒宗廟宮府"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "loc_lingqin",
+      "type": "發掘",
+      "description": "董卓差呂布發掘先皇與後妃陵寢取寶。",
+      "evidence": [
+        "差呂布發掘先皇及後妃陵寢"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "obj_treasures",
+      "type": "掠奪",
+      "description": "董卓裝載洛陽金珠緞匹等物西去。",
+      "evidence": [
+        "裝載金珠緞匹好物"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "title_tianzi",
+      "type": "劫遷",
+      "description": "董卓挾天子與後妃往長安。",
+      "evidence": [
+        "劫了天子併後妃"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhao_cen",
+      "target": "loc_sishui_pass",
+      "type": "獻關",
+      "description": "趙岑見董卓棄洛陽後獻出汜水關。",
+      "evidence": [
+        "便獻了汜水關"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "loc_luoyang",
+      "type": "先入救火",
+      "description": "孫堅率兵先入洛陽並救滅餘火。",
+      "evidence": [
+        "孫堅驅兵先入",
+        "救滅了火"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_hulao_pass",
+      "type": "攻入",
+      "description": "玄德與關、張攻入虎牢關。",
+      "evidence": [
+        "殺入虎牢關"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "loc_hulao_pass",
+      "type": "攻入",
+      "description": "關羽與玄德、張飛攻入虎牢關。",
+      "evidence": [
+        "玄德、關、張殺入"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "loc_hulao_pass",
+      "type": "攻入",
+      "description": "張飛與玄德、關羽攻入虎牢關。",
+      "evidence": [
+        "玄德、關、張殺入"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_yuan_shao",
+      "type": "勸追董卓",
+      "description": "曹操勸袁紹乘勢追擊西去的董卓。",
+      "evidence": [
+        "正可乘勢追襲"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_cao_cao",
+      "type": "拒絕建議",
+      "description": "袁紹以諸兵疲困為由不追董卓。",
+      "evidence": [
+        "諸兵疲困，進恐無益"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_cao",
+      "type": "統領",
+      "description": "曹操自引萬餘兵追董卓。",
+      "evidence": [
+        "自引兵萬餘"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "army_cao_cao",
+      "type": "隸屬",
+      "description": "夏侯惇隨曹操追董卓。",
+      "evidence": [
+        "領夏侯惇"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xiahou_yuan",
+      "target": "army_cao_cao",
+      "type": "隸屬",
+      "description": "夏侯淵隨曹操追董卓。",
+      "evidence": [
+        "夏侯淵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "army_cao_cao",
+      "type": "隸屬",
+      "description": "曹仁隨曹操追董卓。",
+      "evidence": [
+        "曹仁"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "army_cao_cao",
+      "type": "隸屬",
+      "description": "曹洪隨曹操追董卓。",
+      "evidence": [
+        "曹洪"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_dian",
+      "target": "army_cao_cao",
+      "type": "隸屬",
+      "description": "李典隨曹操追董卓。",
+      "evidence": [
+        "李典"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yue_jin",
+      "target": "army_cao_cao",
+      "type": "隸屬",
+      "description": "樂進隨曹操追董卓。",
+      "evidence": [
+        "樂進"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_ru",
+      "target": "strat_xingyang_ambush",
+      "type": "設計",
+      "description": "李儒令徐榮伏兵滎陽，等追兵敗退再截殺。",
+      "evidence": [
+        "待我這裡殺敗，然後截住掩殺"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_rong",
+      "target": "army_xu_rong_ambush",
+      "type": "統領",
+      "description": "徐榮負責滎陽城外山塢伏兵。",
+      "evidence": [
+        "教徐榮伏軍"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "army_lv_bu_cavalry",
+      "type": "統領",
+      "description": "呂布領精兵為董卓後軍。",
+      "evidence": [
+        "令呂布引精兵後"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "army_lv_bu_cavalry",
+      "target": "army_cao_cao",
+      "type": "掩殺",
+      "description": "呂布鐵騎擊敗曹操軍。",
+      "evidence": [
+        "布引鐵騎掩殺，操軍大敗"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_li_jue",
+      "target": "army_cao_cao",
+      "type": "攻擊",
+      "description": "李傕從左路殺向曹操軍。",
+      "evidence": [
+        "從左邊殺來"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_guo_si",
+      "target": "army_cao_cao",
+      "type": "攻擊",
+      "description": "郭汜從右路殺向曹操軍。",
+      "evidence": [
+        "郭汜引軍殺到"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_xu_rong",
+      "target": "char_cao_cao",
+      "type": "射傷追擊",
+      "description": "徐榮伏兵追擊曹操，射中其肩膊。",
+      "evidence": [
+        "射中操肩膊"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "char_cao_cao",
+      "type": "救援",
+      "description": "曹洪砍死擒曹操的步軍，救起曹操。",
+      "evidence": [
+        "下馬救起曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "char_cao_cao",
+      "type": "讓馬渡水",
+      "description": "曹洪願步行讓馬，並負曹操渡河。",
+      "evidence": [
+        "洪願步行",
+        "負操渡水"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "char_xu_rong",
+      "type": "斬殺",
+      "description": "夏侯惇迎戰徐榮並刺其落馬。",
+      "evidence": [
+        "惇刺徐榮於馬下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_cao_cao",
+      "target": "loc_henei",
+      "type": "退回",
+      "description": "曹操收殘兵五百餘人回河內。",
+      "evidence": [
+        "聚集殘兵五百餘人，同回河內"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "loc_taimiao",
+      "type": "祭祀",
+      "description": "孫堅在太廟基上設列聖神位祭祀。",
+      "evidence": [
+        "立列聖神位，宰太牢祀之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "obj_imperial_seal",
+      "type": "取得藏匿",
+      "description": "孫堅從井中得到傳國璽並私藏。",
+      "evidence": [
+        "堅得璽",
+        "私自藏匿"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "obj_imperial_seal",
+      "type": "辨識",
+      "description": "程普指出孫堅所得為傳國璽。",
+      "evidence": [
+        "此傳國璽也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_report_soldier",
+      "target": "char_yuan_shao",
+      "type": "告密",
+      "description": "孫堅軍中袁紹鄉人夜報傳國璽之事。",
+      "evidence": [
+        "連夜偷出營寨，來報袁紹"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_sun_jian",
+      "type": "索取玉璽",
+      "description": "袁紹當眾追問孫堅建章殿井中之物。",
+      "evidence": [
+        "建章殿井中之物何在"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_yuan_shao",
+      "type": "否認並發誓",
+      "description": "孫堅否認得璽，指天發誓若藏匿不得善終。",
+      "evidence": [
+        "吾本無之",
+        "指天為誓"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yan_liang",
+      "target": "char_yuan_shao",
+      "type": "護衛",
+      "description": "顏良在袁紹背後拔劍支持。",
+      "evidence": [
+        "顏良、文醜皆拔劍"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_wen_chou",
+      "target": "char_yuan_shao",
+      "type": "護衛",
+      "description": "文醜在袁紹背後拔劍支持。",
+      "evidence": [
+        "顏良、文醜皆拔劍"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "char_sun_jian",
+      "type": "護衛",
+      "description": "程普在孫堅背後掣刀護主。",
+      "evidence": [
+        "程普、黃蓋、韓當亦掣刀"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_huang_gai",
+      "target": "char_sun_jian",
+      "type": "護衛",
+      "description": "黃蓋在孫堅背後掣刀護主。",
+      "evidence": [
+        "程普、黃蓋、韓當亦掣刀"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_han_dang",
+      "target": "char_sun_jian",
+      "type": "護衛",
+      "description": "韓當在孫堅背後掣刀護主。",
+      "evidence": [
+        "韓當亦掣刀在手"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "obj_yuan_shao_letter",
+      "type": "書寫派送",
+      "description": "袁紹寫書送劉表，令其截奪孫堅。",
+      "evidence": [
+        "寫書一封",
+        "送與刺史劉表"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "obj_yuan_shao_letter",
+      "target": "strat_intercept_seal",
+      "type": "承載命令",
+      "description": "書信內容要求劉表路上截住孫堅奪璽。",
+      "evidence": [
+        "教就路上截住奪之"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "char_kuai_yue",
+      "type": "派遣",
+      "description": "劉表令蒯越領兵截孫堅。",
+      "evidence": [
+        "令蒯越、蔡瑁引兵一萬"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "char_cai_mao",
+      "type": "派遣",
+      "description": "劉表令蔡瑁領兵截孫堅。",
+      "evidence": [
+        "令蒯越、蔡瑁引兵一萬"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_kuai_liang",
+      "target": "char_liu_biao",
+      "type": "輔佐",
+      "description": "蒯良被列為劉表輔佐者。",
+      "evidence": [
+        "蒯良、蒯越，襄陽人蔡瑁為輔"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_kuai_yue",
+      "target": "char_liu_biao",
+      "type": "輔佐",
+      "description": "蒯越被列為劉表輔佐者。",
+      "evidence": [
+        "蒯良、蒯越"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_cai_mao",
+      "target": "char_liu_biao",
+      "type": "輔佐",
+      "description": "蔡瑁被列為劉表輔佐者。",
+      "evidence": [
+        "蔡瑁為輔"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "army_jingzhou",
+      "target": "army_sun_jian",
+      "type": "截擊",
+      "description": "荊州軍在孫堅歸途截其去路。",
+      "evidence": [
+        "引兵一萬來截孫堅"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_huang_gai",
+      "target": "char_cai_mao",
+      "type": "交戰擊退",
+      "description": "黃蓋出戰蔡瑁，以鞭擊中其護心鏡，使其退走。",
+      "evidence": [
+        "揮鞭打瑁正中護心鏡"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "char_sun_jian",
+      "type": "質問圍困",
+      "description": "劉表質問孫堅匿璽，後以伏兵圍困。",
+      "evidence": [
+        "汝匿傳國璽",
+        "困在垓心"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_cao_deployment",
+      "type": "提出計策",
+      "description": "曹操於宴間提出諸軍分據險要以討董卓。",
+      "evidence": [
+        "操之初意",
+        "制其險要"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "army_coalition",
+      "target": "strat_cao_deployment",
+      "type": "未能執行",
+      "description": "諸侯各懷異心，曹操認為不能成事。",
+      "evidence": [
+        "各懷異心，料不能成事"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_yangzhou",
+      "type": "投往",
+      "description": "曹操離開諸侯，自引軍投揚州。",
+      "evidence": [
+        "自引軍投揚州去了"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_gongsun_zan",
+      "target": "char_liu_bei",
+      "type": "任命",
+      "description": "公孫瓚到平原後令玄德為平原相。",
+      "evidence": [
+        "令玄德為平原相"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_pingyuan_xiang",
+      "type": "任職",
+      "description": "玄德受命為平原相。",
+      "evidence": [
+        "玄德為平原相"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_dai",
+      "target": "char_qiao_mao",
+      "type": "借糧不成攻殺",
+      "description": "劉岱向喬瑁借糧遭拒，遂攻入其營殺之。",
+      "evidence": [
+        "瑁推詞不與",
+        "殺死喬瑁"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "loc_guandong",
+      "type": "離去",
+      "description": "袁紹見眾人分散後離洛陽投關東。",
+      "evidence": [
+        "離洛陽，投關東去了"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "loc_jingzhou",
+      "type": "治理任職",
+      "description": "劉表為荊州刺史。",
+      "evidence": [
+        "荊州刺史劉表"
+      ],
+      "confidence": 0.97
+    }
+  ],
+  "events": [
+    {
+      "id": "ev006_01",
+      "name": "李傕求親遭孫堅拒絕",
+      "summary": "董卓派李傕至孫堅寨中求親，孫堅怒斥董卓為逆賊，拒絕結親。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_li_jue",
+        "char_sun_jian"
+      ],
+      "locations": [
+        "loc_sishui_pass"
+      ],
+      "evidence": [
+        "特使傕來結親",
+        "安肯與逆賊結親"
+      ]
+    },
+    {
+      "id": "ev006_02",
+      "name": "董卓決議遷都長安",
+      "summary": "李儒獻策遷帝長安，董卓宣布奉駕西幸；楊彪、週毖、伍瓊等諫阻，週毖與伍瓊被斬。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_li_ru",
+        "char_yang_biao",
+        "char_zhou_bi",
+        "char_wu_qiong"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_changan"
+      ],
+      "evidence": [
+        "遷帝於長安",
+        "推出都門斬首"
+      ]
+    },
+    {
+      "id": "ev006_03",
+      "name": "董卓焚掠洛陽押民西遷",
+      "summary": "董卓焚燒洛陽宮室宗廟，令呂布掘陵取寶，並由李傕、郭汜驅趕百姓往長安。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_lv_bu",
+        "char_li_jue",
+        "char_guo_si",
+        "faction_luoyang_people"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_changan",
+        "loc_lingqin"
+      ],
+      "evidence": [
+        "放火燒宗廟宮府",
+        "盡驅洛陽之民"
+      ]
+    },
+    {
+      "id": "ev006_04",
+      "name": "諸侯入洛陽",
+      "summary": "趙岑獻汜水關，孫堅先入洛陽；玄德、關、張攻入虎牢關，諸侯各引軍入。",
+      "participants": [
+        "char_zhao_cen",
+        "char_sun_jian",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "army_coalition"
+      ],
+      "locations": [
+        "loc_sishui_pass",
+        "loc_hulao_pass",
+        "loc_luoyang"
+      ],
+      "evidence": [
+        "便獻了汜水關",
+        "諸侯各引軍入"
+      ]
+    },
+    {
+      "id": "ev006_05",
+      "name": "曹操追董卓敗於滎陽",
+      "summary": "曹操不滿袁紹按兵，自率萬餘兵追董卓，在滎陽遭呂布、李傕、郭汜與徐榮伏兵夾擊大敗。",
+      "participants": [
+        "char_cao_cao",
+        "char_yuan_shao",
+        "char_lv_bu",
+        "char_li_jue",
+        "char_guo_si",
+        "char_xu_rong",
+        "char_li_ru"
+      ],
+      "locations": [
+        "loc_xingyang"
+      ],
+      "evidence": [
+        "自引兵萬餘",
+        "戰於滎陽，大敗而回"
+      ]
+    },
+    {
+      "id": "ev006_06",
+      "name": "曹洪救曹操與夏侯惇斬徐榮",
+      "summary": "曹操敗逃中被擒，曹洪斬卒救起並負操渡水；徐榮追至，夏侯惇迎戰刺殺徐榮，曹操殘兵回河內。",
+      "participants": [
+        "char_cao_cao",
+        "char_cao_hong",
+        "char_xiahou_dun",
+        "char_xiahou_yuan",
+        "char_xu_rong"
+      ],
+      "locations": [
+        "loc_xingyang",
+        "loc_henei"
+      ],
+      "evidence": [
+        "下馬救起曹操",
+        "惇刺徐榮於馬下"
+      ]
+    },
+    {
+      "id": "ev006_07",
+      "name": "孫堅整治洛陽宮殿並祭列聖",
+      "summary": "孫堅救滅宮中餘火，掩閉被掘陵寢，在太廟基上草創殿屋祭祀列聖。",
+      "participants": [
+        "char_sun_jian",
+        "army_sun_jian"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_jianzhang",
+        "loc_taimiao",
+        "loc_lingqin"
+      ],
+      "evidence": [
+        "救滅宮中餘火",
+        "立列聖神位"
+      ]
+    },
+    {
+      "id": "ev006_08",
+      "name": "孫堅得傳國璽",
+      "summary": "孫堅軍士見殿南井中五色光，打撈出婦人屍首與錦囊玉璽，程普辨為傳國璽。",
+      "participants": [
+        "char_sun_jian",
+        "char_cheng_pu",
+        "army_sun_jian"
+      ],
+      "locations": [
+        "loc_palace_well",
+        "loc_jianzhang"
+      ],
+      "evidence": [
+        "五色毫光起於井中",
+        "此傳國璽也"
+      ]
+    },
+    {
+      "id": "ev006_09",
+      "name": "袁紹與孫堅爭璽",
+      "summary": "孫堅託病欲歸長沙，袁紹揭破傳國璽之事並逼索；雙方部將拔劍掣刀，眾諸侯勸住。",
+      "participants": [
+        "char_yuan_shao",
+        "char_sun_jian",
+        "char_report_soldier",
+        "char_yan_liang",
+        "char_wen_chou",
+        "char_cheng_pu",
+        "char_huang_gai",
+        "char_han_dang",
+        "army_coalition"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_changsha"
+      ],
+      "evidence": [
+        "吾知公疾乃害傳國璽耳",
+        "眾諸侯一齊勸住"
+      ]
+    },
+    {
+      "id": "ev006_10",
+      "name": "討董諸侯分散",
+      "summary": "曹操歎諸侯各懷異心後投揚州；公孫瓚北行並令玄德為平原相；劉岱攻殺喬瑁；袁紹離洛陽投關東。",
+      "participants": [
+        "char_cao_cao",
+        "char_gongsun_zan",
+        "char_liu_bei",
+        "char_liu_dai",
+        "char_qiao_mao",
+        "char_yuan_shao",
+        "army_coalition"
+      ],
+      "locations": [
+        "loc_yangzhou",
+        "loc_pingyuan",
+        "loc_guandong"
+      ],
+      "evidence": [
+        "各懷異心",
+        "眾人各自分散"
+      ]
+    },
+    {
+      "id": "ev006_11",
+      "name": "劉表截擊孫堅",
+      "summary": "袁紹致書劉表，劉表令蒯越、蔡瑁引兵截孫堅；黃蓋擊退蔡瑁後，劉表親率軍與伏兵圍困孫堅。",
+      "participants": [
+        "char_yuan_shao",
+        "char_liu_biao",
+        "char_kuai_yue",
+        "char_cai_mao",
+        "char_sun_jian",
+        "char_huang_gai"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_jiekou"
+      ],
+      "evidence": [
+        "引兵一萬來截孫堅",
+        "困在垓心"
+      ]
+    }
+  ],
+  "notes": [
+    "僅抽取本章正文可支持的重要資訊；部分底本文字有訛漏時依可辨識情節抽取。"
+  ]
+}

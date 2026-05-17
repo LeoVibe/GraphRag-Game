@@ -1,0 +1,1969 @@
+{
+  "book": "三國演義",
+  "chapter_no": 28,
+  "chapter_title": "斬蔡陽兄弟釋疑　會古城主臣聚義",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_guan_gong",
+      "name": "關公",
+      "type": "character",
+      "aliases": [
+        "關羽",
+        "關雲長",
+        "雲長",
+        "關將軍"
+      ],
+      "description": "護送劉備家眷尋兄，斬蔡陽釋張飛之疑，後與劉備等會於古城。",
+      "evidence": [
+        "關公同孫乾保二嫂向汝南進發",
+        "關公刀起處，蔡陽頭已落地"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "皇叔",
+        "主公",
+        "使君"
+      ],
+      "description": "先往河北袁紹處，後用計脫身，與關公、張飛、趙雲等聚義。",
+      "evidence": [
+        "玄德入見袁紹",
+        "今日君臣重聚義"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "飛"
+      ],
+      "description": "據守古城，初疑關公降曹，見關公斬蔡陽後釋疑相認。",
+      "evidence": [
+        "張飛在芒碭山中",
+        "佔住古城"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "趙子龍",
+        "子龍",
+        "雲"
+      ],
+      "description": "在臥牛山殺裴元紹，後與劉備相遇並投隨。",
+      "evidence": [
+        "來者莫非子龍否",
+        "原來果然是趙子龍"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [
+        "孫幹"
+      ],
+      "description": "隨關公行路，又往河北向劉備報信。",
+      "evidence": [
+        "孫乾匹馬入冀州見玄德"
+      ]
+    },
+    {
+      "id": "char_jian_yong",
+      "name": "簡雍",
+      "type": "character",
+      "aliases": [],
+      "description": "替劉備設脫身之計，藉說劉表共攻曹操離開袁紹。",
+      "evidence": [
+        "簡雍至",
+        "共議脫身之計"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [
+        "元讓"
+      ],
+      "description": "領三百餘騎追關公，因秦琪被殺而欲擒關公。",
+      "evidence": [
+        "夏侯惇領三百餘騎，從後追來"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "丞相"
+      ],
+      "description": "差公文放關公通行，又差蔡陽往汝南攻劉闢。",
+      "evidence": [
+        "丞相敬愛關將軍忠義",
+        "曹操乃勁敵也"
+      ]
+    },
+    {
+      "id": "char_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [],
+      "description": "奉曹操命勸止關公與夏侯惇爭戰，傳令放行。",
+      "evidence": [
+        "乃張遼也",
+        "任便放行"
+      ]
+    },
+    {
+      "id": "char_er_furen",
+      "name": "二夫人",
+      "type": "character",
+      "aliases": [
+        "二嫂",
+        "二位夫人"
+      ],
+      "description": "劉備家眷，由關公護送；入古城後向張飛說明關公經歷。",
+      "evidence": [
+        "保二嫂向汝南進發",
+        "二夫人訴說關公歷過之事"
+      ]
+    },
+    {
+      "id": "char_gan_furen",
+      "name": "甘夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "隨關公同行的夫人之一，曾就周倉相隨一事發言。",
+      "evidence": [
+        "甘夫人曰"
+      ]
+    },
+    {
+      "id": "char_guo_chang",
+      "name": "郭常",
+      "type": "character",
+      "aliases": [
+        "郭老翁"
+      ],
+      "description": "莊院主人，款待關公；其子曾盜赤兔馬。",
+      "evidence": [
+        "某姓郭，名常"
+      ]
+    },
+    {
+      "id": "char_guo_son",
+      "name": "郭常之子",
+      "type": "character",
+      "aliases": [
+        "郭子"
+      ],
+      "description": "先盜赤兔馬，後引裴元紹劫馬，被關公饒命。",
+      "evidence": [
+        "此人來盜赤兔馬",
+        "郭子抱頭鼠竄而去"
+      ]
+    },
+    {
+      "id": "char_pei_yuanshao",
+      "name": "裴元紹",
+      "type": "character",
+      "aliases": [
+        "元紹"
+      ],
+      "description": "黃巾餘黨，欲劫赤兔馬，後留守臥牛山人眾，為趙雲所殺。",
+      "evidence": [
+        "某姓裴，名元紹",
+        "刺死裴元紹"
+      ]
+    },
+    {
+      "id": "char_zhou_cang",
+      "name": "週倉",
+      "type": "character",
+      "aliases": [
+        "周倉"
+      ],
+      "description": "原黃巾張寶部下，拜見關公並相隨，後在臥牛山受傷來報。",
+      "evidence": [
+        "姓週，名倉",
+        "週倉跟著關公"
+      ]
+    },
+    {
+      "id": "char_zhang_jiao",
+      "name": "張角",
+      "type": "character",
+      "aliases": [
+        "天公將軍"
+      ],
+      "description": "黃巾首領，裴元紹自稱其部將。",
+      "evidence": [
+        "天公將軍張角部將"
+      ]
+    },
+    {
+      "id": "char_zhang_bao",
+      "name": "張寶",
+      "type": "character",
+      "aliases": [],
+      "description": "黃巾將領，周倉原在其部下。",
+      "evidence": [
+        "原在黃巾張寶部下為將"
+      ]
+    },
+    {
+      "id": "char_cai_yang",
+      "name": "蔡陽",
+      "type": "character",
+      "aliases": [],
+      "description": "秦琪舅親，追究外甥被殺，至古城與關公交戰被斬。",
+      "evidence": [
+        "乃是蔡陽",
+        "蔡陽頭已落地"
+      ]
+    },
+    {
+      "id": "char_qin_qi",
+      "name": "秦琪",
+      "type": "character",
+      "aliases": [],
+      "description": "蔡陽外甥，先前為關公所殺，是蔡陽尋仇原因。",
+      "evidence": [
+        "秦琪是蔡陽之甥",
+        "殺吾外甥秦琪"
+      ]
+    },
+    {
+      "id": "char_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "與糜芳到古城會張飛，後歸入劉備聚義隊伍。",
+      "evidence": [
+        "乃糜竺、糜芳也"
+      ]
+    },
+    {
+      "id": "char_mi_fang",
+      "name": "糜芳",
+      "type": "character",
+      "aliases": [],
+      "description": "與糜竺同到古城，參與主臣重聚。",
+      "evidence": [
+        "乃糜竺、糜芳也"
+      ]
+    },
+    {
+      "id": "char_liu_pi",
+      "name": "劉闢",
+      "type": "character",
+      "aliases": [],
+      "description": "在汝南接關公，後與龔都遣人請劉備駐汝南。",
+      "evidence": [
+        "劉闢、龔都接著",
+        "劉闢、龔都差人來請"
+      ]
+    },
+    {
+      "id": "char_gong_du",
+      "name": "龔都",
+      "type": "character",
+      "aliases": [],
+      "description": "與劉闢同在汝南，邀劉備移軍駐紮。",
+      "evidence": [
+        "劉闢、龔都接著"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "袁本初",
+        "明公"
+      ],
+      "description": "收留劉備於河北，後因劉備不返而怒，採郭圖結孫策攻曹之策。",
+      "evidence": [
+        "袁本初處",
+        "袁紹見玄德不回，大怒"
+      ]
+    },
+    {
+      "id": "char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "劉景升"
+      ],
+      "description": "鎮守荊襄九郡，被劉備用作離袁紹的說辭。",
+      "evidence": [
+        "劉景升鎮守荊襄九郡"
+      ]
+    },
+    {
+      "id": "char_guo_tu",
+      "name": "郭圖",
+      "type": "character",
+      "aliases": [],
+      "description": "先疑劉備不返，後勸袁紹聯孫策共攻曹操。",
+      "evidence": [
+        "郭圖諫紹",
+        "郭圖曰"
+      ]
+    },
+    {
+      "id": "char_guan_ding",
+      "name": "關定",
+      "type": "character",
+      "aliases": [],
+      "description": "關姓老翁，款留關公，並使次子關平隨關公。",
+      "evidence": [
+        "某亦姓關，名定"
+      ]
+    },
+    {
+      "id": "char_guan_ning",
+      "name": "關寧",
+      "type": "character",
+      "aliases": [],
+      "description": "關定長子，文學取向。",
+      "evidence": [
+        "長子關寧，學文"
+      ]
+    },
+    {
+      "id": "char_guan_ping",
+      "name": "關平",
+      "type": "character",
+      "aliases": [],
+      "description": "關定次子，學武，隨關公同行。",
+      "evidence": [
+        "次子關平，學武",
+        "關平隨著關公"
+      ]
+    },
+    {
+      "id": "char_gongsun_zan",
+      "name": "公孫瓚",
+      "type": "character",
+      "aliases": [],
+      "description": "趙雲敘及其兵敗自焚。",
+      "evidence": [
+        "公孫瓚不聽人言，以致兵敗自焚"
+      ]
+    },
+    {
+      "id": "char_chen_zhen",
+      "name": "陳震",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹派為使者，前往孫策處。",
+      "evidence": [
+        "派陳震為使"
+      ]
+    },
+    {
+      "id": "char_sun_ce",
+      "name": "孫策",
+      "type": "character",
+      "aliases": [
+        "孫伯符"
+      ],
+      "description": "江東之主，被郭圖建議結為共攻曹操的外援。",
+      "evidence": [
+        "江東孫伯符威鎮三江"
+      ]
+    },
+    {
+      "id": "char_yan_liang",
+      "name": "顏良",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部將，章中被提及為關公所斬。",
+      "evidence": [
+        "以雪顏良、文醜之恨"
+      ]
+    },
+    {
+      "id": "char_wen_chou",
+      "name": "文醜",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部將，章中被提及為關公所斬。",
+      "evidence": [
+        "以雪顏良、文醜之恨"
+      ]
+    },
+    {
+      "id": "fac_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍"
+      ],
+      "description": "曹操統率的軍政勢力，夏侯惇、張遼、蔡陽皆屬之。",
+      "evidence": [
+        "風吹旗號，正是曹軍"
+      ]
+    },
+    {
+      "id": "fac_liu_bei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "玄德部眾"
+      ],
+      "description": "劉備、關公、張飛等重聚後形成的隊伍。",
+      "evidence": [
+        "玄德、關、張、趙雲、孫乾、簡雍、糜竺、糜芳"
+      ]
+    },
+    {
+      "id": "fac_yuan",
+      "name": "袁紹勢力",
+      "type": "faction",
+      "aliases": [
+        "河北"
+      ],
+      "description": "袁紹所據河北勢力，劉備曾暫投其處。",
+      "evidence": [
+        "復往河北袁本初處"
+      ]
+    },
+    {
+      "id": "fac_yellow_turban",
+      "name": "黃巾",
+      "type": "faction",
+      "aliases": [
+        "黃巾餘黨"
+      ],
+      "description": "張角、張寶舊部所屬；裴元紹、周倉皆曾出其部。",
+      "evidence": [
+        "舊隨黃巾"
+      ]
+    },
+    {
+      "id": "fac_sun_ce",
+      "name": "孫策勢力",
+      "type": "faction",
+      "aliases": [
+        "江東"
+      ],
+      "description": "孫策在江東的勢力。",
+      "evidence": [
+        "江東孫伯符威鎮三江"
+      ]
+    },
+    {
+      "id": "fac_liu_biao",
+      "name": "劉表勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州"
+      ],
+      "description": "劉表鎮守荊襄九郡的勢力。",
+      "evidence": [
+        "鎮守荊襄九郡"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "關公此前離開曹操之處。",
+      "evidence": [
+        "叔叔自離許都"
+      ]
+    },
+    {
+      "id": "loc_runan",
+      "name": "汝南",
+      "type": "location",
+      "aliases": [],
+      "description": "關公尋劉備與劉備後來駐紮之地。",
+      "evidence": [
+        "向汝南進發",
+        "往汝南駐紮"
+      ]
+    },
+    {
+      "id": "loc_gu_cheng",
+      "name": "古城",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛佔據並作為劉備眾人重聚之處。",
+      "evidence": [
+        "此名古城",
+        "佔住古城"
+      ]
+    },
+    {
+      "id": "loc_mangdang_shan",
+      "name": "芒碭山",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛失散後曾居住之地。",
+      "evidence": [
+        "張飛在芒碭山中"
+      ]
+    },
+    {
+      "id": "loc_guo_zhuang",
+      "name": "郭常莊院",
+      "type": "location",
+      "aliases": [
+        "郭莊"
+      ],
+      "description": "關公避雨投宿並發生盜馬之事的莊院。",
+      "evidence": [
+        "莊內一老人出迎",
+        "某姓郭，名常"
+      ]
+    },
+    {
+      "id": "loc_woniu_shan",
+      "name": "臥牛山",
+      "type": "location",
+      "aliases": [],
+      "description": "周倉、裴元紹聚眾之地，後趙雲佔住山寨。",
+      "evidence": [
+        "離此二十里有一臥牛山"
+      ]
+    },
+    {
+      "id": "loc_hebei",
+      "name": "河北",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹所在之地，劉備與關公先後往此。",
+      "evidence": [
+        "投河北來"
+      ]
+    },
+    {
+      "id": "loc_jizhou",
+      "name": "冀州",
+      "type": "location",
+      "aliases": [],
+      "description": "孫乾入見劉備之地。",
+      "evidence": [
+        "入冀州見玄德"
+      ]
+    },
+    {
+      "id": "loc_jieshou",
+      "name": "界首",
+      "type": "location",
+      "aliases": [],
+      "description": "關公至河北邊界時停歇之處。",
+      "evidence": [
+        "將至界首"
+      ]
+    },
+    {
+      "id": "loc_guan_ding_zhuang",
+      "name": "關定莊",
+      "type": "location",
+      "aliases": [
+        "關定莊上"
+      ],
+      "description": "關公留宿，劉備、關公相會並得關平之地。",
+      "evidence": [
+        "同往關定莊上"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [
+        "荊襄九郡"
+      ],
+      "description": "劉表鎮守之地，被作為劉備離袁紹的藉口。",
+      "evidence": [
+        "要往荊州",
+        "鎮守荊襄九郡"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備舊地，糜氏兄弟與趙雲皆提及其失守。",
+      "evidence": [
+        "自徐州失散",
+        "徐州失守"
+      ]
+    },
+    {
+      "id": "loc_jiangdong",
+      "name": "江東",
+      "type": "location",
+      "aliases": [
+        "三江",
+        "六郡"
+      ],
+      "description": "孫策威鎮之地。",
+      "evidence": [
+        "江東孫伯符威鎮三江，地連六郡"
+      ]
+    },
+    {
+      "id": "battle_zhan_cai_yang",
+      "name": "斬蔡陽",
+      "type": "battle",
+      "aliases": [
+        "古城斬蔡陽"
+      ],
+      "description": "關公在古城外斬蔡陽，以釋張飛疑心。",
+      "evidence": [
+        "一通鼓未盡，關公刀起處，蔡陽頭已落地"
+      ]
+    },
+    {
+      "id": "battle_zhao_yun_pei_yuanshao",
+      "name": "趙雲刺死裴元紹",
+      "type": "battle",
+      "aliases": [
+        "臥牛山交鋒"
+      ],
+      "description": "趙雲單騎至臥牛山，一合刺死裴元紹並收其眾。",
+      "evidence": [
+        "只一合，刺死裴元紹"
+      ]
+    },
+    {
+      "id": "event_old_city_reunion",
+      "name": "古城主臣聚義",
+      "type": "event",
+      "aliases": [
+        "會古城主臣聚義"
+      ],
+      "description": "劉備、關公、張飛、趙雲及諸將佐在古城重聚。",
+      "evidence": [
+        "今日君臣重聚義"
+      ]
+    },
+    {
+      "id": "event_liu_escape_yuan",
+      "name": "劉備脫袁紹",
+      "type": "event",
+      "aliases": [
+        "玄德脫身"
+      ],
+      "description": "劉備與簡雍以往荊州說劉表共攻曹操為名離開袁紹。",
+      "evidence": [
+        "共議脫身之計"
+      ]
+    },
+    {
+      "id": "event_send_chen_zhen",
+      "name": "袁紹遣陳震結孫策",
+      "type": "event",
+      "aliases": [],
+      "description": "袁紹採郭圖之言，遣陳震為使往孫策處。",
+      "evidence": [
+        "派陳震為使"
+      ]
+    },
+    {
+      "id": "event_move_runan",
+      "name": "劉備移軍汝南",
+      "type": "event",
+      "aliases": [],
+      "description": "劉備棄古城，應劉闢、龔都之請移軍汝南。",
+      "evidence": [
+        "遂起軍往汝南駐紮"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在章中被稱為丞相。",
+      "evidence": [
+        "丞相敬愛關將軍忠義"
+      ]
+    },
+    {
+      "id": "title_tiangong_jiangjun",
+      "name": "天公將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "張角的稱號。",
+      "evidence": [
+        "天公將軍張角"
+      ]
+    },
+    {
+      "id": "title_huangshu",
+      "name": "皇叔",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備在章中被稱為皇叔。",
+      "evidence": [
+        "皇叔何在"
+      ]
+    },
+    {
+      "id": "title_shijun",
+      "name": "使君",
+      "type": "title",
+      "aliases": [],
+      "description": "趙雲稱劉備為使君。",
+      "evidence": [
+        "擇主而事，未有如使君者"
+      ]
+    },
+    {
+      "id": "obj_chitu_ma",
+      "name": "赤兔馬",
+      "type": "object",
+      "aliases": [
+        "千里馬"
+      ],
+      "description": "關公坐騎，郭常之子與裴元紹皆欲奪之。",
+      "evidence": [
+        "來盜赤兔馬",
+        "騎一匹千里馬"
+      ]
+    },
+    {
+      "id": "obj_gongwen",
+      "name": "公文",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操遣使送來，用以放關公通過關隘。",
+      "evidence": [
+        "馳公文來放行"
+      ]
+    },
+    {
+      "id": "obj_xianyin",
+      "name": "縣印",
+      "type": "object",
+      "aliases": [],
+      "description": "張飛逐古城縣官後奪取的印信。",
+      "evidence": [
+        "奪了縣印"
+      ]
+    },
+    {
+      "id": "obj_zhangba_shemao",
+      "name": "丈八蛇矛",
+      "type": "object",
+      "aliases": [],
+      "description": "張飛使用的兵器。",
+      "evidence": [
+        "挺丈八蛇矛便搠將來"
+      ]
+    },
+    {
+      "id": "strat_jingzhou_escape",
+      "name": "借荊州說辭脫身",
+      "type": "strategy",
+      "aliases": [
+        "說劉表共破曹操"
+      ],
+      "description": "簡雍建議劉備向袁紹稱要往荊州說劉表共攻曹操，藉機離開。",
+      "evidence": [
+        "只說要往荊州，說劉表共破曹操"
+      ]
+    },
+    {
+      "id": "strat_alliance_sun_ce",
+      "name": "結孫策共攻曹操",
+      "type": "strategy",
+      "aliases": [
+        "聯江東攻曹"
+      ],
+      "description": "郭圖勸袁紹結孫策，共同攻曹操。",
+      "evidence": [
+        "可使人結之，共攻曹操"
+      ]
+    },
+    {
+      "id": "strat_hold_old_city",
+      "name": "堅守古城",
+      "type": "strategy",
+      "aliases": [
+        "以古城安身"
+      ],
+      "description": "關公認為古城可作安身之處，令張飛堅守。",
+      "evidence": [
+        "有此一城，便是我等安身之處"
+      ]
+    },
+    {
+      "id": "army_xiahou_300_cavalry",
+      "name": "夏侯惇三百餘騎",
+      "type": "army",
+      "aliases": [],
+      "description": "夏侯惇追趕關公所率騎兵。",
+      "evidence": [
+        "領三百餘騎，從後追來"
+      ]
+    },
+    {
+      "id": "army_zhang_fei_1000",
+      "name": "張飛一千餘人",
+      "type": "army",
+      "aliases": [],
+      "description": "張飛從古城北門引出的軍隊。",
+      "evidence": [
+        "引一千餘人，徑出北門"
+      ]
+    },
+    {
+      "id": "army_guan_20_cavalry",
+      "name": "關公二十餘騎",
+      "type": "army",
+      "aliases": [],
+      "description": "關公與孫乾往河北時所帶騎兵。",
+      "evidence": [
+        "只帶二十餘騎投河北來"
+      ]
+    },
+    {
+      "id": "army_liu_bei_4k",
+      "name": "劉備馬步軍校四五千人",
+      "type": "army",
+      "aliases": [
+        "馬步軍校"
+      ],
+      "description": "古城聚義後劉備所部兵力。",
+      "evidence": [
+        "部領馬步軍校共四五千人"
+      ]
+    },
+    {
+      "id": "army_pei_band",
+      "name": "裴元紹人伴",
+      "type": "army",
+      "aliases": [
+        "山林人伴"
+      ],
+      "description": "裴元紹嘯聚山林的部眾，後多為趙雲招降。",
+      "evidence": [
+        "嘯聚山林",
+        "盡數招降人伴"
+      ]
+    },
+    {
+      "id": "army_cao",
+      "name": "曹軍",
+      "type": "army",
+      "aliases": [],
+      "description": "蔡陽所帶來的曹操軍隊。",
+      "evidence": [
+        "曹軍至"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_guan_gong",
+      "target": "char_er_furen",
+      "type": "護送",
+      "description": "關公與孫乾護送二嫂往汝南。",
+      "evidence": [
+        "保二嫂向汝南進發"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "char_sun_qian",
+      "type": "同行",
+      "description": "關公與孫乾同行尋劉備。",
+      "evidence": [
+        "關公同孫乾"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "char_guan_gong",
+      "type": "追趕",
+      "description": "夏侯惇率騎兵從後追關公。",
+      "evidence": [
+        "從後追來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "army_xiahou_300_cavalry",
+      "type": "統領",
+      "description": "夏侯惇統領三百餘騎。",
+      "evidence": [
+        "夏侯惇領三百餘騎"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_chengxiang",
+      "type": "稱號",
+      "description": "曹操在章中被稱為丞相。",
+      "evidence": [
+        "丞相敬愛關將軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_gongwen",
+      "type": "派發",
+      "description": "曹操遣使送公文放關公通行。",
+      "evidence": [
+        "馳公文來放行"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "obj_gongwen",
+      "target": "char_guan_gong",
+      "type": "放行依據",
+      "description": "公文使各處關隘任關公通行。",
+      "evidence": [
+        "各處關隘，任便放行"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_xiahou_dun",
+      "type": "勸止",
+      "description": "張遼阻止夏侯惇與關公交戰。",
+      "evidence": [
+        "休得爭戰"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "fac_cao",
+      "type": "隸屬",
+      "description": "張遼奉曹操命傳令。",
+      "evidence": [
+        "奉丞相鈞"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cai_yang",
+      "target": "char_qin_qi",
+      "type": "親屬",
+      "description": "秦琪是蔡陽的外甥。",
+      "evidence": [
+        "秦琪是蔡陽之甥"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "char_qin_qi",
+      "type": "殺害",
+      "description": "關公先前殺秦琪，成為蔡陽尋仇原因。",
+      "evidence": [
+        "你殺吾外甥秦琪"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guo_chang",
+      "target": "char_guan_gong",
+      "type": "款待",
+      "description": "郭常接待關公一行投宿。",
+      "evidence": [
+        "宰羊置酒相待"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guo_son",
+      "target": "obj_chitu_ma",
+      "type": "盜取未遂",
+      "description": "郭常之子夜盜赤兔馬，被馬踢倒。",
+      "evidence": [
+        "來盜赤兔馬，被馬踢倒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "obj_chitu_ma",
+      "type": "擁有",
+      "description": "赤兔馬為關公坐騎。",
+      "evidence": [
+        "盜吾馬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pei_yuanshao",
+      "target": "char_guo_son",
+      "type": "合謀劫馬",
+      "description": "郭常之子邀裴元紹來劫赤兔馬。",
+      "evidence": [
+        "特邀某來劫奪此馬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pei_yuanshao",
+      "target": "fac_yellow_turban",
+      "type": "曾隸屬",
+      "description": "裴元紹自稱張角部將。",
+      "evidence": [
+        "張角部將"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "title_tiangong_jiangjun",
+      "type": "稱號",
+      "description": "張角被稱為天公將軍。",
+      "evidence": [
+        "天公將軍張角"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhou_cang",
+      "target": "char_zhang_bao",
+      "type": "曾隸屬",
+      "description": "周倉原在張寶部下為將。",
+      "evidence": [
+        "原在黃巾張寶部下為將"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhou_cang",
+      "target": "char_guan_gong",
+      "type": "投隨",
+      "description": "周倉拜見關公後跟隨。",
+      "evidence": [
+        "週倉跟著關公"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pei_yuanshao",
+      "target": "army_pei_band",
+      "type": "統領",
+      "description": "裴元紹嘯聚山林，領有部眾。",
+      "evidence": [
+        "嘯聚山林"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "loc_gu_cheng",
+      "type": "佔據",
+      "description": "張飛逐去縣官後佔住古城。",
+      "evidence": [
+        "佔住古城"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "obj_xianyin",
+      "type": "奪取",
+      "description": "張飛奪取古城縣印。",
+      "evidence": [
+        "奪了縣印"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "army_zhang_fei_1000",
+      "type": "統領",
+      "description": "張飛引一千餘人出城。",
+      "evidence": [
+        "引一千餘人"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "char_zhang_fei",
+      "type": "通報",
+      "description": "孫乾入城告知劉備去向與關公來意。",
+      "evidence": [
+        "具言：玄德離了袁紹處"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_guan_gong",
+      "type": "懷疑",
+      "description": "張飛疑關公無義降曹，出矛相攻。",
+      "evidence": [
+        "你既無義"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "obj_zhangba_shemao",
+      "type": "使用",
+      "description": "張飛持丈八蛇矛攻向關公。",
+      "evidence": [
+        "挺丈八蛇矛"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "strat_hold_old_city",
+      "type": "執行",
+      "description": "關公令張飛堅守古城。",
+      "evidence": [
+        "賢弟可堅守此城"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "battle_zhan_cai_yang",
+      "type": "參與",
+      "description": "關公在古城外斬蔡陽。",
+      "evidence": [
+        "關公刀起處"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cai_yang",
+      "target": "battle_zhan_cai_yang",
+      "type": "戰死",
+      "description": "蔡陽被關公斬首。",
+      "evidence": [
+        "蔡陽頭已落地"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cai_yang",
+      "type": "派遣",
+      "description": "曹操差蔡陽往汝南攻劉闢。",
+      "evidence": [
+        "差他往汝南攻劉闢"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cai_yang",
+      "target": "char_guan_gong",
+      "type": "敵對",
+      "description": "蔡陽因秦琪之死尋關公交戰。",
+      "evidence": [
+        "殺吾外甥秦琪"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_mi_zhu",
+      "target": "char_zhang_fei",
+      "type": "會合",
+      "description": "糜竺到古城與張飛相見。",
+      "evidence": [
+        "飛亦下馬相見"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_mi_fang",
+      "target": "char_zhang_fei",
+      "type": "會合",
+      "description": "糜芳與糜竺同到古城。",
+      "evidence": [
+        "乃糜竺、糜芳也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_er_furen",
+      "target": "char_zhang_fei",
+      "type": "釋疑",
+      "description": "二夫人訴說關公歷程，使張飛信服。",
+      "evidence": [
+        "二夫人訴說關公歷過之事"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_pi",
+      "target": "loc_runan",
+      "type": "駐在",
+      "description": "劉闢在汝南接應關公。",
+      "evidence": [
+        "劉闢、龔都接著"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_gong_du",
+      "target": "loc_runan",
+      "type": "駐在",
+      "description": "龔都在汝南與劉闢同接關公。",
+      "evidence": [
+        "劉闢、龔都接著"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_yuan_shao",
+      "type": "暫投",
+      "description": "劉備離汝南後往河北袁紹處商議。",
+      "evidence": [
+        "復往河北袁本初處"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "army_guan_20_cavalry",
+      "type": "統領",
+      "description": "關公與孫乾帶二十餘騎往河北。",
+      "evidence": [
+        "只帶二十餘騎投河北來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "char_liu_bei",
+      "type": "報信",
+      "description": "孫乾入冀州向劉備具言前事。",
+      "evidence": [
+        "具言前事"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_jian_yong",
+      "target": "strat_jingzhou_escape",
+      "type": "獻策",
+      "description": "簡雍提出劉備脫袁紹之計。",
+      "evidence": [
+        "此計大妙"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strat_jingzhou_escape",
+      "type": "採用",
+      "description": "劉備依計向袁紹請往荊州。",
+      "evidence": [
+        "翌日，玄德入見袁紹"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strat_jingzhou_escape",
+      "target": "char_liu_biao",
+      "type": "借名",
+      "description": "計策以說劉表共攻曹操為名。",
+      "evidence": [
+        "說劉表共破曹操"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_jian_yong",
+      "type": "命令同行",
+      "description": "袁紹命簡雍與劉備同行。",
+      "evidence": [
+        "命簡雍與玄德同行"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guo_tu",
+      "target": "char_yuan_shao",
+      "type": "進諫",
+      "description": "郭圖提醒袁紹劉備此去恐不返。",
+      "evidence": [
+        "必不返矣"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_ding",
+      "target": "char_guan_gong",
+      "type": "款留",
+      "description": "關定留關公及從人於莊內。",
+      "evidence": [
+        "款留關公"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_ding",
+      "target": "char_guan_ning",
+      "type": "父子",
+      "description": "關寧為關定長子。",
+      "evidence": [
+        "長子關寧"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_ding",
+      "target": "char_guan_ping",
+      "type": "父子",
+      "description": "關平為關定次子。",
+      "evidence": [
+        "次子關平"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_ping",
+      "target": "char_guan_gong",
+      "type": "跟隨",
+      "description": "關平隨關公一同起身。",
+      "evidence": [
+        "關平隨著關公"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_huangshu",
+      "type": "稱號",
+      "description": "劉備被劉闢稱為皇叔。",
+      "evidence": [
+        "皇叔何在"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_shijun",
+      "type": "稱號",
+      "description": "趙雲以使君稱劉備。",
+      "evidence": [
+        "未有如使君者"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_pei_yuanshao",
+      "type": "殺害",
+      "description": "趙雲一合刺死裴元紹。",
+      "evidence": [
+        "刺死裴元紹"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "army_pei_band",
+      "type": "招降",
+      "description": "趙雲招降裴元紹部眾。",
+      "evidence": [
+        "盡數招降人伴"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "loc_woniu_shan",
+      "type": "佔據",
+      "description": "趙雲佔住臥牛山山寨。",
+      "evidence": [
+        "佔住山寨"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_cang",
+      "target": "battle_zhao_yun_pei_yuanshao",
+      "type": "受傷牽連",
+      "description": "周倉到臥牛山招人時受傷，只帶數十人來。",
+      "evidence": [
+        "引數十人帶傷而來"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhao_yun",
+      "type": "相認",
+      "description": "劉備在臥牛山下認出趙雲。",
+      "evidence": [
+        "來者莫非子龍否"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_liu_bei",
+      "type": "投隨",
+      "description": "趙雲稱願隨劉備，擇主而事。",
+      "evidence": [
+        "今得相隨"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_yuan_shao",
+      "type": "拒絕招納",
+      "description": "袁紹屢招趙雲，趙雲未往。",
+      "evidence": [
+        "袁紹屢次招雲",
+        "因此未往"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_gongsun_zan",
+      "target": "char_zhao_yun",
+      "type": "舊事關聯",
+      "description": "趙雲敘述離別劉備後公孫瓚敗亡之事。",
+      "evidence": [
+        "不想公孫瓚不聽人言"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "char_yan_liang",
+      "type": "殺害",
+      "description": "關公斬顏良一事在本章被提及。",
+      "evidence": [
+        "斬他顏良"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "char_wen_chou",
+      "type": "殺害",
+      "description": "關公斬文醜一事在本章被提及。",
+      "evidence": [
+        "顏良、文醜之恨"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_guan_gong",
+      "type": "欲殺",
+      "description": "袁紹一度稱要殺關公以雪顏良、文醜之恨。",
+      "evidence": [
+        "吾當殺之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_liu_bei_4k",
+      "type": "統領",
+      "description": "古城聚義後劉備部領馬步軍校四五千人。",
+      "evidence": [
+        "部領馬步軍校共四五千人"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "event_move_runan",
+      "type": "發起",
+      "description": "劉備起軍往汝南駐紮。",
+      "evidence": [
+        "遂起軍往汝南駐紮"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_pi",
+      "target": "char_liu_bei",
+      "type": "邀請",
+      "description": "劉闢遣人請劉備至汝南。",
+      "evidence": [
+        "劉闢、龔都差人來請"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_gong_du",
+      "target": "char_liu_bei",
+      "type": "邀請",
+      "description": "龔都與劉闢同請劉備。",
+      "evidence": [
+        "劉闢、龔都差人來請"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_liu_bei",
+      "type": "欲伐",
+      "description": "袁紹見劉備不回，怒欲起兵伐之。",
+      "evidence": [
+        "欲起兵伐之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guo_tu",
+      "target": "strat_alliance_sun_ce",
+      "type": "獻策",
+      "description": "郭圖建議袁紹結孫策共攻曹操。",
+      "evidence": [
+        "可使人結之，共攻曹操"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strat_alliance_sun_ce",
+      "target": "char_sun_ce",
+      "type": "結盟目標",
+      "description": "聯孫策是郭圖攻曹策略的核心。",
+      "evidence": [
+        "江東孫伯符"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_chen_zhen",
+      "type": "派遣為使",
+      "description": "袁紹派陳震為使者往孫策處。",
+      "evidence": [
+        "派陳震為使"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_chen_zhen",
+      "target": "char_sun_ce",
+      "type": "出使",
+      "description": "陳震奉命出使孫策。",
+      "evidence": [
+        "為使，來孫策"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sun_ce",
+      "target": "loc_jiangdong",
+      "type": "威鎮",
+      "description": "孫策威鎮江東三江六郡。",
+      "evidence": [
+        "威鎮三江，地連六郡"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "fac_cao",
+      "type": "統領",
+      "description": "曹操為曹軍與相關將領之主。",
+      "evidence": [
+        "丞相"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "fac_yuan",
+      "type": "統領",
+      "description": "袁紹統率河北勢力。",
+      "evidence": [
+        "河北袁本初處"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "fac_liu_bei",
+      "type": "統領",
+      "description": "劉備重聚後統領關、張、趙等部眾。",
+      "evidence": [
+        "玄德、關、張、趙雲"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sun_ce",
+      "target": "fac_sun_ce",
+      "type": "統領",
+      "description": "孫策為江東勢力之主。",
+      "evidence": [
+        "江東孫伯符"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "fac_liu_biao",
+      "type": "統領",
+      "description": "劉表鎮守荊襄九郡。",
+      "evidence": [
+        "劉景升鎮守荊襄九郡"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "fac_liu_bei",
+      "type": "隸屬",
+      "description": "關公在古城聚義中歸劉備勢力。",
+      "evidence": [
+        "兄弟重聚"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "fac_liu_bei",
+      "type": "隸屬",
+      "description": "張飛與劉備、關公共聚古城。",
+      "evidence": [
+        "兄弟重聚"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "fac_liu_bei",
+      "type": "新附",
+      "description": "劉備新得趙雲。",
+      "evidence": [
+        "又新得了趙雲"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhou_cang",
+      "target": "char_guan_gong",
+      "type": "部屬",
+      "description": "關公新得周倉相隨。",
+      "evidence": [
+        "關公又得了關平、週倉二人"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_ping",
+      "target": "char_guan_gong",
+      "type": "部屬",
+      "description": "關平成為關公身邊新得之人。",
+      "evidence": [
+        "關公又得了關平"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "fac_yuan",
+      "target": "fac_cao",
+      "type": "敵對",
+      "description": "袁紹採議欲結孫策共攻曹操。",
+      "evidence": [
+        "共攻曹操"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xiahou_pursuit",
+      "name": "夏侯惇追關公",
+      "summary": "夏侯惇領三百餘騎追關公，曹操使者與張遼持公文勸止，最終放行。",
+      "participants": [
+        "char_guan_gong",
+        "char_sun_qian",
+        "char_xiahou_dun",
+        "char_cao_cao",
+        "char_zhang_liao"
+      ],
+      "locations": [],
+      "evidence": [
+        "夏侯惇領三百餘騎，從後追來",
+        "任便放行"
+      ]
+    },
+    {
+      "id": "event_guo_zhuang_horse_theft",
+      "name": "郭常莊盜馬",
+      "summary": "關公一行投宿郭常莊院，郭常之子夜盜赤兔馬，被關公饒過。",
+      "participants": [
+        "char_guan_gong",
+        "char_sun_qian",
+        "char_guo_chang",
+        "char_guo_son"
+      ],
+      "locations": [
+        "loc_guo_zhuang"
+      ],
+      "evidence": [
+        "來盜赤兔馬",
+        "饒你性命"
+      ]
+    },
+    {
+      "id": "event_pei_robs_chitu",
+      "name": "裴元紹劫赤兔馬",
+      "summary": "郭常之子引裴元紹欲劫赤兔馬，裴元紹識關公後拜服。",
+      "participants": [
+        "char_guan_gong",
+        "char_guo_son",
+        "char_pei_yuanshao"
+      ],
+      "locations": [
+        "loc_guo_zhuang"
+      ],
+      "evidence": [
+        "特邀某來劫奪此馬",
+        "遇上將軍"
+      ]
+    },
+    {
+      "id": "event_zhou_cang_joins",
+      "name": "週倉投關公",
+      "summary": "周倉聞關公至，率眾拜見並願隨行，關公收其相從。",
+      "participants": [
+        "char_guan_gong",
+        "char_zhou_cang",
+        "char_pei_yuanshao",
+        "char_gan_furen"
+      ],
+      "locations": [
+        "loc_woniu_shan"
+      ],
+      "evidence": [
+        "週倉參拜",
+        "週倉跟著關公"
+      ]
+    },
+    {
+      "id": "event_zhang_fei_occupies_old_city",
+      "name": "張飛據古城",
+      "summary": "張飛過古城借糧不遂，逐縣官、奪縣印，招軍買馬暫據古城。",
+      "participants": [
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_gu_cheng",
+        "loc_mangdang_shan"
+      ],
+      "evidence": [
+        "逐去縣官，奪了縣印",
+        "招軍買馬"
+      ]
+    },
+    {
+      "id": "battle_zhan_cai_yang",
+      "name": "關公斬蔡陽釋疑",
+      "summary": "張飛疑關公降曹，令其三通鼓內斬曹將；關公一通鼓未盡斬蔡陽，張飛遂信。",
+      "participants": [
+        "char_guan_gong",
+        "char_zhang_fei",
+        "char_cai_yang",
+        "char_qin_qi"
+      ],
+      "locations": [
+        "loc_gu_cheng"
+      ],
+      "evidence": [
+        "三通鼓罷",
+        "蔡陽頭已落地"
+      ]
+    },
+    {
+      "id": "event_mi_brothers_arrive",
+      "name": "糜竺糜芳到古城",
+      "summary": "糜竺、糜芳至古城與張飛相見，二夫人入城說明關公經歷。",
+      "participants": [
+        "char_zhang_fei",
+        "char_mi_zhu",
+        "char_mi_fang",
+        "char_er_furen",
+        "char_guan_gong"
+      ],
+      "locations": [
+        "loc_gu_cheng"
+      ],
+      "evidence": [
+        "乃糜竺、糜芳也",
+        "二夫人訴說關公歷過之事"
+      ]
+    },
+    {
+      "id": "event_runan_search",
+      "name": "關公探汝南尋劉備",
+      "summary": "關公與孫乾到汝南，得知劉備因兵少又往河北袁紹處。",
+      "participants": [
+        "char_guan_gong",
+        "char_sun_qian",
+        "char_liu_pi",
+        "char_gong_du",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_runan"
+      ],
+      "evidence": [
+        "皇叔到此住了數日",
+        "復往河北"
+      ]
+    },
+    {
+      "id": "event_liu_escape_yuan",
+      "name": "劉備脫袁紹",
+      "summary": "孫乾報信後，劉備與簡雍定計，以往荊州說劉表共攻曹操為名離開袁紹。",
+      "participants": [
+        "char_liu_bei",
+        "char_sun_qian",
+        "char_jian_yong",
+        "char_yuan_shao",
+        "char_liu_biao",
+        "char_guo_tu"
+      ],
+      "locations": [
+        "loc_jizhou",
+        "loc_hebei"
+      ],
+      "evidence": [
+        "共議脫身之計",
+        "命簡雍與玄德同行"
+      ]
+    },
+    {
+      "id": "event_guan_ding_manor",
+      "name": "關定莊相會得關平",
+      "summary": "關公在關定莊停留，劉備來會；關定遣次子關平隨關公。",
+      "participants": [
+        "char_guan_gong",
+        "char_liu_bei",
+        "char_guan_ding",
+        "char_guan_ning",
+        "char_guan_ping",
+        "char_sun_qian"
+      ],
+      "locations": [
+        "loc_guan_ding_zhuang",
+        "loc_jieshou"
+      ],
+      "evidence": [
+        "同往關定莊上",
+        "關平隨著關公"
+      ]
+    },
+    {
+      "id": "battle_zhao_yun_pei_yuanshao",
+      "name": "臥牛山遇趙雲",
+      "summary": "趙雲在臥牛山刺死裴元紹、收其眾；劉備認出趙雲，趙雲投隨。",
+      "participants": [
+        "char_zhao_yun",
+        "char_pei_yuanshao",
+        "char_zhou_cang",
+        "char_liu_bei",
+        "char_guan_gong"
+      ],
+      "locations": [
+        "loc_woniu_shan"
+      ],
+      "evidence": [
+        "刺死裴元紹",
+        "來者莫非子龍否"
+      ]
+    },
+    {
+      "id": "event_old_city_reunion",
+      "name": "古城主臣聚義",
+      "summary": "劉備、關公、張飛、趙雲及孫乾、簡雍、糜氏兄弟、關平、周倉等在古城重聚。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_gong",
+        "char_zhang_fei",
+        "char_zhao_yun",
+        "char_sun_qian",
+        "char_jian_yong",
+        "char_mi_zhu",
+        "char_mi_fang",
+        "char_guan_ping",
+        "char_zhou_cang"
+      ],
+      "locations": [
+        "loc_gu_cheng"
+      ],
+      "evidence": [
+        "君臣重聚義",
+        "將佐無缺"
+      ]
+    },
+    {
+      "id": "event_move_runan",
+      "name": "劉備移軍汝南",
+      "summary": "劉備得劉闢、龔都邀請，棄古城往汝南駐紮，招軍買馬。",
+      "participants": [
+        "char_liu_bei",
+        "char_liu_pi",
+        "char_gong_du",
+        "army_liu_bei_4k"
+      ],
+      "locations": [
+        "loc_gu_cheng",
+        "loc_runan"
+      ],
+      "evidence": [
+        "棄了古城去守汝南",
+        "往汝南駐紮"
+      ]
+    },
+    {
+      "id": "event_send_chen_zhen",
+      "name": "袁紹遣陳震結孫策",
+      "summary": "袁紹見劉備不返而怒，郭圖勸其先結孫策共攻曹操，袁紹派陳震為使。",
+      "participants": [
+        "char_yuan_shao",
+        "char_guo_tu",
+        "char_chen_zhen",
+        "char_sun_ce",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_hebei",
+        "loc_jiangdong"
+      ],
+      "evidence": [
+        "可使人結之，共攻曹操",
+        "派陳震為使"
+      ]
+    }
+  ],
+  "notes": [
+    "原文局部有重複、錯字；僅依可辨識正文片段抽取。"
+  ]
+}

@@ -1,0 +1,2752 @@
+{
+  "book": "三國演義",
+  "chapter_no": 14,
+  "chapter_title": "曹孟德移駕幸許都　呂奉先乘夜襲徐郡",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_xiandi",
+      "name": "獻帝",
+      "type": "character",
+      "aliases": [
+        "天子",
+        "帝",
+        "陛下"
+      ],
+      "description": "漢室皇帝，本章由洛陽遷幸許都，朝政逐漸受曹操控制。",
+      "evidence": [
+        "帝入洛陽",
+        "駕幸許都"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹孟德",
+        "曹將軍",
+        "明公",
+        "操"
+      ],
+      "description": "奉詔入朝保駕，擊敗李傕郭汜，移駕許都，掌握朝政，並設計劉備與呂布。",
+      "evidence": [
+        "曹操在山東",
+        "大權皆歸於曹操"
+      ]
+    },
+    {
+      "id": "char_xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [
+        "彧"
+      ],
+      "description": "曹操謀士，建議奉天子，並提出二虎競食、驅虎吞狼等計。",
+      "evidence": [
+        "荀彧進曰",
+        "彧有一計"
+      ]
+    },
+    {
+      "id": "char_dong_zhao",
+      "name": "董昭",
+      "type": "character",
+      "aliases": [
+        "公仁"
+      ],
+      "description": "正議郎，向曹操建議移駕許都並安撫大臣與楊奉。",
+      "evidence": [
+        "姓董，名昭",
+        "移駕幸許都為上策"
+      ]
+    },
+    {
+      "id": "char_yang_feng",
+      "name": "楊奉",
+      "type": "character",
+      "aliases": [],
+      "description": "原護駕將領，後與韓暹攔阻遷都，敗後投奔袁術。",
+      "evidence": [
+        "楊奉、韓暹領兵攔路",
+        "投袁術去了"
+      ]
+    },
+    {
+      "id": "char_han_xian",
+      "name": "韓暹",
+      "type": "character",
+      "aliases": [
+        "白波帥韓暹"
+      ],
+      "description": "白波帥，與楊奉同阻曹操遷駕，敗後投奔袁術。",
+      "evidence": [
+        "白波帥韓暹",
+        "韓暹引兵來救"
+      ]
+    },
+    {
+      "id": "char_xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "先隨楊奉，斬李樂護駕；後經滿寵勸說投曹操。",
+      "evidence": [
+        "徐晃一斧砍於馬下",
+        "引帳下數十騎...來投曹操"
+      ]
+    },
+    {
+      "id": "char_man_chong",
+      "name": "滿寵",
+      "type": "character",
+      "aliases": [
+        "滿伯寧"
+      ],
+      "description": "曹操行軍從事，夜入徐晃營中說降徐晃，後任許都令。",
+      "evidence": [
+        "行軍從事滿寵",
+        "偷入其營"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操先鋒，率精兵保駕並迎擊李傕郭汜。",
+      "evidence": [
+        "差夏侯惇為先鋒",
+        "分兩路迎之"
+      ]
+    },
+    {
+      "id": "char_xu_chu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，與徐晃交鋒，並斬李暹、李別。",
+      "evidence": [
+        "許褚出馬與徐晃交鋒",
+        "一刀先斬李暹"
+      ]
+    },
+    {
+      "id": "char_dian_wei",
+      "name": "典韋",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，參與保駕與衝擊李傕軍。",
+      "evidence": [
+        "夏侯惇引許褚、典韋等",
+        "典韋領三百鐵騎"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操族將，奉命倍道來協助夏侯惇保駕。",
+      "evidence": [
+        "曹洪、李典、樂進來見駕",
+        "倍道而來協助"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，參與三百鐵騎衝陣與右翼攻擊。",
+      "evidence": [
+        "曹仁、典韋領三百鐵騎",
+        "曹仁領兵右出"
+      ]
+    },
+    {
+      "id": "char_li_jue",
+      "name": "李傕",
+      "type": "character",
+      "aliases": [
+        "傕"
+      ],
+      "description": "西涼軍閥，追犯洛陽，與郭汜被曹操擊敗。",
+      "evidence": [
+        "李傕、郭汜領兵將到",
+        "傕、汜賊兵大敗"
+      ]
+    },
+    {
+      "id": "char_guo_si",
+      "name": "郭汜",
+      "type": "character",
+      "aliases": [
+        "汜"
+      ],
+      "description": "西涼軍閥，與李傕合兵犯駕，後敗走。",
+      "evidence": [
+        "李傕、郭汜犯洛陽",
+        "汜望西逃命"
+      ]
+    },
+    {
+      "id": "char_jia_xu",
+      "name": "賈詡",
+      "type": "character",
+      "aliases": [],
+      "description": "李傕部下謀士，勸李傕降曹操不成，夜走回鄉。",
+      "evidence": [
+        "賈詡諫",
+        "單馬走回鄉裡"
+      ]
+    },
+    {
+      "id": "char_li_le",
+      "name": "李樂",
+      "type": "character",
+      "aliases": [],
+      "description": "引軍詐近車駕，被徐晃斬殺。",
+      "evidence": [
+        "此李樂也",
+        "被徐晃一斧砍於馬下"
+      ]
+    },
+    {
+      "id": "char_zhang_yang",
+      "name": "張楊",
+      "type": "character",
+      "aliases": [],
+      "description": "太守，迎接天子並供給粟帛，受封大司馬。",
+      "evidence": [
+        "太守張楊具粟帛迎駕",
+        "帝封楊為大司馬"
+      ]
+    },
+    {
+      "id": "char_dong_cheng",
+      "name": "董承",
+      "type": "character",
+      "aliases": [],
+      "description": "朝臣，建議獻帝往山東避李傕郭汜；後受封列侯。",
+      "evidence": [
+        "董承曰",
+        "封董承等十三人為列侯"
+      ]
+    },
+    {
+      "id": "char_wang_li",
+      "name": "王立",
+      "type": "character",
+      "aliases": [
+        "侍中太史令王立"
+      ],
+      "description": "太史令，私議天象並奏稱代漢者當在魏。",
+      "evidence": [
+        "王立私謂宗正劉艾",
+        "當在魏"
+      ]
+    },
+    {
+      "id": "char_liu_ai",
+      "name": "劉艾",
+      "type": "character",
+      "aliases": [
+        "宗正劉艾"
+      ],
+      "description": "宗正，聽王立私論天象。",
+      "evidence": [
+        "私謂宗正劉艾"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "劉玄德",
+        "玄德",
+        "劉使君"
+      ],
+      "description": "屯兵徐州，拒絕曹操密令殺呂布，後奉詔討袁術而失徐州。",
+      "evidence": [
+        "劉備屯兵徐州",
+        "劉備誓不為此不義之事"
+      ]
+    },
+    {
+      "id": "char_lu_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "呂奉先",
+        "布"
+      ],
+      "description": "兵敗投劉備居小沛，後趁張飛醉酒夜襲徐州。",
+      "evidence": [
+        "呂布以兵敗投之",
+        "夜襲徐州"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德"
+      ],
+      "description": "劉備義弟，留守徐州時醉鞭曹豹，導致呂布乘隙襲城。",
+      "evidence": [
+        "翼德何故只要殺我",
+        "張飛正醉臥府中"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "關公"
+      ],
+      "description": "劉備義弟，在盱眙與紀靈交戰並斬荀正。",
+      "evidence": [
+        "關公大喝",
+        "砍荀正於馬下"
+      ]
+    },
+    {
+      "id": "char_yuan_shu",
+      "name": "袁術",
+      "type": "character",
+      "aliases": [],
+      "description": "南方諸侯，遭劉備奉詔討伐，收納敗走的楊奉、韓暹。",
+      "evidence": [
+        "投袁術去了",
+        "起兵討袁術"
+      ]
+    },
+    {
+      "id": "char_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備部下，指出討袁術詔命是曹操之計。",
+      "evidence": [
+        "糜竺曰：此又是曹操之計"
+      ]
+    },
+    {
+      "id": "char_chen_deng",
+      "name": "陳登",
+      "type": "character",
+      "aliases": [
+        "陳元龍"
+      ],
+      "description": "輔助張飛守徐州，曾勸止張飛鞭曹豹。",
+      "evidence": [
+        "還請陳元龍輔之",
+        "陳元龍曰"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備部下，建議出兵前先定守城之人。",
+      "evidence": [
+        "孫乾曰：可先定守城之人"
+      ]
+    },
+    {
+      "id": "char_ji_ling",
+      "name": "紀靈",
+      "type": "character",
+      "aliases": [],
+      "description": "袁術部將，持三尖刀，在盱眙與關羽交戰。",
+      "evidence": [
+        "那紀靈乃山東人",
+        "出馬與紀靈大戰"
+      ]
+    },
+    {
+      "id": "char_xun_zheng",
+      "name": "荀正",
+      "type": "character",
+      "aliases": [],
+      "description": "紀靈副將，被關羽一合斬於馬下。",
+      "evidence": [
+        "紀靈卻遣副將荀正",
+        "砍荀正於馬下"
+      ]
+    },
+    {
+      "id": "char_cao_bao",
+      "name": "曹豹",
+      "type": "character",
+      "aliases": [],
+      "description": "徐州官員，遭張飛鞭打後通書呂布，後被張飛刺死。",
+      "evidence": [
+        "將曹豹鞭至五十",
+        "一槍正刺中曹豹後心"
+      ]
+    },
+    {
+      "id": "char_chen_gong",
+      "name": "陳宮",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布謀士，勸呂布趁隙取徐州。",
+      "evidence": [
+        "便請陳宮來議",
+        "失此不取"
+      ]
+    },
+    {
+      "id": "char_gao_shun",
+      "name": "高順",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，隨呂布襲取徐州。",
+      "evidence": [
+        "高順亦隨後進發"
+      ]
+    },
+    {
+      "id": "char_li_xian",
+      "name": "李暹",
+      "type": "character",
+      "aliases": [],
+      "description": "李傕之侄，出陣時被許褚斬殺。",
+      "evidence": [
+        "李傕侄李暹",
+        "一刀先斬李暹"
+      ]
+    },
+    {
+      "id": "char_li_bie",
+      "name": "李別",
+      "type": "character",
+      "aliases": [],
+      "description": "李傕之侄，出陣時被許褚斬殺。",
+      "evidence": [
+        "李別吃了一驚",
+        "褚亦斬之"
+      ]
+    },
+    {
+      "id": "char_xun_you",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任軍師。",
+      "evidence": [
+        "荀攸為軍師"
+      ]
+    },
+    {
+      "id": "char_guo_jia",
+      "name": "郭嘉",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任司馬祭酒。",
+      "evidence": [
+        "郭嘉為司馬祭酒"
+      ]
+    },
+    {
+      "id": "char_liu_ye",
+      "name": "劉曄",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任司空倉曹掾。",
+      "evidence": [
+        "劉曄為司空倉曹掾"
+      ]
+    },
+    {
+      "id": "char_mao_jie",
+      "name": "毛玠",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任典農中郎將。",
+      "evidence": [
+        "毛玠、任峻為典農中郎將"
+      ]
+    },
+    {
+      "id": "char_ren_jun",
+      "name": "任峻",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任典農中郎將。",
+      "evidence": [
+        "毛玠、任峻為典農中郎將"
+      ]
+    },
+    {
+      "id": "char_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任東平相。",
+      "evidence": [
+        "程昱為東平相"
+      ]
+    },
+    {
+      "id": "char_fan_cheng",
+      "name": "范成",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任洛陽令。",
+      "evidence": [
+        "范成、董昭為洛陽令"
+      ]
+    },
+    {
+      "id": "char_xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後受任將軍。",
+      "evidence": [
+        "夏侯淵...皆為將軍"
+      ]
+    },
+    {
+      "id": "char_lu_qian",
+      "name": "呂虔",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任校尉。",
+      "evidence": [
+        "呂虔...皆為校尉"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，參與保駕援軍，後任校尉。",
+      "evidence": [
+        "李典、樂進來見駕",
+        "李典...皆為校尉"
+      ]
+    },
+    {
+      "id": "char_yue_jin",
+      "name": "樂進",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，參與保駕援軍，後任校尉。",
+      "evidence": [
+        "樂進來見駕",
+        "樂進...皆為校尉"
+      ]
+    },
+    {
+      "id": "char_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操定許都後任校尉。",
+      "evidence": [
+        "於禁、徐晃皆為校尉"
+      ]
+    },
+    {
+      "id": "fac_han_court",
+      "name": "漢朝廷",
+      "type": "faction",
+      "aliases": [
+        "朝廷",
+        "王室",
+        "社稷"
+      ],
+      "description": "以獻帝為名義中心的漢室政權，本章遷至許都。",
+      "evidence": [
+        "以輔王室",
+        "朝廷大務"
+      ]
+    },
+    {
+      "id": "fac_cao_army",
+      "name": "曹操軍",
+      "type": "faction",
+      "aliases": [
+        "曹兵",
+        "曹步軍"
+      ],
+      "description": "曹操統率的軍事力量，保駕、敗李郭、招徐晃、掌許都。",
+      "evidence": [
+        "曹步軍也",
+        "曹兵圍住"
+      ]
+    },
+    {
+      "id": "fac_li_guo_army",
+      "name": "李傕郭汜軍",
+      "type": "faction",
+      "aliases": [
+        "傕、汜賊兵"
+      ],
+      "description": "李傕、郭汜統率的軍隊，犯洛陽並與曹操交戰。",
+      "evidence": [
+        "李傕、郭汜領兵",
+        "傕、汜賊兵大敗"
+      ]
+    },
+    {
+      "id": "fac_yang_han_army",
+      "name": "楊奉韓暹軍",
+      "type": "faction",
+      "aliases": [
+        "楊、韓軍"
+      ],
+      "description": "楊奉與韓暹統率的軍隊，攔阻曹操遷駕。",
+      "evidence": [
+        "楊、韓暹領兵攔路"
+      ]
+    },
+    {
+      "id": "fac_liu_army",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "徐州兵"
+      ],
+      "description": "劉備統率的徐州軍，奉詔討袁術。",
+      "evidence": [
+        "玄德分付",
+        "徐州兵殺敗"
+      ]
+    },
+    {
+      "id": "fac_lu_army",
+      "name": "呂布軍",
+      "type": "faction",
+      "aliases": [
+        "布軍"
+      ],
+      "description": "呂布統率的軍隊，自小沛夜襲徐州。",
+      "evidence": [
+        "呂布軍馬已到"
+      ]
+    },
+    {
+      "id": "fac_yuan_army",
+      "name": "袁術軍",
+      "type": "faction",
+      "aliases": [],
+      "description": "袁術一方軍隊，由紀靈出戰劉備。",
+      "evidence": [
+        "袁術聞說",
+        "紀靈大敗"
+      ]
+    },
+    {
+      "id": "loc_luoyang",
+      "name": "洛陽",
+      "type": "location",
+      "aliases": [
+        "東都"
+      ],
+      "description": "獻帝還都之處，宮室荒廢，後因糧運艱辛而遷往許都。",
+      "evidence": [
+        "帝入洛陽",
+        "東都荒廢"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [
+        "許"
+      ],
+      "description": "曹操建議並實行遷駕的新都。",
+      "evidence": [
+        "移駕幸許都",
+        "迎鑾駕到許都"
+      ]
+    },
+    {
+      "id": "loc_shandong",
+      "name": "山東",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操駐兵處，也是董承建議獻帝避難方向。",
+      "evidence": [
+        "曹操在山東",
+        "往山東避之"
+      ]
+    },
+    {
+      "id": "loc_daliang",
+      "name": "大樑",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操屯兵處，楊奉亦欲投往此地。",
+      "evidence": [
+        "屯於大樑",
+        "欲投大樑去"
+      ]
+    },
+    {
+      "id": "loc_xiaopei",
+      "name": "小沛",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備安置呂布之地，呂布由此發兵襲徐州。",
+      "evidence": [
+        "備使居於小沛",
+        "小沛離徐州"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [
+        "徐郡"
+      ],
+      "description": "劉備所領州郡，張飛留守，後被呂布夜襲奪取。",
+      "evidence": [
+        "劉備屯兵徐州",
+        "夜襲徐州"
+      ]
+    },
+    {
+      "id": "loc_gaoling",
+      "name": "高陵",
+      "type": "location",
+      "aliases": [],
+      "description": "楊奉、韓暹攔阻遷駕之處，徐晃在此被曹操招降。",
+      "evidence": [
+        "前至一高陵",
+        "領兵攔路"
+      ]
+    },
+    {
+      "id": "loc_xuyi",
+      "name": "盱眙",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備與袁術軍會戰之地，張飛失徐州後來此見劉備。",
+      "evidence": [
+        "兩軍會於盱眙",
+        "直到盱眙來見玄德"
+      ]
+    },
+    {
+      "id": "loc_huaiyin_hekou",
+      "name": "淮陰河口",
+      "type": "location",
+      "aliases": [],
+      "description": "紀靈敗後退守之處。",
+      "evidence": [
+        "退守淮陰河口"
+      ]
+    },
+    {
+      "id": "loc_huainan",
+      "name": "淮南",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛失徐州後率出城軍士投往之地。",
+      "evidence": [
+        "隨飛投淮南而去"
+      ]
+    },
+    {
+      "id": "loc_nanyang",
+      "name": "南陽",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備奉詔討袁術時進軍方向。",
+      "evidence": [
+        "望南陽進發"
+      ]
+    },
+    {
+      "id": "loc_jiguan",
+      "name": "箕關",
+      "type": "location",
+      "aliases": [],
+      "description": "徐晃斬李樂後護駕經過之關。",
+      "evidence": [
+        "保護車駕過箕關"
+      ]
+    },
+    {
+      "id": "loc_xuandao",
+      "name": "軒道",
+      "type": "location",
+      "aliases": [],
+      "description": "張楊迎駕供給粟帛之處。",
+      "evidence": [
+        "迎駕於軒道"
+      ]
+    },
+    {
+      "id": "loc_yewang",
+      "name": "野王",
+      "type": "location",
+      "aliases": [],
+      "description": "張楊辭帝後屯兵之地。",
+      "evidence": [
+        "屯兵野王去了"
+      ]
+    },
+    {
+      "id": "loc_luyang",
+      "name": "魯陽",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操用來說明許都糧運便利的鄰近地點。",
+      "evidence": [
+        "許都地近魯陽"
+      ]
+    },
+    {
+      "id": "battle_luoyang_rescue",
+      "name": "洛陽保駕之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "夏侯惇、曹洪等迎擊李傕郭汜，護送獻帝。",
+      "evidence": [
+        "分兩路迎之",
+        "斬首萬餘"
+      ]
+    },
+    {
+      "id": "battle_li_guo_campaign",
+      "name": "曹操擊李傕郭汜之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹操親率中軍，三路衝陣，大敗李傕郭汜。",
+      "evidence": [
+        "三軍齊進",
+        "大敗而走"
+      ]
+    },
+    {
+      "id": "battle_gaoling",
+      "name": "高陵攔駕之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "楊奉、韓暹攔駕，徐晃投曹後曹操伏擊其軍。",
+      "evidence": [
+        "高陵",
+        "伏軍四出"
+      ]
+    },
+    {
+      "id": "battle_xuyi",
+      "name": "盱眙之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "劉備奉詔討袁術，與紀靈軍戰於盱眙。",
+      "evidence": [
+        "兩軍會於盱眙",
+        "紀靈大敗"
+      ]
+    },
+    {
+      "id": "battle_xuzhou_night_attack",
+      "name": "呂布夜襲徐州",
+      "type": "battle",
+      "aliases": [
+        "乘夜襲徐郡"
+      ],
+      "description": "呂布受曹豹內應，四更賺開城門奪取徐州。",
+      "evidence": [
+        "今夜可乘飛醉",
+        "賺開城門"
+      ]
+    },
+    {
+      "id": "event_move_xudu",
+      "name": "移駕幸許都",
+      "type": "event",
+      "aliases": [
+        "遷都許都"
+      ],
+      "description": "曹操採董昭建議，奏請獻帝由洛陽遷至許都。",
+      "evidence": [
+        "臣敢請駕幸許都"
+      ]
+    },
+    {
+      "id": "event_xu_huang_defects",
+      "name": "徐晃投曹",
+      "type": "event",
+      "aliases": [],
+      "description": "滿寵夜說徐晃，徐晃率帳下數十騎投曹操。",
+      "evidence": [
+        "願從公言",
+        "來投曹操"
+      ]
+    },
+    {
+      "id": "event_cao_controls_court",
+      "name": "曹操總攬朝政",
+      "type": "event",
+      "aliases": [],
+      "description": "許都定後，賞功罰罪與朝廷大務皆先歸曹操處置。",
+      "evidence": [
+        "賞功罰罪，並聽曹操處置",
+        "大權皆歸於曹操"
+      ]
+    },
+    {
+      "id": "strat_feng_tianzi",
+      "name": "奉天子以從眾望",
+      "type": "strategy",
+      "aliases": [
+        "奉天子"
+      ],
+      "description": "荀彧勸曹操趁天子蒙塵時奉迎天子，以取得天下人心。",
+      "evidence": [
+        "奉天子以從眾望"
+      ]
+    },
+    {
+      "id": "strat_move_xudu",
+      "name": "移駕許都之策",
+      "type": "strategy",
+      "aliases": [
+        "幸許都為上策"
+      ],
+      "description": "董昭建議遷駕許都，並以糧運理由說服朝臣。",
+      "evidence": [
+        "移駕幸許都為上策"
+      ]
+    },
+    {
+      "id": "strat_two_tigers",
+      "name": "二虎競食之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操、荀彧意欲使劉備與呂布自相猜殺。",
+      "evidence": [
+        "名曰二虎競食之計",
+        "使我兩人自相吞併"
+      ]
+    },
+    {
+      "id": "strat_drive_tiger",
+      "name": "驅虎吞狼之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "荀彧另設計令劉備奉詔討袁術，使兩方相爭。",
+      "evidence": [
+        "名曰驅虎吞狼之計",
+        "詔書...討袁術"
+      ]
+    },
+    {
+      "id": "strat_manchong_persuade",
+      "name": "滿寵說降徐晃",
+      "type": "strategy",
+      "aliases": [],
+      "description": "滿寵扮作小卒潛入營中，以擇主立業說服徐晃投曹。",
+      "evidence": [
+        "扮作小卒",
+        "賢臣擇主而事"
+      ]
+    },
+    {
+      "id": "strat_lubu_gate_deception",
+      "name": "呂布詐門夜襲",
+      "type": "strategy",
+      "aliases": [],
+      "description": "呂布假稱劉使君有機密使人，配合曹豹開門入城。",
+      "evidence": [
+        "劉使君有機密使人至",
+        "便令軍士開門"
+      ]
+    },
+    {
+      "id": "obj_chejia",
+      "name": "車駕",
+      "type": "object",
+      "aliases": [
+        "鑾駕"
+      ],
+      "description": "指獻帝車駕，是本章護駕、攔駕、遷駕的核心對象。",
+      "evidence": [
+        "保護車駕",
+        "迎鑾駕到許都"
+      ]
+    },
+    {
+      "id": "obj_zhaoshu",
+      "name": "詔書",
+      "type": "object",
+      "aliases": [
+        "詔"
+      ],
+      "description": "朝廷命令，用於召曹操入朝、封命劉備與命其討袁術。",
+      "evidence": [
+        "齎詔宣召",
+        "開讀詔書"
+      ]
+    },
+    {
+      "id": "obj_secret_letter",
+      "name": "曹操密書",
+      "type": "object",
+      "aliases": [
+        "私書"
+      ],
+      "description": "曹操送給劉備的私書，意在令劉備殺呂布。",
+      "evidence": [
+        "曹操所送密書",
+        "教我哥哥殺你"
+      ]
+    },
+    {
+      "id": "obj_zhangba_shemao",
+      "name": "丈八蛇矛",
+      "type": "object",
+      "aliases": [],
+      "description": "張飛兵器，呂布襲徐州時張飛披掛取用。",
+      "evidence": [
+        "綽了丈八蛇矛"
+      ]
+    },
+    {
+      "id": "obj_sanjian_dao",
+      "name": "三尖刀",
+      "type": "object",
+      "aliases": [],
+      "description": "紀靈所用兵器，重五十斤。",
+      "evidence": [
+        "使一口三尖刀"
+      ]
+    },
+    {
+      "id": "obj_baojian",
+      "name": "寶劍",
+      "type": "object",
+      "aliases": [
+        "劍"
+      ],
+      "description": "曹操押陣時親掣寶劍；張飛末尾亦拔劍欲自刎。",
+      "evidence": [
+        "親掣寶劍押陣",
+        "掣劍欲自刎"
+      ]
+    },
+    {
+      "id": "army_xiahoudun_50000",
+      "name": "夏侯惇先鋒軍",
+      "type": "army",
+      "aliases": [
+        "精兵五萬"
+      ],
+      "description": "曹操先差夏侯惇率五萬精兵前來保駕。",
+      "evidence": [
+        "差夏侯惇為先鋒",
+        "精兵五萬"
+      ]
+    },
+    {
+      "id": "army_three_hundred_iron_cavalry",
+      "name": "三百鐵騎",
+      "type": "army",
+      "aliases": [],
+      "description": "許褚、曹仁、典韋率領，先於李傕陣中衝突。",
+      "evidence": [
+        "領三百鐵騎",
+        "衝突三遭"
+      ]
+    },
+    {
+      "id": "army_liu_30000",
+      "name": "劉備馬步軍三萬",
+      "type": "army",
+      "aliases": [
+        "馬步軍三萬"
+      ],
+      "description": "劉備奉詔討袁術時帶出的兵力。",
+      "evidence": [
+        "統馬步軍三萬"
+      ]
+    },
+    {
+      "id": "army_lubu_500_cavalry",
+      "name": "呂布五百騎",
+      "type": "army",
+      "aliases": [
+        "五百騎"
+      ],
+      "description": "呂布夜襲徐州時先行的騎兵。",
+      "evidence": [
+        "領五百騎先行"
+      ]
+    },
+    {
+      "id": "army_eighteen_yan",
+      "name": "十八騎燕將",
+      "type": "army",
+      "aliases": [],
+      "description": "護衛張飛殺出徐州東門的小隊。",
+      "evidence": [
+        "十八騎燕將，保著張飛"
+      ]
+    },
+    {
+      "id": "title_dasima",
+      "name": "大司馬",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝封張楊的官職。",
+      "evidence": [
+        "封楊為大司馬"
+      ]
+    },
+    {
+      "id": "title_sili_xiaowei",
+      "name": "司隸校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝封曹操所領官職之一。",
+      "evidence": [
+        "封操領司隸校尉"
+      ]
+    },
+    {
+      "id": "title_jiajieyue",
+      "name": "假節鉞",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝授曹操的權柄稱號之一。",
+      "evidence": [
+        "假節鉞"
+      ]
+    },
+    {
+      "id": "title_lu_shangshu",
+      "name": "錄尚書事",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝授曹操掌理尚書事務的職權。",
+      "evidence": [
+        "錄尚書事"
+      ]
+    },
+    {
+      "id": "title_dajiangjun",
+      "name": "大將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在許都自封的官職。",
+      "evidence": [
+        "操自封為大將軍"
+      ]
+    },
+    {
+      "id": "title_wupinghou",
+      "name": "武平侯",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在許都自封的爵號。",
+      "evidence": [
+        "武平侯"
+      ]
+    },
+    {
+      "id": "title_shizhong_shangshuling",
+      "name": "侍中尚書令",
+      "type": "title",
+      "aliases": [],
+      "description": "荀彧在許都受任的官職。",
+      "evidence": [
+        "荀彧為侍中尚書令"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "荀攸在許都受任的職位。",
+      "evidence": [
+        "荀攸為軍師"
+      ]
+    },
+    {
+      "id": "title_simajijiu",
+      "name": "司馬祭酒",
+      "type": "title",
+      "aliases": [],
+      "description": "郭嘉在許都受任的職位。",
+      "evidence": [
+        "郭嘉為司馬祭酒"
+      ]
+    },
+    {
+      "id": "title_sikong_cangcao",
+      "name": "司空倉曹掾",
+      "type": "title",
+      "aliases": [],
+      "description": "劉曄在許都受任的職位。",
+      "evidence": [
+        "劉曄為司空倉曹掾"
+      ]
+    },
+    {
+      "id": "title_diannong_zhonglangjiang",
+      "name": "典農中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "毛玠、任峻受任督農錢糧的官職。",
+      "evidence": [
+        "為典農中郎將"
+      ]
+    },
+    {
+      "id": "title_dongping_xiang",
+      "name": "東平相",
+      "type": "title",
+      "aliases": [],
+      "description": "程昱在許都受任的官職。",
+      "evidence": [
+        "程昱為東平相"
+      ]
+    },
+    {
+      "id": "title_luoyang_ling",
+      "name": "洛陽令",
+      "type": "title",
+      "aliases": [],
+      "description": "范成、董昭在許都受任的官職。",
+      "evidence": [
+        "范成、董昭為洛陽令"
+      ]
+    },
+    {
+      "id": "title_xudu_ling",
+      "name": "許都令",
+      "type": "title",
+      "aliases": [],
+      "description": "滿寵在許都受任的官職。",
+      "evidence": [
+        "滿寵為許都令"
+      ]
+    },
+    {
+      "id": "title_jiangjun",
+      "name": "將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "夏侯惇、夏侯淵、曹仁、曹洪受任的軍職。",
+      "evidence": [
+        "皆為將軍"
+      ]
+    },
+    {
+      "id": "title_xiaowei",
+      "name": "校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "呂虔、李典、樂進、於禁、徐晃受任的軍職。",
+      "evidence": [
+        "皆為校尉"
+      ]
+    },
+    {
+      "id": "title_duwei",
+      "name": "都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "許褚、典韋受任的軍職。",
+      "evidence": [
+        "皆為都尉"
+      ]
+    },
+    {
+      "id": "title_liehou",
+      "name": "列侯",
+      "type": "title",
+      "aliases": [],
+      "description": "董承等十三人受封的爵位。",
+      "evidence": [
+        "封董承等十三人為列侯"
+      ]
+    },
+    {
+      "id": "title_zhengyilang",
+      "name": "正議郎",
+      "type": "title",
+      "aliases": [],
+      "description": "董昭朝覲後所封官職。",
+      "evidence": [
+        "官封正議郎"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_li_le",
+      "target": "obj_chejia",
+      "type": "詐襲",
+      "description": "李樂引軍詐近天子車駕。",
+      "evidence": [
+        "引軍詐欺",
+        "車駕"
+      ],
+      "confidence": 0.87
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_li_le",
+      "type": "斬殺",
+      "description": "徐晃出迎李樂，一合將其斬落馬下。",
+      "evidence": [
+        "被徐晃一斧砍於馬下"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "obj_chejia",
+      "type": "保護",
+      "description": "徐晃斬李樂後保護車駕過箕關。",
+      "evidence": [
+        "保護車駕過箕關"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_yang",
+      "target": "char_xiandi",
+      "type": "迎駕供給",
+      "description": "張楊在軒道以粟帛迎接獻帝。",
+      "evidence": [
+        "具粟帛迎駕"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_yang",
+      "target": "title_dasima",
+      "type": "受封",
+      "description": "張楊被獻帝封為大司馬。",
+      "evidence": [
+        "封楊為大司馬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xiandi",
+      "target": "loc_luoyang",
+      "type": "還都",
+      "description": "獻帝回到洛陽，但宮室荒廢。",
+      "evidence": [
+        "帝入洛陽"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "strat_feng_tianzi",
+      "type": "提出",
+      "description": "荀彧勸曹操奉迎天子以合眾望。",
+      "evidence": [
+        "奉天子以從眾望"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xiandi",
+      "type": "奉迎保駕",
+      "description": "曹操奉詔興師，派軍保護獻帝。",
+      "evidence": [
+        "齎詔宣召",
+        "前來保駕"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_xiahoudun_50000",
+      "type": "派遣",
+      "description": "曹操先派夏侯惇率五萬精兵保駕。",
+      "evidence": [
+        "先差夏侯惇為先鋒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "army_xiahoudun_50000",
+      "type": "統領",
+      "description": "夏侯惇統領先鋒精兵五萬。",
+      "evidence": [
+        "夏侯惇為先鋒",
+        "精兵五萬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "char_xiahou_dun",
+      "type": "協助",
+      "description": "曹洪、李典、樂進奉曹操命協助夏侯惇。",
+      "evidence": [
+        "倍道而來協助"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_li_jue",
+      "target": "loc_luoyang",
+      "type": "進犯",
+      "description": "李傕領兵犯洛陽。",
+      "evidence": [
+        "李傕、郭汜犯洛陽"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guo_si",
+      "target": "loc_luoyang",
+      "type": "進犯",
+      "description": "郭汜與李傕合兵犯洛陽。",
+      "evidence": [
+        "李傕、郭汜犯洛陽"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "fac_cao_army",
+      "target": "fac_li_guo_army",
+      "type": "擊敗",
+      "description": "曹軍迎擊李傕郭汜軍，斬首萬餘。",
+      "evidence": [
+        "賊兵大敗，斬首萬餘"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_sili_xiaowei",
+      "type": "受封",
+      "description": "曹操被封領司隸校尉。",
+      "evidence": [
+        "封操領司隸校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_jiajieyue",
+      "type": "受封",
+      "description": "曹操被授假節鉞。",
+      "evidence": [
+        "假節鉞"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_lu_shangshu",
+      "type": "受封",
+      "description": "曹操被授錄尚書事。",
+      "evidence": [
+        "錄尚書事"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "char_li_jue",
+      "type": "進諫",
+      "description": "賈詡勸李傕不宜與曹操速戰，應求降免罪。",
+      "evidence": [
+        "不如降之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_jia_xu",
+      "type": "敵意",
+      "description": "李傕怒斥賈詡並欲拔劍斬之。",
+      "evidence": [
+        "拔劍欲斬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "fac_li_guo_army",
+      "type": "離開",
+      "description": "賈詡夜裡單馬離開李傕軍。",
+      "evidence": [
+        "單馬走回鄉裡"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_three_hundred_iron_cavalry",
+      "type": "派遣",
+      "description": "曹操先令許褚、曹仁、典韋率三百鐵騎衝陣。",
+      "evidence": [
+        "先令許褚、曹仁、典韋領三百鐵騎"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "char_li_xian",
+      "type": "斬殺",
+      "description": "許褚陣前斬李暹。",
+      "evidence": [
+        "一刀先斬李暹"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "char_li_bie",
+      "type": "斬殺",
+      "description": "許褚又斬李別。",
+      "evidence": [
+        "褚亦斬之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "fac_li_guo_army",
+      "type": "追擊擊敗",
+      "description": "曹操率中軍衝陣並連夜追殺李傕郭汜軍。",
+      "evidence": [
+        "操自領中軍衝陣",
+        "連夜追殺"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dong_zhao",
+      "target": "title_zhengyilang",
+      "type": "受封",
+      "description": "董昭朝覲後官封正議郎。",
+      "evidence": [
+        "官封正議郎"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dong_zhao",
+      "target": "strat_move_xudu",
+      "type": "提出",
+      "description": "董昭向曹操建議移駕許都。",
+      "evidence": [
+        "移駕幸許都為上策"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "event_move_xudu",
+      "type": "採納",
+      "description": "曹操採納董昭之策，密議遷都並奏請獻帝。",
+      "evidence": [
+        "操意遂決",
+        "敢請駕幸許都"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wang_li",
+      "target": "char_xiandi",
+      "type": "密奏",
+      "description": "王立向獻帝奏稱代漢而有天下者當在魏。",
+      "evidence": [
+        "又密奏獻帝",
+        "當在魏"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_wang_li",
+      "type": "告誡",
+      "description": "曹操使人告誡王立勿多言天道。",
+      "evidence": [
+        "幸勿多言"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "char_cao_cao",
+      "type": "支持遷許",
+      "description": "荀彧以五行之說支持曹操遷許都。",
+      "evidence": [
+        "許都屬土，到彼必興"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xiandi",
+      "target": "loc_xudu",
+      "type": "遷幸",
+      "description": "獻帝隨曹操護送遷至許都。",
+      "evidence": [
+        "遂擇日起駕",
+        "迎鑾駕到許都"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "obj_chejia",
+      "type": "攔阻",
+      "description": "楊奉在高陵攔阻遷駕。",
+      "evidence": [
+        "楊、韓暹領兵攔路"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_han_xian",
+      "target": "obj_chejia",
+      "type": "攔阻",
+      "description": "韓暹與楊奉一同攔駕。",
+      "evidence": [
+        "楊、韓暹領兵攔路"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "char_xu_huang",
+      "type": "交鋒",
+      "description": "許褚與徐晃戰五十餘合不分勝敗。",
+      "evidence": [
+        "戰五十餘合，不分勝敗"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xu_huang",
+      "type": "招攬",
+      "description": "曹操稱徐晃為良將，不忍以力並之，欲以計招降。",
+      "evidence": [
+        "徐晃乃真良將",
+        "當以計招之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_man_chong",
+      "target": "char_xu_huang",
+      "type": "說降",
+      "description": "滿寵夜入徐晃營中，以擇主立業勸其投曹。",
+      "evidence": [
+        "偷入其營",
+        "棄暗投明"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_cao_cao",
+      "type": "歸附",
+      "description": "徐晃率帳下數十騎投曹操。",
+      "evidence": [
+        "連夜同滿寵來投曹操"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_yang_feng",
+      "type": "原隸屬",
+      "description": "徐晃原隨楊奉，稱從之已久。",
+      "evidence": [
+        "奈從之久矣"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "char_xu_huang",
+      "type": "追擊",
+      "description": "楊奉得知徐晃投曹後自引千騎追趕。",
+      "evidence": [
+        "自引千騎來追"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_han_xian",
+      "target": "char_yang_feng",
+      "type": "救援",
+      "description": "韓暹引兵來救被曹兵圍住的楊奉。",
+      "evidence": [
+        "韓暹引兵來救"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "fac_yang_han_army",
+      "type": "伏擊擊敗",
+      "description": "曹操伏兵四出，乘亂擊敗楊奉、韓暹軍。",
+      "evidence": [
+        "伏軍四出",
+        "乘勢攻擊"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yang_feng",
+      "target": "char_yuan_shu",
+      "type": "投奔",
+      "description": "楊奉敗後投奔袁術。",
+      "evidence": [
+        "投袁術去了"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_han_xian",
+      "target": "char_yuan_shu",
+      "type": "投奔",
+      "description": "韓暹敗後與楊奉投奔袁術。",
+      "evidence": [
+        "投袁術去了"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_dajiangjun",
+      "type": "自封",
+      "description": "曹操在許都自封大將軍。",
+      "evidence": [
+        "自封為大將軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_wupinghou",
+      "type": "自封",
+      "description": "曹操在許都自封武平侯。",
+      "evidence": [
+        "武平侯"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "title_shizhong_shangshuling",
+      "type": "受任",
+      "description": "荀彧任侍中尚書令。",
+      "evidence": [
+        "荀彧為侍中尚書令"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xun_you",
+      "target": "title_junshi",
+      "type": "受任",
+      "description": "荀攸任軍師。",
+      "evidence": [
+        "荀攸為軍師"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guo_jia",
+      "target": "title_simajijiu",
+      "type": "受任",
+      "description": "郭嘉任司馬祭酒。",
+      "evidence": [
+        "郭嘉為司馬祭酒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_ye",
+      "target": "title_sikong_cangcao",
+      "type": "受任",
+      "description": "劉曄任司空倉曹掾。",
+      "evidence": [
+        "劉曄為司空倉曹掾"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_mao_jie",
+      "target": "title_diannong_zhonglangjiang",
+      "type": "受任",
+      "description": "毛玠任典農中郎將。",
+      "evidence": [
+        "毛玠、任峻為典農中郎將"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ren_jun",
+      "target": "title_diannong_zhonglangjiang",
+      "type": "受任",
+      "description": "任峻任典農中郎將。",
+      "evidence": [
+        "毛玠、任峻為典農中郎將"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "title_dongping_xiang",
+      "type": "受任",
+      "description": "程昱任東平相。",
+      "evidence": [
+        "程昱為東平相"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_fan_cheng",
+      "target": "title_luoyang_ling",
+      "type": "受任",
+      "description": "范成任洛陽令。",
+      "evidence": [
+        "范成、董昭為洛陽令"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dong_zhao",
+      "target": "title_luoyang_ling",
+      "type": "受任",
+      "description": "董昭任洛陽令。",
+      "evidence": [
+        "范成、董昭為洛陽令"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_man_chong",
+      "target": "title_xudu_ling",
+      "type": "受任",
+      "description": "滿寵任許都令。",
+      "evidence": [
+        "滿寵為許都令"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "title_jiangjun",
+      "type": "受任",
+      "description": "夏侯惇任將軍。",
+      "evidence": [
+        "夏侯惇...皆為將軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xiahou_yuan",
+      "target": "title_jiangjun",
+      "type": "受任",
+      "description": "夏侯淵任將軍。",
+      "evidence": [
+        "夏侯淵...皆為將軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "title_jiangjun",
+      "type": "受任",
+      "description": "曹仁任將軍。",
+      "evidence": [
+        "曹仁...皆為將軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "title_jiangjun",
+      "type": "受任",
+      "description": "曹洪任將軍。",
+      "evidence": [
+        "曹洪皆為將軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lu_qian",
+      "target": "title_xiaowei",
+      "type": "受任",
+      "description": "呂虔任校尉。",
+      "evidence": [
+        "呂虔...皆為校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_li_dian",
+      "target": "title_xiaowei",
+      "type": "受任",
+      "description": "李典任校尉。",
+      "evidence": [
+        "李典...皆為校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yue_jin",
+      "target": "title_xiaowei",
+      "type": "受任",
+      "description": "樂進任校尉。",
+      "evidence": [
+        "樂進...皆為校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "title_xiaowei",
+      "type": "受任",
+      "description": "於禁任校尉。",
+      "evidence": [
+        "於禁...皆為校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "title_xiaowei",
+      "type": "受任",
+      "description": "徐晃任校尉。",
+      "evidence": [
+        "徐晃皆為校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "title_duwei",
+      "type": "受任",
+      "description": "許褚任都尉。",
+      "evidence": [
+        "許褚...皆為都尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dian_wei",
+      "target": "title_duwei",
+      "type": "受任",
+      "description": "典韋任都尉。",
+      "evidence": [
+        "典韋皆為都尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "title_liehou",
+      "type": "受封",
+      "description": "董承等十三人被封為列侯。",
+      "evidence": [
+        "封董承等十三人為列侯"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "fac_han_court",
+      "type": "控制朝政",
+      "description": "許都定後，朝廷大務先稟曹操再奏天子。",
+      "evidence": [
+        "大權皆歸於曹操",
+        "先禀曹操"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_xuzhou",
+      "type": "屯兵領事",
+      "description": "劉備屯兵徐州，自領州事。",
+      "evidence": [
+        "劉備屯兵徐州，自領州事"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "loc_xiaopei",
+      "type": "駐居",
+      "description": "呂布兵敗投劉備後，被安置於小沛。",
+      "evidence": [
+        "備使居於小沛"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_lu_bu",
+      "type": "收留",
+      "description": "呂布兵敗來投，劉備使其居小沛。",
+      "evidence": [
+        "兵敗投之，備使居於小沛"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_liu_bei",
+      "type": "忌憚",
+      "description": "曹操視劉備與呂布同心為心腹之患。",
+      "evidence": [
+        "乃心腹之患也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "strat_two_tigers",
+      "type": "提出",
+      "description": "荀彧提出二虎競食之計。",
+      "evidence": [
+        "名曰二虎競食之計"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_secret_letter",
+      "type": "送出",
+      "description": "曹操送私書給劉備，意欲令其殺呂布。",
+      "evidence": [
+        "曹操所送密書"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "obj_secret_letter",
+      "target": "char_lu_bu",
+      "type": "謀害目標",
+      "description": "密書內容指向殺呂布。",
+      "evidence": [
+        "教我哥哥殺你"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_lu_bu",
+      "type": "欲殺",
+      "description": "張飛拔劍上廳，要殺呂布。",
+      "evidence": [
+        "扯劍上廳，要殺呂布"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_fei",
+      "type": "阻止",
+      "description": "劉備阻止張飛殺呂布。",
+      "evidence": [
+        "玄德慌忙阻住"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_lu_bu",
+      "type": "示信解釋",
+      "description": "劉備將曹操密書給呂布看，說明曹操離間之意。",
+      "evidence": [
+        "將曹操所送密書與呂布看"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strat_two_tigers",
+      "type": "識破",
+      "description": "劉備指出曹操欲使他與呂布自相吞併。",
+      "evidence": [
+        "使我兩人自相吞併"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "char_liu_bei",
+      "type": "拜謝",
+      "description": "呂布得知劉備不殺他後再三拜謝。",
+      "evidence": [
+        "呂布再三拜謝"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "strat_drive_tiger",
+      "type": "提出",
+      "description": "二虎競食不成後，荀彧又提出驅虎吞狼之計。",
+      "evidence": [
+        "又有一計，名曰驅虎吞狼之計"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_liu_bei",
+      "type": "詔令出征",
+      "description": "曹操借詔書令劉備起兵討袁術。",
+      "evidence": [
+        "詔書...起兵討袁術"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_mi_zhu",
+      "target": "char_liu_bei",
+      "type": "提醒",
+      "description": "糜竺指出討袁術又是曹操之計。",
+      "evidence": [
+        "此又是曹操之計"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_yuan_shu",
+      "type": "奉詔討伐",
+      "description": "劉備雖知有計，仍以王命不可違，起兵討袁術。",
+      "evidence": [
+        "王命不可違",
+        "起兵討袁術"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "char_liu_bei",
+      "type": "建議",
+      "description": "孫乾建議劉備出征前先定守城之人。",
+      "evidence": [
+        "可先定守城之人"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_fei",
+      "type": "命守徐州",
+      "description": "劉備出征前令張飛留守徐州，並告誡少飲酒。",
+      "evidence": [
+        "分付我少飲酒",
+        "幫我守城"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_chen_deng",
+      "type": "命輔守城",
+      "description": "劉備請陳登輔助張飛守城。",
+      "evidence": [
+        "請陳元龍輔之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_liu_30000",
+      "type": "統領",
+      "description": "劉備統率馬步軍三萬離徐州。",
+      "evidence": [
+        "統馬步軍三萬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yuan_shu",
+      "target": "char_ji_ling",
+      "type": "派將迎戰",
+      "description": "袁術方面由紀靈領兵與劉備會戰。",
+      "evidence": [
+        "紀靈...引兵出陣"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_ji_ling",
+      "target": "obj_sanjian_dao",
+      "type": "使用",
+      "description": "紀靈使用重五十斤的三尖刀。",
+      "evidence": [
+        "使一口三尖刀"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_ji_ling",
+      "type": "交戰",
+      "description": "關羽與紀靈大戰三十合不分勝負。",
+      "evidence": [
+        "一連三十合，不分勝負"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ji_ling",
+      "target": "char_xun_zheng",
+      "type": "派出",
+      "description": "紀靈遣副將荀正出馬。",
+      "evidence": [
+        "遣副將荀正出馬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_xun_zheng",
+      "type": "斬殺",
+      "description": "關羽一合斬荀正於馬下。",
+      "evidence": [
+        "砍荀正於馬下"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "fac_liu_army",
+      "target": "fac_yuan_army",
+      "type": "擊敗",
+      "description": "劉備軍擊敗紀靈所率袁術軍。",
+      "evidence": [
+        "紀靈大敗"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ji_ling",
+      "target": "loc_huaiyin_hekou",
+      "type": "退守",
+      "description": "紀靈敗後退守淮陰河口。",
+      "evidence": [
+        "退守淮陰河口"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_cao_bao",
+      "type": "鞭打",
+      "description": "張飛醉後以違令為名鞭打曹豹五十。",
+      "evidence": [
+        "將曹豹鞭至五十"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_chen_deng",
+      "target": "char_zhang_fei",
+      "type": "勸止",
+      "description": "陳登提醒張飛劉備臨行分付，試圖阻止其失酒。",
+      "evidence": [
+        "玄德公臨去時，分付你甚來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_bao",
+      "target": "char_lu_bu",
+      "type": "通書內應",
+      "description": "曹豹因恨張飛，連夜寫信請呂布乘醉襲徐州。",
+      "evidence": [
+        "連夜差人賫書",
+        "今夜可乘飛醉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "char_chen_gong",
+      "type": "諮議",
+      "description": "呂布得曹豹書後請陳宮商議。",
+      "evidence": [
+        "便請陳宮來議"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "char_lu_bu",
+      "type": "勸取徐州",
+      "description": "陳宮勸呂布把握徐州空隙，失此不取則悔。",
+      "evidence": [
+        "徐州既有可乘之隙"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "army_lubu_500_cavalry",
+      "type": "統領",
+      "description": "呂布披掛上馬，領五百騎先行。",
+      "evidence": [
+        "領五百騎先行"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "fac_lu_army",
+      "type": "領大軍繼進",
+      "description": "陳宮引呂布大軍隨後進發。",
+      "evidence": [
+        "使陳宮引大軍繼進"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_gao_shun",
+      "target": "fac_lu_army",
+      "type": "隨軍",
+      "description": "高順隨呂布軍進發襲徐州。",
+      "evidence": [
+        "高順亦隨後進發"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "strat_lubu_gate_deception",
+      "type": "使用",
+      "description": "呂布以機密使人為辭詐開徐州城門。",
+      "evidence": [
+        "劉使君有機密使人至"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_bao",
+      "target": "loc_xuzhou",
+      "type": "開門內應",
+      "description": "曹豹令軍士開門，使呂布軍入城。",
+      "evidence": [
+        "便令軍士開門"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "loc_xuzhou",
+      "type": "奪取",
+      "description": "呂布軍夜入徐州，殺進城中。",
+      "evidence": [
+        "眾軍齊入",
+        "殺將進來了"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "obj_zhangba_shemao",
+      "type": "使用",
+      "description": "張飛醒後披掛，取丈八蛇矛迎敵。",
+      "evidence": [
+        "綽了丈八蛇矛"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_eighteen_yan",
+      "target": "char_zhang_fei",
+      "type": "護衛",
+      "description": "十八騎燕將保護張飛殺出東門。",
+      "evidence": [
+        "保著張飛，殺出東門"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_cao_bao",
+      "type": "刺殺",
+      "description": "曹豹追張飛，張飛回馬將其刺死於河中。",
+      "evidence": [
+        "一槍正刺中曹豹後心"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "char_liu_bei",
+      "type": "保護宅眷",
+      "description": "呂布入城後命人守劉備宅門，不許擅入。",
+      "evidence": [
+        "守把玄德宅門",
+        "不准擅入"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_liu_bei",
+      "type": "報告失城",
+      "description": "張飛到盱眙向劉備報告曹豹與呂布裡應外合夜襲徐州。",
+      "evidence": [
+        "來見玄德",
+        "夜襲徐州"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_zhang_fei",
+      "type": "責備",
+      "description": "關羽責備張飛失城並陷劉備家眷。",
+      "evidence": [
+        "城池又失了，嫂嫂又陷了"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "obj_baojian",
+      "type": "欲自刎",
+      "description": "張飛聞責後慚愧，拔劍欲自殺。",
+      "evidence": [
+        "掣劍欲自刎"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_li_le_defeated",
+      "name": "徐晃斬李樂護駕",
+      "summary": "李樂引軍詐近車駕，徐晃出迎，一合斬李樂，護送車駕過箕關。",
+      "participants": [
+        "char_li_le",
+        "char_xu_huang",
+        "char_xiandi"
+      ],
+      "locations": [
+        "loc_jiguan"
+      ],
+      "evidence": [
+        "徐晃一斧砍於馬下",
+        "保護車駕過箕關"
+      ]
+    },
+    {
+      "id": "evt_return_luoyang",
+      "name": "獻帝還洛陽與改元",
+      "summary": "獻帝入洛陽，見宮室荒廢、民生凋敝，朝廷改興平為建安元年。",
+      "participants": [
+        "char_xiandi",
+        "fac_han_court"
+      ],
+      "locations": [
+        "loc_luoyang"
+      ],
+      "evidence": [
+        "帝入洛陽",
+        "改興平為建安元年"
+      ]
+    },
+    {
+      "id": "evt_cao_called_and_rescues",
+      "name": "曹操奉詔保駕",
+      "summary": "曹操奉詔興師，先差夏侯惇率五萬精兵保駕，曹洪、李典、樂進亦來協助。",
+      "participants": [
+        "char_cao_cao",
+        "char_xiahou_dun",
+        "char_cao_hong",
+        "char_li_dian",
+        "char_yue_jin",
+        "char_xiandi",
+        "army_xiahoudun_50000"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_shandong"
+      ],
+      "evidence": [
+        "天使齎詔宣召",
+        "前來保駕"
+      ]
+    },
+    {
+      "id": "evt_li_guo_defeated",
+      "name": "曹操大破李傕郭汜",
+      "summary": "曹操以三百鐵騎衝陣，再令夏侯惇、曹仁分左右翼，自領中軍，大敗李傕郭汜。",
+      "participants": [
+        "char_cao_cao",
+        "char_xiahou_dun",
+        "char_cao_ren",
+        "char_xu_chu",
+        "char_dian_wei",
+        "char_li_jue",
+        "char_guo_si",
+        "army_three_hundred_iron_cavalry"
+      ],
+      "locations": [
+        "loc_luoyang"
+      ],
+      "evidence": [
+        "三百鐵騎",
+        "三軍齊進",
+        "大敗而走"
+      ]
+    },
+    {
+      "id": "evt_dong_zhao_plan",
+      "name": "董昭建議遷許",
+      "summary": "董昭向曹操指出留洛陽不便，建議移駕幸許都，並以糧運理由安撫朝臣。",
+      "participants": [
+        "char_dong_zhao",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_xudu",
+        "loc_luyang"
+      ],
+      "evidence": [
+        "移駕幸許都為上策",
+        "京師無糧"
+      ]
+    },
+    {
+      "id": "evt_move_xudu",
+      "name": "移駕幸許都",
+      "summary": "曹操奏稱東都荒廢、許都近魯陽且糧物可備，獻帝不敢不從，百官隨行至許都。",
+      "participants": [
+        "char_cao_cao",
+        "char_xiandi",
+        "fac_han_court",
+        "obj_chejia"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "請駕幸許都",
+        "操引軍護行"
+      ]
+    },
+    {
+      "id": "evt_xu_huang_defection",
+      "name": "徐晃投曹",
+      "summary": "高陵攔駕時，許褚與徐晃戰平；曹操惜其才，遣滿寵夜說，徐晃率數十騎投曹。",
+      "participants": [
+        "char_cao_cao",
+        "char_xu_chu",
+        "char_xu_huang",
+        "char_man_chong",
+        "char_yang_feng",
+        "char_han_xian"
+      ],
+      "locations": [
+        "loc_gaoling"
+      ],
+      "evidence": [
+        "不分勝敗",
+        "今晚扮作小卒",
+        "來投曹操"
+      ]
+    },
+    {
+      "id": "evt_gaoling_battle",
+      "name": "高陵伏擊楊奉韓暹",
+      "summary": "楊奉追徐晃時中曹操伏兵，韓暹引兵來救，曹操乘亂擊破兩軍，楊奉、韓暹投袁術。",
+      "participants": [
+        "char_cao_cao",
+        "char_yang_feng",
+        "char_han_xian",
+        "char_xu_huang",
+        "fac_yang_han_army"
+      ],
+      "locations": [
+        "loc_gaoling"
+      ],
+      "evidence": [
+        "伏軍四出",
+        "兩家軍士大半多降",
+        "投袁術去了"
+      ]
+    },
+    {
+      "id": "evt_cao_appointments",
+      "name": "許都封官與曹操掌權",
+      "summary": "曹操迎駕到許都後興建宮署，封賞眾人，自封大將軍武平侯，朝廷大務先歸曹操。",
+      "participants": [
+        "char_cao_cao",
+        "char_xun_yu",
+        "char_xun_you",
+        "char_guo_jia",
+        "char_man_chong",
+        "char_xu_huang",
+        "fac_han_court"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "蓋造宮室殿宇",
+        "自封為大將軍",
+        "大權皆歸於曹操"
+      ]
+    },
+    {
+      "id": "evt_two_tigers_failed",
+      "name": "二虎競食之計未成",
+      "summary": "曹操送密書令劉備殺呂布；劉備拒絕不義，向呂布出示密書，識破曹操離間之計。",
+      "participants": [
+        "char_cao_cao",
+        "char_xun_yu",
+        "char_liu_bei",
+        "char_lu_bu",
+        "char_zhang_fei",
+        "char_guan_yu",
+        "obj_secret_letter"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "曹操所送密書",
+        "誓不為此不義之事",
+        "使我兩人自相吞併"
+      ]
+    },
+    {
+      "id": "evt_drive_tiger_plot",
+      "name": "驅虎吞狼之計發動",
+      "summary": "二虎計不成後，荀彧提出驅虎吞狼之計，曹操借詔命劉備討袁術。",
+      "participants": [
+        "char_cao_cao",
+        "char_xun_yu",
+        "char_liu_bei",
+        "char_yuan_shu",
+        "char_mi_zhu",
+        "obj_zhaoshu"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "驅虎吞狼之計",
+        "詔書...討袁術",
+        "此又是曹操之計"
+      ]
+    },
+    {
+      "id": "evt_xuyi_battle",
+      "name": "劉備與紀靈戰於盱眙",
+      "summary": "劉備率三萬馬步軍討袁術，兩軍會於盱眙；關羽戰紀靈三十合，又斬荀正，紀靈敗退淮陰河口。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_yuan_shu",
+        "char_ji_ling",
+        "char_xun_zheng",
+        "army_liu_30000"
+      ],
+      "locations": [
+        "loc_xuyi",
+        "loc_huaiyin_hekou"
+      ],
+      "evidence": [
+        "統馬步軍三萬",
+        "兩軍會於盱眙",
+        "砍荀正於馬下"
+      ]
+    },
+    {
+      "id": "evt_cao_bao_lashed",
+      "name": "張飛醉鞭曹豹",
+      "summary": "張飛留守徐州設宴飲酒，強曹豹飲酒，醉後以違令為名鞭曹豹五十，埋下內應禍端。",
+      "participants": [
+        "char_zhang_fei",
+        "char_cao_bao",
+        "char_chen_deng"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "自斟巨觥",
+        "將曹豹鞭至五十"
+      ]
+    },
+    {
+      "id": "evt_lu_bu_night_attack",
+      "name": "呂布夜襲徐州",
+      "summary": "曹豹通書呂布，陳宮勸取徐州；呂布率五百騎先行，四更詐稱機密使人，曹豹開門，呂布軍入城。",
+      "participants": [
+        "char_lu_bu",
+        "char_cao_bao",
+        "char_chen_gong",
+        "char_gao_shun",
+        "char_zhang_fei",
+        "army_lubu_500_cavalry",
+        "fac_lu_army"
+      ],
+      "locations": [
+        "loc_xiaopei",
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "今夜可乘飛醉",
+        "領五百騎先行",
+        "賺開城門"
+      ]
+    },
+    {
+      "id": "evt_zhang_fei_escape_and_report",
+      "name": "張飛殺曹豹並報失徐州",
+      "summary": "張飛酒未醒不能力戰，由十八騎燕將護出東門；曹豹追擊，被張飛刺死。張飛至盱眙向劉備報告失徐州。",
+      "participants": [
+        "char_zhang_fei",
+        "char_cao_bao",
+        "char_liu_bei",
+        "char_guan_yu",
+        "army_eighteen_yan"
+      ],
+      "locations": [
+        "loc_xuzhou",
+        "loc_huainan",
+        "loc_xuyi"
+      ],
+      "evidence": [
+        "保著張飛，殺出東門",
+        "刺中曹豹後心",
+        "來見玄德"
+      ]
+    }
+  ],
+  "notes": [
+    "原文局部有重複與疑似訛字；抽取僅依本檔可辨識情節與短證據。"
+  ]
+}

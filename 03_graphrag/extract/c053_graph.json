@@ -1,0 +1,1835 @@
+{
+  "book": "三國演義",
+  "chapter_no": 53,
+  "chapter_title": "關雲長義釋黃漢升　孫仲謀大戰張文遠",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德"
+      ],
+      "description": "劉備勢力之主，本章平定武陵、長沙後回荊州。",
+      "evidence": [
+        "玄德大喜",
+        "四郡已平，玄德班師回荊州"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "亮",
+        "軍師"
+      ],
+      "description": "劉備軍師，調度取郡、預判長沙形勢，後處置魏延與劉琦後事。",
+      "evidence": [
+        "孔明謂張飛曰",
+        "軍師何故欲殺之"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德",
+        "張翼德"
+      ],
+      "description": "奉命領三千軍取武陵。",
+      "evidence": [
+        "張飛遂立軍令狀",
+        "領三千軍"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "子龍"
+      ],
+      "description": "先前取桂陽，作為張飛取武陵的參照。",
+      "evidence": [
+        "子龍取桂陽"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關雲長",
+        "關某"
+      ],
+      "description": "請命取長沙，與黃忠三戰並義釋黃忠。",
+      "evidence": [
+        "令雲長來取長沙",
+        "我且饒你性命"
+      ]
+    },
+    {
+      "id": "char_jin_xuan",
+      "name": "金旋",
+      "type": "character",
+      "aliases": [],
+      "description": "武陵方面主將，拒絕鞏志納降之議，敗走後被射殺。",
+      "evidence": [
+        "金旋聽得張飛引兵到",
+        "一箭射中金旋面門"
+      ]
+    },
+    {
+      "id": "char_gong_zhi",
+      "name": "鞏志",
+      "type": "character",
+      "aliases": [],
+      "description": "金旋從事，主張降劉，後獻武陵。",
+      "evidence": [
+        "從事鞏志諫",
+        "出城納降"
+      ]
+    },
+    {
+      "id": "char_han_xuan",
+      "name": "韓玄",
+      "type": "character",
+      "aliases": [],
+      "description": "長沙太守，疑黃忠通敵而欲斬之，後被魏延起事所殺。",
+      "evidence": [
+        "長沙太守韓玄",
+        "喝左右捉下黃忠"
+      ]
+    },
+    {
+      "id": "char_huang_zhong",
+      "name": "黃忠",
+      "type": "character",
+      "aliases": [
+        "漢升",
+        "黃漢升"
+      ],
+      "description": "長沙老將，弓刀皆精，與關羽交戰後歸降劉備。",
+      "evidence": [
+        "姓黃，名忠，字漢升",
+        "百發百中"
+      ]
+    },
+    {
+      "id": "char_yang_ling",
+      "name": "楊齡",
+      "type": "character",
+      "aliases": [],
+      "description": "韓玄麾下管軍校尉，出戰關羽被斬。",
+      "evidence": [
+        "管軍校尉楊齡",
+        "砍楊齡於馬下"
+      ]
+    },
+    {
+      "id": "char_wei_yan",
+      "name": "魏延",
+      "type": "character",
+      "aliases": [],
+      "description": "義陽人，救黃忠、獻長沙，後被孔明警告。",
+      "evidence": [
+        "乃義陽人魏延也",
+        "救起黃忠"
+      ]
+    },
+    {
+      "id": "char_liu_pan",
+      "name": "劉磐",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表之侄，黃忠推薦後被劉備取回掌長沙郡。",
+      "evidence": [
+        "黃忠薦劉表侄...攸縣閒居",
+        "教掌長沙郡"
+      ]
+    },
+    {
+      "id": "char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [],
+      "description": "荊州舊主，黃忠曾為其帳下中郎將。",
+      "evidence": [
+        "劉表帳下中郎將"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "仲謀",
+        "孫仲謀",
+        "權"
+      ],
+      "description": "東吳之主，本章在合淝與張遼交戰失利。",
+      "evidence": [
+        "孫仲謀大戰張文遠",
+        "孫權因見折了宋謙"
+      ]
+    },
+    {
+      "id": "char_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "魯子敬",
+        "子敬"
+      ],
+      "description": "先至合淝見孫權，後往荊州弔喪。",
+      "evidence": [
+        "魯子敬先至",
+        "魯肅特來吊喪"
+      ]
+    },
+    {
+      "id": "char_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [
+        "張文遠",
+        "文遠"
+      ],
+      "description": "曹軍合淝主將，挑戰孫權並識破夜襲內應。",
+      "evidence": [
+        "張遼差人來下戰書",
+        "張遼多謀"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [],
+      "description": "率軍救孫權回寨。",
+      "evidence": [
+        "乃程普也",
+        "救了孫權"
+      ]
+    },
+    {
+      "id": "char_taishi_ci",
+      "name": "太史慈",
+      "type": "character",
+      "aliases": [
+        "東萊太史慈"
+      ],
+      "description": "東吳將領，與張遼交鋒，夜襲合淝中伏受傷而亡。",
+      "evidence": [
+        "乃太史慈也",
+        "身中數箭",
+        "言訖而亡"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，合淝陣中在張遼左邊，射殺宋謙並擒內應。",
+      "evidence": [
+        "左邊李典",
+        "望宋謙心窩裡便射",
+        "李典擒戈定"
+      ]
+    },
+    {
+      "id": "char_yue_jin",
+      "name": "樂進",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，突襲孫權並參與追擊太史慈。",
+      "evidence": [
+        "右邊樂進",
+        "徑取孫權"
+      ]
+    },
+    {
+      "id": "char_song_qian",
+      "name": "宋謙",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權護衛將，阻擋樂進後被李典射死。",
+      "evidence": [
+        "左宋謙",
+        "應弦落馬"
+      ]
+    },
+    {
+      "id": "char_jia_hua",
+      "name": "賈華",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權護衛將，與宋謙持方天畫戟護衛。",
+      "evidence": [
+        "右賈華",
+        "兩邊護衛"
+      ]
+    },
+    {
+      "id": "char_zhang_hong",
+      "name": "張纮",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳長史，勸孫權勿親冒鋒鏑。",
+      "evidence": [
+        "長史張纮曰",
+        "非主公所宜也"
+      ]
+    },
+    {
+      "id": "char_zhuge_jin",
+      "name": "諸葛瑾",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳臣，提醒太史慈張遼多謀，不宜造次。",
+      "evidence": [
+        "諸葛瑾曰",
+        "不可造次"
+      ]
+    },
+    {
+      "id": "char_ge_ding",
+      "name": "戈定",
+      "type": "character",
+      "aliases": [
+        "戈丁"
+      ],
+      "description": "太史慈鄉人，潛入合淝作內應，事敗被斬。",
+      "evidence": [
+        "姓戈，名定",
+        "戈丁乃太史慈鄉人"
+      ]
+    },
+    {
+      "id": "char_stableman",
+      "name": "養馬後槽",
+      "type": "character",
+      "aliases": [
+        "後槽"
+      ],
+      "description": "張遼手下養馬者，因受責懷怨，與戈定謀作內應。",
+      "evidence": [
+        "張遼手下養馬後槽",
+        "後槽被責懷怨"
+      ]
+    },
+    {
+      "id": "char_lu_xun",
+      "name": "陸遜",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，與董襲殺出救太史慈。",
+      "evidence": [
+        "陸遜，董襲殺出"
+      ]
+    },
+    {
+      "id": "char_dong_xi",
+      "name": "董襲",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，與陸遜救太史慈。",
+      "evidence": [
+        "董襲殺出，救了太史慈"
+      ]
+    },
+    {
+      "id": "char_zhang_zhao",
+      "name": "張昭",
+      "type": "character",
+      "aliases": [],
+      "description": "請孫權罷兵，後受命問安太史慈。",
+      "evidence": [
+        "張昭請權罷兵",
+        "權使張昭等問安"
+      ]
+    },
+    {
+      "id": "char_liu_qi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "公子劉琦"
+      ],
+      "description": "劉表之子，本章病亡，引出荊州歸屬危機。",
+      "evidence": [
+        "公子劉琦病亡"
+      ]
+    },
+    {
+      "id": "faction_liu_bei",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "玄德軍",
+        "劉玄德勢力"
+      ],
+      "description": "以劉備為主的勢力，本章取得武陵、長沙。",
+      "evidence": [
+        "吾與百姓自降劉矣",
+        "降將黃忠、魏延"
+      ]
+    },
+    {
+      "id": "faction_wudong",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "吳兵",
+        "孫權軍"
+      ],
+      "description": "孫權所統勢力，本章攻合淝失利。",
+      "evidence": [
+        "吳兵大亂",
+        "東吳魯肅"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹軍",
+      "type": "faction",
+      "aliases": [
+        "曹兵"
+      ],
+      "description": "合淝守軍一方，由張遼、李典、樂進等作戰。",
+      "evidence": [
+        "曹兵已到",
+        "曹軍陣中"
+      ]
+    },
+    {
+      "id": "faction_changsha",
+      "name": "長沙守軍",
+      "type": "faction",
+      "aliases": [
+        "韓玄軍"
+      ],
+      "description": "韓玄據守長沙的兵馬，黃忠、楊齡原屬其下。",
+      "evidence": [
+        "長沙太守韓玄",
+        "教黃忠出馬"
+      ]
+    },
+    {
+      "id": "loc_wuling",
+      "name": "武陵",
+      "type": "location",
+      "aliases": [
+        "武陵郡"
+      ],
+      "description": "張飛所取之郡。",
+      "evidence": [
+        "投武陵界上來",
+        "武陵安民"
+      ]
+    },
+    {
+      "id": "loc_guiyang",
+      "name": "桂陽",
+      "type": "location",
+      "aliases": [
+        "桂陽郡"
+      ],
+      "description": "趙雲先前取得之郡，鞏志往此見劉備。",
+      "evidence": [
+        "子龍取桂陽郡",
+        "往桂陽見玄德"
+      ]
+    },
+    {
+      "id": "loc_changsha",
+      "name": "長沙",
+      "type": "location",
+      "aliases": [
+        "長沙郡"
+      ],
+      "description": "韓玄所守之地，後由關羽攻取。",
+      "evidence": [
+        "長沙尚未取",
+        "已得長沙郡"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備大本營之一，關羽曾守，劉備後班師回此。",
+      "evidence": [
+        "替雲長守荊州",
+        "班師回荊州"
+      ]
+    },
+    {
+      "id": "loc_hefei",
+      "name": "合淝",
+      "type": "location",
+      "aliases": [
+        "合肥"
+      ],
+      "description": "孫權與張遼交戰之城。",
+      "evidence": [
+        "久在合淝",
+        "望合淝進發"
+      ]
+    },
+    {
+      "id": "loc_nanxu_runzhou",
+      "name": "南徐潤州",
+      "type": "location",
+      "aliases": [
+        "南徐",
+        "潤州"
+      ],
+      "description": "孫權兵敗後撤回屯住之地，太史慈後亡於此。",
+      "evidence": [
+        "回南徐潤州",
+        "屯住軍馬"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "劉琦死後，孔明建議派關羽前去保守。",
+      "evidence": [
+        "前去襄陽保守"
+      ]
+    },
+    {
+      "id": "loc_youjiangkou_gongan",
+      "name": "公安",
+      "type": "location",
+      "aliases": [
+        "油江口"
+      ],
+      "description": "劉備回荊州後改油江口為公安。",
+      "evidence": [
+        "改油江口為公安"
+      ]
+    },
+    {
+      "id": "loc_you_county",
+      "name": "攸縣",
+      "type": "location",
+      "aliases": [],
+      "description": "劉磐閒居之地。",
+      "evidence": [
+        "現在攸縣閒居"
+      ]
+    },
+    {
+      "id": "battle_wuling",
+      "name": "武陵之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "張飛攻武陵，金旋敗死，鞏志獻城。",
+      "evidence": [
+        "張飛引兵到",
+        "出城納降"
+      ]
+    },
+    {
+      "id": "battle_changsha",
+      "name": "長沙之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "關羽攻長沙，斬楊齡，三戰黃忠，終得長沙。",
+      "evidence": [
+        "令雲長來取長沙",
+        "關將軍已得長沙郡"
+      ]
+    },
+    {
+      "id": "battle_hefei",
+      "name": "合淝之戰",
+      "type": "battle",
+      "aliases": [
+        "合肥之戰"
+      ],
+      "description": "孫權與張遼在合淝交戰，東吳失利。",
+      "evidence": [
+        "大戰一場",
+        "吳兵大亂"
+      ]
+    },
+    {
+      "id": "event_guanyu_spares_huangzhong",
+      "name": "關羽義釋黃忠",
+      "type": "event",
+      "aliases": [],
+      "description": "黃忠馬失前蹄落地，關羽不殺，令其換馬再戰。",
+      "evidence": [
+        "我且饒你性命",
+        "快換馬來廝殺"
+      ]
+    },
+    {
+      "id": "event_huangzhong_shoots_tassel",
+      "name": "黃忠射盔纓報恩",
+      "type": "event",
+      "aliases": [],
+      "description": "黃忠不忍射殺關羽，只射中其盔纓根以報不殺之恩。",
+      "evidence": [
+        "正射在雲長盔纓根上",
+        "報昨日不殺之恩"
+      ]
+    },
+    {
+      "id": "event_weiyan_rescues",
+      "name": "魏延救黃忠獻長沙",
+      "type": "event",
+      "aliases": [],
+      "description": "魏延殺入救黃忠，號召百姓反韓玄並投關羽。",
+      "evidence": [
+        "救起黃忠",
+        "引百姓出城，投拜雲長"
+      ]
+    },
+    {
+      "id": "event_weiyan_execution_debate",
+      "name": "孔明欲斬魏延",
+      "type": "event",
+      "aliases": [],
+      "description": "魏延降後，孔明以不忠不義與反骨為由欲斬，劉備求情而免。",
+      "evidence": [
+        "孔明喝令刀斧手推下斬之",
+        "吾今饒汝性命"
+      ]
+    },
+    {
+      "id": "event_hefei_night_raid",
+      "name": "太史慈夜襲合淝",
+      "type": "event",
+      "aliases": [],
+      "description": "太史慈依戈定內應夜襲合淝，張遼識破設伏，太史慈中箭。",
+      "evidence": [
+        "今夜必來接應",
+        "身中數箭"
+      ]
+    },
+    {
+      "id": "event_taishi_ci_death",
+      "name": "太史慈病亡",
+      "type": "event",
+      "aliases": [],
+      "description": "太史慈因合淝傷重，撤至南徐潤州後病亡。",
+      "evidence": [
+        "太史慈病重",
+        "言訖而亡"
+      ]
+    },
+    {
+      "id": "event_liu_qi_death",
+      "name": "劉琦病亡",
+      "type": "event",
+      "aliases": [],
+      "description": "劉琦病死，劉備痛哭，孔明安排守城與葬事。",
+      "evidence": [
+        "公子劉琦病亡",
+        "料理葬事"
+      ]
+    },
+    {
+      "id": "event_lu_su_condolence",
+      "name": "魯肅弔喪",
+      "type": "event",
+      "aliases": [],
+      "description": "劉琦死後半月，東吳魯肅到荊州弔喪。",
+      "evidence": [
+        "魯肅特來吊喪"
+      ]
+    },
+    {
+      "id": "title_emperor_uncle",
+      "name": "大漢皇叔",
+      "type": "title",
+      "aliases": [
+        "皇叔"
+      ],
+      "description": "鞏志稱劉備之身分。",
+      "evidence": [
+        "劉玄德乃大漢皇叔"
+      ]
+    },
+    {
+      "id": "title_military_adviser",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "孔明在劉備軍中的職稱。",
+      "evidence": [
+        "軍師何故欲殺之"
+      ]
+    },
+    {
+      "id": "title_changsha_taishou",
+      "name": "長沙太守",
+      "type": "title",
+      "aliases": [],
+      "description": "韓玄的官職。",
+      "evidence": [
+        "長沙太守韓玄"
+      ]
+    },
+    {
+      "id": "title_zhonglangjiang",
+      "name": "中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "黃忠曾任劉表帳下中郎將。",
+      "evidence": [
+        "劉表帳下中郎將"
+      ]
+    },
+    {
+      "id": "title_guanjun_xiaowei",
+      "name": "管軍校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "楊齡官職。",
+      "evidence": [
+        "管軍校尉楊齡"
+      ]
+    },
+    {
+      "id": "title_zhangshi",
+      "name": "長史",
+      "type": "title",
+      "aliases": [],
+      "description": "張纮官職。",
+      "evidence": [
+        "長史張纮"
+      ]
+    },
+    {
+      "id": "obj_junlingzhuang",
+      "name": "軍令狀",
+      "type": "object",
+      "aliases": [],
+      "description": "孔明要求張飛立下後才可領兵取武陵。",
+      "evidence": [
+        "必須也責下軍令狀"
+      ]
+    },
+    {
+      "id": "obj_yinshou",
+      "name": "印綬",
+      "type": "object",
+      "aliases": [],
+      "description": "鞏志攜往桂陽見劉備的降附信物。",
+      "evidence": [
+        "鞏志...印...往桂陽"
+      ]
+    },
+    {
+      "id": "obj_two_stone_bow",
+      "name": "二石力之弓",
+      "type": "object",
+      "aliases": [
+        "二石弓"
+      ],
+      "description": "黃忠善射所用強弓。",
+      "evidence": [
+        "能開二石力之弓"
+      ]
+    },
+    {
+      "id": "obj_war_letter",
+      "name": "戰書",
+      "type": "object",
+      "aliases": [],
+      "description": "張遼差人送給孫權的挑戰書。",
+      "evidence": [
+        "張遼差人來下戰書"
+      ]
+    },
+    {
+      "id": "obj_fangtian_ji",
+      "name": "方天畫戟",
+      "type": "object",
+      "aliases": [],
+      "description": "宋謙、賈華護衛孫權所持兵器。",
+      "evidence": [
+        "二將使方天畫戟"
+      ]
+    },
+    {
+      "id": "obj_helmet_tassel",
+      "name": "盔纓",
+      "type": "object",
+      "aliases": [],
+      "description": "黃忠射中關羽頭盔纓根，用以示警報恩。",
+      "evidence": [
+        "射在雲長盔纓根上"
+      ]
+    },
+    {
+      "id": "strat_tuodao",
+      "name": "拖刀計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "關羽擬用以勝黃忠的計策。",
+      "evidence": [
+        "來日必用拖刀計"
+      ]
+    },
+    {
+      "id": "strat_feigned_retreat_arrow",
+      "name": "詐敗誘射",
+      "type": "strategy",
+      "aliases": [],
+      "description": "黃忠原擬詐敗誘關羽至吊橋邊射之。",
+      "evidence": [
+        "必然詐敗",
+        "誘到吊橋邊射之"
+      ]
+    },
+    {
+      "id": "strat_fire_signal_inner_response",
+      "name": "舉火為號內應計",
+      "type": "strategy",
+      "aliases": [
+        "舉火為號"
+      ],
+      "description": "戈定與後槽計畫在合淝城中放火叫反，接應太史慈。",
+      "evidence": [
+        "舉火為號",
+        "草堆上放起一把火"
+      ]
+    },
+    {
+      "id": "strat_zhang_liao_counter_ambush",
+      "name": "張遼誘敵計",
+      "type": "strategy",
+      "aliases": [
+        "就計破之"
+      ],
+      "description": "張遼反用內應計，假開城門誘太史慈入伏。",
+      "evidence": [
+        "可就計破之",
+        "大開城門"
+      ]
+    },
+    {
+      "id": "army_3000",
+      "name": "三千軍",
+      "type": "army",
+      "aliases": [],
+      "description": "張飛取武陵所領兵馬。",
+      "evidence": [
+        "領三千軍"
+      ]
+    },
+    {
+      "id": "army_500_swordsmen",
+      "name": "五百校刀手",
+      "type": "army",
+      "aliases": [],
+      "description": "關羽取長沙所帶兵馬。",
+      "evidence": [
+        "只領五百校刀手"
+      ]
+    },
+    {
+      "id": "army_500_cavalry",
+      "name": "五百騎兵",
+      "type": "army",
+      "aliases": [],
+      "description": "黃忠出長沙迎戰所領騎兵。",
+      "evidence": [
+        "引五百騎兵"
+      ]
+    },
+    {
+      "id": "army_5000",
+      "name": "五千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "孫權撥給太史慈作外應的兵馬。",
+      "evidence": [
+        "乞五千兵去"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_liu_bei",
+      "target": "title_emperor_uncle",
+      "type": "具有稱號",
+      "description": "鞏志稱劉備為大漢皇叔。",
+      "evidence": [
+        "劉玄德乃大漢皇叔"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_zhang_fei",
+      "type": "要求",
+      "description": "孔明要求張飛立軍令狀後再取武陵。",
+      "evidence": [
+        "必須也責下軍令狀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "obj_junlingzhuang",
+      "type": "立下",
+      "description": "張飛依孔明要求立下軍令狀。",
+      "evidence": [
+        "張飛遂立軍令狀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "army_3000",
+      "type": "統領",
+      "description": "張飛領三千軍奔武陵。",
+      "evidence": [
+        "領三千軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "battle_wuling",
+      "type": "攻取",
+      "description": "張飛率軍攻取武陵。",
+      "evidence": [
+        "張飛引兵到"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_gong_zhi",
+      "target": "char_jin_xuan",
+      "type": "諫降",
+      "description": "鞏志勸金旋不要迎敵，應納降劉備。",
+      "evidence": [
+        "不如納降為上"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gong_zhi",
+      "target": "char_jin_xuan",
+      "type": "射殺",
+      "description": "金旋敗回城邊，鞏志在城上射殺金旋。",
+      "evidence": [
+        "一箭射中金旋面門"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gong_zhi",
+      "target": "faction_liu_bei",
+      "type": "歸降",
+      "description": "鞏志率城中百姓歸降劉備一方。",
+      "evidence": [
+        "吾與百姓自降劉矣"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_gong_zhi",
+      "type": "任命",
+      "description": "劉備令鞏志代金旋之職。",
+      "evidence": [
+        "令鞏志代金旋之職"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guan_yu",
+      "type": "命令",
+      "description": "劉備命關羽取長沙。",
+      "evidence": [
+        "令雲長來取長沙"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "loc_jingzhou",
+      "type": "守備",
+      "description": "劉備派張飛替關羽守荊州。",
+      "evidence": [
+        "去替雲長守荊州"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_xuan",
+      "target": "title_changsha_taishou",
+      "type": "擔任",
+      "description": "韓玄為長沙太守。",
+      "evidence": [
+        "長沙太守韓玄"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_zhong",
+      "target": "title_zhonglangjiang",
+      "type": "曾任",
+      "description": "黃忠曾為劉表帳下中郎將。",
+      "evidence": [
+        "劉表帳下中郎將"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_huang_zhong",
+      "target": "char_liu_biao",
+      "type": "曾隸屬",
+      "description": "黃忠曾在劉表帳下。",
+      "evidence": [
+        "劉表帳下"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yang_ling",
+      "target": "title_guanjun_xiaowei",
+      "type": "擔任",
+      "description": "楊齡為管軍校尉。",
+      "evidence": [
+        "管軍校尉楊齡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yang_ling",
+      "target": "char_han_xuan",
+      "type": "隸屬",
+      "description": "楊齡為韓玄部將並奉命出戰。",
+      "evidence": [
+        "遂令楊齡引軍一千"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_yang_ling",
+      "type": "斬殺",
+      "description": "關羽不到三合斬楊齡。",
+      "evidence": [
+        "砍楊齡於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "army_500_swordsmen",
+      "type": "統領",
+      "description": "關羽只帶五百校刀手取長沙。",
+      "evidence": [
+        "只領五百校刀手"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_zhong",
+      "target": "army_500_cavalry",
+      "type": "統領",
+      "description": "黃忠引五百騎兵出城迎戰關羽。",
+      "evidence": [
+        "引五百騎兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_huang_zhong",
+      "type": "交戰",
+      "description": "關羽與黃忠多次交鋒，不分勝負。",
+      "evidence": [
+        "鬥一百餘合，不分勝負"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "strat_tuodao",
+      "type": "計畫使用",
+      "description": "關羽擬以拖刀計背砍黃忠。",
+      "evidence": [
+        "來日必用拖刀計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_huang_zhong",
+      "type": "義釋",
+      "description": "黃忠墜馬時，關羽饒其性命。",
+      "evidence": [
+        "我且饒你性命"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_zhong",
+      "target": "strat_feigned_retreat_arrow",
+      "type": "使用",
+      "description": "黃忠詐敗引關羽至吊橋邊。",
+      "evidence": [
+        "忠詐敗，雲長趕來"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_huang_zhong",
+      "target": "char_guan_yu",
+      "type": "報恩",
+      "description": "黃忠只射中關羽盔纓，以報不殺之恩。",
+      "evidence": [
+        "只射盔纓",
+        "報昨日不殺之恩"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_xuan",
+      "target": "char_huang_zhong",
+      "type": "欲殺",
+      "description": "韓玄疑黃忠通關羽，命左右捉下欲斬。",
+      "evidence": [
+        "喝左右捉下黃忠"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wei_yan",
+      "target": "char_huang_zhong",
+      "type": "救援",
+      "description": "魏延殺入，砍死刀手救黃忠。",
+      "evidence": [
+        "砍死刀手，救起黃忠"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wei_yan",
+      "target": "char_han_xuan",
+      "type": "反叛殺害",
+      "description": "魏延號召百姓同殺韓玄。",
+      "evidence": [
+        "教百姓同殺韓玄"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wei_yan",
+      "target": "char_guan_yu",
+      "type": "投拜",
+      "description": "魏延引百姓出城投拜關羽。",
+      "evidence": [
+        "投拜雲長"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_zhong",
+      "target": "faction_liu_bei",
+      "type": "歸降",
+      "description": "黃忠經劉備親請後出降。",
+      "evidence": [
+        "忠方出降"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_huang_zhong",
+      "type": "禮待",
+      "description": "劉備親至黃忠家相請並厚待。",
+      "evidence": [
+        "親往黃忠家相請",
+        "待黃忠甚厚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_wei_yan",
+      "type": "欲斬",
+      "description": "孔明因魏延殺主獻地而欲斬之。",
+      "evidence": [
+        "推下斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_wei_yan",
+      "type": "赦免",
+      "description": "劉備為魏延求情，使孔明暫饒其命。",
+      "evidence": [
+        "望軍師恕之",
+        "吾今饒汝性命"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_zhong",
+      "target": "char_liu_pan",
+      "type": "推薦",
+      "description": "黃忠推薦劉表之侄劉磐。",
+      "evidence": [
+        "黃忠薦劉表侄"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_liu_pan",
+      "type": "任命",
+      "description": "劉備取回劉磐，使其掌長沙郡。",
+      "evidence": [
+        "教掌長沙郡"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_youjiangkou_gongan",
+      "type": "改名",
+      "description": "劉備班師後改油江口為公安。",
+      "evidence": [
+        "改油江口為公安"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "faction_wudong",
+      "type": "統領",
+      "description": "孫權統率東吳兵馬攻合淝。",
+      "evidence": [
+        "權...三軍出寨"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "obj_war_letter",
+      "type": "送出",
+      "description": "張遼差人向孫權下戰書。",
+      "evidence": [
+        "差人來下戰書"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "battle_hefei",
+      "type": "參戰",
+      "description": "孫權率軍進發合淝並與曹軍布陣。",
+      "evidence": [
+        "望合淝進發"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "battle_hefei",
+      "type": "參戰",
+      "description": "張遼在曹軍陣中挑戰孫權。",
+      "evidence": [
+        "張遼縱馬當先"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_song_qian",
+      "target": "char_sun_quan",
+      "type": "護衛",
+      "description": "宋謙在孫權左側護衛。",
+      "evidence": [
+        "左宋謙"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_jia_hua",
+      "target": "char_sun_quan",
+      "type": "護衛",
+      "description": "賈華在孫權右側護衛。",
+      "evidence": [
+        "右賈華"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_song_qian",
+      "target": "obj_fangtian_ji",
+      "type": "持有",
+      "description": "宋謙持方天畫戟護衛孫權。",
+      "evidence": [
+        "二將使方天畫戟"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_jia_hua",
+      "target": "obj_fangtian_ji",
+      "type": "持有",
+      "description": "賈華持方天畫戟護衛孫權。",
+      "evidence": [
+        "二將使方天畫戟"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "char_zhang_liao",
+      "type": "交戰",
+      "description": "太史慈出陣與張遼大戰七八十合。",
+      "evidence": [
+        "兩將戰有七八十合"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yue_jin",
+      "target": "char_sun_quan",
+      "type": "突襲",
+      "description": "樂進從斜刺裡直取孫權。",
+      "evidence": [
+        "徑取孫權"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_song_qian",
+      "type": "射殺",
+      "description": "李典射中宋謙心窩，使其落馬。",
+      "evidence": [
+        "望宋謙心窩裡便射"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_sun_quan",
+      "type": "追擊",
+      "description": "吳兵大亂後，張遼追趕孫權。",
+      "evidence": [
+        "張遼望見孫權，驟馬趕來"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "char_sun_quan",
+      "type": "救援",
+      "description": "程普率軍截殺，救孫權回寨。",
+      "evidence": [
+        "救了孫權"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_hong",
+      "target": "title_zhangshi",
+      "type": "擔任",
+      "description": "張纮為長史。",
+      "evidence": [
+        "長史張纮"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_hong",
+      "target": "char_sun_quan",
+      "type": "勸諫",
+      "description": "張纮勸孫權勿恃勇輕敵。",
+      "evidence": [
+        "非主公所宜也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "strat_fire_signal_inner_response",
+      "type": "提出",
+      "description": "太史慈以戈定為內應，請兵外應。",
+      "evidence": [
+        "舉火為號",
+        "乞五千兵去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_taishi_ci",
+      "type": "授兵",
+      "description": "孫權令太史慈引五千兵作外應。",
+      "evidence": [
+        "令太史慈引兵五千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "army_5000",
+      "type": "統領",
+      "description": "太史慈率五千兵夜襲合淝。",
+      "evidence": [
+        "引兵五千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_jin",
+      "target": "char_taishi_ci",
+      "type": "勸阻",
+      "description": "諸葛瑾以張遼多謀為由勸太史慈勿輕行。",
+      "evidence": [
+        "張遼多謀",
+        "不可造次"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ge_ding",
+      "target": "char_taishi_ci",
+      "type": "鄉人",
+      "description": "戈定是太史慈鄉人。",
+      "evidence": [
+        "戈丁乃太史慈鄉人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ge_ding",
+      "target": "char_stableman",
+      "type": "兄弟",
+      "description": "戈定與張遼手下養馬後槽為弟兄。",
+      "evidence": [
+        "與...養馬後槽是弟兄"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_stableman",
+      "target": "char_zhang_liao",
+      "type": "隸屬懷怨",
+      "description": "後槽在張遼手下養馬，因受責而懷怨。",
+      "evidence": [
+        "張遼手下養馬後槽",
+        "被責懷怨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ge_ding",
+      "target": "char_zhang_liao",
+      "type": "謀刺",
+      "description": "戈定與後槽計畫城中叫反刺殺張遼。",
+      "evidence": [
+        "刺殺張遼"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_ge_ding",
+      "type": "擒獲",
+      "description": "李典擒得戈定。",
+      "evidence": [
+        "李典擒戈定"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_stableman",
+      "type": "擒獲",
+      "description": "李典擒得後槽。",
+      "evidence": [
+        "併後槽至"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "strat_zhang_liao_counter_ambush",
+      "type": "使用",
+      "description": "張遼識破內應後反設假亂誘敵。",
+      "evidence": [
+        "可就計破之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_zhang_liao_counter_ambush",
+      "target": "char_taishi_ci",
+      "type": "誘入",
+      "description": "假開城門使太史慈誤以為內變而先入。",
+      "evidence": [
+        "只道內變",
+        "先入"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "event_hefei_night_raid",
+      "type": "參與",
+      "description": "太史慈率軍夜襲合淝並中伏。",
+      "evidence": [
+        "挺槍縱馬先入"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_xun",
+      "target": "char_taishi_ci",
+      "type": "救援",
+      "description": "陸遜殺出救太史慈。",
+      "evidence": [
+        "陸遜...救了太史慈"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_xi",
+      "target": "char_taishi_ci",
+      "type": "救援",
+      "description": "董襲殺出救太史慈。",
+      "evidence": [
+        "董襲殺出，救了太史慈"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_zhao",
+      "target": "char_sun_quan",
+      "type": "請撤兵",
+      "description": "張昭請孫權罷兵，孫權從之。",
+      "evidence": [
+        "張昭請權罷兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "loc_nanxu_runzhou",
+      "type": "撤回",
+      "description": "孫權收兵下船，回南徐潤州。",
+      "evidence": [
+        "回南徐潤州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "event_taishi_ci_death",
+      "type": "死亡",
+      "description": "太史慈傷重病亡。",
+      "evidence": [
+        "太史慈病重",
+        "言訖而亡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "event_liu_qi_death",
+      "type": "預兆判斷",
+      "description": "孔明觀星，判斷將折一皇族，旋即報劉琦病亡。",
+      "evidence": [
+        "星墜地",
+        "公子劉琦病亡"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_liu_qi",
+      "type": "哀悼",
+      "description": "劉備聞劉琦死而痛哭。",
+      "evidence": [
+        "玄德聞之，痛哭不已"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_guan_yu",
+      "type": "派遣",
+      "description": "孔明建議派關羽前去襄陽守禦。",
+      "evidence": [
+        "非雲長不可"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "loc_xiangyang",
+      "type": "守禦",
+      "description": "關羽受命前去襄陽保守。",
+      "evidence": [
+        "前去襄陽保守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_su",
+      "target": "event_lu_su_condolence",
+      "type": "執行",
+      "description": "魯肅到荊州弔劉琦之喪。",
+      "evidence": [
+        "魯肅特來吊喪"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "battle_wuling",
+      "name": "張飛取武陵",
+      "summary": "張飛領三千軍至武陵，金旋拒納降而敗走；鞏志射殺金旋並獻城，劉備任鞏志代金旋之職。",
+      "participants": [
+        "char_zhang_fei",
+        "char_jin_xuan",
+        "char_gong_zhi",
+        "char_liu_bei",
+        "faction_liu_bei",
+        "army_3000"
+      ],
+      "locations": [
+        "loc_wuling",
+        "loc_guiyang"
+      ],
+      "evidence": [
+        "張飛引兵到",
+        "出城納降",
+        "代金旋之職"
+      ]
+    },
+    {
+      "id": "battle_changsha",
+      "name": "關羽取長沙",
+      "summary": "關羽率五百校刀手攻長沙，先斬楊齡，再與黃忠三戰；魏延救黃忠並獻城，長沙歸劉備。",
+      "participants": [
+        "char_guan_yu",
+        "char_han_xuan",
+        "char_huang_zhong",
+        "char_yang_ling",
+        "char_wei_yan",
+        "char_liu_bei",
+        "faction_changsha",
+        "faction_liu_bei"
+      ],
+      "locations": [
+        "loc_changsha"
+      ],
+      "evidence": [
+        "砍楊齡於馬下",
+        "三日戰黃忠",
+        "已得長沙郡"
+      ]
+    },
+    {
+      "id": "event_guanyu_spares_huangzhong",
+      "name": "關羽義釋黃忠",
+      "summary": "黃忠戰馬前失墜地，關羽沒有乘機斬殺，令他換馬再戰。",
+      "participants": [
+        "char_guan_yu",
+        "char_huang_zhong"
+      ],
+      "locations": [
+        "loc_changsha"
+      ],
+      "evidence": [
+        "戰馬前失",
+        "我且饒你性命"
+      ]
+    },
+    {
+      "id": "event_huangzhong_shoots_tassel",
+      "name": "黃忠射盔纓報恩",
+      "summary": "黃忠詐敗誘關羽追至吊橋，因念不殺之恩，只射中盔纓根，關羽因此退兵。",
+      "participants": [
+        "char_huang_zhong",
+        "char_guan_yu"
+      ],
+      "locations": [
+        "loc_changsha"
+      ],
+      "evidence": [
+        "忠詐敗",
+        "射在雲長盔纓根上",
+        "報昨日不殺之恩"
+      ]
+    },
+    {
+      "id": "event_weiyan_rescues",
+      "name": "魏延救黃忠獻長沙",
+      "summary": "韓玄欲斬黃忠，魏延殺入救人，號召百姓殺韓玄並出城投拜關羽。",
+      "participants": [
+        "char_wei_yan",
+        "char_huang_zhong",
+        "char_han_xuan",
+        "char_guan_yu"
+      ],
+      "locations": [
+        "loc_changsha"
+      ],
+      "evidence": [
+        "救起黃忠",
+        "教百姓同殺韓玄",
+        "投拜雲長"
+      ]
+    },
+    {
+      "id": "event_weiyan_execution_debate",
+      "name": "孔明欲斬魏延",
+      "summary": "魏延降後，孔明以殺主獻地及反骨為由欲斬；劉備顧慮降者自危而求情，孔明遂警告魏延後釋放。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_wei_yan",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_changsha"
+      ],
+      "evidence": [
+        "食其祿而殺其主",
+        "恐降者人人自危",
+        "吾今饒汝性命"
+      ]
+    },
+    {
+      "id": "battle_hefei",
+      "name": "孫權合淝大戰張遼",
+      "summary": "張遼下戰書，孫權進軍合淝；太史慈戰張遼不分勝負，樂進突襲孫權，李典射殺宋謙，程普救孫權回寨。",
+      "participants": [
+        "char_sun_quan",
+        "char_zhang_liao",
+        "char_taishi_ci",
+        "char_li_dian",
+        "char_yue_jin",
+        "char_song_qian",
+        "char_jia_hua",
+        "char_cheng_pu",
+        "faction_wudong",
+        "faction_cao"
+      ],
+      "locations": [
+        "loc_hefei"
+      ],
+      "evidence": [
+        "差人來下戰書",
+        "兩將戰有七八十合",
+        "救了孫權"
+      ]
+    },
+    {
+      "id": "event_hefei_night_raid",
+      "name": "太史慈夜襲合淝",
+      "summary": "太史慈依戈定與後槽的舉火內應計夜襲合淝；張遼識破後設假亂開門，太史慈中伏受箭傷，陸遜、董襲救回。",
+      "participants": [
+        "char_taishi_ci",
+        "char_ge_ding",
+        "char_stableman",
+        "char_zhang_liao",
+        "char_li_dian",
+        "char_yue_jin",
+        "char_lu_xun",
+        "char_dong_xi",
+        "army_5000"
+      ],
+      "locations": [
+        "loc_hefei"
+      ],
+      "evidence": [
+        "舉火為號",
+        "可就計破之",
+        "身中數箭",
+        "救了太史慈"
+      ]
+    },
+    {
+      "id": "event_taishi_ci_death",
+      "name": "太史慈病亡",
+      "summary": "孫權撤至南徐潤州後，太史慈因合淝箭傷病重，臨終嘆志未遂而亡。",
+      "participants": [
+        "char_taishi_ci",
+        "char_sun_quan",
+        "char_zhang_zhao"
+      ],
+      "locations": [
+        "loc_nanxu_runzhou"
+      ],
+      "evidence": [
+        "太史慈病重",
+        "今所志未遂",
+        "言訖而亡"
+      ]
+    },
+    {
+      "id": "event_liu_qi_death",
+      "name": "劉琦病亡",
+      "summary": "劉備在荊州聞孫權兵敗後，孔明觀星言將折皇族，旋即傳來劉琦病亡；孔明建議派關羽守襄陽並料理葬事。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_liu_qi",
+        "char_guan_yu"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_xiangyang"
+      ],
+      "evidence": [
+        "星墜地",
+        "公子劉琦病亡",
+        "前去襄陽保守"
+      ]
+    },
+    {
+      "id": "event_lu_su_condolence",
+      "name": "魯肅弔喪",
+      "summary": "劉琦死後半月，東吳魯肅來弔喪，孔明已預備應對東吳來使。",
+      "participants": [
+        "char_lu_su",
+        "char_zhuge_liang",
+        "char_liu_bei",
+        "faction_wudong"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "魯肅特來吊喪",
+        "亮自有言對答"
+      ]
+    }
+  ],
+  "notes": [
+    "依據提供章節正文抽取；正文局部有缺字或訛字，劉磐、印綬等以可辨識章節情節補正。"
+  ]
+}

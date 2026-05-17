@@ -1,0 +1,1729 @@
+{
+  "book": "三國演義",
+  "chapter_no": 48,
+  "chapter_title": "宴長江曹操賦詩　鎖戰船北軍用武",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_pang_tong",
+      "name": "龐統",
+      "type": "character",
+      "aliases": [
+        "鳳雛"
+      ],
+      "description": "謀士，連鎖戰船之計被稱為鳳雛妙計，並助徐庶脫離曹營。",
+      "evidence": [
+        "龐統別卻徐庶",
+        "鳳雛妙計"
+      ]
+    },
+    {
+      "id": "char_xu_shu",
+      "name": "徐庶",
+      "type": "character",
+      "aliases": [
+        "元直"
+      ],
+      "description": "在曹營中的謀士，與龐統密談後暗布謠言而脫身。",
+      "evidence": [
+        "元直真欲破我計耶",
+        "暗布謠言"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "丞相"
+      ],
+      "description": "曹軍統帥，南征江南，設長江宴會，調練連鎖水軍。",
+      "evidence": [
+        "曹操徵南",
+        "請丞相調遣"
+      ]
+    },
+    {
+      "id": "char_han_sui",
+      "name": "韓遂",
+      "type": "character",
+      "aliases": [],
+      "description": "西涼人物，被徐庶散布的謠言稱將謀反攻向許都。",
+      "evidence": [
+        "韓遂、馬騰謀反"
+      ]
+    },
+    {
+      "id": "char_ma_teng",
+      "name": "馬騰",
+      "type": "character",
+      "aliases": [],
+      "description": "西涼人物，被謠言稱與韓遂謀反。",
+      "evidence": [
+        "韓遂、馬騰謀反"
+      ]
+    },
+    {
+      "id": "char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "瑜"
+      ],
+      "description": "江東主將，觀察曹操水軍，派韓當、周泰迎戰，後忽然吐血昏倒。",
+      "evidence": [
+        "探事人報知周瑜",
+        "口吐鮮血"
+      ]
+    },
+    {
+      "id": "char_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [],
+      "description": "江東人物，被曹操在宴中與周瑜並稱為不識天時。",
+      "evidence": [
+        "周瑜、魯肅，不識天時"
+      ]
+    },
+    {
+      "id": "char_xun_you",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，在宴上提醒曹操勿洩軍機。",
+      "evidence": [
+        "荀攸曰：丞相勿言"
+      ]
+    },
+    {
+      "id": "char_liu_fu",
+      "name": "劉馥",
+      "type": "character",
+      "aliases": [
+        "字符穎",
+        "劉馦"
+      ],
+      "description": "揚州刺史，指出曹操詩句不吉，被曹操醉中刺死。",
+      "evidence": [
+        "揚州刺史",
+        "此不吉之言也"
+      ]
+    },
+    {
+      "id": "char_liu_xi",
+      "name": "劉熙",
+      "type": "character",
+      "aliases": [],
+      "description": "劉馥之子，向曹操請求父屍歸葬。",
+      "evidence": [
+        "馥子劉熙",
+        "告請父屍歸葬"
+      ]
+    },
+    {
+      "id": "char_mao_jie",
+      "name": "毛玠",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操水軍都督之一，主管中央黃旗水軍。",
+      "evidence": [
+        "水軍都督毛玠",
+        "中央黃旗毛玠"
+      ]
+    },
+    {
+      "id": "char_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操水軍都督之一，與毛玠同領中央水軍。",
+      "evidence": [
+        "水軍都督毛玠、於禁",
+        "中央黃旗毛玠、於禁"
+      ]
+    },
+    {
+      "id": "char_zhang_he",
+      "name": "張郃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操水軍前軍將領，領紅旗。",
+      "evidence": [
+        "前軍紅旗張郃"
+      ]
+    },
+    {
+      "id": "char_lu_qian",
+      "name": "呂虔",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操水軍後軍將領，領皂旗。",
+      "evidence": [
+        "後軍皂旗呂虔"
+      ]
+    },
+    {
+      "id": "char_wen_ping",
+      "name": "文聘",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操水軍左軍將領，後與韓當、周泰交戰不支而退。",
+      "evidence": [
+        "左軍青旗文聘",
+        "文聘抵敵不住"
+      ]
+    },
+    {
+      "id": "char_lu_tong",
+      "name": "呂通",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操水軍右軍將領，領白旗。",
+      "evidence": [
+        "右軍白旗呂通"
+      ]
+    },
+    {
+      "id": "char_xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操馬步前軍將領，領紅旗。",
+      "evidence": [
+        "馬步前軍紅旗徐晃"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操馬步後軍將領，領皂旗。",
+      "evidence": [
+        "後軍皂旗李典"
+      ]
+    },
+    {
+      "id": "char_yue_jin",
+      "name": "樂進",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操馬步左軍將領，領青旗。",
+      "evidence": [
+        "左軍青旗樂進"
+      ]
+    },
+    {
+      "id": "char_xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操馬步右軍將領，領白旗。",
+      "evidence": [
+        "右軍白旗夏侯淵"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操任命的水陸路都接應使之一。",
+      "evidence": [
+        "水陸路都接應使：夏侯惇"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操任命的水陸路都接應使之一。",
+      "evidence": [
+        "水陸路都接應使：夏侯惇、曹洪"
+      ]
+    },
+    {
+      "id": "char_xu_chu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操任命的護衛往來監戰使之一。",
+      "evidence": [
+        "護衛往來監戰使：許褚"
+      ]
+    },
+    {
+      "id": "char_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操任命的護衛往來監戰使之一。",
+      "evidence": [
+        "護衛往來監戰使：許褚、張遼"
+      ]
+    },
+    {
+      "id": "char_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，指出連鎖戰船雖穩，卻怕火攻。",
+      "evidence": [
+        "程昱曰",
+        "彼若用火攻"
+      ]
+    },
+    {
+      "id": "char_jiao_chu",
+      "name": "焦觸",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，請戰突襲江南水寨，被韓當刺死。",
+      "evidence": [
+        "焦觸、張南大叫",
+        "刺死焦觸"
+      ]
+    },
+    {
+      "id": "char_zhang_nan",
+      "name": "張南",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，與焦觸率哨船進攻，被周泰斬落水中。",
+      "evidence": [
+        "某與張南各引一半",
+        "砍張南於水中"
+      ]
+    },
+    {
+      "id": "char_han_dang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，與周泰為先鋒迎敵，刺死焦觸。",
+      "evidence": [
+        "韓當、周泰二人齊出",
+        "刺死焦觸"
+      ]
+    },
+    {
+      "id": "char_zhou_tai",
+      "name": "周泰",
+      "type": "character",
+      "aliases": [
+        "週泰"
+      ],
+      "description": "江東將領，與韓當迎戰，躍上敵船斬張南。",
+      "evidence": [
+        "周泰二人齊出",
+        "手起刀落"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "北軍"
+      ],
+      "description": "曹操麾下北方軍隊與官員，在江北水寨南征江南。",
+      "evidence": [
+        "北軍在船上",
+        "曹軍寨中"
+      ]
+    },
+    {
+      "id": "faction_jiangdong",
+      "name": "江東勢力",
+      "type": "faction",
+      "aliases": [
+        "江南",
+        "南軍"
+      ],
+      "description": "周瑜所屬勢力，據南岸水寨抵禦曹軍。",
+      "evidence": [
+        "自回江東",
+        "南軍破北軍"
+      ]
+    },
+    {
+      "id": "faction_xiliang",
+      "name": "西涼勢力",
+      "type": "faction",
+      "aliases": [
+        "西涼州韓遂、馬騰"
+      ],
+      "description": "謠言中由韓遂、馬騰代表的西涼威脅。",
+      "evidence": [
+        "西涼州韓遂、馬騰謀反"
+      ]
+    },
+    {
+      "id": "loc_changjiang",
+      "name": "長江",
+      "type": "location",
+      "aliases": [
+        "大江"
+      ],
+      "description": "曹操設宴、調練水軍與雙方水戰發生的主要水域。",
+      "evidence": [
+        "長江一帶",
+        "涉大江之險"
+      ]
+    },
+    {
+      "id": "loc_jiangnan",
+      "name": "江南",
+      "type": "location",
+      "aliases": [
+        "南岸"
+      ],
+      "description": "曹操欲收服之地，也是周瑜所守方向。",
+      "evidence": [
+        "收服江南",
+        "遙指南岸"
+      ]
+    },
+    {
+      "id": "loc_jiangdong",
+      "name": "江東",
+      "type": "location",
+      "aliases": [],
+      "description": "龐統離開曹營後返回之地。",
+      "evidence": [
+        "下船自回江東"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "謠言中韓遂、馬騰將進攻的曹操後方要地。",
+      "evidence": [
+        "殺奔許都來"
+      ]
+    },
+    {
+      "id": "loc_xiliangzhou",
+      "name": "西涼州",
+      "type": "location",
+      "aliases": [],
+      "description": "韓遂、馬騰被謠言稱起兵之地。",
+      "evidence": [
+        "西涼州韓遂、馬騰"
+      ]
+    },
+    {
+      "id": "loc_chaisang",
+      "name": "柴桑",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操於船上東望之地。",
+      "evidence": [
+        "東視柴桑之境"
+      ]
+    },
+    {
+      "id": "loc_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操於船上西觀之江。",
+      "evidence": [
+        "西觀夏口之江"
+      ]
+    },
+    {
+      "id": "loc_fanshan",
+      "name": "樊山",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操於船上南望之山。",
+      "evidence": [
+        "南望樊山"
+      ]
+    },
+    {
+      "id": "loc_wulin",
+      "name": "烏林",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操於船上北覷之地。",
+      "evidence": [
+        "北覷烏林"
+      ]
+    },
+    {
+      "id": "loc_nanping_shan",
+      "name": "南屏山",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操宴中所見江南山色。",
+      "evidence": [
+        "南屏山色如畫"
+      ]
+    },
+    {
+      "id": "loc_hefei",
+      "name": "合淝",
+      "type": "location",
+      "aliases": [],
+      "description": "劉馥起事治州之地。",
+      "evidence": [
+        "馥起自合淝"
+      ]
+    },
+    {
+      "id": "loc_jiangbei_shuizhai",
+      "name": "江北水寨",
+      "type": "location",
+      "aliases": [
+        "曹軍水寨",
+        "水軍寨"
+      ],
+      "description": "曹操水軍駐紮、調練、出船之處。",
+      "evidence": [
+        "曹軍寨中",
+        "水軍寨中發擂"
+      ]
+    },
+    {
+      "id": "loc_jiangnan_shuizhai",
+      "name": "江南水寨",
+      "type": "location",
+      "aliases": [
+        "南岸水寨"
+      ],
+      "description": "焦觸、張南欲突襲，周瑜守禦之水寨。",
+      "evidence": [
+        "直抵江南水寨",
+        "傳令各寨嚴加守禦"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在章中被眾將、謀士稱呼的官職。",
+      "evidence": [
+        "請丞相調遣",
+        "丞相勿言"
+      ]
+    },
+    {
+      "id": "title_yangzhou_cishi",
+      "name": "揚州刺史",
+      "type": "title",
+      "aliases": [],
+      "description": "劉馥的官職。",
+      "evidence": [
+        "乃揚州刺史"
+      ]
+    },
+    {
+      "id": "title_shuijun_dudu",
+      "name": "水軍都督",
+      "type": "title",
+      "aliases": [],
+      "description": "毛玠、於禁在曹軍水軍中的職位。",
+      "evidence": [
+        "水軍都督毛玠、於禁"
+      ]
+    },
+    {
+      "id": "title_jieying_shi",
+      "name": "水陸路都接應使",
+      "type": "title",
+      "aliases": [],
+      "description": "夏侯惇、曹洪負責水陸接應的職務。",
+      "evidence": [
+        "水陸路都接應使"
+      ]
+    },
+    {
+      "id": "title_jianzhan_shi",
+      "name": "護衛往來監戰使",
+      "type": "title",
+      "aliases": [],
+      "description": "許褚、張遼負責護衛與監戰的職務。",
+      "evidence": [
+        "護衛往來監戰使"
+      ]
+    },
+    {
+      "id": "army_cao_shuijun",
+      "name": "曹操水軍",
+      "type": "army",
+      "aliases": [
+        "水軍",
+        "北軍水軍"
+      ],
+      "description": "曹操麾下連鎖戰船部隊，分五色旗號操練。",
+      "evidence": [
+        "水軍中央黃旗",
+        "各隊伍戰船"
+      ]
+    },
+    {
+      "id": "army_cao_mabujun",
+      "name": "曹操馬步軍",
+      "type": "army",
+      "aliases": [
+        "馬步軍"
+      ],
+      "description": "曹操麾下陸上馬步部隊，同樣分前後左右軍。",
+      "evidence": [
+        "馬步前軍紅旗"
+      ]
+    },
+    {
+      "id": "army_jiao_zhang_boats",
+      "name": "焦觸張南哨船隊",
+      "type": "army",
+      "aliases": [
+        "哨船二十隻"
+      ],
+      "description": "焦觸、張南率領突襲江南水寨的小船隊。",
+      "evidence": [
+        "領哨船二十隻"
+      ]
+    },
+    {
+      "id": "army_jiangdong_shaoships",
+      "name": "江東哨船隊",
+      "type": "army",
+      "aliases": [
+        "韓當周泰哨船"
+      ],
+      "description": "韓當、周泰各領五隻哨船出戰。",
+      "evidence": [
+        "各引哨船五隻"
+      ]
+    },
+    {
+      "id": "obj_chain_warships",
+      "name": "連鎖戰船",
+      "type": "object",
+      "aliases": [
+        "鎖戰船",
+        "船皆連鎖"
+      ],
+      "description": "曹操水軍以鐵索相連的戰船，使北軍在船上如履平地。",
+      "evidence": [
+        "船皆連鎖",
+        "渡江如履平地"
+      ]
+    },
+    {
+      "id": "obj_big_ship",
+      "name": "大船",
+      "type": "object",
+      "aliases": [
+        "中央大戰船"
+      ],
+      "description": "曹操設宴、賦詩、觀看江景的大船。",
+      "evidence": [
+        "置酒設樂於大船"
+      ]
+    },
+    {
+      "id": "obj_shuai_flag",
+      "name": "帥字旗號",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操中央大船上所建的帥旗。",
+      "evidence": [
+        "上建帥字旗號"
+      ]
+    },
+    {
+      "id": "obj_yellow_flag",
+      "name": "中央黃旗",
+      "type": "object",
+      "aliases": [
+        "黃旗"
+      ],
+      "description": "曹軍中央水軍旗號，後被風吹折落江，被周瑜視為不祥。",
+      "evidence": [
+        "中央黃旗",
+        "風吹折中央黃旗"
+      ]
+    },
+    {
+      "id": "obj_white_flag",
+      "name": "白旗",
+      "type": "object",
+      "aliases": [],
+      "description": "周瑜用以招颭鳴金、召回韓當周泰的軍令旗。",
+      "evidence": [
+        "白旗招颭"
+      ]
+    },
+    {
+      "id": "obj_sentry_boats",
+      "name": "哨船",
+      "type": "object",
+      "aliases": [],
+      "description": "雙方水上前哨作戰的小型船隻。",
+      "evidence": [
+        "領哨船二十隻",
+        "哨船五隻"
+      ]
+    },
+    {
+      "id": "obj_small_boat",
+      "name": "小舟",
+      "type": "object",
+      "aliases": [],
+      "description": "焦觸、張南向曹操請求用於突襲的小船。",
+      "evidence": [
+        "乞付小舟二十餘只"
+      ]
+    },
+    {
+      "id": "obj_shuo",
+      "name": "槊",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操宴中所持兵器，醉中用以刺殺劉馥。",
+      "evidence": [
+        "我持此槊",
+        "手起一槊"
+      ]
+    },
+    {
+      "id": "strategy_tiesuo_lianzhou",
+      "name": "鐵索連舟",
+      "type": "strategy",
+      "aliases": [
+        "鳳雛妙計",
+        "連鎖停當"
+      ],
+      "description": "以鐵索連接戰船，使不習水戰的北軍能在船上安穩作戰。",
+      "evidence": [
+        "鐵索連舟",
+        "穩如平地"
+      ]
+    },
+    {
+      "id": "strategy_rumor",
+      "name": "謠言之計",
+      "type": "strategy",
+      "aliases": [
+        "暗布謠言"
+      ],
+      "description": "散布韓遂、馬騰謀反的消息，使曹操生疑並遣走徐庶。",
+      "evidence": [
+        "各寨中暗布謠言",
+        "韓遂、馬騰謀反"
+      ]
+    },
+    {
+      "id": "strategy_fire_attack",
+      "name": "火攻",
+      "type": "strategy",
+      "aliases": [],
+      "description": "程昱指出可克制連鎖戰船的攻法。",
+      "evidence": [
+        "彼若用火攻，難以迴避"
+      ]
+    },
+    {
+      "id": "battle_jiangnan_skirmish",
+      "name": "江南水寨前哨戰",
+      "type": "battle",
+      "aliases": [
+        "焦觸張南突襲"
+      ],
+      "description": "焦觸、張南率曹軍哨船突襲江南水寨，被韓當、周泰擊敗。",
+      "evidence": [
+        "直抵江南水寨",
+        "刺死焦觸",
+        "砍張南於水中"
+      ]
+    },
+    {
+      "id": "event_cao_nanzheng",
+      "name": "曹操南征",
+      "type": "event",
+      "aliases": [
+        "徵南"
+      ],
+      "description": "曹操率軍南下，目標是收服江南。",
+      "evidence": [
+        "吾引兵南徵",
+        "收服江南"
+      ]
+    },
+    {
+      "id": "event_changjiang_feast",
+      "name": "宴長江賦詩",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操在長江大船上設宴會諸將，飲酒賦詩。",
+      "evidence": [
+        "置酒設樂於大船",
+        "橫槊謂諸將"
+      ]
+    },
+    {
+      "id": "event_liu_fu_death",
+      "name": "劉馥被殺",
+      "type": "event",
+      "aliases": [],
+      "description": "劉馥指出曹操詩句不吉，曹操醉怒將其殺死。",
+      "evidence": [
+        "此不吉之言",
+        "手起一槊"
+      ]
+    },
+    {
+      "id": "event_navy_drill",
+      "name": "北軍水軍調練",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操令連鎖戰船分旗出寨，在長江上操練水軍。",
+      "evidence": [
+        "各隊伍戰船",
+        "觀看調練"
+      ]
+    },
+    {
+      "id": "event_zhou_yu_collapse",
+      "name": "周瑜吐血昏倒",
+      "type": "event",
+      "aliases": [],
+      "description": "周瑜見曹軍船密、黃旗落水，又被風拂面，忽想起一事而吐血昏倒。",
+      "evidence": [
+        "猛然想起一事",
+        "口吐鮮血"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_pang_tong",
+      "target": "strategy_tiesuo_lianzhou",
+      "type": "設計",
+      "description": "連鎖戰船之策被曹操稱為鳳雛妙計。",
+      "evidence": [
+        "鳳雛妙計",
+        "鐵索連舟"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_pang_tong",
+      "target": "char_xu_shu",
+      "type": "救援",
+      "description": "龐統用計助徐庶脫身。",
+      "evidence": [
+        "龐統救徐庶之計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "strategy_rumor",
+      "type": "執行計策",
+      "description": "徐庶派人到各寨暗中散布謠言。",
+      "evidence": [
+        "密使近人去各寨中暗布謠言"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_rumor",
+      "target": "char_han_sui",
+      "type": "借名",
+      "description": "謠言以韓遂謀反為內容。",
+      "evidence": [
+        "韓遂、馬騰謀反"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "strategy_rumor",
+      "target": "char_ma_teng",
+      "type": "借名",
+      "description": "謠言以馬騰謀反為內容。",
+      "evidence": [
+        "韓遂、馬騰謀反"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "strategy_rumor",
+      "target": "loc_xudu",
+      "type": "謠稱攻向",
+      "description": "謠言稱韓遂、馬騰將殺奔許都。",
+      "evidence": [
+        "殺奔許都來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xu_shu",
+      "type": "遣離",
+      "description": "曹操因後方憂慮而遣徐庶離開。",
+      "evidence": [
+        "曹操自遣徐庶去後"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_cao",
+      "type": "統領",
+      "description": "曹操統領北軍南征。",
+      "evidence": [
+        "吾有百萬雄師",
+        "請丞相調遣"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_chengxiang",
+      "type": "官職稱呼",
+      "description": "曹操在軍中被稱作丞相。",
+      "evidence": [
+        "請丞相調遣"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "event_cao_nanzheng",
+      "type": "發起",
+      "description": "曹操引兵南征，意在收服江南。",
+      "evidence": [
+        "吾引兵南徵",
+        "收服江南"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "event_cao_nanzheng",
+      "target": "loc_jiangnan",
+      "type": "目標",
+      "description": "曹操南征的目標是江南。",
+      "evidence": [
+        "所未得者南江也",
+        "收服江南"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "event_changjiang_feast",
+      "type": "主持",
+      "description": "曹操在長江大船上設宴會諸將。",
+      "evidence": [
+        "吾今夕欲會諸將"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_changjiang_feast",
+      "target": "loc_changjiang",
+      "type": "發生於",
+      "description": "宴會設於長江大船之上。",
+      "evidence": [
+        "長江一帶",
+        "置酒設樂於大船"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_changjiang_feast",
+      "target": "obj_big_ship",
+      "type": "使用場景",
+      "description": "大船是曹操宴會與賦詩之處。",
+      "evidence": [
+        "大船之上"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_big_ship",
+      "target": "obj_shuai_flag",
+      "type": "裝設",
+      "description": "曹操乘坐的大船上建有帥字旗號。",
+      "evidence": [
+        "上建帥字旗號"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xun_you",
+      "target": "char_cao_cao",
+      "type": "諫言",
+      "description": "荀攸提醒曹操勿言，以免洩漏。",
+      "evidence": [
+        "丞相勿言，恐有洩漏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhou_yu",
+      "type": "敵對",
+      "description": "曹操在宴中稱周瑜不識天時。",
+      "evidence": [
+        "周瑜、魯肅，不識天時"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_lu_su",
+      "type": "敵對",
+      "description": "曹操在宴中稱魯肅不識天時。",
+      "evidence": [
+        "周瑜、魯肅，不識天時"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_fu",
+      "target": "title_yangzhou_cishi",
+      "type": "官職",
+      "description": "劉馥為揚州刺史。",
+      "evidence": [
+        "乃揚州刺史"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_fu",
+      "target": "loc_hefei",
+      "type": "治理",
+      "description": "劉馥起自合淝，創立州治。",
+      "evidence": [
+        "起自合淝，創立州治"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_liu_fu",
+      "target": "char_cao_cao",
+      "type": "事奉",
+      "description": "劉馥久事曹操，多有功績。",
+      "evidence": [
+        "久事曹操，多立功績"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_fu",
+      "target": "char_cao_cao",
+      "type": "進諫",
+      "description": "劉馥指出曹操詩句不吉。",
+      "evidence": [
+        "此不吉之言也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_liu_fu",
+      "type": "殺害",
+      "description": "曹操醉怒，以槊殺劉馥。",
+      "evidence": [
+        "手起一槊"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_shuo",
+      "type": "使用",
+      "description": "曹操宴中持槊，並以槊擊殺劉馥。",
+      "evidence": [
+        "我持此槊",
+        "手起一槊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_xi",
+      "target": "char_liu_fu",
+      "type": "父子",
+      "description": "劉熙是劉馥之子。",
+      "evidence": [
+        "馥子劉熙"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "event_liu_fu_death",
+      "type": "事後處置",
+      "description": "曹操酒醒後悔，命以三公厚禮葬劉馥。",
+      "evidence": [
+        "三公厚禮葬之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_mao_jie",
+      "target": "title_shuijun_dudu",
+      "type": "官職",
+      "description": "毛玠為水軍都督。",
+      "evidence": [
+        "水軍都督毛玠"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "title_shuijun_dudu",
+      "type": "官職",
+      "description": "於禁為水軍都督。",
+      "evidence": [
+        "水軍都督毛玠、於禁"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mao_jie",
+      "target": "char_cao_cao",
+      "type": "請令",
+      "description": "毛玠與於禁請曹操調遣水軍進兵。",
+      "evidence": [
+        "請丞相調遣，克日進兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "char_cao_cao",
+      "type": "請令",
+      "description": "於禁與毛玠請曹操調遣水軍進兵。",
+      "evidence": [
+        "請丞相調遣，克日進兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_shuijun",
+      "type": "調遣",
+      "description": "曹操召集諸將，調遣水軍。",
+      "evidence": [
+        "喚集諸將，各各聽令"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_mabujun",
+      "type": "調遣",
+      "description": "曹操將馬步軍也分旗號調度。",
+      "evidence": [
+        "馬步前軍紅旗徐晃"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strategy_tiesuo_lianzhou",
+      "type": "採用",
+      "description": "曹操採用鐵索連舟，認為可渡江如履平地。",
+      "evidence": [
+        "鐵索連舟，果然渡江如履平地"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_tiesuo_lianzhou",
+      "target": "obj_chain_warships",
+      "type": "實作於",
+      "description": "鐵索連舟之策體現在船隻連鎖。",
+      "evidence": [
+        "船皆連鎖"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mao_jie",
+      "target": "army_cao_shuijun",
+      "type": "統領",
+      "description": "毛玠領中央黃旗水軍。",
+      "evidence": [
+        "水軍中央黃旗毛玠"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "army_cao_shuijun",
+      "type": "統領",
+      "description": "於禁領中央黃旗水軍。",
+      "evidence": [
+        "中央黃旗毛玠、於禁"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_he",
+      "target": "army_cao_shuijun",
+      "type": "統領前軍",
+      "description": "張郃領水軍前軍紅旗。",
+      "evidence": [
+        "前軍紅旗張郃"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_qian",
+      "target": "army_cao_shuijun",
+      "type": "統領後軍",
+      "description": "呂虔領水軍後軍皂旗。",
+      "evidence": [
+        "後軍皂旗呂虔"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wen_ping",
+      "target": "army_cao_shuijun",
+      "type": "統領左軍",
+      "description": "文聘領水軍左軍青旗。",
+      "evidence": [
+        "左軍青旗文聘"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_tong",
+      "target": "army_cao_shuijun",
+      "type": "統領右軍",
+      "description": "呂通領水軍右軍白旗。",
+      "evidence": [
+        "右軍白旗呂通"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "army_cao_mabujun",
+      "type": "統領前軍",
+      "description": "徐晃領馬步前軍紅旗。",
+      "evidence": [
+        "馬步前軍紅旗徐晃"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_dian",
+      "target": "army_cao_mabujun",
+      "type": "統領後軍",
+      "description": "李典領馬步後軍皂旗。",
+      "evidence": [
+        "後軍皂旗李典"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yue_jin",
+      "target": "army_cao_mabujun",
+      "type": "統領左軍",
+      "description": "樂進領馬步左軍青旗。",
+      "evidence": [
+        "左軍青旗樂進"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xiahou_yuan",
+      "target": "army_cao_mabujun",
+      "type": "統領右軍",
+      "description": "夏侯淵領馬步右軍白旗。",
+      "evidence": [
+        "右軍白旗夏侯淵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "title_jieying_shi",
+      "type": "任命",
+      "description": "夏侯惇被任為水陸路都接應使。",
+      "evidence": [
+        "水陸路都接應使：夏侯惇"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "title_jieying_shi",
+      "type": "任命",
+      "description": "曹洪被任為水陸路都接應使。",
+      "evidence": [
+        "水陸路都接應使：夏侯惇、曹洪"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "title_jianzhan_shi",
+      "type": "任命",
+      "description": "許褚被任為護衛往來監戰使。",
+      "evidence": [
+        "護衛往來監戰使：許褚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "title_jianzhan_shi",
+      "type": "任命",
+      "description": "張遼被任為護衛往來監戰使。",
+      "evidence": [
+        "護衛往來監戰使：許褚、張遼"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_navy_drill",
+      "target": "loc_changjiang",
+      "type": "發生於",
+      "description": "曹操水軍在長江水面操練。",
+      "evidence": [
+        "分佈水面，長江一帶"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_navy_drill",
+      "target": "loc_jiangbei_shuizhai",
+      "type": "出發於",
+      "description": "曹軍戰船從水軍寨分門而出。",
+      "evidence": [
+        "水軍寨中發擂",
+        "分門而出"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "strategy_fire_attack",
+      "type": "提出風險",
+      "description": "程昱指出連鎖船遇火攻難以迴避。",
+      "evidence": [
+        "彼若用火攻，難以迴避"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_fire_attack",
+      "target": "strategy_tiesuo_lianzhou",
+      "type": "克制",
+      "description": "火攻是連鎖戰船的弱點。",
+      "evidence": [
+        "船皆連鎖",
+        "彼若用火攻"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cheng_yu",
+      "type": "駁回",
+      "description": "曹操認為冬時無東南風，不懼火攻。",
+      "evidence": [
+        "吾何懼哉"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "source": "char_jiao_chu",
+      "target": "char_cao_cao",
+      "type": "請戰",
+      "description": "焦觸向曹操請小舟突襲江南水寨。",
+      "evidence": [
+        "乞付小舟二十餘只"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_nan",
+      "target": "char_cao_cao",
+      "type": "請戰",
+      "description": "張南與焦觸同請小舟進攻。",
+      "evidence": [
+        "某與張南各引一半"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jiao_chu",
+      "target": "army_jiao_zhang_boats",
+      "type": "統領",
+      "description": "焦觸與張南各引一半哨船。",
+      "evidence": [
+        "某與張南各引一半"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhang_nan",
+      "target": "army_jiao_zhang_boats",
+      "type": "統領",
+      "description": "張南與焦觸各引一半哨船。",
+      "evidence": [
+        "某與張南各引一半"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "army_jiao_zhang_boats",
+      "target": "loc_jiangnan_shuizhai",
+      "type": "攻打",
+      "description": "焦觸、張南率哨船直攻江南水寨。",
+      "evidence": [
+        "直抵江南水寨"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_jiangnan_skirmish",
+      "target": "loc_changjiang",
+      "type": "發生於",
+      "description": "前哨戰在長江水面展開。",
+      "evidence": [
+        "望江南進發",
+        "半江中"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "faction_jiangdong",
+      "type": "統領防守",
+      "description": "周瑜傳令江東各寨嚴守。",
+      "evidence": [
+        "傳令各寨嚴加守禦"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_han_dang",
+      "type": "派遣",
+      "description": "周瑜命韓當出戰為先鋒。",
+      "evidence": [
+        "誰敢先出",
+        "韓當、周泰二人齊出"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_zhou_tai",
+      "type": "派遣",
+      "description": "周瑜命周泰出戰為先鋒。",
+      "evidence": [
+        "韓當、周泰二人齊出"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_dang",
+      "target": "army_jiangdong_shaoships",
+      "type": "統領",
+      "description": "韓當領五隻哨船出戰。",
+      "evidence": [
+        "韓當、周泰各引哨船五隻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_tai",
+      "target": "army_jiangdong_shaoships",
+      "type": "統領",
+      "description": "周泰領五隻哨船出戰。",
+      "evidence": [
+        "韓當、周泰各引哨船五隻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_dang",
+      "target": "char_jiao_chu",
+      "type": "擊殺",
+      "description": "韓當與焦觸交鋒，一槍刺死焦觸。",
+      "evidence": [
+        "刺死焦觸"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_tai",
+      "target": "char_zhang_nan",
+      "type": "擊殺",
+      "description": "周泰躍上張南船，斬張南於水中。",
+      "evidence": [
+        "砍張南於水中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wen_ping",
+      "target": "char_han_dang",
+      "type": "交戰",
+      "description": "文聘與韓當在半江相迎廝殺。",
+      "evidence": [
+        "文聘與韓當、周泰相持"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wen_ping",
+      "target": "char_zhou_tai",
+      "type": "交戰",
+      "description": "文聘與周泰在半江相持。",
+      "evidence": [
+        "文聘與韓當、周泰相持"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_dang",
+      "target": "char_wen_ping",
+      "type": "擊退",
+      "description": "韓當與周泰攻擊，文聘不支退走。",
+      "evidence": [
+        "文聘抵敵不住，回船而走"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_tai",
+      "target": "char_wen_ping",
+      "type": "擊退",
+      "description": "周泰與韓當攻擊，文聘不支退走。",
+      "evidence": [
+        "文聘抵敵不住，回船而走"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "obj_white_flag",
+      "type": "發令",
+      "description": "周瑜用白旗招颭並鳴金，令韓當、周泰撤回。",
+      "evidence": [
+        "白旗招颭，令眾鳴金"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_yellow_flag",
+      "target": "faction_cao",
+      "type": "隸屬",
+      "description": "中央黃旗屬曹軍水寨。",
+      "evidence": [
+        "曹軍寨中，被風吹折中央黃旗"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "obj_yellow_flag",
+      "type": "觀察",
+      "description": "周瑜見曹軍中央黃旗被風吹折落江。",
+      "evidence": [
+        "此不祥之兆也"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "event_zhou_yu_collapse",
+      "type": "經歷",
+      "description": "周瑜忽然想起一事，吐血昏倒。",
+      "evidence": [
+        "猛然想起一事",
+        "口吐鮮血"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "army_cao_shuijun",
+      "type": "觀察",
+      "description": "周瑜登高觀察江北曹軍戰船密布。",
+      "evidence": [
+        "江北戰船如蘆葦之密"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_xu_shu_escape",
+      "name": "徐庶脫身之計",
+      "summary": "龐統與徐庶密談後，徐庶暗布韓遂、馬騰謀反的謠言，曹操生疑並遣徐庶離開曹營。",
+      "participants": [
+        "char_pang_tong",
+        "char_xu_shu",
+        "char_cao_cao",
+        "char_han_sui",
+        "char_ma_teng"
+      ],
+      "locations": [
+        "loc_xiliangzhou",
+        "loc_xudu",
+        "loc_jiangdong"
+      ],
+      "evidence": [
+        "龐統救徐庶之計",
+        "暗布謠言"
+      ]
+    },
+    {
+      "id": "evt_changjiang_feast",
+      "name": "宴長江賦詩",
+      "summary": "曹操在長江大船上置酒設樂，會集文武諸將，橫槊賦詩並談論收服江南。",
+      "participants": [
+        "char_cao_cao",
+        "char_xun_you",
+        "char_liu_fu"
+      ],
+      "locations": [
+        "loc_changjiang",
+        "loc_nanping_shan",
+        "loc_chaisang",
+        "loc_xiakou",
+        "loc_fanshan",
+        "loc_wulin"
+      ],
+      "evidence": [
+        "置酒設樂於大船",
+        "橫槊謂諸將"
+      ]
+    },
+    {
+      "id": "evt_liu_fu_killed",
+      "name": "劉馥被殺與厚葬",
+      "summary": "劉馥指出曹操詩句不吉，曹操醉怒將其殺死；酒醒後悔，准劉熙請屍歸葬，並命以三公厚禮安葬。",
+      "participants": [
+        "char_cao_cao",
+        "char_liu_fu",
+        "char_liu_xi"
+      ],
+      "locations": [
+        "loc_changjiang"
+      ],
+      "evidence": [
+        "此不吉之言也",
+        "三公厚禮葬之"
+      ]
+    },
+    {
+      "id": "evt_chain_fleet_ordered",
+      "name": "連鎖戰船分軍聽令",
+      "summary": "毛玠、於禁報告船隻連鎖齊備，曹操登中央大戰船，分派水旱二軍五色旗號及接應、監戰職務。",
+      "participants": [
+        "char_cao_cao",
+        "char_mao_jie",
+        "char_yu_jin",
+        "char_zhang_he",
+        "char_lu_qian",
+        "char_wen_ping",
+        "char_lu_tong",
+        "char_xu_huang",
+        "char_li_dian",
+        "char_yue_jin",
+        "char_xiahou_yuan",
+        "char_xiahou_dun",
+        "char_cao_hong",
+        "char_xu_chu",
+        "char_zhang_liao"
+      ],
+      "locations": [
+        "loc_jiangbei_shuizhai",
+        "loc_changjiang"
+      ],
+      "evidence": [
+        "俱已配搭連鎖停當",
+        "各各聽令"
+      ]
+    },
+    {
+      "id": "evt_navy_drill_and_fire_warning",
+      "name": "北軍水軍調練與火攻警示",
+      "summary": "曹操觀看連鎖水軍操練，認為必勝；程昱提醒連鎖船怕火攻，曹操以冬時無東南風為由不懼。",
+      "participants": [
+        "char_cao_cao",
+        "char_cheng_yu",
+        "army_cao_shuijun"
+      ],
+      "locations": [
+        "loc_changjiang",
+        "loc_jiangbei_shuizhai"
+      ],
+      "evidence": [
+        "觀看調練",
+        "彼若用火攻"
+      ]
+    },
+    {
+      "id": "evt_jiangnan_skirmish",
+      "name": "江南水寨前哨戰",
+      "summary": "焦觸、張南率二十隻哨船攻向江南水寨；周瑜派韓當、周泰迎戰，韓當刺死焦觸，周泰斬張南，又擊退文聘後被周瑜召回。",
+      "participants": [
+        "char_jiao_chu",
+        "char_zhang_nan",
+        "char_zhou_yu",
+        "char_han_dang",
+        "char_zhou_tai",
+        "char_wen_ping",
+        "army_jiao_zhang_boats",
+        "army_jiangdong_shaoships"
+      ],
+      "locations": [
+        "loc_changjiang",
+        "loc_jiangnan_shuizhai",
+        "loc_jiangbei_shuizhai"
+      ],
+      "evidence": [
+        "領哨船二十隻",
+        "刺死焦觸",
+        "砍張南於水中"
+      ]
+    },
+    {
+      "id": "evt_zhou_yu_collapse",
+      "name": "周瑜吐血昏倒",
+      "summary": "周瑜見江北曹軍戰船密集，又見中央黃旗被風吹折落江，忽被風拂面而想到一事，隨即吐血昏倒。",
+      "participants": [
+        "char_zhou_yu",
+        "faction_cao"
+      ],
+      "locations": [
+        "loc_changjiang",
+        "loc_jiangbei_shuizhai"
+      ],
+      "evidence": [
+        "江北戰船如蘆葦之密",
+        "風吹折中央黃旗",
+        "口吐鮮血"
+      ]
+    }
+  ],
+  "notes": [
+    "正文中劉馥被殺處疑有誤字「劉馦」，依上下文「揚州刺史劉馥」「馥子劉熙」統一記為劉馥。",
+    "僅抽取本章正文可支持的關係；前史炫耀如破黃巾、擒呂布等未作核心關係展開。"
+  ]
+}

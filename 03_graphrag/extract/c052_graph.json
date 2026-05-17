@@ -1,0 +1,2059 @@
+{
+  "book": "三國演義",
+  "chapter_no": 52,
+  "chapter_title": "諸葛亮智辭魯肅　趙子龍計取桂陽",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "軍師",
+        "南陽諸葛孔明"
+      ],
+      "description": "劉備軍師，本回以劉琦智辭魯肅，又設伏取零陵。",
+      "evidence": [
+        "孔明令大開城門",
+        "吾乃南陽諸葛孔明也"
+      ]
+    },
+    {
+      "id": "char_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "子敬",
+        "魯子敬"
+      ],
+      "description": "東吳使者，受周瑜所託到荊州索討城池。",
+      "evidence": [
+        "魯肅引從者逕南郡來",
+        "務要討荊襄還東吳"
+      ]
+    },
+    {
+      "id": "char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "公瑾",
+        "都督"
+      ],
+      "description": "東吳都督，因南郡、荊襄被孔明取得而大怒，後奉孫權命班師。",
+      "evidence": [
+        "周瑜見孔明襲了南郡",
+        "只得班師回柴桑養病"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [
+        "程德謀"
+      ],
+      "description": "東吳將領，周瑜欲令其助攻南郡，後被令率戰船士卒赴合淝。",
+      "evidence": [
+        "程德謀可助我攻打南郡",
+        "令程普部領戰船士卒"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "劉玄德",
+        "玄德",
+        "皇叔"
+      ],
+      "description": "蜀漢一方主君，本回據荊州、南郡、襄陽，派兵南征零陵、桂陽。",
+      "evidence": [
+        "劉玄德自得荊州、南郡、襄陽",
+        "玄德為中軍"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "趙子龍",
+        "子龍",
+        "常山趙子龍"
+      ],
+      "description": "劉備麾下大將，參與零陵伏擊，獨領三千軍計取桂陽。",
+      "evidence": [
+        "認得常山趙子龍否",
+        "趙雲領了三千人馬"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "吳侯",
+        "主公"
+      ],
+      "description": "東吳主君，攻合淝不下，遣使命周瑜收軍支援。",
+      "evidence": [
+        "吾主吳侯",
+        "孫權遣使至"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹丞相"
+      ],
+      "description": "曹軍主帥，被魯肅、孔明等提及為東吳與劉備共同對手。",
+      "evidence": [
+        "與曹操相持",
+        "曹操引百萬之眾"
+      ]
+    },
+    {
+      "id": "char_liu_qi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "公子"
+      ],
+      "description": "劉表之子，孔明以其在荊州為據，回應魯肅索討。",
+      "evidence": [
+        "公子劉琦佔據",
+        "病軀不能施禮"
+      ]
+    },
+    {
+      "id": "char_yi_ji",
+      "name": "伊籍",
+      "type": "character",
+      "aliases": [],
+      "description": "向劉備建議求賢，並引出馬良。",
+      "evidence": [
+        "乃伊籍也",
+        "何不求賢士以問之"
+      ]
+    },
+    {
+      "id": "char_ma_liang",
+      "name": "馬良",
+      "type": "character",
+      "aliases": [
+        "季常",
+        "白眉"
+      ],
+      "description": "荊襄馬氏賢士，為劉備獻保守荊襄與南征四郡之策。",
+      "evidence": [
+        "名良，字季常",
+        "白眉最良"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張翼德",
+        "翼德"
+      ],
+      "description": "劉備大將，任取零陵先鋒，擒劉賢，章末請取武陵。",
+      "evidence": [
+        "差張飛為先鋒",
+        "張飛趕來，活捉過馬"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長"
+      ],
+      "description": "劉備大將，本回被安排回守荊州。",
+      "evidence": [
+        "替雲長回荊州",
+        "留雲長守荊州"
+      ]
+    },
+    {
+      "id": "char_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備部下，被留下守江陵。",
+      "evidence": [
+        "糜竺、劉封守江陵"
+      ]
+    },
+    {
+      "id": "char_liu_feng",
+      "name": "劉封",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備部下，與糜竺同守江陵。",
+      "evidence": [
+        "糜竺、劉封守江陵"
+      ]
+    },
+    {
+      "id": "char_liu_du",
+      "name": "劉度",
+      "type": "character",
+      "aliases": [],
+      "description": "零陵太守，先遣子劉賢、邢道榮拒敵，後投降劉備。",
+      "evidence": [
+        "零陵太守劉度",
+        "出城投玄德大寨納降"
+      ]
+    },
+    {
+      "id": "char_liu_xian",
+      "name": "劉賢",
+      "type": "character",
+      "aliases": [],
+      "description": "劉度之子，與邢道榮出戰，後被張飛活捉並勸父投降。",
+      "evidence": [
+        "其子劉賢",
+        "劉賢回零陵見父劉度"
+      ]
+    },
+    {
+      "id": "char_xing_daorong",
+      "name": "邢道榮",
+      "type": "character",
+      "aliases": [],
+      "description": "零陵上將，先戰張飛、趙雲不敵，後詐降失敗，被趙雲刺死。",
+      "evidence": [
+        "本州上將邢道榮",
+        "一槍刺道榮於馬下"
+      ]
+    },
+    {
+      "id": "char_zhao_fan",
+      "name": "趙範",
+      "type": "character",
+      "aliases": [],
+      "description": "桂陽太守，先降趙雲並結為兄弟，後被趙雲計擒。",
+      "evidence": [
+        "桂陽太守趙範",
+        "雲喝左右捉下"
+      ]
+    },
+    {
+      "id": "char_chen_ying",
+      "name": "陳應",
+      "type": "character",
+      "aliases": [],
+      "description": "桂陽管軍校尉，迎戰趙雲被擒放回，後詐降被斬。",
+      "evidence": [
+        "管軍校尉陳應",
+        "將降將陳、鮑二人當時斬了"
+      ]
+    },
+    {
+      "id": "char_bao_long",
+      "name": "鮑隆",
+      "type": "character",
+      "aliases": [],
+      "description": "桂陽管軍校尉，與陳應同謀詐降，被趙雲識破斬殺。",
+      "evidence": [
+        "管軍校尉陳應、鮑隆",
+        "鮑隆曰：我兩個詐降"
+      ]
+    },
+    {
+      "id": "char_fan_shi",
+      "name": "樊氏",
+      "type": "character",
+      "aliases": [
+        "家嫂"
+      ],
+      "description": "趙範之寡嫂，趙範欲將其嫁與趙雲。",
+      "evidence": [
+        "家嫂樊氏也",
+        "弟常勸其改嫁"
+      ]
+    },
+    {
+      "id": "char_jin_xuan",
+      "name": "金旋",
+      "type": "character",
+      "aliases": [],
+      "description": "武陵太守，章末被張飛列為欲擒之人。",
+      "evidence": [
+        "取武陵郡，活捉太守金旋"
+      ]
+    },
+    {
+      "id": "faction_eastern_wu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "吳"
+      ],
+      "description": "孫權、周瑜、魯肅所屬勢力，欲討還荊襄九郡。",
+      "evidence": [
+        "定要奪還東吳",
+        "九郡，合當歸於東吳"
+      ]
+    },
+    {
+      "id": "faction_liu_bei",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "玄德軍馬"
+      ],
+      "description": "劉備所統勢力，本回南征零陵、桂陽。",
+      "evidence": [
+        "玄德軍馬到來",
+        "玄德為中軍"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹軍",
+      "type": "faction",
+      "aliases": [
+        "曹兵"
+      ],
+      "description": "曹操勢力，被魯肅稱為東吳當前相持之敵。",
+      "evidence": [
+        "與曹操相持",
+        "殺退曹兵"
+      ]
+    },
+    {
+      "id": "faction_lingling",
+      "name": "零陵郡勢力",
+      "type": "faction",
+      "aliases": [
+        "零陵"
+      ],
+      "description": "劉度、劉賢、邢道榮所代表的零陵守方。",
+      "evidence": [
+        "零陵太守劉度",
+        "本州上將邢道榮"
+      ]
+    },
+    {
+      "id": "faction_guiyang",
+      "name": "桂陽郡勢力",
+      "type": "faction",
+      "aliases": [
+        "桂陽"
+      ],
+      "description": "趙範、陳應、鮑隆所代表的桂陽守方。",
+      "evidence": [
+        "桂陽太守趙範",
+        "管軍校尉陳應、鮑隆"
+      ]
+    },
+    {
+      "id": "faction_ma_family",
+      "name": "荊襄馬氏",
+      "type": "faction",
+      "aliases": [
+        "馬氏五常"
+      ],
+      "description": "荊襄名族，馬良出自其中。",
+      "evidence": [
+        "荊襄馬氏",
+        "馬氏五常，白眉最良"
+      ]
+    },
+    {
+      "id": "loc_nanjun",
+      "name": "南郡",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜欲奪回、孔明已襲得之地。",
+      "evidence": [
+        "孔明襲了南郡",
+        "攻打南郡"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備軍據守之地，也是魯肅索討與關羽留守之處。",
+      "evidence": [
+        "徑奔荊州",
+        "留雲長守荊州"
+      ]
+    },
+    {
+      "id": "loc_jingxiang",
+      "name": "荊襄",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜、魯肅欲討還的地區，劉備正議長久守策。",
+      "evidence": [
+        "襲了荊襄",
+        "保守荊襄之策"
+      ]
+    },
+    {
+      "id": "loc_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "魯肅稱劉琦所在之地，孔明以劉琦在荊州回應。",
+      "evidence": [
+        "公子在江夏"
+      ]
+    },
+    {
+      "id": "loc_hefei",
+      "name": "合淝",
+      "type": "location",
+      "aliases": [
+        "合肥"
+      ],
+      "description": "孫權攻打不下，命周瑜收軍遣兵相助。",
+      "evidence": [
+        "主公現攻合淝不下",
+        "撥兵赴合淝相助"
+      ]
+    },
+    {
+      "id": "loc_chaisang",
+      "name": "柴桑",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜班師養病之處。",
+      "evidence": [
+        "班師回柴桑養病"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備取得之地，馬良建議送劉琦回此養病。",
+      "evidence": [
+        "自得荊州、南郡、襄陽",
+        "送劉琦回襄陽"
+      ]
+    },
+    {
+      "id": "loc_jiangling",
+      "name": "江陵",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備軍留糜竺、劉封守備之地。",
+      "evidence": [
+        "糜竺、劉封守江陵"
+      ]
+    },
+    {
+      "id": "loc_lingling",
+      "name": "零陵",
+      "type": "location",
+      "aliases": [
+        "零陵郡"
+      ],
+      "description": "南征四郡之一，本回被劉備軍攻取。",
+      "evidence": [
+        "便調兵取零陵",
+        "零陵已取了"
+      ]
+    },
+    {
+      "id": "loc_guiyang",
+      "name": "桂陽",
+      "type": "location",
+      "aliases": [
+        "桂陽郡"
+      ],
+      "description": "南征四郡之一，本回由趙雲計取。",
+      "evidence": [
+        "桂陽郡何人敢取",
+        "遂入城，安撫百姓"
+      ]
+    },
+    {
+      "id": "loc_wuling",
+      "name": "武陵",
+      "type": "location",
+      "aliases": [
+        "武陵郡"
+      ],
+      "description": "南征四郡之一，章末張飛請求攻取。",
+      "evidence": [
+        "南征武陵",
+        "去取武陵郡"
+      ]
+    },
+    {
+      "id": "loc_changsha",
+      "name": "長沙",
+      "type": "location",
+      "aliases": [],
+      "description": "馬良所列南征四郡之一。",
+      "evidence": [
+        "南征武陵、長沙、桂陽、零陵四郡"
+      ]
+    },
+    {
+      "id": "loc_zhen_ding",
+      "name": "真定",
+      "type": "location",
+      "aliases": [],
+      "description": "趙雲與趙範自稱同鄉之地。",
+      "evidence": [
+        "將軍乃真定人，某亦真定人"
+      ]
+    },
+    {
+      "id": "loc_changban",
+      "name": "當陽長坂",
+      "type": "location",
+      "aliases": [
+        "長坂"
+      ],
+      "description": "趙範提及趙雲舊日勇名的地點。",
+      "evidence": [
+        "在當陽長坂百萬軍中"
+      ]
+    },
+    {
+      "id": "battle_hefei",
+      "name": "合淝戰事",
+      "type": "battle",
+      "aliases": [
+        "孫權攻合淝"
+      ],
+      "description": "孫權攻合淝不下，影響周瑜撤軍部署。",
+      "evidence": [
+        "圍合淝，累戰不捷"
+      ]
+    },
+    {
+      "id": "battle_lingling",
+      "name": "零陵之戰",
+      "type": "battle",
+      "aliases": [
+        "取零陵"
+      ],
+      "description": "劉備軍以孔明伏計擊破劉賢、邢道榮，迫使劉度投降。",
+      "evidence": [
+        "便調兵取零陵",
+        "劉度自降矣"
+      ]
+    },
+    {
+      "id": "battle_guiyang",
+      "name": "桂陽之戰",
+      "type": "battle",
+      "aliases": [
+        "取桂陽",
+        "計取桂陽"
+      ],
+      "description": "趙雲獨領三千軍，擒陳應、斬陳鮑、捉趙範而取桂陽。",
+      "evidence": [
+        "趙雲領了三千人馬",
+        "遂入城"
+      ]
+    },
+    {
+      "id": "title_dudu",
+      "name": "都督",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜在東吳軍中的職稱。",
+      "evidence": [
+        "都督公瑾"
+      ]
+    },
+    {
+      "id": "title_wuhou",
+      "name": "吳侯",
+      "type": "title",
+      "aliases": [],
+      "description": "魯肅稱孫權之號。",
+      "evidence": [
+        "吾主吳侯"
+      ]
+    },
+    {
+      "id": "title_huangshu",
+      "name": "皇叔",
+      "type": "title",
+      "aliases": [
+        "大漢皇叔"
+      ],
+      "description": "魯肅、趙範等稱劉備之號。",
+      "evidence": [
+        "申意皇叔",
+        "劉玄德乃大漢皇叔"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "孔明在劉備軍中的職掌。",
+      "evidence": [
+        "吾主與軍師",
+        "軍師若肯放某回去"
+      ]
+    },
+    {
+      "id": "title_jingzhou_cishi",
+      "name": "荊州刺史",
+      "type": "title",
+      "aliases": [],
+      "description": "馬良建議表奏劉琦擔任的官職。",
+      "evidence": [
+        "表奏公子為荊州刺史"
+      ]
+    },
+    {
+      "id": "title_lingling_taishou",
+      "name": "零陵太守",
+      "type": "title",
+      "aliases": [],
+      "description": "劉度所任職稱。",
+      "evidence": [
+        "零陵太守劉度"
+      ]
+    },
+    {
+      "id": "title_guiyang_taishou",
+      "name": "桂陽太守",
+      "type": "title",
+      "aliases": [],
+      "description": "趙範所任職稱。",
+      "evidence": [
+        "桂陽太守趙範"
+      ]
+    },
+    {
+      "id": "title_guan_jun_xiaowei",
+      "name": "管軍校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "陳應、鮑隆所任桂陽軍職。",
+      "evidence": [
+        "管軍校尉陳應、鮑隆"
+      ]
+    },
+    {
+      "id": "title_junshou",
+      "name": "郡守",
+      "type": "title",
+      "aliases": [],
+      "description": "孔明准劉度投降後仍留任的職位。",
+      "evidence": [
+        "教劉度仍為郡守"
+      ]
+    },
+    {
+      "id": "title_xianfeng",
+      "name": "先鋒",
+      "type": "title",
+      "aliases": [],
+      "description": "張飛在取零陵部署中的職責。",
+      "evidence": [
+        "差張飛為先鋒"
+      ]
+    },
+    {
+      "id": "title_shangjiang",
+      "name": "上將",
+      "type": "title",
+      "aliases": [],
+      "description": "劉賢稱邢道榮為本州勇將。",
+      "evidence": [
+        "本州上將邢道榮"
+      ]
+    },
+    {
+      "id": "obj_four_wheel_cart",
+      "name": "四輪車",
+      "type": "object",
+      "aliases": [],
+      "description": "孔明臨陣所乘之車，用以誘邢道榮追擊。",
+      "evidence": [
+        "推出一輛四輪車"
+      ]
+    },
+    {
+      "id": "obj_feather_fan",
+      "name": "羽扇",
+      "type": "object",
+      "aliases": [],
+      "description": "孔明臨陣手持之物。",
+      "evidence": [
+        "手執羽扇"
+      ]
+    },
+    {
+      "id": "obj_kaishan_axe",
+      "name": "開山大斧",
+      "type": "object",
+      "aliases": [],
+      "description": "邢道榮所用兵器。",
+      "evidence": [
+        "手使開山大斧"
+      ]
+    },
+    {
+      "id": "obj_flying_fork",
+      "name": "飛叉",
+      "type": "object",
+      "aliases": [],
+      "description": "陳應所用兵器，被趙雲接住回擲。",
+      "evidence": [
+        "陳應會使飛叉",
+        "用飛叉擲去"
+      ]
+    },
+    {
+      "id": "obj_seal",
+      "name": "印綬",
+      "type": "object",
+      "aliases": [
+        "印瑤",
+        "印綏",
+        "印綺"
+      ],
+      "description": "零陵、桂陽太守納降時捧出的官印信物；原文用字有多處異形。",
+      "evidence": [
+        "捧印瑤出城",
+        "納了印綺"
+      ]
+    },
+    {
+      "id": "obj_military_pledge",
+      "name": "軍令狀",
+      "type": "object",
+      "aliases": [],
+      "description": "趙雲請取桂陽時向孔明立下的責任文書。",
+      "evidence": [
+        "責了軍令狀"
+      ]
+    },
+    {
+      "id": "obj_grass_bundle",
+      "name": "草把",
+      "type": "object",
+      "aliases": [],
+      "description": "零陵夜戰中放火軍所帶之物。",
+      "evidence": [
+        "每人各帶草把"
+      ]
+    },
+    {
+      "id": "obj_yellow_flag",
+      "name": "黃旗",
+      "type": "object",
+      "aliases": [],
+      "description": "孔明誘敵陣中用以吸引邢道榮追趕的旗號。",
+      "evidence": [
+        "中央一簇黃旗"
+      ]
+    },
+    {
+      "id": "strategy_zhi_ci_lu_su",
+      "name": "智辭魯肅",
+      "type": "strategy",
+      "aliases": [
+        "以劉琦辭魯肅"
+      ],
+      "description": "孔明以劉琦仍在、仍守荊州為由，暫拒東吳索討。",
+      "evidence": [
+        "公子在一日，守一日"
+      ]
+    },
+    {
+      "id": "strategy_ma_liang_policy",
+      "name": "保守荊襄之策",
+      "type": "strategy",
+      "aliases": [
+        "南征四郡之策"
+      ],
+      "description": "馬良建議安置劉琦、表奏刺史，再南征四郡以立根本。",
+      "evidence": [
+        "請問保守荊襄之策",
+        "南征武陵、長沙、桂陽、零陵"
+      ]
+    },
+    {
+      "id": "strategy_kongming_ambush",
+      "name": "孔明伏兵誘敵計",
+      "type": "strategy",
+      "aliases": [
+        "黃旗誘敵"
+      ],
+      "description": "孔明以車、黃旗誘邢道榮追趕，再令張飛、趙雲伏擊。",
+      "evidence": [
+        "只望黃旗而趕",
+        "兩下伏兵齊出"
+      ]
+    },
+    {
+      "id": "strategy_xing_false_surrender",
+      "name": "邢道榮詐降",
+      "type": "strategy",
+      "aliases": [],
+      "description": "邢道榮被擒後許稱願作內應，實回寨告知劉賢。",
+      "evidence": [
+        "今晚軍師調兵劫寨，某為內應",
+        "將前事實訴劉賢"
+      ]
+    },
+    {
+      "id": "strategy_counter_plan",
+      "name": "劉賢邢道榮將計就計",
+      "type": "strategy",
+      "aliases": [
+        "虛寨誘擒孔明"
+      ],
+      "description": "劉賢依邢道榮之計，設虛寨旗幡欲趁孔明劫寨時反擒。",
+      "evidence": [
+        "可將計就計",
+        "寨中虛立旗幡"
+      ]
+    },
+    {
+      "id": "strategy_chen_bao_false_surrender",
+      "name": "陳應鮑隆詐降",
+      "type": "strategy",
+      "aliases": [],
+      "description": "陳應、鮑隆約定詐降入趙雲軍，配合趙範搦戰擒趙雲。",
+      "evidence": [
+        "我兩個詐降在他軍中"
+      ]
+    },
+    {
+      "id": "strategy_beauty_trap_claim",
+      "name": "美人計說辭",
+      "type": "strategy",
+      "aliases": [
+        "趙範欲用美人計"
+      ],
+      "description": "陳應、鮑隆詐降時聲稱趙範以樊氏為餌謀害趙雲，此處作為其說辭記錄。",
+      "evidence": [
+        "趙範欲用美人計賺將軍"
+      ]
+    },
+    {
+      "id": "strategy_zhao_open_gate",
+      "name": "趙雲偽報開城計",
+      "type": "strategy",
+      "aliases": [
+        "詐稱殺趙雲回軍"
+      ],
+      "description": "趙雲令桂陽降兵叫門，假稱陳、鮑已殺趙雲，使趙範出城被擒。",
+      "evidence": [
+        "說陳、鮑二將軍殺了趙雲回軍"
+      ]
+    },
+    {
+      "id": "army_cheng_pu_fleet",
+      "name": "程普戰船士卒",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜奉命調赴合淝聽孫權使用的東吳兵力。",
+      "evidence": [
+        "程普部領戰船士卒"
+      ]
+    },
+    {
+      "id": "army_liu_bei_15000",
+      "name": "劉備中軍一萬五千",
+      "type": "army",
+      "aliases": [
+        "人馬一萬五千"
+      ],
+      "description": "劉備與孔明南征零陵時的中軍兵力。",
+      "evidence": [
+        "玄德為中軍，人馬一萬五千"
+      ]
+    },
+    {
+      "id": "army_lingling_10000",
+      "name": "劉賢邢道榮萬餘兵",
+      "type": "army",
+      "aliases": [
+        "萬餘兵"
+      ],
+      "description": "劉賢、邢道榮離零陵城下寨迎戰的兵力。",
+      "evidence": [
+        "引兵萬餘，離城三十里"
+      ]
+    },
+    {
+      "id": "army_zhao_yun_3000",
+      "name": "趙雲三千精兵",
+      "type": "army",
+      "aliases": [
+        "三千人馬"
+      ],
+      "description": "趙雲請取桂陽時所領軍隊。",
+      "evidence": [
+        "選三千精兵付趙雲去"
+      ]
+    },
+    {
+      "id": "army_chen_ying_3000",
+      "name": "陳應三千人馬",
+      "type": "army",
+      "aliases": [],
+      "description": "陳應出桂陽迎戰趙雲的兵力。",
+      "evidence": [
+        "陳應領三千人馬出城迎敵"
+      ]
+    },
+    {
+      "id": "army_zhao_yun_50_cavalry",
+      "name": "趙雲五十騎",
+      "type": "army",
+      "aliases": [
+        "五十騎乘"
+      ],
+      "description": "趙雲入桂陽城安民時所帶少量騎從。",
+      "evidence": [
+        "只帶五十騎乘隨入城"
+      ]
+    },
+    {
+      "id": "army_zhao_yun_1000",
+      "name": "趙雲一千軍",
+      "type": "army",
+      "aliases": [],
+      "description": "趙雲夜取桂陽時在後接應的兵力。",
+      "evidence": [
+        "雲引一千軍在後"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_zhou_yu",
+      "target": "char_zhuge_liang",
+      "type": "敵對",
+      "description": "周瑜因孔明取得南郡、荊襄而怨怒，欲殺孔明。",
+      "evidence": [
+        "若不殺諸葛村夫"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "loc_nanjun",
+      "type": "攻打意圖",
+      "description": "周瑜計議攻打南郡，欲奪還東吳。",
+      "evidence": [
+        "攻打南郡，定要奪還東吳"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "loc_nanjun",
+      "type": "受命助攻",
+      "description": "周瑜點名程普可助攻南郡。",
+      "evidence": [
+        "程德謀可助我攻打南郡"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_lu_su",
+      "target": "char_zhou_yu",
+      "type": "勸阻",
+      "description": "魯肅勸周瑜不可急與劉備、孔明爭城。",
+      "evidence": [
+        "不可。方今與曹操相持"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_lu_su",
+      "target": "faction_eastern_wu",
+      "type": "隸屬",
+      "description": "魯肅代表東吳來見劉備、孔明。",
+      "evidence": [
+        "吾主吳侯"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_lu_su",
+      "target": "loc_jingzhou",
+      "type": "出使",
+      "description": "魯肅先到南郡，後徑赴荊州見孔明。",
+      "evidence": [
+        "徑奔荊州"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strategy_zhi_ci_lu_su",
+      "type": "施行",
+      "description": "孔明以劉琦在荊州為由，辭退魯肅索討。",
+      "evidence": [
+        "子敬欲見公子乎"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_qi",
+      "target": "loc_jingzhou",
+      "type": "名義佔據",
+      "description": "魯肅承認荊州系公子劉琦佔據，孔明以此守辭。",
+      "evidence": [
+        "系公子劉琦佔據"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_lu_su",
+      "target": "loc_jingxiang",
+      "type": "索討",
+      "description": "魯肅承諾周瑜要討荊襄還東吳。",
+      "evidence": [
+        "務要討荊襄還東吳"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "battle_hefei",
+      "type": "發起攻勢",
+      "description": "孫權正在圍攻合淝但累戰不捷。",
+      "evidence": [
+        "主公圍合淝，累戰不捷"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_zhou_yu",
+      "type": "調令",
+      "description": "孫權遣使命周瑜收回大軍，撥兵支援合淝。",
+      "evidence": [
+        "令都督收回大軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "loc_chaisang",
+      "type": "班師養病",
+      "description": "周瑜奉命撤軍後回柴桑養病。",
+      "evidence": [
+        "班師回柴桑養病"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "army_cheng_pu_fleet",
+      "type": "統領",
+      "description": "程普統領戰船士卒赴合淝。",
+      "evidence": [
+        "程普部領戰船士卒"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "army_cheng_pu_fleet",
+      "target": "loc_hefei",
+      "type": "行軍支援",
+      "description": "程普部隊到合淝聽孫權調用。",
+      "evidence": [
+        "來合淝聽孫權調用"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_jingzhou",
+      "type": "據有",
+      "description": "劉備取得荊州。",
+      "evidence": [
+        "自得荊州、南郡、襄陽"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_nanjun",
+      "type": "據有",
+      "description": "劉備取得南郡。",
+      "evidence": [
+        "自得荊州、南郡、襄陽"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_xiangyang",
+      "type": "據有",
+      "description": "劉備取得襄陽。",
+      "evidence": [
+        "自得荊州、南郡、襄陽"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_yi_ji",
+      "target": "char_liu_bei",
+      "type": "獻策",
+      "description": "伊籍建議劉備求賢士商議荊州久遠之計。",
+      "evidence": [
+        "上廳獻策",
+        "何不求賢士"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yi_ji",
+      "target": "char_ma_liang",
+      "type": "推薦",
+      "description": "伊籍向劉備介紹荊襄馬氏與馬良。",
+      "evidence": [
+        "其最賢者，眉間有白毛，名良"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ma_liang",
+      "target": "faction_ma_family",
+      "type": "出身",
+      "description": "馬良屬荊襄馬氏五兄弟之一。",
+      "evidence": [
+        "荊襄馬氏，兄弟五人"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_ma_liang",
+      "target": "strategy_ma_liang_policy",
+      "type": "提出",
+      "description": "馬良提出保守荊襄並南征四郡的策略。",
+      "evidence": [
+        "請問保守荊襄之策"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_ma_liang_policy",
+      "target": "char_liu_qi",
+      "type": "建議安置任命",
+      "description": "策略建議劉琦養病並表奏為荊州刺史。",
+      "evidence": [
+        "令公子劉琦於此養病",
+        "表奏公子為荊州刺史"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "strategy_ma_liang_policy",
+      "target": "loc_wuling",
+      "type": "目標",
+      "description": "武陵為馬良建議南征四郡之一。",
+      "evidence": [
+        "南征武陵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strategy_ma_liang_policy",
+      "target": "loc_changsha",
+      "type": "目標",
+      "description": "長沙為馬良建議南征四郡之一。",
+      "evidence": [
+        "長沙"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strategy_ma_liang_policy",
+      "target": "loc_guiyang",
+      "type": "目標",
+      "description": "桂陽為馬良建議南征四郡之一。",
+      "evidence": [
+        "桂陽"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strategy_ma_liang_policy",
+      "target": "loc_lingling",
+      "type": "目標",
+      "description": "零陵為馬良建議南征四郡之一。",
+      "evidence": [
+        "零陵四郡"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "title_xianfeng",
+      "type": "擔任",
+      "description": "張飛被派作取零陵先鋒。",
+      "evidence": [
+        "差張飛為先鋒"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "battle_lingling",
+      "type": "參戰",
+      "description": "趙雲在零陵戰中作後隊並擒邢道榮。",
+      "evidence": [
+        "趙雲合後",
+        "子龍縛來寨中"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_liu_bei_15000",
+      "type": "統領中軍",
+      "description": "劉備與孔明為取零陵的中軍核心。",
+      "evidence": [
+        "玄德為中軍，人馬一萬五千"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "loc_jingzhou",
+      "type": "留守",
+      "description": "關羽被留守荊州。",
+      "evidence": [
+        "留雲長守荊州"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_mi_zhu",
+      "target": "loc_jiangling",
+      "type": "留守",
+      "description": "糜竺被派守江陵。",
+      "evidence": [
+        "糜竺、劉封守江陵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_feng",
+      "target": "loc_jiangling",
+      "type": "留守",
+      "description": "劉封被派守江陵。",
+      "evidence": [
+        "糜竺、劉封守江陵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_du",
+      "target": "title_lingling_taishou",
+      "type": "任職",
+      "description": "劉度是零陵太守。",
+      "evidence": [
+        "零陵太守劉度"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_du",
+      "target": "char_liu_xian",
+      "type": "父子",
+      "description": "劉賢是劉度之子。",
+      "evidence": [
+        "其子劉賢"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_xian",
+      "target": "army_lingling_10000",
+      "type": "統領",
+      "description": "劉賢與邢道榮率萬餘兵出城下寨。",
+      "evidence": [
+        "劉賢與邢道榮引兵萬餘"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_xing_daorong",
+      "target": "army_lingling_10000",
+      "type": "統領",
+      "description": "邢道榮與劉賢共領零陵兵出戰。",
+      "evidence": [
+        "劉賢與邢道榮引兵萬餘"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_xing_daorong",
+      "target": "title_shangjiang",
+      "type": "被稱為",
+      "description": "劉賢稱邢道榮為本州上將。",
+      "evidence": [
+        "本州上將邢道榮"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strategy_kongming_ambush",
+      "target": "char_xing_daorong",
+      "type": "誘捕目標",
+      "description": "孔明伏兵計以邢道榮追黃旗為契機。",
+      "evidence": [
+        "只望黃旗而趕"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_xing_daorong",
+      "type": "擊敗",
+      "description": "張飛與邢道榮交戰數合，使其敗走。",
+      "evidence": [
+        "戰不數合，氣力不加"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_xing_daorong",
+      "type": "擒獲",
+      "description": "趙雲攔住去路，邢道榮無處走而降。",
+      "evidence": [
+        "只得下馬請降"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_xing_daorong",
+      "target": "strategy_xing_false_surrender",
+      "type": "施行",
+      "description": "邢道榮允稱作內應，實返寨告知劉賢。",
+      "evidence": [
+        "某為內應",
+        "前事實訴劉賢"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_xian",
+      "target": "strategy_counter_plan",
+      "type": "採納",
+      "description": "劉賢依邢道榮將計就計之策。",
+      "evidence": [
+        "劉賢依計"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_xing_daorong",
+      "type": "擊殺",
+      "description": "趙雲夜戰斜刺殺出，一槍刺死邢道榮。",
+      "evidence": [
+        "一槍刺道榮於馬下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_liu_xian",
+      "type": "擒獲",
+      "description": "張飛追上並活捉劉賢。",
+      "evidence": [
+        "張飛趕來，活捉過馬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_liu_xian",
+      "type": "釋放勸降",
+      "description": "孔明釋縛劉賢，令其入城勸父投降。",
+      "evidence": [
+        "令釋其縛",
+        "送入城說父投降"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_xian",
+      "target": "char_liu_du",
+      "type": "勸降",
+      "description": "劉賢回零陵向父親備述孔明之德，勸其降。",
+      "evidence": [
+        "勸父投降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_du",
+      "target": "char_liu_bei",
+      "type": "投降",
+      "description": "劉度開城出降劉備大寨。",
+      "evidence": [
+        "出城投玄德大寨納降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_du",
+      "target": "obj_seal",
+      "type": "納降呈送",
+      "description": "劉度出城納降時捧出印信。",
+      "evidence": [
+        "捧印瑤出城"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_liu_du",
+      "type": "留任",
+      "description": "孔明命劉度仍任郡守。",
+      "evidence": [
+        "教劉度仍為郡守"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_xian",
+      "target": "loc_jingzhou",
+      "type": "赴任隨軍",
+      "description": "劉賢被安排赴荊州隨軍辦事。",
+      "evidence": [
+        "其子劉賢赴荊州隨軍辦事"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "battle_guiyang",
+      "type": "主將",
+      "description": "趙雲先應請取桂陽，領三千兵進發。",
+      "evidence": [
+        "某願往",
+        "徑往桂陽進發"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "army_zhao_yun_3000",
+      "type": "統領",
+      "description": "趙雲率三千精兵取桂陽。",
+      "evidence": [
+        "選三千精兵付趙雲去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "battle_guiyang",
+      "type": "爭任未得",
+      "description": "張飛也請取桂陽，但孔明以子龍先應而命趙雲去。",
+      "evidence": [
+        "飛亦願往",
+        "終是子龍先應"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhao_fan",
+      "target": "title_guiyang_taishou",
+      "type": "任職",
+      "description": "趙範是桂陽太守。",
+      "evidence": [
+        "桂陽太守趙範"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_ying",
+      "target": "title_guan_jun_xiaowei",
+      "type": "任職",
+      "description": "陳應為桂陽管軍校尉。",
+      "evidence": [
+        "管軍校尉陳應"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_bao_long",
+      "target": "title_guan_jun_xiaowei",
+      "type": "任職",
+      "description": "鮑隆為桂陽管軍校尉。",
+      "evidence": [
+        "管軍校尉陳應、鮑隆"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_chen_ying",
+      "target": "army_chen_ying_3000",
+      "type": "統領",
+      "description": "陳應領三千人馬出城迎戰。",
+      "evidence": [
+        "陳應領三千人馬出城迎敵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_chen_ying",
+      "target": "char_zhao_yun",
+      "type": "迎戰",
+      "description": "陳應出馬與趙雲交鋒。",
+      "evidence": [
+        "陳應列成陣勢",
+        "趙雲挺槍出馬"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_chen_ying",
+      "type": "擒放",
+      "description": "趙雲接住飛叉後活捉陳應，隨後放回令其勸降。",
+      "evidence": [
+        "將陳應活捉",
+        "放汝回去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_fan",
+      "target": "char_zhao_yun",
+      "type": "投降",
+      "description": "趙範聞陳應敗回後，出城向趙雲納降。",
+      "evidence": [
+        "引十數騎出城投大寨納降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_fan",
+      "target": "obj_seal",
+      "type": "納降呈送",
+      "description": "趙範出城納降時捧出印信。",
+      "evidence": [
+        "捧印綏",
+        "納了印綺"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhao_fan",
+      "target": "char_zhao_yun",
+      "type": "結拜",
+      "description": "趙範與趙雲因同姓、同鄉、同年而結為兄弟。",
+      "evidence": [
+        "結為兄弟",
+        "拜雲為兄"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "loc_guiyang",
+      "type": "安民",
+      "description": "趙雲入桂陽城安撫居民。",
+      "evidence": [
+        "請雲入城安民",
+        "雲安民已畢"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "army_zhao_yun_50_cavalry",
+      "type": "統領",
+      "description": "趙雲只帶五十騎入城安民。",
+      "evidence": [
+        "只帶五十騎乘隨入城"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_fan_shi",
+      "target": "char_zhao_fan",
+      "type": "家嫂",
+      "description": "樊氏為趙範之嫂，寡居三年。",
+      "evidence": [
+        "家嫂樊氏也",
+        "家嫂寡居"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_fan",
+      "target": "char_zhao_yun",
+      "type": "薦婚",
+      "description": "趙範欲將寡嫂樊氏嫁與趙雲。",
+      "evidence": [
+        "正合家嫂所言"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_zhao_fan",
+      "type": "拒婚毆擊",
+      "description": "趙雲以結拜兄弟倫常為由，拒絕趙範提婚並打倒趙範。",
+      "evidence": [
+        "豈可作此亂人倫之事",
+        "一拳打倒趙範"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_chen_ying",
+      "target": "strategy_chen_bao_false_surrender",
+      "type": "施行",
+      "description": "陳應參與詐降趙雲之計。",
+      "evidence": [
+        "我兩個詐降"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_bao_long",
+      "target": "strategy_chen_bao_false_surrender",
+      "type": "施行",
+      "description": "鮑隆提出兩人詐降入趙雲軍中。",
+      "evidence": [
+        "鮑隆曰：我兩個詐降"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "strategy_chen_bao_false_surrender",
+      "target": "strategy_beauty_trap_claim",
+      "type": "使用說辭",
+      "description": "陳應、鮑隆以趙範欲用美人計害趙雲作為詐降理由。",
+      "evidence": [
+        "趙範欲用美人計賺將軍"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "strategy_chen_bao_false_surrender",
+      "type": "識破",
+      "description": "趙雲心知陳應、鮑隆詐降，灌醉縛問其從人。",
+      "evidence": [
+        "已心知其詐",
+        "果是詐降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_chen_ying",
+      "type": "斬殺",
+      "description": "趙雲斬殺陳應。",
+      "evidence": [
+        "陳、鮑二人當時斬了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_bao_long",
+      "type": "斬殺",
+      "description": "趙雲斬殺鮑隆。",
+      "evidence": [
+        "陳、鮑二人當時斬了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "strategy_zhao_open_gate",
+      "type": "施行",
+      "description": "趙雲用桂陽兵詐稱殺趙雲回軍，誘趙範出城。",
+      "evidence": [
+        "請太守商議事務"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_zhao_open_gate",
+      "target": "loc_guiyang",
+      "type": "攻取",
+      "description": "偽報開城計使趙雲入桂陽並安撫百姓。",
+      "evidence": [
+        "趙範急忙出城",
+        "遂入城"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_zhao_fan",
+      "type": "擒獲",
+      "description": "趙雲在桂陽城下捉住趙範。",
+      "evidence": [
+        "雲喝左右捉下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_guiyang",
+      "type": "親赴",
+      "description": "桂陽取下後，劉備親赴桂陽。",
+      "evidence": [
+        "玄德與孔明親赴桂陽"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_guiyang",
+      "type": "親赴",
+      "description": "孔明與劉備同赴桂陽。",
+      "evidence": [
+        "玄德與孔明親赴桂陽"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_liu_bei",
+      "type": "呈報戰果",
+      "description": "趙雲取桂陽後飛報劉備，並迎其入城。",
+      "evidence": [
+        "飛報玄德",
+        "雲迎接入城"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_fan_shi",
+      "type": "拒絕婚配",
+      "description": "趙雲以名譽、公義和趙範初降難測為由拒娶樊氏。",
+      "evidence": [
+        "天下女子不少",
+        "但恐名譽不立"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "loc_wuling",
+      "type": "請求攻取",
+      "description": "張飛請求領三千軍去取武陵郡。",
+      "evidence": [
+        "只撥三千軍與我去取武陵郡"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_jin_xuan",
+      "type": "欲擒",
+      "description": "張飛表示要活捉武陵太守金旋。",
+      "evidence": [
+        "活捉太守金旋來獻"
+      ],
+      "confidence": 0.96
+    }
+  ],
+  "events": [
+    {
+      "id": "event_wu_jingzhou_dispute",
+      "name": "東吳索討荊襄",
+      "summary": "周瑜因孔明取得南郡、荊襄而怒，魯肅勸其暫緩爭戰，並赴荊州向孔明索討。",
+      "participants": [
+        "char_zhou_yu",
+        "char_lu_su",
+        "char_zhuge_liang",
+        "char_liu_qi"
+      ],
+      "locations": [
+        "loc_nanjun",
+        "loc_jingzhou",
+        "loc_jingxiang"
+      ],
+      "evidence": [
+        "務要討荊襄還東吳",
+        "公子在一日，守一日"
+      ]
+    },
+    {
+      "id": "event_hefei_redeployment",
+      "name": "孫權調兵合淝",
+      "summary": "孫權攻合淝不下，遣使令周瑜收軍，並使程普部戰船士卒赴合淝聽調。",
+      "participants": [
+        "char_sun_quan",
+        "char_zhou_yu",
+        "char_cheng_pu"
+      ],
+      "locations": [
+        "loc_hefei",
+        "loc_chaisang"
+      ],
+      "evidence": [
+        "圍合淝，累戰不捷",
+        "程普部領戰船士卒"
+      ]
+    },
+    {
+      "id": "event_ma_liang_advice",
+      "name": "馬良獻荊襄久遠之計",
+      "summary": "伊籍推薦馬良；馬良建議安置劉琦、表奏刺史，並南征四郡以為根本。",
+      "participants": [
+        "char_yi_ji",
+        "char_ma_liang",
+        "char_liu_bei",
+        "char_liu_qi"
+      ],
+      "locations": [
+        "loc_jingxiang",
+        "loc_xiangyang",
+        "loc_wuling",
+        "loc_changsha",
+        "loc_guiyang",
+        "loc_lingling"
+      ],
+      "evidence": [
+        "白眉最良",
+        "南征武陵、長沙、桂陽、零陵四郡"
+      ]
+    },
+    {
+      "id": "event_lingling_deployment",
+      "name": "劉備軍部署取零陵",
+      "summary": "劉備軍調張飛為先鋒、趙雲為後隊，劉備與孔明率中軍一萬五千取零陵，並留關羽守荊州、糜竺劉封守江陵。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_zhang_fei",
+        "char_zhao_yun",
+        "char_guan_yu",
+        "char_mi_zhu",
+        "char_liu_feng"
+      ],
+      "locations": [
+        "loc_lingling",
+        "loc_jingzhou",
+        "loc_jiangling"
+      ],
+      "evidence": [
+        "差張飛為先鋒",
+        "留雲長守荊州"
+      ]
+    },
+    {
+      "id": "event_xing_daorong_first_capture",
+      "name": "邢道榮初敗被擒",
+      "summary": "孔明以黃旗、四輪車誘敵，張飛擊退邢道榮，趙雲截住去路，邢道榮請降。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_zhang_fei",
+        "char_zhao_yun",
+        "char_xing_daorong"
+      ],
+      "locations": [
+        "loc_lingling"
+      ],
+      "evidence": [
+        "只望黃旗而趕",
+        "只得下馬請降"
+      ]
+    },
+    {
+      "id": "event_lingling_night_battle",
+      "name": "零陵夜戰",
+      "summary": "邢道榮返寨後與劉賢將計就計，孔明反以火攻誘追，趙雲刺死邢道榮，張飛活捉劉賢。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_liu_xian",
+        "char_xing_daorong",
+        "char_zhao_yun",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_lingling"
+      ],
+      "evidence": [
+        "可將計就計",
+        "一槍刺道榮於馬下",
+        "活捉過馬"
+      ]
+    },
+    {
+      "id": "event_lingling_surrender",
+      "name": "劉度獻零陵",
+      "summary": "孔明釋劉賢入城勸父，劉度豎降旗、捧印出城納降，孔明仍令其為郡守。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_liu_xian",
+        "char_liu_du",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_lingling"
+      ],
+      "evidence": [
+        "勸父投降",
+        "出城投玄德大寨納降",
+        "仍為郡守"
+      ]
+    },
+    {
+      "id": "event_zhao_yun_selected_guiyang",
+      "name": "趙雲請取桂陽",
+      "summary": "零陵既定後，趙雲與張飛爭請取桂陽；孔明以趙雲先應且拈得，令其立軍令狀，率三千精兵前往。",
+      "participants": [
+        "char_zhao_yun",
+        "char_zhang_fei",
+        "char_zhuge_liang",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_lingling",
+        "loc_guiyang"
+      ],
+      "evidence": [
+        "桂陽郡何人敢取",
+        "責了軍令狀"
+      ]
+    },
+    {
+      "id": "event_chen_ying_defeated",
+      "name": "陳應迎戰被擒",
+      "summary": "陳應領三千人馬出城迎趙雲，戰敗並以飛叉相擲，被趙雲接叉回擲後活捉，又放回勸趙範投降。",
+      "participants": [
+        "char_zhao_yun",
+        "char_chen_ying",
+        "char_zhao_fan"
+      ],
+      "locations": [
+        "loc_guiyang"
+      ],
+      "evidence": [
+        "陳應領三千人馬出城迎敵",
+        "將陳應活捉",
+        "說與趙範，早來投降"
+      ]
+    },
+    {
+      "id": "event_zhao_fan_surrender_oath",
+      "name": "趙範納降結拜",
+      "summary": "趙範捧印出城向趙雲納降，因同姓、同鄉、同年而拜趙雲為兄。",
+      "participants": [
+        "char_zhao_fan",
+        "char_zhao_yun"
+      ],
+      "locations": [
+        "loc_guiyang",
+        "loc_zhen_ding"
+      ],
+      "evidence": [
+        "出城投大寨納降",
+        "拜雲為兄"
+      ]
+    },
+    {
+      "id": "event_fan_shi_proposal_refused",
+      "name": "趙範薦嫂遭拒",
+      "summary": "趙範宴請趙雲，請出寡嫂樊氏並有意成婚；趙雲以兄弟倫常為由拒絕，打倒趙範出城。",
+      "participants": [
+        "char_zhao_fan",
+        "char_zhao_yun",
+        "char_fan_shi"
+      ],
+      "locations": [
+        "loc_guiyang"
+      ],
+      "evidence": [
+        "家嫂樊氏也",
+        "豈可作此亂人倫之事",
+        "一拳打倒趙範"
+      ]
+    },
+    {
+      "id": "event_guiyang_capture",
+      "name": "趙雲計取桂陽",
+      "summary": "陳應、鮑隆詐降被趙雲識破，趙雲斬二人後令桂陽兵假報殺趙雲回軍，誘趙範出城並入城安民。",
+      "participants": [
+        "char_zhao_yun",
+        "char_chen_ying",
+        "char_bao_long",
+        "char_zhao_fan"
+      ],
+      "locations": [
+        "loc_guiyang"
+      ],
+      "evidence": [
+        "果是詐降",
+        "陳、鮑二人當時斬了",
+        "趙範急忙出城",
+        "遂入城"
+      ]
+    },
+    {
+      "id": "event_zhao_yun_defends_refusal",
+      "name": "趙雲向劉備孔明陳明不娶",
+      "summary": "劉備、孔明赴桂陽後問趙範薦嫂之事，趙雲以結拜倫常、寡婦大節、趙範初降難測為由拒娶。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_zhao_yun",
+        "char_zhao_fan",
+        "char_fan_shi"
+      ],
+      "locations": [
+        "loc_guiyang"
+      ],
+      "evidence": [
+        "趙範既與某結為兄弟",
+        "趙範初降，其心難測"
+      ]
+    },
+    {
+      "id": "event_zhang_fei_requests_wuling",
+      "name": "張飛請取武陵",
+      "summary": "章末張飛因趙雲立功而請求領三千軍取武陵，活捉太守金旋；孔明答應但另有條件。",
+      "participants": [
+        "char_zhang_fei",
+        "char_zhuge_liang",
+        "char_jin_xuan"
+      ],
+      "locations": [
+        "loc_wuling"
+      ],
+      "evidence": [
+        "只撥三千軍與我去取武陵郡",
+        "但要依一件事"
+      ]
+    }
+  ],
+  "notes": [
+    "章末只預告張飛將取武陵，尚未敘述攻取結果。",
+    "原文部分字形疑有訛誤，如印瑤、印綏、印綺；本抽取將其歸為太守納降時的印綬類物件。"
+  ]
+}

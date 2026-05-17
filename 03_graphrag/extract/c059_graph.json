@@ -1,0 +1,2398 @@
+{
+  "book": "三國演義",
+  "chapter_no": 59,
+  "chapter_title": "許褚裸衣鬥馬超　曹操抹書間韓遂",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "c059_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "孟德",
+        "曹公",
+        "丞相"
+      ],
+      "description": "曹軍統帥，在渭河與馬超、韓遂交戰，以築土城、偽和、抹書反間等手段破西涼軍，後班師許都。",
+      "evidence": [
+        "曹操在渭河內將船筏鎖鏈作浮橋",
+        "文和之謀，正吾心中之事也"
+      ]
+    },
+    {
+      "id": "c059_machao",
+      "name": "馬超",
+      "type": "character",
+      "aliases": [
+        "超",
+        "馬兒",
+        "馬賊"
+      ],
+      "description": "西涼主將，與韓遂聯兵攻曹；勇鬥許褚，後因反間疑韓遂，兵敗後與龐德、馬岱走臨洮。",
+      "evidence": [
+        "馬超屯兵渭口",
+        "止剩得三十餘騎，與龐德、馬岱望隴西臨洮而去"
+      ]
+    },
+    {
+      "id": "c059_hansui",
+      "name": "韓遂",
+      "type": "character",
+      "aliases": [
+        "韓將軍",
+        "叔父"
+      ],
+      "description": "與馬超聯軍抗曹；被曹操、賈詡反間，後暗通曹操，被馬超斬落左手，受封西涼侯。",
+      "evidence": [
+        "與韓遂引軍並力殺到寨前",
+        "韓遂已無左手",
+        "授西涼侯之職"
+      ]
+    },
+    {
+      "id": "c059_xuchu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [
+        "仲康",
+        "虎侯",
+        "虎痴",
+        "虎癡"
+      ],
+      "description": "曹操猛將，護曹操單騎出陣，裸衣與馬超惡戰。",
+      "evidence": [
+        "止有許褚一人隨後",
+        "卸了盔甲，赤體提刀"
+      ]
+    },
+    {
+      "id": "c059_caoren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，於渭河夾河立寨，設糧草車輛為屏障。",
+      "evidence": [
+        "曹仁引軍夾河立寨"
+      ]
+    },
+    {
+      "id": "c059_xunyou",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，建議取渭河沙土築土城。",
+      "evidence": [
+        "荀攸曰：可取渭河沙土築起土城"
+      ]
+    },
+    {
+      "id": "c059_louzibo",
+      "name": "婁子伯",
+      "type": "character",
+      "aliases": [
+        "夢梅居士",
+        "子伯"
+      ],
+      "description": "京兆隱士，居終南山，向曹操提示乘天寒築城。",
+      "evidence": [
+        "姓婁，名子伯，道號夢梅居士",
+        "豈不知天時乎"
+      ]
+    },
+    {
+      "id": "c059_pangde",
+      "name": "龐德",
+      "type": "character",
+      "aliases": [],
+      "description": "馬超部將，先與馬岱衝突曹營，後救出馬超。",
+      "evidence": [
+        "差龐德、馬岱各引五百馬軍",
+        "乃龐德、馬岱也。兩人救了馬超"
+      ]
+    },
+    {
+      "id": "c059_madai",
+      "name": "馬岱",
+      "type": "character",
+      "aliases": [],
+      "description": "馬超部將，與龐德同領兵衝突並救援馬超。",
+      "evidence": [
+        "龐德、馬岱亦至",
+        "與龐德、馬岱望隴西臨洮而去"
+      ]
+    },
+    {
+      "id": "c059_xiahouyuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，助攻許褚、追擊馬超，後留屯長安。",
+      "evidence": [
+        "令夏侯淵、曹洪兩將齊出夾攻",
+        "留夏侯淵屯兵長安"
+      ]
+    },
+    {
+      "id": "c059_caohong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，夾攻馬超，又奉命出陣向韓遂傳疑詞。",
+      "evidence": [
+        "夏侯淵、曹洪兩將齊出夾攻",
+        "令曹洪引數十騎徑出陣前"
+      ]
+    },
+    {
+      "id": "c059_xuhuang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，受密令渡河西結營，後參與圍堵馬超。",
+      "evidence": [
+        "密令徐晃、朱靈盡渡河西結營",
+        "後有徐晃"
+      ]
+    },
+    {
+      "id": "c059_zhuling",
+      "name": "朱靈",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，與徐晃渡河西結營形成夾攻。",
+      "evidence": [
+        "徐晃、朱靈盡渡河西結營"
+      ]
+    },
+    {
+      "id": "c059_jiaxu",
+      "name": "賈詡",
+      "type": "character",
+      "aliases": [
+        "文和"
+      ],
+      "description": "曹操謀士，獻偽和與反間計，又設抹書離間韓遂、馬超。",
+      "evidence": [
+        "兵不厭詐，可偽許之",
+        "文和之謀"
+      ]
+    },
+    {
+      "id": "c059_yangqiu",
+      "name": "楊秋",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂一方將領，先為求和使者，後勸韓遂暗投曹操並傳密書。",
+      "evidence": [
+        "韓遂遣楊秋為使",
+        "不如暗投曹公"
+      ]
+    },
+    {
+      "id": "c059_houxuan",
+      "name": "侯選",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂一方將領，與楊秋勸求和，後受曹操封列侯。",
+      "evidence": [
+        "楊秋、侯選皆勸求和",
+        "楊秋、侯選皆封列侯"
+      ]
+    },
+    {
+      "id": "c059_likan",
+      "name": "李堪",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂一方將領，後在渭橋被於禁誤射而死。",
+      "evidence": [
+        "李堪領一軍從橋下過",
+        "卻射中前面李堪，落馬而死"
+      ]
+    },
+    {
+      "id": "c059_liangxing",
+      "name": "梁興",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂一方將領，參與密議，後被馬超剁倒。",
+      "evidence": [
+        "韓遂引侯選、李堪、梁興、馬玩、楊秋五將",
+        "剁倒梁興"
+      ]
+    },
+    {
+      "id": "c059_mawan",
+      "name": "馬玩",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂一方將領，參與密議，後被馬超砍翻。",
+      "evidence": [
+        "五將與韓遂密語",
+        "砍翻馬玩"
+      ]
+    },
+    {
+      "id": "c059_yujin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [
+        "禁"
+      ],
+      "description": "曹操部將，追至馬超背後開弓，誤中李堪。",
+      "evidence": [
+        "於禁從馬超背後趕來",
+        "禁開弓射馬超"
+      ]
+    },
+    {
+      "id": "c059_yangfu",
+      "name": "楊阜",
+      "type": "character",
+      "aliases": [
+        "義山"
+      ],
+      "description": "涼州參軍，勸曹操乘勢剿馬超，並保薦韋康為涼州刺史。",
+      "evidence": [
+        "涼州參軍楊阜，字義山",
+        "保薦韋康為涼州刺史"
+      ]
+    },
+    {
+      "id": "c059_weikang",
+      "name": "韋康",
+      "type": "character",
+      "aliases": [],
+      "description": "被楊阜保薦為涼州刺史，與楊阜同屯冀城防馬超。",
+      "evidence": [
+        "韋康為涼州刺史，同領兵屯冀城"
+      ]
+    },
+    {
+      "id": "c059_zhangji",
+      "name": "張既",
+      "type": "character",
+      "aliases": [
+        "德容"
+      ],
+      "description": "馮翊高陵人，受夏侯淵保舉為京兆尹，與夏侯淵同守長安。",
+      "evidence": [
+        "姓張，名既，字德容",
+        "為京兆尹，與淵同守長安"
+      ]
+    },
+    {
+      "id": "c059_xiandi",
+      "name": "獻帝",
+      "type": "character",
+      "aliases": [],
+      "description": "漢帝，出郭迎接曹操，詔賜曹操特殊朝儀待遇。",
+      "evidence": [
+        "獻帝排鑾駕出郭迎接",
+        "詔操贊拜不名"
+      ]
+    },
+    {
+      "id": "c059_zhanglu",
+      "name": "張魯",
+      "type": "character",
+      "aliases": [
+        "魯",
+        "師君"
+      ],
+      "description": "漢中勢力首領，領漢寧太守、鎮南中郎將，聞曹操破西涼後議稱漢寧王並圖西川。",
+      "evidence": [
+        "漢寧太守張魯",
+        "魯在漢中自號為師君",
+        "我欲自稱漢寧王"
+      ]
+    },
+    {
+      "id": "c059_yanzu",
+      "name": "閻族",
+      "type": "character",
+      "aliases": [],
+      "description": "張魯部下，建議先取西川四十一州為本，然後稱王。",
+      "evidence": [
+        "閻族曰",
+        "不如先取西川四十一州為本"
+      ]
+    },
+    {
+      "id": "c059_liuzhang",
+      "name": "劉璋",
+      "type": "character",
+      "aliases": [
+        "季玉"
+      ],
+      "description": "益州牧，劉焉之子，與張魯有仇；聞張魯欲取川而憂。",
+      "evidence": [
+        "益州劉璋，字季玉",
+        "璋曾殺張魯母及弟"
+      ]
+    },
+    {
+      "id": "c059_liuyan",
+      "name": "劉焉",
+      "type": "character",
+      "aliases": [],
+      "description": "劉璋之父，曾任益州牧。",
+      "evidence": [
+        "即劉焉之子",
+        "後焉官至益州牧"
+      ]
+    },
+    {
+      "id": "c059_zhaowei",
+      "name": "趙韙",
+      "type": "character",
+      "aliases": [],
+      "description": "益州大吏之一，與眾人共保劉璋為益州牧。",
+      "evidence": [
+        "州大吏趙韙等，共保璋為益州牧"
+      ]
+    },
+    {
+      "id": "c059_pangxi",
+      "name": "龐羲",
+      "type": "character",
+      "aliases": [],
+      "description": "劉璋任命的巴西太守，用以抵拒張魯，並報知張魯欲取川。",
+      "evidence": [
+        "璋使龐羲為巴西太守",
+        "急報知劉璋"
+      ]
+    },
+    {
+      "id": "c059_zhangling",
+      "name": "張陵",
+      "type": "character",
+      "aliases": [],
+      "description": "張魯之祖，在西川鷂鳴山造作道書。",
+      "evidence": [
+        "其祖張陵在西川鷂鳴山中造作道書"
+      ]
+    },
+    {
+      "id": "c059_zhangheng",
+      "name": "張衡",
+      "type": "character",
+      "aliases": [],
+      "description": "張陵之子，承行其道；死後由張魯行之。",
+      "evidence": [
+        "陵死之後，其子張衡行之",
+        "張衡死，張魯行之"
+      ]
+    },
+    {
+      "id": "c059_mateng",
+      "name": "馬騰",
+      "type": "character",
+      "aliases": [],
+      "description": "馬超之父輩人物，已遭曹操誅戮；韓遂稱曾與馬騰結為兄弟。",
+      "evidence": [
+        "西涼馬騰遭戮",
+        "吾與馬騰結為兄弟"
+      ]
+    },
+    {
+      "id": "c059_caocao_army",
+      "name": "曹操軍",
+      "type": "army",
+      "aliases": [
+        "操兵",
+        "曹兵",
+        "操軍"
+      ],
+      "description": "曹操麾下軍隊，在渭河、河西、長安一帶與西涼兵作戰。",
+      "evidence": [
+        "操兵抵敵不住",
+        "操兵四至"
+      ]
+    },
+    {
+      "id": "c059_xiliang_army",
+      "name": "西涼兵",
+      "type": "army",
+      "aliases": [
+        "西涼之兵",
+        "馬超軍"
+      ],
+      "description": "馬超、韓遂一方軍隊，前期火攻大勝，後因反間自相並殺而敗。",
+      "evidence": [
+        "西涼兵大勝",
+        "西涼之兵，自相並殺"
+      ]
+    },
+    {
+      "id": "c059_tiger_guard",
+      "name": "虎衛軍",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操軍中當先追射馬超的部隊。",
+      "evidence": [
+        "虎衛軍當先，亂箭夾射馬超"
+      ]
+    },
+    {
+      "id": "c059_hanzhong_faction",
+      "name": "漢中勢力",
+      "type": "faction",
+      "aliases": [
+        "張魯勢力"
+      ],
+      "description": "張魯雄據漢中三十年，依祭酒系統統治。",
+      "evidence": [
+        "如此雄據漢中之地已三十年",
+        "所在並無官長，盡屬祭酒所管"
+      ]
+    },
+    {
+      "id": "c059_yizhou_faction",
+      "name": "益州勢力",
+      "type": "faction",
+      "aliases": [
+        "劉璋勢力",
+        "西川"
+      ],
+      "description": "劉璋所領益州，因張魯欲取川而聚眾商議。",
+      "evidence": [
+        "益州劉璋",
+        "聞得此信，心中大憂"
+      ]
+    },
+    {
+      "id": "c059_han_court",
+      "name": "漢室朝廷",
+      "type": "faction",
+      "aliases": [
+        "國家"
+      ],
+      "description": "授張魯官職並由獻帝加禮曹操的政權。",
+      "evidence": [
+        "國家以為地遠不能徵伐",
+        "獻帝排鑾駕出郭迎接"
+      ]
+    },
+    {
+      "id": "c059_qiang_people",
+      "name": "羌人",
+      "type": "faction",
+      "aliases": [],
+      "description": "楊阜稱馬超深得其心，為日後隴上隱患。",
+      "evidence": [
+        "馬超有呂布之勇，深得羌人之心"
+      ]
+    },
+    {
+      "id": "c059_guizu",
+      "name": "鬼卒",
+      "type": "faction",
+      "aliases": [],
+      "description": "張魯道法系統中來學道者的稱號。",
+      "evidence": [
+        "其來學道者皆號為鬼卒"
+      ]
+    },
+    {
+      "id": "c059_weikou",
+      "name": "渭口",
+      "type": "location",
+      "aliases": [],
+      "description": "馬超屯兵與韓遂聯軍據守之地，後楊秋、侯選奉命守此。",
+      "evidence": [
+        "馬超屯兵渭口",
+        "令守渭口"
+      ]
+    },
+    {
+      "id": "c059_wei_river",
+      "name": "渭河",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操架浮橋、築土城並與西涼兵爭奪的河道。",
+      "evidence": [
+        "曹操在渭河內將船筏鎖鏈作浮橋",
+        "截住渭河"
+      ]
+    },
+    {
+      "id": "c059_hexi",
+      "name": "河西",
+      "type": "location",
+      "aliases": [],
+      "description": "徐晃、朱靈奉曹操密令渡河結營，造成西涼軍前後受敵。",
+      "evidence": [
+        "盡渡河西結營",
+        "操兵乘虛已渡河西"
+      ]
+    },
+    {
+      "id": "c059_wei_bridge",
+      "name": "渭橋",
+      "type": "location",
+      "aliases": [],
+      "description": "馬超敗後截住並突圍之處。",
+      "evidence": [
+        "截於渭橋之上",
+        "超回橋上住札"
+      ]
+    },
+    {
+      "id": "c059_tongguan",
+      "name": "潼關",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操回顧前期戰略時提到的西涼軍據守關口。",
+      "evidence": [
+        "初賊據潼關",
+        "初賊守潼關"
+      ]
+    },
+    {
+      "id": "c059_zhongnan",
+      "name": "終南山",
+      "type": "location",
+      "aliases": [],
+      "description": "婁子伯隱居之地。",
+      "evidence": [
+        "隱居終南山"
+      ]
+    },
+    {
+      "id": "c059_changan",
+      "name": "長安",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操追擊後回兵、封賞韓遂，並留夏侯淵、張既同守之地。",
+      "evidence": [
+        "方收兵回長安",
+        "與淵同守長安"
+      ]
+    },
+    {
+      "id": "c059_anding",
+      "name": "安定",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操親自追馬超至此，知其去遠後收兵。",
+      "evidence": [
+        "曹操親自追至安定"
+      ]
+    },
+    {
+      "id": "c059_lintao",
+      "name": "隴西臨洮",
+      "type": "location",
+      "aliases": [
+        "臨洮"
+      ],
+      "description": "馬超、龐德、馬岱敗走方向。",
+      "evidence": [
+        "望隴西臨洮而去"
+      ]
+    },
+    {
+      "id": "c059_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [
+        "都"
+      ],
+      "description": "曹操班師回朝之地。",
+      "evidence": [
+        "下令班師回許都",
+        "操班師回都"
+      ]
+    },
+    {
+      "id": "c059_hanzhong_loc",
+      "name": "漢中",
+      "type": "location",
+      "aliases": [
+        "漢寧",
+        "漢川"
+      ],
+      "description": "張魯雄據之地，聞曹操破西涼後商議自保。",
+      "evidence": [
+        "這消息播入漢中",
+        "漢川困，財富糧足"
+      ]
+    },
+    {
+      "id": "c059_xichuan",
+      "name": "西川",
+      "type": "location",
+      "aliases": [
+        "益州",
+        "川中"
+      ],
+      "description": "劉璋所據之地，也是閻族勸張魯先取的目標。",
+      "evidence": [
+        "先取西川四十一州",
+        "早有細報入川中"
+      ]
+    },
+    {
+      "id": "c059_baxi",
+      "name": "巴西",
+      "type": "location",
+      "aliases": [],
+      "description": "龐羲任太守以拒張魯之地。",
+      "evidence": [
+        "龐羲為巴西太守"
+      ]
+    },
+    {
+      "id": "c059_jicheng",
+      "name": "冀城",
+      "type": "location",
+      "aliases": [],
+      "description": "楊阜、韋康同屯以防馬超之地。",
+      "evidence": [
+        "同領兵屯冀城"
+      ]
+    },
+    {
+      "id": "c059_battle_wei",
+      "name": "渭河攻防戰",
+      "type": "battle",
+      "aliases": [
+        "渭口之戰"
+      ],
+      "description": "曹操軍與馬超、韓遂西涼軍在渭河、渭口、河西一帶的攻防。",
+      "evidence": [
+        "馬超屯兵渭口",
+        "截住渭河"
+      ]
+    },
+    {
+      "id": "c059_battle_xuchu_machao_duel",
+      "name": "許褚裸衣鬥馬超",
+      "type": "battle",
+      "aliases": [
+        "虎痴鬥馬超"
+      ],
+      "description": "許褚與馬超多次交鋒，後卸甲赤體再戰。",
+      "evidence": [
+        "又鬥一百餘合",
+        "赤體提刀，翻身上馬"
+      ]
+    },
+    {
+      "id": "c059_battle_weibridge_breakout",
+      "name": "馬超渭橋突圍",
+      "type": "battle",
+      "aliases": [
+        "渭橋突圍"
+      ],
+      "description": "馬超敗後在渭橋被曹軍圍射，龐德、馬岱殺來救出。",
+      "evidence": [
+        "截於渭橋之上",
+        "兩人救了馬超"
+      ]
+    },
+    {
+      "id": "c059_evt_burn_camp",
+      "name": "馬超韓遂火燒曹寨",
+      "type": "event",
+      "aliases": [],
+      "description": "馬超、韓遂用草束與火種燒毀曹軍寨柵、車乘與浮橋。",
+      "evidence": [
+        "堆積草把，放起烈火",
+        "車乘、浮橋，盡被燒毀"
+      ]
+    },
+    {
+      "id": "c059_evt_frozen_city",
+      "name": "曹操凍土築城",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操乘北風寒冷，以水澆沙土使其凍結，夜築土城。",
+      "evidence": [
+        "擔土潑水",
+        "沙水凍緊，土城已築完"
+      ]
+    },
+    {
+      "id": "c059_evt_parley_hansui",
+      "name": "曹操陣前會韓遂",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操輕服單騎與韓遂陣前久談舊事，引發馬超猜疑。",
+      "evidence": [
+        "各按轡對語",
+        "超心甚疑"
+      ]
+    },
+    {
+      "id": "c059_evt_smeared_letter",
+      "name": "曹操抹書間韓遂",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操依賈詡計，故意塗改書信送韓遂，使馬超懷疑韓遂隱瞞機密。",
+      "evidence": [
+        "自行塗抹改易",
+        "超心愈疑"
+      ]
+    },
+    {
+      "id": "c059_evt_hansui_defection",
+      "name": "韓遂暗投曹操",
+      "type": "event",
+      "aliases": [],
+      "description": "楊秋勸韓遂投曹，韓遂遣楊秋送密書，與曹操約放火為號。",
+      "evidence": [
+        "不如暗投曹公",
+        "約定今夜放火，裡應外合"
+      ]
+    },
+    {
+      "id": "c059_evt_machao_attacks_hansui",
+      "name": "馬超突入韓遂帳",
+      "type": "event",
+      "aliases": [],
+      "description": "馬超探知韓遂等密議，仗劍入帳，斬韓遂左手並殺傷五將。",
+      "evidence": [
+        "仗劍先行",
+        "左手早被砍落"
+      ]
+    },
+    {
+      "id": "c059_evt_caocao_rewards",
+      "name": "曹操封賞留守",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操回長安後安置韓遂、楊秋、侯選，並留將守長安、渭口。",
+      "evidence": [
+        "授西涼侯之職",
+        "令守渭口"
+      ]
+    },
+    {
+      "id": "c059_evt_zhanglu_council",
+      "name": "張魯議稱漢寧王",
+      "type": "event",
+      "aliases": [],
+      "description": "張魯聞曹操破西涼，欲稱漢寧王拒曹；閻族勸先取西川。",
+      "evidence": [
+        "我欲自稱漢寧王",
+        "先取西川四十一州"
+      ]
+    },
+    {
+      "id": "c059_evt_liuzhang_council",
+      "name": "劉璋聞張魯取川",
+      "type": "event",
+      "aliases": [],
+      "description": "龐羲探知張魯欲興兵取川，報知劉璋，劉璋聚眾商議。",
+      "evidence": [
+        "張魯欲興兵取川",
+        "急聚眾官商議"
+      ]
+    },
+    {
+      "id": "c059_title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在本章被稱之官職。",
+      "evidence": [
+        "來見丞相"
+      ]
+    },
+    {
+      "id": "c059_title_huhou",
+      "name": "虎侯",
+      "type": "title",
+      "aliases": [
+        "虎痴",
+        "虎癡"
+      ],
+      "description": "許褚因勇猛被軍中稱為虎侯，馬超稱其虎癡。",
+      "evidence": [
+        "軍中皆稱褚為虎侯",
+        "真虎癡也"
+      ]
+    },
+    {
+      "id": "c059_title_xilianghou",
+      "name": "西涼侯",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操許封並後授韓遂的爵位。",
+      "evidence": [
+        "許封韓遂為西涼侯",
+        "授西涼侯之職"
+      ]
+    },
+    {
+      "id": "c059_title_xiliangtaishou",
+      "name": "西涼太守",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操許封楊秋的官職。",
+      "evidence": [
+        "楊秋為西涼太守"
+      ]
+    },
+    {
+      "id": "c059_title_liehou",
+      "name": "列侯",
+      "type": "title",
+      "aliases": [],
+      "description": "楊秋、侯選後受封之爵。",
+      "evidence": [
+        "楊秋、侯選皆封列侯"
+      ]
+    },
+    {
+      "id": "c059_title_liangzhoucanjun",
+      "name": "涼州參軍",
+      "type": "title",
+      "aliases": [],
+      "description": "楊阜在本章的官職。",
+      "evidence": [
+        "涼州參軍楊阜"
+      ]
+    },
+    {
+      "id": "c059_title_liangzhoucishi",
+      "name": "涼州刺史",
+      "type": "title",
+      "aliases": [],
+      "description": "楊阜保薦韋康擔任的官職。",
+      "evidence": [
+        "保薦韋康為涼州刺史"
+      ]
+    },
+    {
+      "id": "c059_title_jingzhaoyin",
+      "name": "京兆尹",
+      "type": "title",
+      "aliases": [],
+      "description": "張既受任的官職。",
+      "evidence": [
+        "為京兆尹"
+      ]
+    },
+    {
+      "id": "c059_title_hanningtaishou",
+      "name": "漢寧太守",
+      "type": "title",
+      "aliases": [],
+      "description": "張魯所領官職。",
+      "evidence": [
+        "領漢寧太守"
+      ]
+    },
+    {
+      "id": "c059_title_zhennan",
+      "name": "鎮南中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "朝廷命張魯擔任的官職。",
+      "evidence": [
+        "命魯為鎮南中郎將"
+      ]
+    },
+    {
+      "id": "c059_title_hanningwang",
+      "name": "漢寧王",
+      "type": "title",
+      "aliases": [],
+      "description": "張魯想自稱的王號。",
+      "evidence": [
+        "我欲自稱漢寧王"
+      ]
+    },
+    {
+      "id": "c059_title_shijun",
+      "name": "師君",
+      "type": "title",
+      "aliases": [],
+      "description": "張魯在漢中自號。",
+      "evidence": [
+        "魯在漢中自號為師君"
+      ]
+    },
+    {
+      "id": "c059_title_jijiu",
+      "name": "祭酒",
+      "type": "title",
+      "aliases": [],
+      "description": "張魯勢力中為首者的稱號。",
+      "evidence": [
+        "為首者號為祭酒"
+      ]
+    },
+    {
+      "id": "c059_title_yizhoumu",
+      "name": "益州牧",
+      "type": "title",
+      "aliases": [],
+      "description": "劉焉、劉璋曾任或受保之州牧職。",
+      "evidence": [
+        "焉官至益州牧",
+        "保璋為益州牧"
+      ]
+    },
+    {
+      "id": "c059_title_baxitaishou",
+      "name": "巴西太守",
+      "type": "title",
+      "aliases": [],
+      "description": "龐羲受劉璋任命以拒張魯的官職。",
+      "evidence": [
+        "璋使龐羲為巴西太守"
+      ]
+    },
+    {
+      "id": "c059_obj_floating_bridge",
+      "name": "浮橋",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操用船筏鎖鏈在渭河所作，後被西涼兵火燒。",
+      "evidence": [
+        "作浮橋三條",
+        "浮橋，盡被燒毀"
+      ]
+    },
+    {
+      "id": "c059_obj_earth_city",
+      "name": "土城",
+      "type": "object",
+      "aliases": [
+        "土城"
+      ],
+      "description": "曹操在渭河沙土上借寒氣凍築的防禦工事。",
+      "evidence": [
+        "築起土城",
+        "土城已築完"
+      ]
+    },
+    {
+      "id": "c059_obj_smeared_letter",
+      "name": "抹書",
+      "type": "object",
+      "aliases": [
+        "改抹書信"
+      ],
+      "description": "曹操故意塗抹關鍵字樣後送韓遂的反間書信。",
+      "evidence": [
+        "於要害處，自行塗抹改易",
+        "書上如何都改抹糊塗"
+      ]
+    },
+    {
+      "id": "c059_obj_secret_letter",
+      "name": "密書",
+      "type": "object",
+      "aliases": [],
+      "description": "韓遂遣楊秋送往曹操寨中言投降之事的書信。",
+      "evidence": [
+        "遂乃寫密書",
+        "說投降之事"
+      ]
+    },
+    {
+      "id": "c059_obj_sanguan_letters",
+      "name": "三官手書",
+      "type": "object",
+      "aliases": [],
+      "description": "張魯道法祈禱中寫給天、地、水官的三通文書。",
+      "evidence": [
+        "作文三通，名為三官手書"
+      ]
+    },
+    {
+      "id": "c059_obj_yishe",
+      "name": "義舍",
+      "type": "object",
+      "aliases": [],
+      "description": "張魯境內供過往人自取飯米柴火肉食的設施。",
+      "evidence": [
+        "又蓋義舍",
+        "自取而食"
+      ]
+    },
+    {
+      "id": "c059_strat_fire_attack",
+      "name": "火攻曹寨",
+      "type": "strategy",
+      "aliases": [],
+      "description": "馬超、韓遂令軍士挾草帶火，堆草放火燒曹寨。",
+      "evidence": [
+        "各挾草一束，帶著火種",
+        "放起烈火"
+      ]
+    },
+    {
+      "id": "c059_strat_frozen_soil",
+      "name": "凍土築城計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "利用寒夜北風，澆水使沙土凍緊，快速築成土城。",
+      "evidence": [
+        "隨築隨凍",
+        "沙水凍緊"
+      ]
+    },
+    {
+      "id": "c059_strat_front_back_attack",
+      "name": "前後夾攻",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操令徐晃、朱靈渡河西結營，使馬超軍前後受敵。",
+      "evidence": [
+        "前後夾攻",
+        "吾軍前後受敵"
+      ]
+    },
+    {
+      "id": "c059_strat_counterintel",
+      "name": "反間計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "賈詡獻計令韓遂、馬超互相猜疑，以便一鼓破之。",
+      "evidence": [
+        "用反間計，令韓、馬相疑"
+      ]
+    },
+    {
+      "id": "c059_strat_fake_peace",
+      "name": "偽許求和",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操假意答應退兵歸還河西，以配合離間韓、馬。",
+      "evidence": [
+        "可偽許之",
+        "待我徐徐退兵，還汝河西之地"
+      ]
+    },
+    {
+      "id": "c059_strat_smeared_letter",
+      "name": "抹書間韓遂",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操故意塗抹書信要害處，使馬超以為韓遂先改密語。",
+      "evidence": [
+        "故意使馬超知之",
+        "疑則必生亂"
+      ]
+    },
+    {
+      "id": "c059_strat_rotate_defense",
+      "name": "輪流調兵提備",
+      "type": "strategy",
+      "aliases": [],
+      "description": "馬超建議自己與韓遂輪流向曹操、徐晃兩路提防詐欺。",
+      "evidence": [
+        "超與叔父輪流調兵",
+        "分頭提備"
+      ]
+    },
+    {
+      "id": "c059_strat_fire_signal",
+      "name": "放火為號裡應外合",
+      "type": "strategy",
+      "aliases": [],
+      "description": "韓遂投曹後約定夜間放火為號，與曹操共同攻馬超。",
+      "evidence": [
+        "約定今夜放火，裡應外合"
+      ]
+    },
+    {
+      "id": "c059_strat_take_xichuan",
+      "name": "先取西川再稱王",
+      "type": "strategy",
+      "aliases": [],
+      "description": "閻族勸張魯先取西川四十一州作根本，再稱王。",
+      "evidence": [
+        "先取西川四十一州為本，然後稱王未遲"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "c059_caocao",
+      "target": "c059_title_chengxiang",
+      "type": "擔任/被稱",
+      "description": "曹操在章中以丞相身分統軍。",
+      "evidence": [
+        "來見丞相"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_caocao_army",
+      "type": "統領",
+      "description": "曹操統領曹操軍與西涼兵作戰。",
+      "evidence": [
+        "操兵",
+        "曹操立不起營寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_caoren",
+      "target": "c059_caocao_army",
+      "type": "統領",
+      "description": "曹仁引軍夾河立寨。",
+      "evidence": [
+        "曹仁引軍夾河立寨"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_weikou",
+      "type": "屯兵於",
+      "description": "馬超在渭口屯兵。",
+      "evidence": [
+        "馬超屯兵渭口"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_hansui",
+      "type": "聯軍",
+      "description": "馬超與韓遂共同引軍攻曹。",
+      "evidence": [
+        "與韓遂引軍並力"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_xiliang_army",
+      "type": "統領",
+      "description": "馬超率西涼兵與曹操交戰。",
+      "evidence": [
+        "西涼兵大勝",
+        "馬超回至渭口"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c059_hansui",
+      "target": "c059_xiliang_army",
+      "type": "統領/參與",
+      "description": "韓遂押中軍並與馬超同領西涼軍作戰。",
+      "evidence": [
+        "韓遂押中軍"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_obj_floating_bridge",
+      "type": "建造",
+      "description": "曹操在渭河用船筏鎖鏈作三條浮橋。",
+      "evidence": [
+        "作浮橋三條"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_obj_floating_bridge",
+      "target": "c059_wei_river",
+      "type": "位於",
+      "description": "浮橋架設於渭河。",
+      "evidence": [
+        "在渭河內將船筏鎖鏈作浮橋"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_strat_fire_attack",
+      "type": "使用策略",
+      "description": "馬超令軍士帶草與火種火攻曹寨。",
+      "evidence": [
+        "教軍士各挾草一束"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_hansui",
+      "target": "c059_strat_fire_attack",
+      "type": "使用策略",
+      "description": "韓遂與馬超並力火攻曹寨。",
+      "evidence": [
+        "與韓遂引軍並力殺到寨前"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c059_strat_fire_attack",
+      "target": "c059_obj_floating_bridge",
+      "type": "燒毀",
+      "description": "火攻燒毀曹軍浮橋與車乘。",
+      "evidence": [
+        "浮橋，盡被燒毀"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_xunyou",
+      "target": "c059_caocao",
+      "type": "獻策",
+      "description": "荀攸建議曹操取渭河沙土築城。",
+      "evidence": [
+        "可取渭河沙土築起土城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_louzibo",
+      "target": "c059_caocao",
+      "type": "獻策",
+      "description": "婁子伯提醒曹操利用天時築城。",
+      "evidence": [
+        "豈不知天時乎"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_strat_frozen_soil",
+      "type": "實施策略",
+      "description": "曹操夜令兵士擔土潑水，借寒凍築城。",
+      "evidence": [
+        "盡驅兵士擔土潑水"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_strat_frozen_soil",
+      "target": "c059_obj_earth_city",
+      "type": "形成",
+      "description": "凍土計使土城一夜築成。",
+      "evidence": [
+        "土城已築完"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_pangde",
+      "type": "派遣",
+      "description": "馬超派龐德引五百馬軍衝突曹軍築城。",
+      "evidence": [
+        "差龐德、馬岱各引五百馬軍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_madai",
+      "type": "派遣",
+      "description": "馬超派馬岱引五百馬軍衝突曹軍築城。",
+      "evidence": [
+        "差龐德、馬岱各引五百馬軍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_xuchu",
+      "target": "c059_caocao",
+      "type": "護衛",
+      "description": "曹操單騎出營時，只有許褚在後相隨。",
+      "evidence": [
+        "止有許褚一人隨後"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_xuchu",
+      "target": "c059_title_huhou",
+      "type": "被稱為",
+      "description": "許褚被曹軍稱為虎侯，亦被馬超稱虎癡。",
+      "evidence": [
+        "軍中皆稱褚為虎侯",
+        "真虎癡也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_xuchu",
+      "target": "c059_machao",
+      "type": "決鬥",
+      "description": "許褚與馬超在陣前長時間交鋒。",
+      "evidence": [
+        "許褚拍馬舞刀而出",
+        "馬超挺槍接戰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_xiahouyuan",
+      "type": "命令出戰",
+      "description": "曹操恐許褚有失，令夏侯淵出夾攻。",
+      "evidence": [
+        "遂令夏侯淵、曹洪兩將齊出夾攻"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_caohong",
+      "type": "命令出戰",
+      "description": "曹操恐許褚有失，令曹洪出夾攻。",
+      "evidence": [
+        "夏侯淵、曹洪兩將齊出夾攻"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_pangde",
+      "target": "c059_madai",
+      "type": "協同作戰",
+      "description": "龐德、馬岱麾兩翼鐵騎衝入混戰。",
+      "evidence": [
+        "龐德、馬岱見操將齊出"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_xuhuang",
+      "type": "密令",
+      "description": "曹操密令徐晃渡河西結營。",
+      "evidence": [
+        "密令徐晃、朱靈盡渡河西結營"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_zhuling",
+      "type": "密令",
+      "description": "曹操密令朱靈渡河西結營。",
+      "evidence": [
+        "徐晃、朱靈盡渡河西結營"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_xuhuang",
+      "target": "c059_hexi",
+      "type": "行軍結營",
+      "description": "徐晃渡河西結營。",
+      "evidence": [
+        "已在河西下了營寨"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c059_zhuling",
+      "target": "c059_hexi",
+      "type": "行軍結營",
+      "description": "朱靈與徐晃同渡河西結營。",
+      "evidence": [
+        "朱靈盡渡河西結營"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c059_strat_front_back_attack",
+      "target": "c059_xiliang_army",
+      "type": "造成威脅",
+      "description": "河西結營使馬超軍前後受敵。",
+      "evidence": [
+        "吾軍前後受敵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c059_xiahouyuan",
+      "target": "c059_machao",
+      "type": "追擊/交戰",
+      "description": "夏侯淵開寨追馬超，與之廝殺。",
+      "evidence": [
+        "直趕去",
+        "馬超接往廝殺"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_caocao",
+      "type": "攻擊",
+      "description": "馬超撇下夏侯淵直取曹操。",
+      "evidence": [
+        "撇了夏侯淵，直取曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_yangqiu",
+      "target": "c059_hansui",
+      "type": "勸說",
+      "description": "楊秋勸韓遂求和及後來暗投曹操。",
+      "evidence": [
+        "楊秋、侯選皆勸求和",
+        "不如暗投曹公"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c059_houxuan",
+      "target": "c059_hansui",
+      "type": "勸說",
+      "description": "侯選與楊秋勸韓遂向曹操求和。",
+      "evidence": [
+        "楊秋、侯選皆勸求和"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c059_hansui",
+      "target": "c059_yangqiu",
+      "type": "遣使",
+      "description": "韓遂遣楊秋往曹寨下書求和。",
+      "evidence": [
+        "韓遂遣楊秋為使"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_yangqiu",
+      "target": "c059_caocao",
+      "type": "出使",
+      "description": "楊秋到曹操寨中言割地請和。",
+      "evidence": [
+        "直往操寨下書，言割地請和"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_jiaxu",
+      "target": "c059_caocao",
+      "type": "獻策",
+      "description": "賈詡向曹操提出偽許求和並用反間計。",
+      "evidence": [
+        "可偽許之；然後用反間計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_strat_fake_peace",
+      "type": "實施策略",
+      "description": "曹操回書假稱徐徐退兵還河西。",
+      "evidence": [
+        "待我徐徐退兵，還汝河西之地"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_strat_rotate_defense",
+      "type": "提出策略",
+      "description": "馬超建議與韓遂輪流分頭防曹操與徐晃。",
+      "evidence": [
+        "超與叔父輪流調兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_hansui",
+      "target": "c059_strat_rotate_defense",
+      "type": "採納策略",
+      "description": "韓遂依馬超輪流調兵之計而行。",
+      "evidence": [
+        "韓遂依計而行"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_hansui",
+      "type": "陣前會談",
+      "description": "曹操與韓遂陣前單騎久談。",
+      "evidence": [
+        "韓遂即出陣",
+        "二人馬頭相交"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_evt_parley_hansui",
+      "target": "c059_machao",
+      "type": "引發猜疑",
+      "description": "曹操與韓遂只談舊事，使馬超心疑。",
+      "evidence": [
+        "只訴京師舊事耳",
+        "超心甚疑"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_jiaxu",
+      "target": "c059_strat_smeared_letter",
+      "type": "獻策",
+      "description": "賈詡建議曹操親筆作書後塗抹要害處。",
+      "evidence": [
+        "某有一策",
+        "自行塗抹改易"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_obj_smeared_letter",
+      "type": "製作/送出",
+      "description": "曹操依計作抹書並送韓遂。",
+      "evidence": [
+        "親筆作一書，單與韓遂"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_obj_smeared_letter",
+      "target": "c059_hansui",
+      "type": "送達",
+      "description": "抹書送與韓遂。",
+      "evidence": [
+        "封送與韓遂"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_obj_smeared_letter",
+      "target": "c059_machao",
+      "type": "離間",
+      "description": "馬超見書中塗抹字樣，疑韓遂先改。",
+      "evidence": [
+        "超心愈疑",
+        "必是叔父怕我知了詳細"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caohong",
+      "target": "c059_hansui",
+      "type": "偽傳言",
+      "description": "曹洪奉曹操之意向韓遂說含糊話，令馬超聽見。",
+      "evidence": [
+        "切莫有誤"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c059_caohong",
+      "target": "c059_machao",
+      "type": "加深猜疑",
+      "description": "馬超聽曹洪之言後大怒。",
+      "evidence": [
+        "超聽得大怒"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c059_yangqiu",
+      "target": "c059_caocao",
+      "type": "主張投降",
+      "description": "楊秋勸韓遂暗投曹公，以求封侯。",
+      "evidence": [
+        "不如暗投曹公"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_hansui",
+      "target": "c059_mateng",
+      "type": "結義",
+      "description": "韓遂稱自己與馬騰結為兄弟。",
+      "evidence": [
+        "吾與馬騰結為兄弟"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_hansui",
+      "target": "c059_obj_secret_letter",
+      "type": "書寫",
+      "description": "韓遂寫密書交楊秋送曹操。",
+      "evidence": [
+        "遂乃寫密書"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_yangqiu",
+      "target": "c059_obj_secret_letter",
+      "type": "傳遞",
+      "description": "楊秋持韓遂密書到曹操寨中。",
+      "evidence": [
+        "遣楊秋徑來操寨"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_title_xilianghou",
+      "type": "許封/授予",
+      "description": "曹操許封並後授韓遂西涼侯。",
+      "evidence": [
+        "許封韓遂為西涼侯",
+        "授西涼侯之職"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_hansui",
+      "target": "c059_title_xilianghou",
+      "type": "受封",
+      "description": "韓遂受曹操授西涼侯之職。",
+      "evidence": [
+        "韓遂已無左手",
+        "授西涼侯之職"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_title_xiliangtaishou",
+      "type": "許封",
+      "description": "曹操許封楊秋為西涼太守。",
+      "evidence": [
+        "楊秋為西涼太守"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_strat_fire_signal",
+      "type": "約定策略",
+      "description": "曹操與韓遂方面約定放火為號、裡應外合。",
+      "evidence": [
+        "約定放火為號"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c059_hansui",
+      "target": "c059_strat_fire_signal",
+      "type": "約定策略",
+      "description": "韓遂令軍士堆乾柴準備夜間放火。",
+      "evidence": [
+        "帳後堆積乾柴"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c059_strat_fire_signal",
+      "target": "c059_machao",
+      "type": "攻擊目標",
+      "description": "放火裡應外合之計意在共謀馬超。",
+      "evidence": [
+        "共謀馬超"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_hansui",
+      "type": "攻擊",
+      "description": "馬超闖帳斬韓遂，砍落其左手。",
+      "evidence": [
+        "一劍望韓遂面門剁去",
+        "左手早被砍落"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_mawan",
+      "type": "殺傷",
+      "description": "馬超力敵五將時砍翻馬玩。",
+      "evidence": [
+        "砍翻馬玩"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_liangxing",
+      "type": "殺傷",
+      "description": "馬超力敵五將時剁倒梁興。",
+      "evidence": [
+        "剁倒梁興"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_pangde",
+      "target": "c059_machao",
+      "type": "救援",
+      "description": "龐德殺到，救馬超脫圍。",
+      "evidence": [
+        "龐德、馬岱也。兩人救了馬超"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_madai",
+      "target": "c059_machao",
+      "type": "救援",
+      "description": "馬岱與龐德同救馬超。",
+      "evidence": [
+        "兩人救了馬超"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_yujin",
+      "target": "c059_likan",
+      "type": "誤射致死",
+      "description": "於禁射馬超，馬超閃過，箭中李堪。",
+      "evidence": [
+        "卻射中前面李堪，落馬而死"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_tiger_guard",
+      "target": "c059_machao",
+      "type": "攻擊",
+      "description": "虎衛軍當先以亂箭夾射馬超。",
+      "evidence": [
+        "虎衛軍當先，亂箭夾射馬超"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_machao",
+      "target": "c059_lintao",
+      "type": "敗走",
+      "description": "馬超與龐德、馬岱敗走隴西臨洮。",
+      "evidence": [
+        "望隴西臨洮而去"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_anding",
+      "type": "追擊至",
+      "description": "曹操親自追馬超至安定。",
+      "evidence": [
+        "曹操親自追至安定"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_changan",
+      "type": "收兵回",
+      "description": "曹操知馬超去遠後收兵回長安。",
+      "evidence": [
+        "方收兵回長安"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_title_liehou",
+      "type": "封賞",
+      "description": "曹操封楊秋、侯選為列侯。",
+      "evidence": [
+        "楊秋、侯選皆封列侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_yangqiu",
+      "target": "c059_title_liehou",
+      "type": "受封",
+      "description": "楊秋受封列侯。",
+      "evidence": [
+        "楊秋、侯選皆封列侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_houxuan",
+      "target": "c059_title_liehou",
+      "type": "受封",
+      "description": "侯選受封列侯。",
+      "evidence": [
+        "楊秋、侯選皆封列侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_yangqiu",
+      "target": "c059_weikou",
+      "type": "守衛",
+      "description": "楊秋奉命守渭口。",
+      "evidence": [
+        "令守渭口"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c059_houxuan",
+      "target": "c059_weikou",
+      "type": "守衛",
+      "description": "侯選奉命守渭口。",
+      "evidence": [
+        "令守渭口"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c059_yangfu",
+      "target": "c059_title_liangzhoucanjun",
+      "type": "擔任",
+      "description": "楊阜為涼州參軍。",
+      "evidence": [
+        "涼州參軍楊阜"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_yangfu",
+      "target": "c059_caocao",
+      "type": "進諫",
+      "description": "楊阜勸曹操暫勿回兵，乘勢剿馬超。",
+      "evidence": [
+        "望丞相且休回兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_yangfu",
+      "target": "c059_weikang",
+      "type": "保薦",
+      "description": "楊阜保薦韋康為涼州刺史。",
+      "evidence": [
+        "保薦韋康為涼州刺史"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_weikang",
+      "target": "c059_title_liangzhoucishi",
+      "type": "擔任",
+      "description": "韋康受保薦為涼州刺史。",
+      "evidence": [
+        "韋康為涼州刺史"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_weikang",
+      "target": "c059_jicheng",
+      "type": "屯兵",
+      "description": "韋康與楊阜同領兵屯冀城。",
+      "evidence": [
+        "同領兵屯冀城"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c059_xiahouyuan",
+      "target": "c059_changan",
+      "type": "屯守",
+      "description": "曹操留夏侯淵屯兵長安。",
+      "evidence": [
+        "留夏侯淵屯兵長安"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_xiahouyuan",
+      "target": "c059_zhangji",
+      "type": "保舉",
+      "description": "夏侯淵保舉張既為京兆尹。",
+      "evidence": [
+        "夏侯淵保舉馮翊高陵人，姓張，名既"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_zhangji",
+      "target": "c059_title_jingzhaoyin",
+      "type": "擔任",
+      "description": "張既為京兆尹。",
+      "evidence": [
+        "為京兆尹"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhangji",
+      "target": "c059_changan",
+      "type": "同守",
+      "description": "張既與夏侯淵同守長安。",
+      "evidence": [
+        "與淵同守長安"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_caocao",
+      "target": "c059_xudu",
+      "type": "班師",
+      "description": "曹操下令班師回許都。",
+      "evidence": [
+        "下令班師回許都"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_xiandi",
+      "target": "c059_caocao",
+      "type": "加禮",
+      "description": "獻帝迎接曹操並詔賜特殊朝儀。",
+      "evidence": [
+        "排鑾駕出郭迎接",
+        "詔操贊拜不名"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhanglu",
+      "target": "c059_hanzhong_loc",
+      "type": "據守",
+      "description": "張魯雄據漢中三十年。",
+      "evidence": [
+        "雄據漢中之地已三十年"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhanglu",
+      "target": "c059_title_zhennan",
+      "type": "受命擔任",
+      "description": "朝廷命張魯為鎮南中郎將。",
+      "evidence": [
+        "命魯為鎮南中郎將"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhanglu",
+      "target": "c059_title_hanningtaishou",
+      "type": "擔任",
+      "description": "張魯領漢寧太守。",
+      "evidence": [
+        "領漢寧太守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhanglu",
+      "target": "c059_title_shijun",
+      "type": "自號",
+      "description": "張魯在漢中自號師君。",
+      "evidence": [
+        "自號為師君"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_guizu",
+      "target": "c059_zhanglu",
+      "type": "隸屬/從學",
+      "description": "張魯勢力中來學道者皆稱鬼卒。",
+      "evidence": [
+        "其來學道者皆號為鬼卒"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c059_title_jijiu",
+      "target": "c059_hanzhong_faction",
+      "type": "管理",
+      "description": "張魯境內無官長，盡屬祭酒所管。",
+      "evidence": [
+        "盡屬祭酒所管"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c059_zhangling",
+      "target": "c059_zhanglu",
+      "type": "祖孫",
+      "description": "張陵是張魯之祖。",
+      "evidence": [
+        "其祖張陵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhangheng",
+      "target": "c059_zhangling",
+      "type": "父子",
+      "description": "張衡是張陵之子。",
+      "evidence": [
+        "其子張衡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhanglu",
+      "target": "c059_zhangheng",
+      "type": "承繼道法",
+      "description": "張衡死後，張魯承行其道。",
+      "evidence": [
+        "張衡死，張魯行之"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c059_zhanglu",
+      "target": "c059_title_hanningwang",
+      "type": "欲自稱",
+      "description": "張魯欲自稱漢寧王以拒曹操。",
+      "evidence": [
+        "我欲自稱漢寧王"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhanglu",
+      "target": "c059_caocao",
+      "type": "預期敵對",
+      "description": "張魯認為曹操破西涼後必將侵漢中。",
+      "evidence": [
+        "曹操必將侵我漢中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c059_yanzu",
+      "target": "c059_strat_take_xichuan",
+      "type": "獻策",
+      "description": "閻族勸張魯先取西川再稱王。",
+      "evidence": [
+        "不如先取西川四十一州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_strat_take_xichuan",
+      "target": "c059_xichuan",
+      "type": "攻取目標",
+      "description": "先取西川再稱王之策以西川四十一州為目標。",
+      "evidence": [
+        "先取西川四十一州為本"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_liuzhang",
+      "target": "c059_liuyan",
+      "type": "父子",
+      "description": "劉璋是劉焉之子。",
+      "evidence": [
+        "即劉焉之子"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_liuzhang",
+      "target": "c059_title_yizhoumu",
+      "type": "擔任",
+      "description": "劉璋被趙韙等共保為益州牧。",
+      "evidence": [
+        "共保璋為益州牧"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_zhaowei",
+      "target": "c059_liuzhang",
+      "type": "擁立/保舉",
+      "description": "趙韙等益州大吏共保劉璋為益州牧。",
+      "evidence": [
+        "趙韙等，共保璋"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c059_liuzhang",
+      "target": "c059_zhanglu",
+      "type": "結仇",
+      "description": "劉璋曾殺張魯母親及弟弟，因此與張魯有仇。",
+      "evidence": [
+        "璋曾殺張魯母及弟，因此有仇"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_liuzhang",
+      "target": "c059_pangxi",
+      "type": "任命",
+      "description": "劉璋使龐羲為巴西太守以拒張魯。",
+      "evidence": [
+        "璋使龐羲為巴西太守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_pangxi",
+      "target": "c059_title_baxitaishou",
+      "type": "擔任",
+      "description": "龐羲任巴西太守。",
+      "evidence": [
+        "龐羲為巴西太守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_pangxi",
+      "target": "c059_zhanglu",
+      "type": "防禦/敵對",
+      "description": "龐羲受命在巴西抵拒張魯。",
+      "evidence": [
+        "以拒張魯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c059_pangxi",
+      "target": "c059_liuzhang",
+      "type": "通報",
+      "description": "龐羲探知張魯欲取川，急報劉璋。",
+      "evidence": [
+        "急報知劉璋"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "c059_evt_burn_camp",
+      "name": "馬超韓遂火燒曹寨",
+      "summary": "馬超、韓遂趁曹仁立寨，用草束與火種火攻曹營，燒毀車乘與浮橋，西涼兵大勝並截住渭河。",
+      "participants": [
+        "c059_machao",
+        "c059_hansui",
+        "c059_caoren",
+        "c059_caocao_army",
+        "c059_xiliang_army"
+      ],
+      "locations": [
+        "c059_wei_river",
+        "c059_weikou"
+      ],
+      "evidence": [
+        "放起烈火",
+        "浮橋，盡被燒毀"
+      ]
+    },
+    {
+      "id": "c059_evt_frozen_city",
+      "name": "曹操凍土築城",
+      "summary": "曹操採納利用天寒之法，夜令軍士擔土潑水，使沙土凍緊，一夜築成土城。",
+      "participants": [
+        "c059_caocao",
+        "c059_xunyou",
+        "c059_louzibo",
+        "c059_caocao_army"
+      ],
+      "locations": [
+        "c059_wei_river"
+      ],
+      "evidence": [
+        "隨築隨凍",
+        "土城已築完"
+      ]
+    },
+    {
+      "id": "c059_battle_xuchu_machao_duel",
+      "name": "許褚裸衣鬥馬超",
+      "summary": "許褚與馬超兩度百餘合不分勝負，許褚卸甲赤體再戰，雙方奪槍折桿，曹軍與西涼軍混戰。",
+      "participants": [
+        "c059_xuchu",
+        "c059_machao",
+        "c059_caocao",
+        "c059_xiahouyuan",
+        "c059_caohong",
+        "c059_pangde",
+        "c059_madai"
+      ],
+      "locations": [
+        "c059_weikou",
+        "c059_wei_river"
+      ],
+      "evidence": [
+        "赤體提刀",
+        "拗斷槍桿"
+      ]
+    },
+    {
+      "id": "c059_evt_parley_hansui",
+      "name": "曹操陣前會韓遂",
+      "summary": "曹操輕裝單騎邀韓遂會話，只談京師舊事，令馬超懷疑韓遂與曹操另有密謀。",
+      "participants": [
+        "c059_caocao",
+        "c059_hansui",
+        "c059_machao"
+      ],
+      "locations": [
+        "c059_weikou"
+      ],
+      "evidence": [
+        "各按轡對語",
+        "超心甚疑"
+      ]
+    },
+    {
+      "id": "c059_evt_smeared_letter",
+      "name": "曹操抹書間韓遂",
+      "summary": "賈詡獻抹書之計，曹操親筆作書並塗抹要害處，故意使馬超看到，馬超因而疑韓遂。",
+      "participants": [
+        "c059_caocao",
+        "c059_jiaxu",
+        "c059_hansui",
+        "c059_machao"
+      ],
+      "locations": [
+        "c059_weikou"
+      ],
+      "evidence": [
+        "自行塗抹改易",
+        "超心愈疑"
+      ]
+    },
+    {
+      "id": "c059_evt_hansui_defection",
+      "name": "韓遂暗投曹操",
+      "summary": "楊秋勸韓遂投曹，韓遂寫密書遣楊秋送曹操，曹操許以爵職，雙方約定放火為號、裡應外合謀馬超。",
+      "participants": [
+        "c059_hansui",
+        "c059_yangqiu",
+        "c059_caocao",
+        "c059_houxuan",
+        "c059_likan",
+        "c059_liangxing",
+        "c059_mawan"
+      ],
+      "locations": [
+        "c059_weikou"
+      ],
+      "evidence": [
+        "暗投曹公",
+        "裡應外合"
+      ]
+    },
+    {
+      "id": "c059_evt_machao_attacks_hansui",
+      "name": "馬超突入韓遂帳",
+      "summary": "馬超探知密謀後帶親隨入韓遂帳，斬落韓遂左手，並在混戰中砍翻馬玩、剁倒梁興。",
+      "participants": [
+        "c059_machao",
+        "c059_hansui",
+        "c059_yangqiu",
+        "c059_houxuan",
+        "c059_likan",
+        "c059_liangxing",
+        "c059_mawan",
+        "c059_pangde",
+        "c059_madai"
+      ],
+      "locations": [
+        "c059_weikou"
+      ],
+      "evidence": [
+        "群賊焉敢謀害我",
+        "左手早被砍落"
+      ]
+    },
+    {
+      "id": "c059_battle_weibridge_breakout",
+      "name": "馬超渭橋突圍",
+      "summary": "馬超敗後據渭橋，被曹軍與虎衛軍圍射；於禁誤射李堪，龐德、馬岱殺到救出馬超，馬超敗走臨洮。",
+      "participants": [
+        "c059_machao",
+        "c059_yujin",
+        "c059_likan",
+        "c059_tiger_guard",
+        "c059_pangde",
+        "c059_madai",
+        "c059_caocao_army"
+      ],
+      "locations": [
+        "c059_wei_bridge",
+        "c059_lintao"
+      ],
+      "evidence": [
+        "虎衛軍當先",
+        "兩人救了馬超"
+      ]
+    },
+    {
+      "id": "c059_evt_caocao_rewards",
+      "name": "曹操封賞留守",
+      "summary": "曹操追至安定後回長安，安置韓遂，封楊秋、侯選列侯守渭口，留夏侯淵與張既守長安。",
+      "participants": [
+        "c059_caocao",
+        "c059_hansui",
+        "c059_yangqiu",
+        "c059_houxuan",
+        "c059_xiahouyuan",
+        "c059_zhangji"
+      ],
+      "locations": [
+        "c059_anding",
+        "c059_changan",
+        "c059_weikou"
+      ],
+      "evidence": [
+        "授西涼侯之職",
+        "留夏侯淵屯兵長安"
+      ]
+    },
+    {
+      "id": "c059_evt_zhanglu_council",
+      "name": "張魯議稱漢寧王",
+      "summary": "張魯聞曹操破西涼，擔心曹操侵漢中，欲稱漢寧王拒曹；閻族勸其先取西川為本。",
+      "participants": [
+        "c059_zhanglu",
+        "c059_yanzu",
+        "c059_caocao"
+      ],
+      "locations": [
+        "c059_hanzhong_loc",
+        "c059_xichuan"
+      ],
+      "evidence": [
+        "曹操必將侵我漢中",
+        "先取西川四十一州"
+      ]
+    },
+    {
+      "id": "c059_evt_liuzhang_council",
+      "name": "劉璋聞張魯取川",
+      "summary": "龐羲探知張魯欲興兵取川，急報劉璋；劉璋因與張魯有仇，憂懼而聚眾商議。",
+      "participants": [
+        "c059_liuzhang",
+        "c059_pangxi",
+        "c059_zhanglu"
+      ],
+      "locations": [
+        "c059_xichuan",
+        "c059_baxi"
+      ],
+      "evidence": [
+        "張魯欲興兵取川",
+        "心中大憂"
+      ]
+    }
+  ],
+  "notes": [
+    "原文檔中部分句子有重複或疑似訛字；本抽取只採可由上下文支持的實體與關係。",
+    "「閻族」按檔案原文保留，不另行改寫。"
+  ]
+}

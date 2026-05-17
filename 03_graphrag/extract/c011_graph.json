@@ -1,0 +1,2004 @@
+{
+  "book": "三國演義",
+  "chapter_no": 11,
+  "chapter_title": "劉皇叔北海救孔融　呂溫侯濮陽破曹操",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "person_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [
+        "子仲"
+      ],
+      "description": "東海朐縣人，陶謙別駕從事，獻分途求援之計，親赴北海求孔融救徐州。",
+      "evidence": [
+        "姓糜，名竺，字子仲",
+        "陶謙聘為別駕從事",
+        "賫書赴北海"
+      ]
+    },
+    {
+      "id": "person_tao_qian",
+      "name": "陶謙",
+      "type": "character",
+      "aliases": [
+        "陶恭祖",
+        "陶使君"
+      ],
+      "description": "徐州主事者，被曹操攻圍，遣糜竺、陳登求援，後多次欲讓徐州於劉備。",
+      "evidence": [
+        "自己率眾守城",
+        "情願將徐州相讓"
+      ]
+    },
+    {
+      "id": "person_chen_deng",
+      "name": "陳登",
+      "type": "character",
+      "aliases": [
+        "元龍"
+      ],
+      "description": "廣陵人，受陶謙派遣往青州田楷處求救。",
+      "evidence": [
+        "姓陳，名登，字符龍",
+        "往青州求救"
+      ]
+    },
+    {
+      "id": "person_kong_rong",
+      "name": "孔融",
+      "type": "character",
+      "aliases": [
+        "文舉",
+        "孔北海"
+      ],
+      "description": "北海太守，與陶謙交厚；先遭管亥圍城，後請劉備援救徐州。",
+      "evidence": [
+        "累遷北海太守",
+        "吾與陶恭祖交厚"
+      ]
+    },
+    {
+      "id": "person_guan_hai",
+      "name": "管亥",
+      "type": "character",
+      "aliases": [],
+      "description": "黃巾賊黨首領，率群寇圍攻北海，後被關羽斬於馬下。",
+      "evidence": [
+        "管亥部領群寇數萬",
+        "劈管亥於馬下"
+      ]
+    },
+    {
+      "id": "person_taishi_ci",
+      "name": "太史慈",
+      "type": "character",
+      "aliases": [
+        "子義"
+      ],
+      "description": "東萊黃縣人，受母命救孔融，突圍赴平原請劉備，並參與破管亥。",
+      "evidence": [
+        "覆姓太史，名慈，字子義",
+        "前來求救"
+      ]
+    },
+    {
+      "id": "person_taishi_mother",
+      "name": "太史慈母",
+      "type": "character",
+      "aliases": [
+        "老母"
+      ],
+      "description": "因受孔融粟帛恩惠，命太史慈往救北海。",
+      "evidence": [
+        "老母說：屢受府君深恩",
+        "特使慈來救"
+      ]
+    },
+    {
+      "id": "person_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "劉皇叔",
+        "平原劉玄德"
+      ],
+      "description": "平原相，先救北海孔融，再赴徐州助陶謙，拒受徐州而屯小沛。",
+      "evidence": [
+        "平原劉玄德",
+        "今為大義，故來相助",
+        "暫駐軍此邑"
+      ]
+    },
+    {
+      "id": "person_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長"
+      ],
+      "description": "劉備部將，北海之戰中斬管亥，後助守徐州。",
+      "evidence": [
+        "雲長早出",
+        "青龍刀起，劈管亥於馬下"
+      ]
+    },
+    {
+      "id": "person_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備部將，與太史慈夾攻賊陣，並隨劉備突入徐州、擊退於禁。",
+      "evidence": [
+        "太史慈、張飛兩騎齊出",
+        "張飛見了，直取於禁"
+      ]
+    },
+    {
+      "id": "person_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "子龍"
+      ],
+      "description": "隨劉備一方援徐州，後辭別劉備而去。",
+      "evidence": [
+        "子龍領軍四千",
+        "趙雲辭去"
+      ]
+    },
+    {
+      "id": "person_tian_kai",
+      "name": "田楷",
+      "type": "character",
+      "aliases": [],
+      "description": "青州方面援軍首領，受陶謙求援，與孔融兩路軍馬牽制曹操。",
+      "evidence": [
+        "青州田楷處求救",
+        "孔融、田楷兩路軍馬"
+      ]
+    },
+    {
+      "id": "person_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [],
+      "description": "率曹兵攻徐州；因兗州、濮陽為呂布所據而退兵，回軍後在濮陽與呂布交戰。",
+      "evidence": [
+        "曹操攻圍甚急",
+        "拔寨退兵",
+        "吾進濮陽"
+      ]
+    },
+    {
+      "id": "person_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，先在徐州外迎戰劉備、張飛，後獻夜襲呂布西寨之策。",
+      "evidence": [
+        "當頭一員大將，乃是於禁",
+        "可引兵擊之"
+      ]
+    },
+    {
+      "id": "person_guo_jia",
+      "name": "郭嘉",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，勸曹操退徐州、復兗州。",
+      "evidence": [
+        "郭嘉曰",
+        "退軍復兗州"
+      ]
+    },
+    {
+      "id": "person_zhang_miao",
+      "name": "張邈",
+      "type": "character",
+      "aliases": [],
+      "description": "與呂布取兗州相關，令呂布襲破兗州。",
+      "evidence": [
+        "投張邈",
+        "便令呂布襲破兗州"
+      ]
+    },
+    {
+      "id": "person_lu_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "呂溫侯"
+      ],
+      "description": "趁曹操東征時取兗州、據濮陽，後在濮陽大破曹操。",
+      "evidence": [
+        "呂布乃當世勇士",
+        "隨據濮陽",
+        "呂布掩殺，曹軍大敗"
+      ]
+    },
+    {
+      "id": "person_chen_gong",
+      "name": "陳宮",
+      "type": "character",
+      "aliases": [],
+      "description": "輔佐呂布，為其出謀，提醒防備曹操襲西寨。",
+      "evidence": [
+        "更有陳宮為輔",
+        "西寨是個要緊去處"
+      ]
+    },
+    {
+      "id": "person_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，向曹操告急兗州形勢，並受命圍攻兗州。",
+      "evidence": [
+        "曹仁屢戰",
+        "曹仁接著，言呂布勢大",
+        "教曹仁領一軍圍攻州"
+      ]
+    },
+    {
+      "id": "person_xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "與程昱設計死守鄄城等三處，使其未被呂布攻破。",
+      "evidence": [
+        "被荀彧、程昱設計死守得全"
+      ]
+    },
+    {
+      "id": "person_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "與荀彧共同守住鄄城、東阿、範縣。",
+      "evidence": [
+        "荀彧、程昱二人設計相連"
+      ]
+    },
+    {
+      "id": "person_xue_lan",
+      "name": "薛蘭",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布副將，受命與李封引軍一萬堅守兗州。",
+      "evidence": [
+        "副將薛蘭、李封",
+        "引軍一萬，堅守兗州"
+      ]
+    },
+    {
+      "id": "person_li_feng",
+      "name": "李封",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布副將，與薛蘭同守兗州。",
+      "evidence": [
+        "薛蘭、李封",
+        "二人應諾"
+      ]
+    },
+    {
+      "id": "person_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [
+        "文遠"
+      ],
+      "description": "呂布麾下健將，陣前截戰夏侯惇，後與臧霸阻擊曹操。",
+      "evidence": [
+        "姓張，名遼，字文遠",
+        "張遼截住廝殺"
+      ]
+    },
+    {
+      "id": "person_zang_ba",
+      "name": "臧霸",
+      "type": "character",
+      "aliases": [
+        "宣高"
+      ],
+      "description": "呂布麾下健將，與樂進交戰，後阻擊曹操。",
+      "evidence": [
+        "姓臧，名霸，字宣高",
+        "叫臧霸出馬搦戰"
+      ]
+    },
+    {
+      "id": "person_hao_meng",
+      "name": "郝萌",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布麾下將領，在曹操退路上攔截。",
+      "evidence": [
+        "郝萌、曹性、成廉、宋憲四將攔住去路"
+      ]
+    },
+    {
+      "id": "person_cao_xing",
+      "name": "曹性",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布麾下將領，在濮陽戰中攔截曹操。",
+      "evidence": [
+        "曹性",
+        "四將攔住去路"
+      ]
+    },
+    {
+      "id": "person_cheng_lian",
+      "name": "成廉",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布麾下將領，在濮陽戰中攔截曹操。",
+      "evidence": [
+        "成廉",
+        "四將攔住去路"
+      ]
+    },
+    {
+      "id": "person_wei_xu",
+      "name": "魏續",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布麾下將領，參與追擊曹操。",
+      "evidence": [
+        "魏續、宋憲、侯成",
+        "高順、魏續、侯成趕來"
+      ]
+    },
+    {
+      "id": "person_song_xian",
+      "name": "宋憲",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布麾下將領，在濮陽戰中攔截曹操。",
+      "evidence": [
+        "宋憲",
+        "四將攔住去路"
+      ]
+    },
+    {
+      "id": "person_hou_cheng",
+      "name": "侯成",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布麾下將領，隨軍追擊曹操。",
+      "evidence": [
+        "侯成",
+        "高順、魏續、侯成趕來"
+      ]
+    },
+    {
+      "id": "person_le_jin",
+      "name": "樂進",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，與臧霸交戰，後與於禁雙戰呂布。",
+      "evidence": [
+        "樂進出迎",
+        "於禁、樂進雙戰呂布"
+      ]
+    },
+    {
+      "id": "person_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，在濮陽陣前助戰，被張遼截住。",
+      "evidence": [
+        "夏侯惇拍馬便出助戰",
+        "張遼截住廝殺"
+      ]
+    },
+    {
+      "id": "person_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，隨曹操攻西寨，後與呂虔迎戰張遼、臧霸。",
+      "evidence": [
+        "帶曹洪",
+        "操使呂虔、曹洪戰之"
+      ]
+    },
+    {
+      "id": "person_lu_qian",
+      "name": "呂虔",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，奉命與曹洪戰張遼、臧霸。",
+      "evidence": [
+        "操使呂虔、曹洪戰之"
+      ]
+    },
+    {
+      "id": "person_gao_shun",
+      "name": "高順",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，率軍攻入西寨，迫使曹操棄寨。",
+      "evidence": [
+        "高順方引軍到",
+        "殺將入來"
+      ]
+    },
+    {
+      "id": "person_dian_wei",
+      "name": "典韋",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，在重圍中以雙鐵戟、短戟殺散追兵，救出曹操。",
+      "evidence": [
+        "乃典韋也",
+        "主公勿憂",
+        "救出曹操"
+      ]
+    },
+    {
+      "id": "faction_xuzhou",
+      "name": "徐州勢力",
+      "type": "faction",
+      "aliases": [
+        "陶謙軍"
+      ],
+      "description": "陶謙所領徐州一方，受曹操攻圍並向外求援。",
+      "evidence": [
+        "曹操攻圍甚急",
+        "自己率眾守城"
+      ]
+    },
+    {
+      "id": "faction_beihai",
+      "name": "北海勢力",
+      "type": "faction",
+      "aliases": [
+        "孔融軍"
+      ],
+      "description": "孔融所領北海一方，先被管亥圍攻，後出兵援徐州。",
+      "evidence": [
+        "孔融兵大亂，奔入城中",
+        "孔融、田楷兩路軍馬"
+      ]
+    },
+    {
+      "id": "faction_yellow_turban",
+      "name": "黃巾賊黨",
+      "type": "faction",
+      "aliases": [
+        "管亥群寇",
+        "群賊"
+      ],
+      "description": "管亥率領的賊眾，圍攻北海，最終潰散。",
+      "evidence": [
+        "黃巾賊黨管亥",
+        "大敗群賊"
+      ]
+    },
+    {
+      "id": "faction_liu_bei",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "平原軍"
+      ],
+      "description": "劉備所統軍隊，先救北海，再援徐州，後屯小沛。",
+      "evidence": [
+        "玄德驅兵掩殺",
+        "引本部軍來至小沛"
+      ]
+    },
+    {
+      "id": "faction_cao_cao",
+      "name": "曹操軍",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹兵"
+      ],
+      "description": "曹操所統軍隊，攻徐州後退回兗州，在濮陽與呂布交戰。",
+      "evidence": [
+        "曹兵勢大",
+        "曹軍大敗"
+      ]
+    },
+    {
+      "id": "faction_lu_bu",
+      "name": "呂布軍",
+      "type": "faction",
+      "aliases": [
+        "布軍"
+      ],
+      "description": "呂布所統軍隊，取兗州、據濮陽，並在濮陽擊敗曹操。",
+      "evidence": [
+        "布軍五萬",
+        "呂布掩殺"
+      ]
+    },
+    {
+      "id": "faction_tian_kai",
+      "name": "田楷軍",
+      "type": "faction",
+      "aliases": [
+        "青州軍"
+      ],
+      "description": "田楷從青州出援徐州，與孔融軍牽制曹操。",
+      "evidence": [
+        "青州田楷處求救",
+        "田楷兩路軍馬"
+      ]
+    },
+    {
+      "id": "location_beihai",
+      "name": "北海",
+      "type": "location",
+      "aliases": [
+        "北海郡"
+      ],
+      "description": "孔融治所，受管亥圍攻。",
+      "evidence": [
+        "北海孔融",
+        "北海被圍"
+      ]
+    },
+    {
+      "id": "location_qingzhou",
+      "name": "青州",
+      "type": "location",
+      "aliases": [],
+      "description": "田楷所在之地，陶謙派陳登前往求救。",
+      "evidence": [
+        "青州田楷處求救"
+      ]
+    },
+    {
+      "id": "location_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [
+        "徐州城"
+      ],
+      "description": "陶謙所守州城，為曹操攻圍，後劉備入城相助。",
+      "evidence": [
+        "曹操攻圍甚急",
+        "直到徐州城下"
+      ]
+    },
+    {
+      "id": "location_pingyuan",
+      "name": "平原",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備所在之地，太史慈突圍後赴此請援。",
+      "evidence": [
+        "投射平原來見劉玄德"
+      ]
+    },
+    {
+      "id": "location_xiaopei",
+      "name": "小沛",
+      "type": "location",
+      "aliases": [],
+      "description": "徐州近邑，劉備拒受徐州後暫駐於此。",
+      "evidence": [
+        "名曰小沛，足可屯軍",
+        "暫駐軍此邑"
+      ]
+    },
+    {
+      "id": "location_yanzhou",
+      "name": "兗州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操根據地，曹操東征時被呂布襲破。",
+      "evidence": [
+        "兗州空虛",
+        "襲破兗州"
+      ]
+    },
+    {
+      "id": "location_puyang",
+      "name": "濮陽",
+      "type": "location",
+      "aliases": [],
+      "description": "呂布據守之地，曹操回軍後與呂布交戰於此。",
+      "evidence": [
+        "隨據濮陽",
+        "吾進濮陽"
+      ]
+    },
+    {
+      "id": "location_juancheng",
+      "name": "鄄城",
+      "type": "location",
+      "aliases": [],
+      "description": "兗州三處守城之一，由荀彧、程昱設計保全。",
+      "evidence": [
+        "止有鄄城、東阿、範縣三處"
+      ]
+    },
+    {
+      "id": "location_donge",
+      "name": "東阿",
+      "type": "location",
+      "aliases": [],
+      "description": "兗州三處守城之一，由荀彧、程昱設計保全。",
+      "evidence": [
+        "鄄城、東阿、範縣"
+      ]
+    },
+    {
+      "id": "location_fanxian",
+      "name": "範縣",
+      "type": "location",
+      "aliases": [],
+      "description": "兗州三處守城之一，由荀彧、程昱設計保全。",
+      "evidence": [
+        "東阿、範縣三處"
+      ]
+    },
+    {
+      "id": "location_taishan",
+      "name": "泰山",
+      "type": "location",
+      "aliases": [],
+      "description": "陳宮提及可伏兵的險路。",
+      "evidence": [
+        "泰山路險，可伏精兵"
+      ]
+    },
+    {
+      "id": "location_west_camp",
+      "name": "西寨",
+      "type": "location",
+      "aliases": [
+        "呂布西寨"
+      ],
+      "description": "濮陽之西的要寨，曹操夜襲奪取，旋又被呂布軍反攻。",
+      "evidence": [
+        "濮陽之西，呂布有一寨",
+        "曹操奪了寨"
+      ]
+    },
+    {
+      "id": "battle_beihai_siege",
+      "name": "北海之圍",
+      "type": "battle",
+      "aliases": [
+        "管亥圍北海"
+      ],
+      "description": "管亥率黃巾賊眾圍攻北海，孔融困守城中。",
+      "evidence": [
+        "管亥分兵四面圍城"
+      ]
+    },
+    {
+      "id": "battle_rescue_beihai",
+      "name": "劉備救北海",
+      "type": "battle",
+      "aliases": [
+        "北海解圍"
+      ],
+      "description": "劉備、關羽、張飛、太史慈與孔融夾攻管亥賊眾，北海解圍。",
+      "evidence": [
+        "兩下夾攻，大敗群賊"
+      ]
+    },
+    {
+      "id": "battle_xuzhou_siege",
+      "name": "徐州之圍",
+      "type": "battle",
+      "aliases": [
+        "曹操攻徐州"
+      ],
+      "description": "曹操攻圍徐州，陶謙求援，後因兗州有變退兵。",
+      "evidence": [
+        "曹操攻圍甚急",
+        "曹兵已退"
+      ]
+    },
+    {
+      "id": "battle_puyang",
+      "name": "濮陽之戰",
+      "type": "battle",
+      "aliases": [
+        "呂溫侯濮陽破曹操"
+      ],
+      "description": "曹操回軍與呂布戰於濮陽，先敗一陣，又夜襲西寨後遭反擊。",
+      "evidence": [
+        "陳兵於野",
+        "曹軍大敗"
+      ]
+    },
+    {
+      "id": "battle_west_camp",
+      "name": "西寨夜襲",
+      "type": "battle",
+      "aliases": [
+        "濮陽西寨之戰"
+      ],
+      "description": "曹操依於禁之策夜襲呂布西寨，奪寨後被高順、呂布軍反攻而棄寨。",
+      "evidence": [
+        "黃昏時分，引軍至西寨",
+        "操棄寨而走"
+      ]
+    },
+    {
+      "id": "title_biejia",
+      "name": "別駕從事",
+      "type": "title",
+      "aliases": [
+        "別駕"
+      ],
+      "description": "陶謙任命糜竺擔任的官職。",
+      "evidence": [
+        "陶謙聘為別駕從事"
+      ]
+    },
+    {
+      "id": "title_beihai_taishou",
+      "name": "北海太守",
+      "type": "title",
+      "aliases": [],
+      "description": "孔融所任官職。",
+      "evidence": [
+        "累遷北海太守"
+      ]
+    },
+    {
+      "id": "title_pingyuan_xiang",
+      "name": "平原相",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備當時官職，自稱任此仍恐不稱職。",
+      "evidence": [
+        "為平原相猶恐不稱職"
+      ]
+    },
+    {
+      "id": "title_xuzhou_authority",
+      "name": "徐州州事",
+      "type": "title",
+      "aliases": [
+        "領徐州"
+      ],
+      "description": "陶謙欲讓劉備承領的徐州政務權柄。",
+      "evidence": [
+        "可領徐州",
+        "兄且權領州事"
+      ]
+    },
+    {
+      "id": "object_letters",
+      "name": "書札",
+      "type": "object",
+      "aliases": [
+        "陶謙書",
+        "劉備書",
+        "書"
+      ],
+      "description": "本章多次用於求援、勸和與傳報軍情的書信。",
+      "evidence": [
+        "遂寫書二封",
+        "呈上書札",
+        "乃劉備書也"
+      ]
+    },
+    {
+      "id": "object_xuzhou_seal",
+      "name": "徐州牌印",
+      "type": "object",
+      "aliases": [
+        "牌印"
+      ],
+      "description": "陶謙欲交給劉備以讓徐州的權力象徵。",
+      "evidence": [
+        "取徐州牌印，讓與玄德"
+      ]
+    },
+    {
+      "id": "object_armor_horse",
+      "name": "衣甲鞍馬",
+      "type": "object",
+      "aliases": [],
+      "description": "孔融贈與太史慈的裝備。",
+      "evidence": [
+        "贈與衣甲鞍馬"
+      ]
+    },
+    {
+      "id": "object_qinglong_blade",
+      "name": "青龍刀",
+      "type": "object",
+      "aliases": [],
+      "description": "關羽斬管亥所用兵器。",
+      "evidence": [
+        "青龍刀起，劈管亥"
+      ]
+    },
+    {
+      "id": "object_double_swords",
+      "name": "雙股劍",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備在突曹營時所持兵器。",
+      "evidence": [
+        "玄德掣雙股劍"
+      ]
+    },
+    {
+      "id": "object_dianwei_halberds",
+      "name": "雙鐵戟",
+      "type": "object",
+      "aliases": [
+        "短戟"
+      ],
+      "description": "典韋救曹操時使用的兵器。",
+      "evidence": [
+        "手挺雙鐵戟",
+        "取短戟十數枝"
+      ]
+    },
+    {
+      "id": "strategy_two_routes",
+      "name": "兩路求援退曹策",
+      "type": "strategy",
+      "aliases": [
+        "北海青州求援"
+      ],
+      "description": "糜竺建議分別求孔融、田楷起兵，使兩路軍馬齊來迫曹操退兵。",
+      "evidence": [
+        "求孔融起兵救援",
+        "二處軍馬齊來，操必退兵"
+      ]
+    },
+    {
+      "id": "strategy_taishi_breakout",
+      "name": "突圍求救",
+      "type": "strategy",
+      "aliases": [],
+      "description": "太史慈自北海突圍，赴平原請劉備救孔融。",
+      "evidence": [
+        "冒鋒突圍，前來求救"
+      ]
+    },
+    {
+      "id": "strategy_liu_letter",
+      "name": "致書曹操勸和",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備向曹操下書勸其解徐州之圍。",
+      "evidence": [
+        "備生遺書於曹操，勸令解和"
+      ]
+    },
+    {
+      "id": "strategy_guo_jia_retreat",
+      "name": "賣情退軍復兗州",
+      "type": "strategy",
+      "aliases": [],
+      "description": "郭嘉建議曹操順勢給劉備人情，退軍回救兗州。",
+      "evidence": [
+        "賣個人情與劉備，退軍復兗州"
+      ]
+    },
+    {
+      "id": "strategy_hold_three_cities",
+      "name": "三城死守",
+      "type": "strategy",
+      "aliases": [],
+      "description": "荀彧、程昱設計守住鄄城、東阿、範縣。",
+      "evidence": [
+        "設計死守得全"
+      ]
+    },
+    {
+      "id": "strategy_taishan_ambush",
+      "name": "泰山伏兵策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "陳宮提出在泰山險路伏精兵以待曹操。",
+      "evidence": [
+        "泰山路險，可伏精兵萬人"
+      ]
+    },
+    {
+      "id": "strategy_west_camp_raid",
+      "name": "夜襲西寨策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "於禁建議趁呂布不備，夜襲濮陽西寨。",
+      "evidence": [
+        "今夜彼將謂我軍敗走",
+        "可引兵擊之"
+      ]
+    },
+    {
+      "id": "army_beihai_army",
+      "name": "北海軍",
+      "type": "army",
+      "aliases": [
+        "孔融本部人馬"
+      ],
+      "description": "孔融所率北海守軍。",
+      "evidence": [
+        "急點本部人馬"
+      ]
+    },
+    {
+      "id": "army_guan_hai_army",
+      "name": "管亥賊眾",
+      "type": "army",
+      "aliases": [
+        "黃巾群寇"
+      ],
+      "description": "管亥率領的數萬賊眾。",
+      "evidence": [
+        "部領群寇數萬"
+      ]
+    },
+    {
+      "id": "army_liu_bei_army",
+      "name": "劉備軍",
+      "type": "army",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備、關羽、張飛所率軍隊。",
+      "evidence": [
+        "玄德驅兵掩殺",
+        "玄德軍到"
+      ]
+    },
+    {
+      "id": "army_cao_army",
+      "name": "曹兵",
+      "type": "army",
+      "aliases": [
+        "曹軍",
+        "曹操軍"
+      ],
+      "description": "曹操麾下攻徐州、戰濮陽的軍隊。",
+      "evidence": [
+        "曹兵勢大",
+        "曹軍大敗"
+      ]
+    },
+    {
+      "id": "army_lu_bu_army",
+      "name": "布軍五萬",
+      "type": "army",
+      "aliases": [
+        "呂布軍"
+      ],
+      "description": "呂布在濮陽出陣的五萬軍隊。",
+      "evidence": [
+        "布軍五萬，鼓聲大震"
+      ]
+    },
+    {
+      "id": "army_yanzhou_garrison",
+      "name": "兗州守軍一萬",
+      "type": "army",
+      "aliases": [
+        "薛蘭李封守軍"
+      ],
+      "description": "呂布命薛蘭、李封引領堅守兗州的軍隊。",
+      "evidence": [
+        "引軍一萬，堅守兗州"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "person_tao_qian",
+      "target": "person_mi_zhu",
+      "type": "任命",
+      "description": "陶謙聘糜竺為別駕從事。",
+      "evidence": [
+        "陶謙聘為別駕從事"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_mi_zhu",
+      "target": "strategy_two_routes",
+      "type": "獻計",
+      "description": "糜竺向陶謙提出分求孔融、田楷救援。",
+      "evidence": [
+        "當日獻計曰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_tao_qian",
+      "target": "person_mi_zhu",
+      "type": "派遣",
+      "description": "陶謙命糜竺持書赴北海求孔融。",
+      "evidence": [
+        "命糜竺賫書赴北海"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_tao_qian",
+      "target": "person_chen_deng",
+      "type": "派遣",
+      "description": "陶謙派陳登往青州求田楷。",
+      "evidence": [
+        "打發陳元龍往青州"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_mi_zhu",
+      "target": "person_kong_rong",
+      "type": "求援",
+      "description": "糜竺持陶謙書向孔融求救徐州。",
+      "evidence": [
+        "曹操攻圍甚急，望明公垂救"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_kong_rong",
+      "target": "title_beihai_taishou",
+      "type": "擔任",
+      "description": "孔融官至北海太守。",
+      "evidence": [
+        "累遷北海太守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_kong_rong",
+      "target": "person_tao_qian",
+      "type": "交厚",
+      "description": "孔融稱自己與陶謙交情深厚，願救徐州。",
+      "evidence": [
+        "吾與陶恭祖交厚"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "person_guan_hai",
+      "target": "army_guan_hai_army",
+      "type": "統領",
+      "description": "管亥統領數萬黃巾群寇。",
+      "evidence": [
+        "管亥部領群寇數萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_guan_hai",
+      "target": "battle_beihai_siege",
+      "type": "發動",
+      "description": "管亥率眾攻北海並四面圍城。",
+      "evidence": [
+        "分兵四面圍城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_beihai_siege",
+      "target": "location_beihai",
+      "type": "發生於",
+      "description": "北海之圍發生在北海城。",
+      "evidence": [
+        "北海被圍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_kong_rong",
+      "target": "person_taishi_mother",
+      "type": "施恩",
+      "description": "孔融常遣人送粟帛給太史慈母。",
+      "evidence": [
+        "常使人遺以粟帛"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "person_taishi_mother",
+      "target": "person_taishi_ci",
+      "type": "遣救",
+      "description": "太史慈母命太史慈往救孔融。",
+      "evidence": [
+        "汝當往救"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_kong_rong",
+      "target": "object_armor_horse",
+      "type": "贈與",
+      "description": "孔融重待太史慈並贈衣甲鞍馬。",
+      "evidence": [
+        "贈與衣甲鞍馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_taishi_ci",
+      "target": "strategy_taishi_breakout",
+      "type": "執行",
+      "description": "太史慈突圍赴平原請劉備。",
+      "evidence": [
+        "冒鋒突圍，前來求救"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_taishi_ci",
+      "target": "person_liu_bei",
+      "type": "求援",
+      "description": "太史慈向劉備具言孔融被圍求救。",
+      "evidence": [
+        "來見劉玄德",
+        "北海被圍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_liu_bei",
+      "target": "battle_rescue_beihai",
+      "type": "參與",
+      "description": "劉備率兵救北海，與孔融夾攻群賊。",
+      "evidence": [
+        "玄德驅兵掩殺"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_guan_yu",
+      "target": "person_guan_hai",
+      "type": "斬殺",
+      "description": "關羽在北海戰中斬管亥。",
+      "evidence": [
+        "劈管亥於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_zhang_fei",
+      "target": "battle_rescue_beihai",
+      "type": "參與",
+      "description": "張飛與太史慈殺入賊陣。",
+      "evidence": [
+        "張飛兩騎齊出"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_taishi_ci",
+      "target": "battle_rescue_beihai",
+      "type": "參與",
+      "description": "太史慈參與夾攻管亥賊眾。",
+      "evidence": [
+        "太史慈與關、張趕殺賊眾"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_kong_rong",
+      "target": "battle_rescue_beihai",
+      "type": "出城夾攻",
+      "description": "孔融見援軍趕殺賊眾，驅兵出城夾攻。",
+      "evidence": [
+        "便驅兵出城"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "battle_rescue_beihai",
+      "target": "faction_yellow_turban",
+      "type": "擊敗",
+      "description": "劉備、孔融等大敗黃巾賊眾。",
+      "evidence": [
+        "大敗群賊，降者無數"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_kong_rong",
+      "target": "person_liu_bei",
+      "type": "請援徐州",
+      "description": "孔融引糜竺見劉備，促其救援徐州。",
+      "evidence": [
+        "又引糜竺來見玄德"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "source": "person_liu_bei",
+      "target": "person_tao_qian",
+      "type": "救援",
+      "description": "劉備赴徐州相助陶謙。",
+      "evidence": [
+        "今為大義，故來相助"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_liu_bei",
+      "target": "person_guan_yu",
+      "type": "統領",
+      "description": "劉備命關羽領軍相助。",
+      "evidence": [
+        "備令雲長、子龍領軍四千"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "person_liu_bei",
+      "target": "person_zhao_yun",
+      "type": "統領",
+      "description": "劉備命趙雲與關羽領軍四千相助。",
+      "evidence": [
+        "子龍領軍四千"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "person_liu_bei",
+      "target": "person_zhang_fei",
+      "type": "同行突圍",
+      "description": "劉備與張飛殺奔曹營，徑往徐州。",
+      "evidence": [
+        "備與張飛殺奔曹營"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_zhang_fei",
+      "target": "person_yu_jin",
+      "type": "交戰",
+      "description": "張飛在曹營外直取於禁。",
+      "evidence": [
+        "直取於禁"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_yu_jin",
+      "target": "person_zhang_fei",
+      "type": "敗於",
+      "description": "於禁與張飛、劉備軍交戰後敗走。",
+      "evidence": [
+        "於禁敗走"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_tao_qian",
+      "target": "object_xuzhou_seal",
+      "type": "交付意圖",
+      "description": "陶謙命糜竺取徐州牌印，欲讓劉備。",
+      "evidence": [
+        "取徐州牌印，讓與玄德"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_tao_qian",
+      "target": "person_liu_bei",
+      "type": "讓徐州",
+      "description": "陶謙欲將徐州讓給劉備。",
+      "evidence": [
+        "情願將徐州相讓"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_liu_bei",
+      "target": "person_tao_qian",
+      "type": "拒受徐州",
+      "description": "劉備以功微德薄及義理為由拒絕受徐州。",
+      "evidence": [
+        "玄德離席",
+        "今無端據而有之"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "person_mi_zhu",
+      "target": "person_liu_bei",
+      "type": "勸領徐州",
+      "description": "糜竺勸劉備領徐州以建功立業。",
+      "evidence": [
+        "劉使君領此，不可辭也"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "person_liu_bei",
+      "target": "strategy_liu_letter",
+      "type": "提出",
+      "description": "劉備提出先致書曹操勸其解和。",
+      "evidence": [
+        "勸令解和"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_liu_letter",
+      "target": "person_cao_cao",
+      "type": "作用對象",
+      "description": "劉備書信送至曹操軍中。",
+      "evidence": [
+        "乃劉備書也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_zhang_miao",
+      "target": "person_lu_bu",
+      "type": "引令襲州",
+      "description": "張邈令呂布襲破兗州。",
+      "evidence": [
+        "便令呂布襲破兗州"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "location_yanzhou",
+      "type": "攻取",
+      "description": "呂布趁兗州空虛襲破兗州。",
+      "evidence": [
+        "兗州空虛",
+        "襲破兗州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "location_puyang",
+      "type": "據守",
+      "description": "呂布襲兗州後據濮陽。",
+      "evidence": [
+        "隨據濮陽"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_xun_yu",
+      "target": "strategy_hold_three_cities",
+      "type": "制定執行",
+      "description": "荀彧參與設計死守三城。",
+      "evidence": [
+        "荀彧、程昱設計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_cheng_yu",
+      "target": "strategy_hold_three_cities",
+      "type": "制定執行",
+      "description": "程昱參與設計死守三城。",
+      "evidence": [
+        "程昱二人設計相連"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_hold_three_cities",
+      "target": "location_juancheng",
+      "type": "防守",
+      "description": "死守之策保全鄄城。",
+      "evidence": [
+        "鄄城...死守得全"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_hold_three_cities",
+      "target": "location_donge",
+      "type": "防守",
+      "description": "死守之策保全東阿。",
+      "evidence": [
+        "東阿...死守得全"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_hold_three_cities",
+      "target": "location_fanxian",
+      "type": "防守",
+      "description": "死守之策保全範縣。",
+      "evidence": [
+        "範縣三處...得全"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_guo_jia",
+      "target": "strategy_guo_jia_retreat",
+      "type": "獻策",
+      "description": "郭嘉建議曹操退徐州、復兗州。",
+      "evidence": [
+        "郭嘉曰",
+        "退軍復兗州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_cao_cao",
+      "target": "strategy_guo_jia_retreat",
+      "type": "採納",
+      "description": "曹操採納郭嘉建議，答書劉備並退兵。",
+      "evidence": [
+        "操然之",
+        "拔寨退兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_xuzhou_siege",
+      "target": "location_xuzhou",
+      "type": "發生於",
+      "description": "徐州之圍發生在徐州。",
+      "evidence": [
+        "徐州有戰書到"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_liu_bei",
+      "target": "location_xiaopei",
+      "type": "屯駐",
+      "description": "劉備接受眾勸，留屯小沛。",
+      "evidence": [
+        "玄德從之",
+        "來至小沛"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_zhao_yun",
+      "target": "person_liu_bei",
+      "type": "辭別",
+      "description": "趙雲於徐州宴後辭別劉備。",
+      "evidence": [
+        "趙雲辭去，玄德執手揮淚而別"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_cao_ren",
+      "target": "person_cao_cao",
+      "type": "告急",
+      "description": "曹仁向曹操報告呂布勢大、兗州濮陽已失。",
+      "evidence": [
+        "曹仁接著，言呂布勢大"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "person_chen_gong",
+      "type": "受輔佐",
+      "description": "陳宮輔佐呂布。",
+      "evidence": [
+        "更有陳宮為輔"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "person_xue_lan",
+      "type": "任命守州",
+      "description": "呂布命薛蘭引軍堅守兗州。",
+      "evidence": [
+        "汝可引軍一萬，堅守兗州"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "person_li_feng",
+      "type": "任命守州",
+      "description": "呂布命李封與薛蘭同守兗州。",
+      "evidence": [
+        "副將薛蘭、李封"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_xue_lan",
+      "target": "army_yanzhou_garrison",
+      "type": "統領",
+      "description": "薛蘭與李封統領兗州守軍一萬。",
+      "evidence": [
+        "引軍一萬"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "person_li_feng",
+      "target": "army_yanzhou_garrison",
+      "type": "統領",
+      "description": "李封與薛蘭統領兗州守軍一萬。",
+      "evidence": [
+        "二人應諾"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "person_chen_gong",
+      "target": "strategy_taishan_ambush",
+      "type": "獻策",
+      "description": "陳宮提出在泰山路險處伏兵。",
+      "evidence": [
+        "泰山路險，可伏精兵萬人"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "person_cao_cao",
+      "target": "person_cao_ren",
+      "type": "分兵命令",
+      "description": "曹操命曹仁領軍圍攻兗州，自己進濮陽。",
+      "evidence": [
+        "教曹仁領一軍圍攻州"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "army_lu_bu_army",
+      "type": "統領",
+      "description": "呂布統五萬軍在濮陽列陣。",
+      "evidence": [
+        "布軍五萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "person_zhang_liao",
+      "type": "統屬",
+      "description": "張遼列為呂布陣中健將。",
+      "evidence": [
+        "兩邊排開八員健將",
+        "張遼"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "person_zang_ba",
+      "type": "統屬",
+      "description": "臧霸列為呂布陣中健將。",
+      "evidence": [
+        "八員健將",
+        "臧霸"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_zang_ba",
+      "target": "person_le_jin",
+      "type": "交戰",
+      "description": "臧霸出馬與樂進交戰三十餘合不分勝負。",
+      "evidence": [
+        "戰到三十餘合，勝負不分"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_zhang_liao",
+      "target": "person_xiahou_dun",
+      "type": "交戰",
+      "description": "張遼截住夏侯惇廝殺。",
+      "evidence": [
+        "張遼截住廝殺"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "battle_puyang",
+      "type": "擊敗曹軍",
+      "description": "呂布在濮陽衝陣掩殺，使曹軍大敗。",
+      "evidence": [
+        "呂布掩殺，曹軍大敗"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_yu_jin",
+      "target": "strategy_west_camp_raid",
+      "type": "獻策",
+      "description": "於禁獻夜襲西寨之策。",
+      "evidence": [
+        "此為上策"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_cao_cao",
+      "target": "strategy_west_camp_raid",
+      "type": "採納",
+      "description": "曹操依於禁之策夜襲西寨。",
+      "evidence": [
+        "操從其言"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_west_camp",
+      "target": "location_west_camp",
+      "type": "發生於",
+      "description": "西寨夜襲發生在呂布濮陽西寨。",
+      "evidence": [
+        "引軍至西寨"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_chen_gong",
+      "target": "location_west_camp",
+      "type": "提醒防守",
+      "description": "陳宮提醒呂布西寨要緊，須防曹操襲取。",
+      "evidence": [
+        "西寨是個要緊去處"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "person_cao_cao",
+      "target": "battle_west_camp",
+      "type": "攻取",
+      "description": "曹操夜間突入並奪取西寨。",
+      "evidence": [
+        "曹操奪了寨"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_gao_shun",
+      "target": "battle_west_camp",
+      "type": "反攻",
+      "description": "高順引軍攻入西寨，與曹操軍混戰。",
+      "evidence": [
+        "高順方引軍到，殺將入來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "person_lu_bu",
+      "target": "battle_west_camp",
+      "type": "救援反攻",
+      "description": "呂布親引救軍，迫曹操棄寨。",
+      "evidence": [
+        "呂布自引救軍來了",
+        "操棄寨而走"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_dian_wei",
+      "target": "person_cao_cao",
+      "type": "救援",
+      "description": "典韋在濮陽重圍中救出曹操。",
+      "evidence": [
+        "典韋殺散敵軍，救出曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "person_dian_wei",
+      "target": "object_dianwei_halberds",
+      "type": "使用",
+      "description": "典韋以雙鐵戟、短戟殺散追兵。",
+      "evidence": [
+        "手挺雙鐵戟",
+        "飛戟刺之"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "event_mi_zhu_advises_aid",
+      "name": "糜竺獻兩路求援之計",
+      "summary": "糜竺向陶謙建議求孔融、田楷兩處軍馬救徐州，陶謙遂遣糜竺赴北海、陳登赴青州。",
+      "participants": [
+        "person_mi_zhu",
+        "person_tao_qian",
+        "person_chen_deng",
+        "person_kong_rong",
+        "person_tian_kai"
+      ],
+      "locations": [
+        "location_xuzhou",
+        "location_beihai",
+        "location_qingzhou"
+      ],
+      "evidence": [
+        "二處軍馬齊來，操必退兵",
+        "命糜竺賫書赴北海"
+      ]
+    },
+    {
+      "id": "event_guan_hai_sieges_beihai",
+      "name": "管亥圍北海",
+      "summary": "管亥率黃巾群寇數萬攻北海，索糧不成後四面圍城，孔融困守。",
+      "participants": [
+        "person_guan_hai",
+        "person_kong_rong",
+        "army_guan_hai_army",
+        "army_beihai_army"
+      ],
+      "locations": [
+        "location_beihai"
+      ],
+      "evidence": [
+        "管亥部領群寇數萬",
+        "分兵四面圍城"
+      ]
+    },
+    {
+      "id": "event_taishi_ci_rescues_kong",
+      "name": "太史慈入城救孔融",
+      "summary": "太史慈因母受孔融恩惠，殺入賊陣進北海，孔融贈其衣甲鞍馬。",
+      "participants": [
+        "person_taishi_ci",
+        "person_taishi_mother",
+        "person_kong_rong",
+        "person_guan_hai"
+      ],
+      "locations": [
+        "location_beihai"
+      ],
+      "evidence": [
+        "老母感君厚德",
+        "贈與衣甲鞍馬"
+      ]
+    },
+    {
+      "id": "event_taishi_ci_requests_liu_bei",
+      "name": "太史慈突圍請劉備",
+      "summary": "太史慈突圍至平原，向劉備呈書求救北海。",
+      "participants": [
+        "person_taishi_ci",
+        "person_liu_bei",
+        "person_kong_rong"
+      ],
+      "locations": [
+        "location_beihai",
+        "location_pingyuan"
+      ],
+      "evidence": [
+        "透圍而出",
+        "呈上書札"
+      ]
+    },
+    {
+      "id": "event_beihai_relieved",
+      "name": "北海解圍",
+      "summary": "劉備率關羽、張飛與太史慈救北海；關羽斬管亥，孔融出城夾攻，黃巾賊眾大敗。",
+      "participants": [
+        "person_liu_bei",
+        "person_guan_yu",
+        "person_zhang_fei",
+        "person_taishi_ci",
+        "person_kong_rong",
+        "person_guan_hai"
+      ],
+      "locations": [
+        "location_beihai"
+      ],
+      "evidence": [
+        "劈管亥於馬下",
+        "兩下夾攻，大敗群賊"
+      ]
+    },
+    {
+      "id": "event_liu_bei_enters_xuzhou",
+      "name": "劉備突入徐州",
+      "summary": "劉備留關羽、趙雲領軍相助，自己與張飛殺入曹兵寨邊，擊退於禁後入徐州見陶謙。",
+      "participants": [
+        "person_liu_bei",
+        "person_zhang_fei",
+        "person_guan_yu",
+        "person_zhao_yun",
+        "person_yu_jin",
+        "person_tao_qian"
+      ],
+      "locations": [
+        "location_xuzhou"
+      ],
+      "evidence": [
+        "備令雲長、子龍領軍四千",
+        "於禁敗走",
+        "直到徐州城下"
+      ]
+    },
+    {
+      "id": "event_tao_qian_offers_xuzhou_first",
+      "name": "陶謙初讓徐州",
+      "summary": "陶謙見劉備後命糜竺取徐州牌印相讓，劉備拒絕，糜竺轉請先議退敵。",
+      "participants": [
+        "person_tao_qian",
+        "person_liu_bei",
+        "person_mi_zhu"
+      ],
+      "locations": [
+        "location_xuzhou"
+      ],
+      "evidence": [
+        "取徐州牌印，讓與玄德",
+        "當商議退敵之策"
+      ]
+    },
+    {
+      "id": "event_cao_retreats_from_xuzhou",
+      "name": "曹操退徐州",
+      "summary": "曹操收到劉備書信時，又聞呂布據兗州、濮陽；郭嘉勸其退軍復兗州，曹操採納。",
+      "participants": [
+        "person_cao_cao",
+        "person_liu_bei",
+        "person_guo_jia",
+        "person_lu_bu",
+        "person_zhang_miao"
+      ],
+      "locations": [
+        "location_xuzhou",
+        "location_yanzhou",
+        "location_puyang"
+      ],
+      "evidence": [
+        "乃劉備書也",
+        "隨據濮陽",
+        "拔寨退兵"
+      ]
+    },
+    {
+      "id": "event_tao_qian_offers_xuzhou_second",
+      "name": "陶謙再讓徐州與劉備屯小沛",
+      "summary": "曹兵退後，陶謙再次在眾人前讓徐州；劉備堅辭，最終暫屯小沛。",
+      "participants": [
+        "person_tao_qian",
+        "person_liu_bei",
+        "person_mi_zhu",
+        "person_kong_rong",
+        "person_guan_yu",
+        "person_zhang_fei",
+        "person_zhao_yun",
+        "person_tian_kai"
+      ],
+      "locations": [
+        "location_xuzhou",
+        "location_xiaopei"
+      ],
+      "evidence": [
+        "可領徐州",
+        "請玄德暫駐軍此邑",
+        "玄德從之"
+      ]
+    },
+    {
+      "id": "event_lu_bu_takes_yanzhou_puyang",
+      "name": "呂布襲兗州據濮陽",
+      "summary": "曹操東征徐州時，兗州空虛，呂布受張邈引令襲破兗州並據濮陽，僅鄄城、東阿、範縣由荀彧、程昱守全。",
+      "participants": [
+        "person_lu_bu",
+        "person_zhang_miao",
+        "person_xun_yu",
+        "person_cheng_yu",
+        "person_cao_ren"
+      ],
+      "locations": [
+        "location_yanzhou",
+        "location_puyang",
+        "location_juancheng",
+        "location_donge",
+        "location_fanxian"
+      ],
+      "evidence": [
+        "兗州空虛",
+        "襲破兗州",
+        "止有鄄城、東阿、範縣"
+      ]
+    },
+    {
+      "id": "event_lu_bu_deploys_before_puyang",
+      "name": "呂布分守兗州屯濮陽",
+      "summary": "呂布命薛蘭、李封引軍一萬守兗州，自己率兵屯濮陽；陳宮提出防備與伏兵之議。",
+      "participants": [
+        "person_lu_bu",
+        "person_xue_lan",
+        "person_li_feng",
+        "person_chen_gong"
+      ],
+      "locations": [
+        "location_yanzhou",
+        "location_puyang",
+        "location_taishan"
+      ],
+      "evidence": [
+        "引軍一萬，堅守兗州",
+        "吾欲屯兵濮陽",
+        "泰山路險"
+      ]
+    },
+    {
+      "id": "event_first_puyang_battle",
+      "name": "濮陽初戰曹操敗退",
+      "summary": "呂布列八健將與五萬軍迎曹操；臧霸戰樂進，張遼截夏侯惇，呂布親自衝陣，曹軍大敗退走。",
+      "participants": [
+        "person_lu_bu",
+        "person_cao_cao",
+        "person_zang_ba",
+        "person_le_jin",
+        "person_zhang_liao",
+        "person_xiahou_dun"
+      ],
+      "locations": [
+        "location_puyang"
+      ],
+      "evidence": [
+        "布軍五萬",
+        "曹軍大敗，退三四十里"
+      ]
+    },
+    {
+      "id": "event_west_camp_raid_and_counterattack",
+      "name": "西寨夜襲與反擊",
+      "summary": "於禁獻策夜襲呂布西寨，曹操奪寨；高順、呂布先後來攻，曹操棄寨突圍。",
+      "participants": [
+        "person_yu_jin",
+        "person_cao_cao",
+        "person_gao_shun",
+        "person_lu_bu",
+        "person_wei_xu",
+        "person_hou_cheng"
+      ],
+      "locations": [
+        "location_west_camp",
+        "location_puyang"
+      ],
+      "evidence": [
+        "操從其言",
+        "曹操奪了寨",
+        "操棄寨而走"
+      ]
+    },
+    {
+      "id": "event_dian_wei_saves_cao",
+      "name": "典韋救曹操",
+      "summary": "曹操在濮陽退路被張遼、臧霸及郝萌等將阻截，典韋以戟殺散敵軍，救出曹操。",
+      "participants": [
+        "person_cao_cao",
+        "person_dian_wei",
+        "person_zhang_liao",
+        "person_zang_ba",
+        "person_hao_meng",
+        "person_cao_xing",
+        "person_cheng_lian",
+        "person_song_xian"
+      ],
+      "locations": [
+        "location_puyang"
+      ],
+      "evidence": [
+        "誰人救我",
+        "典韋殺散敵軍，救出曹操"
+      ]
+    }
+  ],
+  "notes": [
+    "原文中段有多處亂碼與重複，抽取僅採可辨識、可由上下文直接支持的內容。"
+  ]
+}

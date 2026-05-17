@@ -1,0 +1,1914 @@
+{
+  "book": "三國演義",
+  "chapter_no": 19,
+  "chapter_title": "下邳城曹操鏖兵　白門樓呂布殞命",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹公",
+        "操",
+        "明公",
+        "丞相"
+      ],
+      "description": "率軍救劉備、攻取徐州與下邳，於白門樓處置呂布等降俘。",
+      "evidence": [
+        "曹操親統大軍衝殺",
+        "操令將呂布縊死"
+      ]
+    },
+    {
+      "id": "liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉豫州",
+        "豫州牧",
+        "使君",
+        "大耳兒"
+      ],
+      "description": "失沛城後投奔曹操，與關羽、張飛重會，參與圍呂布。",
+      "evidence": [
+        "玄德引數十騎奔回沛城",
+        "不若且投曹操"
+      ]
+    },
+    {
+      "id": "guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "關公",
+        "關雲長",
+        "雲長"
+      ],
+      "description": "劉備之弟，先遭高順、張遼攻寨，後攔截敗走的呂布。",
+      "evidence": [
+        "擊關公寨",
+        "關雲長在此"
+      ]
+    },
+    {
+      "id": "zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德"
+      ],
+      "description": "劉備之弟，與呂布交戰，後擒郝萌、堵截呂布送女突圍。",
+      "evidence": [
+        "呂布自擊張飛寨",
+        "張飛生擒過去"
+      ]
+    },
+    {
+      "id": "lu_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "布",
+        "奉先",
+        "溫侯"
+      ],
+      "description": "攻取沛城，退守下邳，求援袁術失敗，最後被部將擒獻曹操並處死。",
+      "evidence": [
+        "呂布乘勢殺入城門",
+        "已生擒呂布矣"
+      ]
+    },
+    {
+      "id": "gao_shun",
+      "name": "高順",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，與張遼攻關羽寨，後在下邳被擒斬。",
+      "evidence": [
+        "高順引張遼擊關公寨",
+        "操怒命斬之"
+      ]
+    },
+    {
+      "id": "zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，攻關羽寨並護送許汜、王楷突圍，白門樓被擒後怒罵曹操。",
+      "evidence": [
+        "張遼在前",
+        "可惜當日火不大"
+      ]
+    },
+    {
+      "id": "chen_gong",
+      "name": "陳宮",
+      "type": "character",
+      "aliases": [
+        "公臺"
+      ],
+      "description": "呂布謀士，多次獻下邳防守與反擊之策，最後被徐晃擒獲並就刑。",
+      "evidence": [
+        "陳宮曰",
+        "伸頸就刑"
+      ]
+    },
+    {
+      "id": "chen_deng",
+      "name": "陳登",
+      "type": "character",
+      "aliases": [],
+      "description": "陳珪之子，暗助曹操，設計使呂布軍與陳宮軍自亂，後受封伏波將軍。",
+      "evidence": [
+        "乘夜連寫三封書",
+        "授登為伏波將軍"
+      ]
+    },
+    {
+      "id": "chen_gui",
+      "name": "陳珪",
+      "type": "character",
+      "aliases": [],
+      "description": "陳登之父，奉呂布命守徐州，實際與陳登圖謀背呂布。",
+      "evidence": [
+        "令陳珪守徐州",
+        "今布將敗，可便圖之"
+      ]
+    },
+    {
+      "id": "mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備屬下，先出面保全劉備家小，後守徐州拒絕呂布入城。",
+      "evidence": [
+        "糜竺出迎",
+        "汝不得復入此城也"
+      ]
+    },
+    {
+      "id": "sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [
+        "孫幹"
+      ],
+      "description": "劉備謀士，逃出沛城後建議劉備投曹操，並代曹操賞劉安。",
+      "evidence": [
+        "乃孫乾也",
+        "不若且投曹操"
+      ]
+    },
+    {
+      "id": "liu_an",
+      "name": "劉安",
+      "type": "character",
+      "aliases": [],
+      "description": "獵戶，為款待劉備殺妻供食，後獲曹操賜金。",
+      "evidence": [
+        "乃獵戶劉安也",
+        "操乃令孫乾以金百兩往賜之"
+      ]
+    },
+    {
+      "id": "liu_an_wife",
+      "name": "劉安妻",
+      "type": "character",
+      "aliases": [],
+      "description": "劉安之妻，被劉安殺以供劉備食用。",
+      "evidence": [
+        "一婦人殺於廚下",
+        "乃其妻之肉也"
+      ]
+    },
+    {
+      "id": "xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "在濟北迎接曹操，報告夏侯惇傷勢。",
+      "evidence": [
+        "夏侯淵等迎接入寨"
+      ]
+    },
+    {
+      "id": "xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，本章提及其一目受損、臥病未癒。",
+      "evidence": [
+        "夏侯惇損其一目"
+      ]
+    },
+    {
+      "id": "cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "奉曹操命率三千兵攻取小沛。",
+      "evidence": [
+        "曹仁引三千兵打沛城",
+        "曹仁襲了城池"
+      ]
+    },
+    {
+      "id": "xu_chu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，在蕭關擊敗泰山寇諸將，後追擊呂布。",
+      "evidence": [
+        "操令許褚迎戰",
+        "徐晃、許褚皆殺來"
+      ]
+    },
+    {
+      "id": "sun_guan",
+      "name": "孫觀",
+      "type": "character",
+      "aliases": [],
+      "description": "泰山寇之一，與吳敦、尹禮、昌豨率兵攔截曹操。",
+      "evidence": [
+        "泰山寇孫觀"
+      ]
+    },
+    {
+      "id": "wu_dun",
+      "name": "吳敦",
+      "type": "character",
+      "aliases": [],
+      "description": "泰山寇之一，參與攔截曹操。",
+      "evidence": [
+        "吳敦、尹禮、昌豨"
+      ]
+    },
+    {
+      "id": "yin_li",
+      "name": "尹禮",
+      "type": "character",
+      "aliases": [],
+      "description": "泰山寇之一，參與攔截曹操。",
+      "evidence": [
+        "尹禮"
+      ]
+    },
+    {
+      "id": "chang_xi",
+      "name": "昌豨",
+      "type": "character",
+      "aliases": [],
+      "description": "泰山寇之一，參與攔截曹操。",
+      "evidence": [
+        "昌豨領兵"
+      ]
+    },
+    {
+      "id": "zang_ba",
+      "name": "臧霸",
+      "type": "character",
+      "aliases": [],
+      "description": "與呂布、陳宮結連泰山賊寇，共攻兗州諸郡。",
+      "evidence": [
+        "陳宮、臧霸結連泰山賊寇"
+      ]
+    },
+    {
+      "id": "cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，建議防守淮南通路以隔絕呂布與袁術。",
+      "evidence": [
+        "程昱曰"
+      ]
+    },
+    {
+      "id": "yuan_shu",
+      "name": "袁術",
+      "type": "character",
+      "aliases": [
+        "術"
+      ],
+      "description": "淮南勢力首領，呂布求其援軍，他要求先送婚姻之女。",
+      "evidence": [
+        "今袁術在淮南",
+        "袁術先欲得婦"
+      ]
+    },
+    {
+      "id": "lady_yan",
+      "name": "嚴氏",
+      "type": "character",
+      "aliases": [
+        "呂布妻"
+      ],
+      "description": "呂布妻，兩次勸阻呂布出城或遠出。",
+      "evidence": [
+        "布妻嚴氏聞之",
+        "將軍若出"
+      ]
+    },
+    {
+      "id": "pang_shu",
+      "name": "龐舒",
+      "type": "character",
+      "aliases": [],
+      "description": "嚴氏回憶中曾在長安私藏救護她的人。",
+      "evidence": [
+        "幸賴龐舒私藏妾身"
+      ]
+    },
+    {
+      "id": "diaochan",
+      "name": "貂蟬",
+      "type": "character",
+      "aliases": [],
+      "description": "勸呂布不要輕身自出。",
+      "evidence": [
+        "入告貂蟬",
+        "勿輕身自出"
+      ]
+    },
+    {
+      "id": "xu_si",
+      "name": "許汜",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布謀士，與王楷建議向袁術求援，往壽春送信。",
+      "evidence": [
+        "謀士許汜、王楷",
+        "呈上書信"
+      ]
+    },
+    {
+      "id": "wang_kai",
+      "name": "王楷",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布謀士，與許汜同往袁術處求援。",
+      "evidence": [
+        "許汜、王楷至壽春"
+      ]
+    },
+    {
+      "id": "hao_meng",
+      "name": "郝萌",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，護送許汜、王楷後被張飛生擒，遭曹操斬首。",
+      "evidence": [
+        "郝萌在後",
+        "斬郝萌於軍門"
+      ]
+    },
+    {
+      "id": "xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，追擊呂布並在南門擒陳宮。",
+      "evidence": [
+        "徐晃、許褚皆殺來",
+        "為徐晃所獲"
+      ]
+    },
+    {
+      "id": "zhang_yang",
+      "name": "張楊",
+      "type": "character",
+      "aliases": [],
+      "description": "河內太守，本章作為曹操考慮撤兵的外部變故被提及。",
+      "evidence": [
+        "河內太守張楊"
+      ]
+    },
+    {
+      "id": "sui_gu",
+      "name": "眭固",
+      "type": "character",
+      "aliases": [],
+      "description": "張楊相關人物，被史渙追斬。",
+      "evidence": [
+        "遣史渙追斬眭固"
+      ]
+    },
+    {
+      "id": "shi_huan",
+      "name": "史渙",
+      "type": "character",
+      "aliases": [],
+      "description": "奉曹操命追斬眭固。",
+      "evidence": [
+        "遣史渙追斬眭固"
+      ]
+    },
+    {
+      "id": "xun_you",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，反對撤軍，主張趁呂布氣衰速攻。",
+      "evidence": [
+        "荀攸急止曰"
+      ]
+    },
+    {
+      "id": "guo_jia",
+      "name": "郭嘉",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，提出可立破下邳之計。",
+      "evidence": [
+        "郭嘉曰：某有一計"
+      ]
+    },
+    {
+      "id": "xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，點明郭嘉之計為決沂、泗之水。",
+      "evidence": [
+        "荀彧曰：莫非決沂、泗之水乎"
+      ]
+    },
+    {
+      "id": "hou_cheng",
+      "name": "侯成",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，先受杖責，後盜赤兔馬投曹操並通報內應。",
+      "evidence": [
+        "侯成泣曰",
+        "盜了那匹赤兔馬"
+      ]
+    },
+    {
+      "id": "song_xian",
+      "name": "宋憲",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，與魏續叛變，盜畫戟並縛呂布。",
+      "evidence": [
+        "宋憲趕退左右",
+        "將呂布繩纏索綁"
+      ]
+    },
+    {
+      "id": "wei_xu",
+      "name": "魏續",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布部將，與宋憲縛呂布並開門迎曹軍。",
+      "evidence": [
+        "魏續便開門放出",
+        "大開城門"
+      ]
+    },
+    {
+      "id": "dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備提醒曹操呂布曾反覆事主時所舉例之一。",
+      "evidence": [
+        "董卓之事"
+      ]
+    },
+    {
+      "id": "ding_jianyang",
+      "name": "丁建陽",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備提醒曹操呂布舊事時所舉例之一。",
+      "evidence": [
+        "丁建陽、董卓之事"
+      ]
+    },
+    {
+      "id": "cao_faction",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹兵",
+        "曹軍"
+      ],
+      "description": "曹操所統軍政勢力，攻徐州、圍下邳並受降。",
+      "evidence": [
+        "曹兵直逼關下",
+        "曹兵一擁而入"
+      ]
+    },
+    {
+      "id": "lu_faction",
+      "name": "呂布勢力",
+      "type": "faction",
+      "aliases": [
+        "呂布軍"
+      ],
+      "description": "呂布及其部將、謀士構成的下邳守軍勢力。",
+      "evidence": [
+        "呂布軍",
+        "呂佈在下邳"
+      ]
+    },
+    {
+      "id": "liu_faction",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備、關羽、張飛及糜竺、孫乾等所屬勢力。",
+      "evidence": [
+        "玄德引兵",
+        "關、張二人"
+      ]
+    },
+    {
+      "id": "yuan_shu_faction",
+      "name": "袁術勢力",
+      "type": "faction",
+      "aliases": [
+        "淮南袁術"
+      ],
+      "description": "袁術在淮南的勢力，被呂布寄望為外援。",
+      "evidence": [
+        "袁術在淮南"
+      ]
+    },
+    {
+      "id": "taishan_bandits",
+      "name": "泰山賊寇",
+      "type": "faction",
+      "aliases": [
+        "泰山寇"
+      ],
+      "description": "與呂布等結連，並在蕭關附近攔曹操去路。",
+      "evidence": [
+        "結連泰山賊寇",
+        "泰山寇孫觀"
+      ]
+    },
+    {
+      "id": "peicheng",
+      "name": "沛城",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備所守城池，被呂布攻入。",
+      "evidence": [
+        "奔回沛城",
+        "殺入城門"
+      ]
+    },
+    {
+      "id": "xiaopei",
+      "name": "小沛",
+      "type": "location",
+      "aliases": [
+        "沛城"
+      ],
+      "description": "呂布留高順、張遼守備，後為曹仁所襲取。",
+      "evidence": [
+        "守小沛",
+        "小沛城上盡插曹兵旗號"
+      ]
+    },
+    {
+      "id": "xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "呂布與曹操爭奪之地，陳珪、糜竺曾守城，後曹操入城。",
+      "evidence": [
+        "令陳珪守徐州",
+        "便隨操入徐州"
+      ]
+    },
+    {
+      "id": "xiapi",
+      "name": "下邳",
+      "type": "location",
+      "aliases": [
+        "下邳城"
+      ],
+      "description": "呂布最後據守之城，遭曹操圍攻、決水淹城後失陷。",
+      "evidence": [
+        "布今止有下邳一城",
+        "洪水滔滔淹下邳"
+      ]
+    },
+    {
+      "id": "baimenlou",
+      "name": "白門樓",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操與劉備審問呂布、陳宮、高順等人的地方。",
+      "evidence": [
+        "同坐白門樓上"
+      ]
+    },
+    {
+      "id": "xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操都城，劉備欲投奔之處，陳宮死後葬於此。",
+      "evidence": [
+        "投許都",
+        "葬於許都"
+      ]
+    },
+    {
+      "id": "jibei",
+      "name": "濟北",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操行軍途中由夏侯淵迎接之地。",
+      "evidence": [
+        "軍行至濟北"
+      ]
+    },
+    {
+      "id": "yanzhou",
+      "name": "兗州",
+      "type": "location",
+      "aliases": [],
+      "description": "呂布、陳宮、臧霸與泰山賊寇共攻的州郡。",
+      "evidence": [
+        "共攻兗州諸郡"
+      ]
+    },
+    {
+      "id": "xiaoguan",
+      "name": "蕭關",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操與泰山寇遭遇交戰的關隘。",
+      "evidence": [
+        "路近蕭關",
+        "追至蕭關"
+      ]
+    },
+    {
+      "id": "huainan",
+      "name": "淮南",
+      "type": "location",
+      "aliases": [],
+      "description": "袁術所在區域，也是曹操需防呂布與袁術相通的路線。",
+      "evidence": [
+        "袁術在淮南",
+        "淮南衝要"
+      ]
+    },
+    {
+      "id": "shouchun",
+      "name": "壽春",
+      "type": "location",
+      "aliases": [],
+      "description": "許汜、王楷拜見袁術之處。",
+      "evidence": [
+        "至壽春，拜見袁術"
+      ]
+    },
+    {
+      "id": "changan",
+      "name": "長安",
+      "type": "location",
+      "aliases": [],
+      "description": "嚴氏回憶曾被呂布所棄之處。",
+      "evidence": [
+        "妾昔在長安"
+      ]
+    },
+    {
+      "id": "mangdangshan",
+      "name": "芒碭山",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛失散後屯住之地。",
+      "evidence": [
+        "弟在芒碭山住了"
+      ]
+    },
+    {
+      "id": "haizhou",
+      "name": "海州",
+      "type": "location",
+      "aliases": [],
+      "description": "關羽失散後屯住之路。",
+      "evidence": [
+        "我在海州路上住扎"
+      ]
+    },
+    {
+      "id": "sishui",
+      "name": "泗水",
+      "type": "location",
+      "aliases": [],
+      "description": "下邳水險之一，後被決水攻城。",
+      "evidence": [
+        "有泗水之險",
+        "決沂、泗之水"
+      ]
+    },
+    {
+      "id": "yishui",
+      "name": "沂水",
+      "type": "location",
+      "aliases": [],
+      "description": "郭嘉破下邳水攻計所涉水道之一。",
+      "evidence": [
+        "決沂、泗之水"
+      ]
+    },
+    {
+      "id": "battle_xiapi",
+      "name": "下邳之戰",
+      "type": "battle",
+      "aliases": [
+        "下邳城曹操鏖兵"
+      ],
+      "description": "曹操圍攻呂布最後據點下邳，水攻後破城。",
+      "evidence": [
+        "曹操攻城，兩個月不下",
+        "淹下邳"
+      ]
+    },
+    {
+      "id": "battle_xiaoguan",
+      "name": "蕭關遭遇戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹操軍在蕭關附近擊敗孫觀等泰山寇。",
+      "evidence": [
+        "泰山寇孫觀等攔住去路",
+        "許褚奮力死戰"
+      ]
+    },
+    {
+      "id": "title_yuzhou_mu",
+      "name": "豫州牧",
+      "type": "title",
+      "aliases": [
+        "劉豫州"
+      ],
+      "description": "劉備在民間被稱呼的官職稱號。",
+      "evidence": [
+        "聞劉豫州",
+        "豫州牧至"
+      ]
+    },
+    {
+      "id": "title_fubo",
+      "name": "伏波將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操授予陳登的官職。",
+      "evidence": [
+        "授登為伏波將軍"
+      ]
+    },
+    {
+      "id": "title_heinei_taishou",
+      "name": "河內太守",
+      "type": "title",
+      "aliases": [],
+      "description": "張楊的官職稱號。",
+      "evidence": [
+        "河內太守張楊"
+      ]
+    },
+    {
+      "id": "title_wenhou",
+      "name": "溫侯",
+      "type": "title",
+      "aliases": [],
+      "description": "呂布在本章被稱呼的封號。",
+      "evidence": [
+        "溫侯深怪公等"
+      ]
+    },
+    {
+      "id": "chitu",
+      "name": "赤兔馬",
+      "type": "object",
+      "aliases": [],
+      "description": "呂布名馬，侯成盜出獻給曹操。",
+      "evidence": [
+        "吾有畫戟、赤兔馬",
+        "盜了那匹赤兔馬"
+      ]
+    },
+    {
+      "id": "huaji",
+      "name": "畫戟",
+      "type": "object",
+      "aliases": [
+        "方天戟"
+      ],
+      "description": "呂布兵器，宋憲擒呂布前先盜走。",
+      "evidence": [
+        "吾有畫戟",
+        "先盜其畫戟"
+      ]
+    },
+    {
+      "id": "baiqi",
+      "name": "白旗",
+      "type": "object",
+      "aliases": [],
+      "description": "宋憲、魏續約定向曹操獻門的信號。",
+      "evidence": [
+        "插白旗為號",
+        "把白旗一招"
+      ]
+    },
+    {
+      "id": "bangwen",
+      "name": "榜文",
+      "type": "object",
+      "aliases": [
+        "榜"
+      ],
+      "description": "曹操射入下邳城中的招降告示。",
+      "evidence": [
+        "押榜數十張射入城去"
+      ]
+    },
+    {
+      "id": "gold100",
+      "name": "金百兩",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操命孫乾賞賜劉安之物。",
+      "evidence": [
+        "以金百兩往賜之"
+      ]
+    },
+    {
+      "id": "chendeng_scheme",
+      "name": "陳登詐計",
+      "type": "strategy",
+      "aliases": [
+        "陳登離間計"
+      ],
+      "description": "陳登假傳消息、射書曹軍、點火為號，使呂布與陳宮軍自亂。",
+      "evidence": [
+        "連寫三封書",
+        "方知是計"
+      ]
+    },
+    {
+      "id": "water_scheme",
+      "name": "決沂泗水計",
+      "type": "strategy",
+      "aliases": [
+        "水攻下邳"
+      ],
+      "description": "郭嘉提出、荀彧點明的以沂水、泗水淹下邳之策。",
+      "evidence": [
+        "莫非決沂、泗之水乎"
+      ]
+    },
+    {
+      "id": "chengong_pincer",
+      "name": "陳宮內外夾攻計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "陳宮建議呂布出屯城外，自己守城，互為救應夾擊曹軍。",
+      "evidence": [
+        "步騎出屯於外",
+        "宮引兵擊其背"
+      ]
+    },
+    {
+      "id": "yuanshu_marriage_plan",
+      "name": "求援袁術許婚計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "許汜、王楷建議呂布以舊約婚姻向袁術求援。",
+      "evidence": [
+        "仍求之",
+        "內外夾攻"
+      ]
+    },
+    {
+      "id": "cut_supply_plan",
+      "name": "斷曹軍糧道計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "陳宮建議呂布率精兵截斷曹操取糧通道。",
+      "evidence": [
+        "引精兵往斷其行道"
+      ]
+    },
+    {
+      "id": "cao_main_army",
+      "name": "曹操大軍",
+      "type": "army",
+      "aliases": [
+        "曹兵"
+      ],
+      "description": "曹操親自統領攻徐州、圍下邳的主力軍。",
+      "evidence": [
+        "操親提大軍",
+        "曹兵齊至城下"
+      ]
+    },
+    {
+      "id": "lu_army",
+      "name": "呂布軍",
+      "type": "army",
+      "aliases": [],
+      "description": "呂布在徐州、小沛、下邳所率軍隊。",
+      "evidence": [
+        "呂布軍",
+        "布親自抵敵"
+      ]
+    },
+    {
+      "id": "caoren_3000",
+      "name": "曹仁三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操派曹仁率領攻小沛的部隊。",
+      "evidence": [
+        "曹仁引三千兵"
+      ]
+    },
+    {
+      "id": "taishan_30000",
+      "name": "泰山寇三萬兵",
+      "type": "army",
+      "aliases": [],
+      "description": "孫觀、吳敦、尹禮、昌豨率領攔截曹操的兵馬。",
+      "evidence": [
+        "領兵三萬餘攔住去路"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "gao_shun",
+      "target": "guan_yu",
+      "type": "攻擊",
+      "description": "高順引張遼攻打關羽營寨。",
+      "evidence": [
+        "高順引張遼擊關公寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "zhang_liao",
+      "target": "guan_yu",
+      "type": "攻擊",
+      "description": "張遼隨高順攻打關羽寨。",
+      "evidence": [
+        "引張遼擊關公寨"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "lu_bu",
+      "target": "zhang_fei",
+      "type": "攻擊",
+      "description": "呂布親自攻打張飛營寨。",
+      "evidence": [
+        "呂布自擊張飛寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "lu_bu",
+      "target": "peicheng",
+      "type": "攻佔",
+      "description": "呂布追擊劉備並乘勢殺入沛城。",
+      "evidence": [
+        "乘勢殺入城門"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "liu_bei",
+      "target": "peicheng",
+      "type": "失守逃離",
+      "description": "劉備失沛城，棄家眷匹馬逃出。",
+      "evidence": [
+        "棄了妻小",
+        "匹馬逃難"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "mi_zhu",
+      "target": "liu_bei",
+      "type": "隸屬",
+      "description": "糜竺為劉備守護家屬並拒呂布復入徐州。",
+      "evidence": [
+        "糜竺接見，具言家屬無恙"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "sun_qian",
+      "target": "liu_bei",
+      "type": "建議",
+      "description": "孫乾建議劉備投奔曹操以圖後計。",
+      "evidence": [
+        "不若且投曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "liu_bei",
+      "target": "cao_cao",
+      "type": "投奔",
+      "description": "劉備依孫乾之言前往投曹操。",
+      "evidence": [
+        "尋小路投許都",
+        "與曹操相見"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "liu_an",
+      "target": "liu_bei",
+      "type": "供食",
+      "description": "劉安殺妻款待劉備。",
+      "evidence": [
+        "殺其妻以食之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "cao_cao",
+      "target": "liu_an",
+      "type": "賞賜",
+      "description": "曹操命孫乾以金百兩賞劉安。",
+      "evidence": [
+        "金百兩往賜之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "xiahou_yuan",
+      "target": "cao_cao",
+      "type": "迎接報告",
+      "description": "夏侯淵在濟北迎曹操，報告夏侯惇傷勢。",
+      "evidence": [
+        "夏侯淵等迎接入寨"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "lu_bu",
+      "target": "chen_gong",
+      "type": "共同行動",
+      "description": "呂布與陳宮、臧霸結連泰山賊寇攻兗州。",
+      "evidence": [
+        "呂布與陳宮、臧霸結連"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "lu_bu",
+      "target": "zang_ba",
+      "type": "結連",
+      "description": "呂布與臧霸結連攻打兗州諸郡。",
+      "evidence": [
+        "臧霸結連泰山賊寇"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "lu_bu",
+      "target": "taishan_bandits",
+      "type": "結盟",
+      "description": "呂布結連泰山賊寇，共攻兗州。",
+      "evidence": [
+        "結連泰山賊寇"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "lu_bu",
+      "target": "yanzhou",
+      "type": "攻打",
+      "description": "呂布與盟眾共攻兗州諸郡。",
+      "evidence": [
+        "共攻兗州諸郡"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "cao_cao",
+      "target": "caoren_3000",
+      "type": "統領命令",
+      "description": "曹操命曹仁率三千兵攻小沛。",
+      "evidence": [
+        "令曹仁引三千兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "caoren_3000",
+      "target": "xiaopei",
+      "type": "襲取",
+      "description": "曹仁部隊襲取小沛並守把。",
+      "evidence": [
+        "曹仁襲了城池"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "cao_cao",
+      "target": "lu_bu",
+      "type": "敵對征討",
+      "description": "曹操親率大軍與劉備來戰呂布。",
+      "evidence": [
+        "親提大軍，與玄德來戰呂布"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "xu_chu",
+      "target": "taishan_30000",
+      "type": "擊敗",
+      "description": "許褚迎戰孫觀等四將並使其敗走。",
+      "evidence": [
+        "許褚奮力死戰",
+        "四將抵敵不住"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "sun_guan",
+      "target": "taishan_30000",
+      "type": "統領",
+      "description": "孫觀與吳敦、尹禮、昌豨率三萬餘兵攔路。",
+      "evidence": [
+        "孫觀、吳敦、尹禮、昌豨領兵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "chen_gui",
+      "target": "chen_deng",
+      "type": "授計",
+      "description": "陳珪提醒陳登趁呂布將敗而圖之。",
+      "evidence": [
+        "今布將敗，可便圖之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "lu_bu",
+      "target": "chen_gui",
+      "type": "任命留守",
+      "description": "呂布令陳珪守徐州。",
+      "evidence": [
+        "令陳珪守徐州"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "chen_deng",
+      "target": "cao_cao",
+      "type": "暗助",
+      "description": "陳登夜射書信給曹軍，暗中配合曹操。",
+      "evidence": [
+        "三封書，拴在箭上，射下關去"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "chen_deng",
+      "target": "chen_gong",
+      "type": "欺騙",
+      "description": "陳登假報曹兵抄入關內，誘陳宮棄關。",
+      "evidence": [
+        "曹兵已抄小路到關內"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "chendeng_scheme",
+      "target": "lu_army",
+      "type": "計策造成混亂",
+      "description": "陳登放火為號，使呂布軍與陳宮軍黑夜自相攻殺。",
+      "evidence": [
+        "黑暗裡自相掩殺"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "mi_zhu",
+      "target": "lu_bu",
+      "type": "拒絕入城",
+      "description": "糜竺在徐州城上拒絕敗回的呂布入城。",
+      "evidence": [
+        "汝不得復入此城也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "chen_deng",
+      "target": "lu_bu",
+      "type": "敵對",
+      "description": "陳登在小沛城上斥呂布為反賊。",
+      "evidence": [
+        "安肯事汝反賊耶"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "zhang_fei",
+      "target": "gao_shun",
+      "type": "交戰",
+      "description": "張飛攻至小沛時，高順出馬迎敵。",
+      "evidence": [
+        "高順出馬迎敵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "zhang_fei",
+      "target": "lu_bu",
+      "type": "追擊",
+      "description": "張飛自陣後追趕敗走的呂布。",
+      "evidence": [
+        "背後張飛趕來"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "guan_yu",
+      "target": "lu_bu",
+      "type": "攔截",
+      "description": "關羽在呂布逃路上橫刀攔住。",
+      "evidence": [
+        "關雲長在此"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "hou_cheng",
+      "target": "lu_bu",
+      "type": "接應",
+      "description": "侯成引兵接應逃往下邳的呂布。",
+      "evidence": [
+        "侯成引兵接應去了"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "liu_bei",
+      "target": "guan_yu",
+      "type": "兄弟",
+      "description": "劉備稱關羽、張飛為兩弟。",
+      "evidence": [
+        "吾今兩弟不知存亡"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "liu_bei",
+      "target": "zhang_fei",
+      "type": "兄弟",
+      "description": "劉備稱關羽、張飛為兩弟。",
+      "evidence": [
+        "吾今兩弟不知存亡"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "cao_cao",
+      "target": "chen_deng",
+      "type": "任命",
+      "description": "曹操授陳登為伏波將軍。",
+      "evidence": [
+        "授登為伏波將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "chen_deng",
+      "target": "title_fubo",
+      "type": "受封",
+      "description": "陳登獲授伏波將軍。",
+      "evidence": [
+        "授登為伏波將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "cao_cao",
+      "target": "chen_gui",
+      "type": "加封",
+      "description": "曹操嘉賞陳珪父子之功，加封十縣之祿。",
+      "evidence": [
+        "加封十縣之祿"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "cheng_yu",
+      "target": "cao_cao",
+      "type": "進言",
+      "description": "程昱建議守住淮南徑路，防呂布與袁術合勢。",
+      "evidence": [
+        "守住淮南徑路"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "chen_gong",
+      "target": "lu_bu",
+      "type": "獻策",
+      "description": "陳宮建議趁曹操寨柵未定，以逸擊勞。",
+      "evidence": [
+        "以逸擊勞"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "chen_gong",
+      "target": "chengong_pincer",
+      "type": "提出",
+      "description": "陳宮提出城內外互救夾擊曹操之策。",
+      "evidence": [
+        "宮將餘眾閉守於內"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "lady_yan",
+      "target": "lu_bu",
+      "type": "勸阻",
+      "description": "嚴氏勸呂布不要委城遠出。",
+      "evidence": [
+        "君委全城",
+        "孤軍遠出"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "diaochan",
+      "target": "lu_bu",
+      "type": "勸阻",
+      "description": "貂蟬勸呂布勿輕身出城。",
+      "evidence": [
+        "勿輕身自出"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "xu_si",
+      "target": "lu_bu",
+      "type": "獻策",
+      "description": "許汜與王楷建議呂布向袁術求援。",
+      "evidence": [
+        "何不仍求之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "wang_kai",
+      "target": "lu_bu",
+      "type": "獻策",
+      "description": "王楷與許汜同獻求援袁術之計。",
+      "evidence": [
+        "許汜、王楷入見布，進計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "lu_bu",
+      "target": "yuan_shu",
+      "type": "求援許婚",
+      "description": "呂布修書向袁術求救，並重提婚約。",
+      "evidence": [
+        "舊曾與彼約婚",
+        "即日修書"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "yuan_shu",
+      "target": "lu_bu",
+      "type": "附條件援救",
+      "description": "袁術要求先送女，再出兵救援。",
+      "evidence": [
+        "先欲得婦，然後起兵救援"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "zhang_liao",
+      "target": "xu_si",
+      "type": "護送",
+      "description": "張遼引兵護送許汜、王楷出城。",
+      "evidence": [
+        "張遼在前",
+        "保著許汜、王楷"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "hao_meng",
+      "target": "wang_kai",
+      "type": "護送",
+      "description": "郝萌斷後護送許汜、王楷回行。",
+      "evidence": [
+        "郝將軍斷後"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "zhang_fei",
+      "target": "hao_meng",
+      "type": "生擒",
+      "description": "張飛在玄德寨邊截住並生擒郝萌。",
+      "evidence": [
+        "被張飛生擒過去"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "cao_cao",
+      "target": "hao_meng",
+      "type": "處斬",
+      "description": "曹操得知求援許婚之事後斬郝萌。",
+      "evidence": [
+        "斬郝萌於軍門"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "liu_bei",
+      "target": "guan_yu",
+      "type": "命令防守",
+      "description": "劉備囑咐關羽小心守淮南衝要。",
+      "evidence": [
+        "二弟切宜小心"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "liu_bei",
+      "target": "zhang_fei",
+      "type": "命令防守",
+      "description": "劉備囑咐張飛小心守淮南衝要。",
+      "evidence": [
+        "勿犯曹公軍令"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "xu_huang",
+      "target": "lu_bu",
+      "type": "追擊",
+      "description": "徐晃與許褚追至，迫使呂布退入城中。",
+      "evidence": [
+        "徐晃、許褚皆殺來"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "xun_you",
+      "target": "cao_cao",
+      "type": "諫言",
+      "description": "荀攸阻止曹操撤軍，主張速攻呂布。",
+      "evidence": [
+        "荀攸急止曰：不可"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "guo_jia",
+      "target": "water_scheme",
+      "type": "提出",
+      "description": "郭嘉提出破下邳之計。",
+      "evidence": [
+        "某有一計，下邳城可立破"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "xun_yu",
+      "target": "water_scheme",
+      "type": "點明",
+      "description": "荀彧點明郭嘉之計為決沂、泗之水。",
+      "evidence": [
+        "莫非決沂、泗之水乎"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "cao_cao",
+      "target": "water_scheme",
+      "type": "採用",
+      "description": "曹操大喜並採用水攻下邳之策。",
+      "evidence": [
+        "操大喜"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "water_scheme",
+      "target": "xiapi",
+      "type": "攻城",
+      "description": "決沂、泗之水以淹下邳。",
+      "evidence": [
+        "洪水滔滔淹下邳"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "hou_cheng",
+      "target": "chitu",
+      "type": "盜取獻出",
+      "description": "侯成盜赤兔馬出城獻給曹操。",
+      "evidence": [
+        "盜了那匹赤兔馬",
+        "獻上馬匹"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "hou_cheng",
+      "target": "cao_cao",
+      "type": "投降通內應",
+      "description": "侯成到曹操寨中獻馬並報宋憲、魏續將獻門。",
+      "evidence": [
+        "到曹操寨",
+        "準備獻門"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "song_xian",
+      "target": "huaji",
+      "type": "盜取",
+      "description": "宋憲縛呂布前先盜其畫戟。",
+      "evidence": [
+        "先盜其畫戟"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "song_xian",
+      "target": "lu_bu",
+      "type": "叛變擒縛",
+      "description": "宋憲與魏續動手將呂布綁住。",
+      "evidence": [
+        "將呂布繩纏索綁"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "wei_xu",
+      "target": "lu_bu",
+      "type": "叛變擒縛",
+      "description": "魏續與宋憲合力擒縛呂布。",
+      "evidence": [
+        "魏續一齊動手"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "wei_xu",
+      "target": "cao_main_army",
+      "type": "開門引入",
+      "description": "魏續宣稱已擒呂布並開城門迎曹兵。",
+      "evidence": [
+        "大開城門，曹兵一擁而入"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "cao_main_army",
+      "target": "xiapi",
+      "type": "攻入",
+      "description": "曹兵因宋憲、魏續開門而攻入下邳。",
+      "evidence": [
+        "曹兵一擁而入"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "xu_huang",
+      "target": "chen_gong",
+      "type": "擒獲",
+      "description": "陳宮奔南門時被徐晃擒獲。",
+      "evidence": [
+        "陳宮奔至南門，為徐晃所獲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "cao_cao",
+      "target": "gao_shun",
+      "type": "處斬",
+      "description": "曹操問高順，高順不答，曹操命斬。",
+      "evidence": [
+        "順不答",
+        "操怒命斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "cao_cao",
+      "target": "chen_gong",
+      "type": "處刑",
+      "description": "曹操送陳宮就刑，並將其葬於許都。",
+      "evidence": [
+        "伸頸就刑",
+        "葬於許都"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "liu_bei",
+      "target": "cao_cao",
+      "type": "進言",
+      "description": "曹操問是否收呂布，劉備以丁建陽、董卓之事提醒。",
+      "evidence": [
+        "公不見丁建陽、董卓之事乎"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "cao_cao",
+      "target": "lu_bu",
+      "type": "處死",
+      "description": "曹操命人將呂布縊死並梟首。",
+      "evidence": [
+        "將呂布縊死，然後梟首"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "zhang_liao",
+      "target": "cao_cao",
+      "type": "辱罵敵對",
+      "description": "張遼被擒後罵曹操為國賊。",
+      "evidence": [
+        "不曾燒死你這國賊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "cao_cao",
+      "target": "zhang_liao",
+      "type": "欲殺",
+      "description": "曹操因張遼辱罵拔劍欲殺。",
+      "evidence": [
+        "拔劍在手，親自來殺張遼"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_peicheng_falls",
+      "name": "沛城失守與劉備逃難",
+      "summary": "高順、張遼攻關羽寨，呂布攻張飛寨並破沛城，劉備棄家眷逃走。",
+      "participants": [
+        "lu_bu",
+        "gao_shun",
+        "zhang_liao",
+        "guan_yu",
+        "zhang_fei",
+        "liu_bei",
+        "mi_zhu"
+      ],
+      "locations": [
+        "peicheng",
+        "xiaopei"
+      ],
+      "evidence": [
+        "關、張兩軍皆潰",
+        "匹馬逃難"
+      ]
+    },
+    {
+      "id": "ev_liu_bei_joins_cao",
+      "name": "劉備投曹操",
+      "summary": "孫乾建議劉備投曹操；途中劉安殺妻供食，曹操後賜金百兩。",
+      "participants": [
+        "liu_bei",
+        "sun_qian",
+        "cao_cao",
+        "liu_an",
+        "liu_an_wife"
+      ],
+      "locations": [
+        "xudu"
+      ],
+      "evidence": [
+        "不若且投曹操",
+        "金百兩往賜之"
+      ]
+    },
+    {
+      "id": "ev_xiaoguan_battle",
+      "name": "蕭關擊退泰山寇",
+      "summary": "曹操親征呂布途中，在蕭關附近由許褚擊敗孫觀等泰山寇。",
+      "participants": [
+        "cao_cao",
+        "xu_chu",
+        "sun_guan",
+        "wu_dun",
+        "yin_li",
+        "chang_xi",
+        "taishan_bandits"
+      ],
+      "locations": [
+        "xiaoguan"
+      ],
+      "evidence": [
+        "領兵三萬餘攔住去路",
+        "四將抵敵不住"
+      ]
+    },
+    {
+      "id": "ev_chendeng_tricks_lubu",
+      "name": "陳登設計呂布",
+      "summary": "陳登暗通曹操並欺騙陳宮、呂布，使兩軍夜中自相攻擊，徐州也拒呂布入城。",
+      "participants": [
+        "chen_deng",
+        "chen_gui",
+        "chen_gong",
+        "lu_bu",
+        "mi_zhu",
+        "cao_cao"
+      ],
+      "locations": [
+        "xuzhou",
+        "xiaopei"
+      ],
+      "evidence": [
+        "射下關去",
+        "自相掩殺",
+        "不得復入此城"
+      ]
+    },
+    {
+      "id": "ev_xuzhou_to_cao",
+      "name": "曹操入徐州並封陳登",
+      "summary": "關羽、張飛與劉備重會，曹操入徐州，陳珪父子參拜，陳登受封伏波將軍。",
+      "participants": [
+        "cao_cao",
+        "liu_bei",
+        "guan_yu",
+        "zhang_fei",
+        "mi_zhu",
+        "chen_gui",
+        "chen_deng"
+      ],
+      "locations": [
+        "xuzhou"
+      ],
+      "evidence": [
+        "便隨操入徐州",
+        "授登為伏波將軍"
+      ]
+    },
+    {
+      "id": "ev_xiapi_siege_begins",
+      "name": "下邳圍城與陳宮獻策",
+      "summary": "曹操攻下邳，陳宮建議趁曹軍未定、內外夾擊、斷糧道，呂布因嚴氏與貂蟬勸阻未採納。",
+      "participants": [
+        "cao_cao",
+        "lu_bu",
+        "chen_gong",
+        "lady_yan",
+        "diaochan",
+        "cheng_yu"
+      ],
+      "locations": [
+        "xiapi",
+        "sishui"
+      ],
+      "evidence": [
+        "曹操自引兵攻下邳",
+        "遂不聽陳宮之言"
+      ]
+    },
+    {
+      "id": "ev_yuanshu_request",
+      "name": "求援袁術與郝萌被斬",
+      "summary": "許汜、王楷建議呂布向袁術求援；袁術要求先送女，返程中郝萌被張飛擒獲並由曹操斬首。",
+      "participants": [
+        "lu_bu",
+        "xu_si",
+        "wang_kai",
+        "yuan_shu",
+        "hao_meng",
+        "zhang_fei",
+        "cao_cao"
+      ],
+      "locations": [
+        "shouchun",
+        "huainan"
+      ],
+      "evidence": [
+        "袁術先欲得婦",
+        "斬郝萌於軍門"
+      ]
+    },
+    {
+      "id": "ev_lubu_failed_breakout",
+      "name": "呂布送女突圍失敗",
+      "summary": "呂布親自護送女眷突圍，遭關羽、張飛、劉備及徐晃、許褚攔截，只得退入城中。",
+      "participants": [
+        "lu_bu",
+        "zhang_liao",
+        "gao_shun",
+        "liu_bei",
+        "guan_yu",
+        "zhang_fei",
+        "xu_huang",
+        "xu_chu"
+      ],
+      "locations": [
+        "xiapi"
+      ],
+      "evidence": [
+        "縛一女在身上",
+        "仍退入城"
+      ]
+    },
+    {
+      "id": "ev_flood_xiapi",
+      "name": "決水淹下邳",
+      "summary": "曹操久攻不下欲退，荀攸勸速攻，郭嘉獻計，荀彧點明決沂、泗之水以破下邳。",
+      "participants": [
+        "cao_cao",
+        "xun_you",
+        "guo_jia",
+        "xun_yu",
+        "lu_bu"
+      ],
+      "locations": [
+        "xiapi",
+        "yishui",
+        "sishui"
+      ],
+      "evidence": [
+        "攻城，兩個月不下",
+        "決沂、泗之水"
+      ]
+    },
+    {
+      "id": "ev_lubu_betrayed",
+      "name": "侯成宋憲魏續叛呂布",
+      "summary": "侯成因受責打而怨，盜赤兔馬獻曹操；宋憲、魏續以白旗為號，縛呂布、開城迎曹軍。",
+      "participants": [
+        "hou_cheng",
+        "song_xian",
+        "wei_xu",
+        "lu_bu",
+        "cao_cao"
+      ],
+      "locations": [
+        "xiapi"
+      ],
+      "evidence": [
+        "盜了那匹赤兔馬",
+        "已生擒呂布矣"
+      ]
+    },
+    {
+      "id": "ev_baimenlou_executions",
+      "name": "白門樓處決",
+      "summary": "曹操在白門樓審呂布、高順、陳宮、張遼；高順、陳宮、呂布被處死，張遼怒罵曹操而暫留懸念。",
+      "participants": [
+        "cao_cao",
+        "liu_bei",
+        "lu_bu",
+        "gao_shun",
+        "chen_gong",
+        "zhang_liao",
+        "xu_huang"
+      ],
+      "locations": [
+        "baimenlou",
+        "xudu"
+      ],
+      "evidence": [
+        "同坐白門樓上",
+        "將呂布縊死，然後梟首"
+      ]
+    }
+  ],
+  "notes": [
+    "本章原文局部有重複與亂碼，抽取僅依可辨識正文片段。",
+    "未具名救張遼者因本章未揭示姓名，未建立人物實體與救援關係。"
+  ]
+}

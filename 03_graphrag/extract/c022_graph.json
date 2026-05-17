@@ -1,0 +1,1784 @@
+{
+  "book": "三國演義",
+  "chapter_no": 22,
+  "chapter_title": "袁曹各起馬步三軍　關張共擒王劉二將",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_liu_bei",
+      "name": "玄德",
+      "type": "character",
+      "aliases": [
+        "劉備",
+        "使君"
+      ],
+      "description": "徐州一方主帥，受曹操威脅，求袁紹救援，後擒而釋放劉岱、王忠，分兵防守徐州、小沛、下邳。",
+      "evidence": [
+        "玄德問何人",
+        "玄德用其言"
+      ]
+    },
+    {
+      "id": "char_chen_deng",
+      "name": "陳登",
+      "type": "character",
+      "aliases": [],
+      "description": "向玄德獻計，建議借鄭玄書信請袁紹救援，後判斷曹操未必在徐州軍中。",
+      "evidence": [
+        "陳登獻計於玄德",
+        "操必不在此"
+      ]
+    },
+    {
+      "id": "char_zheng_xuan",
+      "name": "鄭玄",
+      "type": "character",
+      "aliases": [
+        "鄭康成",
+        "鄭尚書"
+      ],
+      "description": "名儒，曾為尚書，受玄德敬禮，替玄德寫信給袁紹。",
+      "evidence": [
+        "莫非鄭康成先生乎",
+        "寫書一封"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [],
+      "description": "受玄德差遣送信給袁紹，後建議徐州分兵成掎角之勢。",
+      "evidence": [
+        "差孫乾星夜賒往袁紹處",
+        "孫乾謂玄德曰"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "本初",
+        "明公"
+      ],
+      "description": "據冀、青、幽、並諸郡，因鄭玄書信決意助劉備討曹，起三十萬兵進黎陽。",
+      "evidence": [
+        "虎踞冀、青、幽、並諸郡",
+        "起馬軍十五萬，步兵十五萬"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹丞相",
+        "丞相",
+        "司空曹操"
+      ],
+      "description": "本章袁紹討伐對象；派劉岱、王忠攻徐州，自率大軍拒袁紹，並以疑兵虛張聲勢。",
+      "evidence": [
+        "商議興兵伐曹操",
+        "自引大軍二十萬"
+      ]
+    },
+    {
+      "id": "char_tian_feng",
+      "name": "田豐",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀士，反對立即興大軍，主張先獻捷天子、屯黎陽、備舟楫軍器。",
+      "evidence": [
+        "謀士田豐曰",
+        "不可復興大軍"
+      ]
+    },
+    {
+      "id": "char_guo_tu",
+      "name": "郭圖",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀士，主張先數曹操之惡、馳檄各郡，使討曹名正言順。",
+      "evidence": [
+        "郭圖進曰",
+        "必須數操之惡"
+      ]
+    },
+    {
+      "id": "char_xu_you",
+      "name": "許攸",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部下謀士之一，參與起兵議論，後因不滿審配領兵而軍中不和。",
+      "evidence": [
+        "忽許攸、荀諦自外而入",
+        "許攸不樂審配領兵"
+      ]
+    },
+    {
+      "id": "char_xun_di",
+      "name": "荀諦",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部下謀士之一，與許攸同入議事，後被列為謀士。",
+      "evidence": [
+        "許攸、荀諦自外而入",
+        "荀諦、許攸為謀士"
+      ]
+    },
+    {
+      "id": "char_shen_pei",
+      "name": "審配",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹任命的統軍之一。",
+      "evidence": [
+        "令審配、逢紀為統軍"
+      ]
+    },
+    {
+      "id": "char_pang_ji",
+      "name": "逢紀",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹任命的統軍之一。",
+      "evidence": [
+        "令審配、逢紀為統軍"
+      ]
+    },
+    {
+      "id": "char_yan_liang",
+      "name": "顏良",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹任命的將軍之一。",
+      "evidence": [
+        "顏良、文醜為將軍"
+      ]
+    },
+    {
+      "id": "char_wen_chou",
+      "name": "文醜",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹任命的將軍之一。",
+      "evidence": [
+        "顏良、文醜為將軍"
+      ]
+    },
+    {
+      "id": "char_chen_lin",
+      "name": "陳琳",
+      "type": "character",
+      "aliases": [
+        "孔璋"
+      ],
+      "description": "袁紹書記，受命草討曹檄文。",
+      "evidence": [
+        "令書記陳琳草檄",
+        "琳字孔璋"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操左右將領，回答曹操檄文作者是陳琳。",
+      "evidence": [
+        "顧謂曹洪曰",
+        "聞是陳琳之筆"
+      ]
+    },
+    {
+      "id": "char_kong_rong",
+      "name": "孔融",
+      "type": "character",
+      "aliases": [],
+      "description": "聽聞袁紹勢大，建議曹操與袁紹求和。",
+      "evidence": [
+        "孔融聞之",
+        "只可與和"
+      ]
+    },
+    {
+      "id": "char_liu_dai",
+      "name": "劉岱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操偏將，與王忠領五萬軍攻徐州，被張飛用計生擒後獲玄德釋放。",
+      "evidence": [
+        "劉岱舊為兗州刺史",
+        "早被張飛生擒"
+      ]
+    },
+    {
+      "id": "char_wang_zhong",
+      "name": "王忠",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操所遣後軍將領，與劉岱攻徐州，打曹丞相旗號疑兵，被雲長生擒。",
+      "evidence": [
+        "後軍王忠引軍五萬",
+        "雲長押解王忠"
+      ]
+    },
+    {
+      "id": "char_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀臣，質疑劉岱、王忠不能勝任攻劉備之任。",
+      "evidence": [
+        "程昱曰",
+        "不稱其使"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "雲長",
+      "type": "character",
+      "aliases": [
+        "關羽",
+        "二哥"
+      ],
+      "description": "玄德義弟，出陣探敵並雪中生擒王忠；後攔止張飛追嚇劉岱、王忠。",
+      "evidence": [
+        "雲長驟馬提刀而出",
+        "生擒將來"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德"
+      ],
+      "description": "玄德義弟，用詐醉誘敵之計破劉岱營，生擒劉岱，後威嚇被釋二將。",
+      "evidence": [
+        "張飛每日在寨前叫罵",
+        "心生一計"
+      ]
+    },
+    {
+      "id": "char_zang_ba",
+      "name": "臧霸",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布手下降將，受曹操命守把青、徐。",
+      "evidence": [
+        "呂布手下降將臧霸守把青、徐"
+      ]
+    },
+    {
+      "id": "char_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，與李典屯兵河上。",
+      "evidence": [
+        "於禁、李典屯兵河上"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，與於禁屯兵河上。",
+      "evidence": [
+        "於禁、李典屯兵河上"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，總督大軍屯於官渡。",
+      "evidence": [
+        "曹仁總督大軍，屯於官渡"
+      ]
+    },
+    {
+      "id": "char_gan_furen",
+      "name": "甘夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "玄德夫人之一，小沛人，被安置於下邳。",
+      "evidence": [
+        "甘、糜二夫人亦於下邳安置",
+        "甘夫人乃小沛人也"
+      ]
+    },
+    {
+      "id": "char_mi_furen",
+      "name": "糜夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "玄德夫人之一，糜竺之妹，被安置於下邳。",
+      "evidence": [
+        "糜夫人乃糜竺之妹也"
+      ]
+    },
+    {
+      "id": "char_jian_yong",
+      "name": "簡雍",
+      "type": "character",
+      "aliases": [],
+      "description": "玄德部下，受命守徐州。",
+      "evidence": [
+        "孫乾、簡雍、糜竺、糜芳守徐州"
+      ]
+    },
+    {
+      "id": "char_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "玄德部下，受命守徐州；糜夫人之兄。",
+      "evidence": [
+        "糜夫人乃糜竺之妹也",
+        "糜竺、糜芳守徐州"
+      ]
+    },
+    {
+      "id": "char_mi_fang",
+      "name": "糜芳",
+      "type": "character",
+      "aliases": [],
+      "description": "玄德部下，受命守徐州。",
+      "evidence": [
+        "糜竺、糜芳守徐州"
+      ]
+    },
+    {
+      "id": "faction_liu_bei",
+      "name": "玄德軍",
+      "type": "faction",
+      "aliases": [
+        "劉備軍",
+        "徐州軍"
+      ],
+      "description": "以玄德為首的徐州勢力，抵抗曹操所遣劉岱、王忠，後分守徐州、下邳、小沛。",
+      "evidence": [
+        "玄德也不知曹操虛實",
+        "分兵屯小沛"
+      ]
+    },
+    {
+      "id": "faction_yuan_shao",
+      "name": "袁紹軍",
+      "type": "faction",
+      "aliases": [
+        "河北軍"
+      ],
+      "description": "袁紹統領的勢力，起馬步三十萬進黎陽討曹。",
+      "evidence": [
+        "起馬軍十五萬，步兵十五萬",
+        "望黎陽進發"
+      ]
+    },
+    {
+      "id": "faction_cao_cao",
+      "name": "曹操軍",
+      "type": "faction",
+      "aliases": [
+        "曹軍"
+      ],
+      "description": "曹操所率勢力，分兵攻徐州並在黎陽、官渡一帶拒袁紹。",
+      "evidence": [
+        "操卻自引大軍二十萬",
+        "拒袁紹"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "玄德根據地，曹操派劉岱、王忠來攻，後由孫乾、簡雍、糜竺、糜芳守備。",
+      "evidence": [
+        "去徐州攻劉備",
+        "守徐州"
+      ]
+    },
+    {
+      "id": "loc_jizhou",
+      "name": "冀州",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹勢力所據諸郡之一，也是陳琳避難、袁紹記室所在。",
+      "evidence": [
+        "虎踞冀、青、幽、並諸郡",
+        "避難冀州"
+      ]
+    },
+    {
+      "id": "loc_qingzhou",
+      "name": "青州",
+      "type": "location",
+      "aliases": [
+        "青"
+      ],
+      "description": "袁紹所據州郡之一，後曹操命臧霸守把青、徐。",
+      "evidence": [
+        "冀、青、幽、並諸郡",
+        "臧霸守把青、徐"
+      ]
+    },
+    {
+      "id": "loc_youzhou",
+      "name": "幽州",
+      "type": "location",
+      "aliases": [
+        "幽"
+      ],
+      "description": "袁紹所據州郡之一，檄文中列為並進之州。",
+      "evidence": [
+        "冀、青、幽、並諸郡",
+        "幽並青冀四州並進"
+      ]
+    },
+    {
+      "id": "loc_bingzhou",
+      "name": "並州",
+      "type": "location",
+      "aliases": [
+        "並"
+      ],
+      "description": "袁紹所據州郡之一，檄文中列為並進之州。",
+      "evidence": [
+        "冀、青、幽、並諸郡",
+        "幽並青冀四州並進"
+      ]
+    },
+    {
+      "id": "loc_liyang",
+      "name": "黎陽",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹軍進發、曹操拒守之地，兩軍相持。",
+      "evidence": [
+        "望黎陽進發",
+        "曹操自引兵至黎陽"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操所在都城，討曹檄文傳至此，後曹操回許都。",
+      "evidence": [
+        "檄文傳至許都",
+        "竟回許都"
+      ]
+    },
+    {
+      "id": "loc_guandu",
+      "name": "官渡",
+      "type": "location",
+      "aliases": [],
+      "description": "曹仁奉曹操部署，總督大軍屯駐之地。",
+      "evidence": [
+        "曹仁總督大軍，屯於官渡"
+      ]
+    },
+    {
+      "id": "loc_xiapi",
+      "name": "下邳",
+      "type": "location",
+      "aliases": [
+        "邳城"
+      ],
+      "description": "玄德採納孫乾建議後，命雲長守備並安置甘、糜二夫人。",
+      "evidence": [
+        "守邳城",
+        "雲長守下邳"
+      ]
+    },
+    {
+      "id": "loc_xiaopei",
+      "name": "小沛",
+      "type": "location",
+      "aliases": [],
+      "description": "玄德分兵防曹時的屯駐地之一，也是甘夫人籍貫。",
+      "evidence": [
+        "屯小沛",
+        "甘夫人乃小沛人也"
+      ]
+    },
+    {
+      "id": "loc_henei",
+      "name": "河內",
+      "type": "location",
+      "aliases": [],
+      "description": "田豐建議增益舟楫、繕置軍器之地。",
+      "evidence": [
+        "更於河內增益舟楫"
+      ]
+    },
+    {
+      "id": "loc_he_shang",
+      "name": "河上",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操命於禁、李典屯兵之處。",
+      "evidence": [
+        "於禁、李典屯兵河上"
+      ]
+    },
+    {
+      "id": "title_shangshu",
+      "name": "尚書",
+      "type": "title",
+      "aliases": [
+        "鄭尚書"
+      ],
+      "description": "鄭玄曾任官職，袁紹因重鄭尚書之命而救玄德。",
+      "evidence": [
+        "玄官至尚書",
+        "重以鄭尚書之命"
+      ]
+    },
+    {
+      "id": "title_xuzhou_mu",
+      "name": "徐州牧",
+      "type": "title",
+      "aliases": [],
+      "description": "玄德在徐州時的職稱。",
+      "evidence": [
+        "及為徐州牧"
+      ]
+    },
+    {
+      "id": "title_tongjun",
+      "name": "統軍",
+      "type": "title",
+      "aliases": [],
+      "description": "袁紹任命審配、逢紀所任軍職。",
+      "evidence": [
+        "審配、逢紀為統軍"
+      ]
+    },
+    {
+      "id": "title_moushi",
+      "name": "謀士",
+      "type": "title",
+      "aliases": [],
+      "description": "袁紹任命田豐、荀諦、許攸所任角色。",
+      "evidence": [
+        "田豐、荀諦、許攸為謀士"
+      ]
+    },
+    {
+      "id": "title_jiangjun",
+      "name": "將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "袁紹任命顏良、文醜所任軍職。",
+      "evidence": [
+        "顏良、文醜為將軍"
+      ]
+    },
+    {
+      "id": "title_shuji",
+      "name": "書記",
+      "type": "title",
+      "aliases": [
+        "記室"
+      ],
+      "description": "陳琳在袁紹幕府中草檄的職務。",
+      "evidence": [
+        "令書記陳琳草檄",
+        "紹是記室"
+      ]
+    },
+    {
+      "id": "title_pianjiang",
+      "name": "偏將",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操收降劉岱後給予的軍職。",
+      "evidence": [
+        "操用為偏將"
+      ]
+    },
+    {
+      "id": "obj_zheng_letter",
+      "name": "鄭玄書信",
+      "type": "object",
+      "aliases": [
+        "鄭尚書書"
+      ],
+      "description": "鄭玄為玄德寫給袁紹的求援書信。",
+      "evidence": [
+        "求其作書",
+        "寫書一封"
+      ]
+    },
+    {
+      "id": "obj_taocao_xiwen",
+      "name": "討曹檄文",
+      "type": "object",
+      "aliases": [
+        "檄",
+        "陳琳檄文"
+      ],
+      "description": "陳琳為袁紹所草、數曹操之惡並號召州郡討曹的文書。",
+      "evidence": [
+        "陳琳草檄",
+        "數操之惡"
+      ]
+    },
+    {
+      "id": "obj_chengxiang_flag",
+      "name": "曹丞相旗號",
+      "type": "object",
+      "aliases": [
+        "丞相旗號"
+      ],
+      "description": "劉岱、王忠軍中虛掛，用以冒充曹操在陣、製造疑兵。",
+      "evidence": [
+        "打著丞相旗號",
+        "虛打曹丞相旗號"
+      ]
+    },
+    {
+      "id": "obj_baodao",
+      "name": "寶刀",
+      "type": "object",
+      "aliases": [],
+      "description": "雲長擒王忠時所用兵器。",
+      "evidence": [
+        "左手倒提寶刀"
+      ]
+    },
+    {
+      "id": "strategy_yuan_help",
+      "name": "求援袁紹",
+      "type": "strategy",
+      "aliases": [],
+      "description": "陳登建議玄德借鄭玄書信請袁紹相助，以曹操所懼者袁紹為根據。",
+      "evidence": [
+        "曹操所懼者袁紹",
+        "寫書遣人到彼求救"
+      ]
+    },
+    {
+      "id": "strategy_xiwen_taocao",
+      "name": "馳檄聲罪",
+      "type": "strategy",
+      "aliases": [
+        "聲罪致討"
+      ],
+      "description": "郭圖建議先發布檄文列曹操罪狀，使袁紹討曹名正言順。",
+      "evidence": [
+        "馳檄各郡",
+        "聲罪致討"
+      ]
+    },
+    {
+      "id": "strategy_yibing",
+      "name": "虛張聲勢",
+      "type": "strategy",
+      "aliases": [
+        "疑兵"
+      ],
+      "description": "曹操命劉岱、王忠打曹丞相旗號，使徐州方面疑曹操親至。",
+      "evidence": [
+        "權且虛張聲勢",
+        "以為疑兵"
+      ]
+    },
+    {
+      "id": "strategy_zhazui",
+      "name": "詐醉誘敵",
+      "type": "strategy",
+      "aliases": [
+        "劫寨計"
+      ],
+      "description": "張飛假裝醉酒打軍士並縱其逃報，使劉岱中計，夜間分兵劫寨破敵。",
+      "evidence": [
+        "飲酒詐醉",
+        "縱之去"
+      ]
+    },
+    {
+      "id": "strategy_jijiao",
+      "name": "掎角之勢",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孫乾建議分屯小沛、下邳、徐州，互為支援以防曹操。",
+      "evidence": [
+        "為掎角之勢",
+        "以防曹操"
+      ]
+    },
+    {
+      "id": "army_yuan_300k",
+      "name": "袁紹三十萬精兵",
+      "type": "army",
+      "aliases": [
+        "馬軍十五萬，步兵十五萬"
+      ],
+      "description": "袁紹起兵討曹的主力，由十五萬馬軍和十五萬步兵組成。",
+      "evidence": [
+        "馬軍十五萬，步兵十五萬",
+        "共精兵三十萬"
+      ]
+    },
+    {
+      "id": "army_cao_200k",
+      "name": "曹操二十萬大軍",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操親自率領到黎陽拒袁紹的主力。",
+      "evidence": [
+        "自引大軍二十萬",
+        "進黎陽"
+      ]
+    },
+    {
+      "id": "army_liu_wang_50k",
+      "name": "劉岱王忠五萬軍",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操派往徐州攻玄德的軍隊，由劉岱、王忠統領。",
+      "evidence": [
+        "劉岱、後軍王忠引軍五萬"
+      ]
+    },
+    {
+      "id": "army_zhangfei_three_routes",
+      "name": "張飛三路兵",
+      "type": "army",
+      "aliases": [],
+      "description": "張飛劫劉岱寨時分出的中路放火與兩路夾擊部隊。",
+      "evidence": [
+        "分兵三路",
+        "兩路軍抄出他寨後"
+      ]
+    },
+    {
+      "id": "battle_liyang_standoff",
+      "name": "黎陽相持",
+      "type": "battle",
+      "aliases": [],
+      "description": "袁紹與曹操兩軍隔八十里築壘相持，自八月至十月不戰。",
+      "evidence": [
+        "兩軍隔八十里",
+        "相持不戰"
+      ]
+    },
+    {
+      "id": "battle_xuzhou_attack",
+      "name": "徐州攻防",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹操派劉岱、王忠攻徐州，玄德軍先後擒王忠、劉岱。",
+      "evidence": [
+        "去徐州攻劉備",
+        "王忠被擒"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_chen_deng",
+      "target": "char_liu_bei",
+      "type": "獻計",
+      "description": "陳登建議玄德寫書求袁紹救援。",
+      "evidence": [
+        "陳登獻計於玄德",
+        "寫書遣人到彼求救"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zheng_xuan",
+      "type": "師事",
+      "description": "玄德早年曾師事鄭玄，為徐州牧後仍常請教。",
+      "evidence": [
+        "已曾師事之",
+        "時時造廬請教"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_zheng_letter",
+      "type": "求取",
+      "description": "玄德親至鄭玄家，請鄭玄作書。",
+      "evidence": [
+        "親至鄭玄家中",
+        "求其作書"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zheng_xuan",
+      "target": "obj_zheng_letter",
+      "type": "撰寫",
+      "description": "鄭玄答應玄德，寫成一封書信。",
+      "evidence": [
+        "慨然依允",
+        "寫書一封"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "obj_zheng_letter",
+      "type": "遞送",
+      "description": "孫乾受玄德差遣，星夜送鄭玄書信到袁紹處。",
+      "evidence": [
+        "差孫乾星夜賒往",
+        "投遞"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_liu_bei",
+      "type": "救援",
+      "description": "袁紹因鄭玄之命，決定往救玄德。",
+      "evidence": [
+        "不得不往救之",
+        "令我起兵助劉備"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_cao_cao",
+      "type": "討伐",
+      "description": "袁紹聚文武商議興兵伐曹操。",
+      "evidence": [
+        "商議興兵伐曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_tian_feng",
+      "target": "char_yuan_shao",
+      "type": "諫阻興兵",
+      "description": "田豐認為百姓疲弊、倉廩無積，不宜再興大軍。",
+      "evidence": [
+        "不可復興大軍",
+        "竊為明公不取"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_tu",
+      "target": "strategy_xiwen_taocao",
+      "type": "建議",
+      "description": "郭圖建議數曹操罪惡並馳檄各郡。",
+      "evidence": [
+        "郭圖進曰",
+        "馳檄各郡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_shen_pei",
+      "type": "任命",
+      "description": "袁紹令審配為統軍。",
+      "evidence": [
+        "令審配、逢紀為統軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_pang_ji",
+      "type": "任命",
+      "description": "袁紹令逢紀為統軍。",
+      "evidence": [
+        "令審配、逢紀為統軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_tian_feng",
+      "type": "任命",
+      "description": "袁紹任田豐為謀士。",
+      "evidence": [
+        "田豐、荀諦、許攸為謀士"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_xun_di",
+      "type": "任命",
+      "description": "袁紹任荀諦為謀士。",
+      "evidence": [
+        "荀諦、許攸為謀士"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_xu_you",
+      "type": "任命",
+      "description": "袁紹任許攸為謀士。",
+      "evidence": [
+        "許攸為謀士"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_yan_liang",
+      "type": "任命",
+      "description": "袁紹任顏良為將軍。",
+      "evidence": [
+        "顏良、文醜為將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_wen_chou",
+      "type": "任命",
+      "description": "袁紹任文醜為將軍。",
+      "evidence": [
+        "顏良、文醜為將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_yuan_300k",
+      "type": "統領",
+      "description": "袁紹起馬步三十萬精兵。",
+      "evidence": [
+        "共精兵三十萬",
+        "望黎陽進發"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_yuan_300k",
+      "target": "loc_liyang",
+      "type": "行軍",
+      "description": "袁紹三十萬精兵向黎陽進發。",
+      "evidence": [
+        "望黎陽進發"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_chen_lin",
+      "type": "命令草檄",
+      "description": "袁紹命書記陳琳草擬討曹檄文。",
+      "evidence": [
+        "遂令書記陳琳草檄"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_lin",
+      "target": "obj_taocao_xiwen",
+      "type": "撰寫",
+      "description": "陳琳援筆立就，寫成討曹檄文。",
+      "evidence": [
+        "援筆立就",
+        "其文曰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_taocao_xiwen",
+      "target": "char_cao_cao",
+      "type": "聲罪",
+      "description": "檄文列舉曹操惡行以號召討伐。",
+      "evidence": [
+        "數操之惡",
+        "聲罪致討"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_taocao_xiwen",
+      "target": "loc_xudu",
+      "type": "傳至",
+      "description": "討曹檄文傳到許都。",
+      "evidence": [
+        "檄文傳至許都"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_taocao_xiwen",
+      "type": "讀後反應",
+      "description": "曹操讀檄後毛骨悚然，頭風頓愈。",
+      "evidence": [
+        "毛骨悚然",
+        "頭風頓愈"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "char_chen_lin",
+      "type": "指認作者",
+      "description": "曹洪告知曹操檄文是陳琳所作。",
+      "evidence": [
+        "聞是陳琳之筆"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_kong_rong",
+      "target": "char_cao_cao",
+      "type": "進言求和",
+      "description": "孔融認為袁紹勢大，建議曹操不可戰、只可和。",
+      "evidence": [
+        "袁紹勢大",
+        "只可與和"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_liu_dai",
+      "type": "派遣",
+      "description": "曹操派劉岱與王忠引五萬軍攻徐州劉備。",
+      "evidence": [
+        "喚前軍劉岱",
+        "去徐州攻劉備"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_wang_zhong",
+      "type": "派遣",
+      "description": "曹操派王忠與劉岱引五萬軍攻徐州劉備。",
+      "evidence": [
+        "後軍王忠引軍五萬",
+        "去徐州攻劉備"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_dai",
+      "target": "army_liu_wang_50k",
+      "type": "統領",
+      "description": "劉岱與王忠共同統領五萬攻徐州軍。",
+      "evidence": [
+        "劉岱、王忠領兵去了"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_zhong",
+      "target": "army_liu_wang_50k",
+      "type": "統領",
+      "description": "王忠與劉岱共同統領五萬攻徐州軍。",
+      "evidence": [
+        "王忠引軍五萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_200k",
+      "type": "統領",
+      "description": "曹操親自率二十萬大軍到黎陽。",
+      "evidence": [
+        "自引大軍二十萬",
+        "進黎陽"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_cao_200k",
+      "target": "loc_liyang",
+      "type": "行軍",
+      "description": "曹操二十萬大軍進至黎陽拒袁紹。",
+      "evidence": [
+        "進黎陽，拒袁紹"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strategy_yibing",
+      "type": "使用",
+      "description": "曹操明知二將非劉備敵手，仍令其虛張聲勢牽制徐州。",
+      "evidence": [
+        "權且虛張聲勢",
+        "不可輕進"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_yibing",
+      "target": "obj_chengxiang_flag",
+      "type": "利用",
+      "description": "疑兵以虛打曹丞相旗號實施。",
+      "evidence": [
+        "虛打曹丞相旗號"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "char_cao_cao",
+      "type": "提醒",
+      "description": "程昱提醒曹操劉岱、王忠恐不能勝任。",
+      "evidence": [
+        "恐劉岱、王忠不稱其使"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_yuan_shao",
+      "target": "faction_cao_cao",
+      "type": "對峙",
+      "description": "袁曹兩軍在黎陽隔八十里相持不戰。",
+      "evidence": [
+        "兩軍隔八十里",
+        "相持不戰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_liyang_standoff",
+      "target": "loc_liyang",
+      "type": "發生於",
+      "description": "黎陽相持發生於黎陽一帶。",
+      "evidence": [
+        "曹操自引兵至黎陽"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_you",
+      "target": "char_shen_pei",
+      "type": "不和",
+      "description": "許攸不滿審配領兵，袁紹軍中不和。",
+      "evidence": [
+        "許攸不樂審配領兵",
+        "各不相和"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zang_ba",
+      "type": "部署",
+      "description": "曹操命臧霸守把青、徐。",
+      "evidence": [
+        "臧霸守把青、徐"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_yu_jin",
+      "type": "部署",
+      "description": "曹操命於禁屯兵河上。",
+      "evidence": [
+        "於禁、李典屯兵河上"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_li_dian",
+      "type": "部署",
+      "description": "曹操命李典屯兵河上。",
+      "evidence": [
+        "於禁、李典屯兵河上"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cao_ren",
+      "type": "部署",
+      "description": "曹操命曹仁總督大軍屯官渡。",
+      "evidence": [
+        "曹仁總督大軍，屯於官渡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zang_ba",
+      "target": "loc_qingzhou",
+      "type": "守備",
+      "description": "臧霸守把青州。",
+      "evidence": [
+        "臧霸守把青、徐"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "loc_guandu",
+      "type": "屯駐",
+      "description": "曹仁總督大軍屯於官渡。",
+      "evidence": [
+        "屯於官渡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_deng",
+      "target": "strategy_yibing",
+      "type": "識破",
+      "description": "陳登判斷曹操旗號多半是虛張，曹操不在此處。",
+      "evidence": [
+        "意操必不在此"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_wang_zhong",
+      "type": "生擒",
+      "description": "雲長回馬取王忠，將其拖下馬擒回。",
+      "evidence": [
+        "揪住王忠勒甲縐",
+        "拖下鞍鞒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_baodao",
+      "type": "使用",
+      "description": "雲長擒王忠時左手倒提寶刀。",
+      "evidence": [
+        "左手倒提寶刀"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_wang_zhong",
+      "target": "char_cao_cao",
+      "type": "奉命",
+      "description": "王忠承認受命虛張聲勢，曹操不在徐州軍中。",
+      "evidence": [
+        "奉命教我虛張聲勢",
+        "丞相實不在此"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_wang_zhong",
+      "type": "釋放",
+      "description": "玄德先監下王忠，後與劉岱一同款待放回。",
+      "evidence": [
+        "且暫監下",
+        "放出王忠"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "strategy_zhazui",
+      "type": "使用",
+      "description": "張飛假醉打軍士並縱其逃報，誘劉岱設伏，再分兵破之。",
+      "evidence": [
+        "飲酒詐醉",
+        "分兵三路"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_zhazui",
+      "target": "char_liu_dai",
+      "type": "誘敵",
+      "description": "劉岱相信逃卒報信而虛紮空寨、伏兵在外，中了張飛之計。",
+      "evidence": [
+        "遂聽其說",
+        "伏兵在外"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_liu_dai",
+      "type": "生擒",
+      "description": "張飛截住劉岱殘軍，一合生擒劉岱。",
+      "evidence": [
+        "交馬隻一合",
+        "早被張飛生擒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "army_zhangfei_three_routes",
+      "type": "統領",
+      "description": "張飛分兵三路劫寨，親自引精兵斷後路。",
+      "evidence": [
+        "張飛卻分兵三路",
+        "自引精兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_zhangfei_three_routes",
+      "target": "army_liu_wang_50k",
+      "type": "擊破",
+      "description": "張飛三路兵火攻夾擊，使劉岱軍自亂潰散。",
+      "evidence": [
+        "兩路兵齊出",
+        "岱軍自亂"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_liu_dai",
+      "type": "釋放",
+      "description": "玄德解開劉岱綁縛、款待後放回。",
+      "evidence": [
+        "下馬解其縛",
+        "盡還原領軍馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_cao_cao",
+      "type": "表明未反",
+      "description": "玄德請劉岱、王忠向曹操分訴，稱自己不敢反曹。",
+      "evidence": [
+        "安敢反耶",
+        "善言為備分訴"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_dai",
+      "target": "char_liu_bei",
+      "type": "承諾分訴",
+      "description": "劉岱承諾到曹操處為玄德方便分訴。",
+      "evidence": [
+        "當於丞相處方便"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_wang_zhong",
+      "target": "char_liu_bei",
+      "type": "承諾分訴",
+      "description": "王忠承諾到曹操處為玄德方便分訴。",
+      "evidence": [
+        "以某兩家老小保使君"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_liu_dai",
+      "type": "威嚇",
+      "description": "張飛在路上攔住獲釋的劉岱、王忠，嚇得二人在馬上發顫。",
+      "evidence": [
+        "張飛攔路大喝",
+        "馬上發顫"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_zhang_fei",
+      "type": "制止",
+      "description": "雲長追來制止張飛對釋放二將無禮。",
+      "evidence": [
+        "不得無禮",
+        "吾弟如何不遵法令"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "strategy_jijiao",
+      "type": "建議",
+      "description": "孫乾建議分兵屯小沛、守邳城，形成掎角之勢。",
+      "evidence": [
+        "不若分兵屯小沛",
+        "為掎角之勢"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strategy_jijiao",
+      "type": "採納",
+      "description": "玄德採用孫乾分兵守備的建議。",
+      "evidence": [
+        "玄德用其言"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "loc_xiapi",
+      "type": "守備",
+      "description": "玄德令雲長守下邳。",
+      "evidence": [
+        "令雲長守下邳"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_furen",
+      "target": "loc_xiapi",
+      "type": "安置於",
+      "description": "甘夫人被安置在下邳。",
+      "evidence": [
+        "甘、糜二夫人亦於下邳安置"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mi_furen",
+      "target": "loc_xiapi",
+      "type": "安置於",
+      "description": "糜夫人被安置在下邳。",
+      "evidence": [
+        "甘、糜二夫人亦於下邳安置"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_furen",
+      "target": "loc_xiaopei",
+      "type": "籍貫",
+      "description": "甘夫人是小沛人。",
+      "evidence": [
+        "甘夫人乃小沛人也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mi_furen",
+      "target": "char_mi_zhu",
+      "type": "兄妹",
+      "description": "糜夫人是糜竺之妹。",
+      "evidence": [
+        "糜夫人乃糜竺之妹也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "loc_xuzhou",
+      "type": "守備",
+      "description": "孫乾與簡雍、糜竺、糜芳守徐州。",
+      "evidence": [
+        "孫乾、簡雍、糜竺、糜芳守徐州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_jian_yong",
+      "target": "loc_xuzhou",
+      "type": "守備",
+      "description": "簡雍受命守徐州。",
+      "evidence": [
+        "簡雍、糜竺、糜芳守徐州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mi_zhu",
+      "target": "loc_xuzhou",
+      "type": "守備",
+      "description": "糜竺受命守徐州。",
+      "evidence": [
+        "糜竺、糜芳守徐州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mi_fang",
+      "target": "loc_xuzhou",
+      "type": "守備",
+      "description": "糜芳受命守徐州。",
+      "evidence": [
+        "糜芳守徐州"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_xiaopei",
+      "type": "屯駐",
+      "description": "玄德與張飛屯於小沛以防曹操。",
+      "evidence": [
+        "分兵屯小沛",
+        "玄德與張飛屯"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "loc_xiaopei",
+      "type": "屯駐",
+      "description": "張飛與玄德一同屯小沛。",
+      "evidence": [
+        "玄德與張飛屯"
+      ],
+      "confidence": 0.94
+    }
+  ],
+  "events": [
+    {
+      "id": "event_request_yuan_help",
+      "name": "陳登獻計求袁紹救援",
+      "summary": "陳登指出曹操所懼者袁紹，建議玄德借鄭玄與袁紹的交情寫信求援。",
+      "participants": [
+        "char_chen_deng",
+        "char_liu_bei",
+        "char_zheng_xuan",
+        "char_yuan_shao"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "曹操所懼者袁紹",
+        "寫書遣人到彼求救"
+      ]
+    },
+    {
+      "id": "event_zheng_letter_delivered",
+      "name": "鄭玄作書孫乾投遞",
+      "summary": "玄德親訪鄭玄，鄭玄寫書一封，玄德派孫乾星夜送往袁紹處。",
+      "participants": [
+        "char_liu_bei",
+        "char_zheng_xuan",
+        "char_sun_qian",
+        "char_yuan_shao"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "寫書一封",
+        "差孫乾星夜賒往袁紹處"
+      ]
+    },
+    {
+      "id": "event_yuan_council",
+      "name": "袁紹議起兵討曹",
+      "summary": "袁紹讀鄭玄書後召集文武議事；田豐諫阻，郭圖建議馳檄聲罪，袁紹終決起兵。",
+      "participants": [
+        "char_yuan_shao",
+        "char_tian_feng",
+        "char_guo_tu",
+        "char_xu_you",
+        "char_xun_di"
+      ],
+      "locations": [
+        "loc_jizhou"
+      ],
+      "evidence": [
+        "聚文武官",
+        "商議興兵伐曹操"
+      ]
+    },
+    {
+      "id": "event_yuan_deployment",
+      "name": "袁紹部署三十萬兵進黎陽",
+      "summary": "袁紹任審配、逢紀為統軍，田豐、荀諦、許攸為謀士，顏良、文醜為將軍，起馬步三十萬往黎陽。",
+      "participants": [
+        "char_yuan_shao",
+        "char_shen_pei",
+        "char_pang_ji",
+        "char_tian_feng",
+        "char_xun_di",
+        "char_xu_you",
+        "char_yan_liang",
+        "char_wen_chou"
+      ],
+      "locations": [
+        "loc_liyang"
+      ],
+      "evidence": [
+        "共精兵三十萬",
+        "望黎陽進發"
+      ]
+    },
+    {
+      "id": "event_chen_lin_xiwen",
+      "name": "陳琳草討曹檄",
+      "summary": "袁紹採納郭圖建議，命陳琳草檄，檄文遍行州郡並張掛關津隘口。",
+      "participants": [
+        "char_yuan_shao",
+        "char_guo_tu",
+        "char_chen_lin",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_jizhou"
+      ],
+      "evidence": [
+        "令書記陳琳草檄",
+        "遍行州郡"
+      ]
+    },
+    {
+      "id": "event_xiwen_reaches_xudu",
+      "name": "檄文傳至許都",
+      "summary": "討曹檄文傳至許都，曹操病中讀後驚出冷汗，頭風頓愈，曹洪告知作者是陳琳。",
+      "participants": [
+        "char_cao_cao",
+        "char_cao_hong",
+        "char_chen_lin"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "檄文傳至許都",
+        "頭風頓愈"
+      ]
+    },
+    {
+      "id": "event_cao_splits_army",
+      "name": "曹操分兵攻徐拒袁",
+      "summary": "曹操派劉岱、王忠領五萬攻徐州劉備，自己率二十萬進黎陽拒袁紹，並吩咐二將只虛張聲勢。",
+      "participants": [
+        "char_cao_cao",
+        "char_liu_dai",
+        "char_wang_zhong",
+        "char_liu_bei",
+        "char_yuan_shao",
+        "char_cheng_yu"
+      ],
+      "locations": [
+        "loc_xuzhou",
+        "loc_liyang"
+      ],
+      "evidence": [
+        "引軍五萬",
+        "自引大軍二十萬"
+      ]
+    },
+    {
+      "id": "event_liyang_standoff",
+      "name": "袁曹黎陽相持",
+      "summary": "曹操至黎陽後，袁曹兩軍隔八十里深溝高壘，自八月至十月相持不戰，曹操後部署青徐、河上、官渡防線並回許都。",
+      "participants": [
+        "char_cao_cao",
+        "char_yuan_shao",
+        "char_zang_ba",
+        "char_yu_jin",
+        "char_li_dian",
+        "char_cao_ren"
+      ],
+      "locations": [
+        "loc_liyang",
+        "loc_qingzhou",
+        "loc_he_shang",
+        "loc_guandu",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "相持不戰",
+        "竟回許都"
+      ]
+    },
+    {
+      "id": "event_guan_yu_captures_wang",
+      "name": "雲長雪中生擒王忠",
+      "summary": "雲長冒雪出陣誘王忠追擊，回馬一刀逼退並拖王忠下馬，押回徐州。",
+      "participants": [
+        "char_guan_yu",
+        "char_wang_zhong",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "雪花亂飄",
+        "拖下鞍鞒"
+      ]
+    },
+    {
+      "id": "event_zhang_fei_captures_liu",
+      "name": "張飛詐醉擒劉岱",
+      "summary": "張飛假醉打軍士並放其逃報劫寨消息，誘劉岱伏兵在外，夜間三路夾擊放火破營，生擒劉岱。",
+      "participants": [
+        "char_zhang_fei",
+        "char_liu_dai"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "飲酒詐醉",
+        "早被張飛生擒"
+      ]
+    },
+    {
+      "id": "event_release_two_generals",
+      "name": "玄德釋放劉岱王忠",
+      "summary": "玄德解縛劉岱，放出王忠，一同管待，請二人回許都為自己向曹操分訴。",
+      "participants": [
+        "char_liu_bei",
+        "char_liu_dai",
+        "char_wang_zhong",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_xuzhou",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "放出王忠",
+        "善言為備分訴"
+      ]
+    },
+    {
+      "id": "event_split_defense",
+      "name": "孫乾建議分兵防曹",
+      "summary": "孫乾認為徐州受敵不可久居，建議分屯小沛、守下邳成掎角之勢；玄德採納，分派雲長及眾人守各處。",
+      "participants": [
+        "char_sun_qian",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_gan_furen",
+        "char_mi_furen",
+        "char_jian_yong",
+        "char_mi_zhu",
+        "char_mi_fang"
+      ],
+      "locations": [
+        "loc_xuzhou",
+        "loc_xiapi",
+        "loc_xiaopei"
+      ],
+      "evidence": [
+        "不若分兵屯小沛",
+        "玄德用其言"
+      ]
+    }
+  ],
+  "notes": [
+    "本章文本局部有疑似訛字或殘缺；抽取以檔案中可辨認片段為依據。",
+    "檄文中大量歷史典故人物未逐一列為核心實體，僅保留與本章行動和關係直接相關者。"
+  ]
+}

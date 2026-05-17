@@ -1,0 +1,2252 @@
+{
+  "book": "三國演義",
+  "chapter_no": 30,
+  "chapter_title": "戰官渡本初敗績　劫烏巢孟德燒糧",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "本初"
+      ],
+      "description": "袁軍主帥，進兵官渡，拒納多次諫言，烏巢失糧後大敗。",
+      "evidence": [
+        "袁紹興兵，望官渡進發",
+        "袁紹兵敗而奔"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "孟德",
+        "曹丞相",
+        "曹公",
+        "明公"
+      ],
+      "description": "曹軍主帥，守官渡、劫烏巢，最終擊破袁紹。",
+      "evidence": [
+        "曹操起軍七萬",
+        "操獲全勝"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，先發書告急，後受命伏兵。",
+      "evidence": [
+        "夏侯惇發書告急",
+        "夏侯惇、夏侯淵領一軍伏於左"
+      ]
+    },
+    {
+      "id": "char_xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀臣，留守許都，並以書勸曹操堅守官渡。",
+      "evidence": [
+        "留荀彧守許都",
+        "彧以書報之"
+      ]
+    },
+    {
+      "id": "char_tian_feng",
+      "name": "田豐",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀臣，被囚仍上書諫阻興兵。",
+      "evidence": [
+        "田豐從獄中上書諫",
+        "不可妄興大兵"
+      ]
+    },
+    {
+      "id": "char_feng_ji",
+      "name": "逢紀",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部下，攻訐田豐諫言。",
+      "evidence": [
+        "逢紀諫",
+        "田豐何得出此不祥之語"
+      ]
+    },
+    {
+      "id": "char_xun_you",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，主張急戰並獻截韓猛糧草之計。",
+      "evidence": [
+        "荀攸曰",
+        "利在急戰"
+      ]
+    },
+    {
+      "id": "char_shen_pei",
+      "name": "審配",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀臣，部署弓弩、獻築土山與掘地道之計，後回鄴都督糧。",
+      "evidence": [
+        "審配撥弩手一萬",
+        "審配又獻一計"
+      ]
+    },
+    {
+      "id": "char_liu_ye",
+      "name": "劉曄",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，獻發石車與長塹防地道之策。",
+      "evidence": [
+        "劉曄進曰",
+        "可繞營掘長塹"
+      ]
+    },
+    {
+      "id": "char_xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，奉命截燒韓猛運糧隊。",
+      "evidence": [
+        "即遣徐晃可也",
+        "徐晃催軍燒盡輜重"
+      ]
+    },
+    {
+      "id": "char_shi_huan",
+      "name": "史渙",
+      "type": "character",
+      "aliases": [],
+      "description": "徐晃部將，參與截糧並焚燒糧車。",
+      "evidence": [
+        "徐晃部將史渙",
+        "放火燒糧車"
+      ]
+    },
+    {
+      "id": "char_han_meng",
+      "name": "韓猛",
+      "type": "character",
+      "aliases": [],
+      "description": "袁將，押送糧車，被徐晃、史渙截敗。",
+      "evidence": [
+        "韓猛運糧",
+        "韓猛抵當不住"
+      ]
+    },
+    {
+      "id": "char_chunyu_qiong",
+      "name": "淳於瓊",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹大將，奉命守烏巢，因醉而敗，被曹操擒辱。",
+      "evidence": [
+        "遣大將淳於瓊",
+        "守烏巢"
+      ]
+    },
+    {
+      "id": "char_sui_yuanjin",
+      "name": "眭元進",
+      "type": "character",
+      "aliases": [],
+      "description": "淳於瓊督將，烏巢被劫時救應而戰死。",
+      "evidence": [
+        "督將眭元進",
+        "皆被曹軍所殺"
+      ]
+    },
+    {
+      "id": "char_han_juzi",
+      "name": "韓莒子",
+      "type": "character",
+      "aliases": [],
+      "description": "淳於瓊督將之一，同守烏巢。",
+      "evidence": [
+        "韓莒子",
+        "守烏巢"
+      ]
+    },
+    {
+      "id": "char_lu_weihuang",
+      "name": "呂威璜",
+      "type": "character",
+      "aliases": [],
+      "description": "淳於瓊督將之一，同守烏巢。",
+      "evidence": [
+        "呂威璜",
+        "守烏巢"
+      ]
+    },
+    {
+      "id": "char_zhao_rui",
+      "name": "趙睿",
+      "type": "character",
+      "aliases": [],
+      "description": "淳於瓊督將，烏巢被劫時救應而戰死。",
+      "evidence": [
+        "趙睿等",
+        "皆被曹軍所殺"
+      ]
+    },
+    {
+      "id": "char_xu_you",
+      "name": "許攸",
+      "type": "character",
+      "aliases": [
+        "子遠",
+        "南陽許攸"
+      ],
+      "description": "原為袁紹謀士，因不被採納而投曹，獻烏巢劫糧計。",
+      "evidence": [
+        "許攸字子遠",
+        "於是許攸徑投曹操"
+      ]
+    },
+    {
+      "id": "char_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，參與援截糧軍與烏巢行動，斬蔣奇。",
+      "evidence": [
+        "張遼、許諸軍到",
+        "被張遼斬於馬下"
+      ]
+    },
+    {
+      "id": "char_xu_chu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [
+        "許諸"
+      ],
+      "description": "曹將，參與官渡交戰與烏巢行動。",
+      "evidence": [
+        "許諸揮刀縱馬",
+        "教張遼、許褚在前"
+      ]
+    },
+    {
+      "id": "char_zhang_he",
+      "name": "張郃",
+      "type": "character",
+      "aliases": [
+        "張邰"
+      ],
+      "description": "袁將，後與高覽投降曹操，被封偏將軍、都亭侯。",
+      "evidence": [
+        "張郃、高覽",
+        "封張邰為偏將軍、都亭侯"
+      ]
+    },
+    {
+      "id": "char_gao_lan",
+      "name": "高覽",
+      "type": "character",
+      "aliases": [],
+      "description": "袁將，後與張郃投降曹操，被封偏將軍、東萊侯。",
+      "evidence": [
+        "高覽挺槍接住",
+        "高覽為偏將軍、東萊侯"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，參與衝陣並奉命守大寨。",
+      "evidence": [
+        "曹洪，各引三千軍",
+        "曹洪同許攸守大寨"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，隨曹操陣前護衛，後與曹仁伏於右。",
+      "evidence": [
+        "李典等，各持兵器",
+        "曹仁、李典領一軍伏於右"
+      ]
+    },
+    {
+      "id": "char_jia_xu",
+      "name": "賈詡",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，烏巢行動時奉命守大寨。",
+      "evidence": [
+        "賈詡、曹洪同許攸守大寨"
+      ]
+    },
+    {
+      "id": "char_xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，烏巢行動時與夏侯惇伏於左。",
+      "evidence": [
+        "夏侯惇、夏侯淵領一軍伏於左"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，烏巢行動時與李典伏於右。",
+      "evidence": [
+        "曹仁、李典領一軍伏於右"
+      ]
+    },
+    {
+      "id": "char_jiang_qi",
+      "name": "蔣奇",
+      "type": "character",
+      "aliases": [],
+      "description": "袁將，奉命救烏巢，中途被張遼斬殺。",
+      "evidence": [
+        "遣蔣奇領兵一萬",
+        "被張遼斬於馬下"
+      ]
+    },
+    {
+      "id": "char_ju_shou",
+      "name": "沮授",
+      "type": "character",
+      "aliases": [
+        "授",
+        "教授"
+      ],
+      "description": "袁紹謀臣，被囚仍諫防烏巢；戰後被曹操擒獲，拒降欲歸袁氏而死。",
+      "evidence": [
+        "授不降也",
+        "欲歸袁氏"
+      ]
+    },
+    {
+      "id": "char_guo_tu",
+      "name": "郭圖",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀士，主張攻曹營，後讒害張郃、高覽。",
+      "evidence": [
+        "郭圖曰：不可",
+        "郭圖恐張邰、高覽回寨證對"
+      ]
+    },
+    {
+      "id": "char_yuan_tan",
+      "name": "袁譚",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部下，奉命分兵救鄴郡。",
+      "evidence": [
+        "急遣袁譚分兵五萬救鄴郡"
+      ]
+    },
+    {
+      "id": "char_xin_ming",
+      "name": "辛明",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹部下，奉命分兵救黎陽。",
+      "evidence": [
+        "辛明分兵五萬救黎陽"
+      ]
+    },
+    {
+      "id": "char_yuan_shang",
+      "name": "袁尚",
+      "type": "character",
+      "aliases": [
+        "幼子"
+      ],
+      "description": "袁紹幼子，袁軍潰敗後隨袁紹奔走。",
+      "evidence": [
+        "幼子袁尚後隨"
+      ]
+    },
+    {
+      "id": "fac_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍"
+      ],
+      "description": "曹操統率的軍政勢力，本章守官渡、劫烏巢。",
+      "evidence": [
+        "曹軍新到",
+        "曹軍大敗"
+      ]
+    },
+    {
+      "id": "fac_yuan",
+      "name": "袁紹勢力",
+      "type": "faction",
+      "aliases": [
+        "袁軍",
+        "紹軍"
+      ],
+      "description": "袁紹統率的軍政勢力，本章進攻官渡但因糧斷而潰。",
+      "evidence": [
+        "袁軍堆築土山",
+        "紹軍雖眾"
+      ]
+    },
+    {
+      "id": "army_cao_70000",
+      "name": "曹操七萬軍",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操為迎袁紹而起的主力軍。",
+      "evidence": [
+        "曹操起軍七萬"
+      ]
+    },
+    {
+      "id": "army_yuan_main",
+      "name": "袁紹大軍",
+      "type": "army",
+      "aliases": [
+        "紹兵"
+      ],
+      "description": "袁紹進逼官渡的主力。",
+      "evidence": [
+        "紹兵臨發",
+        "旌旗遍野"
+      ]
+    },
+    {
+      "id": "army_yuan_crossbow",
+      "name": "袁軍弩手一萬",
+      "type": "army",
+      "aliases": [],
+      "description": "審配伏於兩翼的弩手。",
+      "evidence": [
+        "弩手一萬，伏於兩翼"
+      ]
+    },
+    {
+      "id": "army_yuan_archer",
+      "name": "袁軍弓箭手五千",
+      "type": "army",
+      "aliases": [],
+      "description": "審配伏於門旗內的弓箭手。",
+      "evidence": [
+        "弓箭手五千，伏於門旗內"
+      ]
+    },
+    {
+      "id": "army_wuchao_garrison",
+      "name": "烏巢守軍",
+      "type": "army",
+      "aliases": [
+        "二萬人馬"
+      ],
+      "description": "淳於瓊等率領守衛烏巢糧草的部隊。",
+      "evidence": [
+        "引二萬人馬，守烏巢"
+      ]
+    },
+    {
+      "id": "army_cao_wuchao_raiders",
+      "name": "烏巢劫糧軍",
+      "type": "army",
+      "aliases": [
+        "馬步軍士五千"
+      ],
+      "description": "曹操親選夜襲烏巢的五千軍士。",
+      "evidence": [
+        "自選馬步軍士五千",
+        "望烏巢進發"
+      ]
+    },
+    {
+      "id": "army_jiangqi_rescue",
+      "name": "蔣奇救烏巢軍",
+      "type": "army",
+      "aliases": [
+        "一萬兵"
+      ],
+      "description": "袁紹派蔣奇率領救援烏巢的軍隊。",
+      "evidence": [
+        "蔣奇領兵一萬，往救烏巢"
+      ]
+    },
+    {
+      "id": "army_zhanggao_attack",
+      "name": "張郃高覽攻曹營軍",
+      "type": "army",
+      "aliases": [
+        "五千軍"
+      ],
+      "description": "袁紹派張郃、高覽率領攻打曹營的軍隊。",
+      "evidence": [
+        "張郃、高覽引軍五千，往官渡擊曹營"
+      ]
+    },
+    {
+      "id": "army_yuantan_ye",
+      "name": "袁譚救鄴郡軍",
+      "type": "army",
+      "aliases": [
+        "五萬軍"
+      ],
+      "description": "袁紹因曹軍疑兵而派出救鄴郡的部隊。",
+      "evidence": [
+        "袁譚分兵五萬救鄴郡"
+      ]
+    },
+    {
+      "id": "army_xinming_liyang",
+      "name": "辛明救黎陽軍",
+      "type": "army",
+      "aliases": [
+        "五萬軍"
+      ],
+      "description": "袁紹因曹軍疑兵而派出救黎陽的部隊。",
+      "evidence": [
+        "辛明分兵五萬救黎陽"
+      ]
+    },
+    {
+      "id": "loc_guandu",
+      "name": "官渡",
+      "type": "location",
+      "aliases": [],
+      "description": "曹袁主戰場。",
+      "evidence": [
+        "望官渡進發",
+        "盡退至官渡"
+      ]
+    },
+    {
+      "id": "loc_cao_camp",
+      "name": "曹營",
+      "type": "location",
+      "aliases": [
+        "曹寨",
+        "官渡寨"
+      ],
+      "description": "曹操在官渡的營寨，多次受袁軍攻擊。",
+      "evidence": [
+        "曹營內見袁軍堆築土山",
+        "曹操寨中"
+      ]
+    },
+    {
+      "id": "loc_yuan_camp",
+      "name": "袁紹大寨",
+      "type": "location",
+      "aliases": [
+        "紹寨"
+      ],
+      "description": "袁紹官渡前線營寨。",
+      "evidence": [
+        "解赴紹寨",
+        "回紹營"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操後方，由荀彧留守。",
+      "evidence": [
+        "留荀彧守許都"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操後方重地，許攸曾建議袁紹襲取。",
+      "evidence": [
+        "退回許昌",
+        "許昌可拔"
+      ]
+    },
+    {
+      "id": "loc_yangwu",
+      "name": "陽武",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹行軍至此下寨。",
+      "evidence": [
+        "行至陽武，下定寨柵"
+      ]
+    },
+    {
+      "id": "loc_wuchao",
+      "name": "烏巢",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹屯糧之處，曹操夜襲焚糧。",
+      "evidence": [
+        "烏巢乃屯糧之處",
+        "望烏巢進發"
+      ]
+    },
+    {
+      "id": "loc_yedu",
+      "name": "鄴都",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹後方糧草監督地。",
+      "evidence": [
+        "回鄴都監督糧草"
+      ]
+    },
+    {
+      "id": "loc_yejun",
+      "name": "鄴郡",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹被疑兵牽動後派袁譚救援之地。",
+      "evidence": [
+        "救鄴郡"
+      ]
+    },
+    {
+      "id": "loc_jizhou",
+      "name": "冀州",
+      "type": "location",
+      "aliases": [],
+      "description": "許攸子侄事發與袁氏根據地相關地。",
+      "evidence": [
+        "許攸在冀州時"
+      ]
+    },
+    {
+      "id": "loc_liyang",
+      "name": "黎陽",
+      "type": "location",
+      "aliases": [],
+      "description": "曹軍揚言攻取、袁紹派辛明救援之地。",
+      "evidence": [
+        "一路取黎陽",
+        "救黎陽"
+      ]
+    },
+    {
+      "id": "loc_zoujun",
+      "name": "鄒郡",
+      "type": "location",
+      "aliases": [],
+      "description": "曹軍揚言攻取以誘袁紹分兵之地。",
+      "evidence": [
+        "一路取鄒郡"
+      ]
+    },
+    {
+      "id": "loc_huanghe_dukou",
+      "name": "黃河渡口",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操為沮授建墳安葬之地。",
+      "evidence": [
+        "葬於黃河渡口"
+      ]
+    },
+    {
+      "id": "loc_nanyang",
+      "name": "南陽",
+      "type": "location",
+      "aliases": [],
+      "description": "許攸自稱來處。",
+      "evidence": [
+        "南陽許攸來見"
+      ]
+    },
+    {
+      "id": "battle_guandu",
+      "name": "官渡之戰",
+      "type": "battle",
+      "aliases": [
+        "戰官渡"
+      ],
+      "description": "曹操與袁紹在官渡相持並決戰的大戰。",
+      "evidence": [
+        "戰官渡本初敗績",
+        "袁紹悉眾聚於官渡"
+      ]
+    },
+    {
+      "id": "battle_wuchao",
+      "name": "烏巢劫糧",
+      "type": "battle",
+      "aliases": [
+        "劫烏巢"
+      ],
+      "description": "曹操夜襲烏巢，燒毀袁軍糧草。",
+      "evidence": [
+        "劫烏巢孟德燒糧",
+        "糧草盡行燒絕"
+      ]
+    },
+    {
+      "id": "battle_hanmeng_convoy",
+      "name": "截燒韓猛糧車",
+      "type": "battle",
+      "aliases": [
+        "韓猛運糧被劫"
+      ],
+      "description": "徐晃、史渙伏擊韓猛糧隊並燒毀輜重。",
+      "evidence": [
+        "韓猛押糧車數千輛",
+        "放火燒糧車"
+      ]
+    },
+    {
+      "id": "battle_cao_camp_attack",
+      "name": "官渡曹營攻防",
+      "type": "battle",
+      "aliases": [
+        "擊曹營"
+      ],
+      "description": "張郃、高覽攻曹營，遭曹軍伏兵擊敗。",
+      "evidence": [
+        "往官渡擊曹營",
+        "袁軍大敗"
+      ]
+    },
+    {
+      "id": "title_da_jiangjun",
+      "name": "大將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操稱曾在天子前保奏袁紹所得官職。",
+      "evidence": [
+        "保奏你為大將軍"
+      ]
+    },
+    {
+      "id": "title_hanxiang",
+      "name": "漢相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在章中被稱為漢相。",
+      "evidence": [
+        "公乃漢相"
+      ]
+    },
+    {
+      "id": "title_pianjiangjun",
+      "name": "偏將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操封降將張郃、高覽的官職。",
+      "evidence": [
+        "封張邰為偏將軍",
+        "高覽為偏將軍"
+      ]
+    },
+    {
+      "id": "title_dutinghou",
+      "name": "都亭侯",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操封張郃的爵位。",
+      "evidence": [
+        "都亭侯"
+      ]
+    },
+    {
+      "id": "title_donglaihou",
+      "name": "東萊侯",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操封高覽的爵位。",
+      "evidence": [
+        "東萊侯"
+      ]
+    },
+    {
+      "id": "obj_grain",
+      "name": "糧草",
+      "type": "object",
+      "aliases": [
+        "軍糧",
+        "輜重"
+      ],
+      "description": "官渡相持的核心資源，袁軍優勢與曹軍危機皆繫於此。",
+      "evidence": [
+        "糧草不敷",
+        "糧草盡行燒絕"
+      ]
+    },
+    {
+      "id": "obj_grain_carts",
+      "name": "糧車",
+      "type": "object",
+      "aliases": [],
+      "description": "韓猛押送至袁紹軍前的糧草車隊。",
+      "evidence": [
+        "糧車數千輛"
+      ]
+    },
+    {
+      "id": "obj_fashiche",
+      "name": "發石車",
+      "type": "object",
+      "aliases": [
+        "霹靂車"
+      ],
+      "description": "劉曄設計以打擊袁軍土山高櫓的器械。",
+      "evidence": [
+        "可作發石車",
+        "號其車為霹靂車"
+      ]
+    },
+    {
+      "id": "obj_tushan",
+      "name": "土山",
+      "type": "object",
+      "aliases": [],
+      "description": "袁軍在曹寨前築起，用以居高射箭。",
+      "evidence": [
+        "築成土山五十餘座"
+      ]
+    },
+    {
+      "id": "obj_gaolu",
+      "name": "高櫓",
+      "type": "object",
+      "aliases": [],
+      "description": "袁軍土山上設置的射箭高臺。",
+      "evidence": [
+        "上立高櫓"
+      ]
+    },
+    {
+      "id": "obj_zhejianpai",
+      "name": "遮箭牌",
+      "type": "object",
+      "aliases": [
+        "楯"
+      ],
+      "description": "曹軍抵禦袁軍箭雨的防具。",
+      "evidence": [
+        "頂著遮箭牌守禦"
+      ]
+    },
+    {
+      "id": "obj_tunnel",
+      "name": "地道",
+      "type": "object",
+      "aliases": [
+        "伏道"
+      ],
+      "description": "袁軍企圖暗掘入曹營的通道。",
+      "evidence": [
+        "暗打地道",
+        "伏道無用"
+      ]
+    },
+    {
+      "id": "obj_cao_xun_letter",
+      "name": "曹操催糧書信",
+      "type": "object",
+      "aliases": [
+        "曹操與荀彧之書"
+      ],
+      "description": "曹操催荀彧措辦糧草的書信，被袁軍截獲。",
+      "evidence": [
+        "曹操催糧書信",
+        "操與荀彧之書"
+      ]
+    },
+    {
+      "id": "obj_secret_letters",
+      "name": "暗通袁紹書信",
+      "type": "object",
+      "aliases": [
+        "書信一束"
+      ],
+      "description": "曹操勝後檢出許都及軍中諸人與袁紹暗通的信件。",
+      "evidence": [
+        "書信一束",
+        "與紹暗通之書"
+      ]
+    },
+    {
+      "id": "obj_flags_armor",
+      "name": "衣甲旗幟",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操奪取淳於瓊部下衣甲旗幟，用於偽裝。",
+      "evidence": [
+        "盡奪其衣甲旗幟"
+      ]
+    },
+    {
+      "id": "strat_static_defense",
+      "name": "靜守待時",
+      "type": "strategy",
+      "aliases": [
+        "緩守耗糧"
+      ],
+      "description": "田豐主張袁紹不急戰，以糧多耗曹。",
+      "evidence": [
+        "宜靜守以待天時",
+        "彼軍不戰自敗"
+      ]
+    },
+    {
+      "id": "strat_urgent_battle",
+      "name": "急戰",
+      "type": "strategy",
+      "aliases": [],
+      "description": "荀攸主張曹操乘精銳速戰，避免糧盡。",
+      "evidence": [
+        "利在急戰"
+      ]
+    },
+    {
+      "id": "strat_tushan_archery",
+      "name": "土山高櫓射營",
+      "type": "strategy",
+      "aliases": [],
+      "description": "審配以築土山、設高櫓居高射曹營。",
+      "evidence": [
+        "築起土山",
+        "下視寨中放箭"
+      ]
+    },
+    {
+      "id": "strat_fashiche_counter",
+      "name": "發石車破土山",
+      "type": "strategy",
+      "aliases": [
+        "霹靂車破敵"
+      ],
+      "description": "劉曄以發石車擊打土山弓箭手。",
+      "evidence": [
+        "砲石飛空",
+        "不敢登高射箭"
+      ]
+    },
+    {
+      "id": "strat_tunnel_attack",
+      "name": "掘地道攻營",
+      "type": "strategy",
+      "aliases": [
+        "掘子軍"
+      ],
+      "description": "審配命袁軍暗掘地道入曹營。",
+      "evidence": [
+        "號為掘子軍"
+      ]
+    },
+    {
+      "id": "strat_trench_defense",
+      "name": "長塹防伏道",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉曄以繞營長塹化解袁軍伏道。",
+      "evidence": [
+        "繞營掘長塹"
+      ]
+    },
+    {
+      "id": "strat_intercept_grain",
+      "name": "半路截糧",
+      "type": "strategy",
+      "aliases": [],
+      "description": "荀攸建議派輕騎截擊韓猛運糧。",
+      "evidence": [
+        "從半路擊之，斷其糧草"
+      ]
+    },
+    {
+      "id": "strat_raid_xuchang",
+      "name": "掩襲許昌",
+      "type": "strategy",
+      "aliases": [],
+      "description": "許攸向袁紹獻計，趁曹操相持官渡時襲許昌。",
+      "evidence": [
+        "星夜掩襲許昌"
+      ]
+    },
+    {
+      "id": "strat_wuchao_raid",
+      "name": "詐稱蔣奇劫烏巢",
+      "type": "strategy",
+      "aliases": [
+        "劫烏巢燒糧"
+      ],
+      "description": "許攸獻策令曹軍偽作袁將蔣奇護糧，乘間焚烏巢糧草。",
+      "evidence": [
+        "詐稱袁將蔣奇",
+        "燒其糧草輜重"
+      ]
+    },
+    {
+      "id": "strat_wei_jiu_zhao",
+      "name": "圍魏救趙",
+      "type": "strategy",
+      "aliases": [
+        "攻曹營救烏巢"
+      ],
+      "description": "郭圖建議趁曹操出劫烏巢時攻其官渡營寨。",
+      "evidence": [
+        "此孫臏圍魏救趙之計"
+      ]
+    },
+    {
+      "id": "strat_false_report",
+      "name": "偽報蔣奇得勝",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操使人偽報蔣奇已殺散烏巢兵，阻袁紹再援。",
+      "evidence": [
+        "偽報雲：蔣奇已自殺散烏巢兵了"
+      ]
+    },
+    {
+      "id": "strat_two_routes_ruse",
+      "name": "揚言取鄒郡黎陽",
+      "type": "strategy",
+      "aliases": [
+        "分兵疑計"
+      ],
+      "description": "曹軍散布兩路進攻消息，誘使袁紹分兵。",
+      "evidence": [
+        "一路取鄒郡，一路取黎陽"
+      ]
+    },
+    {
+      "id": "strat_eight_way_attack",
+      "name": "八路齊出",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操趁袁紹兵動，以八路軍直衝紹營。",
+      "evidence": [
+        "八路齊出，直衝紹營"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_yuan_shao",
+      "target": "fac_yuan",
+      "type": "統領",
+      "description": "袁紹統率袁軍進攻官渡。",
+      "evidence": [
+        "袁紹興兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "fac_cao",
+      "type": "統領",
+      "description": "曹操統率曹軍迎戰袁紹。",
+      "evidence": [
+        "曹操起軍七萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "loc_guandu",
+      "type": "進兵",
+      "description": "袁紹興兵向官渡進發。",
+      "evidence": [
+        "望官渡進發"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_70000",
+      "type": "統領",
+      "description": "曹操起七萬軍前往官渡迎敵。",
+      "evidence": [
+        "曹操起軍七萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_guandu",
+      "type": "迎敵",
+      "description": "曹操率軍前往官渡抵禦袁紹。",
+      "evidence": [
+        "前往迎敵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xun_yu",
+      "type": "留守任務",
+      "description": "曹操留荀彧守許都。",
+      "evidence": [
+        "留荀彧守許都"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "loc_xudu",
+      "type": "鎮守",
+      "description": "荀彧負責守衛許都。",
+      "evidence": [
+        "守許都"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_tian_feng",
+      "target": "strat_static_defense",
+      "type": "獻策",
+      "description": "田豐主張袁紹靜守，不宜妄興大兵。",
+      "evidence": [
+        "宜靜守以待天時"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_tian_feng",
+      "type": "拒諫",
+      "description": "袁紹怒於田豐諫言，欲斬田豐。",
+      "evidence": [
+        "紹因怒，欲斬田豐"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_feng_ji",
+      "target": "char_tian_feng",
+      "type": "攻訐",
+      "description": "逢紀指責田豐言語不祥。",
+      "evidence": [
+        "田豐何得出此不祥之語"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xun_you",
+      "target": "strat_urgent_battle",
+      "type": "獻策",
+      "description": "荀攸勸曹操以急戰應對袁紹。",
+      "evidence": [
+        "但利在急戰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_urgent_battle",
+      "type": "採納",
+      "description": "曹操認同荀攸急戰之議並令軍進。",
+      "evidence": [
+        "正合吾意"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_shen_pei",
+      "target": "army_yuan_crossbow",
+      "type": "部署",
+      "description": "審配將一萬弩手伏於兩翼。",
+      "evidence": [
+        "弩手一萬，伏於兩翼"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_shen_pei",
+      "target": "army_yuan_archer",
+      "type": "部署",
+      "description": "審配將五千弓箭手伏於門旗內。",
+      "evidence": [
+        "弓箭手五千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_shen_pei",
+      "target": "strat_tushan_archery",
+      "type": "獻策",
+      "description": "審配建議築土山以射曹營。",
+      "evidence": [
+        "就曹操寨前築起土山"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "strat_tushan_archery",
+      "type": "採納",
+      "description": "袁紹聽從審配築土山之策。",
+      "evidence": [
+        "紹從之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_tushan_archery",
+      "target": "loc_cao_camp",
+      "type": "攻擊",
+      "description": "袁軍以土山高櫓向曹營放箭。",
+      "evidence": [
+        "下視寨中放箭"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_ye",
+      "target": "strat_fashiche_counter",
+      "type": "獻策",
+      "description": "劉曄建議造發石車破土山。",
+      "evidence": [
+        "可作發石車以破之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_fashiche",
+      "type": "製造使用",
+      "description": "曹操命連夜造數百乘發石車。",
+      "evidence": [
+        "連夜造發石車數百乘"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_fashiche",
+      "target": "obj_tushan",
+      "type": "克制",
+      "description": "發石車擊殺土山上弓箭手，使袁軍不敢登高射箭。",
+      "evidence": [
+        "不敢登高射箭"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_shen_pei",
+      "target": "strat_tunnel_attack",
+      "type": "獻策",
+      "description": "審配又命軍人暗打地道入曹營。",
+      "evidence": [
+        "審配又獻一計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_ye",
+      "target": "strat_trench_defense",
+      "type": "獻策",
+      "description": "劉曄建議繞營掘長塹抵禦伏道。",
+      "evidence": [
+        "繞營掘長塹"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_trench_defense",
+      "target": "strat_tunnel_attack",
+      "type": "克制",
+      "description": "長塹使袁軍伏道不能入曹營。",
+      "evidence": [
+        "果實不能入"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "char_cao_cao",
+      "type": "勸守",
+      "description": "荀彧回書勸曹操不要退回許昌。",
+      "evidence": [
+        "使決進退之疑"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_shi_huan",
+      "target": "char_xu_huang",
+      "type": "隸屬",
+      "description": "史渙是徐晃部將。",
+      "evidence": [
+        "徐晃部將史渙"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xun_you",
+      "target": "strat_intercept_grain",
+      "type": "獻策",
+      "description": "荀攸建議半路擊韓猛，斷袁軍糧草。",
+      "evidence": [
+        "從半路擊之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xu_huang",
+      "type": "派遣",
+      "description": "曹操派徐晃執行截糧。",
+      "evidence": [
+        "即遣徐晃"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "battle_hanmeng_convoy",
+      "type": "參與",
+      "description": "徐晃率軍截住韓猛糧隊。",
+      "evidence": [
+        "徐晃、史渙引軍截住去路"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_shi_huan",
+      "target": "obj_grain_carts",
+      "type": "焚燒",
+      "description": "史渙殺散人夫並放火燒糧車。",
+      "evidence": [
+        "放火燒糧車"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_meng",
+      "target": "obj_grain_carts",
+      "type": "押運",
+      "description": "韓猛押糧車至袁紹軍前接濟。",
+      "evidence": [
+        "韓猛押糧車數千輛"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_xu_huang",
+      "type": "救援",
+      "description": "張遼軍到後與徐晃夾攻袁軍。",
+      "evidence": [
+        "背後張遼、許諸軍到"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "char_xu_huang",
+      "type": "救援",
+      "description": "許褚軍到後與徐晃合兵回寨。",
+      "evidence": [
+        "四將合兵一處"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_shen_pei",
+      "type": "委任",
+      "description": "袁紹命審配回鄴都監督糧草。",
+      "evidence": [
+        "回鄴都監督糧草"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_chunyu_qiong",
+      "type": "任命",
+      "description": "袁紹派淳於瓊守烏巢。",
+      "evidence": [
+        "遣大將淳於瓊"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chunyu_qiong",
+      "target": "army_wuchao_garrison",
+      "type": "統領",
+      "description": "淳於瓊率二萬人馬守烏巢。",
+      "evidence": [
+        "引二萬人馬，守烏巢"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sui_yuanjin",
+      "target": "char_chunyu_qiong",
+      "type": "隸屬",
+      "description": "眭元進為淳於瓊所部督將。",
+      "evidence": [
+        "部領督將眭元進"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_han_juzi",
+      "target": "char_chunyu_qiong",
+      "type": "隸屬",
+      "description": "韓莒子為淳於瓊所部督將。",
+      "evidence": [
+        "韓莒子"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_lu_weihuang",
+      "target": "char_chunyu_qiong",
+      "type": "隸屬",
+      "description": "呂威璜為淳於瓊所部督將。",
+      "evidence": [
+        "呂威璜"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhao_rui",
+      "target": "char_chunyu_qiong",
+      "type": "隸屬",
+      "description": "趙睿為淳於瓊所部督將。",
+      "evidence": [
+        "趙睿等"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xu_you",
+      "target": "char_cao_cao",
+      "type": "舊友",
+      "description": "許攸少時曾與曹操為友。",
+      "evidence": [
+        "少時曾與曹操為友"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_you",
+      "target": "strat_raid_xuchang",
+      "type": "獻策",
+      "description": "許攸向袁紹建議分軍夜襲許昌。",
+      "evidence": [
+        "分一軍星夜掩襲許昌"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_xu_you",
+      "type": "拒斥",
+      "description": "袁紹怒斥許攸，不許再相見。",
+      "evidence": [
+        "今後不許相見"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_shen_pei",
+      "target": "char_xu_you",
+      "type": "加害親屬",
+      "description": "許攸稱子侄遭審配之害。",
+      "evidence": [
+        "子侄已遭審配之害"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "source": "char_xu_you",
+      "target": "char_cao_cao",
+      "type": "投奔",
+      "description": "許攸離袁紹營投奔曹操。",
+      "evidence": [
+        "徑投曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_you",
+      "target": "strat_wuchao_raid",
+      "type": "獻策",
+      "description": "許攸告知烏巢屯糧並獻詐稱蔣奇焚糧之計。",
+      "evidence": [
+        "糧輜重，盡積烏巢"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_wuchao_raid",
+      "type": "採納",
+      "description": "曹操採納許攸計，親選軍士夜襲烏巢。",
+      "evidence": [
+        "計在必行"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xun_you",
+      "type": "命守大寨",
+      "description": "曹操命荀攸同守大寨。",
+      "evidence": [
+        "荀攸、賈詡、曹洪同許攸守大寨"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_jia_xu",
+      "type": "命守大寨",
+      "description": "曹操命賈詡同守大寨。",
+      "evidence": [
+        "賈詡、曹洪同許攸守大寨"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cao_hong",
+      "type": "命守大寨",
+      "description": "曹操命曹洪同守大寨。",
+      "evidence": [
+        "曹洪同許攸守大寨"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xiahou_yuan",
+      "type": "設伏",
+      "description": "曹操命夏侯淵隨夏侯惇伏於左。",
+      "evidence": [
+        "夏侯惇、夏侯淵領一軍伏於左"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cao_ren",
+      "type": "設伏",
+      "description": "曹操命曹仁、李典伏於右。",
+      "evidence": [
+        "曹仁、李典領一軍伏於右"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ju_shou",
+      "target": "char_yuan_shao",
+      "type": "諫防烏巢",
+      "description": "沮授警告袁紹烏巢有被劫危險。",
+      "evidence": [
+        "烏巢屯糧之所，不可不提備"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_ju_shou",
+      "type": "拒諫囚押",
+      "description": "袁紹怒斥沮授妄言，另命人監押。",
+      "evidence": [
+        "何敢妄言惑眾"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_wuchao_raiders",
+      "type": "統領",
+      "description": "曹操親領五千軍夜行劫烏巢。",
+      "evidence": [
+        "操自選馬步軍士五千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_cao_wuchao_raiders",
+      "target": "loc_wuchao",
+      "type": "夜襲",
+      "description": "曹操劫糧軍黃昏後向烏巢進發。",
+      "evidence": [
+        "黃昏時分，望烏巢進發"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_chunyu_qiong",
+      "type": "擒獲侮辱",
+      "description": "曹操擒淳於瓊，割去耳鼻手指後放回。",
+      "evidence": [
+        "淳於瓊被擒",
+        "放回紹營"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "fac_cao",
+      "target": "obj_grain",
+      "type": "焚燒",
+      "description": "曹軍在烏巢燒盡袁軍糧草。",
+      "evidence": [
+        "糧草盡行燒絕"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_cao",
+      "target": "char_sui_yuanjin",
+      "type": "殺死",
+      "description": "眭元進救烏巢時被曹軍殺死。",
+      "evidence": [
+        "皆被曹軍所殺"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "fac_cao",
+      "target": "char_zhao_rui",
+      "type": "殺死",
+      "description": "趙睿救烏巢時被曹軍殺死。",
+      "evidence": [
+        "皆被曹軍所殺"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_tu",
+      "target": "strat_wei_jiu_zhao",
+      "type": "獻策",
+      "description": "郭圖建議攻曹營以迫使曹操回救。",
+      "evidence": [
+        "圍魏救趙之計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_he",
+      "target": "strat_wei_jiu_zhao",
+      "type": "反對",
+      "description": "張郃認為曹操外出必有內備，反對攻曹營。",
+      "evidence": [
+        "非也。曹操多謀"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_zhanggao_attack",
+      "type": "派遣",
+      "description": "袁紹派張郃、高覽率五千攻曹營。",
+      "evidence": [
+        "引軍五千，往官渡擊曹營"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_jiangqi_rescue",
+      "type": "派遣",
+      "description": "袁紹派蔣奇率一萬兵救烏巢。",
+      "evidence": [
+        "蔣奇領兵一萬，往救烏巢"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_flags_armor",
+      "type": "奪取偽裝",
+      "description": "曹操奪淳於瓊部下衣甲旗幟，偽作其部回寨。",
+      "evidence": [
+        "盡奪其衣甲旗幟"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_jiang_qi",
+      "type": "斬殺",
+      "description": "張遼在小路遇蔣奇並將其斬殺。",
+      "evidence": [
+        "被張遼斬於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_false_report",
+      "type": "使用",
+      "description": "曹操偽報蔣奇已勝，使袁紹不再接應烏巢。",
+      "evidence": [
+        "不復遣人接應烏巢"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "fac_cao",
+      "target": "army_zhanggao_attack",
+      "type": "擊敗",
+      "description": "曹營伏兵出擊，打敗張郃高覽攻營軍。",
+      "evidence": [
+        "袁軍大敗"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_guo_tu",
+      "target": "char_zhang_he",
+      "type": "讒害",
+      "description": "郭圖向袁紹誣稱張郃有降曹之意。",
+      "evidence": [
+        "二人素有降曹之意"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_tu",
+      "target": "char_gao_lan",
+      "type": "讒害",
+      "description": "郭圖向袁紹誣稱高覽故意不用力。",
+      "evidence": [
+        "故意不肯用力"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_he",
+      "target": "char_cao_cao",
+      "type": "投降",
+      "description": "張郃領本部兵馬往曹操寨中投降。",
+      "evidence": [
+        "往曹操寨中投降"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gao_lan",
+      "target": "char_cao_cao",
+      "type": "投降",
+      "description": "高覽與張郃一同投降曹操。",
+      "evidence": [
+        "二人倒戈卸甲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_pianjiangjun",
+      "type": "封授",
+      "description": "曹操封張郃、高覽為偏將軍。",
+      "evidence": [
+        "為偏將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_he",
+      "target": "title_dutinghou",
+      "type": "受封",
+      "description": "張郃降曹後受封都亭侯。",
+      "evidence": [
+        "都亭侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gao_lan",
+      "target": "title_donglaihou",
+      "type": "受封",
+      "description": "高覽降曹後受封東萊侯。",
+      "evidence": [
+        "東萊侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_you",
+      "target": "strat_two_routes_ruse",
+      "type": "獻策",
+      "description": "許攸勸曹操揚言兩路進兵以驚袁紹。",
+      "evidence": [
+        "許攸又勸曹",
+        "我乘其兵動時擊之"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_two_routes_ruse",
+      "type": "採納",
+      "description": "曹操命軍中四處揚言取鄒郡、黎陽。",
+      "evidence": [
+        "使大小三軍，四遠揚言"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_yuantan_ye",
+      "type": "分兵",
+      "description": "袁紹派袁譚分兵五萬救鄴郡。",
+      "evidence": [
+        "袁譚分兵五萬救鄴郡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_xinming_liyang",
+      "type": "分兵",
+      "description": "袁紹派辛明分兵五萬救黎陽。",
+      "evidence": [
+        "辛明分兵五萬救黎陽"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_eight_way_attack",
+      "type": "採用",
+      "description": "曹操探知袁紹兵動後八路齊出。",
+      "evidence": [
+        "八路齊出，直衝紹營"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_yuan_shao",
+      "type": "擊敗",
+      "description": "曹操在官渡大破袁紹。",
+      "evidence": [
+        "操獲全勝",
+        "袁紹兵敗而奔"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_secret_letters",
+      "type": "焚毀",
+      "description": "曹操焚毀與袁紹暗通的書信，不追究。",
+      "evidence": [
+        "遂命盡焚之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ju_shou",
+      "target": "char_cao_cao",
+      "type": "拒降",
+      "description": "沮授被擒見曹操時明言不降。",
+      "evidence": [
+        "授不降也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ju_shou",
+      "target": "char_yuan_shao",
+      "type": "忠於",
+      "description": "沮授在曹營盜馬，欲歸袁氏。",
+      "evidence": [
+        "欲歸袁氏"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_ju_shou",
+      "type": "處死",
+      "description": "曹操因沮授盜馬欲歸而殺之，後悔稱誤殺忠義。",
+      "evidence": [
+        "操怒，乃殺之"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_huanghe_dukou",
+      "type": "安葬",
+      "description": "曹操厚禮殯殮沮授，葬於黃河渡口。",
+      "evidence": [
+        "葬於黃河渡口"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_da_jiangjun",
+      "type": "保奏",
+      "description": "曹操稱曾在天子前保奏袁紹為大將軍。",
+      "evidence": [
+        "保奏你為大將軍"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_hanxiang",
+      "type": "被稱",
+      "description": "許攸稱曹操為漢相。",
+      "evidence": [
+        "公乃漢相"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_01_yuan_cao_guandu",
+      "name": "袁紹進兵官渡，曹操起軍迎敵",
+      "summary": "袁紹興兵向官渡進發；夏侯惇告急後，曹操率七萬軍迎敵，留荀彧守許都。",
+      "participants": [
+        "char_yuan_shao",
+        "char_cao_cao",
+        "char_xiahou_dun",
+        "char_xun_yu"
+      ],
+      "locations": [
+        "loc_guandu",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "望官渡進發",
+        "曹操起軍七萬"
+      ]
+    },
+    {
+      "id": "evt_02_tian_feng_advice",
+      "name": "田豐獄中諫阻袁紹",
+      "summary": "田豐從獄中上書，勸袁紹靜守待時；袁紹大怒，欲斬田豐。",
+      "participants": [
+        "char_tian_feng",
+        "char_yuan_shao",
+        "char_feng_ji"
+      ],
+      "locations": [],
+      "evidence": [
+        "田豐從獄中上書諫",
+        "欲斬田豐"
+      ]
+    },
+    {
+      "id": "evt_03_first_battle",
+      "name": "官渡初戰曹軍敗退",
+      "summary": "曹袁兩軍列陣交戰，審配伏弩箭齊發，曹軍抵敵不住退至官渡。",
+      "participants": [
+        "char_cao_cao",
+        "char_yuan_shao",
+        "char_shen_pei",
+        "char_zhang_he",
+        "char_gao_lan",
+        "char_xu_chu",
+        "char_xiahou_dun",
+        "char_cao_hong"
+      ],
+      "locations": [
+        "loc_guandu"
+      ],
+      "evidence": [
+        "兩下萬弩並發",
+        "曹軍大敗"
+      ]
+    },
+    {
+      "id": "evt_04_tushan_and_counter",
+      "name": "袁軍築土山，曹操以霹靂車破之",
+      "summary": "審配築土山高櫓射曹營；劉曄獻發石車，曹操造霹靂車擊退弓箭手。",
+      "participants": [
+        "char_shen_pei",
+        "char_yuan_shao",
+        "char_liu_ye",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_cao_camp"
+      ],
+      "evidence": [
+        "築成土山五十餘座",
+        "號其車為霹靂車"
+      ]
+    },
+    {
+      "id": "evt_05_tunnel_trench",
+      "name": "袁軍掘地道，曹軍掘長塹抵禦",
+      "summary": "審配命掘子軍暗挖伏道；劉曄建議繞曹營掘長塹，使袁軍地道無效。",
+      "participants": [
+        "char_shen_pei",
+        "char_liu_ye",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_cao_camp"
+      ],
+      "evidence": [
+        "號為掘子軍",
+        "伏道無用"
+      ]
+    },
+    {
+      "id": "evt_06_xunyu_letter",
+      "name": "荀彧勸曹操堅守官渡",
+      "summary": "曹操因糧乏欲退許昌，遣書問荀彧；荀彧回書勸其不可退。",
+      "participants": [
+        "char_cao_cao",
+        "char_xun_yu"
+      ],
+      "locations": [
+        "loc_guandu",
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "意欲棄官渡退回許昌",
+        "彧以書報之"
+      ]
+    },
+    {
+      "id": "evt_07_hanmeng_convoy_burned",
+      "name": "徐晃史渙截燒韓猛糧車",
+      "summary": "史渙獲細作得知韓猛運糧；徐晃、史渙截擊糧隊並燒盡輜重，張遼、許褚接應。",
+      "participants": [
+        "char_xu_huang",
+        "char_shi_huan",
+        "char_han_meng",
+        "char_zhang_liao",
+        "char_xu_chu",
+        "char_cao_cao",
+        "char_xun_you"
+      ],
+      "locations": [
+        "loc_guandu"
+      ],
+      "evidence": [
+        "韓猛押糧車數千輛",
+        "徐晃催軍燒盡輜重"
+      ]
+    },
+    {
+      "id": "evt_08_wuchao_guard_assigned",
+      "name": "淳於瓊奉命守烏巢",
+      "summary": "審配提醒烏巢是屯糧要地；袁紹命審配回鄴都督糧，派淳於瓊率二萬人馬守烏巢。",
+      "participants": [
+        "char_yuan_shao",
+        "char_shen_pei",
+        "char_chunyu_qiong",
+        "char_sui_yuanjin",
+        "char_han_juzi",
+        "char_lu_weihuang",
+        "char_zhao_rui"
+      ],
+      "locations": [
+        "loc_wuchao",
+        "loc_yedu"
+      ],
+      "evidence": [
+        "烏巢乃屯糧之處",
+        "引二萬人馬，守烏巢"
+      ]
+    },
+    {
+      "id": "evt_09_xuyou_rejected_defects",
+      "name": "許攸獻襲許昌計被拒後投曹",
+      "summary": "許攸獲曹操催糧書信，勸袁紹襲許昌；袁紹怒斥不納，許攸遂投曹操。",
+      "participants": [
+        "char_xu_you",
+        "char_yuan_shao",
+        "char_cao_cao",
+        "char_shen_pei"
+      ],
+      "locations": [
+        "loc_xuchang",
+        "loc_yuan_camp",
+        "loc_cao_camp"
+      ],
+      "evidence": [
+        "星夜掩襲許昌",
+        "徑投曹操"
+      ]
+    },
+    {
+      "id": "evt_10_xuyou_wuchao_plan",
+      "name": "許攸向曹操獻烏巢劫糧計",
+      "summary": "許攸指出袁紹糧草盡在烏巢，淳於瓊嗜酒無備，勸曹操詐稱蔣奇護糧而焚之。",
+      "participants": [
+        "char_xu_you",
+        "char_cao_cao",
+        "char_chunyu_qiong",
+        "char_jiang_qi"
+      ],
+      "locations": [
+        "loc_cao_camp",
+        "loc_wuchao"
+      ],
+      "evidence": [
+        "盡積烏巢",
+        "詐稱袁將蔣奇"
+      ]
+    },
+    {
+      "id": "evt_11_jushou_warning",
+      "name": "沮授夜諫防烏巢",
+      "summary": "沮授夜見袁紹，稱烏巢屯糧不可不防；袁紹斥其惑眾並加以監押。",
+      "participants": [
+        "char_ju_shou",
+        "char_yuan_shao"
+      ],
+      "locations": [
+        "loc_yuan_camp",
+        "loc_wuchao"
+      ],
+      "evidence": [
+        "烏巢屯糧之所",
+        "妄言惑眾"
+      ]
+    },
+    {
+      "id": "evt_12_wuchao_raid",
+      "name": "曹操夜襲烏巢燒糧",
+      "summary": "曹操偽稱蔣奇之兵通過袁軍寨壘，至烏巢舉火突入，殺眭元進、趙睿，燒絕糧草並擒淳於瓊。",
+      "participants": [
+        "char_cao_cao",
+        "char_zhang_liao",
+        "char_xu_chu",
+        "char_chunyu_qiong",
+        "char_sui_yuanjin",
+        "char_zhao_rui"
+      ],
+      "locations": [
+        "loc_wuchao"
+      ],
+      "evidence": [
+        "蔣奇奉命往烏巢護糧",
+        "糧草盡行燒絕"
+      ]
+    },
+    {
+      "id": "evt_13_guotu_attack_camp",
+      "name": "郭圖主張攻曹營，蔣奇救烏巢被斬",
+      "summary": "烏巢火起後，郭圖主張攻曹營；袁紹派張郃、高覽攻曹營、蔣奇救烏巢。曹操偽裝回軍，張遼斬蔣奇。",
+      "participants": [
+        "char_guo_tu",
+        "char_yuan_shao",
+        "char_zhang_he",
+        "char_gao_lan",
+        "char_jiang_qi",
+        "char_zhang_liao",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_yuan_camp",
+        "loc_wuchao",
+        "loc_cao_camp"
+      ],
+      "evidence": [
+        "圍魏救趙之計",
+        "蔣奇軍馬"
+      ]
+    },
+    {
+      "id": "evt_14_zhanggao_surrender",
+      "name": "張郃高覽降曹受封",
+      "summary": "張郃、高覽攻曹營失利後遭郭圖讒害，遂領本部投降曹操；曹操封二人為偏將軍並賜侯爵。",
+      "participants": [
+        "char_zhang_he",
+        "char_gao_lan",
+        "char_guo_tu",
+        "char_yuan_shao",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_cao_camp",
+        "loc_yuan_camp"
+      ],
+      "evidence": [
+        "往曹操寨中投降",
+        "封張邰為偏將軍"
+      ]
+    },
+    {
+      "id": "evt_15_yuan_final_rout",
+      "name": "曹操疑兵分袁軍後八路破紹",
+      "summary": "曹軍揚言取鄒郡、黎陽，袁紹急派袁譚、辛明分兵；曹操探知兵動後八路齊出，袁軍大潰。",
+      "participants": [
+        "char_cao_cao",
+        "char_yuan_shao",
+        "char_xu_you",
+        "char_yuan_tan",
+        "char_xin_ming",
+        "char_yuan_shang"
+      ],
+      "locations": [
+        "loc_guandu",
+        "loc_zoujun",
+        "loc_liyang",
+        "loc_yejun"
+      ],
+      "evidence": [
+        "分兵五萬救鄴郡",
+        "八路齊出"
+      ]
+    },
+    {
+      "id": "evt_16_cao_burns_letters",
+      "name": "曹操焚暗通袁紹書信",
+      "summary": "曹操勝後賞賜軍士，檢出許都及軍中諸人暗通袁紹的書信，命全部焚毀不問。",
+      "participants": [
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_guandu",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "與紹暗通之書",
+        "遂命盡焚之"
+      ]
+    },
+    {
+      "id": "evt_17_jushou_death",
+      "name": "沮授被擒拒降而死",
+      "summary": "袁紹敗走後，沮授被曹軍擒獲，拒降曹操；曹操厚待之，沮授盜馬欲歸袁氏，終被曹操殺而葬於黃河渡口。",
+      "participants": [
+        "char_ju_shou",
+        "char_cao_cao",
+        "char_yuan_shao"
+      ],
+      "locations": [
+        "loc_huanghe_dukou"
+      ],
+      "evidence": [
+        "授不降也",
+        "葬於黃河渡口"
+      ]
+    }
+  ],
+  "notes": [
+    "正文多處有異文或疑似 OCR 錯字，如「張邰」對應張郃、「許諸」對應許褚、「授／教授」對應沮授；已以 aliases 保留。",
+    "僅抽取本章明示或可由本章上下文明確支持的關係。"
+  ]
+}

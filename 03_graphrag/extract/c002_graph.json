@@ -1,0 +1,3244 @@
+{
+  "book": "三國演義",
+  "chapter_no": 2,
+  "chapter_title": "張翼德怒鞭督郵　何國舅謀誅宦豎",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [
+        "仲穎"
+      ],
+      "description": "隴西臨洮人，官拜河東太守，怠慢玄德。",
+      "evidence": [
+        "董卓字仲穎",
+        "怠慢了玄德"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "備",
+        "劉公",
+        "劉縣尉"
+      ],
+      "description": "本章隨關、張投朱儁，屢立軍功，後任安喜縣尉，又投劉虞、守平原。",
+      "evidence": [
+        "玄德除授安喜縣尉",
+        "備乃中山靖王之後"
+      ]
+    },
+    {
+      "id": "char_guan_gong",
+      "name": "關公",
+      "type": "character",
+      "aliases": [
+        "關",
+        "關張"
+      ],
+      "description": "與玄德、張飛同進退，參與破張寶、攻宛城，後勸玄德棄官。",
+      "evidence": [
+        "玄德與關公急止之",
+        "左關公"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "飛",
+        "張翼德",
+        "張將軍"
+      ],
+      "description": "玄德義弟，刺高升、伏擊張寶，後怒鞭督郵。",
+      "evidence": [
+        "張飛擊之",
+        "張將軍綁一人在縣前痛打"
+      ]
+    },
+    {
+      "id": "char_zhu_jun",
+      "name": "朱儁",
+      "type": "character",
+      "aliases": [
+        "儁"
+      ],
+      "description": "漢軍將領，收玄德三人，討張寶與宛城黃巾餘黨，後封車騎將軍、河南尹。",
+      "evidence": [
+        "三人連夜引軍來投朱儁",
+        "詔封為車騎將軍"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "操曹"
+      ],
+      "description": "先從皇甫嵩討張梁，後在何進議誅宦官時提出謹慎意見。",
+      "evidence": [
+        "曹操自跟皇甫嵩討張梁",
+        "乃典軍校尉操曹也"
+      ]
+    },
+    {
+      "id": "char_huangfu_song",
+      "name": "皇甫嵩",
+      "type": "character",
+      "aliases": [
+        "嵩"
+      ],
+      "description": "代董卓討黃巾，於曲陽斬張梁。",
+      "evidence": [
+        "命嵩代之",
+        "斬張梁於曲陽"
+      ]
+    },
+    {
+      "id": "char_zhang_bao",
+      "name": "張寶",
+      "type": "character",
+      "aliases": [
+        "地公將軍"
+      ],
+      "description": "黃巾將領，施妖法拒朱儁軍，後逃陽城，被嚴政刺殺。",
+      "evidence": [
+        "張寶作法",
+        "嚴政刺殺張寶"
+      ]
+    },
+    {
+      "id": "char_gao_sheng",
+      "name": "高升",
+      "type": "character",
+      "aliases": [
+        "副將高升"
+      ],
+      "description": "張寶副將，出馬搦戰，被張飛刺落馬。",
+      "evidence": [
+        "遣副將高升",
+        "刺升落馬"
+      ]
+    },
+    {
+      "id": "char_zhang_liang",
+      "name": "張梁",
+      "type": "character",
+      "aliases": [],
+      "description": "張角死後統其眾，於曲陽被皇甫嵩所斬。",
+      "evidence": [
+        "張梁統其眾",
+        "斬張梁於曲陽"
+      ]
+    },
+    {
+      "id": "char_zhang_jiao",
+      "name": "張角",
+      "type": "character",
+      "aliases": [],
+      "description": "黃巾首領，至皇甫嵩到時已死，棺被發、屍首被戮。",
+      "evidence": [
+        "張角已死",
+        "發張角之棺"
+      ]
+    },
+    {
+      "id": "char_yan_zheng",
+      "name": "嚴政",
+      "type": "character",
+      "aliases": [
+        "賊將嚴政"
+      ],
+      "description": "黃巾將，刺殺張寶並獻首投降。",
+      "evidence": [
+        "嚴政刺殺張寶",
+        "獻首投降"
+      ]
+    },
+    {
+      "id": "char_zhao_hong",
+      "name": "趙弘",
+      "type": "character",
+      "aliases": [],
+      "description": "黃巾餘黨首領之一，據宛城，後被孫堅刺下馬。",
+      "evidence": [
+        "趙弘、韓忠、孫仲",
+        "刺弘下馬"
+      ]
+    },
+    {
+      "id": "char_han_zhong",
+      "name": "韓忠",
+      "type": "character",
+      "aliases": [],
+      "description": "黃巾餘黨，奉趙弘出戰，棄城奔逃時被射死。",
+      "evidence": [
+        "趙弘遣韓忠出戰",
+        "射死韓忠"
+      ]
+    },
+    {
+      "id": "char_sun_zhong",
+      "name": "孫仲",
+      "type": "character",
+      "aliases": [],
+      "description": "黃巾餘黨，突北門逃走時被玄德一箭射落馬。",
+      "evidence": [
+        "孫仲引賊突出北門",
+        "正中孫仲"
+      ]
+    },
+    {
+      "id": "char_sun_jian",
+      "name": "孫堅",
+      "type": "character",
+      "aliases": [
+        "文台",
+        "堅"
+      ],
+      "description": "吳郡富春人，率淮泗精兵接應朱儁，攻宛城斬趙弘，後討區星。",
+      "evidence": [
+        "姓孫，名堅，字文台",
+        "前來接應"
+      ]
+    },
+    {
+      "id": "char_xu_chang",
+      "name": "許昌",
+      "type": "character",
+      "aliases": [
+        "陽明皇帝"
+      ],
+      "description": "會稽妖賊，自稱陽明皇帝，被孫堅等破斬。",
+      "evidence": [
+        "許昌造反",
+        "自稱陽明皇帝"
+      ]
+    },
+    {
+      "id": "char_xu_shao",
+      "name": "許韶",
+      "type": "character",
+      "aliases": [],
+      "description": "許昌之子，與許昌同被孫堅等斬。",
+      "evidence": [
+        "斬許昌並其子許韶"
+      ]
+    },
+    {
+      "id": "char_zhang_jun",
+      "name": "張鈞",
+      "type": "character",
+      "aliases": [
+        "郎中張鈞"
+      ],
+      "description": "郎中，聽玄德自陳功績後入朝奏請斬十常侍。",
+      "evidence": [
+        "郎中張鈞",
+        "今宜斬十常侍"
+      ]
+    },
+    {
+      "id": "char_duyou",
+      "name": "督郵",
+      "type": "character",
+      "aliases": [
+        "督郵官"
+      ],
+      "description": "到安喜縣行部的未具名官員，侮辱玄德並勒令縣吏誣陷，後被張飛鞭打。",
+      "evidence": [
+        "督郵行部至縣",
+        "勒令指稱縣尉害民"
+      ]
+    },
+    {
+      "id": "char_zhao_zhong",
+      "name": "趙忠",
+      "type": "character",
+      "aliases": [],
+      "description": "十常侍成員，與張讓索金帛，奏罷不從者。",
+      "evidence": [
+        "趙忠、張讓差人",
+        "索金帛"
+      ]
+    },
+    {
+      "id": "char_zhang_rang",
+      "name": "張讓",
+      "type": "character",
+      "aliases": [
+        "讓"
+      ],
+      "description": "十常侍核心人物，參與朝政，後與段珪結構何苗、舞陽君。",
+      "evidence": [
+        "張讓等十三人",
+        "張讓、段珪"
+      ]
+    },
+    {
+      "id": "char_liu_tao",
+      "name": "劉陶",
+      "type": "character",
+      "aliases": [
+        "諫議大夫劉陶"
+      ],
+      "description": "諫議大夫，當面諫靈帝遠宦官，後被十常侍害死於獄。",
+      "evidence": [
+        "諫議大夫劉陶",
+        "於獄中謀殺之"
+      ]
+    },
+    {
+      "id": "char_ou_xing",
+      "name": "區星",
+      "type": "character",
+      "aliases": [],
+      "description": "長沙賊，作亂後由孫堅奉詔討伐。",
+      "evidence": [
+        "長沙賊區星作亂",
+        "討區星"
+      ]
+    },
+    {
+      "id": "char_zhang_ju",
+      "name": "張舉",
+      "type": "character",
+      "aliases": [],
+      "description": "漁陽反者，自稱天子，勢敗後自縊。",
+      "evidence": [
+        "漁陽張舉",
+        "舉稱天子"
+      ]
+    },
+    {
+      "id": "char_zhang_chun",
+      "name": "張純",
+      "type": "character",
+      "aliases": [],
+      "description": "與張舉同反，自稱大將軍，因兇暴被帳下頭目刺殺。",
+      "evidence": [
+        "張純反",
+        "刺殺張純"
+      ]
+    },
+    {
+      "id": "char_liu_yu",
+      "name": "劉虞",
+      "type": "character",
+      "aliases": [
+        "虞"
+      ],
+      "description": "受封幽州牧，討張舉、張純，任玄德為都尉，平寇後封太尉。",
+      "evidence": [
+        "封劉虞為幽州牧",
+        "劉虞平寇有功"
+      ]
+    },
+    {
+      "id": "char_liu_hui",
+      "name": "劉恢",
+      "type": "character",
+      "aliases": [],
+      "description": "代州人，收留玄德三人，並以書薦玄德見劉虞。",
+      "evidence": [
+        "往代州投劉恢",
+        "以書薦玄德"
+      ]
+    },
+    {
+      "id": "char_gongsun_zan",
+      "name": "公孫瓚",
+      "type": "character",
+      "aliases": [],
+      "description": "表陳玄德前功，薦其為別部司馬、守平原縣令。",
+      "evidence": [
+        "公孫瓚又表陳玄德前功"
+      ]
+    },
+    {
+      "id": "char_ling_di",
+      "name": "靈帝",
+      "type": "character",
+      "aliases": [
+        "帝"
+      ],
+      "description": "漢帝，寵信十常侍，病篤時召何進商議後事。",
+      "evidence": [
+        "帝在後園與十常侍飲宴",
+        "靈帝病篤"
+      ]
+    },
+    {
+      "id": "char_he_jin",
+      "name": "何進",
+      "type": "character",
+      "aliases": [
+        "何國舅",
+        "大將軍何進",
+        "進"
+      ],
+      "description": "何後之兄，受靈帝召入宮，謀誅宦官並扶立太子辯。",
+      "evidence": [
+        "召大將軍何進入宮",
+        "扶立太子辯"
+      ]
+    },
+    {
+      "id": "char_he_hou",
+      "name": "何後",
+      "type": "character",
+      "aliases": [
+        "何太后",
+        "皇后"
+      ],
+      "description": "何進之妹，皇子辯之母，嫉殺王美人，後阻止何進誅宦官。",
+      "evidence": [
+        "遂立為皇后",
+        "太后不允"
+      ]
+    },
+    {
+      "id": "char_wang_meiren",
+      "name": "王美人",
+      "type": "character",
+      "aliases": [],
+      "description": "靈帝所寵，生皇子協，被何後鴆殺。",
+      "evidence": [
+        "王美人，生皇子協",
+        "鴆殺王美人"
+      ]
+    },
+    {
+      "id": "char_huangzi_bian",
+      "name": "皇子辯",
+      "type": "character",
+      "aliases": [
+        "太子辯"
+      ],
+      "description": "何後所生，靈帝崩後由何進等扶立即皇帝位。",
+      "evidence": [
+        "生皇子辯",
+        "太子辯即皇帝位"
+      ]
+    },
+    {
+      "id": "char_huangzi_xie",
+      "name": "皇子協",
+      "type": "character",
+      "aliases": [
+        "協",
+        "陳留王"
+      ],
+      "description": "王美人所生，養於董太后宮，後被封陳留王。",
+      "evidence": [
+        "生皇子協",
+        "封皇子協為陳留王"
+      ]
+    },
+    {
+      "id": "char_dong_taihou",
+      "name": "董太后",
+      "type": "character",
+      "aliases": [
+        "董後"
+      ],
+      "description": "靈帝之母，欲立皇子協，後被遷河間並遭何進暗殺。",
+      "evidence": [
+        "董太后嘗勸帝立皇子協",
+        "鴆殺董後於河間驛庭"
+      ]
+    },
+    {
+      "id": "char_jian_shuo",
+      "name": "蹇碩",
+      "type": "character",
+      "aliases": [
+        "賽碩"
+      ],
+      "description": "中常侍，勸靈帝先誅何進，後被郭勝所殺。",
+      "evidence": [
+        "中常侍蹇碩奏曰",
+        "為中常侍郭勝所殺"
+      ]
+    },
+    {
+      "id": "char_pan_yin",
+      "name": "潘隱",
+      "type": "character",
+      "aliases": [
+        "司馬潘隱"
+      ],
+      "description": "在宮門告警何進，指出蹇碩欲謀殺他。",
+      "evidence": [
+        "司馬潘隱謂進曰",
+        "蹇碩欲謀殺公"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "紹",
+        "司隸校尉袁紹"
+      ],
+      "description": "請率精兵冊立新君，後收蹇碩並勸何進誅宦官。",
+      "evidence": [
+        "紹全身披掛",
+        "司隸校尉袁紹"
+      ]
+    },
+    {
+      "id": "char_guo_sheng",
+      "name": "郭勝",
+      "type": "character",
+      "aliases": [
+        "中常侍郭勝"
+      ],
+      "description": "中常侍，在禦園花陰下殺蹇碩。",
+      "evidence": [
+        "為中常侍郭勝所殺"
+      ]
+    },
+    {
+      "id": "char_dong_zhong",
+      "name": "董重",
+      "type": "character",
+      "aliases": [],
+      "description": "被董太后封驃騎將軍，府宅被圍後自刎。",
+      "evidence": [
+        "董重為驃騎將軍",
+        "董重知事急，自刎"
+      ]
+    },
+    {
+      "id": "char_duan_gui",
+      "name": "段珪",
+      "type": "character",
+      "aliases": [],
+      "description": "與張讓同以金珠玩好結構何苗、舞陽君。",
+      "evidence": [
+        "張讓、段珪",
+        "金珠玩好結構何進弟何苗"
+      ]
+    },
+    {
+      "id": "char_he_miao",
+      "name": "何苗",
+      "type": "character",
+      "aliases": [],
+      "description": "何進之弟，受張讓、段珪結構，向何後進言反對殺十常侍。",
+      "evidence": [
+        "何進弟何苗",
+        "苗入奏何後"
+      ]
+    },
+    {
+      "id": "char_wuyang_jun",
+      "name": "舞陽君",
+      "type": "character",
+      "aliases": [],
+      "description": "何苗之母，與何苗同被張讓、段珪以金珠玩好結構。",
+      "evidence": [
+        "並其母舞陽君"
+      ]
+    },
+    {
+      "id": "char_chen_lin",
+      "name": "陳琳",
+      "type": "character",
+      "aliases": [
+        "主薄陳琳"
+      ],
+      "description": "主薄，反對何進召四方兵馬入京誅宦官之計。",
+      "evidence": [
+        "主薄陳琳曰：不可"
+      ]
+    },
+    {
+      "id": "fac_han_court",
+      "name": "漢朝廷",
+      "type": "faction",
+      "aliases": [
+        "朝廷",
+        "帝廷"
+      ],
+      "description": "本章發布任命、詔令、封賞與赦免的政權。",
+      "evidence": [
+        "朝廷命朱儁",
+        "朝廷赦免"
+      ]
+    },
+    {
+      "id": "fac_yellow_turbans",
+      "name": "黃巾軍",
+      "type": "faction",
+      "aliases": [
+        "黃巾",
+        "黃巾寇",
+        "賊眾"
+      ],
+      "description": "張角、張梁、張寶所屬叛軍。",
+      "evidence": [
+        "涿郡剿戮黃巾",
+        "張寶引賊眾"
+      ]
+    },
+    {
+      "id": "fac_yellow_remnants",
+      "name": "黃巾餘黨",
+      "type": "faction",
+      "aliases": [
+        "趙弘、韓忠、孫仲之眾"
+      ],
+      "description": "趙弘、韓忠、孫仲聚眾數萬，以為張角報仇為名燒劫。",
+      "evidence": [
+        "黃巾餘黨三人",
+        "聚眾數萬"
+      ]
+    },
+    {
+      "id": "fac_ten_attendants",
+      "name": "十常侍",
+      "type": "faction",
+      "aliases": [
+        "閹宦",
+        "中官",
+        "閹豎"
+      ],
+      "description": "把持朝政、賣官鬻爵、索賄罷官的宦官集團。",
+      "evidence": [
+        "十常侍既握重權",
+        "賣官鬻爵"
+      ]
+    },
+    {
+      "id": "fac_eunuchs",
+      "name": "宦官",
+      "type": "faction",
+      "aliases": [
+        "中涓",
+        "內豎"
+      ],
+      "description": "何進、袁紹等欲誅的宮中宦官群體。",
+      "evidence": [
+        "欲盡誅宦官",
+        "欲誅中涓"
+      ]
+    },
+    {
+      "id": "loc_longxi_lintao",
+      "name": "隴西臨洮",
+      "type": "location",
+      "aliases": [
+        "臨洮"
+      ],
+      "description": "董卓籍貫。",
+      "evidence": [
+        "隴西臨洮人也"
+      ]
+    },
+    {
+      "id": "loc_hedong",
+      "name": "河東",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓任太守之地。",
+      "evidence": [
+        "官拜河東太守"
+      ]
+    },
+    {
+      "id": "loc_quyang",
+      "name": "曲陽",
+      "type": "location",
+      "aliases": [],
+      "description": "皇甫嵩與曹操討張梁並斬張梁之地。",
+      "evidence": [
+        "大戰於曲陽",
+        "斬張梁於曲陽"
+      ]
+    },
+    {
+      "id": "loc_yangcheng",
+      "name": "陽城",
+      "type": "location",
+      "aliases": [],
+      "description": "張寶中箭後逃入堅守，朱儁圍攻。",
+      "evidence": [
+        "走進陽城",
+        "圍住陽城攻打"
+      ]
+    },
+    {
+      "id": "loc_wancheng",
+      "name": "宛城",
+      "type": "location",
+      "aliases": [
+        "宛"
+      ],
+      "description": "黃巾餘黨據守之城，朱儁、玄德、孫堅合攻。",
+      "evidence": [
+        "賊據宛城",
+        "攻打南門"
+      ]
+    },
+    {
+      "id": "loc_nanyang",
+      "name": "南陽",
+      "type": "location",
+      "aliases": [
+        "南陽一路"
+      ],
+      "description": "宛城大捷後被平定的一路郡縣。",
+      "evidence": [
+        "南陽一路，十數郡皆平"
+      ]
+    },
+    {
+      "id": "loc_wujun_fuchun",
+      "name": "吳郡富春",
+      "type": "location",
+      "aliases": [
+        "富春"
+      ],
+      "description": "孫堅籍貫。",
+      "evidence": [
+        "吳郡富春人也"
+      ]
+    },
+    {
+      "id": "loc_qiantang",
+      "name": "錢塘",
+      "type": "location",
+      "aliases": [],
+      "description": "孫堅年少時嚇退海賊之地。",
+      "evidence": [
+        "與父至錢塘"
+      ]
+    },
+    {
+      "id": "loc_kuaiji",
+      "name": "會稽",
+      "type": "location",
+      "aliases": [],
+      "description": "許昌造反之地，孫堅參與平定。",
+      "evidence": [
+        "會稽妖賊許昌造反"
+      ]
+    },
+    {
+      "id": "loc_anxi",
+      "name": "安喜縣",
+      "type": "location",
+      "aliases": [
+        "定州中山府安喜縣"
+      ],
+      "description": "玄德任縣尉、張飛鞭督郵之地。",
+      "evidence": [
+        "安喜縣尉",
+        "來安喜縣中到任"
+      ]
+    },
+    {
+      "id": "loc_guanyi",
+      "name": "館驛",
+      "type": "location",
+      "aliases": [],
+      "description": "督郵下榻處，張飛由此扯出督郵鞭打。",
+      "evidence": [
+        "徑入館驛",
+        "扯出館驛"
+      ]
+    },
+    {
+      "id": "loc_daizhou",
+      "name": "代州",
+      "type": "location",
+      "aliases": [],
+      "description": "玄德、關、張棄官後投劉恢之地。",
+      "evidence": [
+        "往代州投劉恢"
+      ]
+    },
+    {
+      "id": "loc_changsha",
+      "name": "長沙",
+      "type": "location",
+      "aliases": [],
+      "description": "區星作亂之地，孫堅被任長沙太守討伐。",
+      "evidence": [
+        "長沙賊區星作亂"
+      ]
+    },
+    {
+      "id": "loc_yuyang",
+      "name": "漁陽",
+      "type": "location",
+      "aliases": [],
+      "description": "張舉、張純反亂之地，劉虞率兵征討。",
+      "evidence": [
+        "漁陽張舉、張純反"
+      ]
+    },
+    {
+      "id": "loc_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "孫堅討區星後報捷，江夏平定。",
+      "evidence": [
+        "江夏平"
+      ]
+    },
+    {
+      "id": "loc_youzhou",
+      "name": "幽州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉虞受封為牧的州。",
+      "evidence": [
+        "封劉虞為幽州牧"
+      ]
+    },
+    {
+      "id": "loc_pingyuan",
+      "name": "平原",
+      "type": "location",
+      "aliases": [],
+      "description": "玄德後守平原縣令，重整錢糧軍馬。",
+      "evidence": [
+        "守平原縣令",
+        "玄德在平原"
+      ]
+    },
+    {
+      "id": "loc_palace",
+      "name": "宮中",
+      "type": "location",
+      "aliases": [
+        "入宮"
+      ],
+      "description": "何進入宮議後事、冊立太子辯的政治中心。",
+      "evidence": [
+        "召大將軍何進入宮"
+      ]
+    },
+    {
+      "id": "loc_yuyuan",
+      "name": "禦園",
+      "type": "location",
+      "aliases": [],
+      "description": "蹇碩逃入並被郭勝所殺之處。",
+      "evidence": [
+        "碩慌走入禦園"
+      ]
+    },
+    {
+      "id": "loc_hejian",
+      "name": "河間",
+      "type": "location",
+      "aliases": [],
+      "description": "董太后被遷置並遭暗殺之地。",
+      "evidence": [
+        "河間安置",
+        "河間驛庭"
+      ]
+    },
+    {
+      "id": "loc_wenling",
+      "name": "文陵",
+      "type": "location",
+      "aliases": [],
+      "description": "董太后被葬之地。",
+      "evidence": [
+        "葬於文陵"
+      ]
+    },
+    {
+      "id": "battle_zhangbao",
+      "name": "張寶妖法之戰",
+      "type": "battle",
+      "aliases": [
+        "破張寶妖法"
+      ],
+      "description": "朱儁、玄德用豬羊狗血穢物破張寶妖法，擊敗賊兵。",
+      "evidence": [
+        "彼用妖術",
+        "穢物齊潑"
+      ]
+    },
+    {
+      "id": "battle_quyang",
+      "name": "曲陽之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "皇甫嵩、曹操討張梁，皇甫嵩連勝七陣並斬張梁。",
+      "evidence": [
+        "大戰於曲陽",
+        "連勝七陣"
+      ]
+    },
+    {
+      "id": "battle_wancheng",
+      "name": "宛城之戰",
+      "type": "battle",
+      "aliases": [
+        "攻宛城"
+      ],
+      "description": "朱儁、玄德、關張、孫堅合攻黃巾餘黨據守的宛城。",
+      "evidence": [
+        "賊據宛城",
+        "朱儁大軍隨後掩殺"
+      ]
+    },
+    {
+      "id": "battle_changsha",
+      "name": "長沙討區星",
+      "type": "battle",
+      "aliases": [],
+      "description": "孫堅奉假帝詔為長沙太守，討區星而報捷。",
+      "evidence": [
+        "討區星",
+        "不五十日，報捷"
+      ]
+    },
+    {
+      "id": "battle_yuyang",
+      "name": "漁陽平亂",
+      "type": "battle",
+      "aliases": [],
+      "description": "劉虞率兵征張舉、張純，玄德為都尉參戰。",
+      "evidence": [
+        "往漁陽徵張舉、張純"
+      ]
+    },
+    {
+      "id": "battle_kuaiji_xuchang",
+      "name": "會稽討許昌",
+      "type": "battle",
+      "aliases": [],
+      "description": "孫堅與郡司馬募勇士，會合州郡破許昌。",
+      "evidence": [
+        "會稽妖賊許昌造反",
+        "會合州郡破之"
+      ]
+    },
+    {
+      "id": "event_whip_duyou",
+      "name": "張飛怒鞭督郵",
+      "type": "event",
+      "aliases": [
+        "怒鞭督郵"
+      ],
+      "description": "張飛聞老人訴督郵害玄德，闖館驛縛督郵並鞭打。",
+      "evidence": [
+        "去督郵兩腿上著力鞭打"
+      ]
+    },
+    {
+      "id": "event_hejin_plot",
+      "name": "何進謀誅宦官",
+      "type": "event",
+      "aliases": [
+        "何國舅謀誅宦豎"
+      ],
+      "description": "何進多次與袁紹等議誅宦官，受何後阻止，末又採召四方兵入京之議。",
+      "evidence": [
+        "召諸大臣，欲盡誅宦官",
+        "可召四方英雄"
+      ]
+    },
+    {
+      "id": "event_bian_enthroned",
+      "name": "太子辯即位",
+      "type": "event",
+      "aliases": [
+        "冊立新君"
+      ],
+      "description": "何進引大臣入宮，在靈帝柩前扶立太子辯為帝。",
+      "evidence": [
+        "扶立太子辯即皇帝位"
+      ]
+    },
+    {
+      "id": "event_dong_taihou_removed",
+      "name": "董太后被廢遷河間",
+      "type": "event",
+      "aliases": [
+        "董後遷河間"
+      ],
+      "description": "何進使廷臣奏董太后不宜居宮，遣往河間，後又暗殺。",
+      "evidence": [
+        "仍遷於河間安置",
+        "鴆殺董後"
+      ]
+    },
+    {
+      "id": "title_hedong_taishou",
+      "name": "河東太守",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓所拜官職。",
+      "evidence": [
+        "官拜河東太守"
+      ]
+    },
+    {
+      "id": "title_digong",
+      "name": "地公將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "張寶旗號稱號。",
+      "evidence": [
+        "地公將軍旗號"
+      ]
+    },
+    {
+      "id": "title_cheqi",
+      "name": "車騎將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "朱儁、趙忠等受封官號。",
+      "evidence": [
+        "詔封為車騎將軍",
+        "封趙忠等為車騎將軍"
+      ]
+    },
+    {
+      "id": "title_henan_yin",
+      "name": "河南尹",
+      "type": "title",
+      "aliases": [],
+      "description": "朱儁班師回京後受封官職。",
+      "evidence": [
+        "河南尹"
+      ]
+    },
+    {
+      "id": "title_biejun_sima",
+      "name": "別郡司馬",
+      "type": "title",
+      "aliases": [],
+      "description": "孫堅受除官職。",
+      "evidence": [
+        "除別郡司馬"
+      ]
+    },
+    {
+      "id": "title_langzhong",
+      "name": "郎中",
+      "type": "title",
+      "aliases": [],
+      "description": "張鈞官職。",
+      "evidence": [
+        "郎中張鈞"
+      ]
+    },
+    {
+      "id": "title_anxi_xianwei",
+      "name": "安喜縣尉",
+      "type": "title",
+      "aliases": [
+        "縣尉"
+      ],
+      "description": "玄德因破黃巾功被授的微職。",
+      "evidence": [
+        "除授定州中山府安喜縣尉"
+      ]
+    },
+    {
+      "id": "title_changsha_taishou",
+      "name": "長沙太守",
+      "type": "title",
+      "aliases": [],
+      "description": "孫堅奉假帝詔討區星時所任官職。",
+      "evidence": [
+        "以孫堅為長沙太守"
+      ]
+    },
+    {
+      "id": "title_wucheng_hou",
+      "name": "烏程侯",
+      "type": "title",
+      "aliases": [],
+      "description": "孫堅平區星、江夏後受封爵位。",
+      "evidence": [
+        "詔封堅為烏程侯"
+      ]
+    },
+    {
+      "id": "title_youzhou_mu",
+      "name": "幽州牧",
+      "type": "title",
+      "aliases": [],
+      "description": "劉虞受封後率兵征漁陽。",
+      "evidence": [
+        "封劉虞為幽州牧"
+      ]
+    },
+    {
+      "id": "title_duwei",
+      "name": "都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "劉虞令玄德所任軍職。",
+      "evidence": [
+        "令玄德為都尉"
+      ]
+    },
+    {
+      "id": "title_xiami_cheng",
+      "name": "下密丞",
+      "type": "title",
+      "aliases": [],
+      "description": "朝廷赦免鞭督郵罪後授玄德之職。",
+      "evidence": [
+        "除下密丞"
+      ]
+    },
+    {
+      "id": "title_gaotang_wei",
+      "name": "高堂尉",
+      "type": "title",
+      "aliases": [],
+      "description": "玄德由下密丞遷任之職。",
+      "evidence": [
+        "遷高堂尉"
+      ]
+    },
+    {
+      "id": "title_biebu_sima",
+      "name": "別部司馬",
+      "type": "title",
+      "aliases": [],
+      "description": "公孫瓚薦玄德所任職。",
+      "evidence": [
+        "薦為別部司馬"
+      ]
+    },
+    {
+      "id": "title_pingyuan_xianling",
+      "name": "平原縣令",
+      "type": "title",
+      "aliases": [],
+      "description": "玄德守任之職。",
+      "evidence": [
+        "守平原縣令"
+      ]
+    },
+    {
+      "id": "title_taiwei",
+      "name": "太尉",
+      "type": "title",
+      "aliases": [],
+      "description": "劉虞平寇有功後受封。",
+      "evidence": [
+        "封太尉"
+      ]
+    },
+    {
+      "id": "title_dajiangjun",
+      "name": "大將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "何進官職，張純亦自稱此號。",
+      "evidence": [
+        "大將軍何進",
+        "純稱大將軍"
+      ]
+    },
+    {
+      "id": "title_huanghou",
+      "name": "皇后",
+      "type": "title",
+      "aliases": [
+        "何太后"
+      ],
+      "description": "何後因生皇子辯被立之位。",
+      "evidence": [
+        "遂立為皇后"
+      ]
+    },
+    {
+      "id": "title_taizi",
+      "name": "太子",
+      "type": "title",
+      "aliases": [],
+      "description": "皇子辯既為太子，董太后亦欲立皇子協為太子。",
+      "evidence": [
+        "太子辯",
+        "立皇子協為太子"
+      ]
+    },
+    {
+      "id": "title_huangdi",
+      "name": "皇帝位",
+      "type": "title",
+      "aliases": [
+        "天子"
+      ],
+      "description": "太子辯即位所登之位；張舉亦僭稱天子。",
+      "evidence": [
+        "即皇帝位",
+        "舉稱天子"
+      ]
+    },
+    {
+      "id": "title_chenliu_wang",
+      "name": "陳留王",
+      "type": "title",
+      "aliases": [],
+      "description": "董太后降旨封皇子協之爵。",
+      "evidence": [
+        "封皇子協為陳留王"
+      ]
+    },
+    {
+      "id": "title_piaoqi_jiangjun",
+      "name": "驃騎將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "董重受封官號。",
+      "evidence": [
+        "董重為驃騎將軍"
+      ]
+    },
+    {
+      "id": "title_canlu_shangshu",
+      "name": "參錄尚書事",
+      "type": "title",
+      "aliases": [],
+      "description": "何太后命何進擔任之職。",
+      "evidence": [
+        "太后命何進參錄尚書事"
+      ]
+    },
+    {
+      "id": "title_sili_xiaowei",
+      "name": "司隸校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "袁紹官職。",
+      "evidence": [
+        "司隸校尉袁紹"
+      ]
+    },
+    {
+      "id": "title_zhubu",
+      "name": "主薄",
+      "type": "title",
+      "aliases": [],
+      "description": "陳琳官職。",
+      "evidence": [
+        "主薄陳琳"
+      ]
+    },
+    {
+      "id": "title_zhongchangshi",
+      "name": "中常侍",
+      "type": "title",
+      "aliases": [],
+      "description": "蹇碩、郭勝等宦官官職。",
+      "evidence": [
+        "中常侍蹇碩",
+        "中常侍郭勝"
+      ]
+    },
+    {
+      "id": "title_liehou",
+      "name": "列侯",
+      "type": "title",
+      "aliases": [],
+      "description": "張讓等十三人受封爵位。",
+      "evidence": [
+        "張讓等十三人皆封列侯"
+      ]
+    },
+    {
+      "id": "obj_blood_filth",
+      "name": "豬羊狗血併穢物",
+      "type": "object",
+      "aliases": [
+        "豬羊狗血",
+        "穢物"
+      ],
+      "description": "朱儁用以破解張寶妖法的物件。",
+      "evidence": [
+        "宰豬羊狗血",
+        "穢物齊潑"
+      ]
+    },
+    {
+      "id": "obj_paper_men_horses",
+      "name": "紙人草馬",
+      "type": "object",
+      "aliases": [],
+      "description": "張寶妖法被破後空中墜落之物。",
+      "evidence": [
+        "紙人草馬，紛紛墜地"
+      ]
+    },
+    {
+      "id": "obj_seal_ribbon",
+      "name": "印瑤",
+      "type": "object",
+      "aliases": [
+        "印綬"
+      ],
+      "description": "玄德棄官時繳還的官印憑信。",
+      "evidence": [
+        "吾繳還印瑤"
+      ]
+    },
+    {
+      "id": "obj_gold_jewels",
+      "name": "金珠玩好",
+      "type": "object",
+      "aliases": [],
+      "description": "張讓、段珪用以結構何苗、舞陽君的財物。",
+      "evidence": [
+        "以金珠玩好結構"
+      ]
+    },
+    {
+      "id": "strat_zhangbao_sorcery",
+      "name": "張寶妖法",
+      "type": "strategy",
+      "aliases": [
+        "妖術",
+        "作法"
+      ],
+      "description": "張寶披髮仗劍，作風雷黑氣以亂漢軍。",
+      "evidence": [
+        "披發仗劍，作起妖法"
+      ]
+    },
+    {
+      "id": "strat_counter_sorcery",
+      "name": "狗血穢物破妖法",
+      "type": "strategy",
+      "aliases": [
+        "破妖法"
+      ],
+      "description": "朱儁令軍士伏山頭，待賊追來以血穢潑下破解妖術。",
+      "evidence": [
+        "從高坡上潑之，其法可解"
+      ]
+    },
+    {
+      "id": "strat_three_gate_escape",
+      "name": "三門攻宛留東門",
+      "type": "strategy",
+      "aliases": [
+        "留東門與賊走"
+      ],
+      "description": "朱儁命孫堅、玄德、自己分攻三門，故留東門供賊逃。",
+      "evidence": [
+        "留東門與賊走"
+      ]
+    },
+    {
+      "id": "strat_accept_surrender",
+      "name": "招降納順",
+      "type": "strategy",
+      "aliases": [],
+      "description": "玄德以高祖得天下為例，勸朱儁接納韓忠投降。",
+      "evidence": [
+        "能招降納順"
+      ]
+    },
+    {
+      "id": "strat_kill_ten_attendants",
+      "name": "斬十常侍",
+      "type": "strategy",
+      "aliases": [
+        "誅宦官",
+        "誅閹豎"
+      ],
+      "description": "張鈞、袁紹、何進等先後提出的清除宦官之策。",
+      "evidence": [
+        "今宜斬十常侍",
+        "欲盡誅宦官"
+      ]
+    },
+    {
+      "id": "strat_enthrone_first",
+      "name": "先正君位後圖賊",
+      "type": "strategy",
+      "aliases": [
+        "正君位然後圖賊"
+      ],
+      "description": "曹操在靈帝崩後提出先確立新君再圖宦官。",
+      "evidence": [
+        "先宜正君位，然後圖賊"
+      ]
+    },
+    {
+      "id": "strat_summon_heroes",
+      "name": "召四方英雄勒兵來京",
+      "type": "strategy",
+      "aliases": [],
+      "description": "袁紹建議何進召外方兵馬入京迫何太后同意誅宦官。",
+      "evidence": [
+        "可召四方英雄之士"
+      ]
+    },
+    {
+      "id": "strat_bribe_he_miao",
+      "name": "結構何苗遮蔽何太后",
+      "type": "strategy",
+      "aliases": [
+        "金珠玩好結構"
+      ],
+      "description": "張讓、段珪用財物拉攏何苗與舞陽君，使其在何太后前進言庇護宦官。",
+      "evidence": [
+        "令早晚入何太后處，善言遮蔽"
+      ]
+    },
+    {
+      "id": "strat_false_edict_secret_mourning",
+      "name": "秘不發喪矯詔入宮",
+      "type": "strategy",
+      "aliases": [
+        "矯詔"
+      ],
+      "description": "蹇碩與十常侍在靈帝崩後密謀不發喪，假詔召何進入宮。",
+      "evidence": [
+        "秘不發喪，矯詔宣何國舅入宮"
+      ]
+    },
+    {
+      "id": "army_liu_bei",
+      "name": "玄德軍",
+      "type": "army",
+      "aliases": [
+        "劉備軍"
+      ],
+      "description": "玄德所引軍隊，先投朱儁，後攻張寶與宛城。",
+      "evidence": [
+        "三人連夜引軍",
+        "玄德麾軍"
+      ]
+    },
+    {
+      "id": "army_zhang_bao",
+      "name": "張寶賊眾八九萬",
+      "type": "army",
+      "aliases": [
+        "賊眾八、九萬"
+      ],
+      "description": "張寶屯於山後的黃巾軍。",
+      "evidence": [
+        "張寶引賊眾八、九萬"
+      ]
+    },
+    {
+      "id": "army_guan_zhang_ambush",
+      "name": "關張伏軍",
+      "type": "army",
+      "aliases": [
+        "關公、張飛各引軍一千"
+      ],
+      "description": "玄德撥給關公、張飛各一千人，伏山後潑血破妖法。",
+      "evidence": [
+        "關公、張飛各引軍一千"
+      ]
+    },
+    {
+      "id": "army_zhu_jun",
+      "name": "朱儁軍",
+      "type": "army",
+      "aliases": [
+        "朱儁大軍",
+        "得勝之師"
+      ],
+      "description": "朱儁所統漢軍，討張寶與宛城黃巾餘黨。",
+      "evidence": [
+        "朱儁引兵",
+        "得勝之師討之"
+      ]
+    },
+    {
+      "id": "army_sun_jian",
+      "name": "孫堅援軍",
+      "type": "army",
+      "aliases": [
+        "淮泗精兵一千五百餘人"
+      ],
+      "description": "孫堅聚集鄉中少年、商旅與淮泗精兵前來接應朱儁。",
+      "evidence": [
+        "淮泗精兵一千五百餘人"
+      ]
+    },
+    {
+      "id": "army_yulin",
+      "name": "御林軍五千",
+      "type": "army",
+      "aliases": [
+        "精兵五千"
+      ],
+      "description": "袁紹請用、何進點出的入宮冊立新君軍隊。",
+      "evidence": [
+        "點御林軍五千"
+      ]
+    },
+    {
+      "id": "army_jian_shuo_guard",
+      "name": "蹇碩禁軍",
+      "type": "army",
+      "aliases": [
+        "碩所領禁軍"
+      ],
+      "description": "蹇碩所領禁軍，蹇碩死後皆投順。",
+      "evidence": [
+        "碩所領禁軍，盡皆投順"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_dong_zhuo",
+      "target": "title_hedong_taishou",
+      "type": "官職",
+      "description": "董卓官拜河東太守。",
+      "evidence": [
+        "官拜河東太守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_liu_bei",
+      "type": "怠慢",
+      "description": "董卓怠慢玄德，引發張飛不滿。",
+      "evidence": [
+        "怠慢了玄德"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_dong_zhuo",
+      "type": "欲殺",
+      "description": "張飛因不滿董卓欲殺之。",
+      "evidence": [
+        "便欲殺之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guan_gong",
+      "type": "義同生死",
+      "description": "玄德表明三人義同生死，不願相離。",
+      "evidence": [
+        "我三人義同生死"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_fei",
+      "type": "義同生死",
+      "description": "玄德與張飛同為義同生死之兄弟。",
+      "evidence": [
+        "我三人義同生死"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhu_jun",
+      "type": "投奔",
+      "description": "玄德與關、張連夜引軍投朱儁。",
+      "evidence": [
+        "連夜引軍來投朱儁"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "char_liu_bei",
+      "type": "任命先鋒",
+      "description": "朱儁令玄德為先鋒與賊對敵。",
+      "evidence": [
+        "令玄德為其先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_bao",
+      "target": "army_zhang_bao",
+      "type": "統領",
+      "description": "張寶統領八九萬賊眾屯於山後。",
+      "evidence": [
+        "引賊眾八、九萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_bao",
+      "target": "char_gao_sheng",
+      "type": "派遣",
+      "description": "張寶派副將高升出馬搦戰。",
+      "evidence": [
+        "遣副將高升"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_fei",
+      "type": "派戰",
+      "description": "玄德命張飛迎戰高升。",
+      "evidence": [
+        "玄德使張飛擊之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_gao_sheng",
+      "type": "擊敗",
+      "description": "張飛與高升交戰數合，刺其落馬。",
+      "evidence": [
+        "刺升落馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_bao",
+      "target": "strat_zhangbao_sorcery",
+      "type": "施用",
+      "description": "張寶在馬上披髮仗劍作妖法。",
+      "evidence": [
+        "作起妖法"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "strat_counter_sorcery",
+      "type": "提出計策",
+      "description": "朱儁提出以豬羊狗血穢物破妖法。",
+      "evidence": [
+        "其法可解"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_counter_sorcery",
+      "target": "obj_blood_filth",
+      "type": "使用物件",
+      "description": "破法之計使用豬羊狗血與穢物。",
+      "evidence": [
+        "盛豬羊狗血併物"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_guan_zhang_ambush",
+      "type": "部署",
+      "description": "玄德撥關公、張飛各引軍一千伏於高岡。",
+      "evidence": [
+        "撥關公、張飛各引軍一千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_guan_zhang_ambush",
+      "target": "obj_paper_men_horses",
+      "type": "破除妖法顯現",
+      "description": "關張伏軍潑穢物後，空中紙人草馬墜地。",
+      "evidence": [
+        "紙人草馬，紛紛墜地"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_bao",
+      "type": "射傷",
+      "description": "玄德追張寶，發箭射中其左臂。",
+      "evidence": [
+        "中其左臂"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_bao",
+      "target": "title_digong",
+      "type": "旗號稱號",
+      "description": "玄德望見地公將軍旗號追張寶。",
+      "evidence": [
+        "地公將軍旗號"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_bao",
+      "target": "loc_yangcheng",
+      "type": "退守",
+      "description": "張寶帶箭逃脫，入陽城堅守。",
+      "evidence": [
+        "走進陽城，堅守不出"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "loc_yangcheng",
+      "type": "圍攻",
+      "description": "朱儁引兵圍住陽城攻打。",
+      "evidence": [
+        "圍住陽城攻打"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangfu_song",
+      "target": "char_dong_zhuo",
+      "type": "取代",
+      "description": "朝廷因董卓屢敗，命皇甫嵩代之。",
+      "evidence": [
+        "董卓屢敗，命嵩代之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangfu_song",
+      "target": "char_zhang_liang",
+      "type": "斬殺",
+      "description": "皇甫嵩在曲陽連勝七陣，斬張梁。",
+      "evidence": [
+        "斬張梁於曲陽"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liang",
+      "target": "fac_yellow_turbans",
+      "type": "統領",
+      "description": "張角死後，張梁統其眾與漢軍相拒。",
+      "evidence": [
+        "張梁統其眾"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangfu_song",
+      "target": "char_zhang_jiao",
+      "type": "戮屍梟首",
+      "description": "皇甫嵩勝後發張角棺，戮屍梟首送京師。",
+      "evidence": [
+        "發張角之棺，戮屍梟首"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yan_zheng",
+      "target": "char_zhang_bao",
+      "type": "刺殺",
+      "description": "嚴政刺殺張寶，獻首投降。",
+      "evidence": [
+        "嚴政刺殺張寶"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yan_zheng",
+      "target": "fac_han_court",
+      "type": "投降",
+      "description": "嚴政殺張寶後向漢軍投降。",
+      "evidence": [
+        "獻首投降"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_hong",
+      "target": "fac_yellow_remnants",
+      "type": "首領",
+      "description": "趙弘為黃巾餘黨三人之一。",
+      "evidence": [
+        "黃巾餘黨三人：趙弘"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_zhong",
+      "target": "fac_yellow_remnants",
+      "type": "首領",
+      "description": "韓忠為黃巾餘黨三人之一。",
+      "evidence": [
+        "趙弘、韓忠、孫仲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_zhong",
+      "target": "fac_yellow_remnants",
+      "type": "首領",
+      "description": "孫仲為黃巾餘黨三人之一。",
+      "evidence": [
+        "趙弘、韓忠、孫仲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_hong",
+      "target": "char_zhang_jiao",
+      "type": "報仇名義",
+      "description": "趙弘等稱為張角報仇而聚眾燒劫。",
+      "evidence": [
+        "稱與張角報仇"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "battle_wancheng",
+      "type": "指揮攻打",
+      "description": "朱儁奉詔率軍攻打宛城。",
+      "evidence": [
+        "儁引兵攻之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_hong",
+      "target": "char_han_zhong",
+      "type": "派遣出戰",
+      "description": "趙弘派韓忠出戰朱儁。",
+      "evidence": [
+        "趙弘遣韓忠出戰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "battle_wancheng",
+      "type": "參戰",
+      "description": "朱儁派玄德、關、張攻城西南角，後玄德又打北門。",
+      "evidence": [
+        "玄德、關、張攻城西南角"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "strat_three_gate_escape",
+      "type": "制定",
+      "description": "朱儁部署三面攻城，留東門給賊逃。",
+      "evidence": [
+        "留東門與賊走"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_zhong",
+      "target": "char_zhu_jun",
+      "type": "求降",
+      "description": "宛城斷糧後，韓忠使人出城投降。",
+      "evidence": [
+        "韓忠使人出城投降"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "char_han_zhong",
+      "type": "拒降",
+      "description": "朱儁不許韓忠投降。",
+      "evidence": [
+        "儁不許"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strat_accept_surrender",
+      "type": "建議",
+      "description": "玄德以高祖為例勸朱儁招降納順。",
+      "evidence": [
+        "能招降納順"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_zhu_jun",
+      "target": "char_han_zhong",
+      "type": "擊殺",
+      "description": "朱儁與玄德、關、張率軍掩殺，韓忠被射死。",
+      "evidence": [
+        "率三軍掩殺，射死韓忠"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhao_hong",
+      "target": "loc_wancheng",
+      "type": "復奪",
+      "description": "趙弘乘朱儁暫退，復奪宛城。",
+      "evidence": [
+        "弘乘勢復奪宛城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_zhu_jun",
+      "type": "接應",
+      "description": "孫堅率軍前來接應朱儁。",
+      "evidence": [
+        "前來接應"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "army_sun_jian",
+      "type": "統領",
+      "description": "孫堅聚集少年、商旅與淮泗精兵一千五百餘人。",
+      "evidence": [
+        "聚集鄉中少年及諸商旅"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_zhao_hong",
+      "type": "擊殺",
+      "description": "孫堅奪趙弘槊，刺弘下馬。",
+      "evidence": [
+        "刺弘下馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_sun_zhong",
+      "type": "射殺",
+      "description": "玄德在北門張弓一箭射中孫仲。",
+      "evidence": [
+        "正中孫仲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "title_cheqi",
+      "type": "受封",
+      "description": "朱儁班師回京後受封車騎將軍。",
+      "evidence": [
+        "詔封為車騎將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "title_henan_yin",
+      "type": "受封",
+      "description": "朱儁同時受封河南尹。",
+      "evidence": [
+        "河南尹"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "char_sun_jian",
+      "type": "表奏功勞",
+      "description": "朱儁上表奏孫堅功。",
+      "evidence": [
+        "儁表奏孫堅、劉備等功"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "char_liu_bei",
+      "type": "表奏功勞",
+      "description": "朱儁上表奏劉備功。",
+      "evidence": [
+        "表奏孫堅、劉備等功"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "title_biejun_sima",
+      "type": "受任",
+      "description": "孫堅被除為別郡司馬。",
+      "evidence": [
+        "除別郡司馬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_jun",
+      "target": "char_ling_di",
+      "type": "進諫",
+      "description": "張鈞入朝見帝，指出黃巾之亂源於十常侍。",
+      "evidence": [
+        "隨入朝見帝曰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jun",
+      "target": "strat_kill_ten_attendants",
+      "type": "主張",
+      "description": "張鈞奏請斬十常侍、懸首南郊。",
+      "evidence": [
+        "今宜斬十常侍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_anxi_xianwei",
+      "type": "受任",
+      "description": "玄德被除授安喜縣尉。",
+      "evidence": [
+        "玄德除授定州中山府安喜縣尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_anxi",
+      "type": "赴任",
+      "description": "玄德與關、張到安喜縣任職。",
+      "evidence": [
+        "來安喜縣中到任"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_duyou",
+      "target": "char_liu_bei",
+      "type": "侮辱誣害",
+      "description": "督郵輕慢玄德，又勒縣吏指稱縣尉害民。",
+      "evidence": [
+        "勒令指稱縣尉害民"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_duyou",
+      "type": "鞭打",
+      "description": "張飛縛督郵於馬樁並用柳條鞭打。",
+      "evidence": [
+        "著力鞭打"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_fei",
+      "type": "喝止",
+      "description": "玄德見督郵求救，急喝張飛住手。",
+      "evidence": [
+        "急喝張飛住手"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_gong",
+      "target": "char_liu_bei",
+      "type": "建議棄官",
+      "description": "關公勸玄德殺督郵、棄官歸鄉、別圖遠大。",
+      "evidence": [
+        "棄官歸鄉，別圖遠大"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_seal_ribbon",
+      "type": "繳還",
+      "description": "玄德棄官時繳還印瑤。",
+      "evidence": [
+        "吾繳還印瑤"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_liu_hui",
+      "type": "投奔",
+      "description": "玄德與關、張往代州投劉恢。",
+      "evidence": [
+        "往代州投劉恢"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_hui",
+      "target": "char_liu_bei",
+      "type": "收留",
+      "description": "劉恢因玄德為漢室宗親而留匿在家。",
+      "evidence": [
+        "留匿在家"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_zhong",
+      "target": "fac_ten_attendants",
+      "type": "成員",
+      "description": "趙忠屬十常侍集團。",
+      "evidence": [
+        "趙忠、張讓"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_rang",
+      "target": "fac_ten_attendants",
+      "type": "成員",
+      "description": "張讓屬十常侍集團。",
+      "evidence": [
+        "張讓等十三人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "fac_ten_attendants",
+      "target": "char_huangfu_song",
+      "type": "奏罷官職",
+      "description": "趙忠等因皇甫嵩不肯給金帛，奏罷其官。",
+      "evidence": [
+        "皇甫嵩、朱儁皆不肯與"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "fac_ten_attendants",
+      "target": "char_zhu_jun",
+      "type": "奏罷官職",
+      "description": "十常侍索金帛不成，奏罷朱儁官。",
+      "evidence": [
+        "趙忠等俱奏罷其官"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_zhong",
+      "target": "title_cheqi",
+      "type": "受封",
+      "description": "帝封趙忠等為車騎將軍。",
+      "evidence": [
+        "封趙忠等為車騎將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_rang",
+      "target": "title_liehou",
+      "type": "受封",
+      "description": "張讓等十三人皆封列侯。",
+      "evidence": [
+        "張讓等十三人皆封列侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_ten_attendants",
+      "target": "fac_han_court",
+      "type": "隱匿表章",
+      "description": "十常侍藏匿各地告急表章不奏。",
+      "evidence": [
+        "皆藏匿不奏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_tao",
+      "target": "char_ling_di",
+      "type": "進諫",
+      "description": "劉陶在後園痛諫靈帝不應與閹宦共飲。",
+      "evidence": [
+        "陛下尚自與閹宦共飲耶"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_ten_attendants",
+      "target": "char_liu_tao",
+      "type": "謀殺",
+      "description": "十常侍在獄中謀殺劉陶。",
+      "evidence": [
+        "於獄中謀殺之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "title_changsha_taishou",
+      "type": "受任",
+      "description": "十常侍假帝詔任孫堅為長沙太守。",
+      "evidence": [
+        "以孫堅為長沙太守"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_ou_xing",
+      "type": "討伐",
+      "description": "孫堅為長沙太守後討區星。",
+      "evidence": [
+        "討區星"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "title_wucheng_hou",
+      "type": "受封",
+      "description": "孫堅平亂報捷後封烏程侯。",
+      "evidence": [
+        "詔封堅為烏程侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yu",
+      "target": "title_youzhou_mu",
+      "type": "受封",
+      "description": "劉虞受封幽州牧。",
+      "evidence": [
+        "封劉虞為幽州牧"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yu",
+      "target": "char_zhang_ju",
+      "type": "征討",
+      "description": "劉虞領兵往漁陽征張舉。",
+      "evidence": [
+        "徵張舉、張純"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yu",
+      "target": "char_zhang_chun",
+      "type": "征討",
+      "description": "劉虞領兵往漁陽征張純。",
+      "evidence": [
+        "徵張舉、張純"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_hui",
+      "target": "char_liu_yu",
+      "type": "薦舉劉備",
+      "description": "劉恢以書薦玄德見劉虞。",
+      "evidence": [
+        "以書薦玄德見虞"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yu",
+      "target": "char_liu_bei",
+      "type": "任命",
+      "description": "劉虞令玄德為都尉，率兵抵賊巢。",
+      "evidence": [
+        "令玄德為都尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_duwei",
+      "type": "受任",
+      "description": "玄德受劉虞任命為都尉。",
+      "evidence": [
+        "令玄德為都尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_ju",
+      "target": "title_huangdi",
+      "type": "僭稱",
+      "description": "張舉作亂時自稱天子。",
+      "evidence": [
+        "舉稱天子"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_chun",
+      "target": "title_dajiangjun",
+      "type": "僭稱",
+      "description": "張純作亂時自稱大將軍。",
+      "evidence": [
+        "純稱大將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yu",
+      "target": "title_taiwei",
+      "type": "受封",
+      "description": "劉虞平寇有功後封太尉。",
+      "evidence": [
+        "封太尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_han_court",
+      "target": "char_liu_bei",
+      "type": "赦免",
+      "description": "朝廷赦免玄德鞭督郵之罪。",
+      "evidence": [
+        "赦免鞭督郵之罪"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_xiami_cheng",
+      "type": "受任",
+      "description": "玄德被除為下密丞。",
+      "evidence": [
+        "除下密丞"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_gaotang_wei",
+      "type": "遷任",
+      "description": "玄德由下密丞遷高堂尉。",
+      "evidence": [
+        "遷高堂尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gongsun_zan",
+      "target": "char_liu_bei",
+      "type": "表薦",
+      "description": "公孫瓚表陳玄德前功，薦其為別部司馬、平原縣令。",
+      "evidence": [
+        "表陳玄德前功"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_biebu_sima",
+      "type": "受任",
+      "description": "玄德被薦為別部司馬。",
+      "evidence": [
+        "薦為別部司馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_pingyuan_xianling",
+      "type": "受任",
+      "description": "玄德守平原縣令。",
+      "evidence": [
+        "守平原縣令"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_pingyuan",
+      "type": "治理",
+      "description": "玄德在平原重整錢糧軍馬。",
+      "evidence": [
+        "玄德在平原"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ling_di",
+      "target": "char_he_jin",
+      "type": "召見",
+      "description": "靈帝病篤，召大將軍何進入宮商議後事。",
+      "evidence": [
+        "召大將軍何進入宮"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_jin",
+      "target": "title_dajiangjun",
+      "type": "官職",
+      "description": "何進為大將軍。",
+      "evidence": [
+        "大將軍何進"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_hou",
+      "target": "title_huanghou",
+      "type": "受立",
+      "description": "何後因生皇子辯被立為皇后。",
+      "evidence": [
+        "遂立為皇后"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_hou",
+      "target": "char_wang_meiren",
+      "type": "鴆殺",
+      "description": "何後嫉妒王美人，鴆殺之。",
+      "evidence": [
+        "何後嫉妒，鴆殺王美人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_meiren",
+      "target": "char_huangzi_xie",
+      "type": "生母",
+      "description": "王美人生皇子協。",
+      "evidence": [
+        "生皇子協"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_hou",
+      "target": "char_huangzi_bian",
+      "type": "生母",
+      "description": "何後生皇子辯。",
+      "evidence": [
+        "生皇子辯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangzi_xie",
+      "target": "char_dong_taihou",
+      "type": "養於宮中",
+      "description": "皇子協養於董太后宮。",
+      "evidence": [
+        "皇子協養於董太后宮"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_taihou",
+      "target": "char_huangzi_xie",
+      "type": "支持立儲",
+      "description": "董太后勸靈帝立皇子協為太子。",
+      "evidence": [
+        "勸帝立皇子協為太子"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_jian_shuo",
+      "target": "char_he_jin",
+      "type": "謀殺",
+      "description": "蹇碩主張若立協，先誅何進以絕後患。",
+      "evidence": [
+        "必先誅何進"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_pan_yin",
+      "target": "char_he_jin",
+      "type": "告警",
+      "description": "潘隱在宮門提醒何進不可入宮，蹇碩欲謀殺他。",
+      "evidence": [
+        "不可入宮"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_jin",
+      "target": "fac_eunuchs",
+      "type": "欲誅",
+      "description": "何進回私宅召大臣，欲盡誅宦官。",
+      "evidence": [
+        "欲盡誅宦官"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_he_jin",
+      "type": "諫慎",
+      "description": "曹操指出宦官勢廣，機不密必有滅族之禍。",
+      "evidence": [
+        "倘機不密，必有滅族之禍"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_enthrone_first",
+      "type": "提出",
+      "description": "曹操主張先正君位，再圖宦官。",
+      "evidence": [
+        "先宜正君位"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jian_shuo",
+      "target": "strat_false_edict_secret_mourning",
+      "type": "參與密謀",
+      "description": "蹇碩與十常侍秘不發喪、矯詔召何進。",
+      "evidence": [
+        "蹇碩與十常侍商議"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "fac_ten_attendants",
+      "target": "strat_false_edict_secret_mourning",
+      "type": "參與密謀",
+      "description": "十常侍與蹇碩商議秘不發喪、矯詔召何進。",
+      "evidence": [
+        "秘不發喪，矯詔"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_yulin",
+      "type": "請用",
+      "description": "袁紹請藉精兵五千斬關入內冊立新君。",
+      "evidence": [
+        "願藉精兵五千"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_he_jin",
+      "target": "army_yulin",
+      "type": "點兵",
+      "description": "何進大喜，點御林軍五千。",
+      "evidence": [
+        "點御林軍五千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_jin",
+      "target": "char_huangzi_bian",
+      "type": "扶立",
+      "description": "何進率大臣在靈帝柩前扶立太子辯。",
+      "evidence": [
+        "扶立太子辯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangzi_bian",
+      "target": "title_huangdi",
+      "type": "即位",
+      "description": "太子辯即皇帝位。",
+      "evidence": [
+        "即皇帝位"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_jian_shuo",
+      "type": "收捕",
+      "description": "百官呼拜後，袁紹入宮收蹇碩。",
+      "evidence": [
+        "袁紹入宮收蹇碩"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guo_sheng",
+      "target": "char_jian_shuo",
+      "type": "殺害",
+      "description": "蹇碩逃入禦園，被中常侍郭勝所殺。",
+      "evidence": [
+        "為中常侍郭勝所殺"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_jian_shuo_guard",
+      "target": "char_yuan_shao",
+      "type": "投順",
+      "description": "蹇碩所領禁軍在蹇碩死後投順。",
+      "evidence": [
+        "盡皆投順"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_he_jin",
+      "type": "勸誅宦官",
+      "description": "袁紹勸何進乘勢盡誅中官。",
+      "evidence": [
+        "可乘勢盡誅"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_rang",
+      "target": "char_he_hou",
+      "type": "求庇護",
+      "description": "張讓等事急，入告何後，稱謀害何進只蹇碩一人。",
+      "evidence": [
+        "慌入告何後"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_he_hou",
+      "target": "fac_eunuchs",
+      "type": "庇護",
+      "description": "何後勸何進不可聽信人言盡誅宦官。",
+      "evidence": [
+        "欲盡誅宦官耶"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_he_jin",
+      "target": "title_canlu_shangshu",
+      "type": "受命",
+      "description": "何太后命何進參錄尚書事。",
+      "evidence": [
+        "命何進參錄尚書事"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_taihou",
+      "target": "char_huangzi_xie",
+      "type": "封爵",
+      "description": "董太后降旨封皇子協為陳留王。",
+      "evidence": [
+        "封皇子協為陳留王"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangzi_xie",
+      "target": "title_chenliu_wang",
+      "type": "受封",
+      "description": "皇子協受封陳留王。",
+      "evidence": [
+        "陳留王"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_taihou",
+      "target": "char_dong_zhong",
+      "type": "任封",
+      "description": "董太后降旨封董重為驃騎將軍。",
+      "evidence": [
+        "董重為驃騎將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhong",
+      "target": "title_piaoqi_jiangjun",
+      "type": "受封",
+      "description": "董重受封驃騎將軍。",
+      "evidence": [
+        "董重為驃騎將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_rang",
+      "target": "fac_han_court",
+      "type": "預朝政",
+      "description": "董太后使張讓等共同參預朝政。",
+      "evidence": [
+        "張讓等共預朝政"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_he_hou",
+      "target": "char_dong_taihou",
+      "type": "勸退政事",
+      "description": "何太后設宴勸董太后婦人不宜參預朝政。",
+      "evidence": [
+        "參預朝政，非其所宜"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_he_jin",
+      "target": "char_dong_taihou",
+      "type": "遷置",
+      "description": "何進使廷臣奏董太后應遷河間。",
+      "evidence": [
+        "仍遷於河間安置"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_he_jin",
+      "target": "char_dong_zhong",
+      "type": "圍府追印",
+      "description": "何進點禁軍圍董重府宅，追索印瑤。",
+      "evidence": [
+        "圍驃騎將軍董重府宅"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhong",
+      "target": "char_dong_taihou",
+      "type": "同黨依附",
+      "description": "董重為董太后所封，董後一枝被廢後自刎。",
+      "evidence": [
+        "董後一枝已廢"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_zhang_rang",
+      "target": "strat_bribe_he_miao",
+      "type": "施行",
+      "description": "張讓以金珠玩好結構何苗與舞陽君。",
+      "evidence": [
+        "張讓、段珪見董後一枝已廢"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_duan_gui",
+      "target": "strat_bribe_he_miao",
+      "type": "施行",
+      "description": "段珪與張讓同用金珠玩好結構何苗、舞陽君。",
+      "evidence": [
+        "張讓、段珪"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_bribe_he_miao",
+      "target": "obj_gold_jewels",
+      "type": "使用物件",
+      "description": "結構何苗、舞陽君的手段是金珠玩好。",
+      "evidence": [
+        "以金珠玩好結構"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_bribe_he_miao",
+      "target": "char_he_miao",
+      "type": "拉攏對象",
+      "description": "何苗被張讓、段珪結構。",
+      "evidence": [
+        "結構何進弟何苗"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_bribe_he_miao",
+      "target": "char_wuyang_jun",
+      "type": "拉攏對象",
+      "description": "舞陽君被張讓、段珪結構。",
+      "evidence": [
+        "並其母舞陽君"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_jin",
+      "target": "char_dong_taihou",
+      "type": "暗殺",
+      "description": "六月，何進暗使人鴆殺董太后於河間驛庭。",
+      "evidence": [
+        "暗使人鴆殺董後"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_taihou",
+      "target": "loc_wenling",
+      "type": "葬於",
+      "description": "董太后柩回京後葬於文陵。",
+      "evidence": [
+        "葬於文陵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "strat_kill_ten_attendants",
+      "type": "勸行",
+      "description": "袁紹勸何進乘此時誅閹宦。",
+      "evidence": [
+        "乘此時不誅閹宦"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_miao",
+      "target": "char_he_hou",
+      "type": "進言阻止",
+      "description": "何苗向何後說何進欲殺十常侍是取亂之道。",
+      "evidence": [
+        "苗入奏何後"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_he_hou",
+      "target": "char_he_jin",
+      "type": "不允誅宦",
+      "description": "何後以中官統領禁省為漢家故事，不准何進殺舊臣。",
+      "evidence": [
+        "太后不允"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "strat_summon_heroes",
+      "type": "提出",
+      "description": "袁紹建議召四方英雄勒兵來京，迫太后從命。",
+      "evidence": [
+        "可召四方英雄之士"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_jin",
+      "target": "strat_summon_heroes",
+      "type": "採納",
+      "description": "何進稱袁紹召兵之計大妙。",
+      "evidence": [
+        "此計大妙"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_chen_lin",
+      "target": "strat_summon_heroes",
+      "type": "反對",
+      "description": "陳琳以掩目捕燕雀作比，反對召外兵入京。",
+      "evidence": [
+        "主薄陳琳曰：不可"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_001_leave_dong_join_zhu",
+      "name": "玄德三人離董卓投朱儁",
+      "summary": "董卓怠慢玄德，張飛欲殺董卓；玄德、關公阻止後，三人連夜引軍投朱儁。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_liu_bei",
+        "char_guan_gong",
+        "char_zhang_fei",
+        "char_zhu_jun"
+      ],
+      "locations": [
+        "loc_hedong"
+      ],
+      "evidence": [
+        "三人連夜引軍來投朱儁"
+      ]
+    },
+    {
+      "id": "evt_002_defeat_zhangbao_sorcery",
+      "name": "朱儁用血穢破張寶妖法",
+      "summary": "張寶施妖法使玄德軍亂，朱儁設計以豬羊狗血穢物伏山潑下，關張伏軍破法，玄德射傷張寶。",
+      "participants": [
+        "char_zhu_jun",
+        "char_liu_bei",
+        "char_guan_gong",
+        "char_zhang_fei",
+        "char_zhang_bao"
+      ],
+      "locations": [
+        "loc_yangcheng"
+      ],
+      "evidence": [
+        "穢物齊潑",
+        "中其左臂"
+      ]
+    },
+    {
+      "id": "evt_003_quyang_victory",
+      "name": "皇甫嵩曲陽斬張梁",
+      "summary": "朝廷因董卓屢敗命皇甫嵩代之；皇甫嵩連勝七陣，在曲陽斬張梁，並發張角之棺。",
+      "participants": [
+        "char_huangfu_song",
+        "char_cao_cao",
+        "char_zhang_liang",
+        "char_zhang_jiao",
+        "char_dong_zhuo"
+      ],
+      "locations": [
+        "loc_quyang",
+        "loc_jingshi"
+      ],
+      "evidence": [
+        "命嵩代之",
+        "斬張梁於曲陽"
+      ]
+    },
+    {
+      "id": "evt_004_yanzheng_kills_zhangbao",
+      "name": "嚴政刺張寶獻首投降",
+      "summary": "黃巾形勢危急時，賊將嚴政刺殺張寶，將首級獻出投降。",
+      "participants": [
+        "char_yan_zheng",
+        "char_zhang_bao",
+        "fac_han_court"
+      ],
+      "locations": [
+        "loc_yangcheng"
+      ],
+      "evidence": [
+        "嚴政刺殺張寶",
+        "獻首投降"
+      ]
+    },
+    {
+      "id": "evt_005_wancheng_first_phase",
+      "name": "朱儁攻宛與韓忠求降",
+      "summary": "趙弘、韓忠、孫仲據宛城。朱儁遣玄德、關、張攻西南角，韓忠出戰又求降，朱儁不許。",
+      "participants": [
+        "char_zhu_jun",
+        "char_liu_bei",
+        "char_guan_gong",
+        "char_zhang_fei",
+        "char_zhao_hong",
+        "char_han_zhong"
+      ],
+      "locations": [
+        "loc_wancheng"
+      ],
+      "evidence": [
+        "賊據宛城",
+        "韓忠使人出城投降"
+      ]
+    },
+    {
+      "id": "evt_006_han_zhong_dead_zhao_retakes",
+      "name": "韓忠被射死與趙弘復奪宛城",
+      "summary": "韓忠棄城而奔，被朱儁與玄德等追擊射死；趙弘、孫仲率賊眾來戰，使朱儁暫退並復奪宛城。",
+      "participants": [
+        "char_han_zhong",
+        "char_zhao_hong",
+        "char_sun_zhong",
+        "char_zhu_jun",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_wancheng"
+      ],
+      "evidence": [
+        "射死韓忠",
+        "弘乘勢復奪宛城"
+      ]
+    },
+    {
+      "id": "evt_007_sunjian_wan_victory",
+      "name": "孫堅接應攻宛大捷",
+      "summary": "孫堅率一千五百餘人接應朱儁，朱儁定三門攻宛之策；孫堅刺趙弘，玄德射孫仲，南陽平定。",
+      "participants": [
+        "char_sun_jian",
+        "char_zhu_jun",
+        "char_liu_bei",
+        "char_zhao_hong",
+        "char_sun_zhong"
+      ],
+      "locations": [
+        "loc_wancheng",
+        "loc_nanyang"
+      ],
+      "evidence": [
+        "前來接應",
+        "南陽一路，十數郡皆平"
+      ]
+    },
+    {
+      "id": "evt_008_zhangjun_petition_liubei_anxi",
+      "name": "張鈞奏斬十常侍與玄德授安喜縣尉",
+      "summary": "玄德久未除授而向張鈞自陳功績；張鈞奏稱黃巾之亂源於十常侍，十常侍乃令玄德銓注微名，授安喜縣尉。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhang_jun",
+        "char_ling_di",
+        "fac_ten_attendants"
+      ],
+      "locations": [
+        "loc_anxi"
+      ],
+      "evidence": [
+        "今宜斬十常侍",
+        "玄德除授安喜縣尉"
+      ]
+    },
+    {
+      "id": "evt_009_duyou_abuses_liubei",
+      "name": "督郵行部勒害玄德",
+      "summary": "督郵至安喜縣，對玄德傲慢，又被縣吏指出其欲索賄；次日督郵勒令縣吏指稱縣尉害民。",
+      "participants": [
+        "char_duyou",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_anxi",
+        "loc_guanyi"
+      ],
+      "evidence": [
+        "督郵作威，無非要賄賂",
+        "勒令指稱縣尉害民"
+      ]
+    },
+    {
+      "id": "evt_010_zhangfei_whips_duyou",
+      "name": "張飛怒鞭督郵",
+      "summary": "張飛見老人哭訴督郵欲害玄德，闖入館驛扯出督郵縛於馬樁，用柳條痛打；玄德喝止。",
+      "participants": [
+        "char_zhang_fei",
+        "char_duyou",
+        "char_liu_bei",
+        "char_guan_gong"
+      ],
+      "locations": [
+        "loc_anxi",
+        "loc_guanyi"
+      ],
+      "evidence": [
+        "攀下柳條",
+        "著力鞭打"
+      ]
+    },
+    {
+      "id": "evt_011_liubei_resigns_to_liuhui",
+      "name": "玄德棄官投劉恢",
+      "summary": "關公勸玄德棄官別圖遠大；玄德繳還印瑤，與關、張投代州劉恢，劉恢留匿。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_gong",
+        "char_zhang_fei",
+        "char_liu_hui"
+      ],
+      "locations": [
+        "loc_anxi",
+        "loc_daizhou"
+      ],
+      "evidence": [
+        "吾繳還印瑤",
+        "往代州投劉恢"
+      ]
+    },
+    {
+      "id": "evt_012_ten_attendants_remove_generals",
+      "name": "十常侍索賄罷將",
+      "summary": "趙忠、張讓等向破黃巾將士索金帛；皇甫嵩、朱儁不給，皆被奏罷。",
+      "participants": [
+        "char_zhao_zhong",
+        "char_zhang_rang",
+        "char_huangfu_song",
+        "char_zhu_jun",
+        "fac_ten_attendants"
+      ],
+      "locations": [
+        "loc_jingshi"
+      ],
+      "evidence": [
+        "索金帛",
+        "奏罷其官"
+      ]
+    },
+    {
+      "id": "evt_013_liutao_remonstrates",
+      "name": "劉陶諫帝遭害",
+      "summary": "劉陶在後園諫靈帝四方盜賊由十常侍賣官害民而起，後被下獄並遭十常侍謀殺。",
+      "participants": [
+        "char_liu_tao",
+        "char_ling_di",
+        "fac_ten_attendants"
+      ],
+      "locations": [
+        "loc_palace"
+      ],
+      "evidence": [
+        "天下危在旦夕",
+        "於獄中謀殺之"
+      ]
+    },
+    {
+      "id": "evt_014_sunjian_suppresses_ouxing",
+      "name": "孫堅討區星",
+      "summary": "十常侍假帝詔任孫堅為長沙太守討區星；孫堅不五十日報捷，江夏平，受封烏程侯。",
+      "participants": [
+        "char_sun_jian",
+        "char_ou_xing",
+        "fac_ten_attendants"
+      ],
+      "locations": [
+        "loc_changsha",
+        "loc_jiangxia"
+      ],
+      "evidence": [
+        "討區星",
+        "詔封堅為烏程侯"
+      ]
+    },
+    {
+      "id": "evt_015_liuyu_yuyang_campaign",
+      "name": "劉虞平漁陽張舉張純",
+      "summary": "劉虞受封幽州牧，率兵征張舉、張純；劉恢薦玄德，玄德為都尉參戰，張純被部下刺殺，張舉自縊，漁陽平。",
+      "participants": [
+        "char_liu_yu",
+        "char_liu_bei",
+        "char_liu_hui",
+        "char_zhang_ju",
+        "char_zhang_chun"
+      ],
+      "locations": [
+        "loc_youzhou",
+        "loc_yuyang"
+      ],
+      "evidence": [
+        "令玄德為都尉",
+        "漁陽盡平"
+      ]
+    },
+    {
+      "id": "evt_016_liubei_new_posts",
+      "name": "玄德赦罪遷官守平原",
+      "summary": "劉虞表奏劉備大功，朝廷赦鞭督郵罪，除下密丞、遷高堂尉；公孫瓚又薦為別部司馬，守平原縣令。",
+      "participants": [
+        "char_liu_bei",
+        "char_liu_yu",
+        "char_gongsun_zan",
+        "fac_han_court"
+      ],
+      "locations": [
+        "loc_pingyuan"
+      ],
+      "evidence": [
+        "赦免鞭督郵之罪",
+        "守平原縣令"
+      ]
+    },
+    {
+      "id": "evt_017_succession_conflict",
+      "name": "靈帝病篤與立嗣爭議",
+      "summary": "靈帝病篤，何進入宮議後事；董太后欲立皇子協，蹇碩奏先誅何進，潘隱告警何進。",
+      "participants": [
+        "char_ling_di",
+        "char_he_jin",
+        "char_dong_taihou",
+        "char_huangzi_xie",
+        "char_jian_shuo",
+        "char_pan_yin"
+      ],
+      "locations": [
+        "loc_palace"
+      ],
+      "evidence": [
+        "靈帝病篤",
+        "蹇碩欲謀殺公"
+      ]
+    },
+    {
+      "id": "evt_018_bian_enthroned_jian_shuo_killed",
+      "name": "太子辯即位與蹇碩被殺",
+      "summary": "靈帝崩後，何進、袁紹等入宮扶立太子辯即位；袁紹入宮收蹇碩，蹇碩逃入禦園，被郭勝所殺。",
+      "participants": [
+        "char_he_jin",
+        "char_yuan_shao",
+        "char_huangzi_bian",
+        "char_jian_shuo",
+        "char_guo_sheng"
+      ],
+      "locations": [
+        "loc_palace",
+        "loc_yuyuan"
+      ],
+      "evidence": [
+        "扶立太子辯即皇帝位",
+        "郭勝所殺"
+      ]
+    },
+    {
+      "id": "evt_019_dong_taihou_power_struggle",
+      "name": "董太后專權與董重自刎",
+      "summary": "董太后封皇子協為陳留王、董重為驃騎將軍並使張讓等預政；何太后與何進反制，遷董太后於河間並圍董重府，董重自刎。",
+      "participants": [
+        "char_dong_taihou",
+        "char_huangzi_xie",
+        "char_dong_zhong",
+        "char_zhang_rang",
+        "char_he_hou",
+        "char_he_jin"
+      ],
+      "locations": [
+        "loc_palace",
+        "loc_hejian"
+      ],
+      "evidence": [
+        "張讓等共預朝政",
+        "董重知事急，自刎"
+      ]
+    },
+    {
+      "id": "evt_020_hejin_kills_donghou_and_argues",
+      "name": "何進鴆殺董後與召兵之議",
+      "summary": "何進暗殺董太后後，袁紹勸誅宦官；何苗、何後阻止。袁紹建議召四方英雄勒兵來京，陳琳反對。",
+      "participants": [
+        "char_he_jin",
+        "char_dong_taihou",
+        "char_yuan_shao",
+        "char_he_miao",
+        "char_he_hou",
+        "char_chen_lin"
+      ],
+      "locations": [
+        "loc_hejian",
+        "loc_palace"
+      ],
+      "evidence": [
+        "鴆殺董後",
+        "可召四方英雄之士"
+      ]
+    }
+  ],
+  "notes": [
+    "僅依 c002.md 可見正文抽取；正文局部有脫漏或重複處，未補入無明確支持的姓名與關係。"
+  ]
+}

@@ -1,0 +1,1991 @@
+{
+  "book": "三國演義",
+  "chapter_no": 1,
+  "chapter_title": "宴桃園豪傑三結義　斬黃巾英雄首立功",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "faction_han",
+      "name": "漢朝",
+      "type": "faction",
+      "aliases": [
+        "漢室",
+        "朝廷"
+      ],
+      "description": "本章名義上的中央政權，因宦官弄權與黃巾起事而動亂。",
+      "evidence": [
+        "朝政日非",
+        "漢運將終"
+      ]
+    },
+    {
+      "id": "faction_shi_changshi",
+      "name": "十常侍",
+      "type": "faction",
+      "aliases": [
+        "張讓等十人"
+      ],
+      "description": "張讓、趙忠、曹節等宦官結黨弄權。",
+      "evidence": [
+        "號為「十常侍」"
+      ]
+    },
+    {
+      "id": "army_yellow_turban",
+      "name": "黃巾賊",
+      "type": "army",
+      "aliases": [
+        "黃巾軍",
+        "賊兵",
+        "賊眾"
+      ],
+      "description": "追隨張角起事的軍眾，四五十萬人。",
+      "evidence": [
+        "裹黃巾從張角反"
+      ]
+    },
+    {
+      "id": "army_han",
+      "name": "官軍",
+      "type": "army",
+      "aliases": [
+        "漢軍"
+      ],
+      "description": "朝廷及地方用以討伐黃巾的軍隊。",
+      "evidence": [
+        "官軍望風而靡"
+      ]
+    },
+    {
+      "id": "army_liu_bei",
+      "name": "玄德鄉勇",
+      "type": "army",
+      "aliases": [
+        "鄉勇",
+        "本部五百人"
+      ],
+      "description": "劉備、關羽、張飛聚集並統率的鄉勇。",
+      "evidence": [
+        "共聚鄉勇五百餘人"
+      ]
+    },
+    {
+      "id": "army_qingzhou_militia",
+      "name": "青州民兵",
+      "type": "army",
+      "aliases": [
+        "民兵"
+      ],
+      "description": "龔景率領出城助戰的青州地方兵。",
+      "evidence": [
+        "率民兵出城助戰"
+      ]
+    },
+    {
+      "id": "army_cao_cao",
+      "name": "曹操軍",
+      "type": "army",
+      "aliases": [
+        "馬步軍五千"
+      ],
+      "description": "曹操受任後率領赴潁川助戰的軍隊。",
+      "evidence": [
+        "引馬步軍五千"
+      ]
+    },
+    {
+      "id": "char_lingdi",
+      "name": "靈帝",
+      "type": "character",
+      "aliases": [
+        "帝"
+      ],
+      "description": "漢帝，尊信張讓，朝政日非。",
+      "evidence": [
+        "靈帝即位",
+        "尊信張讓"
+      ]
+    },
+    {
+      "id": "char_zhang_rang",
+      "name": "張讓",
+      "type": "character",
+      "aliases": [
+        "阿父"
+      ],
+      "description": "十常侍之一，受靈帝尊信。",
+      "evidence": [
+        "呼為「阿父」"
+      ]
+    },
+    {
+      "id": "char_cao_jie",
+      "name": "曹節",
+      "type": "character",
+      "aliases": [],
+      "description": "宦官，屬十常侍，曾窺視蔡邕奏章並宣告左右。",
+      "evidence": [
+        "曹節在後竊視"
+      ]
+    },
+    {
+      "id": "char_cai_yong",
+      "name": "蔡邕",
+      "type": "character",
+      "aliases": [
+        "議郎蔡邕"
+      ],
+      "description": "上疏指出災異源於婦寺干政，後遭陷罪。",
+      "evidence": [
+        "蔡邕上疏",
+        "陷邕於罪"
+      ]
+    },
+    {
+      "id": "char_zhang_jiao",
+      "name": "張角",
+      "type": "character",
+      "aliases": [
+        "太平道人",
+        "大賢良師",
+        "天公將軍"
+      ],
+      "description": "鉅鹿人，得《太平要術》，發動黃巾起事。",
+      "evidence": [
+        "自稱「天公將軍」"
+      ]
+    },
+    {
+      "id": "char_zhang_bao",
+      "name": "張寶",
+      "type": "character",
+      "aliases": [
+        "地公將軍"
+      ],
+      "description": "張角之弟，黃巾首領之一。",
+      "evidence": [
+        "張寶稱「地公將軍」"
+      ]
+    },
+    {
+      "id": "char_zhang_liang",
+      "name": "張梁",
+      "type": "character",
+      "aliases": [
+        "人公將軍"
+      ],
+      "description": "張角之弟，黃巾首領之一。",
+      "evidence": [
+        "張梁稱「人公將軍」"
+      ]
+    },
+    {
+      "id": "char_nanhua",
+      "name": "南華老仙",
+      "type": "character",
+      "aliases": [
+        "老人"
+      ],
+      "description": "授張角天書三卷的仙人。",
+      "evidence": [
+        "吾乃南華老仙也"
+      ]
+    },
+    {
+      "id": "char_ma_yuanyi",
+      "name": "馬元義",
+      "type": "character",
+      "aliases": [],
+      "description": "張角黨羽，受遣結交中涓為內應，後被斬。",
+      "evidence": [
+        "遣其黨馬元義"
+      ]
+    },
+    {
+      "id": "char_tang_zhou",
+      "name": "唐週",
+      "type": "character",
+      "aliases": [
+        "唐周"
+      ],
+      "description": "張角弟子，攜書赴省中告變。",
+      "evidence": [
+        "唐周乃徑赴省中告變"
+      ]
+    },
+    {
+      "id": "char_feng_xu",
+      "name": "封諞",
+      "type": "character",
+      "aliases": [
+        "封諦",
+        "封諭"
+      ],
+      "description": "中涓，被張角一方視作內應，事露後下獄。",
+      "evidence": [
+        "結交中涓封諦"
+      ]
+    },
+    {
+      "id": "char_he_jin",
+      "name": "何進",
+      "type": "character",
+      "aliases": [
+        "大將軍何進"
+      ],
+      "description": "大將軍，奉詔調兵平黃巾。",
+      "evidence": [
+        "召大將軍何進調兵"
+      ]
+    },
+    {
+      "id": "char_lu_zhi",
+      "name": "盧植",
+      "type": "character",
+      "aliases": [
+        "盧中郎"
+      ],
+      "description": "中郎將，討張角於廣宗，亦是劉備舊師。",
+      "evidence": [
+        "昔曾師事盧植"
+      ]
+    },
+    {
+      "id": "char_huangfu_song",
+      "name": "皇甫嵩",
+      "type": "character",
+      "aliases": [
+        "嵩"
+      ],
+      "description": "中郎將，與朱儁在潁川、長社討黃巾。",
+      "evidence": [
+        "皇甫嵩、朱儁領軍拒賊"
+      ]
+    },
+    {
+      "id": "char_zhu_jun",
+      "name": "朱儁",
+      "type": "character",
+      "aliases": [
+        "儁"
+      ],
+      "description": "中郎將，與皇甫嵩合兵火攻長社。",
+      "evidence": [
+        "嵩與儁計曰"
+      ]
+    },
+    {
+      "id": "char_liu_yan",
+      "name": "劉焉",
+      "type": "character",
+      "aliases": [
+        "幽州太守劉焉"
+      ],
+      "description": "幽州太守，招募義兵，命劉備等討賊救青州。",
+      "evidence": [
+        "幽州太守劉焉"
+      ]
+    },
+    {
+      "id": "char_zou_jing",
+      "name": "鄒靖",
+      "type": "character",
+      "aliases": [
+        "校尉鄒靖"
+      ],
+      "description": "劉焉部下校尉，建議招軍並率兵出征。",
+      "evidence": [
+        "召校尉鄒靖計議"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德"
+      ],
+      "description": "漢室宗親，與關羽、張飛結義，初立軍功。",
+      "evidence": [
+        "我本漢室宗親"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德"
+      ],
+      "description": "涿郡豪傑，與劉備、關羽結義，斬鄧茂。",
+      "evidence": [
+        "某姓張名飛，字翼德"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "長生",
+        "關公"
+      ],
+      "description": "河東解良人，與劉備、張飛結義，斬程遠志。",
+      "evidence": [
+        "姓關名羽"
+      ]
+    },
+    {
+      "id": "char_zhang_shiping",
+      "name": "張世平",
+      "type": "character",
+      "aliases": [],
+      "description": "中山大商，贈馬與資財助劉備等起兵。",
+      "evidence": [
+        "一名張世平"
+      ]
+    },
+    {
+      "id": "char_su_shuang",
+      "name": "蘇雙",
+      "type": "character",
+      "aliases": [],
+      "description": "中山大商，與張世平同贈軍資。",
+      "evidence": [
+        "一名蘇雙"
+      ]
+    },
+    {
+      "id": "char_cheng_yuanzhi",
+      "name": "程遠志",
+      "type": "character",
+      "aliases": [],
+      "description": "黃巾賊將，率五萬犯涿郡，被關羽斬殺。",
+      "evidence": [
+        "程遠志統兵五萬"
+      ]
+    },
+    {
+      "id": "char_deng_mao",
+      "name": "鄧茂",
+      "type": "character",
+      "aliases": [],
+      "description": "程遠志副將，被張飛刺死。",
+      "evidence": [
+        "副將鄧茂出戰"
+      ]
+    },
+    {
+      "id": "char_gong_jing",
+      "name": "龔景",
+      "type": "character",
+      "aliases": [
+        "青州太守龔景"
+      ],
+      "description": "青州太守，受黃巾圍困後求援。",
+      "evidence": [
+        "青州太守龔景牒文"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "孟德",
+        "阿瞞",
+        "吉利"
+      ],
+      "description": "騎都尉，率軍赴潁川截擊張梁、張寶。",
+      "evidence": [
+        "姓曹名操字孟德"
+      ]
+    },
+    {
+      "id": "char_cao_song",
+      "name": "曹嵩",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操之父，曹騰養子。",
+      "evidence": [
+        "操父曹嵩"
+      ]
+    },
+    {
+      "id": "char_cao_teng",
+      "name": "曹騰",
+      "type": "character",
+      "aliases": [
+        "中常侍曹騰"
+      ],
+      "description": "曹嵩養父。",
+      "evidence": [
+        "曹騰之養子"
+      ]
+    },
+    {
+      "id": "char_xu_shao",
+      "name": "許劭",
+      "type": "character",
+      "aliases": [],
+      "description": "汝南知人者，評曹操為治世能臣、亂世姦雄。",
+      "evidence": [
+        "亂世之姦雄"
+      ]
+    },
+    {
+      "id": "char_zuo_feng",
+      "name": "左豐",
+      "type": "character",
+      "aliases": [
+        "黃門左豐"
+      ],
+      "description": "朝廷黃門，向盧植索賄不成後誣奏。",
+      "evidence": [
+        "黃門左豐前來"
+      ]
+    },
+    {
+      "id": "char_dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [],
+      "description": "接替盧植領兵，敗於張角後被劉備三人救回。",
+      "evidence": [
+        "董卓來代將我兵"
+      ]
+    },
+    {
+      "id": "loc_wende",
+      "name": "溫德殿",
+      "type": "location",
+      "aliases": [],
+      "description": "靈帝遇青蛇與黑氣等異兆之殿。",
+      "evidence": [
+        "帝禦溫德殿"
+      ]
+    },
+    {
+      "id": "loc_luoyang",
+      "name": "洛陽",
+      "type": "location",
+      "aliases": [],
+      "description": "漢都附近，曾發生地震等災異。",
+      "evidence": [
+        "洛陽地震"
+      ]
+    },
+    {
+      "id": "loc_julu",
+      "name": "鉅鹿郡",
+      "type": "location",
+      "aliases": [],
+      "description": "張角兄弟出身之地。",
+      "evidence": [
+        "鉅鹿郡有兄弟三人"
+      ]
+    },
+    {
+      "id": "loc_youzhou",
+      "name": "幽州",
+      "type": "location",
+      "aliases": [
+        "幽州界分"
+      ],
+      "description": "張角軍前犯之地，劉焉為太守。",
+      "evidence": [
+        "前犯幽州界分"
+      ]
+    },
+    {
+      "id": "loc_zhuoxian",
+      "name": "涿縣",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備居住並見招軍榜文之地。",
+      "evidence": [
+        "榜文行到涿縣"
+      ]
+    },
+    {
+      "id": "loc_zhuojun",
+      "name": "涿郡",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛世居之地，亦為程遠志來犯目標。",
+      "evidence": [
+        "來犯涿郡"
+      ]
+    },
+    {
+      "id": "loc_zhangfei_zhuang",
+      "name": "張飛莊",
+      "type": "location",
+      "aliases": [],
+      "description": "三人共議大事、接待商人之處。",
+      "evidence": [
+        "同到張飛莊上"
+      ]
+    },
+    {
+      "id": "loc_taoyuan",
+      "name": "桃園",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備、關羽、張飛祭告天地結義之處。",
+      "evidence": [
+        "於園中祭告天地"
+      ]
+    },
+    {
+      "id": "loc_daxingshan",
+      "name": "大興山",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備三人與程遠志軍交戰之地。",
+      "evidence": [
+        "直至大興山下"
+      ]
+    },
+    {
+      "id": "loc_qingzhou",
+      "name": "青州",
+      "type": "location",
+      "aliases": [
+        "青州城"
+      ],
+      "description": "龔景所守，被黃巾圍困。",
+      "evidence": [
+        "投青州來"
+      ]
+    },
+    {
+      "id": "loc_guangzong",
+      "name": "廣宗",
+      "type": "location",
+      "aliases": [],
+      "description": "盧植與張角相拒之地。",
+      "evidence": [
+        "戰於廣宗"
+      ]
+    },
+    {
+      "id": "loc_yingchuan",
+      "name": "潁川",
+      "type": "location",
+      "aliases": [],
+      "description": "張梁、張寶與皇甫嵩、朱儁對壘之地。",
+      "evidence": [
+        "在潁川"
+      ]
+    },
+    {
+      "id": "loc_changshe",
+      "name": "長社",
+      "type": "location",
+      "aliases": [],
+      "description": "黃巾退入結營，後遭火攻。",
+      "evidence": [
+        "退入長社"
+      ]
+    },
+    {
+      "id": "title_taiping_daoren",
+      "name": "太平道人",
+      "type": "title",
+      "aliases": [],
+      "description": "張角習《太平要術》後所號。",
+      "evidence": [
+        "號為「太平道人」"
+      ]
+    },
+    {
+      "id": "title_daxianliangshi",
+      "name": "大賢良師",
+      "type": "title",
+      "aliases": [],
+      "description": "張角為人治病時自稱之號。",
+      "evidence": [
+        "自稱「大賢良師」"
+      ]
+    },
+    {
+      "id": "title_tiangong",
+      "name": "天公將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "張角起兵後自稱。",
+      "evidence": [
+        "自稱「天公將軍」"
+      ]
+    },
+    {
+      "id": "title_digong",
+      "name": "地公將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "張寶起兵後稱號。",
+      "evidence": [
+        "張寶稱「地公將軍」"
+      ]
+    },
+    {
+      "id": "title_rengong",
+      "name": "人公將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "張梁起兵後稱號。",
+      "evidence": [
+        "張梁稱「人公將軍」"
+      ]
+    },
+    {
+      "id": "title_dashou",
+      "name": "大將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "何進官職。",
+      "evidence": [
+        "大將軍何進"
+      ]
+    },
+    {
+      "id": "title_zhonglangjiang",
+      "name": "中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "盧植、皇甫嵩、朱儁等討賊將領官職。",
+      "evidence": [
+        "遣中郎將盧植"
+      ]
+    },
+    {
+      "id": "title_taishou",
+      "name": "太守",
+      "type": "title",
+      "aliases": [],
+      "description": "劉焉、龔景的地方官職。",
+      "evidence": [
+        "幽州太守",
+        "青州太守"
+      ]
+    },
+    {
+      "id": "title_xiaowei",
+      "name": "校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "鄒靖官職。",
+      "evidence": [
+        "校尉鄒靖"
+      ]
+    },
+    {
+      "id": "title_jiduwei",
+      "name": "騎都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操黃巾起後所拜官職。",
+      "evidence": [
+        "拜為騎都尉"
+      ]
+    },
+    {
+      "id": "title_huangmen",
+      "name": "黃門",
+      "type": "title",
+      "aliases": [],
+      "description": "左豐官職。",
+      "evidence": [
+        "黃門左豐"
+      ]
+    },
+    {
+      "id": "title_baishen",
+      "name": "白身",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備向董卓自稱當時無官職的身分。",
+      "evidence": [
+        "玄德曰：「白身。」"
+      ]
+    },
+    {
+      "id": "obj_taiping_yaoshu",
+      "name": "《太平要術》",
+      "type": "object",
+      "aliases": [
+        "天書三卷"
+      ],
+      "description": "南華老仙授予張角的三卷天書。",
+      "evidence": [
+        "此名《太平要術》"
+      ]
+    },
+    {
+      "id": "obj_notice",
+      "name": "榜文",
+      "type": "object",
+      "aliases": [
+        "招軍榜文"
+      ],
+      "description": "劉焉招募義兵的公告，引出劉備。",
+      "evidence": [
+        "出榜招募義兵"
+      ]
+    },
+    {
+      "id": "obj_horse50",
+      "name": "良馬五十匹",
+      "type": "object",
+      "aliases": [],
+      "description": "張世平、蘇雙贈給劉備等人的馬匹。",
+      "evidence": [
+        "良馬五十匹相送"
+      ]
+    },
+    {
+      "id": "obj_money_iron",
+      "name": "金銀五百兩與鐵",
+      "type": "object",
+      "aliases": [
+        "金銀五百兩",
+        "鐵一千斤"
+      ],
+      "description": "兩商人贈送的軍資。",
+      "evidence": [
+        "贈金銀五百兩"
+      ]
+    },
+    {
+      "id": "obj_shuanggujian",
+      "name": "雙股劍",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備命良匠打造的兵器。",
+      "evidence": [
+        "打造雙股劍"
+      ]
+    },
+    {
+      "id": "obj_qinglongdao",
+      "name": "青龍偃月刀",
+      "type": "object",
+      "aliases": [
+        "冷艷鋸"
+      ],
+      "description": "關羽所造兵器，重八十二斤。",
+      "evidence": [
+        "造青龍偃月刀"
+      ]
+    },
+    {
+      "id": "obj_zhangba_spear",
+      "name": "丈八點鋼矛",
+      "type": "object",
+      "aliases": [
+        "丈八蛇矛"
+      ],
+      "description": "張飛所造並用以殺敵的長矛。",
+      "evidence": [
+        "張飛造丈八點鋼矛"
+      ]
+    },
+    {
+      "id": "obj_prison_cart",
+      "name": "門檻車",
+      "type": "object",
+      "aliases": [],
+      "description": "押送盧植回京問罪的囚車。",
+      "evidence": [
+        "護送一輛門檻車"
+      ]
+    },
+    {
+      "id": "obj_yellow_flag",
+      "name": "黃旗",
+      "type": "object",
+      "aliases": [],
+      "description": "張角起事前私造的旗幟。",
+      "evidence": [
+        "私造黃旗"
+      ]
+    },
+    {
+      "id": "strategy_fushui",
+      "name": "符水治病",
+      "type": "strategy",
+      "aliases": [],
+      "description": "張角藉治病聚眾的手段。",
+      "evidence": [
+        "散施符水"
+      ]
+    },
+    {
+      "id": "strategy_jiayuan",
+      "name": "白土書甲子",
+      "type": "strategy",
+      "aliases": [
+        "甲子標記"
+      ],
+      "description": "張角令人在門上書甲子以號召起事。",
+      "evidence": [
+        "白土書「甲子」"
+      ]
+    },
+    {
+      "id": "strategy_inner_contact",
+      "name": "結交中涓內應",
+      "type": "strategy",
+      "aliases": [],
+      "description": "張角派馬元義以金帛結交宮中內應。",
+      "evidence": [
+        "以為內應"
+      ]
+    },
+    {
+      "id": "strategy_qingzhou_ambush",
+      "name": "伏兵夾攻",
+      "type": "strategy",
+      "aliases": [
+        "三路夾攻"
+      ],
+      "description": "劉備在青州以左右伏兵誘敵夾擊。",
+      "evidence": [
+        "三路夾攻"
+      ]
+    },
+    {
+      "id": "strategy_changshe_fire",
+      "name": "火攻",
+      "type": "strategy",
+      "aliases": [
+        "長社火攻"
+      ],
+      "description": "皇甫嵩、朱儁利用草營與大風縱火破敵。",
+      "evidence": [
+        "當用火攻之"
+      ]
+    },
+    {
+      "id": "battle_daxingshan",
+      "name": "大興山之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "劉備、關羽、張飛初戰程遠志、鄧茂並大勝。",
+      "evidence": [
+        "大興山下，與賊相見"
+      ]
+    },
+    {
+      "id": "battle_qingzhou",
+      "name": "青州解圍戰",
+      "type": "battle",
+      "aliases": [
+        "解青州之圍"
+      ],
+      "description": "劉備用伏兵夾攻，龔景出城助戰，解除青州之圍。",
+      "evidence": [
+        "遂解青州之圍"
+      ]
+    },
+    {
+      "id": "battle_guangzong",
+      "name": "廣宗對峙",
+      "type": "battle",
+      "aliases": [],
+      "description": "盧植五萬兵與張角十五萬眾相拒。",
+      "evidence": [
+        "相拒於廣宗"
+      ]
+    },
+    {
+      "id": "battle_changshe",
+      "name": "長社火攻",
+      "type": "battle",
+      "aliases": [],
+      "description": "皇甫嵩、朱儁火攻長社黃巾營，曹操截擊敗軍。",
+      "evidence": [
+        "一齊縱火"
+      ]
+    },
+    {
+      "id": "battle_rescue_dong",
+      "name": "救董卓之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "劉備、關羽、張飛衝散張角軍，救回董卓。",
+      "evidence": [
+        "三人救了董卓"
+      ]
+    },
+    {
+      "id": "event_nanhua_grants_book",
+      "name": "南華授書",
+      "type": "event",
+      "aliases": [],
+      "description": "南華老仙授張角《太平要術》。",
+      "evidence": [
+        "以天書三卷授之"
+      ]
+    },
+    {
+      "id": "event_yellow_turban_uprising",
+      "name": "黃巾起事",
+      "type": "event",
+      "aliases": [],
+      "description": "事露後張角兄弟星夜舉兵，黃巾眾反。",
+      "evidence": [
+        "星夜舉兵"
+      ]
+    },
+    {
+      "id": "event_liuyan_recruiting",
+      "name": "劉焉招軍",
+      "type": "event",
+      "aliases": [],
+      "description": "劉焉採納鄒靖建議，出榜招募義兵。",
+      "evidence": [
+        "出榜招募義兵"
+      ]
+    },
+    {
+      "id": "event_taoyuan_oath",
+      "name": "桃園結義",
+      "type": "event",
+      "aliases": [
+        "三結義"
+      ],
+      "description": "劉備、關羽、張飛祭告天地，結為兄弟。",
+      "evidence": [
+        "既結為兄弟"
+      ]
+    },
+    {
+      "id": "event_merchants_gift",
+      "name": "商人贈資",
+      "type": "event",
+      "aliases": [],
+      "description": "張世平、蘇雙贈馬、金銀與鐵資助起兵。",
+      "evidence": [
+        "以資器用"
+      ]
+    },
+    {
+      "id": "event_luzhi_arrest",
+      "name": "盧植被押",
+      "type": "event",
+      "aliases": [
+        "盧植被捕"
+      ],
+      "description": "左豐索賄不成誣奏，盧植被押回京問罪。",
+      "evidence": [
+        "取我回京問罪"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_zhang_rang",
+      "target": "faction_shi_changshi",
+      "type": "成員",
+      "description": "張讓為十常侍之一。",
+      "evidence": [
+        "張讓、趙忠...號為「十常侍」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_jie",
+      "target": "faction_shi_changshi",
+      "type": "成員",
+      "description": "曹節為十常侍之一。",
+      "evidence": [
+        "曹節...號為「十常侍」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lingdi",
+      "target": "char_zhang_rang",
+      "type": "尊信",
+      "description": "靈帝尊信張讓，呼其為阿父。",
+      "evidence": [
+        "呼為「阿父」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_jie",
+      "target": "char_cai_yong",
+      "type": "陷害",
+      "description": "曹節窺蔡邕奏章後宣告左右，蔡邕因此被陷罪。",
+      "evidence": [
+        "陷邕於罪"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_nanhua",
+      "target": "char_zhang_jiao",
+      "type": "授予",
+      "description": "南華老仙將《太平要術》授給張角。",
+      "evidence": [
+        "以天書三卷授之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "obj_taiping_yaoshu",
+      "type": "持有修習",
+      "description": "張角取得並修習《太平要術》。",
+      "evidence": [
+        "曉夜攻習"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "title_taiping_daoren",
+      "type": "稱號",
+      "description": "張角號為太平道人。",
+      "evidence": [
+        "號為「太平道人」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "title_daxianliangshi",
+      "type": "稱號",
+      "description": "張角自稱大賢良師。",
+      "evidence": [
+        "自稱「大賢良師」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "strategy_fushui",
+      "type": "施行",
+      "description": "張角以符水治病聚眾。",
+      "evidence": [
+        "散施符水"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "strategy_jiayuan",
+      "type": "號召",
+      "description": "張角令百姓以白土書甲子於門。",
+      "evidence": [
+        "書「甲子」二字"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "char_ma_yuanyi",
+      "type": "遣使",
+      "description": "張角派馬元義攜金帛結交中涓。",
+      "evidence": [
+        "遣其黨馬元義"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ma_yuanyi",
+      "target": "char_feng_xu",
+      "type": "結交內應",
+      "description": "馬元義結交封諞作內應。",
+      "evidence": [
+        "以為內應"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_tang_zhou",
+      "target": "faction_han",
+      "type": "告變",
+      "description": "唐週赴省中向朝廷告發黃巾計畫。",
+      "evidence": [
+        "赴省中告變"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_he_jin",
+      "target": "char_ma_yuanyi",
+      "type": "調兵斬殺",
+      "description": "何進奉命調兵擒馬元義並斬之。",
+      "evidence": [
+        "擒馬元義，斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "event_yellow_turban_uprising",
+      "type": "發動",
+      "description": "張角事露後星夜舉兵。",
+      "evidence": [
+        "星夜舉兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "title_tiangong",
+      "type": "自稱",
+      "description": "張角自稱天公將軍。",
+      "evidence": [
+        "自稱「天公將軍」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_bao",
+      "target": "title_digong",
+      "type": "自稱",
+      "description": "張寶稱地公將軍。",
+      "evidence": [
+        "張寶稱「地公將軍」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liang",
+      "target": "title_rengong",
+      "type": "自稱",
+      "description": "張梁稱人公將軍。",
+      "evidence": [
+        "張梁稱「人公將軍」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "army_yellow_turban",
+      "type": "統領",
+      "description": "黃巾眾從張角起事。",
+      "evidence": [
+        "從張角反者"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_jin",
+      "target": "char_lu_zhi",
+      "type": "派遣討賊",
+      "description": "何進奏帝後，盧植分路討賊。",
+      "evidence": [
+        "盧植...分三路討之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_he_jin",
+      "target": "char_huangfu_song",
+      "type": "派遣討賊",
+      "description": "皇甫嵩奉命分路討賊。",
+      "evidence": [
+        "皇甫嵩...討之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_he_jin",
+      "target": "char_zhu_jun",
+      "type": "派遣討賊",
+      "description": "朱儁奉命分路討賊。",
+      "evidence": [
+        "朱儁...討之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "army_yellow_turban",
+      "target": "loc_youzhou",
+      "type": "攻打",
+      "description": "張角一軍前犯幽州界分。",
+      "evidence": [
+        "前犯幽州界分"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_yan",
+      "target": "title_taishou",
+      "type": "任職",
+      "description": "劉焉任幽州太守。",
+      "evidence": [
+        "幽州太守劉焉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yan",
+      "target": "char_zou_jing",
+      "type": "召議",
+      "description": "劉焉召鄒靖商議應敵。",
+      "evidence": [
+        "召校尉鄒靖計議"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zou_jing",
+      "target": "event_liuyan_recruiting",
+      "type": "獻策",
+      "description": "鄒靖建議速招軍應敵。",
+      "evidence": [
+        "宜作速招軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yan",
+      "target": "obj_notice",
+      "type": "發布",
+      "description": "劉焉出榜招募義兵。",
+      "evidence": [
+        "出榜招募義兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "faction_han",
+      "type": "宗親",
+      "description": "劉備自稱漢室宗親。",
+      "evidence": [
+        "我本漢室宗親"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_fei",
+      "type": "結義",
+      "description": "劉備與張飛桃園結為兄弟。",
+      "evidence": [
+        "既結為兄弟"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guan_yu",
+      "type": "結義",
+      "description": "劉備與關羽桃園結為兄弟。",
+      "evidence": [
+        "既結為兄弟"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_zhang_fei",
+      "type": "結義",
+      "description": "關羽與張飛桃園結為兄弟。",
+      "evidence": [
+        "我三人結為兄弟"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_taoyuan_oath",
+      "target": "loc_taoyuan",
+      "type": "發生於",
+      "description": "桃園結義在張飛莊後桃園舉行。",
+      "evidence": [
+        "莊後有一桃園"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_shiping",
+      "target": "event_merchants_gift",
+      "type": "參與贈資",
+      "description": "張世平參與贈送馬匹與軍資。",
+      "evidence": [
+        "張世平"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_su_shuang",
+      "target": "event_merchants_gift",
+      "type": "參與贈資",
+      "description": "蘇雙參與贈送馬匹與軍資。",
+      "evidence": [
+        "蘇雙"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_merchants_gift",
+      "target": "obj_horse50",
+      "type": "贈與物",
+      "description": "商人贈良馬五十匹。",
+      "evidence": [
+        "良馬五十匹相送"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_merchants_gift",
+      "target": "obj_money_iron",
+      "type": "贈與物",
+      "description": "商人又贈金銀與鐵。",
+      "evidence": [
+        "又贈金銀五百兩"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_shuanggujian",
+      "type": "打造兵器",
+      "description": "劉備命良匠打造雙股劍。",
+      "evidence": [
+        "命良匠打造雙股劍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_qinglongdao",
+      "type": "打造兵器",
+      "description": "關羽造青龍偃月刀。",
+      "evidence": [
+        "雲長造青龍偃月刀"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "obj_zhangba_spear",
+      "type": "打造兵器",
+      "description": "張飛造丈八點鋼矛。",
+      "evidence": [
+        "張飛造丈八點鋼矛"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yan",
+      "target": "char_liu_bei",
+      "type": "認親",
+      "description": "劉焉認劉備為侄。",
+      "evidence": [
+        "認玄德為侄"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cheng_yuanzhi",
+      "target": "army_yellow_turban",
+      "type": "統領",
+      "description": "程遠志統率五萬黃巾來犯涿郡。",
+      "evidence": [
+        "統兵五萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_deng_mao",
+      "target": "char_cheng_yuanzhi",
+      "type": "副將",
+      "description": "鄧茂為程遠志副將。",
+      "evidence": [
+        "副將鄧茂"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yan",
+      "target": "char_zou_jing",
+      "type": "命令出戰",
+      "description": "劉焉令鄒靖引劉備三人破敵。",
+      "evidence": [
+        "令鄒靖引玄德等三人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_daxingshan",
+      "target": "loc_daxingshan",
+      "type": "發生於",
+      "description": "大興山之戰在大興山下發生。",
+      "evidence": [
+        "大興山下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_deng_mao",
+      "type": "殺死",
+      "description": "張飛挺矛刺死鄧茂。",
+      "evidence": [
+        "刺中鄧茂心窩"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_cheng_yuanzhi",
+      "type": "殺死",
+      "description": "關羽揮刀斬程遠志。",
+      "evidence": [
+        "揮為兩段"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "battle_daxingshan",
+      "type": "指揮追擊",
+      "description": "劉備揮軍追趕敗退黃巾。",
+      "evidence": [
+        "玄德揮軍追趕"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_gong_jing",
+      "target": "char_liu_yan",
+      "type": "求援",
+      "description": "龔景致牒文向劉焉求救。",
+      "evidence": [
+        "乞賜救援"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_yan",
+      "target": "battle_qingzhou",
+      "type": "派兵救援",
+      "description": "劉焉令鄒靖率兵與劉備等救青州。",
+      "evidence": [
+        "同玄德、關、張，投青州來"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strategy_qingzhou_ambush",
+      "type": "設計",
+      "description": "劉備提出出奇兵，以伏兵夾攻。",
+      "evidence": [
+        "必出奇兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "strategy_qingzhou_ambush",
+      "type": "執行伏兵",
+      "description": "關羽率一千軍伏山左。",
+      "evidence": [
+        "伏山左"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "strategy_qingzhou_ambush",
+      "type": "執行伏兵",
+      "description": "張飛率一千軍伏山右。",
+      "evidence": [
+        "伏山右"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gong_jing",
+      "target": "army_qingzhou_militia",
+      "type": "統領",
+      "description": "龔景率民兵出城助戰。",
+      "evidence": [
+        "率民兵出城助戰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_qingzhou",
+      "target": "loc_qingzhou",
+      "type": "發生於",
+      "description": "青州解圍戰發生於青州城下。",
+      "evidence": [
+        "青州城下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_lu_zhi",
+      "type": "師事",
+      "description": "劉備早年曾師事盧植。",
+      "evidence": [
+        "昔曾師事盧植"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_guangzong",
+      "type": "行軍支援",
+      "description": "劉備率關、張與本部五百人赴廣宗助盧植。",
+      "evidence": [
+        "投廣宗來"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_zhi",
+      "target": "battle_guangzong",
+      "type": "指揮",
+      "description": "盧植在廣宗圍張角。",
+      "evidence": [
+        "我今圍賊在此"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "battle_guangzong",
+      "type": "敵對",
+      "description": "張角率眾與盧植在廣宗相拒。",
+      "evidence": [
+        "張角賊眾十五萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_zhi",
+      "target": "char_liu_bei",
+      "type": "調派",
+      "description": "盧植令劉備赴潁川打探消息。",
+      "evidence": [
+        "前去潁川打探消息"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangfu_song",
+      "target": "strategy_changshe_fire",
+      "type": "設計",
+      "description": "皇甫嵩與朱儁商議用火攻。",
+      "evidence": [
+        "當用火攻之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "strategy_changshe_fire",
+      "type": "設計",
+      "description": "朱儁與皇甫嵩合計火攻長社。",
+      "evidence": [
+        "嵩與儁計曰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_changshe",
+      "target": "loc_changshe",
+      "type": "發生於",
+      "description": "長社火攻發生於黃巾長社草營。",
+      "evidence": [
+        "退入長社"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangfu_song",
+      "target": "char_zhang_bao",
+      "type": "敵對",
+      "description": "皇甫嵩在潁川對壘張寶等黃巾。",
+      "evidence": [
+        "與皇甫嵩、朱儁對壘"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhu_jun",
+      "target": "char_zhang_liang",
+      "type": "敵對",
+      "description": "朱儁在潁川對壘張梁等黃巾。",
+      "evidence": [
+        "張梁、張寶在潁川"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_jiduwei",
+      "type": "官職",
+      "description": "曹操因黃巾起被拜為騎都尉。",
+      "evidence": [
+        "拜為騎都尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_cao",
+      "type": "統領",
+      "description": "曹操率馬步軍五千赴潁川。",
+      "evidence": [
+        "引馬步軍五千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_bao",
+      "type": "攔截追擊",
+      "description": "曹操截住張寶敗軍並追襲。",
+      "evidence": [
+        "截住去路"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_liang",
+      "type": "攔截追擊",
+      "description": "曹操截住張梁敗軍並追襲。",
+      "evidence": [
+        "追襲張梁、張寶"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_song",
+      "target": "char_cao_cao",
+      "type": "父子",
+      "description": "曹嵩為曹操之父。",
+      "evidence": [
+        "操父曹嵩"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_teng",
+      "target": "char_cao_song",
+      "type": "養父子",
+      "description": "曹嵩是曹騰養子。",
+      "evidence": [
+        "曹騰之養子"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_shao",
+      "target": "char_cao_cao",
+      "type": "評語",
+      "description": "許劭評曹操為治世能臣、亂世姦雄。",
+      "evidence": [
+        "亂世之姦雄"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zuo_feng",
+      "target": "char_lu_zhi",
+      "type": "索賄誣奏",
+      "description": "左豐向盧植索賄不成，回奏其高壘不戰。",
+      "evidence": [
+        "問我索取賄賂"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_lu_zhi",
+      "type": "替代",
+      "description": "董卓奉朝廷之命代領盧植之兵。",
+      "evidence": [
+        "董卓來代將我兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_luzhi_arrest",
+      "target": "obj_prison_cart",
+      "type": "押送工具",
+      "description": "盧植被門檻車押送回京。",
+      "evidence": [
+        "車中之囚，乃盧植"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_jiao",
+      "target": "char_dong_zhuo",
+      "type": "擊敗",
+      "description": "張角殺敗董卓，乘勢追來。",
+      "evidence": [
+        "張角正殺敗董卓"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "battle_rescue_dong",
+      "type": "參與救援",
+      "description": "劉備與關、張衝殺救董卓。",
+      "evidence": [
+        "三人飛馬引軍而出"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "battle_rescue_dong",
+      "type": "參與救援",
+      "description": "關羽參與救董卓之戰。",
+      "evidence": [
+        "玄德引關、張"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "battle_rescue_dong",
+      "type": "參與救援",
+      "description": "張飛參與救董卓，後因董卓無禮欲殺之。",
+      "evidence": [
+        "張飛大怒"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "title_baishen",
+      "type": "輕視",
+      "description": "董卓因劉備白身而不為禮。",
+      "evidence": [
+        "卓甚輕之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_dong_zhuo",
+      "type": "欲殺",
+      "description": "張飛因董卓無禮，欲入帳殺董卓。",
+      "evidence": [
+        "便要提刀入帳"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "event_nanhua_grants_book",
+      "name": "南華授書",
+      "summary": "張角入山採藥遇南華老仙，受《太平要術》三卷。",
+      "participants": [
+        "char_zhang_jiao",
+        "char_nanhua"
+      ],
+      "locations": [],
+      "evidence": [
+        "以天書三卷授之"
+      ]
+    },
+    {
+      "id": "event_yellow_turban_uprising",
+      "name": "黃巾起事",
+      "summary": "唐週告變後，張角事露，與張寶、張梁星夜舉兵反漢。",
+      "participants": [
+        "char_zhang_jiao",
+        "char_zhang_bao",
+        "char_zhang_liang",
+        "army_yellow_turban"
+      ],
+      "locations": [
+        "loc_julu"
+      ],
+      "evidence": [
+        "星夜舉兵"
+      ]
+    },
+    {
+      "id": "event_liuyan_recruiting",
+      "name": "劉焉招軍",
+      "summary": "張角軍犯幽州，劉焉採鄒靖之議，出榜招募義兵。",
+      "participants": [
+        "char_liu_yan",
+        "char_zou_jing",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_youzhou",
+        "loc_zhuoxian"
+      ],
+      "evidence": [
+        "出榜招募義兵"
+      ]
+    },
+    {
+      "id": "event_taoyuan_oath",
+      "name": "桃園結義",
+      "summary": "劉備、關羽、張飛在桃園祭告天地，結為兄弟，同心報國安民。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_taoyuan"
+      ],
+      "evidence": [
+        "既結為兄弟"
+      ]
+    },
+    {
+      "id": "event_merchants_gift",
+      "name": "商人贈資",
+      "summary": "張世平、蘇雙贈良馬、金銀與鐵，資助劉備三人置辦軍器。",
+      "participants": [
+        "char_zhang_shiping",
+        "char_su_shuang",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_zhangfei_zhuang"
+      ],
+      "evidence": [
+        "以資器用"
+      ]
+    },
+    {
+      "id": "battle_daxingshan",
+      "name": "大興山之戰",
+      "summary": "劉備、關羽、張飛率五百鄉勇迎戰程遠志，張飛斬鄧茂，關羽斬程遠志，大勝而回。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_cheng_yuanzhi",
+        "char_deng_mao",
+        "army_liu_bei",
+        "army_yellow_turban"
+      ],
+      "locations": [
+        "loc_daxingshan"
+      ],
+      "evidence": [
+        "大勝而回"
+      ]
+    },
+    {
+      "id": "battle_qingzhou",
+      "name": "青州解圍戰",
+      "summary": "劉備先退後設伏，關羽、張飛左右夾攻，龔景率民兵出城助戰，解除青州之圍。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_zou_jing",
+        "char_gong_jing",
+        "army_qingzhou_militia",
+        "army_yellow_turban"
+      ],
+      "locations": [
+        "loc_qingzhou"
+      ],
+      "evidence": [
+        "遂解青州之圍"
+      ]
+    },
+    {
+      "id": "battle_guangzong",
+      "name": "廣宗對峙",
+      "summary": "盧植以五萬兵圍張角十五萬眾於廣宗，劉備率本部來助並受命往潁川探報。",
+      "participants": [
+        "char_lu_zhi",
+        "char_zhang_jiao",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_guangzong"
+      ],
+      "evidence": [
+        "相拒於廣宗"
+      ]
+    },
+    {
+      "id": "battle_changshe",
+      "name": "長社火攻",
+      "summary": "皇甫嵩、朱儁乘風火攻長社黃巾草營，曹操率軍截擊張梁、張寶敗軍。",
+      "participants": [
+        "char_huangfu_song",
+        "char_zhu_jun",
+        "char_cao_cao",
+        "char_zhang_liang",
+        "char_zhang_bao",
+        "army_cao_cao",
+        "army_yellow_turban"
+      ],
+      "locations": [
+        "loc_changshe",
+        "loc_yingchuan"
+      ],
+      "evidence": [
+        "火焰張天"
+      ]
+    },
+    {
+      "id": "event_luzhi_arrest",
+      "name": "盧植被押",
+      "summary": "左豐索賄不成誣奏盧植，朝廷遣董卓代將其兵，盧植被押回京問罪。",
+      "participants": [
+        "char_lu_zhi",
+        "char_zuo_feng",
+        "char_dong_zhuo",
+        "faction_han"
+      ],
+      "locations": [
+        "loc_guangzong"
+      ],
+      "evidence": [
+        "取我回京問罪"
+      ]
+    },
+    {
+      "id": "battle_rescue_dong",
+      "name": "救董卓之戰",
+      "summary": "劉備、關羽、張飛遇漢軍大敗，衝殺張角軍，救董卓回寨。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_zhang_jiao",
+        "char_dong_zhuo",
+        "army_yellow_turban",
+        "army_han"
+      ],
+      "locations": [],
+      "evidence": [
+        "三人救了董卓"
+      ]
+    }
+  ],
+  "notes": [
+    "抽取依本檔正文可辨識內容；少量異文以 aliases 保留。",
+    "未加入正文無直接支持的後續史實關係。"
+  ]
+}

@@ -1,0 +1,1462 @@
+{
+  "book": "三國演義",
+  "chapter_no": 43,
+  "chapter_title": "諸葛亮舌戰群儒　魯子敬力排眾議",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "c043_char_zhugeliang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "臥龍先生",
+        "亮"
+      ],
+      "description": "劉備謀士，隨魯肅赴江東，舌戰群儒，並以言語激孫權抗曹。",
+      "evidence": [
+        "魯肅、孔明辭了玄德",
+        "眾人見孔明對答如流",
+        "我自有破曹之計"
+      ]
+    },
+    {
+      "id": "c043_char_lusu",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "子敬",
+        "魯子敬",
+        "肅"
+      ],
+      "description": "東吳重臣，迎諸葛亮入江東，私下勸孫權不可降曹，並反駁降議。",
+      "evidence": [
+        "魯肅隨於權後",
+        "眾人皆可降曹操，惟將軍不可",
+        "魯肅入見曰"
+      ]
+    },
+    {
+      "id": "c043_char_liubei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉豫州",
+        "豫州"
+      ],
+      "description": "諸葛亮所事之主，敗後屯兵夏口，仍被諸葛亮稱為王室之冑。",
+      "evidence": [
+        "吾主劉豫州",
+        "退守夏口",
+        "劉豫州王室之冑"
+      ]
+    },
+    {
+      "id": "c043_char_liuqi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [],
+      "description": "與劉備一方同在江夏，後被諸葛亮列為可抗曹的兵力來源。",
+      "evidence": [
+        "辭了玄德、劉琦",
+        "劉琦領江夏戰士"
+      ]
+    },
+    {
+      "id": "c043_char_sunquan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "孫將軍",
+        "吳侯",
+        "權"
+      ],
+      "description": "東吳之主，面對曹操南下與降戰兩議猶豫，受魯肅與諸葛亮影響。",
+      "evidence": [
+        "權正聚文武於堂上議事",
+        "孤不能以全吳之地，受制於人",
+        "猶豫不決"
+      ]
+    },
+    {
+      "id": "c043_char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹公",
+        "操",
+        "操賊"
+      ],
+      "description": "北方強敵，已得荊州之兵，屯江漢並準備戰船，意圖江東。",
+      "evidence": [
+        "曹操檄文",
+        "今曹操屯兵於江漢",
+        "不欲圖江東，待取何地"
+      ]
+    },
+    {
+      "id": "c043_char_zhangzhao",
+      "name": "張昭",
+      "type": "character",
+      "aliases": [
+        "張子佈",
+        "張子布"
+      ],
+      "description": "東吳謀士，主張降曹，並率先與諸葛亮辯論。",
+      "evidence": [
+        "張昭又曰",
+        "如降操，則東吳民安",
+        "說得張昭並無一言回答"
+      ]
+    },
+    {
+      "id": "c043_char_guyong",
+      "name": "顧雍",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳文臣，附和張昭反對孫權興兵。",
+      "evidence": [
+        "張昭、顧雍等",
+        "顧雍曰",
+        "願聽子佈之言"
+      ]
+    },
+    {
+      "id": "c043_char_yufan",
+      "name": "虞翻",
+      "type": "character",
+      "aliases": [],
+      "description": "江東群儒之一，質問曹軍百萬之勢，被諸葛亮駁倒。",
+      "evidence": [
+        "乃虞翻也",
+        "虞翻不能對"
+      ]
+    },
+    {
+      "id": "c043_char_bucheng",
+      "name": "步騁",
+      "type": "character",
+      "aliases": [
+        "步子山"
+      ],
+      "description": "江東群儒之一，以儀、秦遊說質疑諸葛亮。",
+      "evidence": [
+        "乃步騁也",
+        "步子山以蘇秦張儀為辯士"
+      ]
+    },
+    {
+      "id": "c043_char_xuezong",
+      "name": "薛綜",
+      "type": "character",
+      "aliases": [],
+      "description": "江東群儒之一，詢問諸葛亮如何看待曹操。",
+      "evidence": [
+        "乃薛綜也",
+        "孔明以曹操何如人也"
+      ]
+    },
+    {
+      "id": "c043_char_luji",
+      "name": "陸績",
+      "type": "character",
+      "aliases": [
+        "陸郎"
+      ],
+      "description": "江東群儒之一，以曹操出身與劉備身世發難。",
+      "evidence": [
+        "乃陸績也",
+        "懷桔之陸郎"
+      ]
+    },
+    {
+      "id": "c043_char_yansuan",
+      "name": "嚴酸",
+      "type": "character",
+      "aliases": [],
+      "description": "江東群儒之一，質問諸葛亮治何經典。",
+      "evidence": [
+        "乃嚴酸也",
+        "請問孔明治何經典"
+      ]
+    },
+    {
+      "id": "c043_char_chengdeshu",
+      "name": "程德樞",
+      "type": "character",
+      "aliases": [
+        "汝南程德樞"
+      ],
+      "description": "江東群儒之一，質疑諸葛亮大言無實學。",
+      "evidence": [
+        "乃汝南程德樞也",
+        "公好為大言"
+      ]
+    },
+    {
+      "id": "c043_char_huanggai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳武將，勸諸葛亮停止與群儒辯論，轉向孫權進言。",
+      "evidence": [
+        "黃蓋謂孔明曰",
+        "黃蓋與魯肅引孔明入"
+      ]
+    },
+    {
+      "id": "c043_char_zhugjin",
+      "name": "諸葛瑾",
+      "type": "character",
+      "aliases": [],
+      "description": "諸葛亮之兄，在江東與諸葛亮相遇。",
+      "evidence": [
+        "正遇諸葛瑾",
+        "賢弟既到江東"
+      ]
+    },
+    {
+      "id": "c043_char_guanyu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "關雲長"
+      ],
+      "description": "劉備部將，仍率精兵萬人，被諸葛亮列為抗曹力量。",
+      "evidence": [
+        "關雲長猶率精兵萬人"
+      ]
+    },
+    {
+      "id": "c043_char_wuguotai",
+      "name": "吳國太",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權內宅長輩，見孫權寢食不安而詢問其憂。",
+      "evidence": [
+        "吳國太見權如此",
+        "何事在心"
+      ]
+    },
+    {
+      "id": "c043_char_liucong",
+      "name": "劉琮",
+      "type": "character",
+      "aliases": [],
+      "description": "荊州繼承者，投降曹操，使曹操得荊州之兵。",
+      "evidence": [
+        "劉琮束手",
+        "劉琮孺子，聽信佞言，暗自投降"
+      ]
+    },
+    {
+      "id": "c043_char_zhangwen",
+      "name": "張溫",
+      "type": "character",
+      "aliases": [],
+      "description": "座上文士，欲再問難諸葛亮。",
+      "evidence": [
+        "張溫、駱統二人，又欲問難"
+      ]
+    },
+    {
+      "id": "c043_char_luotong",
+      "name": "駱統",
+      "type": "character",
+      "aliases": [],
+      "description": "座上文士，欲再問難諸葛亮。",
+      "evidence": [
+        "張溫、駱統二人，又欲問難"
+      ]
+    },
+    {
+      "id": "c043_faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "江東",
+        "全吳"
+      ],
+      "description": "孫權所領勢力，正面臨曹操南下與降戰抉擇。",
+      "evidence": [
+        "東吳民安",
+        "全吳之地",
+        "江東兵精糧足"
+      ]
+    },
+    {
+      "id": "c043_faction_liubei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "劉豫州軍"
+      ],
+      "description": "劉備、諸葛亮、關羽、劉琦等所屬一方，欲聯吳抗曹。",
+      "evidence": [
+        "弟既事劉豫州",
+        "關雲長猶率精兵萬人",
+        "劉琦領江夏戰士"
+      ]
+    },
+    {
+      "id": "c043_faction_caocao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹兵"
+      ],
+      "description": "曹操所統軍政勢力，已得袁紹、荊州之眾並南指江東。",
+      "evidence": [
+        "曹兵共有多少",
+        "統雄兵百萬",
+        "近又得荊州之兵"
+      ]
+    },
+    {
+      "id": "c043_faction_jiangdong_qunru",
+      "name": "江東群儒",
+      "type": "faction",
+      "aliases": [
+        "一班文武",
+        "文官"
+      ],
+      "description": "東吳堂上多名文臣謀士，多主降議並與諸葛亮辯論。",
+      "evidence": [
+        "一班文武二十餘人",
+        "諸君不知世務",
+        "文官都是要降的"
+      ]
+    },
+    {
+      "id": "c043_location_chaisang",
+      "name": "柴桑郡",
+      "type": "location",
+      "aliases": [
+        "柴桑"
+      ],
+      "description": "魯肅與諸葛亮乘舟前往之地，孫權議事所在。",
+      "evidence": [
+        "登舟望柴桑郡來"
+      ]
+    },
+    {
+      "id": "c043_location_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備、劉琦相關軍事據點，也是曹操檄文中會獵共伐之地。",
+      "evidence": [
+        "往江夏",
+        "會獵於江夏",
+        "劉琦領江夏戰士"
+      ]
+    },
+    {
+      "id": "c043_location_guanyi",
+      "name": "館驛",
+      "type": "location",
+      "aliases": [],
+      "description": "魯肅安置諸葛亮暫歇之處。",
+      "evidence": [
+        "請孔明於館驛中暫歇",
+        "現在館驛中安歇"
+      ]
+    },
+    {
+      "id": "c043_location_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [
+        "荊襄",
+        "荊楚"
+      ],
+      "description": "劉琮投降後落入曹操之手，成為曹軍兵源。",
+      "evidence": [
+        "荊襄之民",
+        "近又得荊州之兵",
+        "平了荊、楚"
+      ]
+    },
+    {
+      "id": "c043_location_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備兵敗後退守之處。",
+      "evidence": [
+        "奔夏口",
+        "退守夏口"
+      ]
+    },
+    {
+      "id": "c043_location_xinye",
+      "name": "新野",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備曾暫藉容身之小縣，後被張昭指為棄守。",
+      "evidence": [
+        "新野山僻小縣",
+        "棄新野"
+      ]
+    },
+    {
+      "id": "c043_location_fancheng",
+      "name": "樊城",
+      "type": "location",
+      "aliases": [],
+      "description": "張昭追述劉備敗退路線中的地點。",
+      "evidence": [
+        "走樊城"
+      ]
+    },
+    {
+      "id": "c043_location_dangyang",
+      "name": "當陽",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備兵敗之地。",
+      "evidence": [
+        "敗當陽",
+        "當陽之敗"
+      ]
+    },
+    {
+      "id": "c043_location_jianghan",
+      "name": "江漢",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操屯兵之地，構成東吳危機。",
+      "evidence": [
+        "曹操屯兵於江漢"
+      ]
+    },
+    {
+      "id": "c043_location_jiangnan",
+      "name": "江南",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操有意南下之目標區域。",
+      "evidence": [
+        "有下江南之意",
+        "江南六郡可保"
+      ]
+    },
+    {
+      "id": "c043_location_changjiang",
+      "name": "長江",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛亮指出江東可憑藉的天險。",
+      "evidence": [
+        "且有長江之險"
+      ]
+    },
+    {
+      "id": "c043_location_runan",
+      "name": "汝南",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備昔日軍敗之地，也是程德樞籍貫。",
+      "evidence": [
+        "軍敗於汝南",
+        "汝南程德樞"
+      ]
+    },
+    {
+      "id": "c043_battle_bowang",
+      "name": "博望燒屯",
+      "type": "battle",
+      "aliases": [],
+      "description": "諸葛亮舉出的劉備軍早前戰績，用以反駁張昭。",
+      "evidence": [
+        "博望燒屯"
+      ]
+    },
+    {
+      "id": "c043_battle_baihe",
+      "name": "白河用水",
+      "type": "battle",
+      "aliases": [],
+      "description": "諸葛亮舉出的劉備軍用水破敵戰績。",
+      "evidence": [
+        "白河用水"
+      ]
+    },
+    {
+      "id": "c043_battle_dangyang",
+      "name": "當陽之敗",
+      "type": "battle",
+      "aliases": [],
+      "description": "劉備攜民緩行而敗，諸葛亮解釋為仁義所致。",
+      "evidence": [
+        "當陽之敗",
+        "不忍棄之"
+      ]
+    },
+    {
+      "id": "c043_event_tongue_debate",
+      "name": "舌戰群儒",
+      "type": "event",
+      "aliases": [
+        "諸葛亮舌戰群儒"
+      ],
+      "description": "諸葛亮在江東幕下連續駁倒張昭、虞翻等群儒。",
+      "evidence": [
+        "互相問難，不容不答",
+        "眾人見孔明對答如流"
+      ]
+    },
+    {
+      "id": "c043_event_lusu_advice",
+      "name": "魯肅力排眾議",
+      "type": "event",
+      "aliases": [
+        "魯子敬力排眾議"
+      ],
+      "description": "魯肅私下與公開反對降曹，勸孫權早定抗曹大計。",
+      "evidence": [
+        "惟將軍不可降曹操",
+        "主公勿聽也"
+      ]
+    },
+    {
+      "id": "c043_event_sunquan_hesitation",
+      "name": "孫權猶豫降戰",
+      "type": "event",
+      "aliases": [],
+      "description": "孫權面對曹操南下，戰降未決，寢食不安。",
+      "evidence": [
+        "孫權沉吟未決",
+        "寢食不安，猶豫不決"
+      ]
+    },
+    {
+      "id": "c043_object_caocao_xiwen",
+      "name": "曹操檄文",
+      "type": "object",
+      "aliases": [
+        "檄文"
+      ],
+      "description": "曹操送至孫權處的文書，宣稱奉帝命並邀孫權共伐劉備。",
+      "evidence": [
+        "權將曹操檄文示肅",
+        "共伐劉備，同分土地"
+      ]
+    },
+    {
+      "id": "c043_object_warships",
+      "name": "戰船",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操沿江準備的軍用船隻，被諸葛亮視為圖江東的徵兆。",
+      "evidence": [
+        "準備戰船"
+      ]
+    },
+    {
+      "id": "c043_strategy_surrender_cao",
+      "name": "降曹議",
+      "type": "strategy",
+      "aliases": [
+        "投降曹操",
+        "降議"
+      ],
+      "description": "張昭、顧雍等文臣主張向曹操投降以保江東。",
+      "evidence": [
+        "如降操，則東吳民安",
+        "力主降議"
+      ]
+    },
+    {
+      "id": "c043_strategy_resist_cao",
+      "name": "抗曹議",
+      "type": "strategy",
+      "aliases": [
+        "興兵與曹操爭鋒",
+        "要戰"
+      ],
+      "description": "魯肅與部分武將支持的抗曹立場。",
+      "evidence": [
+        "將軍宜早定大計",
+        "武將或有要戰的"
+      ]
+    },
+    {
+      "id": "c043_strategy_provoke_sunquan",
+      "name": "激將之計",
+      "type": "strategy",
+      "aliases": [
+        "以言激之"
+      ],
+      "description": "諸葛亮判斷孫權只可激不可說，遂以言語促其決斷。",
+      "evidence": [
+        "只可激，不可說",
+        "用言激之便了"
+      ]
+    },
+    {
+      "id": "c043_strategy_defeat_cao",
+      "name": "破曹之計",
+      "type": "strategy",
+      "aliases": [
+        "破曹之策",
+        "良謀"
+      ],
+      "description": "諸葛亮聲稱自有擊破曹操之策，魯肅據此促孫權求教。",
+      "evidence": [
+        "我自有破曹之計",
+        "破曹之策"
+      ]
+    },
+    {
+      "id": "c043_strategy_hide_strength",
+      "name": "勿言曹兵多",
+      "type": "strategy",
+      "aliases": [
+        "不可言曹操兵多"
+      ],
+      "description": "魯肅反覆叮囑諸葛亮勿向孫權明言曹操兵多將廣。",
+      "evidence": [
+        "切不可實言曹操兵多將廣",
+        "切不可言曹操兵多"
+      ]
+    },
+    {
+      "id": "c043_strategy_borrow_troops",
+      "name": "借江東之兵以拒曹",
+      "type": "strategy",
+      "aliases": [
+        "借兵拒曹"
+      ],
+      "description": "顧雍對劉備意圖的指稱，認為劉備欲借東吳兵力抵拒曹操。",
+      "evidence": [
+        "欲借我江東之兵以拒之"
+      ]
+    },
+    {
+      "id": "c043_army_cao_million",
+      "name": "曹操百萬雄兵",
+      "type": "army",
+      "aliases": [
+        "雄兵百萬",
+        "馬步水軍"
+      ],
+      "description": "曹操號稱南下的大軍，諸葛亮估算不下一百五十萬。",
+      "evidence": [
+        "統雄兵百萬",
+        "馬步水軍，約有一百餘萬",
+        "不下一百五十萬"
+      ]
+    },
+    {
+      "id": "c043_army_qingzhou",
+      "name": "青州軍",
+      "type": "army",
+      "aliases": [],
+      "description": "諸葛亮列入曹操兵力計算的舊部。",
+      "evidence": [
+        "已有青州軍二十萬"
+      ]
+    },
+    {
+      "id": "c043_army_jingzhou",
+      "name": "荊州之軍",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操因劉琮投降而取得的荊州兵力。",
+      "evidence": [
+        "今又得荊州之軍二三十萬"
+      ]
+    },
+    {
+      "id": "c043_army_jiangdong",
+      "name": "江東兵",
+      "type": "army",
+      "aliases": [],
+      "description": "諸葛亮稱江東兵精糧足，可憑長江抗曹。",
+      "evidence": [
+        "江東兵精糧足"
+      ]
+    },
+    {
+      "id": "c043_army_guanyu_elite",
+      "name": "關雲長精兵",
+      "type": "army",
+      "aliases": [
+        "精兵萬人"
+      ],
+      "description": "關羽所率劉備軍精兵，約萬人。",
+      "evidence": [
+        "關雲長猶率精兵萬人"
+      ]
+    },
+    {
+      "id": "c043_army_jiangxia_warriors",
+      "name": "江夏戰士",
+      "type": "army",
+      "aliases": [],
+      "description": "劉琦所領江夏兵力，約萬人。",
+      "evidence": [
+        "劉琦領江夏戰士，亦不下萬人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "c043_char_lusu",
+      "target": "c043_char_zhugeliang",
+      "type": "同行",
+      "description": "魯肅與諸葛亮辭別劉備、劉琦後同赴柴桑。",
+      "evidence": [
+        "魯肅、孔明辭了玄德、劉琦",
+        "登舟望柴桑郡來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_liubei",
+      "type": "輔佐",
+      "description": "諸葛亮明言自己事奉劉備，並代表劉備向孫權致意。",
+      "evidence": [
+        "弟既事劉豫州",
+        "孔明致玄德之意"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c043_char_lusu",
+      "target": "c043_char_sunquan",
+      "type": "臣屬進言",
+      "description": "魯肅向孫權回報江夏情勢並多次進言。",
+      "evidence": [
+        "急召入問曰",
+        "子敬開說大計"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_sunquan",
+      "target": "c043_faction_dongwu",
+      "type": "統領",
+      "description": "孫權為東吳之主，掌握全吳降戰決策。",
+      "evidence": [
+        "主公",
+        "全吳之地"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_object_caocao_xiwen",
+      "type": "發出",
+      "description": "曹操以檄文向孫權示威並提出共伐劉備。",
+      "evidence": [
+        "曹操檄文",
+        "共伐劉備，同分土地"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_object_caocao_xiwen",
+      "target": "c043_char_sunquan",
+      "type": "送達",
+      "description": "孫權將曹操檄文展示給魯肅觀看。",
+      "evidence": [
+        "權將曹操檄文示肅"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c043_char_liucong",
+      "target": "c043_char_caocao",
+      "type": "投降",
+      "description": "劉琮暗自投降，使曹操得以取得荊州。",
+      "evidence": [
+        "劉琮束手",
+        "暗自投降"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_location_jingzhou",
+      "type": "取得",
+      "description": "曹操平定荊楚並取得荊州兵力。",
+      "evidence": [
+        "平了荊、楚",
+        "近又得荊州之兵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_char_liubei",
+      "type": "敵對征討",
+      "description": "曹操檄文邀孫權共同攻伐劉備。",
+      "evidence": [
+        "共伐劉備"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c043_char_zhangzhao",
+      "target": "c043_strategy_surrender_cao",
+      "type": "主張",
+      "description": "張昭認為降曹可以保東吳民安與江南六郡。",
+      "evidence": [
+        "如降操，則東吳民安"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c043_char_lusu",
+      "target": "c043_strategy_surrender_cao",
+      "type": "反對",
+      "description": "魯肅指出眾人可降而孫權不可降。",
+      "evidence": [
+        "眾人皆可降曹操，惟將軍不可"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c043_char_lusu",
+      "target": "c043_strategy_resist_cao",
+      "type": "主張",
+      "description": "魯肅勸孫權早定抗曹大計。",
+      "evidence": [
+        "將軍宜早定大計"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c043_char_lusu",
+      "target": "c043_char_zhugeliang",
+      "type": "引薦",
+      "description": "魯肅向孫權推薦諸葛亮以問曹軍虛實。",
+      "evidence": [
+        "引諸葛瑾之弟諸葛亮在此",
+        "主公可問之"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c043_char_lusu",
+      "target": "c043_strategy_hide_strength",
+      "type": "叮囑",
+      "description": "魯肅要求諸葛亮見孫權時不要強調曹操兵多。",
+      "evidence": [
+        "切不可實言曹操兵多將廣",
+        "切不可言曹操兵多"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_zhangzhao",
+      "type": "辯駁",
+      "description": "諸葛亮先駁倒張昭對劉備敗局的責難。",
+      "evidence": [
+        "說得張昭並無一言回答"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_yufan",
+      "type": "辯駁",
+      "description": "虞翻以曹軍百萬發難，諸葛亮答後使其不能對。",
+      "evidence": [
+        "乃虞翻也",
+        "虞翻不能對"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_bucheng",
+      "type": "辯駁",
+      "description": "步騁以儀、秦之舌質疑諸葛亮，諸葛亮反譏畏強者。",
+      "evidence": [
+        "孔明欲效儀、秦之舌",
+        "非比畏強凌弱"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_xuezong",
+      "type": "辯駁",
+      "description": "薛綜詢問曹操為何人，諸葛亮直稱曹操為漢賊。",
+      "evidence": [
+        "乃薛綜也",
+        "曹操乃漢賊也"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_luji",
+      "type": "辯駁",
+      "description": "陸績以曹操與劉備出身發難，諸葛亮反斥曹操不臣。",
+      "evidence": [
+        "乃陸績也",
+        "欺凌君父"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_yansuan",
+      "type": "辯駁",
+      "description": "嚴酸問治何經典，諸葛亮以腐儒之論回擊。",
+      "evidence": [
+        "請問孔明治何經典",
+        "尋章摘句，世之腐儒"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_chengdeshu",
+      "type": "辯駁",
+      "description": "程德樞質疑諸葛亮大言無實學，諸葛亮分君子儒與小人儒作答。",
+      "evidence": [
+        "公好為大言",
+        "儒有君子小人之別"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c043_char_huanggai",
+      "target": "c043_char_zhugeliang",
+      "type": "勸止辯論",
+      "description": "黃蓋勸諸葛亮不要再與眾人辯論，應向孫權陳說。",
+      "evidence": [
+        "不如默而無言",
+        "為我主言之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_huanggai",
+      "target": "c043_char_lusu",
+      "type": "協同引見",
+      "description": "黃蓋與魯肅一同引諸葛亮入見孫權。",
+      "evidence": [
+        "黃蓋與魯肅引孔明入"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_char_zhugjin",
+      "type": "兄弟",
+      "description": "諸葛瑾稱諸葛亮為賢弟，諸葛亮稱其為兄。",
+      "evidence": [
+        "賢弟既到江東",
+        "望兄見諒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c043_char_sunquan",
+      "target": "c043_char_zhugeliang",
+      "type": "接見禮遇",
+      "description": "孫權降階迎接諸葛亮並賜坐。",
+      "evidence": [
+        "降階而迎",
+        "優禮相待",
+        "賜孔明坐"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_strategy_provoke_sunquan",
+      "type": "使用",
+      "description": "諸葛亮判斷孫權需用激將法，並以言語刺激其決斷。",
+      "evidence": [
+        "只可激，不可說",
+        "用言激之便了"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c043_strategy_provoke_sunquan",
+      "target": "c043_char_sunquan",
+      "type": "作用於",
+      "description": "激將言語使孫權怒而後轉求破曹之策。",
+      "evidence": [
+        "孔明欺吾太甚",
+        "原來孔明有良謀"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_army_cao_million",
+      "type": "陳述兵力",
+      "description": "諸葛亮向孫權說明曹操馬步水軍約百餘萬。",
+      "evidence": [
+        "馬步水軍，約有一百餘萬"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_army_cao_million",
+      "type": "統率",
+      "description": "曹操統領南下大軍。",
+      "evidence": [
+        "今統雄兵百萬"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_army_qingzhou",
+      "type": "擁有",
+      "description": "諸葛亮稱曹操在兗州已有青州軍二十萬。",
+      "evidence": [
+        "已有青州軍二十萬"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_army_jingzhou",
+      "type": "取得",
+      "description": "曹操因得荊州而增兵二三十萬。",
+      "evidence": [
+        "今又得荊州之軍二三十萬"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_object_warships",
+      "type": "準備",
+      "description": "曹操沿江下寨並準備戰船。",
+      "evidence": [
+        "準備戰船"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_location_jianghan",
+      "type": "屯兵",
+      "description": "孫權稱曹操屯兵江漢。",
+      "evidence": [
+        "曹操屯兵於江漢"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_location_jiangnan",
+      "type": "意圖南下",
+      "description": "孫權認為曹操有下江南之意。",
+      "evidence": [
+        "有下江南之意"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c043_char_caocao",
+      "target": "c043_faction_dongwu",
+      "type": "威脅",
+      "description": "曹操準備戰船，被諸葛亮解讀為意在圖江東。",
+      "evidence": [
+        "不欲圖江東，待取何地"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c043_char_zhugeliang",
+      "target": "c043_strategy_defeat_cao",
+      "type": "聲稱掌握",
+      "description": "諸葛亮告訴魯肅自己有破曹之計。",
+      "evidence": [
+        "我自有破曹之計"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c043_char_lusu",
+      "target": "c043_char_sunquan",
+      "type": "促請求策",
+      "description": "魯肅告知孫權諸葛亮有破曹之策，促孫權求之。",
+      "evidence": [
+        "破曹之策，孔明不肯輕言",
+        "主公何不求之"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c043_char_sunquan",
+      "target": "c043_char_zhugeliang",
+      "type": "謝罪設宴",
+      "description": "孫權轉怒為喜，向諸葛亮致歉並置酒相待。",
+      "evidence": [
+        "謝曰",
+        "置酒相待"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_guanyu",
+      "target": "c043_army_guanyu_elite",
+      "type": "統率",
+      "description": "關羽仍率領萬名精兵。",
+      "evidence": [
+        "關雲長猶率精兵萬人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c043_army_guanyu_elite",
+      "target": "c043_faction_liubei",
+      "type": "隸屬",
+      "description": "關羽精兵屬於劉備一方可用兵力。",
+      "evidence": [
+        "豫州雖新敗，然關雲長猶率精兵萬人"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c043_char_liuqi",
+      "target": "c043_army_jiangxia_warriors",
+      "type": "統率",
+      "description": "劉琦領有江夏戰士，不下萬人。",
+      "evidence": [
+        "劉琦領江夏戰士，亦不下萬人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c043_army_jiangxia_warriors",
+      "target": "c043_location_jiangxia",
+      "type": "駐地關聯",
+      "description": "江夏戰士與江夏地方兵力相關。",
+      "evidence": [
+        "江夏戰士"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c043_char_zhangzhao",
+      "target": "c043_char_sunquan",
+      "type": "再勸勿戰",
+      "description": "張昭得知孫權欲興兵後，再入見勸其勿輕敵。",
+      "evidence": [
+        "主公將興兵與曹操爭鋒",
+        "豈可輕敵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c043_char_guyong",
+      "target": "c043_char_zhangzhao",
+      "type": "附議",
+      "description": "顧雍贊同張昭意見，勸孫權聽從子布。",
+      "evidence": [
+        "願聽子佈之言"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c043_char_guyong",
+      "target": "c043_strategy_borrow_troops",
+      "type": "指稱",
+      "description": "顧雍認為劉備因敗於曹操，欲借江東兵拒曹。",
+      "evidence": [
+        "故欲借我江東之兵以拒之"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c043_char_lusu",
+      "target": "c043_char_zhangzhao",
+      "type": "駁斥",
+      "description": "魯肅批評張昭等降議為自保妻子之計。",
+      "evidence": [
+        "張子佈等，又勸主公休動兵",
+        "為自謀之計"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c043_faction_jiangdong_qunru",
+      "target": "c043_strategy_surrender_cao",
+      "type": "多數主張",
+      "description": "東吳文官多持降曹立場。",
+      "evidence": [
+        "文官都是要降的"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c043_faction_dongwu",
+      "target": "c043_strategy_resist_cao",
+      "type": "部分支持",
+      "description": "東吳武將中有人主張作戰抗曹。",
+      "evidence": [
+        "武將或有要戰的"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "c043_char_liubei",
+      "target": "c043_location_xiakou",
+      "type": "退守",
+      "description": "劉備敗後退守夏口以待時機。",
+      "evidence": [
+        "退守夏口，所以待時也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_char_liubei",
+      "target": "c043_battle_dangyang",
+      "type": "經歷",
+      "description": "諸葛亮承認劉備在當陽失敗，但解釋為不忍棄民。",
+      "evidence": [
+        "當陽之敗",
+        "不忍棄之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c043_faction_liubei",
+      "target": "c043_battle_bowang",
+      "type": "戰績",
+      "description": "諸葛亮以博望燒屯說明劉備軍曾有有效用兵。",
+      "evidence": [
+        "博望燒屯"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "source": "c043_faction_liubei",
+      "target": "c043_battle_baihe",
+      "type": "戰績",
+      "description": "諸葛亮以白河用水說明劉備軍曾克制曹軍。",
+      "evidence": [
+        "白河用水"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "source": "c043_char_wuguotai",
+      "target": "c043_char_sunquan",
+      "type": "詢問",
+      "description": "吳國太見孫權寢食俱廢，詢問其所憂。",
+      "evidence": [
+        "何事在心，寢食俱廢"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c043_char_sunquan",
+      "target": "c043_char_wuguotai",
+      "type": "說明危局",
+      "description": "孫權向吳國太說明曹操屯江漢、東吳戰降難決。",
+      "evidence": [
+        "今曹操屯兵於江漢",
+        "猶豫不決"
+      ],
+      "confidence": 0.96
+    }
+  ],
+  "events": [
+    {
+      "id": "c043_evt_01",
+      "name": "魯肅與諸葛亮赴柴桑",
+      "summary": "魯肅、諸葛亮辭別劉備與劉琦，乘舟前往柴桑，途中魯肅叮囑勿言曹操兵多。",
+      "participants": [
+        "c043_char_lusu",
+        "c043_char_zhugeliang",
+        "c043_char_liubei",
+        "c043_char_liuqi"
+      ],
+      "locations": [
+        "c043_location_jiangxia",
+        "c043_location_chaisang"
+      ],
+      "evidence": [
+        "辭了玄德、劉琦",
+        "登舟望柴桑郡來",
+        "切不可實言曹操兵多"
+      ]
+    },
+    {
+      "id": "c043_evt_02",
+      "name": "孫權閱曹操檄文並召議",
+      "summary": "孫權向魯肅展示曹操檄文，曹操宣稱兵多將廣並邀共伐劉備，張昭等遂倡降曹。",
+      "participants": [
+        "c043_char_sunquan",
+        "c043_char_lusu",
+        "c043_char_caocao",
+        "c043_char_zhangzhao"
+      ],
+      "locations": [
+        "c043_location_chaisang",
+        "c043_location_jiangxia"
+      ],
+      "evidence": [
+        "權將曹操檄文示肅",
+        "統雄兵百萬",
+        "如降操"
+      ]
+    },
+    {
+      "id": "c043_evt_03",
+      "name": "魯肅私勸孫權不可降曹",
+      "summary": "魯肅私下指出群臣可降而孫權不可降，勸其早定大計，並薦諸葛亮問曹軍虛實。",
+      "participants": [
+        "c043_char_lusu",
+        "c043_char_sunquan",
+        "c043_char_zhugeliang"
+      ],
+      "locations": [
+        "c043_location_chaisang"
+      ],
+      "evidence": [
+        "惟將軍不可降曹操",
+        "主公可問之"
+      ]
+    },
+    {
+      "id": "c043_evt_04",
+      "name": "諸葛亮舌戰江東群儒",
+      "summary": "諸葛亮在東吳文武前連續回應張昭、虞翻、步騁、薛綜、陸績、嚴酸、程德樞等人的問難。",
+      "participants": [
+        "c043_char_zhugeliang",
+        "c043_char_zhangzhao",
+        "c043_char_yufan",
+        "c043_char_bucheng",
+        "c043_char_xuezong",
+        "c043_char_luji",
+        "c043_char_yansuan",
+        "c043_char_chengdeshu",
+        "c043_faction_jiangdong_qunru"
+      ],
+      "locations": [
+        "c043_location_chaisang"
+      ],
+      "evidence": [
+        "一班文武二十餘人",
+        "眾人見孔明對答如流"
+      ]
+    },
+    {
+      "id": "c043_evt_05",
+      "name": "黃蓋與魯肅引孔明入見",
+      "summary": "黃蓋勸諸葛亮停止辯論，與魯肅引其入內；途中諸葛亮與兄長諸葛瑾相遇。",
+      "participants": [
+        "c043_char_huanggai",
+        "c043_char_lusu",
+        "c043_char_zhugeliang",
+        "c043_char_zhugjin"
+      ],
+      "locations": [
+        "c043_location_chaisang"
+      ],
+      "evidence": [
+        "黃蓋與魯肅引孔明入",
+        "正遇諸葛瑾"
+      ]
+    },
+    {
+      "id": "c043_evt_06",
+      "name": "孫權接見諸葛亮並受激",
+      "summary": "孫權禮遇諸葛亮，詢問曹軍虛實與戰降決斷；諸葛亮以激將之言促孫權思戰。",
+      "participants": [
+        "c043_char_sunquan",
+        "c043_char_zhugeliang",
+        "c043_char_lusu",
+        "c043_char_caocao",
+        "c043_char_liubei"
+      ],
+      "locations": [
+        "c043_location_chaisang"
+      ],
+      "evidence": [
+        "降階而迎",
+        "曹兵共有多少",
+        "事急而不斷"
+      ]
+    },
+    {
+      "id": "c043_evt_07",
+      "name": "孫權求破曹之策",
+      "summary": "魯肅告知孫權諸葛亮有破曹之策，孫權向諸葛亮致歉，置酒相待並聽其分析劉備可用兵力。",
+      "participants": [
+        "c043_char_sunquan",
+        "c043_char_lusu",
+        "c043_char_zhugeliang",
+        "c043_char_liubei",
+        "c043_char_guanyu",
+        "c043_char_liuqi"
+      ],
+      "locations": [
+        "c043_location_chaisang",
+        "c043_location_jiangxia"
+      ],
+      "evidence": [
+        "破曹之策",
+        "置酒相待",
+        "關雲長猶率精兵萬人"
+      ]
+    },
+    {
+      "id": "c043_evt_08",
+      "name": "張昭顧雍再倡降議，魯肅反駁",
+      "summary": "張昭與顧雍再勸孫權勿興兵，稱劉備欲借江東兵拒曹；魯肅入見反駁，指降議出於自保。",
+      "participants": [
+        "c043_char_zhangzhao",
+        "c043_char_guyong",
+        "c043_char_sunquan",
+        "c043_char_lusu",
+        "c043_char_liubei",
+        "c043_char_caocao"
+      ],
+      "locations": [
+        "c043_location_chaisang"
+      ],
+      "evidence": [
+        "主公將興兵與曹操爭鋒",
+        "欲借我江東之兵",
+        "主公勿聽也"
+      ]
+    },
+    {
+      "id": "c043_evt_09",
+      "name": "孫權向吳國太述憂",
+      "summary": "孫權退入內宅，因曹操屯江漢且東吳文武戰降不一而寢食不安，向吳國太說明困境。",
+      "participants": [
+        "c043_char_sunquan",
+        "c043_char_wuguotai",
+        "c043_char_caocao",
+        "c043_faction_dongwu"
+      ],
+      "locations": [
+        "c043_location_jianghan",
+        "c043_location_jiangnan"
+      ],
+      "evidence": [
+        "寢食不安，猶豫不決",
+        "曹操屯兵於江漢",
+        "有下江南之意"
+      ]
+    }
+  ],
+  "notes": [
+    "抽取保留檔案正文中的字形，如「步騁」「嚴酸」。",
+    "歷史典故人物與僅作比喻者未列為核心實體，除非直接參與本章論辯或決策。"
+  ]
+}

@@ -1,0 +1,2502 @@
+{
+  "book": "三國演義",
+  "chapter_no": 56,
+  "chapter_title": "曹操大宴銅雀臺　孔明三氣周公瑾",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "c056_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "周公瑾",
+        "瑜",
+        "週都督",
+        "都督"
+      ],
+      "description": "東吳都督，本章先被孔明伏兵擊敗，後受南郡太守職，設假途滅虢之計圖取荊州。",
+      "evidence": [
+        "周瑜被諸葛亮預先埋伏",
+        "周瑜既領南郡",
+        "吾有一計"
+      ]
+    },
+    {
+      "id": "c056_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "亮"
+      ],
+      "description": "劉備軍師，預伏三路兵敗周瑜，又識破周瑜假途滅虢之計。",
+      "evidence": [
+        "孔明教休追趕",
+        "孔明軍師已知都督假途滅虢之計"
+      ]
+    },
+    {
+      "id": "c056_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "皇叔",
+        "備"
+      ],
+      "description": "據荊州，與孫夫人結親，被東吳表為荊州牧，並被魯肅催還荊州。",
+      "evidence": [
+        "表劉備為荊州牧",
+        "玄德與孔明在荊州"
+      ]
+    },
+    {
+      "id": "c056_guan_gong",
+      "name": "關公",
+      "type": "character",
+      "aliases": [
+        "關某"
+      ],
+      "description": "孔明預伏軍馬之一，後又從江陵一路殺來。",
+      "evidence": [
+        "埋伏關公",
+        "關某從江陵殺來"
+      ]
+    },
+    {
+      "id": "c056_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [],
+      "description": "孔明安排的四路軍馬之一，從姐歸殺來。",
+      "evidence": [
+        "張飛從姐歸殺來"
+      ]
+    },
+    {
+      "id": "c056_huang_zhong",
+      "name": "黃忠",
+      "type": "character",
+      "aliases": [],
+      "description": "參與伏擊周瑜，後從公安一路殺來。",
+      "evidence": [
+        "黃忠、魏延三枝軍馬",
+        "黃忠從公安殺來"
+      ]
+    },
+    {
+      "id": "c056_wei_yan",
+      "name": "魏延",
+      "type": "character",
+      "aliases": [],
+      "description": "參與伏擊周瑜，後從孱陵小路殺來。",
+      "evidence": [
+        "魏延三枝軍馬",
+        "魏延從孱陵小路殺來"
+      ]
+    },
+    {
+      "id": "c056_huang_gai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，周瑜敗後與韓當救其下船。",
+      "evidence": [
+        "黃蓋、韓當急救下船"
+      ]
+    },
+    {
+      "id": "c056_han_dang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，周瑜敗後與黃蓋救其下船。",
+      "evidence": [
+        "黃蓋、韓當急救下船"
+      ]
+    },
+    {
+      "id": "c056_sun_furen",
+      "name": "孫夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權之妹，已嫁劉備，本章隨玄德車馬在山頂。",
+      "evidence": [
+        "玄德、孫夫人車馬",
+        "孫權以妹嫁劉備"
+      ]
+    },
+    {
+      "id": "c056_jiang_qin",
+      "name": "蔣欽",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，歸南徐向孫權報告。",
+      "evidence": [
+        "蔣欽等一行人馬自歸南徐報孫權"
+      ]
+    },
+    {
+      "id": "c056_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "權"
+      ],
+      "description": "東吳之主，遣華歆表劉備為荊州牧，後命魯肅索還荊州。",
+      "evidence": [
+        "權不勝忿怒",
+        "孫權乃命肅"
+      ]
+    },
+    {
+      "id": "c056_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，孫權曾欲拜為都督，後受江夏太守職並奉命接應周瑜。",
+      "evidence": [
+        "欲拜程普為都督",
+        "程普為江夏太守",
+        "遣程普引軍接應"
+      ]
+    },
+    {
+      "id": "c056_zhang_zhao",
+      "name": "張昭",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳謀臣，勸孫權勿急攻荊州，改用表劉備之策。",
+      "evidence": [
+        "張昭諫：不可",
+        "表劉備為荊州牧"
+      ]
+    },
+    {
+      "id": "c056_yong",
+      "name": "雍",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳臣僚，建議遣華歆為使。",
+      "evidence": [
+        "雍曰：華歆在此，何不遣之"
+      ]
+    },
+    {
+      "id": "c056_hua_xin",
+      "name": "華歆",
+      "type": "character",
+      "aliases": [
+        "歆"
+      ],
+      "description": "東吳使者，齎表赴許都，後被曹操留朝重用為大理少卿。",
+      "evidence": [
+        "遣歆齎表赴許都",
+        "封華歆為大理少卿"
+      ]
+    },
+    {
+      "id": "c056_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "孤"
+      ],
+      "description": "丞相，慶賞銅雀臺，聞劉備得荊州而驚，採程昱之策封周瑜、程普以離間孫劉。",
+      "evidence": [
+        "曹操大會文武",
+        "投筆於地",
+        "表奏周瑜為南郡太守"
+      ]
+    },
+    {
+      "id": "c056_cao_xiu",
+      "name": "曹休",
+      "type": "character",
+      "aliases": [
+        "文烈"
+      ],
+      "description": "曹氏少年將軍，於銅雀臺射中紅心。",
+      "evidence": [
+        "乃曹休也",
+        "一箭射去，正中紅心"
+      ]
+    },
+    {
+      "id": "c056_wen_pin",
+      "name": "文聘",
+      "type": "character",
+      "aliases": [
+        "文仲業"
+      ],
+      "description": "外姓將領，於射箭比試中射中紅心。",
+      "evidence": [
+        "且看文仲業射法",
+        "文聘拈弓縱馬一箭"
+      ]
+    },
+    {
+      "id": "c056_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "曹氏將領，於銅雀臺比射中爭奪錦袍。",
+      "evidence": [
+        "乃曹洪也",
+        "也中紅心"
+      ]
+    },
+    {
+      "id": "c056_zhang_he",
+      "name": "張郃",
+      "type": "character",
+      "aliases": [],
+      "description": "將領，於銅雀臺比射中翻身背射中紅心。",
+      "evidence": [
+        "乃張郃也",
+        "翻身，背射一箭"
+      ]
+    },
+    {
+      "id": "c056_xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹營將領，於銅雀臺比射中奪射紅心。",
+      "evidence": [
+        "乃夏侯淵也",
+        "此箭可奪得錦袍麼"
+      ]
+    },
+    {
+      "id": "c056_xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹營將領，射取錦袍，後與許褚爭奪扯碎。",
+      "evidence": [
+        "留下錦袍與我徐晃",
+        "飛取錦袍"
+      ]
+    },
+    {
+      "id": "c056_xu_chu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "曹營將領，從徐晃手中強奪錦袍並相鬥。",
+      "evidence": [
+        "乃許褚也",
+        "竟飛馬來奪袍"
+      ]
+    },
+    {
+      "id": "c056_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [
+        "昱"
+      ],
+      "description": "曹操謀臣，指出東吳意圖，獻策封周瑜、程普以令其與劉備相爭。",
+      "evidence": [
+        "程昱曰",
+        "瑜必自與劉備為仇敵"
+      ]
+    },
+    {
+      "id": "c056_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "子敬",
+        "肅"
+      ],
+      "description": "東吳使者，奉命索還荊州，又受周瑜差遣傳假取西川之說。",
+      "evidence": [
+        "今奉吳侯鈞命",
+        "魯肅回見周瑜"
+      ]
+    },
+    {
+      "id": "c056_liu_zhang",
+      "name": "劉璋",
+      "type": "character",
+      "aliases": [],
+      "description": "西川之主，孔明以其與劉備為骨肉作為暫不取西川、暫不還荊州的理由。",
+      "evidence": [
+        "西川劉璋",
+        "骨肉"
+      ]
+    },
+    {
+      "id": "c056_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "劉錶"
+      ],
+      "description": "荊州舊主，被曹操自述為曾定之人，亦被周瑜提及劉備曾依附。",
+      "evidence": [
+        "定劉表",
+        "劉備依劉錶"
+      ]
+    },
+    {
+      "id": "c056_gan_ning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜出兵荊州時被任為先鋒。",
+      "evidence": [
+        "使甘寧為先鋒"
+      ]
+    },
+    {
+      "id": "c056_xu_sheng",
+      "name": "徐盛",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜出兵荊州時與丁奉為第二隊。",
+      "evidence": [
+        "自與徐盛、丁奉為第二"
+      ]
+    },
+    {
+      "id": "c056_ding_feng",
+      "name": "丁奉",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜出兵荊州時與徐盛為第二隊。",
+      "evidence": [
+        "徐盛、丁奉為第二"
+      ]
+    },
+    {
+      "id": "c056_ling_tong",
+      "name": "凌統",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜出兵荊州時與呂蒙為後隊。",
+      "evidence": [
+        "凌統、呂蒙為後隊"
+      ]
+    },
+    {
+      "id": "c056_lv_meng",
+      "name": "呂蒙",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜出兵荊州時與凌統為後隊。",
+      "evidence": [
+        "凌統、呂蒙為後隊"
+      ]
+    },
+    {
+      "id": "c056_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [
+        "竺"
+      ],
+      "description": "劉備使者，於夏口見周瑜，稱主公已準備勞軍。",
+      "evidence": [
+        "劉皇叔使糜竺來見都督"
+      ]
+    },
+    {
+      "id": "c056_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "趙"
+      ],
+      "description": "守荊州城，城上揭破周瑜假途滅虢之計。",
+      "evidence": [
+        "敵樓上趙雲出曰",
+        "故留趙在此"
+      ]
+    },
+    {
+      "id": "c056_eastern_wu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "吳"
+      ],
+      "description": "孫權所領勢力，與劉備結親又爭荊州。",
+      "evidence": [
+        "交還東吳",
+        "吳侯鈞命"
+      ]
+    },
+    {
+      "id": "c056_liu_faction",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "據荊州，廣聚糧草、調練軍馬，並布置四路伏兵。",
+      "evidence": [
+        "在荊州廣聚糧草",
+        "調練軍馬"
+      ]
+    },
+    {
+      "id": "c056_cao_faction",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍"
+      ],
+      "description": "曹操所統文武將士，於銅雀臺宴射，並以封職離間孫劉。",
+      "evidence": [
+        "大會文武",
+        "曹氏宗族俱穿紅"
+      ]
+    },
+    {
+      "id": "c056_sun_liu_alliance",
+      "name": "孫劉同盟",
+      "type": "faction",
+      "aliases": [
+        "孫、劉同心",
+        "孫、劉並力"
+      ],
+      "description": "曹操忌憚的孫權與劉備合作關係。",
+      "evidence": [
+        "因恐孫、劉同心",
+        "疑孫、劉並力"
+      ]
+    },
+    {
+      "id": "c056_cao_clan",
+      "name": "曹氏宗族",
+      "type": "faction",
+      "aliases": [],
+      "description": "曹操宗族武官，銅雀臺比射時穿紅袍。",
+      "evidence": [
+        "曹氏宗族俱穿紅"
+      ]
+    },
+    {
+      "id": "c056_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備所據之地，也是東吳索還與周瑜假途圖取的目標。",
+      "evidence": [
+        "歸荊州慶喜",
+        "討還荊州"
+      ]
+    },
+    {
+      "id": "c056_chaisang",
+      "name": "柴桑",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜敗退所回之地，也是魯肅回報周瑜之處。",
+      "evidence": [
+        "周瑜自回柴桑",
+        "徑到柴桑"
+      ]
+    },
+    {
+      "id": "c056_nanxu",
+      "name": "南徐",
+      "type": "location",
+      "aliases": [],
+      "description": "蔣欽等回報孫權之處。",
+      "evidence": [
+        "自歸南徐報孫權"
+      ]
+    },
+    {
+      "id": "c056_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "華歆齎表前往之地，曹操後留華歆在此。",
+      "evidence": [
+        "齎表赴許都",
+        "留在許都"
+      ]
+    },
+    {
+      "id": "c056_yedu",
+      "name": "鄴郡",
+      "type": "location",
+      "aliases": [],
+      "description": "華歆聞曹操慶賞銅雀臺後前往候見之地。",
+      "evidence": [
+        "赴鄴郡候見"
+      ]
+    },
+    {
+      "id": "c056_zoujun",
+      "name": "鄒郡",
+      "type": "location",
+      "aliases": [],
+      "description": "原文稱曹操會群臣慶賞銅雀臺之地。",
+      "evidence": [
+        "會群臣於鄒郡"
+      ]
+    },
+    {
+      "id": "c056_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操宴後引文武回去並表奏封職之地。",
+      "evidence": [
+        "引文武回許昌"
+      ]
+    },
+    {
+      "id": "c056_tongque_tai",
+      "name": "銅雀臺",
+      "type": "location",
+      "aliases": [
+        "銅雀台"
+      ],
+      "description": "曹操設宴慶賀與比射之高臺。",
+      "evidence": [
+        "造銅雀台成",
+        "慶賞銅雀台"
+      ]
+    },
+    {
+      "id": "c056_yulong_tai",
+      "name": "玉龍台",
+      "type": "location",
+      "aliases": [],
+      "description": "銅雀臺旁左邊高臺。",
+      "evidence": [
+        "左邊一座名玉龍台"
+      ]
+    },
+    {
+      "id": "c056_jinfeng_tai",
+      "name": "金鳳台",
+      "type": "location",
+      "aliases": [],
+      "description": "銅雀臺旁右邊高臺。",
+      "evidence": [
+        "右邊一座名金鳳台"
+      ]
+    },
+    {
+      "id": "c056_zhanghe",
+      "name": "漳河",
+      "type": "location",
+      "aliases": [],
+      "description": "銅雀臺所臨之河。",
+      "evidence": [
+        "其台正臨漳河"
+      ]
+    },
+    {
+      "id": "c056_chibi",
+      "name": "赤壁",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操敗後欲報仇之地。",
+      "evidence": [
+        "赤壁敗後",
+        "赤壁之恨"
+      ]
+    },
+    {
+      "id": "c056_xichuan",
+      "name": "西川",
+      "type": "location",
+      "aliases": [],
+      "description": "魯肅與周瑜假稱東吳將替劉備攻取之地。",
+      "evidence": [
+        "取西川",
+        "替皇叔收川"
+      ]
+    },
+    {
+      "id": "c056_hanshang_jiujun",
+      "name": "漢上九郡",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操聞報中稱大半已屬劉備。",
+      "evidence": [
+        "漢上九郡大半已屬備矣"
+      ]
+    },
+    {
+      "id": "c056_nanjun",
+      "name": "南郡",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操表奏授周瑜管領之地。",
+      "evidence": [
+        "周瑜為南郡太守",
+        "周瑜既領南郡"
+      ]
+    },
+    {
+      "id": "c056_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操表奏授程普之地。",
+      "evidence": [
+        "程普為江夏太守"
+      ]
+    },
+    {
+      "id": "c056_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜前軍至此，糜竺來見。",
+      "evidence": [
+        "前軍至夏口"
+      ]
+    },
+    {
+      "id": "c056_gongan",
+      "name": "公安",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜戰船經此，黃忠亦從此一路殺來。",
+      "evidence": [
+        "看看至公安",
+        "黃忠從公安殺來"
+      ]
+    },
+    {
+      "id": "c056_jiangling",
+      "name": "江陵",
+      "type": "location",
+      "aliases": [],
+      "description": "關公一路軍馬殺來之處。",
+      "evidence": [
+        "關某從江陵殺來"
+      ]
+    },
+    {
+      "id": "c056_jiegui",
+      "name": "姐歸",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛一路軍馬殺來之處，按原文保留。",
+      "evidence": [
+        "張飛從姐歸殺來"
+      ]
+    },
+    {
+      "id": "c056_chanling",
+      "name": "孱陵",
+      "type": "location",
+      "aliases": [],
+      "description": "魏延一路軍馬所由小路。",
+      "evidence": [
+        "魏延從孱陵小路殺來"
+      ]
+    },
+    {
+      "id": "c056_title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在本章被稱呼的官職。",
+      "evidence": [
+        "丞相錦袍"
+      ]
+    },
+    {
+      "id": "c056_title_wuhou",
+      "name": "吳侯",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權在本章被稱呼的稱號。",
+      "evidence": [
+        "奉吳侯鈞命"
+      ]
+    },
+    {
+      "id": "c056_title_dudu",
+      "name": "都督",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜之職稱，孫權亦曾欲拜程普為都督。",
+      "evidence": [
+        "東吳週都督",
+        "欲拜程普為都督"
+      ]
+    },
+    {
+      "id": "c056_title_jingzhou_mu",
+      "name": "荊州牧",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權遣華歆表薦劉備之官職。",
+      "evidence": [
+        "表劉備為荊州牧"
+      ]
+    },
+    {
+      "id": "c056_title_nanjun_taishou",
+      "name": "南郡太守",
+      "type": "title",
+      "aliases": [
+        "總領南郡太守"
+      ],
+      "description": "曹操表奏周瑜所得官職。",
+      "evidence": [
+        "周瑜為總領南郡太守"
+      ]
+    },
+    {
+      "id": "c056_title_jiangxia_taishou",
+      "name": "江夏太守",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操表奏程普所得官職。",
+      "evidence": [
+        "程普為江夏太守"
+      ]
+    },
+    {
+      "id": "c056_title_dali_shaoqing",
+      "name": "大理少卿",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操封華歆之官職。",
+      "evidence": [
+        "封華歆為大理少卿"
+      ]
+    },
+    {
+      "id": "c056_title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "趙雲稱孔明之職。",
+      "evidence": [
+        "孔明軍師已知"
+      ]
+    },
+    {
+      "id": "c056_title_xianfeng",
+      "name": "先鋒",
+      "type": "title",
+      "aliases": [],
+      "description": "甘寧在周瑜進軍中的職任。",
+      "evidence": [
+        "使甘寧為先鋒"
+      ]
+    },
+    {
+      "id": "c056_title_qianli_ju",
+      "name": "千里駒",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操稱讚曹休的稱號。",
+      "evidence": [
+        "此吾家千里駒也"
+      ]
+    },
+    {
+      "id": "c056_title_renzhong_long",
+      "name": "人中之龍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操對劉備的評語。",
+      "evidence": [
+        "劉備，人中之龍也"
+      ]
+    },
+    {
+      "id": "c056_obj_red_brocade_robe",
+      "name": "西川紅錦戰袍",
+      "type": "object",
+      "aliases": [
+        "錦袍"
+      ],
+      "description": "曹操設為射中紅心者賞賜之物，後被徐晃、許褚爭奪扯碎。",
+      "evidence": [
+        "西川紅錦戰袍一領",
+        "那領錦袍已是扯得粉碎"
+      ]
+    },
+    {
+      "id": "c056_obj_archery_target",
+      "name": "箭垛",
+      "type": "object",
+      "aliases": [
+        "紅心"
+      ],
+      "description": "銅雀臺比射目標。",
+      "evidence": [
+        "下設一箭垛",
+        "射中箭垛紅心"
+      ]
+    },
+    {
+      "id": "c056_obj_sichuan_brocade",
+      "name": "蜀錦",
+      "type": "object",
+      "aliases": [],
+      "description": "錦袍碎後曹操另賜諸將之物。",
+      "evidence": [
+        "各賜蜀錦一匹"
+      ]
+    },
+    {
+      "id": "c056_obj_memorial",
+      "name": "表",
+      "type": "object",
+      "aliases": [
+        "表奏"
+      ],
+      "description": "東吳遣華歆攜往許都，用以表薦劉備為荊州牧。",
+      "evidence": [
+        "遣歆齎表赴許都"
+      ]
+    },
+    {
+      "id": "c056_obj_white_flags",
+      "name": "兩面白旗",
+      "type": "object",
+      "aliases": [
+        "白旗"
+      ],
+      "description": "荊州城上用以示空城靜態的旗號。",
+      "evidence": [
+        "城上，插兩面白旗"
+      ]
+    },
+    {
+      "id": "c056_strategy_zhuge_ambush",
+      "name": "孔明預伏三枝軍馬",
+      "type": "strategy",
+      "aliases": [],
+      "description": "諸葛亮預先埋伏關公、黃忠、魏延三路兵擊敗周瑜。",
+      "evidence": [
+        "預先埋伏關公、黃忠、魏延"
+      ]
+    },
+    {
+      "id": "c056_strategy_zhangzhao_memorial",
+      "name": "張昭表劉備制曹之議",
+      "type": "strategy",
+      "aliases": [],
+      "description": "張昭勸孫權暫不吞併劉備，改遣使赴許都表劉備以待機圖之。",
+      "evidence": [
+        "莫若使人赴許都，表劉備"
+      ]
+    },
+    {
+      "id": "c056_strategy_chengyu_sow_discord",
+      "name": "程昱離間孫劉之策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "程昱建議曹操表封周瑜、程普，使周瑜與劉備自相為敵。",
+      "evidence": [
+        "瑜必自與劉備為仇敵"
+      ]
+    },
+    {
+      "id": "c056_strategy_delay_jingzhou",
+      "name": "孔明哭訴緩還荊州之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孔明藉劉備哭訴西川劉璋為骨肉、無處安身，令魯肅暫緩索荊州。",
+      "evidence": [
+        "若要不取，還了荊州，何處安身"
+      ]
+    },
+    {
+      "id": "c056_strategy_false_route",
+      "name": "假途滅虢之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "周瑜假稱替劉備取西川，欲借路荊州而乘機襲取。",
+      "evidence": [
+        "此乃假途滅虢之計"
+      ]
+    },
+    {
+      "id": "c056_strategy_zhuge_counter",
+      "name": "孔明識破假途之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孔明判斷魯肅來言是周瑜誘計，命劉備看其點頭便應承。",
+      "evidence": [
+        "來誘我耳",
+        "只看我點頭"
+      ]
+    },
+    {
+      "id": "c056_army_three_ambushes",
+      "name": "三枝軍馬",
+      "type": "army",
+      "aliases": [
+        "關公、黃忠、魏延三枝軍馬"
+      ],
+      "description": "孔明預伏用以擊敗周瑜的三路兵。",
+      "evidence": [
+        "三枝軍馬，一擊大敗"
+      ]
+    },
+    {
+      "id": "c056_army_wu_navy",
+      "name": "水軍",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜敗退時折損甚多的東吳水軍。",
+      "evidence": [
+        "折卻水軍無數"
+      ]
+    },
+    {
+      "id": "c056_army_wu_50k",
+      "name": "水陸大兵五萬",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜假取西川實圖荊州時所率大軍。",
+      "evidence": [
+        "水陸大兵五萬，望荊州而來"
+      ]
+    },
+    {
+      "id": "c056_army_zhou_elite_3000",
+      "name": "親隨精軍三千人",
+      "type": "army",
+      "aliases": [
+        "精軍三千"
+      ],
+      "description": "周瑜抵荊州城外時親自帶上的精兵。",
+      "evidence": [
+        "引親隨精軍三千人"
+      ]
+    },
+    {
+      "id": "c056_army_ganning_vanguard",
+      "name": "甘寧先鋒",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜進軍荊州時的前鋒部隊。",
+      "evidence": [
+        "使甘寧為先鋒"
+      ]
+    },
+    {
+      "id": "c056_army_xu_ding_second",
+      "name": "徐盛丁奉第二隊",
+      "type": "army",
+      "aliases": [
+        "第二隊"
+      ],
+      "description": "周瑜進軍荊州時由徐盛、丁奉為第二梯隊。",
+      "evidence": [
+        "徐盛、丁奉為第二"
+      ]
+    },
+    {
+      "id": "c056_army_ling_lv_rear",
+      "name": "凌統呂蒙後隊",
+      "type": "army",
+      "aliases": [
+        "後隊"
+      ],
+      "description": "周瑜進軍荊州時由凌統、呂蒙為後隊。",
+      "evidence": [
+        "凌統、呂蒙為後隊"
+      ]
+    },
+    {
+      "id": "c056_army_four_routes",
+      "name": "四路軍馬",
+      "type": "army",
+      "aliases": [],
+      "description": "趙雲揭計後傳報從江陵、姐歸、公安、孱陵四處殺來的兵馬。",
+      "evidence": [
+        "探得四路軍馬，一齊殺到"
+      ]
+    },
+    {
+      "id": "c056_battle_chibi",
+      "name": "赤壁之戰",
+      "type": "battle",
+      "aliases": [
+        "赤壁之恨"
+      ],
+      "description": "曹操舊敗之戰，本章作為曹操欲報仇的背景。",
+      "evidence": [
+        "赤壁敗後",
+        "赤壁之恨"
+      ]
+    },
+    {
+      "id": "c056_battle_jingzhou_ambush",
+      "name": "周瑜中伏敗退",
+      "type": "battle",
+      "aliases": [],
+      "description": "本章開頭周瑜遭孔明三枝軍馬伏擊而敗。",
+      "evidence": [
+        "一擊大敗",
+        "開船逃去"
+      ]
+    },
+    {
+      "id": "c056_event_zhou_defeated",
+      "name": "周瑜中伏敗退",
+      "type": "event",
+      "aliases": [],
+      "description": "周瑜被伏兵擊敗，傷口迸裂，由黃蓋、韓當救下船逃回柴桑。",
+      "evidence": [
+        "瘡口迸裂",
+        "開船逃去"
+      ]
+    },
+    {
+      "id": "c056_event_sun_hua_xin_plan",
+      "name": "孫權遣華歆表劉備",
+      "type": "event",
+      "aliases": [],
+      "description": "孫權因張昭等諫議，遣華歆齎表赴許都，表劉備為荊州牧。",
+      "evidence": [
+        "即遣歆齎表赴許都"
+      ]
+    },
+    {
+      "id": "c056_event_copper_banquet",
+      "name": "曹操大宴銅雀臺",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操於銅雀臺會文武設宴慶賀，文武侍立並飲宴作詩。",
+      "evidence": [
+        "大會文武",
+        "設宴慶賀"
+      ]
+    },
+    {
+      "id": "c056_event_archery_contest",
+      "name": "銅雀臺射箭爭袍",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操以錦袍為賞，眾將射箭爭勝，徐晃取袍後與許褚爭奪。",
+      "evidence": [
+        "射中箭垛紅心",
+        "錦袍已是扯得粉碎"
+      ]
+    },
+    {
+      "id": "c056_event_cao_titles",
+      "name": "曹操表封周瑜程普",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操採程昱策，表奏周瑜為南郡太守、程普為江夏太守，封華歆為大理少卿。",
+      "evidence": [
+        "表奏周瑜為總領南郡太守"
+      ]
+    },
+    {
+      "id": "c056_event_lu_su_demands",
+      "name": "魯肅索還荊州",
+      "type": "event",
+      "aliases": [],
+      "description": "魯肅奉孫權命至荊州向劉備索還，孔明設辭令其暫緩。",
+      "evidence": [
+        "專為荊州一事而來"
+      ]
+    },
+    {
+      "id": "c056_event_false_route_plan",
+      "name": "周瑜假途滅虢計成議",
+      "type": "event",
+      "aliases": [],
+      "description": "周瑜在柴桑與魯肅商議，假稱替劉備取西川，實欲取荊州。",
+      "evidence": [
+        "吾有一計",
+        "此乃假途滅虢之計"
+      ]
+    },
+    {
+      "id": "c056_event_zhou_march",
+      "name": "周瑜率兵望荊州",
+      "type": "event",
+      "aliases": [],
+      "description": "周瑜率五萬水陸兵，分先鋒、第二、後隊，沿江向荊州進軍。",
+      "evidence": [
+        "水陸大兵五萬，望荊州而來"
+      ]
+    },
+    {
+      "id": "c056_event_four_routes_arrive",
+      "name": "趙雲揭計四路兵至",
+      "type": "event",
+      "aliases": [],
+      "description": "周瑜至荊州城下，趙雲城頭揭破假途計，隨即傳報四路軍馬殺到。",
+      "evidence": [
+        "假途滅虢之計",
+        "四路軍馬，一齊殺到"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "c056_zhuge_liang",
+      "target": "c056_strategy_zhuge_ambush",
+      "type": "設計",
+      "description": "諸葛亮預先埋伏三枝軍馬以擊敗周瑜。",
+      "evidence": [
+        "諸葛亮預先埋伏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_strategy_zhuge_ambush",
+      "target": "c056_army_three_ambushes",
+      "type": "使用軍隊",
+      "description": "伏擊計使用關公、黃忠、魏延三枝軍馬。",
+      "evidence": [
+        "關公、黃忠、魏延三枝軍馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c056_army_three_ambushes",
+      "target": "c056_zhou_yu",
+      "type": "攻擊",
+      "description": "三枝軍馬一擊大敗周瑜。",
+      "evidence": [
+        "一擊大敗"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_guan_gong",
+      "target": "c056_army_three_ambushes",
+      "type": "參與",
+      "description": "關公為三枝伏兵之一。",
+      "evidence": [
+        "埋伏關公"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_huang_zhong",
+      "target": "c056_army_three_ambushes",
+      "type": "參與",
+      "description": "黃忠為三枝伏兵之一。",
+      "evidence": [
+        "黃忠、魏延三枝軍馬"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_wei_yan",
+      "target": "c056_army_three_ambushes",
+      "type": "參與",
+      "description": "魏延為三枝伏兵之一。",
+      "evidence": [
+        "魏延三枝軍馬"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_huang_gai",
+      "target": "c056_zhou_yu",
+      "type": "救援",
+      "description": "黃蓋在周瑜敗後急救其下船。",
+      "evidence": [
+        "黃蓋、韓當急救下船"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_han_dang",
+      "target": "c056_zhou_yu",
+      "type": "救援",
+      "description": "韓當在周瑜敗後急救其下船。",
+      "evidence": [
+        "黃蓋、韓當急救下船"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_chaisang",
+      "type": "撤回",
+      "description": "周瑜敗後回柴桑。",
+      "evidence": [
+        "周瑜自回柴桑"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_zhuge_liang",
+      "target": "c056_liu_bei",
+      "type": "輔佐",
+      "description": "孔明與玄德同歸荊州慶喜並籌畫荊州事。",
+      "evidence": [
+        "自和玄德歸荊州"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c056_liu_bei",
+      "target": "c056_jingzhou",
+      "type": "據守",
+      "description": "劉備在荊州聚糧練兵。",
+      "evidence": [
+        "玄德與孔明在荊州"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_sun_quan",
+      "target": "c056_sun_furen",
+      "type": "兄妹",
+      "description": "孫權以妹嫁給劉備，孫夫人即其妹。",
+      "evidence": [
+        "孫權以妹嫁劉備"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_sun_furen",
+      "target": "c056_liu_bei",
+      "type": "婚姻",
+      "description": "孫夫人嫁劉備，形成東吳與劉備的姻親。",
+      "evidence": [
+        "以妹嫁劉備"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_jiang_qin",
+      "target": "c056_sun_quan",
+      "type": "報告",
+      "description": "蔣欽等回南徐向孫權報告。",
+      "evidence": [
+        "報孫權"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c056_sun_quan",
+      "target": "c056_eastern_wu",
+      "type": "統領",
+      "description": "孫權為東吳之主。",
+      "evidence": [
+        "吳侯鈞命"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_sun_quan",
+      "target": "c056_cheng_pu",
+      "type": "意圖任命",
+      "description": "孫權憤而欲拜程普為都督。",
+      "evidence": [
+        "欲拜程普為都督"
+      ],
+      "confidence": 0.82
+    },
+    {
+      "source": "c056_sun_quan",
+      "target": "c056_jingzhou",
+      "type": "意圖攻取",
+      "description": "孫權欲起兵取荊州。",
+      "evidence": [
+        "起兵取荊州"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c056_zhang_zhao",
+      "target": "c056_sun_quan",
+      "type": "勸諫",
+      "description": "張昭勸孫權不可因忿攻劉備。",
+      "evidence": [
+        "張昭諫：不可"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_zhang_zhao",
+      "target": "c056_strategy_zhangzhao_memorial",
+      "type": "提出",
+      "description": "張昭提出表劉備為荊州牧以待機圖之。",
+      "evidence": [
+        "表劉備為荊州牧"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c056_yong",
+      "target": "c056_hua_xin",
+      "type": "推薦為使",
+      "description": "雍建議遣華歆出使。",
+      "evidence": [
+        "華歆在此，何不遣之"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "c056_sun_quan",
+      "target": "c056_hua_xin",
+      "type": "派遣",
+      "description": "孫權遣華歆齎表赴許都。",
+      "evidence": [
+        "即遣歆齎表赴許都"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_hua_xin",
+      "target": "c056_obj_memorial",
+      "type": "攜帶",
+      "description": "華歆攜帶奏表前往許都。",
+      "evidence": [
+        "齎表赴許都"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_obj_memorial",
+      "target": "c056_liu_bei",
+      "type": "表薦",
+      "description": "奏表內容為薦劉備任荊州牧。",
+      "evidence": [
+        "表劉備為荊州牧"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_obj_memorial",
+      "target": "c056_title_jingzhou_mu",
+      "type": "授職內容",
+      "description": "奏表所薦官職為荊州牧。",
+      "evidence": [
+        "荊州牧"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_hua_xin",
+      "target": "c056_xudu",
+      "type": "行至",
+      "description": "華歆領命到許都見曹操。",
+      "evidence": [
+        "徑到許都來見曹操"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_hua_xin",
+      "target": "c056_yedu",
+      "type": "候見",
+      "description": "華歆聞曹操在慶賞銅雀臺，赴鄴郡候見。",
+      "evidence": [
+        "赴鄴郡候見"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_battle_chibi",
+      "type": "欲報仇",
+      "description": "曹操赤壁敗後常思報仇。",
+      "evidence": [
+        "赤壁敗後，常思報仇"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_sun_liu_alliance",
+      "type": "忌憚",
+      "description": "曹操疑孫、劉並力而不敢輕進。",
+      "evidence": [
+        "疑孫、劉並力"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_tongque_tai",
+      "type": "設宴於",
+      "description": "曹操在銅雀臺大會文武慶賀。",
+      "evidence": [
+        "慶賞銅雀台"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_tongque_tai",
+      "target": "c056_zhanghe",
+      "type": "臨近",
+      "description": "銅雀臺正臨漳河。",
+      "evidence": [
+        "正臨漳河"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_yulong_tai",
+      "target": "c056_tongque_tai",
+      "type": "相鄰",
+      "description": "玉龍台在銅雀臺左邊。",
+      "evidence": [
+        "左邊一座名玉龍台"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c056_jinfeng_tai",
+      "target": "c056_tongque_tai",
+      "type": "相鄰",
+      "description": "金鳳台在銅雀臺右邊。",
+      "evidence": [
+        "右邊一座名金鳳台"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_title_chengxiang",
+      "type": "官職",
+      "description": "曹操在宴中被稱丞相。",
+      "evidence": [
+        "丞相錦袍"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c056_sun_quan",
+      "target": "c056_title_wuhou",
+      "type": "稱號",
+      "description": "孫權被魯肅稱為吳侯。",
+      "evidence": [
+        "奉吳侯鈞命"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_title_dudu",
+      "type": "官職",
+      "description": "周瑜被稱東吳都督。",
+      "evidence": [
+        "東吳週都督"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_zhuge_liang",
+      "target": "c056_title_junshi",
+      "type": "官職",
+      "description": "趙雲稱孔明為軍師。",
+      "evidence": [
+        "孔明軍師已知"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_obj_red_brocade_robe",
+      "type": "設賞",
+      "description": "曹操以西川紅錦戰袍作射箭賞物。",
+      "evidence": [
+        "即以錦袍賜之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_obj_red_brocade_robe",
+      "target": "c056_obj_archery_target",
+      "type": "獎賞條件",
+      "description": "射中箭垛紅心者可得錦袍。",
+      "evidence": [
+        "射中箭垛紅心者"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_cao_xiu",
+      "target": "c056_cao_clan",
+      "type": "隸屬",
+      "description": "曹休出自紅袍隊曹氏宗族。",
+      "evidence": [
+        "紅袍隊中",
+        "乃曹休也"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "c056_cao_hong",
+      "target": "c056_cao_clan",
+      "type": "隸屬",
+      "description": "曹洪出自紅袍隊曹氏宗族。",
+      "evidence": [
+        "紅袍隊中，又一將"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "source": "c056_cao_xiu",
+      "target": "c056_obj_archery_target",
+      "type": "射中",
+      "description": "曹休射中箭垛紅心。",
+      "evidence": [
+        "一箭射去，正中紅心"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_cao_xiu",
+      "type": "稱讚",
+      "description": "曹操稱曹休為吾家千里駒。",
+      "evidence": [
+        "此吾家千里駒也"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_cao_xiu",
+      "target": "c056_title_qianli_ju",
+      "type": "受稱",
+      "description": "曹休被曹操稱千里駒。",
+      "evidence": [
+        "千里駒"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_wen_pin",
+      "target": "c056_obj_archery_target",
+      "type": "射中",
+      "description": "文聘於比射中射中紅心。",
+      "evidence": [
+        "一箭，亦中紅心"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_cao_hong",
+      "target": "c056_obj_archery_target",
+      "type": "射中",
+      "description": "曹洪於比射中射中紅心。",
+      "evidence": [
+        "一箭射去，也中紅心"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_zhang_he",
+      "target": "c056_obj_archery_target",
+      "type": "射中",
+      "description": "張郃翻身背射中紅心。",
+      "evidence": [
+        "背射一箭，也中紅心"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_xiahou_yuan",
+      "target": "c056_obj_archery_target",
+      "type": "射中",
+      "description": "夏侯淵於比射中奪射紅心。",
+      "evidence": [
+        "奪射紅心"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "source": "c056_xu_huang",
+      "target": "c056_obj_red_brocade_robe",
+      "type": "取得",
+      "description": "徐晃飛取錦袍披於身上。",
+      "evidence": [
+        "飛取錦袍，披於身上"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_xu_chu",
+      "target": "c056_xu_huang",
+      "type": "爭奪",
+      "description": "許褚與徐晃為錦袍揪住廝打。",
+      "evidence": [
+        "兩個揪住廝打"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_xu_chu",
+      "target": "c056_obj_red_brocade_robe",
+      "type": "強奪",
+      "description": "許褚飛馬來奪徐晃所得錦袍。",
+      "evidence": [
+        "竟飛馬來奪袍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_obj_red_brocade_robe",
+      "target": "c056_xu_huang",
+      "type": "被爭奪",
+      "description": "錦袍在徐晃、許褚爭奪中被扯碎。",
+      "evidence": [
+        "錦袍已是扯得粉碎"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_obj_sichuan_brocade",
+      "type": "賞賜",
+      "description": "曹操令諸將各得蜀錦一匹。",
+      "evidence": [
+        "各賜蜀錦一匹"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_hua_xin",
+      "target": "c056_cao_cao",
+      "type": "奏報",
+      "description": "華歆表奏劉備為荊州牧的消息傳到曹操。",
+      "evidence": [
+        "東吳使華歆表奏"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c056_liu_bei",
+      "target": "c056_hanshang_jiujun",
+      "type": "取得大半",
+      "description": "曹操聞報稱漢上九郡大半屬劉備。",
+      "evidence": [
+        "漢上九郡大半已屬備矣"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_liu_bei",
+      "type": "忌憚",
+      "description": "曹操稱劉備為人中之龍，聞其得荊州而驚。",
+      "evidence": [
+        "劉備，人中之龍也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_liu_bei",
+      "target": "c056_title_renzhong_long",
+      "type": "受稱",
+      "description": "劉備被曹操稱為人中之龍。",
+      "evidence": [
+        "人中之龍"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_cheng_yu",
+      "target": "c056_strategy_chengyu_sow_discord",
+      "type": "提出",
+      "description": "程昱提出封周瑜、程普以離間孫劉。",
+      "evidence": [
+        "程昱曰"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_strategy_chengyu_sow_discord",
+      "target": "c056_zhou_yu",
+      "type": "促成敵對",
+      "description": "此策意在使周瑜與劉備為仇敵。",
+      "evidence": [
+        "瑜必自與劉備為仇敵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_strategy_chengyu_sow_discord",
+      "target": "c056_liu_bei",
+      "type": "促成敵對",
+      "description": "此策意在激化周瑜與劉備的荊州衝突。",
+      "evidence": [
+        "與劉備為仇敵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_zhou_yu",
+      "type": "表奏任命",
+      "description": "曹操表奏周瑜為總領南郡太守。",
+      "evidence": [
+        "周瑜為總領南郡太守"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_title_nanjun_taishou",
+      "type": "受職",
+      "description": "周瑜受南郡太守職。",
+      "evidence": [
+        "周瑜既領南郡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_title_nanjun_taishou",
+      "target": "c056_nanjun",
+      "type": "管轄地",
+      "description": "南郡太守所管為南郡。",
+      "evidence": [
+        "南郡太守"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_cheng_pu",
+      "type": "表奏任命",
+      "description": "曹操表奏程普為江夏太守。",
+      "evidence": [
+        "程普為江夏太守"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_cheng_pu",
+      "target": "c056_title_jiangxia_taishou",
+      "type": "受職",
+      "description": "程普受江夏太守職。",
+      "evidence": [
+        "周瑜、程普各受職"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_title_jiangxia_taishou",
+      "target": "c056_jiangxia",
+      "type": "管轄地",
+      "description": "江夏太守所管為江夏。",
+      "evidence": [
+        "江夏太守"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_cao_cao",
+      "target": "c056_hua_xin",
+      "type": "封官留任",
+      "description": "曹操封華歆為大理少卿並留在許都。",
+      "evidence": [
+        "封華歆為大理少卿"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_hua_xin",
+      "target": "c056_title_dali_shaoqing",
+      "type": "受職",
+      "description": "華歆受大理少卿之職。",
+      "evidence": [
+        "大理少卿"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_hua_xin",
+      "target": "c056_xudu",
+      "type": "留駐",
+      "description": "華歆被留在許都。",
+      "evidence": [
+        "留在許都"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_sun_quan",
+      "type": "上書",
+      "description": "周瑜上書孫權請命魯肅討還荊州。",
+      "evidence": [
+        "遂上書吳侯"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_sun_quan",
+      "target": "c056_lu_su",
+      "type": "命令",
+      "description": "孫權命魯肅前去索還荊州。",
+      "evidence": [
+        "孫權乃命肅"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_lu_su",
+      "target": "c056_jingzhou",
+      "type": "索還",
+      "description": "魯肅奉命向劉備索還荊州。",
+      "evidence": [
+        "專為荊州一事而來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_lu_su",
+      "target": "c056_liu_bei",
+      "type": "舊交",
+      "description": "劉備稱魯肅與自己為舊交。",
+      "evidence": [
+        "子敬與我舊交"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "c056_lu_su",
+      "target": "c056_jingzhou",
+      "type": "保借",
+      "description": "孫權稱魯肅昔日保借荊州與劉備。",
+      "evidence": [
+        "汝昔保借荊州與劉備"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_zhuge_liang",
+      "target": "c056_strategy_delay_jingzhou",
+      "type": "設計",
+      "description": "孔明以劉備哭訴之辭暫緩還荊州。",
+      "evidence": [
+        "亮聽之久矣"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c056_liu_bei",
+      "target": "c056_strategy_delay_jingzhou",
+      "type": "執行",
+      "description": "劉備聞魯肅索荊州後掩面大哭。",
+      "evidence": [
+        "掩面大哭"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_strategy_delay_jingzhou",
+      "target": "c056_lu_su",
+      "type": "說服",
+      "description": "魯肅見劉備哀痛，只好應允回告。",
+      "evidence": [
+        "只好應允"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c056_strategy_delay_jingzhou",
+      "target": "c056_liu_zhang",
+      "type": "借用理由",
+      "description": "孔明以西川劉璋為劉備骨肉作為難以取川的理由。",
+      "evidence": [
+        "西川劉璋",
+        "骨肉"
+      ],
+      "confidence": 0.82
+    },
+    {
+      "source": "c056_lu_su",
+      "target": "c056_zhou_yu",
+      "type": "回報",
+      "description": "魯肅回柴桑向周瑜具言索荊州經過。",
+      "evidence": [
+        "見了周瑜，具言其事"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_lu_su",
+      "type": "判斷中計",
+      "description": "周瑜認為魯肅又中了諸葛亮之計。",
+      "evidence": [
+        "子敬又中諸葛亮之計也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_strategy_false_route",
+      "type": "設計",
+      "description": "周瑜提出假途滅虢之計，欲誘劉備。",
+      "evidence": [
+        "吾有一計"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_strategy_false_route",
+      "target": "c056_xichuan",
+      "type": "假稱目標",
+      "description": "此計表面聲稱替劉備攻取西川。",
+      "evidence": [
+        "起兵替皇叔收川"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_strategy_false_route",
+      "target": "c056_jingzhou",
+      "type": "實際目標",
+      "description": "假取西川實為借路取荊州。",
+      "evidence": [
+        "取了西川，卻換荊州"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_lu_su",
+      "type": "差遣",
+      "description": "周瑜遣魯肅再往荊州傳假取西川之說。",
+      "evidence": [
+        "子敬便當老兄一行"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "source": "c056_zhuge_liang",
+      "target": "c056_strategy_false_route",
+      "type": "識破",
+      "description": "孔明識破魯肅所言為假途滅虢之計。",
+      "evidence": [
+        "此乃假途滅虢之計也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "c056_zhuge_liang",
+      "target": "c056_strategy_zhuge_counter",
+      "type": "設計",
+      "description": "孔明命劉備只看其點頭便應承魯肅。",
+      "evidence": [
+        "只看我點頭，便滿口應承"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_liu_bei",
+      "target": "c056_strategy_zhuge_counter",
+      "type": "執行",
+      "description": "劉備依孔明指示答應魯肅。",
+      "evidence": [
+        "玄德拱手稱謝"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "c056_lu_su",
+      "target": "c056_zhou_yu",
+      "type": "報喜",
+      "description": "魯肅回報周瑜稱玄德、孔明歡喜並準備勞軍。",
+      "evidence": [
+        "說玄德、孔明歡喜一節"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_cheng_pu",
+      "type": "請接應",
+      "description": "周瑜遣程普引軍接應。",
+      "evidence": [
+        "遣程普引軍接應"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_army_wu_50k",
+      "type": "統領",
+      "description": "周瑜率五萬水陸兵望荊州而來。",
+      "evidence": [
+        "水陸大兵五萬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_gan_ning",
+      "target": "c056_title_xianfeng",
+      "type": "受任",
+      "description": "甘寧被周瑜任為先鋒。",
+      "evidence": [
+        "使甘寧為先鋒"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_gan_ning",
+      "target": "c056_army_ganning_vanguard",
+      "type": "統領",
+      "description": "甘寧領先鋒部隊。",
+      "evidence": [
+        "甘寧為先鋒"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_xu_sheng",
+      "target": "c056_army_xu_ding_second",
+      "type": "統領",
+      "description": "徐盛為第二隊將領之一。",
+      "evidence": [
+        "徐盛、丁奉為第二"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_ding_feng",
+      "target": "c056_army_xu_ding_second",
+      "type": "統領",
+      "description": "丁奉為第二隊將領之一。",
+      "evidence": [
+        "徐盛、丁奉為第二"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_ling_tong",
+      "target": "c056_army_ling_lv_rear",
+      "type": "統領",
+      "description": "凌統為後隊將領之一。",
+      "evidence": [
+        "凌統、呂蒙為後隊"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_lv_meng",
+      "target": "c056_army_ling_lv_rear",
+      "type": "統領",
+      "description": "呂蒙為後隊將領之一。",
+      "evidence": [
+        "凌統、呂蒙為後隊"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_army_wu_50k",
+      "target": "c056_jingzhou",
+      "type": "行軍目標",
+      "description": "周瑜五萬水陸大兵向荊州進發。",
+      "evidence": [
+        "望荊州而來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_army_wu_50k",
+      "target": "c056_xiakou",
+      "type": "經過",
+      "description": "周瑜前軍至夏口。",
+      "evidence": [
+        "前軍至夏口"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_army_wu_50k",
+      "target": "c056_gongan",
+      "type": "經過",
+      "description": "周瑜戰船行至公安。",
+      "evidence": [
+        "看看至公安"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_liu_bei",
+      "target": "c056_mi_zhu",
+      "type": "派遣",
+      "description": "劉備遣糜竺見周瑜。",
+      "evidence": [
+        "劉皇叔使糜竺來見都督"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_mi_zhu",
+      "target": "c056_zhou_yu",
+      "type": "迎見",
+      "description": "糜竺在夏口來見周瑜。",
+      "evidence": [
+        "糜竺來見都督"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_zhou_yu",
+      "target": "c056_army_zhou_elite_3000",
+      "type": "率領",
+      "description": "周瑜上岸帶親隨精軍三千往荊州城。",
+      "evidence": [
+        "引親隨精軍三千人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_zhao_yun",
+      "target": "c056_jingzhou",
+      "type": "守城",
+      "description": "趙雲在荊州城敵樓上出面。",
+      "evidence": [
+        "敵樓上趙雲出曰"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "c056_zhao_yun",
+      "target": "c056_strategy_false_route",
+      "type": "揭破",
+      "description": "趙雲明言孔明已知周瑜假途滅虢之計。",
+      "evidence": [
+        "已知都督假途滅虢之計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_jingzhou",
+      "target": "c056_obj_white_flags",
+      "type": "城上設置",
+      "description": "荊州城上插兩面白旗。",
+      "evidence": [
+        "荊州城上，插兩面白旗"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "c056_army_four_routes",
+      "target": "c056_zhou_yu",
+      "type": "合圍將至",
+      "description": "四路軍馬一齊殺向周瑜。",
+      "evidence": [
+        "一齊殺到"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "c056_guan_gong",
+      "target": "c056_jiangling",
+      "type": "出兵地",
+      "description": "關公一路從江陵殺來。",
+      "evidence": [
+        "關某從江陵殺來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_zhang_fei",
+      "target": "c056_jiegui",
+      "type": "出兵地",
+      "description": "張飛一路從姐歸殺來。",
+      "evidence": [
+        "張飛從姐歸殺來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_huang_zhong",
+      "target": "c056_gongan",
+      "type": "出兵地",
+      "description": "黃忠一路從公安殺來。",
+      "evidence": [
+        "黃忠從公安殺來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_wei_yan",
+      "target": "c056_chanling",
+      "type": "出兵地",
+      "description": "魏延一路從孱陵小路殺來。",
+      "evidence": [
+        "魏延從孱陵小路殺來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "c056_guan_gong",
+      "target": "c056_army_four_routes",
+      "type": "統領一路",
+      "description": "關公為四路軍馬之一。",
+      "evidence": [
+        "關某從江陵殺來"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_zhang_fei",
+      "target": "c056_army_four_routes",
+      "type": "統領一路",
+      "description": "張飛為四路軍馬之一。",
+      "evidence": [
+        "張飛從姐歸殺來"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_huang_zhong",
+      "target": "c056_army_four_routes",
+      "type": "統領一路",
+      "description": "黃忠為四路軍馬之一。",
+      "evidence": [
+        "黃忠從公安殺來"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_wei_yan",
+      "target": "c056_army_four_routes",
+      "type": "統領一路",
+      "description": "魏延為四路軍馬之一。",
+      "evidence": [
+        "魏延從孱陵小路殺來"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "c056_liu_biao",
+      "target": "c056_liu_bei",
+      "type": "曾被依附",
+      "description": "周瑜稱劉備當初依劉表時已有吞併之意。",
+      "evidence": [
+        "劉備依劉錶時"
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "events": [
+    {
+      "id": "c056_event_zhou_defeated",
+      "name": "周瑜中伏敗退",
+      "summary": "周瑜被孔明預伏的關公、黃忠、魏延三枝軍馬擊敗，箭瘡迸裂昏絕，由黃蓋、韓當救下船後逃走。",
+      "participants": [
+        "c056_zhou_yu",
+        "c056_zhuge_liang",
+        "c056_guan_gong",
+        "c056_huang_zhong",
+        "c056_wei_yan",
+        "c056_huang_gai",
+        "c056_han_dang",
+        "c056_liu_bei",
+        "c056_sun_furen"
+      ],
+      "locations": [
+        "c056_jingzhou"
+      ],
+      "evidence": [
+        "三枝軍馬，一擊大敗",
+        "黃蓋、韓當急救下船"
+      ]
+    },
+    {
+      "id": "c056_event_sun_hua_xin_plan",
+      "name": "孫權遣華歆表劉備",
+      "summary": "孫權欲攻荊州，張昭勸阻並建議遣使赴許都表劉備為荊州牧；雍薦華歆，孫權遂遣華歆齎表前往。",
+      "participants": [
+        "c056_sun_quan",
+        "c056_zhang_zhao",
+        "c056_yong",
+        "c056_hua_xin",
+        "c056_liu_bei"
+      ],
+      "locations": [
+        "c056_nanxu",
+        "c056_xudu",
+        "c056_yedu"
+      ],
+      "evidence": [
+        "張昭諫：不可",
+        "遣歆齎表赴許都"
+      ]
+    },
+    {
+      "id": "c056_event_copper_banquet",
+      "name": "曹操大宴銅雀臺",
+      "summary": "曹操建成銅雀臺後大會文武設宴，登高觀武將比射，又令文官作詩。",
+      "participants": [
+        "c056_cao_cao",
+        "c056_cao_xiu",
+        "c056_wen_pin",
+        "c056_cao_hong",
+        "c056_zhang_he",
+        "c056_xiahou_yuan",
+        "c056_xu_huang",
+        "c056_xu_chu"
+      ],
+      "locations": [
+        "c056_zoujun",
+        "c056_yedu",
+        "c056_tongque_tai",
+        "c056_zhanghe"
+      ],
+      "evidence": [
+        "造銅雀台成",
+        "大會文武"
+      ]
+    },
+    {
+      "id": "c056_event_archery_contest",
+      "name": "銅雀臺射箭爭袍",
+      "summary": "曹操以西川紅錦戰袍為賞，曹休、文聘、曹洪、張郃、夏侯淵等射中紅心，徐晃取袍後被許褚爭奪，錦袍扯碎。",
+      "participants": [
+        "c056_cao_cao",
+        "c056_cao_xiu",
+        "c056_wen_pin",
+        "c056_cao_hong",
+        "c056_zhang_he",
+        "c056_xiahou_yuan",
+        "c056_xu_huang",
+        "c056_xu_chu"
+      ],
+      "locations": [
+        "c056_tongque_tai"
+      ],
+      "evidence": [
+        "射中箭垛紅心",
+        "錦袍已是扯得粉碎"
+      ]
+    },
+    {
+      "id": "c056_event_cao_titles",
+      "name": "曹操表封周瑜程普",
+      "summary": "曹操聞劉備得荊州而驚，程昱獻離間之策，曹操遂表周瑜為南郡太守、程普為江夏太守，封華歆為大理少卿。",
+      "participants": [
+        "c056_cao_cao",
+        "c056_cheng_yu",
+        "c056_zhou_yu",
+        "c056_cheng_pu",
+        "c056_hua_xin",
+        "c056_liu_bei"
+      ],
+      "locations": [
+        "c056_xuchang",
+        "c056_nanjun",
+        "c056_jiangxia",
+        "c056_xudu"
+      ],
+      "evidence": [
+        "投筆於地",
+        "封華歆為大理少卿"
+      ]
+    },
+    {
+      "id": "c056_event_lu_su_demands",
+      "name": "魯肅索還荊州",
+      "summary": "周瑜受南郡後請孫權令魯肅討還荊州；魯肅到荊州向劉備索還，孔明以劉備哭訴西川劉璋為骨肉等理由暫緩。",
+      "participants": [
+        "c056_zhou_yu",
+        "c056_sun_quan",
+        "c056_lu_su",
+        "c056_liu_bei",
+        "c056_zhuge_liang",
+        "c056_liu_zhang"
+      ],
+      "locations": [
+        "c056_chaisang",
+        "c056_jingzhou",
+        "c056_xichuan"
+      ],
+      "evidence": [
+        "乞令魯肅去討還荊州",
+        "掩面大哭"
+      ]
+    },
+    {
+      "id": "c056_event_false_route_plan",
+      "name": "周瑜假途滅虢計成議",
+      "summary": "魯肅回報後，周瑜認為其中了孔明之計，另設假途滅虢，命魯肅假稱東吳願替劉備取西川，以便借道荊州。",
+      "participants": [
+        "c056_zhou_yu",
+        "c056_lu_su",
+        "c056_zhuge_liang",
+        "c056_liu_bei",
+        "c056_sun_quan"
+      ],
+      "locations": [
+        "c056_chaisang",
+        "c056_jingzhou",
+        "c056_xichuan"
+      ],
+      "evidence": [
+        "子敬又中諸葛亮之計",
+        "此乃假途滅虢之計"
+      ]
+    },
+    {
+      "id": "c056_event_zhou_march",
+      "name": "周瑜率兵望荊州",
+      "summary": "周瑜以為孔明中計，令程普接應，自率水陸大兵五萬，以甘寧為先鋒，徐盛、丁奉為第二，凌統、呂蒙為後隊，向荊州進軍。",
+      "participants": [
+        "c056_zhou_yu",
+        "c056_cheng_pu",
+        "c056_gan_ning",
+        "c056_xu_sheng",
+        "c056_ding_feng",
+        "c056_ling_tong",
+        "c056_lv_meng",
+        "c056_lu_su"
+      ],
+      "locations": [
+        "c056_chaisang",
+        "c056_xiakou",
+        "c056_gongan",
+        "c056_jingzhou"
+      ],
+      "evidence": [
+        "水陸大兵五萬",
+        "望荊州而來"
+      ]
+    },
+    {
+      "id": "c056_event_four_routes_arrive",
+      "name": "趙雲揭計四路兵至",
+      "summary": "周瑜抵荊州城下，城上插白旗，趙雲出面稱孔明已知其假途滅虢之計；隨後傳報關公、張飛、黃忠、魏延四路軍馬一齊殺到。",
+      "participants": [
+        "c056_zhou_yu",
+        "c056_zhao_yun",
+        "c056_zhuge_liang",
+        "c056_guan_gong",
+        "c056_zhang_fei",
+        "c056_huang_zhong",
+        "c056_wei_yan"
+      ],
+      "locations": [
+        "c056_jingzhou",
+        "c056_jiangling",
+        "c056_jiegui",
+        "c056_gongan",
+        "c056_chanling"
+      ],
+      "evidence": [
+        "敵樓上趙雲出曰",
+        "四路軍馬，一齊殺到"
+      ]
+    }
+  ],
+  "notes": [
+    "抽取按提供檔案文字處理；原文疑似重複或訛字如鄒郡、姐歸等仍保留原字。",
+    "僅保留本章正文直接支持的關係；曹操自述中遠景舊戰未逐一擴展為本章事件。"
+  ]
+}

@@ -1,0 +1,2508 @@
+{
+  "book": "三國演義",
+  "chapter_no": 5,
+  "chapter_title": "發矯詔諸鎮應曹公　破關兵三英戰呂布",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹公"
+      ],
+      "description": "在陳留散家資、募義兵，發檄邀諸侯討董卓。",
+      "evidence": [
+        "連夜到陳留",
+        "招募義兵",
+        "操作檄文"
+      ]
+    },
+    {
+      "id": "char_chen_gong",
+      "name": "陳宮",
+      "type": "character",
+      "aliases": [],
+      "description": "棄曹操而往東郡。",
+      "evidence": [
+        "自投東郡去了"
+      ]
+    },
+    {
+      "id": "char_cao_song",
+      "name": "曹嵩",
+      "type": "character",
+      "aliases": [
+        "操父"
+      ],
+      "description": "曹操之父，建議曹操求助衛弘。",
+      "evidence": [
+        "尋見父親",
+        "此間有孝廉衛弘"
+      ]
+    },
+    {
+      "id": "char_wei_hong",
+      "name": "衛弘",
+      "type": "character",
+      "aliases": [],
+      "description": "陳留富戶，資助曹操起兵。",
+      "evidence": [
+        "疏財仗義",
+        "盡出家財"
+      ]
+    },
+    {
+      "id": "char_yue_jin",
+      "name": "樂進",
+      "type": "character",
+      "aliases": [
+        "文謙"
+      ],
+      "description": "來投曹操，留為帳前吏。",
+      "evidence": [
+        "樂，名進，字文謙",
+        "來投曹操"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [
+        "曼成"
+      ],
+      "description": "來投曹操，留為帳前吏。",
+      "evidence": [
+        "李，名典，字曼成",
+        "來投曹操"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [
+        "元讓"
+      ],
+      "description": "與夏侯淵各引壯士千人來助曹操。",
+      "evidence": [
+        "字符讓",
+        "各引壯士千人來會"
+      ]
+    },
+    {
+      "id": "char_xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "夏侯惇族弟，引壯士來會曹操。",
+      "evidence": [
+        "族弟夏侯淵",
+        "各引壯士千人來會"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [
+        "子孝"
+      ],
+      "description": "曹氏兄弟之一，引兵助曹操。",
+      "evidence": [
+        "曹仁字子孝",
+        "各引兵千餘來助"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [
+        "子廉"
+      ],
+      "description": "曹氏兄弟之一，引兵助曹操。",
+      "evidence": [
+        "曹洪字子廉",
+        "各引兵千餘來助"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "本初"
+      ],
+      "description": "渤海太守，會盟中被推為盟主。",
+      "evidence": [
+        "祁鄉侯渤海太守袁紹",
+        "可為盟主"
+      ]
+    },
+    {
+      "id": "char_yuan_shu",
+      "name": "袁術",
+      "type": "character",
+      "aliases": [
+        "公路"
+      ],
+      "description": "袁紹之弟，總督糧草，後不發孫堅糧草。",
+      "evidence": [
+        "吾弟袁術總督糧草",
+        "不發糧草"
+      ]
+    },
+    {
+      "id": "char_dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [
+        "卓",
+        "董賊"
+      ],
+      "description": "專權者，為諸侯聯軍討伐目標。",
+      "evidence": [
+        "董卓專權",
+        "賊臣董卓"
+      ]
+    },
+    {
+      "id": "char_li_ru",
+      "name": "李儒",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓謀士，接告急文書並獻策。",
+      "evidence": [
+        "李儒接得告急文書",
+        "儒曰"
+      ]
+    },
+    {
+      "id": "char_lv_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "奉先",
+        "溫侯"
+      ],
+      "description": "董卓倚重的猛將，守虎牢關，與劉關張交戰。",
+      "evidence": [
+        "溫侯呂布",
+        "吾有奉先",
+        "呂布搦戰"
+      ]
+    },
+    {
+      "id": "char_hua_xiong",
+      "name": "華雄",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓部將，守汜水關，連斬鮑忠、俞涉、潘鳳，後被關羽斬。",
+      "evidence": [
+        "姓華，名雄",
+        "華雄引鐵騎",
+        "提華雄之頭"
+      ]
+    },
+    {
+      "id": "char_li_su",
+      "name": "李肅",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓軍將領，隨華雄赴關，獻夜襲孫堅之計。",
+      "evidence": [
+        "同李肅",
+        "李肅為華雄謀"
+      ]
+    },
+    {
+      "id": "char_hu_zhen",
+      "name": "胡軫",
+      "type": "character",
+      "aliases": [
+        "胡軒"
+      ],
+      "description": "華雄副將，出關迎戰，被程普刺殺。",
+      "evidence": [
+        "副將胡軒",
+        "刺中胡軫咽喉"
+      ]
+    },
+    {
+      "id": "char_zhao_cen",
+      "name": "趙岑",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓軍將領，隨華雄星夜赴關。",
+      "evidence": [
+        "胡軒、趙岑星夜赴關"
+      ]
+    },
+    {
+      "id": "char_bao_xin",
+      "name": "鮑信",
+      "type": "character",
+      "aliases": [],
+      "description": "濟北相，諸侯之一；其弟鮑忠擅自出戰。",
+      "evidence": [
+        "濟北相鮑信",
+        "鮑將軍之弟"
+      ]
+    },
+    {
+      "id": "char_bao_zhong",
+      "name": "鮑忠",
+      "type": "character",
+      "aliases": [],
+      "description": "鮑信之弟，擅先至關下搦戰，被華雄斬。",
+      "evidence": [
+        "其弟鮑忠",
+        "被華雄手起刀落"
+      ]
+    },
+    {
+      "id": "char_sun_jian",
+      "name": "孫堅",
+      "type": "character",
+      "aliases": [
+        "文台"
+      ],
+      "description": "長沙太守，自願為前部攻汜水關，敗於華雄。",
+      "evidence": [
+        "長沙太守孫堅",
+        "願為前部",
+        "敗於華雄"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [
+        "德謀"
+      ],
+      "description": "孫堅四將之一，刺殺胡軫。",
+      "evidence": [
+        "程，名普，字德謀",
+        "刺中胡軫咽喉"
+      ]
+    },
+    {
+      "id": "char_huang_gai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [
+        "公覆"
+      ],
+      "description": "孫堅四將之一。",
+      "evidence": [
+        "姓黃，名蓋，字公覆"
+      ]
+    },
+    {
+      "id": "char_han_dang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [
+        "義公"
+      ],
+      "description": "孫堅四將之一。",
+      "evidence": [
+        "韓當，字義公"
+      ]
+    },
+    {
+      "id": "char_zu_mao",
+      "name": "祖茂",
+      "type": "character",
+      "aliases": [],
+      "description": "孫堅部將，以赤幘誘敵救孫堅，後被華雄斬。",
+      "evidence": [
+        "祖茂跟定孫堅",
+        "將祖茂一刀砍於馬下"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德"
+      ],
+      "description": "平原縣令，隨公孫瓚會盟，後與關羽、張飛戰呂布。",
+      "evidence": [
+        "劉玄德也",
+        "平原令劉備",
+        "掣雙股劍"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關公"
+      ],
+      "description": "劉備之弟，任馬弓手，溫酒斬華雄，後助戰呂布。",
+      "evidence": [
+        "此劉玄德之弟關羽",
+        "充馬弓手",
+        "雲長提華雄之頭"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "燕人張飛"
+      ],
+      "description": "劉備之弟，任步弓手，救公孫瓚並酣戰呂布。",
+      "evidence": [
+        "張飛為步弓手",
+        "燕人張飛在此"
+      ]
+    },
+    {
+      "id": "char_gongsun_zan",
+      "name": "公孫瓚",
+      "type": "character",
+      "aliases": [],
+      "description": "北平太守，領兵會盟，後親戰呂布敗走。",
+      "evidence": [
+        "北平太守公孫瓚",
+        "親戰呂布"
+      ]
+    },
+    {
+      "id": "char_wang_kuang",
+      "name": "王匡",
+      "type": "character",
+      "aliases": [],
+      "description": "河內太守，提議立盟主，虎牢關先到迎敵。",
+      "evidence": [
+        "太守王匡曰",
+        "河內太守王匡"
+      ]
+    },
+    {
+      "id": "char_qiao_mao",
+      "name": "喬瑁",
+      "type": "character",
+      "aliases": [],
+      "description": "東郡太守，諸侯之一，救援王匡。",
+      "evidence": [
+        "東郡太守喬瑁",
+        "來救王匡"
+      ]
+    },
+    {
+      "id": "char_yuan_yi",
+      "name": "袁遺",
+      "type": "character",
+      "aliases": [],
+      "description": "山陽太守，諸侯之一，救援王匡。",
+      "evidence": [
+        "山陽太守袁遺",
+        "來救王匡"
+      ]
+    },
+    {
+      "id": "char_han_fu",
+      "name": "韓馥",
+      "type": "character",
+      "aliases": [],
+      "description": "冀州刺史，諸侯之一，派潘鳳戰華雄。",
+      "evidence": [
+        "冀州刺史韓馥",
+        "吾有上將潘鳳"
+      ]
+    },
+    {
+      "id": "char_kong_zhou",
+      "name": "孔伷",
+      "type": "character",
+      "aliases": [],
+      "description": "豫州刺史，諸侯之一。",
+      "evidence": [
+        "豫州刺史孔伷"
+      ]
+    },
+    {
+      "id": "char_liu_dai",
+      "name": "劉岱",
+      "type": "character",
+      "aliases": [],
+      "description": "兗州刺史，諸侯之一。",
+      "evidence": [
+        "兗州刺史劉岱"
+      ]
+    },
+    {
+      "id": "char_zhang_miao",
+      "name": "張邈",
+      "type": "character",
+      "aliases": [],
+      "description": "陳留太守，諸侯之一。",
+      "evidence": [
+        "陳留太守張邈"
+      ]
+    },
+    {
+      "id": "char_kong_rong",
+      "name": "孔融",
+      "type": "character",
+      "aliases": [],
+      "description": "北海太守，諸侯之一。",
+      "evidence": [
+        "北海太守孔融"
+      ]
+    },
+    {
+      "id": "char_zhang_chao",
+      "name": "張超",
+      "type": "character",
+      "aliases": [],
+      "description": "廣陵太守，諸侯之一。",
+      "evidence": [
+        "廣陵太守張超"
+      ]
+    },
+    {
+      "id": "char_tao_qian",
+      "name": "陶謙",
+      "type": "character",
+      "aliases": [],
+      "description": "徐州刺史，諸侯之一。",
+      "evidence": [
+        "徐州刺史陶謙"
+      ]
+    },
+    {
+      "id": "char_ma_teng",
+      "name": "馬騰",
+      "type": "character",
+      "aliases": [],
+      "description": "西涼太守，諸侯之一。",
+      "evidence": [
+        "西涼太守馬騰"
+      ]
+    },
+    {
+      "id": "char_zhang_yang",
+      "name": "張楊",
+      "type": "character",
+      "aliases": [],
+      "description": "上黨太守，諸侯之一。",
+      "evidence": [
+        "上黨太守張楊"
+      ]
+    },
+    {
+      "id": "char_yu_she",
+      "name": "俞涉",
+      "type": "character",
+      "aliases": [],
+      "description": "袁術背後驍將，出戰華雄被斬。",
+      "evidence": [
+        "驍將俞涉",
+        "被華雄斬了"
+      ]
+    },
+    {
+      "id": "char_pan_feng",
+      "name": "潘鳳",
+      "type": "character",
+      "aliases": [],
+      "description": "韓馥上將，出戰華雄被斬。",
+      "evidence": [
+        "上將潘鳳",
+        "又被華雄斬了"
+      ]
+    },
+    {
+      "id": "char_yan_liang",
+      "name": "顏良",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹上將，當時未至。",
+      "evidence": [
+        "上將顏良、文醜未至"
+      ]
+    },
+    {
+      "id": "char_wen_chou",
+      "name": "文醜",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹上將，當時未至。",
+      "evidence": [
+        "上將顏良、文醜未至"
+      ]
+    },
+    {
+      "id": "char_yuan_wei",
+      "name": "袁隗",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹叔父，時任太傅，被李儒視為內應風險。",
+      "evidence": [
+        "紹叔袁隗，現為太傅"
+      ]
+    },
+    {
+      "id": "char_li_jue",
+      "name": "李傕",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓部將，奉命與郭汜守汜水關。",
+      "evidence": [
+        "李傕、郭汜引兵五萬"
+      ]
+    },
+    {
+      "id": "char_guo_si",
+      "name": "郭汜",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓部將，奉命與李傕守汜水關。",
+      "evidence": [
+        "李傕、郭汜引兵五萬"
+      ]
+    },
+    {
+      "id": "char_fan_chou",
+      "name": "樊稠",
+      "type": "character",
+      "aliases": [],
+      "description": "隨董卓守虎牢關。",
+      "evidence": [
+        "同李儒、呂布、樊稠"
+      ]
+    },
+    {
+      "id": "char_zhang_ji",
+      "name": "張濟",
+      "type": "character",
+      "aliases": [],
+      "description": "隨董卓守虎牢關。",
+      "evidence": [
+        "樊稠、張濟等守虎牢關"
+      ]
+    },
+    {
+      "id": "char_fang_yue",
+      "name": "方悅",
+      "type": "character",
+      "aliases": [],
+      "description": "河內名將，與呂布交戰被刺死。",
+      "evidence": [
+        "河內名將方悅",
+        "被呂布一戟刺於馬下"
+      ]
+    },
+    {
+      "id": "char_mu_shun",
+      "name": "穆順",
+      "type": "character",
+      "aliases": [],
+      "description": "張楊部將，出戰呂布被刺死。",
+      "evidence": [
+        "張楊部將穆順",
+        "刺於馬下"
+      ]
+    },
+    {
+      "id": "char_wu_an_guo",
+      "name": "武安國",
+      "type": "character",
+      "aliases": [],
+      "description": "孔融部將，使鐵鎚戰呂布，被砍斷手腕。",
+      "evidence": [
+        "部將武安國",
+        "砍斷安國手腕"
+      ]
+    },
+    {
+      "id": "faction_han",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [
+        "漢朝"
+      ],
+      "description": "曹操與諸侯聲稱扶助的正統。",
+      "evidence": [
+        "漢室無主",
+        "同扶國家"
+      ]
+    },
+    {
+      "id": "faction_dong_zhuo_army",
+      "name": "董卓軍",
+      "type": "faction",
+      "aliases": [
+        "卓軍"
+      ],
+      "description": "董卓所統之軍，守汜水、虎牢二關。",
+      "evidence": [
+        "董卓專權",
+        "卓遂起兵二十萬"
+      ]
+    },
+    {
+      "id": "faction_coalition",
+      "name": "諸侯聯軍",
+      "type": "faction",
+      "aliases": [
+        "十八路諸侯",
+        "關外諸侯",
+        "諸路軍馬"
+      ],
+      "description": "應曹操檄文討董卓的各鎮諸侯。",
+      "evidence": [
+        "諸路軍馬",
+        "大會諸侯"
+      ]
+    },
+    {
+      "id": "faction_cao_volunteers",
+      "name": "曹操義兵",
+      "type": "faction",
+      "aliases": [
+        "義兵"
+      ],
+      "description": "曹操在陳留募起的討董兵馬。",
+      "evidence": [
+        "招募義兵",
+        "調練軍馬"
+      ]
+    },
+    {
+      "id": "faction_liu_group",
+      "name": "玄德、關、張",
+      "type": "faction",
+      "aliases": [
+        "劉關張",
+        "三英"
+      ],
+      "description": "劉備、關羽、張飛三人，隨公孫瓚赴會並合戰呂布。",
+      "evidence": [
+        "玄德、關、張引數騎",
+        "三個圍住呂布"
+      ]
+    },
+    {
+      "id": "army_gongsun_15000",
+      "name": "公孫瓚精兵一萬五千",
+      "type": "army",
+      "aliases": [],
+      "description": "公孫瓚統領赴會盟的兵馬。",
+      "evidence": [
+        "統領精兵一萬五千"
+      ]
+    },
+    {
+      "id": "army_yuan_shao_30000",
+      "name": "袁紹兵三萬",
+      "type": "army",
+      "aliases": [],
+      "description": "袁紹自渤海引出會盟的兵馬。",
+      "evidence": [
+        "引兵三萬，離渤海"
+      ]
+    },
+    {
+      "id": "army_hua_xiong_50000",
+      "name": "華雄馬步軍五萬",
+      "type": "army",
+      "aliases": [],
+      "description": "董卓撥給華雄赴關迎敵的兵馬。",
+      "evidence": [
+        "撥馬步軍五萬"
+      ]
+    },
+    {
+      "id": "army_bao_zhong_3000",
+      "name": "鮑忠馬步軍三千",
+      "type": "army",
+      "aliases": [],
+      "description": "鮑忠暗自率往關下搦戰的兵馬。",
+      "evidence": [
+        "馬步軍三千"
+      ]
+    },
+    {
+      "id": "army_lv_bu_iron_cavalry",
+      "name": "呂布鐵騎",
+      "type": "army",
+      "aliases": [
+        "鐵騎三千"
+      ],
+      "description": "呂布在虎牢關前衝陣的騎兵。",
+      "evidence": [
+        "呂布帶鐵騎三千"
+      ]
+    },
+    {
+      "id": "army_dong_200000",
+      "name": "董卓大軍二十萬",
+      "type": "army",
+      "aliases": [],
+      "description": "董卓華雄敗後所起兩路大軍。",
+      "evidence": [
+        "起兵二十萬"
+      ]
+    },
+    {
+      "id": "army_eight_routes",
+      "name": "八路諸侯",
+      "type": "army",
+      "aliases": [],
+      "description": "袁紹分往虎牢關迎敵的八路軍馬。",
+      "evidence": [
+        "八路諸侯",
+        "往虎牢關迎敵"
+      ]
+    },
+    {
+      "id": "loc_dongjun",
+      "name": "東郡",
+      "type": "location",
+      "aliases": [],
+      "description": "陳宮棄曹操後前往之地；喬瑁任東郡太守。",
+      "evidence": [
+        "自投東郡去了",
+        "東郡太守喬瑁"
+      ]
+    },
+    {
+      "id": "loc_chenliu",
+      "name": "陳留",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操回到此地募兵。",
+      "evidence": [
+        "連夜到陳留"
+      ]
+    },
+    {
+      "id": "loc_bohai",
+      "name": "渤海",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹起兵來會盟之地。",
+      "evidence": [
+        "離渤海來與曹操會盟"
+      ]
+    },
+    {
+      "id": "loc_luoyang",
+      "name": "洛陽",
+      "type": "location",
+      "aliases": [],
+      "description": "諸侯進軍目標，董卓丞相府所在。",
+      "evidence": [
+        "投洛陽來",
+        "洛陽丞相府"
+      ]
+    },
+    {
+      "id": "loc_pingyuan",
+      "name": "平原縣",
+      "type": "location",
+      "aliases": [
+        "德州平原縣"
+      ],
+      "description": "劉備為縣令之地，公孫瓚路經。",
+      "evidence": [
+        "德州平原縣",
+        "平原縣令"
+      ]
+    },
+    {
+      "id": "loc_sishui_pass",
+      "name": "汜水關",
+      "type": "location",
+      "aliases": [],
+      "description": "華雄守關，孫堅、關羽等交戰之處。",
+      "evidence": [
+        "直抵汜水關挑戰",
+        "上關"
+      ]
+    },
+    {
+      "id": "loc_hulao_pass",
+      "name": "虎牢關",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓與呂布守備，八路諸侯迎敵之處。",
+      "evidence": [
+        "守虎牢關",
+        "董卓屯兵虎牢"
+      ]
+    },
+    {
+      "id": "loc_liangdong",
+      "name": "梁東",
+      "type": "location",
+      "aliases": [],
+      "description": "孫堅退兵屯住之處。",
+      "evidence": [
+        "回至梁東屯住"
+      ]
+    },
+    {
+      "id": "battle_sishui",
+      "name": "汜水關之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "諸侯聯軍前部孫堅與華雄軍在汜水關一帶交戰。",
+      "evidence": [
+        "直抵汜水關挑戰",
+        "華雄引鐵騎"
+      ]
+    },
+    {
+      "id": "battle_warm_wine",
+      "name": "溫酒斬華雄",
+      "type": "battle",
+      "aliases": [
+        "關羽斬華雄"
+      ],
+      "description": "關羽出戰華雄，酒尚溫時提其首級回營。",
+      "evidence": [
+        "酒且斟下",
+        "提華雄之頭"
+      ]
+    },
+    {
+      "id": "battle_hulao",
+      "name": "虎牢關之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "董卓屯虎牢，呂布與八路諸侯交戰。",
+      "evidence": [
+        "董卓屯兵虎牢",
+        "八路諸侯齊出"
+      ]
+    },
+    {
+      "id": "battle_three_vs_lu_bu",
+      "name": "三英戰呂布",
+      "type": "battle",
+      "aliases": [
+        "玄德、關、張三戰呂布"
+      ],
+      "description": "張飛、關羽、劉備合戰呂布。",
+      "evidence": [
+        "三個圍住呂布",
+        "三戰呂布"
+      ]
+    },
+    {
+      "id": "title_pingyuan_ling",
+      "name": "平原縣令",
+      "type": "title",
+      "aliases": [
+        "平原令"
+      ],
+      "description": "劉備在本章所任官職。",
+      "evidence": [
+        "保備為平原縣令",
+        "平原令劉備"
+      ]
+    },
+    {
+      "id": "title_mengzhu",
+      "name": "盟主",
+      "type": "title",
+      "aliases": [],
+      "description": "諸侯會盟推舉的統攝名位，由袁紹擔任。",
+      "evidence": [
+        "必立盟主",
+        "可為盟主"
+      ]
+    },
+    {
+      "id": "title_qianbu",
+      "name": "前部",
+      "type": "title",
+      "aliases": [
+        "先鋒"
+      ],
+      "description": "進攻汜水關的前鋒職任，孫堅自願擔任。",
+      "evidence": [
+        "更須一人為先鋒",
+        "堅願為前部"
+      ]
+    },
+    {
+      "id": "title_zongdu_liangcao",
+      "name": "總督糧草",
+      "type": "title",
+      "aliases": [],
+      "description": "袁術在會盟中負責供應諸營糧草。",
+      "evidence": [
+        "袁術總督糧草"
+      ]
+    },
+    {
+      "id": "title_xiaoqi_xiaowei",
+      "name": "驍騎校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓加授華雄的官職。",
+      "evidence": [
+        "加為驍騎校尉"
+      ]
+    },
+    {
+      "id": "title_zongdu",
+      "name": "總督",
+      "type": "title",
+      "aliases": [],
+      "description": "華雄斬鮑忠報捷後，董卓加授之職。",
+      "evidence": [
+        "卓加雄為總督"
+      ]
+    },
+    {
+      "id": "title_wenhou",
+      "name": "溫侯",
+      "type": "title",
+      "aliases": [],
+      "description": "呂布在本章稱號。",
+      "evidence": [
+        "溫侯呂布"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓掌權時的稱號。",
+      "evidence": [
+        "洛陽丞相府"
+      ]
+    },
+    {
+      "id": "title_taifu",
+      "name": "太傅",
+      "type": "title",
+      "aliases": [],
+      "description": "袁隗所任官職。",
+      "evidence": [
+        "現為太傅"
+      ]
+    },
+    {
+      "id": "title_magongshou",
+      "name": "馬弓手",
+      "type": "title",
+      "aliases": [],
+      "description": "關羽隨劉備時所充職役。",
+      "evidence": [
+        "充馬弓手"
+      ]
+    },
+    {
+      "id": "title_bugongshou",
+      "name": "步弓手",
+      "type": "title",
+      "aliases": [],
+      "description": "張飛隨劉備時所充職役。",
+      "evidence": [
+        "張飛為步弓手"
+      ]
+    },
+    {
+      "id": "obj_xiwen",
+      "name": "檄文",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操用以佈告諸郡、號召討董的文書。",
+      "evidence": [
+        "操作檄文以達諸郡"
+      ]
+    },
+    {
+      "id": "obj_mizhao",
+      "name": "天子密詔",
+      "type": "object",
+      "aliases": [],
+      "description": "檄文中所稱討董的名義來源。",
+      "evidence": [
+        "今奉天子密詔"
+      ]
+    },
+    {
+      "id": "obj_chijie",
+      "name": "赤幘",
+      "type": "object",
+      "aliases": [],
+      "description": "孫堅頭巾，被祖茂用來誘開華雄追兵。",
+      "evidence": [
+        "主公頭上赤幘",
+        "將赤幘掛於庭柱"
+      ]
+    },
+    {
+      "id": "obj_gudingdao",
+      "name": "古錠刀",
+      "type": "object",
+      "aliases": [],
+      "description": "孫堅所持兵器。",
+      "evidence": [
+        "橫古錠刀"
+      ]
+    },
+    {
+      "id": "obj_quehua_bow",
+      "name": "鵲畫弓",
+      "type": "object",
+      "aliases": [],
+      "description": "孫堅逃走時拉折之弓。",
+      "evidence": [
+        "拉折了鵲畫弓"
+      ]
+    },
+    {
+      "id": "obj_qinglong_yanyue",
+      "name": "青龍偃月刀",
+      "type": "object",
+      "aliases": [],
+      "description": "關羽夾攻呂布所用兵器。",
+      "evidence": [
+        "青龍偃月刀"
+      ]
+    },
+    {
+      "id": "obj_shemao",
+      "name": "丈八蛇矛",
+      "type": "object",
+      "aliases": [],
+      "description": "張飛戰呂布所用兵器。",
+      "evidence": [
+        "挺丈八蛇矛"
+      ]
+    },
+    {
+      "id": "obj_shuanggujian",
+      "name": "雙股劍",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備助戰呂布時所持兵器。",
+      "evidence": [
+        "掣雙股劍"
+      ]
+    },
+    {
+      "id": "obj_huaji",
+      "name": "畫戟",
+      "type": "object",
+      "aliases": [],
+      "description": "呂布所持兵器。",
+      "evidence": [
+        "手持畫戟",
+        "倒拖畫戟"
+      ]
+    },
+    {
+      "id": "obj_chitu",
+      "name": "赤兔馬",
+      "type": "object",
+      "aliases": [
+        "赤兔"
+      ],
+      "description": "呂布坐騎，追公孫瓚時顯其迅疾。",
+      "evidence": [
+        "坐下來赤兔馬",
+        "日行千里"
+      ]
+    },
+    {
+      "id": "obj_baimao_huangyue",
+      "name": "白旄黃鉞",
+      "type": "object",
+      "aliases": [],
+      "description": "袁紹登壇會盟時所建儀物。",
+      "evidence": [
+        "上建白旄黃鉞"
+      ]
+    },
+    {
+      "id": "obj_bingfu_jiangyin",
+      "name": "兵符將印",
+      "type": "object",
+      "aliases": [],
+      "description": "袁紹登壇會盟時陳列的軍令象徵。",
+      "evidence": [
+        "兵符將印"
+      ]
+    },
+    {
+      "id": "obj_gaoji_wenshu",
+      "name": "告急文書",
+      "type": "object",
+      "aliases": [],
+      "description": "守關將士、李肅向董卓報警所用文書。",
+      "evidence": [
+        "告急文書",
+        "申聞董卓"
+      ]
+    },
+    {
+      "id": "strategy_raise_by_edict",
+      "name": "矯詔起兵",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操以天子密詔名義發檄討董。",
+      "evidence": [
+        "操矯詔",
+        "奉天子密詔"
+      ]
+    },
+    {
+      "id": "strategy_alliance_leader",
+      "name": "會盟立主",
+      "type": "strategy",
+      "aliases": [],
+      "description": "諸侯先立盟主，再聽約束進兵。",
+      "evidence": [
+        "必立盟主",
+        "眾聽約束"
+      ]
+    },
+    {
+      "id": "strategy_withhold_grain",
+      "name": "不發糧草",
+      "type": "strategy",
+      "aliases": [
+        "斷糧"
+      ],
+      "description": "袁術聽人建議，不供孫堅糧草，使其軍亂。",
+      "evidence": [
+        "今不與糧",
+        "不發糧草"
+      ]
+    },
+    {
+      "id": "strategy_flank_sun_camp",
+      "name": "前後夾擊孫堅寨",
+      "type": "strategy",
+      "aliases": [
+        "李肅夜襲之計"
+      ],
+      "description": "李肅引軍襲後，華雄擊前寨。",
+      "evidence": [
+        "襲孫堅寨後",
+        "擊其前寨"
+      ]
+    },
+    {
+      "id": "strategy_red_scarf_decoy",
+      "name": "赤幘誘敵",
+      "type": "strategy",
+      "aliases": [],
+      "description": "祖茂戴孫堅赤幘分走，後掛赤幘於柱誘敵。",
+      "evidence": [
+        "脫幘與某戴之",
+        "掛於庭柱"
+      ]
+    },
+    {
+      "id": "strategy_split_guard_passes",
+      "name": "分兵守關",
+      "type": "strategy",
+      "aliases": [],
+      "description": "董卓分李傕、郭汜守汜水關，自守虎牢關。",
+      "evidence": [
+        "分為兩路而來",
+        "把住汜水關"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_chen_gong",
+      "target": "char_cao_cao",
+      "type": "棄離",
+      "description": "陳宮因疑曹操不仁，棄曹操而去東郡。",
+      "evidence": [
+        "疑我不仁，棄我而去"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_song",
+      "target": "char_wei_hong",
+      "type": "舉薦求助",
+      "description": "曹嵩建議曹操求助富戶衛弘。",
+      "evidence": [
+        "若得相助，事可圖矣"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_wei_hong",
+      "target": "faction_cao_volunteers",
+      "type": "資助",
+      "description": "衛弘出家財置辦衣甲旗幡，支持曹操義兵。",
+      "evidence": [
+        "盡出家財，置辦衣甲旗幡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_cao_volunteers",
+      "type": "招募統領",
+      "description": "曹操在陳留募義兵並調練軍馬。",
+      "evidence": [
+        "招募義兵",
+        "調練軍馬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yue_jin",
+      "target": "char_cao_cao",
+      "type": "投奔",
+      "description": "樂進來投曹操。",
+      "evidence": [
+        "來投曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_cao_cao",
+      "type": "投奔",
+      "description": "李典來投曹操。",
+      "evidence": [
+        "也來投曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "char_cao_cao",
+      "type": "率眾來會",
+      "description": "夏侯惇引壯士千人來會曹操。",
+      "evidence": [
+        "各引壯士千人來會"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xiahou_yuan",
+      "target": "char_cao_cao",
+      "type": "率眾來會",
+      "description": "夏侯淵引壯士千人來會曹操。",
+      "evidence": [
+        "夏侯淵兩個，各引壯士千人"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "char_cao_cao",
+      "type": "引兵來助",
+      "description": "曹仁引兵助曹操。",
+      "evidence": [
+        "各引兵千餘來助"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "char_cao_cao",
+      "type": "引兵來助",
+      "description": "曹洪引兵助曹操。",
+      "evidence": [
+        "各引兵千餘來助"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_xiwen",
+      "type": "發布",
+      "description": "曹操發檄文傳達諸郡。",
+      "evidence": [
+        "操作檄文以達諸郡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_xiwen",
+      "target": "char_dong_zhuo",
+      "type": "聲討",
+      "description": "檄文列董卓罪狀並號召討伐。",
+      "evidence": [
+        "董卓欺天罔地",
+        "剿戮群兇"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_xiwen",
+      "target": "obj_mizhao",
+      "type": "借名義",
+      "description": "檄文稱奉天子密詔起兵。",
+      "evidence": [
+        "今奉天子密詔"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "faction_coalition",
+      "target": "char_dong_zhuo",
+      "type": "敵對討伐",
+      "description": "諸路軍馬投洛陽討董卓。",
+      "evidence": [
+        "投洛陽來",
+        "討卓"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_yuan_shao_30000",
+      "type": "統領",
+      "description": "袁紹聚麾下文武，引三萬兵赴會。",
+      "evidence": [
+        "引兵三萬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gongsun_zan",
+      "target": "army_gongsun_15000",
+      "type": "統領",
+      "description": "公孫瓚統領精兵一萬五千。",
+      "evidence": [
+        "統領精兵一萬五千"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gongsun_zan",
+      "target": "char_liu_bei",
+      "type": "保薦舊交",
+      "description": "公孫瓚曾保薦劉備為平原縣令，二人以兄弟相稱。",
+      "evidence": [
+        "蒙兄保備為平原縣令"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_pingyuan_ling",
+      "type": "任職",
+      "description": "劉備時任平原縣令。",
+      "evidence": [
+        "平原令劉備"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_liu_bei",
+      "type": "兄弟相稱",
+      "description": "關羽被稱為劉備之弟。",
+      "evidence": [
+        "此劉玄德之弟關羽"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_liu_bei",
+      "type": "兄弟相稱",
+      "description": "張飛稱關羽為哥哥，與劉備、關羽同列三人。",
+      "evidence": [
+        "俺哥哥斬了華雄",
+        "玄德、關、張"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "title_magongshou",
+      "type": "充任",
+      "description": "關羽隨劉備充馬弓手。",
+      "evidence": [
+        "充馬弓手"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "title_bugongshou",
+      "type": "充任",
+      "description": "張飛隨劉備為步弓手。",
+      "evidence": [
+        "張飛為步弓手"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wang_kuang",
+      "target": "strategy_alliance_leader",
+      "type": "提出",
+      "description": "王匡提出先立盟主以約束諸軍。",
+      "evidence": [
+        "必立盟主"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "faction_coalition",
+      "target": "char_yuan_shao",
+      "type": "推為盟主",
+      "description": "諸侯推袁紹為盟主。",
+      "evidence": [
+        "非本初不可",
+        "紹方應允"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "title_mengzhu",
+      "type": "擔任",
+      "description": "袁紹登壇受盟主位。",
+      "evidence": [
+        "請紹登壇"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_yuan_shu",
+      "type": "任命",
+      "description": "袁紹命袁術總督糧草。",
+      "evidence": [
+        "吾弟袁術總督糧草"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shu",
+      "target": "title_zongdu_liangcao",
+      "type": "擔任",
+      "description": "袁術負責應付諸營糧草。",
+      "evidence": [
+        "應付諸營"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "title_qianbu",
+      "type": "自願擔任",
+      "description": "孫堅自願為前部。",
+      "evidence": [
+        "堅願為前部"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "battle_sishui",
+      "type": "參戰攻關",
+      "description": "孫堅為前部攻汜水關。",
+      "evidence": [
+        "直至關前"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_lv_bu",
+      "type": "義父子倚重",
+      "description": "呂布稱董卓為父親，董卓倚重奉先。",
+      "evidence": [
+        "父親勿慮",
+        "吾有奉先"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "title_wenhou",
+      "type": "稱號",
+      "description": "呂布被稱為溫侯。",
+      "evidence": [
+        "溫侯呂布"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "title_chengxiang",
+      "type": "官稱",
+      "description": "告急文書送往董卓所在丞相府。",
+      "evidence": [
+        "洛陽丞相府"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_hua_xiong",
+      "type": "任命",
+      "description": "董卓加華雄為驍騎校尉。",
+      "evidence": [
+        "加為驍騎校尉"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hua_xiong",
+      "target": "title_xiaoqi_xiaowei",
+      "type": "擔任",
+      "description": "華雄受任驍騎校尉。",
+      "evidence": [
+        "加為驍騎校尉"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "army_hua_xiong_50000",
+      "type": "撥給",
+      "description": "董卓撥五萬馬步軍給華雄等赴關迎敵。",
+      "evidence": [
+        "撥馬步軍五萬"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_hua_xiong",
+      "target": "char_bao_zhong",
+      "type": "斬殺",
+      "description": "華雄斬殺擅自搦戰的鮑忠。",
+      "evidence": [
+        "斬於馬下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_bao_zhong",
+      "target": "army_bao_zhong_3000",
+      "type": "統領",
+      "description": "鮑忠率三千馬步軍至關下。",
+      "evidence": [
+        "先將馬步軍三千"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_hua_xiong",
+      "type": "加任總督",
+      "description": "華雄斬鮑忠報捷後，董卓加其為總督。",
+      "evidence": [
+        "卓加雄為總督"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hua_xiong",
+      "target": "title_zongdu",
+      "type": "擔任",
+      "description": "華雄受加為總督。",
+      "evidence": [
+        "加雄為總督"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_cheng_pu",
+      "type": "統領部將",
+      "description": "程普為孫堅四將之一。",
+      "evidence": [
+        "孫堅引四將",
+        "第一個程普"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_huang_gai",
+      "type": "統領部將",
+      "description": "黃蓋為孫堅四將之一。",
+      "evidence": [
+        "第二個黃蓋"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_han_dang",
+      "type": "統領部將",
+      "description": "韓當為孫堅四將之一。",
+      "evidence": [
+        "韓當，字義公"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_zu_mao",
+      "type": "統領部將",
+      "description": "祖茂隨孫堅突圍。",
+      "evidence": [
+        "祖茂跟定孫堅"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "char_hu_zhen",
+      "type": "刺殺",
+      "description": "程普出戰刺中胡軫咽喉。",
+      "evidence": [
+        "程普飛馬挺矛",
+        "刺中胡軫咽喉"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_yuan_shao",
+      "type": "報捷",
+      "description": "孫堅殺退胡軫後遣人向袁紹報捷。",
+      "evidence": [
+        "使人於袁紹報捷"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "char_yuan_shu",
+      "type": "催糧",
+      "description": "孫堅向袁術催糧。",
+      "evidence": [
+        "就於袁術處催糧"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shu",
+      "target": "strategy_withhold_grain",
+      "type": "採納執行",
+      "description": "袁術聽說後不發孫堅軍糧草。",
+      "evidence": [
+        "術聽之，不發糧草"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_withhold_grain",
+      "target": "char_sun_jian",
+      "type": "削弱",
+      "description": "斷糧使孫堅軍缺食自亂。",
+      "evidence": [
+        "孫堅軍缺食，軍中自亂"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_su",
+      "target": "strategy_flank_sun_camp",
+      "type": "獻計",
+      "description": "李肅為華雄謀前後夾擊孫堅寨。",
+      "evidence": [
+        "李肅為華雄謀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hua_xiong",
+      "target": "strategy_flank_sun_camp",
+      "type": "採納",
+      "description": "華雄聽從李肅之計。",
+      "evidence": [
+        "雄從之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hua_xiong",
+      "target": "char_sun_jian",
+      "type": "夜襲擊敗",
+      "description": "華雄夜襲前寨，孫堅敗走。",
+      "evidence": [
+        "乘夜下關",
+        "堅軍亂竄"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_su",
+      "target": "char_sun_jian",
+      "type": "襲擊後寨",
+      "description": "李肅引軍從小路襲孫堅寨後。",
+      "evidence": [
+        "我引一軍從小路下關"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zu_mao",
+      "target": "char_sun_jian",
+      "type": "救援",
+      "description": "祖茂建議戴赤幘誘敵，使孫堅脫身。",
+      "evidence": [
+        "可脫幘與某戴之",
+        "堅乃從小路得脫"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_jian",
+      "target": "obj_chijie",
+      "type": "交付",
+      "description": "孫堅將赤幘交祖茂戴之。",
+      "evidence": [
+        "脫幘換茂盔"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zu_mao",
+      "target": "strategy_red_scarf_decoy",
+      "type": "執行",
+      "description": "祖茂以赤幘引開華雄軍。",
+      "evidence": [
+        "掛於庭柱",
+        "方知是計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hua_xiong",
+      "target": "char_zu_mao",
+      "type": "斬殺",
+      "description": "華雄砍死祖茂。",
+      "evidence": [
+        "將祖茂一刀砍於馬下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hua_xiong",
+      "target": "char_yu_she",
+      "type": "斬殺",
+      "description": "華雄三合內斬俞涉。",
+      "evidence": [
+        "不三合，被華雄斬了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_hua_xiong",
+      "target": "char_pan_feng",
+      "type": "斬殺",
+      "description": "華雄又斬潘鳳。",
+      "evidence": [
+        "潘鳳又被華雄斬了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_fu",
+      "target": "char_pan_feng",
+      "type": "派遣出戰",
+      "description": "韓馥稱潘鳳可斬華雄，袁紹令其出戰。",
+      "evidence": [
+        "吾有上將潘鳳"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuan_shu",
+      "target": "char_yu_she",
+      "type": "部屬",
+      "description": "俞涉從袁術背後出戰。",
+      "evidence": [
+        "袁術背後轉出驍將俞涉"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_hua_xiong",
+      "type": "斬殺",
+      "description": "關羽出戰斬華雄，提其首級回營。",
+      "evidence": [
+        "雲長提華雄之頭"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_guan_yu",
+      "type": "支持出戰",
+      "description": "曹操止住袁術，並為關羽斟熱酒。",
+      "evidence": [
+        "曹操急止之",
+        "教酾熱酒一杯"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuan_shu",
+      "target": "char_guan_yu",
+      "type": "輕視反對",
+      "description": "袁術以關羽為弓手，反對其出戰。",
+      "evidence": [
+        "量一弓手，安敢亂言"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_liu_group",
+      "type": "撫慰",
+      "description": "華雄死後，曹操暗中以酒食撫慰劉關張三人。",
+      "evidence": [
+        "暗使人...酒撫慰三人"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "source": "char_li_su",
+      "target": "char_dong_zhuo",
+      "type": "告急",
+      "description": "華雄敗軍後，李肅寫告急文書申聞董卓。",
+      "evidence": [
+        "李肅慌忙寫告急文書"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_ru",
+      "target": "char_dong_zhuo",
+      "type": "獻策",
+      "description": "李儒建議董卓親領大軍，並先除袁隗之患。",
+      "evidence": [
+        "請丞相親領大軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuan_wei",
+      "target": "char_yuan_shao",
+      "type": "叔侄",
+      "description": "袁隗是袁紹叔父。",
+      "evidence": [
+        "紹叔袁隗"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_wei",
+      "target": "title_taifu",
+      "type": "擔任",
+      "description": "袁隗現任太傅。",
+      "evidence": [
+        "現為太傅"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "army_dong_200000",
+      "type": "起兵統領",
+      "description": "董卓起兵二十萬，分兩路而來。",
+      "evidence": [
+        "起兵二十萬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "strategy_split_guard_passes",
+      "type": "採用",
+      "description": "董卓分兵守汜水關與虎牢關。",
+      "evidence": [
+        "分為兩路而來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_jue",
+      "target": "loc_sishui_pass",
+      "type": "把守",
+      "description": "李傕奉命與郭汜引五萬兵守汜水關。",
+      "evidence": [
+        "李傕、郭汜引兵五萬，把住汜水關"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "loc_sishui_pass",
+      "type": "把守",
+      "description": "郭汜奉命與李傕守汜水關。",
+      "evidence": [
+        "把住汜水關"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "loc_hulao_pass",
+      "type": "屯守",
+      "description": "董卓自將十五萬守虎牢關。",
+      "evidence": [
+        "卓自將十五萬",
+        "守虎牢關"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "army_lv_bu_iron_cavalry",
+      "type": "統領",
+      "description": "呂布在虎牢關前率鐵騎衝陣。",
+      "evidence": [
+        "呂布帶鐵騎三千"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_eight_routes",
+      "type": "分派",
+      "description": "袁紹分八路諸侯往虎牢關迎敵。",
+      "evidence": [
+        "紹乃分...八路諸侯"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_eight_routes",
+      "type": "救應",
+      "description": "曹操引軍往來救應八路諸侯。",
+      "evidence": [
+        "操引軍往來救應"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_fang_yue",
+      "type": "刺殺",
+      "description": "呂布一戟刺死方悅。",
+      "evidence": [
+        "被呂布一戟刺於馬下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wang_kuang",
+      "target": "char_fang_yue",
+      "type": "部將出戰",
+      "description": "方悅為王匡軍中出戰將領。",
+      "evidence": [
+        "乃河內名將方悅"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_qiao_mao",
+      "target": "char_wang_kuang",
+      "type": "救援",
+      "description": "喬瑁軍至，救王匡脫離呂布攻勢。",
+      "evidence": [
+        "來救王匡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_yi",
+      "target": "char_wang_kuang",
+      "type": "救援",
+      "description": "袁遺軍至，救王匡脫離呂布攻勢。",
+      "evidence": [
+        "來救王匡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_mu_shun",
+      "type": "刺殺",
+      "description": "呂布一戟刺死穆順。",
+      "evidence": [
+        "手起一戟，刺於馬下"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_yang",
+      "target": "char_mu_shun",
+      "type": "部將",
+      "description": "穆順為張楊部將。",
+      "evidence": [
+        "張楊部將穆順"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_wu_an_guo",
+      "type": "擊傷",
+      "description": "呂布砍斷武安國手腕。",
+      "evidence": [
+        "砍斷安國手腕"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_kong_rong",
+      "target": "char_wu_an_guo",
+      "type": "部將",
+      "description": "武安國為孔融部將。",
+      "evidence": [
+        "北海太守孔融部將武安國"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_eight_routes",
+      "target": "char_wu_an_guo",
+      "type": "救援",
+      "description": "八路軍兵齊出救走武安國。",
+      "evidence": [
+        "齊出，救了武安國"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_coalition",
+      "type": "建議會議",
+      "description": "曹操建議會十八路諸侯共議良策擒呂布。",
+      "evidence": [
+        "共議良策"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_gongsun_zan",
+      "target": "char_lv_bu",
+      "type": "交戰敗走",
+      "description": "公孫瓚親戰呂布，數合後敗走。",
+      "evidence": [
+        "親戰呂布",
+        "瓚敗走"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_gongsun_zan",
+      "type": "救援",
+      "description": "張飛截住呂布，救公孫瓚。",
+      "evidence": [
+        "棄了公孫瓚，便戰張飛"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_lv_bu",
+      "type": "單挑",
+      "description": "張飛與呂布酣戰五十餘合不分勝負。",
+      "evidence": [
+        "酣戰呂布",
+        "不分勝負"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_lv_bu",
+      "type": "夾攻",
+      "description": "關羽加入張飛，夾攻呂布。",
+      "evidence": [
+        "來夾攻呂布"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_lv_bu",
+      "type": "助戰圍攻",
+      "description": "劉備持雙股劍加入，三人圍住呂布。",
+      "evidence": [
+        "也來助戰",
+        "三個圍住呂布"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "loc_hulao_pass",
+      "type": "敗退",
+      "description": "呂布蕩開陣角，軍馬望關上奔走。",
+      "evidence": [
+        "飛馬便回",
+        "望關上奔走"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "faction_liu_group",
+      "target": "battle_three_vs_lu_bu",
+      "type": "參與",
+      "description": "劉備、關羽、張飛三戰呂布。",
+      "evidence": [
+        "玄德、關、張三戰呂布"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_dong_zhuo",
+      "type": "追擒意圖",
+      "description": "張飛認出董卓方向，主張先拿董卓。",
+      "evidence": [
+        "不如先拿董賊"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "events": [
+    {
+      "id": "event_chen_gong_leaves",
+      "name": "陳宮棄曹操往東郡",
+      "summary": "陳宮欲殺曹操而止，認為殺之不義，遂棄曹操投東郡。",
+      "participants": [
+        "char_chen_gong",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_dongjun"
+      ],
+      "evidence": [
+        "自投東郡去了"
+      ]
+    },
+    {
+      "id": "event_cao_raise_army",
+      "name": "曹操陳留起義兵",
+      "summary": "曹操回陳留求助衛弘，募兵置辦軍需，樂進、李典、夏侯惇等陸續來投。",
+      "participants": [
+        "char_cao_cao",
+        "char_cao_song",
+        "char_wei_hong",
+        "char_yue_jin",
+        "char_li_dian",
+        "char_xiahou_dun",
+        "char_xiahou_yuan",
+        "char_cao_ren",
+        "char_cao_hong"
+      ],
+      "locations": [
+        "loc_chenliu"
+      ],
+      "evidence": [
+        "招募義兵",
+        "盡出家財"
+      ]
+    },
+    {
+      "id": "event_cao_xiwen",
+      "name": "曹操發檄討董",
+      "summary": "曹操作檄文傳諸郡，以天子密詔名義號召諸鎮討董卓。",
+      "participants": [
+        "char_cao_cao",
+        "char_dong_zhuo"
+      ],
+      "locations": [
+        "loc_luoyang"
+      ],
+      "evidence": [
+        "操作檄文",
+        "剿戮群兇"
+      ]
+    },
+    {
+      "id": "event_lords_assemble",
+      "name": "諸侯會盟立袁紹",
+      "summary": "諸路諸侯到會，王匡建議立盟主，眾人推袁紹登壇為盟主。",
+      "participants": [
+        "char_yuan_shao",
+        "char_cao_cao",
+        "char_wang_kuang",
+        "char_yuan_shu"
+      ],
+      "locations": [
+        "loc_luoyang"
+      ],
+      "evidence": [
+        "大會諸侯",
+        "可為盟主"
+      ]
+    },
+    {
+      "id": "event_sun_jian_vanguard",
+      "name": "孫堅為前部攻汜水關",
+      "summary": "袁紹令袁術總督糧草，孫堅自願為前部，率四將攻汜水關。",
+      "participants": [
+        "char_yuan_shao",
+        "char_yuan_shu",
+        "char_sun_jian",
+        "char_cheng_pu",
+        "char_huang_gai",
+        "char_han_dang",
+        "char_zu_mao"
+      ],
+      "locations": [
+        "loc_sishui_pass"
+      ],
+      "evidence": [
+        "堅願為前部",
+        "直至關前"
+      ]
+    },
+    {
+      "id": "event_bao_zhong_killed",
+      "name": "鮑忠擅戰被華雄斬",
+      "summary": "鮑信恐孫堅奪功，暗撥鮑忠先至關下搦戰，鮑忠被華雄斬。",
+      "participants": [
+        "char_bao_xin",
+        "char_bao_zhong",
+        "char_hua_xiong"
+      ],
+      "locations": [
+        "loc_sishui_pass"
+      ],
+      "evidence": [
+        "暗撥其弟鮑忠",
+        "斬於馬下"
+      ]
+    },
+    {
+      "id": "event_hua_xiong_promoted",
+      "name": "華雄受任驍騎校尉與總督",
+      "summary": "華雄請戰，董卓加為驍騎校尉；斬鮑忠報捷後又加為總督。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_hua_xiong"
+      ],
+      "locations": [
+        "loc_luoyang",
+        "loc_sishui_pass"
+      ],
+      "evidence": [
+        "加為驍騎校尉",
+        "加雄為總督"
+      ]
+    },
+    {
+      "id": "event_cheng_pu_kills_hu_zhen",
+      "name": "程普刺殺胡軫",
+      "summary": "胡軫出關迎戰孫堅，程普飛馬挺矛刺中其咽喉。",
+      "participants": [
+        "char_cheng_pu",
+        "char_hu_zhen",
+        "char_sun_jian"
+      ],
+      "locations": [
+        "loc_sishui_pass"
+      ],
+      "evidence": [
+        "刺中胡軫咽喉"
+      ]
+    },
+    {
+      "id": "event_yuan_shu_withholds_grain",
+      "name": "袁術不發孫堅糧草",
+      "summary": "有人勸袁術防孫堅勢大，袁術不發糧草，孫堅軍缺食自亂。",
+      "participants": [
+        "char_yuan_shu",
+        "char_sun_jian"
+      ],
+      "locations": [
+        "loc_liangdong"
+      ],
+      "evidence": [
+        "不發糧草",
+        "軍中自亂"
+      ]
+    },
+    {
+      "id": "event_night_attack_sun_jian",
+      "name": "李肅華雄夜襲孫堅寨",
+      "summary": "李肅獻計從小路襲後，華雄擊前寨，孫堅軍亂敗走。",
+      "participants": [
+        "char_li_su",
+        "char_hua_xiong",
+        "char_sun_jian",
+        "char_zu_mao"
+      ],
+      "locations": [
+        "loc_liangdong",
+        "loc_sishui_pass"
+      ],
+      "evidence": [
+        "襲孫堅寨後",
+        "堅軍亂竄"
+      ]
+    },
+    {
+      "id": "event_zu_mao_decoy_death",
+      "name": "祖茂赤幘誘敵被斬",
+      "summary": "祖茂戴孫堅赤幘分路誘敵，又掛赤幘於柱，後突襲華雄失敗被斬。",
+      "participants": [
+        "char_zu_mao",
+        "char_sun_jian",
+        "char_hua_xiong"
+      ],
+      "locations": [
+        "loc_liangdong"
+      ],
+      "evidence": [
+        "脫幘與某戴之",
+        "砍於馬下"
+      ]
+    },
+    {
+      "id": "event_guan_yu_kills_hua_xiong",
+      "name": "關羽溫酒斬華雄",
+      "summary": "俞涉、潘鳳先後被華雄斬後，關羽請戰，酒尚溫時提華雄首級回營。",
+      "participants": [
+        "char_guan_yu",
+        "char_hua_xiong",
+        "char_cao_cao",
+        "char_yuan_shu",
+        "char_yu_she",
+        "char_pan_feng"
+      ],
+      "locations": [
+        "loc_sishui_pass"
+      ],
+      "evidence": [
+        "酒且斟下",
+        "提華雄之頭"
+      ]
+    },
+    {
+      "id": "event_dong_split_forces",
+      "name": "董卓分兵守汜水虎牢",
+      "summary": "華雄敗後，董卓起二十萬大軍，命李傕、郭汜守汜水關，自率眾守虎牢關。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_li_jue",
+        "char_guo_si",
+        "char_li_ru",
+        "char_lv_bu",
+        "char_fan_chou",
+        "char_zhang_ji"
+      ],
+      "locations": [
+        "loc_sishui_pass",
+        "loc_hulao_pass",
+        "loc_luoyang"
+      ],
+      "evidence": [
+        "起兵二十萬",
+        "守虎牢關"
+      ]
+    },
+    {
+      "id": "event_lv_bu_defeats_wang_kuang",
+      "name": "呂布敗王匡軍",
+      "summary": "王匡先到虎牢關，方悅出戰被呂布刺死，王匡軍大敗，喬瑁、袁遺來救。",
+      "participants": [
+        "char_lv_bu",
+        "char_wang_kuang",
+        "char_fang_yue",
+        "char_qiao_mao",
+        "char_yuan_yi"
+      ],
+      "locations": [
+        "loc_hulao_pass"
+      ],
+      "evidence": [
+        "王匡軍大敗",
+        "來救王匡"
+      ]
+    },
+    {
+      "id": "event_lv_bu_defeats_generals",
+      "name": "呂布連敗穆順武安國",
+      "summary": "八路諸侯對陣呂布，穆順被刺死，武安國被砍斷手腕後由八路軍救回。",
+      "participants": [
+        "char_lv_bu",
+        "char_mu_shun",
+        "char_wu_an_guo",
+        "char_zhang_yang",
+        "char_kong_rong"
+      ],
+      "locations": [
+        "loc_hulao_pass"
+      ],
+      "evidence": [
+        "刺於馬下",
+        "砍斷安國手腕"
+      ]
+    },
+    {
+      "id": "event_three_vs_lu_bu",
+      "name": "三英戰呂布",
+      "summary": "公孫瓚敗走將被呂布追及，張飛截戰，關羽、劉備相繼加入，三人合戰迫呂布退回關上。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_lv_bu",
+        "char_gongsun_zan"
+      ],
+      "locations": [
+        "loc_hulao_pass"
+      ],
+      "evidence": [
+        "三個圍住呂布",
+        "飛馬便回"
+      ]
+    },
+    {
+      "id": "event_zhang_fei_turns_to_dong",
+      "name": "張飛轉追董卓",
+      "summary": "呂布退後，張飛主張不追呂布而先拿董卓，拍馬上關。",
+      "participants": [
+        "char_zhang_fei",
+        "char_dong_zhuo",
+        "char_liu_bei",
+        "char_guan_yu"
+      ],
+      "locations": [
+        "loc_hulao_pass"
+      ],
+      "evidence": [
+        "不如先拿董賊",
+        "拍馬上關"
+      ]
+    }
+  ],
+  "notes": [
+    "原文檔案含少量重複與疑似訛字；本抽取只保留上下文可支持的實體與關係。"
+  ]
+}

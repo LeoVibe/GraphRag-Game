@@ -1,0 +1,2117 @@
+{
+  "book": "三國演義",
+  "chapter_no": 20,
+  "chapter_title": "曹阿瞞許田打圍　董國舅內閣受詔",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹阿瞞",
+        "操",
+        "曹公",
+        "丞相",
+        "明公"
+      ],
+      "description": "掌握朝政的權臣，封賞降將，帶獻帝許田射獵，並盤查董承所得袍帶。",
+      "evidence": [
+        "曹操弄權",
+        "引十萬之眾",
+        "借看袍帶"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉使君",
+        "劉皇叔"
+      ],
+      "description": "保張遼不死，被獻帝認為宗親，拜左將軍、宜城亭侯。",
+      "evidence": [
+        "玄德攀住臂膊",
+        "自此人皆稱為劉皇叔"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關公"
+      ],
+      "description": "為張遼作保，許田見曹操欺君時欲斬曹操，被劉備制止。",
+      "evidence": [
+        "願以性命保之",
+        "提刀拍馬便出"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張"
+      ],
+      "description": "隨劉備、關羽帶兵器從駕出許昌。",
+      "evidence": [
+        "玄德與關、張各彎弓插箭"
+      ]
+    },
+    {
+      "id": "char_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [
+        "文遠"
+      ],
+      "description": "被劉備、關羽保全，降曹後受中郎將、關內侯，並招安臧霸。",
+      "evidence": [
+        "張遼已降",
+        "拜遼為中郎將"
+      ]
+    },
+    {
+      "id": "char_zang_ba",
+      "name": "臧霸",
+      "type": "character",
+      "aliases": [],
+      "description": "聞張遼已降後率本部軍投降，後被封瑯琊相，又招安孫觀等人。",
+      "evidence": [
+        "引本部軍投降",
+        "封臧霸為瑯琊相"
+      ]
+    },
+    {
+      "id": "char_sun_guan",
+      "name": "孫觀",
+      "type": "character",
+      "aliases": [],
+      "description": "被臧霸招安歸降，後加官守青、徐沿海。",
+      "evidence": [
+        "招安孫觀",
+        "令守青、徐沿海"
+      ]
+    },
+    {
+      "id": "char_wu_dun",
+      "name": "吳敦",
+      "type": "character",
+      "aliases": [],
+      "description": "被臧霸招安歸降，後加官守青、徐沿海。",
+      "evidence": [
+        "招安孫觀、吳敦、尹禮"
+      ]
+    },
+    {
+      "id": "char_yin_li",
+      "name": "尹禮",
+      "type": "character",
+      "aliases": [],
+      "description": "被臧霸招安歸降，後加官守青、徐沿海。",
+      "evidence": [
+        "招安孫觀、吳敦、尹禮"
+      ]
+    },
+    {
+      "id": "char_chang_xi",
+      "name": "昌豨",
+      "type": "character",
+      "aliases": [],
+      "description": "臧霸招安諸人時，獨未歸順曹操。",
+      "evidence": [
+        "獨昌豨未肯歸順"
+      ]
+    },
+    {
+      "id": "char_che_zhou",
+      "name": "車冑",
+      "type": "character",
+      "aliases": [],
+      "description": "車騎將軍，被曹操安排暫領徐州。",
+      "evidence": [
+        "車騎將軍車冑權領徐州"
+      ]
+    },
+    {
+      "id": "char_xian_di",
+      "name": "獻帝",
+      "type": "character",
+      "aliases": [
+        "帝",
+        "天子",
+        "朕"
+      ],
+      "description": "東漢皇帝，認劉備為皇叔；因曹操專權，血書密詔交董承誅曹。",
+      "evidence": [
+        "天子認劉備為叔",
+        "以血寫之"
+      ]
+    },
+    {
+      "id": "char_dong_cheng",
+      "name": "董承",
+      "type": "character",
+      "aliases": [
+        "董國舅",
+        "國舅"
+      ],
+      "description": "受獻帝袍帶血詔，聯絡王子服、種輯、吳碩、吳子蘭、馬騰共謀誅曹。",
+      "evidence": [
+        "密賜董承",
+        "取詔示之"
+      ]
+    },
+    {
+      "id": "char_fu_huanghou",
+      "name": "伏皇后",
+      "type": "character",
+      "aliases": [
+        "後"
+      ],
+      "description": "奉獻帝之命，將血詔縫入玉帶紫錦襯內。",
+      "evidence": [
+        "暗令伏皇后縫於玉帶"
+      ]
+    },
+    {
+      "id": "char_xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士之一，提醒曹操天子認劉備為叔或不利。",
+      "evidence": [
+        "荀彧等一班謀士入見"
+      ]
+    },
+    {
+      "id": "char_yang_biao",
+      "name": "楊彪",
+      "type": "character",
+      "aliases": [
+        "楊公"
+      ],
+      "description": "太尉，因與袁術有親被曹操疑忌。",
+      "evidence": [
+        "太尉楊彪系袁術親戚"
+      ]
+    },
+    {
+      "id": "char_yuan_shu",
+      "name": "袁術",
+      "type": "character",
+      "aliases": [],
+      "description": "袁氏人物，與楊彪有親，成為曹操疑忌楊彪的理由。",
+      "evidence": [
+        "楊彪系袁術親戚"
+      ]
+    },
+    {
+      "id": "char_kong_rong",
+      "name": "孔融",
+      "type": "character",
+      "aliases": [],
+      "description": "北海太守，在許都為楊彪向曹操進諫。",
+      "evidence": [
+        "北海太守孔融在許都"
+      ]
+    },
+    {
+      "id": "char_zhao_yan",
+      "name": "趙彥",
+      "type": "character",
+      "aliases": [],
+      "description": "議郎，上疏彈劾曹操專橫，後被曹操殺害。",
+      "evidence": [
+        "上疏彈劾操",
+        "收趙彥殺之"
+      ]
+    },
+    {
+      "id": "char_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，勸曹操趁威名日盛行王霸之事。",
+      "evidence": [
+        "謀士程昱說操"
+      ]
+    },
+    {
+      "id": "char_wang_zifu",
+      "name": "王子服",
+      "type": "character",
+      "aliases": [
+        "子服"
+      ],
+      "description": "侍郎，發現董承血詔後表明忠心，加入誅曹密謀。",
+      "evidence": [
+        "侍郎王子服至",
+        "願助兄一臂之力"
+      ]
+    },
+    {
+      "id": "char_wu_zilan",
+      "name": "吳子蘭",
+      "type": "character",
+      "aliases": [
+        "子蘭"
+      ],
+      "description": "將軍，由王子服引入董承誅曹密謀。",
+      "evidence": [
+        "將軍吳子蘭",
+        "同子蘭至"
+      ]
+    },
+    {
+      "id": "char_zhong_ji",
+      "name": "種輯",
+      "type": "character",
+      "aliases": [],
+      "description": "長水校尉，董承心腹，加入誅曹密謀。",
+      "evidence": [
+        "長水校尉種輯",
+        "必能與我同事"
+      ]
+    },
+    {
+      "id": "char_wu_shuo",
+      "name": "吳碩",
+      "type": "character",
+      "aliases": [],
+      "description": "議郎，董承心腹，加入誅曹密謀。",
+      "evidence": [
+        "議郎吳碩",
+        "吾誓殺此賊"
+      ]
+    },
+    {
+      "id": "char_ma_teng",
+      "name": "馬騰",
+      "type": "character",
+      "aliases": [],
+      "description": "西涼太守，讀血詔後承諾統西涼兵作外應。",
+      "evidence": [
+        "西涼太守馬騰",
+        "統西涼兵為外應"
+      ]
+    },
+    {
+      "id": "char_lu_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [],
+      "description": "已死人物，其妻女被曹操帶回許都。",
+      "evidence": [
+        "呂布已死"
+      ]
+    },
+    {
+      "id": "char_lu_bu_family",
+      "name": "呂布妻女",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布家眷，被曹操載回許都。",
+      "evidence": [
+        "將呂布妻女載回許都"
+      ]
+    },
+    {
+      "id": "char_liu_sheng",
+      "name": "劉勝",
+      "type": "character",
+      "aliases": [
+        "中山靖王"
+      ],
+      "description": "劉備所稱宗系祖先，宗族世譜中列為孝景皇帝第七子。",
+      "evidence": [
+        "中山靖王劉勝"
+      ]
+    },
+    {
+      "id": "faction_han",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [
+        "朝廷",
+        "社稷"
+      ],
+      "description": "獻帝與董承等人欲恢復安定的政治正統。",
+      "evidence": [
+        "復安社稷",
+        "漢室休矣"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "操之心腹",
+        "曹操門下"
+      ],
+      "description": "曹操掌握的軍政勢力，包括心腹將校與降附諸將。",
+      "evidence": [
+        "操之心腹將校",
+        "曹操引十萬之眾"
+      ]
+    },
+    {
+      "id": "faction_yuan",
+      "name": "袁氏勢力",
+      "type": "faction",
+      "aliases": [
+        "二袁",
+        "袁氏"
+      ],
+      "description": "曹操所疑的外部勢力，楊彪因袁術親戚關係被牽連。",
+      "evidence": [
+        "倘與二袁為內應"
+      ]
+    },
+    {
+      "id": "faction_dong_alliance",
+      "name": "董承誅曹同盟",
+      "type": "faction",
+      "aliases": [
+        "義狀諸公"
+      ],
+      "description": "董承依血詔結成的反曹密謀集團。",
+      "evidence": [
+        "共誅國賊",
+        "書名畫字"
+      ]
+    },
+    {
+      "id": "faction_xuzhou_people",
+      "name": "徐州百姓",
+      "type": "faction",
+      "aliases": [
+        "百姓"
+      ],
+      "description": "徐州民眾在曹操班師路過時請留劉備為牧。",
+      "evidence": [
+        "百姓焚香遮道"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [
+        "許昌"
+      ],
+      "description": "漢廷所在，曹操班師、獻帝設朝與董承受詔相關地點。",
+      "evidence": [
+        "載回許都",
+        "操軍回許昌"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操班師路過之地，百姓請留劉備，後由車冑權領。",
+      "evidence": [
+        "路過徐州",
+        "權領徐州"
+      ]
+    },
+    {
+      "id": "loc_qing_xu_coast",
+      "name": "青、徐沿海地面",
+      "type": "location",
+      "aliases": [
+        "青徐沿海"
+      ],
+      "description": "曹操命孫觀等加官鎮守的區域。",
+      "evidence": [
+        "令守青、徐沿海地面"
+      ]
+    },
+    {
+      "id": "loc_xutian",
+      "name": "許田",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操請獻帝田獵之地，發生射鹿與受萬歲事件。",
+      "evidence": [
+        "與天子獵於許田"
+      ]
+    },
+    {
+      "id": "loc_xiangfu",
+      "name": "相府",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操府署附近，劉備歇定之處。",
+      "evidence": [
+        "留玄德在相府左近宅院"
+      ]
+    },
+    {
+      "id": "loc_danchi",
+      "name": "丹墀",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備朝見獻帝時拜見的殿前位置。",
+      "evidence": [
+        "拜於丹墀"
+      ]
+    },
+    {
+      "id": "loc_pian_dian",
+      "name": "偏殿",
+      "type": "location",
+      "aliases": [],
+      "description": "獻帝認劉備宗親後敘叔侄之處。",
+      "evidence": [
+        "請入偏殿敘叔侄"
+      ]
+    },
+    {
+      "id": "loc_taimiao",
+      "name": "太廟",
+      "type": "location",
+      "aliases": [],
+      "description": "獻帝引董承至此，轉入功臣閣賜袍帶。",
+      "evidence": [
+        "到太廟"
+      ]
+    },
+    {
+      "id": "loc_gongchen_ge",
+      "name": "功臣閣",
+      "type": "location",
+      "aliases": [
+        "內閣"
+      ],
+      "description": "獻帝與董承觀畫像並交付袍帶密意之處。",
+      "evidence": [
+        "轉上功臣閣內"
+      ]
+    },
+    {
+      "id": "loc_dong_study",
+      "name": "董承書院",
+      "type": "location",
+      "aliases": [
+        "書院"
+      ],
+      "description": "董承拆出血詔並與諸人密議誅曹的場所。",
+      "evidence": [
+        "獨坐書院中",
+        "入書院"
+      ]
+    },
+    {
+      "id": "loc_donghua_men",
+      "name": "東華門",
+      "type": "location",
+      "aliases": [],
+      "description": "馬騰稱曾在此親見董承穿錦袍玉帶而出。",
+      "evidence": [
+        "在東華門外"
+      ]
+    },
+    {
+      "id": "loc_xidu",
+      "name": "西都",
+      "type": "location",
+      "aliases": [],
+      "description": "董承昔日救駕功勞所涉地點。",
+      "evidence": [
+        "西都救駕之功"
+      ]
+    },
+    {
+      "id": "title_zhonglangjiang",
+      "name": "中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操授予張遼的官職。",
+      "evidence": [
+        "拜遼為中郎將"
+      ]
+    },
+    {
+      "id": "title_guanneihou",
+      "name": "關內侯",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操賜予張遼的爵位。",
+      "evidence": [
+        "賜爵關內侯"
+      ]
+    },
+    {
+      "id": "title_langya_xiang",
+      "name": "瑯琊相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操封給臧霸的官職。",
+      "evidence": [
+        "封臧霸為瑯琊相"
+      ]
+    },
+    {
+      "id": "title_qiche_jiangjun",
+      "name": "車騎將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "車冑所任將軍號。",
+      "evidence": [
+        "車騎將軍車冑"
+      ]
+    },
+    {
+      "id": "title_zuo_jiangjun",
+      "name": "左將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝拜劉備所得官職。",
+      "evidence": [
+        "拜玄德為左將軍"
+      ]
+    },
+    {
+      "id": "title_yicheng_tinghou",
+      "name": "宜城亭侯",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝封劉備所得爵位。",
+      "evidence": [
+        "宜城亭侯"
+      ]
+    },
+    {
+      "id": "title_liu_huangshu",
+      "name": "劉皇叔",
+      "type": "title",
+      "aliases": [
+        "皇叔"
+      ],
+      "description": "獻帝認劉備為叔後眾人對劉備的稱號。",
+      "evidence": [
+        "人皆稱為劉皇叔"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在章中被稱的職位。",
+      "evidence": [
+        "曹丞相",
+        "丞相神射"
+      ]
+    },
+    {
+      "id": "title_guojiu",
+      "name": "國舅",
+      "type": "title",
+      "aliases": [],
+      "description": "董承在章中被稱的身份稱號。",
+      "evidence": [
+        "董國舅",
+        "國舅何來"
+      ]
+    },
+    {
+      "id": "title_taiwei",
+      "name": "太尉",
+      "type": "title",
+      "aliases": [],
+      "description": "楊彪所任官職。",
+      "evidence": [
+        "太尉楊彪"
+      ]
+    },
+    {
+      "id": "title_beihai_taishou",
+      "name": "北海太守",
+      "type": "title",
+      "aliases": [],
+      "description": "孔融所任官職。",
+      "evidence": [
+        "北海太守孔融"
+      ]
+    },
+    {
+      "id": "title_shilang",
+      "name": "侍郎",
+      "type": "title",
+      "aliases": [],
+      "description": "王子服所任官職。",
+      "evidence": [
+        "侍郎王子服"
+      ]
+    },
+    {
+      "id": "title_changshui_xiaowei",
+      "name": "長水校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "種輯所任官職。",
+      "evidence": [
+        "長水校尉種輯"
+      ]
+    },
+    {
+      "id": "title_yilang",
+      "name": "議郎",
+      "type": "title",
+      "aliases": [],
+      "description": "趙彥、吳碩章中所任官職。",
+      "evidence": [
+        "議郎趙彥",
+        "議郎吳碩"
+      ]
+    },
+    {
+      "id": "title_xiliang_taishou",
+      "name": "西涼太守",
+      "type": "title",
+      "aliases": [],
+      "description": "馬騰所任官職。",
+      "evidence": [
+        "西涼太守馬騰"
+      ]
+    },
+    {
+      "id": "obj_baodiao_gong",
+      "name": "寶雕弓",
+      "type": "object",
+      "aliases": [],
+      "description": "天子之弓，曹操在許田借來射鹿，後自懸帶。",
+      "evidence": [
+        "天子寶雕弓",
+        "不獻還寶雕弓"
+      ]
+    },
+    {
+      "id": "obj_jinpi_jian",
+      "name": "金鈚箭",
+      "type": "object",
+      "aliases": [],
+      "description": "天子之箭，曹操用以射中大鹿。",
+      "evidence": [
+        "金鈚箭",
+        "正中鹿背"
+      ]
+    },
+    {
+      "id": "obj_jinpao",
+      "name": "錦袍",
+      "type": "object",
+      "aliases": [],
+      "description": "獻帝賜董承之物，曹操曾強借查看。",
+      "evidence": [
+        "賜以錦袍玉帶"
+      ]
+    },
+    {
+      "id": "obj_yudai",
+      "name": "玉帶",
+      "type": "object",
+      "aliases": [],
+      "description": "獻帝賜董承之帶，襯內藏血詔。",
+      "evidence": [
+        "玉帶紫錦襯內",
+        "燒著背襯"
+      ]
+    },
+    {
+      "id": "obj_xuezhao",
+      "name": "血詔",
+      "type": "object",
+      "aliases": [
+        "密詔",
+        "素絹"
+      ],
+      "description": "獻帝咬破指尖以血寫成，命董承糾合忠義之士誅曹。",
+      "evidence": [
+        "以血寫之",
+        "天子手書血字密詔"
+      ]
+    },
+    {
+      "id": "obj_yizhuang",
+      "name": "義狀",
+      "type": "object",
+      "aliases": [],
+      "description": "董承誅曹同盟成員書名畫字的文書。",
+      "evidence": [
+        "取出義狀",
+        "書名畫字"
+      ]
+    },
+    {
+      "id": "obj_zhuahuang_feidian",
+      "name": "爪黃飛電",
+      "type": "object",
+      "aliases": [
+        "爪黃飛電馬"
+      ],
+      "description": "曹操許田射獵時所騎名馬。",
+      "evidence": [
+        "騎爪黃飛電馬"
+      ]
+    },
+    {
+      "id": "strat_zhaoan",
+      "name": "招安",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操命張遼說降臧霸，臧霸又說降孫觀等人的策略。",
+      "evidence": [
+        "使招安臧霸",
+        "又招安孫觀"
+      ]
+    },
+    {
+      "id": "strat_tianlie_jiangwu",
+      "name": "田獵講武",
+      "type": "strategy",
+      "aliases": [
+        "請天子田獵"
+      ],
+      "description": "曹操以田獵名義講武並觀察朝臣動靜。",
+      "evidence": [
+        "請天子田獵",
+        "借田獵以講武"
+      ]
+    },
+    {
+      "id": "strat_toushu_jiqi",
+      "name": "投鼠忌器",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備制止關羽斬曹操的考量，顧忌傷及天子。",
+      "evidence": [
+        "投鼠忌器",
+        "有傷天子"
+      ]
+    },
+    {
+      "id": "strat_yudai_cangzhao",
+      "name": "玉帶藏詔",
+      "type": "strategy",
+      "aliases": [
+        "帶襯藏詔"
+      ],
+      "description": "獻帝將血詔縫入玉帶襯內，暗交董承。",
+      "evidence": [
+        "縫一密詔",
+        "玉帶紫錦襯內"
+      ]
+    },
+    {
+      "id": "strat_xiliang_waiying",
+      "name": "西涼外應",
+      "type": "strategy",
+      "aliases": [
+        "外應"
+      ],
+      "description": "馬騰承諾若董承舉事，統西涼兵作外部響應。",
+      "evidence": [
+        "統西涼兵為外應"
+      ]
+    },
+    {
+      "id": "army_cao_100k",
+      "name": "曹操十萬之眾",
+      "type": "army",
+      "aliases": [
+        "十萬之眾"
+      ],
+      "description": "曹操許田射獵時所引大軍。",
+      "evidence": [
+        "引十萬之眾"
+      ]
+    },
+    {
+      "id": "army_zangba",
+      "name": "臧霸本部軍",
+      "type": "army",
+      "aliases": [
+        "本部軍"
+      ],
+      "description": "臧霸率領並歸降曹操的軍隊。",
+      "evidence": [
+        "引本部軍投降"
+      ]
+    },
+    {
+      "id": "army_liubei_riders",
+      "name": "玄德數十騎",
+      "type": "army",
+      "aliases": [
+        "數十騎"
+      ],
+      "description": "劉備隨駕出許昌時所帶騎從。",
+      "evidence": [
+        "引數十騎乘隨駕"
+      ]
+    },
+    {
+      "id": "army_xiliang",
+      "name": "西涼兵",
+      "type": "army",
+      "aliases": [],
+      "description": "馬騰可統領以作誅曹外應的軍隊。",
+      "evidence": [
+        "統西涼兵為外應"
+      ]
+    },
+    {
+      "id": "army_cao_xinfu",
+      "name": "曹操心腹將校",
+      "type": "army",
+      "aliases": [
+        "心腹將校"
+      ],
+      "description": "許田圍場中近侍曹操與天子的武力。",
+      "evidence": [
+        "背後都是操之心腹將校"
+      ]
+    },
+    {
+      "id": "event_zhangliao_saved",
+      "name": "張遼被保降曹",
+      "type": "event",
+      "aliases": [],
+      "description": "劉備、關羽為張遼求情，曹操留用張遼並封官賜爵。",
+      "evidence": [
+        "正當留用",
+        "拜遼為中郎將"
+      ]
+    },
+    {
+      "id": "event_zangba_surrender",
+      "name": "臧霸等歸降",
+      "type": "event",
+      "aliases": [],
+      "description": "張遼降曹後，臧霸率軍投降，又招安孫觀、吳敦、尹禮。",
+      "evidence": [
+        "臧霸已降",
+        "孫觀等亦各加官"
+      ]
+    },
+    {
+      "id": "event_liubei_huangshu",
+      "name": "獻帝認劉備為皇叔",
+      "type": "event",
+      "aliases": [
+        "劉皇叔受封"
+      ],
+      "description": "曹操表奏劉備軍功，獻帝查宗族世譜，認劉備為叔並封官。",
+      "evidence": [
+        "檢看宗族世譜",
+        "稱為劉皇叔"
+      ]
+    },
+    {
+      "id": "event_xutian_hunt",
+      "name": "許田打圍",
+      "type": "event",
+      "aliases": [
+        "許田射獵",
+        "許田射鹿"
+      ],
+      "description": "曹操請獻帝田獵，在許田以天子弓箭射鹿，並遮於天子之前受賀。",
+      "evidence": [
+        "與天子獵於許田",
+        "遮於天子之前"
+      ]
+    },
+    {
+      "id": "event_blood_edict",
+      "name": "董承內閣受詔",
+      "type": "event",
+      "aliases": [
+        "玉帶血詔"
+      ],
+      "description": "獻帝將血詔藏入玉帶，於功臣閣賜董承，命其圖謀誅曹。",
+      "evidence": [
+        "密賜董承",
+        "血字密詔"
+      ]
+    },
+    {
+      "id": "event_dong_alliance",
+      "name": "誅曹同盟成立",
+      "type": "event",
+      "aliases": [
+        "董承密謀"
+      ],
+      "description": "董承與王子服、種輯、吳碩、吳子蘭、馬騰等依血詔書名結盟。",
+      "evidence": [
+        "共誅國賊",
+        "取出義狀"
+      ]
+    },
+    {
+      "id": "event_zhaoyan_killed",
+      "name": "趙彥被殺",
+      "type": "event",
+      "aliases": [],
+      "description": "趙彥上疏彈劾曹操專橫，曹操怒而殺之。",
+      "evidence": [
+        "上疏彈劾操",
+        "收趙彥殺之"
+      ]
+    },
+    {
+      "id": "event_cao_checks_belt",
+      "name": "曹操截看袍帶",
+      "type": "event",
+      "aliases": [],
+      "description": "董承出功臣閣遇曹操，曹操強借錦袍玉帶查看並試穿。",
+      "evidence": [
+        "急解下來",
+        "再脫下錦袍來借看"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_liao",
+      "type": "保救",
+      "description": "劉備阻止曹操殺張遼，主張留用。",
+      "evidence": [
+        "正當留用"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_zhang_liao",
+      "type": "保救",
+      "description": "關羽稱張遼忠義，願以性命作保。",
+      "evidence": [
+        "願以性命保之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_liao",
+      "type": "任命封賞",
+      "description": "曹操拜張遼為中郎將並賜爵關內侯。",
+      "evidence": [
+        "拜遼為中郎將",
+        "賜爵關內侯"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "title_zhonglangjiang",
+      "type": "受任",
+      "description": "張遼受任中郎將。",
+      "evidence": [
+        "拜遼為中郎將"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "title_guanneihou",
+      "type": "受爵",
+      "description": "張遼受賜關內侯。",
+      "evidence": [
+        "賜爵關內侯"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_zang_ba",
+      "type": "招安",
+      "description": "曹操命張遼招安臧霸。",
+      "evidence": [
+        "使招安臧霸"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zang_ba",
+      "target": "army_zangba",
+      "type": "統領",
+      "description": "臧霸率本部軍歸降。",
+      "evidence": [
+        "引本部軍投降"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zang_ba",
+      "target": "faction_cao",
+      "type": "歸附",
+      "description": "臧霸聞呂布死、張遼降後投降曹操。",
+      "evidence": [
+        "遂亦引本部軍投降"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zang_ba",
+      "target": "char_sun_guan",
+      "type": "招安",
+      "description": "臧霸招安孫觀。",
+      "evidence": [
+        "招安孫觀"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zang_ba",
+      "target": "char_wu_dun",
+      "type": "招安",
+      "description": "臧霸招安吳敦。",
+      "evidence": [
+        "招安孫觀、吳敦"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zang_ba",
+      "target": "char_yin_li",
+      "type": "招安",
+      "description": "臧霸招安尹禮。",
+      "evidence": [
+        "招安孫觀、吳敦、尹禮"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_chang_xi",
+      "target": "faction_cao",
+      "type": "拒絕歸順",
+      "description": "昌豨未肯歸順曹操。",
+      "evidence": [
+        "獨昌豨未肯歸順"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zang_ba",
+      "type": "封官",
+      "description": "曹操封臧霸為瑯琊相。",
+      "evidence": [
+        "封臧霸為瑯琊相"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zang_ba",
+      "target": "title_langya_xiang",
+      "type": "受任",
+      "description": "臧霸受任瑯琊相。",
+      "evidence": [
+        "封臧霸為瑯琊相"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_sun_guan",
+      "target": "loc_qing_xu_coast",
+      "type": "鎮守",
+      "description": "孫觀等受命守青、徐沿海。",
+      "evidence": [
+        "令守青、徐沿海地面"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_wu_dun",
+      "target": "loc_qing_xu_coast",
+      "type": "鎮守",
+      "description": "吳敦等受命守青、徐沿海。",
+      "evidence": [
+        "令守青、徐沿海地面"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yin_li",
+      "target": "loc_qing_xu_coast",
+      "type": "鎮守",
+      "description": "尹禮等受命守青、徐沿海。",
+      "evidence": [
+        "令守青、徐沿海地面"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_lu_bu_family",
+      "type": "押載",
+      "description": "曹操將呂布妻女帶回許都。",
+      "evidence": [
+        "載回許都"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_che_zhou",
+      "type": "任命代理",
+      "description": "曹操命車冑權領徐州。",
+      "evidence": [
+        "車冑權領徐州"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_che_zhou",
+      "target": "loc_xuzhou",
+      "type": "治理",
+      "description": "車冑暫時領治徐州。",
+      "evidence": [
+        "權領徐州"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_che_zhou",
+      "target": "title_qiche_jiangjun",
+      "type": "官職",
+      "description": "車冑任車騎將軍。",
+      "evidence": [
+        "車騎將軍車冑"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "faction_xuzhou_people",
+      "target": "char_liu_bei",
+      "type": "請留",
+      "description": "徐州百姓請曹操留下劉備為牧。",
+      "evidence": [
+        "請留劉使君為牧"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_liu_bei",
+      "type": "表奏引見",
+      "description": "曹操向獻帝表奏劉備軍功，並引劉備見帝。",
+      "evidence": [
+        "表奏玄德軍功"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_xian_di",
+      "type": "朝見",
+      "description": "劉備著朝服拜見獻帝。",
+      "evidence": [
+        "拜於丹墀"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_liu_sheng",
+      "type": "宗族後裔",
+      "description": "劉備自稱中山靖王劉勝之後。",
+      "evidence": [
+        "中山靖王之後"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xian_di",
+      "target": "char_liu_bei",
+      "type": "認宗親",
+      "description": "獻帝查宗譜後認劉備為叔。",
+      "evidence": [
+        "敘叔侄"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "char_liu_bei",
+      "type": "任命封爵",
+      "description": "獻帝拜劉備為左將軍、宜城亭侯。",
+      "evidence": [
+        "左將軍、宜城亭侯"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_zuo_jiangjun",
+      "type": "受任",
+      "description": "劉備受任左將軍。",
+      "evidence": [
+        "拜玄德為左將軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_yicheng_tinghou",
+      "type": "受爵",
+      "description": "劉備受封宜城亭侯。",
+      "evidence": [
+        "宜城亭侯"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_liu_huangshu",
+      "type": "稱號",
+      "description": "劉備自此被稱為劉皇叔。",
+      "evidence": [
+        "稱為劉皇叔"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "char_cao_cao",
+      "type": "進言",
+      "description": "荀彧等提醒曹操，天子認劉備為叔恐無益。",
+      "evidence": [
+        "恐無益於明公"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_liu_bei",
+      "type": "挾詔制約",
+      "description": "曹操認為可用天子詔令劉備不敢不服。",
+      "evidence": [
+        "以天子之詔令之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_yang_biao",
+      "type": "疑忌",
+      "description": "曹操疑楊彪因袁術親戚關係會為二袁內應。",
+      "evidence": [
+        "吾所慮者，太尉楊彪"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_biao",
+      "target": "char_yuan_shu",
+      "type": "親戚",
+      "description": "楊彪與袁術有親屬關係。",
+      "evidence": [
+        "系袁術親戚"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_biao",
+      "target": "faction_yuan",
+      "type": "被疑內應",
+      "description": "曹操擔心楊彪與二袁為內應。",
+      "evidence": [
+        "與二袁為內應"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_kong_rong",
+      "target": "char_yang_biao",
+      "type": "諫護",
+      "description": "孔融為楊彪向曹操辯護。",
+      "evidence": [
+        "楊公四世清德"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_kong_rong",
+      "target": "char_cao_cao",
+      "type": "進諫",
+      "description": "孔融在許都諫曹操不應因袁氏罪楊彪。",
+      "evidence": [
+        "因袁氏而罪之乎"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhao_yan",
+      "target": "char_cao_cao",
+      "type": "彈劾",
+      "description": "趙彥上疏彈劾曹操專橫擅收大臣。",
+      "evidence": [
+        "上疏彈劾操"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhao_yan",
+      "type": "殺害",
+      "description": "曹操大怒，收殺趙彥。",
+      "evidence": [
+        "收趙彥殺之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "char_cao_cao",
+      "type": "建議",
+      "description": "程昱勸曹操趁威名日盛行王霸之事。",
+      "evidence": [
+        "行王霸之事"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_tianlie_jiangwu",
+      "type": "採用策略",
+      "description": "曹操請天子田獵以觀動靜、講武。",
+      "evidence": [
+        "請天子田獵",
+        "以觀動靜"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xian_di",
+      "type": "請同田獵",
+      "description": "曹操請獻帝出獵許田。",
+      "evidence": [
+        "請到天田裡獵子"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_100k",
+      "type": "統領",
+      "description": "曹操引十萬之眾隨獻帝出獵。",
+      "evidence": [
+        "引十萬之眾"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_liubei_riders",
+      "type": "統領",
+      "description": "劉備引數十騎隨駕出許昌。",
+      "evidence": [
+        "引數十騎乘隨駕"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_zhuahuang_feidian",
+      "type": "乘騎",
+      "description": "曹操騎爪黃飛電馬赴許田。",
+      "evidence": [
+        "騎爪黃飛電馬"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "obj_baodiao_gong",
+      "type": "持有",
+      "description": "寶雕弓為天子所有。",
+      "evidence": [
+        "天子寶雕弓"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "obj_jinpi_jian",
+      "type": "持有",
+      "description": "金鈚箭為天子所有。",
+      "evidence": [
+        "金鈚箭"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_baodiao_gong",
+      "type": "借用不還",
+      "description": "曹操取天子寶雕弓射鹿，事後自懸帶不還。",
+      "evidence": [
+        "討天子寶雕弓",
+        "不獻還"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_jinpi_jian",
+      "type": "使用",
+      "description": "曹操用金鈚箭射中大鹿。",
+      "evidence": [
+        "金鈚箭",
+        "正中鹿背"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "event_xutian_hunt",
+      "type": "主導參與",
+      "description": "曹操主導許田射獵並遮在天子前受賀。",
+      "evidence": [
+        "遮於天子之前"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_cao_cao",
+      "type": "欲斬",
+      "description": "關羽見曹操欺君，欲拍馬出斬曹操。",
+      "evidence": [
+        "要斬曹操"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guan_yu",
+      "type": "制止",
+      "description": "劉備以搖手送目制止關羽。",
+      "evidence": [
+        "慌忙搖手送目"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strat_toushu_jiqi",
+      "type": "提出理由",
+      "description": "劉備以投鼠忌器解釋不能在天子近前妄動。",
+      "evidence": [
+        "投鼠忌器"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xian_di",
+      "type": "欺君壓制",
+      "description": "正文多處以曹操弄權、欺君罔上描寫其壓制獻帝。",
+      "evidence": [
+        "欺君罔上",
+        "國事都不由朕主"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "char_dong_cheng",
+      "type": "密召託付",
+      "description": "獻帝密召董承，賜袍帶並暗示細觀。",
+      "evidence": [
+        "密賜董承",
+        "勿負朕意"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "obj_xuezhao",
+      "type": "血書",
+      "description": "獻帝咬破指尖，以血寫下密詔。",
+      "evidence": [
+        "以血寫之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_fu_huanghou",
+      "target": "strat_yudai_cangzhao",
+      "type": "執行",
+      "description": "伏皇后將血詔縫入玉帶襯內。",
+      "evidence": [
+        "伏皇后縫於玉帶"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "obj_xuezhao",
+      "target": "obj_yudai",
+      "type": "藏於",
+      "description": "血詔藏在玉帶紫錦襯內。",
+      "evidence": [
+        "玉帶紫錦襯內"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "obj_jinpao",
+      "type": "賜予",
+      "description": "獻帝把錦袍賜給董承。",
+      "evidence": [
+        "賜以錦袍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xian_di",
+      "target": "obj_yudai",
+      "type": "賜予",
+      "description": "獻帝把藏詔玉帶賜給董承。",
+      "evidence": [
+        "賜以錦袍玉帶"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "obj_xuezhao",
+      "type": "受領",
+      "description": "董承從玉帶襯內拆出天子血詔。",
+      "evidence": [
+        "拆開視之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_dong_cheng",
+      "type": "盤查",
+      "description": "董承出閣遇曹操，曹操盤問其何來與所受何物。",
+      "evidence": [
+        "國舅何來"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_jinpao",
+      "type": "索看",
+      "description": "曹操命董承脫下錦袍借看並試穿。",
+      "evidence": [
+        "脫下錦袍來借看"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_yudai",
+      "type": "索看",
+      "description": "曹操命董承解下玉帶查看。",
+      "evidence": [
+        "急解下來"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wang_zifu",
+      "target": "obj_xuezhao",
+      "type": "發現閱讀",
+      "description": "王子服見董承袖底露字，取看血詔。",
+      "evidence": [
+        "默取看畢"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wang_zifu",
+      "target": "faction_dong_alliance",
+      "type": "加入",
+      "description": "王子服表明願助董承共誅國賊並書名。",
+      "evidence": [
+        "願助兄一臂之力",
+        "書名畫字"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wang_zifu",
+      "target": "char_wu_zilan",
+      "type": "引薦入盟",
+      "description": "王子服稱吳子蘭與己至厚，可與同謀，並帶來書名。",
+      "evidence": [
+        "去請吳子蘭來"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "char_zhong_ji",
+      "type": "心腹同謀",
+      "description": "董承稱種輯為心腹，能同事誅曹。",
+      "evidence": [
+        "種輯、吳碩是吾心腹"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "char_wu_shuo",
+      "type": "心腹同謀",
+      "description": "董承稱吳碩為心腹，能同事誅曹。",
+      "evidence": [
+        "必能與我同事"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhong_ji",
+      "target": "faction_dong_alliance",
+      "type": "加入",
+      "description": "種輯讀詔後加入並書名。",
+      "evidence": [
+        "讀詔，揮淚不止"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wu_shuo",
+      "target": "faction_dong_alliance",
+      "type": "加入",
+      "description": "吳碩表明誓殺曹操並加入密謀。",
+      "evidence": [
+        "吾誓殺此賊"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wu_zilan",
+      "target": "faction_dong_alliance",
+      "type": "加入",
+      "description": "吳子蘭到董承處後書名加入。",
+      "evidence": [
+        "亦書名畢"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "char_dong_cheng",
+      "type": "探訪激勵",
+      "description": "馬騰來訪，責董承不救國，促使董承示詔。",
+      "evidence": [
+        "皆非救國之人也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "obj_xuezhao",
+      "type": "閱讀",
+      "description": "馬騰讀董承所示血詔。",
+      "evidence": [
+        "取詔示之",
+        "騰讀畢"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "army_xiliang",
+      "type": "統領",
+      "description": "馬騰承諾可統西涼兵。",
+      "evidence": [
+        "吾即統西涼兵"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "strat_xiliang_waiying",
+      "type": "承諾",
+      "description": "馬騰承諾董承舉動時以西涼兵作外應。",
+      "evidence": [
+        "為外應"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "faction_dong_alliance",
+      "type": "加入",
+      "description": "馬騰讀詔後在義狀書名加入。",
+      "evidence": [
+        "教騰書名"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "faction_dong_alliance",
+      "target": "char_cao_cao",
+      "type": "敵對目標",
+      "description": "董承同盟以誅殺曹操、復安社稷為目標。",
+      "evidence": [
+        "殄滅姦黨",
+        "共誅國賊"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "faction_dong_alliance",
+      "target": "faction_han",
+      "type": "效忠",
+      "description": "同盟成員以忠於漢室、奉天子血詔為號召。",
+      "evidence": [
+        "漢室休矣",
+        "忠心烈士"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_chengxiang",
+      "type": "官職稱謂",
+      "description": "曹操章中被稱為丞相。",
+      "evidence": [
+        "丞相神射"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dong_cheng",
+      "target": "title_guojiu",
+      "type": "稱號",
+      "description": "董承章中被稱為國舅。",
+      "evidence": [
+        "董國舅"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yang_biao",
+      "target": "title_taiwei",
+      "type": "官職",
+      "description": "楊彪任太尉。",
+      "evidence": [
+        "太尉楊彪"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_kong_rong",
+      "target": "title_beihai_taishou",
+      "type": "官職",
+      "description": "孔融任北海太守。",
+      "evidence": [
+        "北海太守孔融"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wang_zifu",
+      "target": "title_shilang",
+      "type": "官職",
+      "description": "王子服任侍郎。",
+      "evidence": [
+        "侍郎王子服"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhong_ji",
+      "target": "title_changshui_xiaowei",
+      "type": "官職",
+      "description": "種輯任長水校尉。",
+      "evidence": [
+        "長水校尉種輯"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wu_shuo",
+      "target": "title_yilang",
+      "type": "官職",
+      "description": "吳碩任議郎。",
+      "evidence": [
+        "議郎吳碩"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhao_yan",
+      "target": "title_yilang",
+      "type": "官職",
+      "description": "趙彥任議郎。",
+      "evidence": [
+        "議郎趙彥"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "title_xiliang_taishou",
+      "type": "官職",
+      "description": "馬騰任西涼太守。",
+      "evidence": [
+        "西涼太守馬騰"
+      ],
+      "confidence": 1
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhangliao_saved",
+      "name": "張遼被保降曹",
+      "summary": "曹操欲殺張遼，劉備攀臂、關羽跪保，曹操留用張遼，拜中郎將、賜關內侯。",
+      "participants": [
+        "char_cao_cao",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_liao"
+      ],
+      "locations": [],
+      "evidence": [
+        "曹操舉劍欲殺張遼",
+        "拜遼為中郎將"
+      ]
+    },
+    {
+      "id": "event_zangba_surrender",
+      "name": "臧霸等歸降",
+      "summary": "張遼降曹後招安臧霸，臧霸率本部軍投降，又招安孫觀、吳敦、尹禮；昌豨未歸順。",
+      "participants": [
+        "char_cao_cao",
+        "char_zhang_liao",
+        "char_zang_ba",
+        "char_sun_guan",
+        "char_wu_dun",
+        "char_yin_li",
+        "char_chang_xi"
+      ],
+      "locations": [
+        "loc_qing_xu_coast"
+      ],
+      "evidence": [
+        "臧霸已降",
+        "獨昌豨未肯歸順"
+      ]
+    },
+    {
+      "id": "event_return_xudu_xuzhou",
+      "name": "班師回許都與徐州安排",
+      "summary": "曹操帶呂布妻女回許都，路過徐州時百姓請留劉備，曹操改命車冑權領徐州。",
+      "participants": [
+        "char_cao_cao",
+        "char_liu_bei",
+        "char_che_zhou",
+        "char_lu_bu_family",
+        "faction_xuzhou_people"
+      ],
+      "locations": [
+        "loc_xuzhou",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "載回許都",
+        "車冑權領徐州"
+      ]
+    },
+    {
+      "id": "event_liubei_huangshu",
+      "name": "獻帝認劉備為皇叔",
+      "summary": "曹操表奏劉備軍功，獻帝查宗族世譜後認劉備為叔，拜其左將軍、宜城亭侯。",
+      "participants": [
+        "char_cao_cao",
+        "char_liu_bei",
+        "char_xian_di",
+        "char_liu_sheng"
+      ],
+      "locations": [
+        "loc_xudu",
+        "loc_danchi",
+        "loc_pian_dian"
+      ],
+      "evidence": [
+        "檢看宗族世譜",
+        "拜玄德為左將軍"
+      ]
+    },
+    {
+      "id": "event_zhaoyan_killed",
+      "name": "曹操壓制異議",
+      "summary": "曹操疑楊彪與袁氏為內應，孔融為楊彪進諫；趙彥上疏彈劾曹操，遭曹操殺害。",
+      "participants": [
+        "char_cao_cao",
+        "char_yang_biao",
+        "char_yuan_shu",
+        "char_kong_rong",
+        "char_zhao_yan"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "孔融在許都",
+        "收趙彥殺之"
+      ]
+    },
+    {
+      "id": "event_xutian_hunt",
+      "name": "許田打圍",
+      "summary": "曹操請獻帝田獵講武，在許田以天子寶雕弓、金鈚箭射鹿，並遮在天子前受眾人萬歲之賀。",
+      "participants": [
+        "char_cao_cao",
+        "char_xian_di",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_xutian"
+      ],
+      "evidence": [
+        "與天子獵於許田",
+        "都踴躍向帝呼萬歲"
+      ]
+    },
+    {
+      "id": "event_guanyu_restrained",
+      "name": "關羽欲斬曹操被止",
+      "summary": "關羽見曹操欺君，提刀欲出斬曹操；劉備因顧忌天子安危，以目示意制止。",
+      "participants": [
+        "char_guan_yu",
+        "char_liu_bei",
+        "char_cao_cao",
+        "char_xian_di"
+      ],
+      "locations": [
+        "loc_xutian"
+      ],
+      "evidence": [
+        "要斬曹操",
+        "投鼠忌器"
+      ]
+    },
+    {
+      "id": "event_blood_edict",
+      "name": "董承內閣受詔",
+      "summary": "獻帝血書密詔，令伏皇后縫入玉帶，於太廟、功臣閣賜董承袍帶並囑其細觀。",
+      "participants": [
+        "char_xian_di",
+        "char_fu_huanghou",
+        "char_dong_cheng"
+      ],
+      "locations": [
+        "loc_taimiao",
+        "loc_gongchen_ge"
+      ],
+      "evidence": [
+        "以血寫之",
+        "卿歸可細觀之"
+      ]
+    },
+    {
+      "id": "event_cao_checks_belt",
+      "name": "曹操截看袍帶",
+      "summary": "董承出功臣閣遇曹操，曹操命其解玉帶、脫錦袍查看並試穿，未發現血詔。",
+      "participants": [
+        "char_cao_cao",
+        "char_dong_cheng"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "急解下來",
+        "對日影中細細詳看"
+      ]
+    },
+    {
+      "id": "event_dong_finds_edict",
+      "name": "董承發現血詔",
+      "summary": "董承回家反覆檢視袍帶，因燈花燒破玉帶襯，發現素絹血詔。",
+      "participants": [
+        "char_dong_cheng",
+        "char_xian_di"
+      ],
+      "locations": [
+        "loc_dong_study"
+      ],
+      "evidence": [
+        "微露素絹",
+        "血字密詔"
+      ]
+    },
+    {
+      "id": "event_wang_zifu_joins",
+      "name": "王子服加入密謀",
+      "summary": "王子服在書院發現董承血詔，先以出首試探，隨後表明忠心並書名加入。",
+      "participants": [
+        "char_dong_cheng",
+        "char_wang_zifu"
+      ],
+      "locations": [
+        "loc_dong_study"
+      ],
+      "evidence": [
+        "吾戲耳",
+        "願助兄一臂之力"
+      ]
+    },
+    {
+      "id": "event_officials_sign",
+      "name": "種輯吳碩吳子蘭書名",
+      "summary": "種輯、吳碩來探董承，讀詔後揮淚書名；王子服又請吳子蘭加入。",
+      "participants": [
+        "char_dong_cheng",
+        "char_wang_zifu",
+        "char_zhong_ji",
+        "char_wu_shuo",
+        "char_wu_zilan"
+      ],
+      "locations": [
+        "loc_dong_study"
+      ],
+      "evidence": [
+        "讀詔，揮淚不止",
+        "亦書名畢"
+      ]
+    },
+    {
+      "id": "event_mateng_outer_support",
+      "name": "馬騰承諾西涼外應",
+      "summary": "馬騰來訪責董承不救國，董承示以血詔；馬騰讀詔後書名，承諾統西涼兵為外應。",
+      "participants": [
+        "char_dong_cheng",
+        "char_ma_teng"
+      ],
+      "locations": [
+        "loc_dong_study",
+        "loc_donghua_men"
+      ],
+      "evidence": [
+        "取詔示之",
+        "統西涼兵為外應"
+      ]
+    }
+  ],
+  "notes": [
+    "本章未發生正式戰役；「許田打圍」依正文內容抽為田獵政治事件。",
+    "章末馬騰提到可共商的一名「劉氏宗族」，正文尚未明示姓名，因此未抽取為確定關係。"
+  ]
+}

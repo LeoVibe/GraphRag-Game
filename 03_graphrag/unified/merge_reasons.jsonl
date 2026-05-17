@@ -1,0 +1,959 @@
+{"reason": "same_type_and_name", "key": "character:蔡邕", "block_entity_refs": ["block_001_010:ent_0011", "block_021_030:ent_0384"]}
+{"reason": "same_type_and_name", "key": "character:曹操", "block_entity_refs": ["block_001_010:ent_0012", "block_011_020:ent_0037", "block_031_040:ent_0010", "block_041_050:ent_0008", "block_051_060:ent_0010"]}
+{"reason": "same_type_and_name", "key": "character:董卓", "block_entity_refs": ["block_001_010:ent_0018", "block_011_020:ent_0618", "block_041_050:ent_0191"]}
+{"reason": "same_type_and_name", "key": "character:關羽", "block_entity_refs": ["block_001_010:ent_0021", "block_011_020:ent_0048", "block_021_030:ent_0017", "block_031_040:ent_0019", "block_041_050:ent_0023", "block_051_060:ent_0019"]}
+{"reason": "same_type_and_name", "key": "character:劉備", "block_entity_refs": ["block_001_010:ent_0025", "block_011_020:ent_0055", "block_021_030:ent_0009", "block_031_040:ent_0025", "block_041_050:ent_0038", "block_051_060:ent_0023"]}
+{"reason": "same_type_and_name", "key": "character:劉焉", "block_entity_refs": ["block_001_010:ent_0026", "block_051_060:ent_0461"]}
+{"reason": "same_type_and_name", "key": "character:張寶", "block_entity_refs": ["block_001_010:ent_0033", "block_021_030:ent_0352"]}
+{"reason": "same_type_and_name", "key": "character:張飛", "block_entity_refs": ["block_001_010:ent_0034", "block_011_020:ent_0070", "block_021_030:ent_0039", "block_031_040:ent_0046", "block_041_050:ent_0077", "block_051_060:ent_0031"]}
+{"reason": "same_type_and_name", "key": "character:張角", "block_entity_refs": ["block_001_010:ent_0035", "block_021_030:ent_0353"]}
+{"reason": "same_type_and_name", "key": "character:朱儁", "block_entity_refs": ["block_001_010:ent_0039", "block_011_020:ent_0194"]}
+{"reason": "same_type_and_name", "key": "faction:漢室", "block_entity_refs": ["block_001_010:ent_0048", "block_021_030:ent_0058", "block_031_040:ent_0056", "block_051_060:ent_0195"]}
+{"reason": "same_type_and_name", "key": "location:洛陽", "block_entity_refs": ["block_001_010:ent_0054", "block_011_020:ent_0219", "block_021_030:ent_0318"]}
+{"reason": "same_type_and_name", "key": "location:青州", "block_entity_refs": ["block_001_010:ent_0055", "block_011_020:ent_0025", "block_021_030:ent_0130", "block_031_040:ent_0068", "block_041_050:ent_0048"]}
+{"reason": "same_type_and_name", "key": "location:潁川", "block_entity_refs": ["block_001_010:ent_0058", "block_031_040:ent_0370"]}
+{"reason": "same_type_and_name", "key": "location:幽州", "block_entity_refs": ["block_001_010:ent_0059", "block_021_030:ent_0133", "block_031_040:ent_0074"]}
+{"reason": "same_type_and_name", "key": "object:榜文", "block_entity_refs": ["block_001_010:ent_0065", "block_011_020:ent_0608"]}
+{"reason": "same_type_and_name", "key": "object:門檻車", "block_entity_refs": ["block_001_010:ent_0066", "block_031_040:ent_0471"]}
+{"reason": "same_type_and_name", "key": "object:雙股劍", "block_entity_refs": ["block_001_010:ent_0068", "block_011_020:ent_0033", "block_031_040:ent_0075"]}
+{"reason": "same_type_and_name", "key": "object:黃旗", "block_entity_refs": ["block_001_010:ent_0070", "block_051_060:ent_0115"]}
+{"reason": "same_type_and_name", "key": "object:丈八蛇矛", "block_entity_refs": ["block_001_010:ent_0071", "block_011_020:ent_0299", "block_021_030:ent_0369"]}
+{"reason": "same_type_and_name", "key": "strategy:火攻", "block_entity_refs": ["block_001_010:ent_0072", "block_041_050:ent_0290"]}
+{"reason": "same_type_and_name", "key": "title:騎都尉", "block_entity_refs": ["block_001_010:ent_0082", "block_011_020:ent_0251", "block_031_040:ent_0229"]}
+{"reason": "same_type_and_name", "key": "title:天公將軍", "block_entity_refs": ["block_001_010:ent_0086", "block_021_030:ent_0374"]}
+{"reason": "same_type_and_name", "key": "title:校尉", "block_entity_refs": ["block_001_010:ent_0087", "block_011_020:ent_0321", "block_051_060:ent_0436"]}
+{"reason": "same_type_and_name", "key": "character:陳琳", "block_entity_refs": ["block_001_010:ent_0101", "block_021_030:ent_0105", "block_031_040:ent_0095"]}
+{"reason": "same_type_and_name", "key": "character:公孫瓚", "block_entity_refs": ["block_001_010:ent_0107", "block_011_020:ent_0575", "block_021_030:ent_0016"]}
+{"reason": "same_type_and_name", "key": "character:獻帝", "block_entity_refs": ["block_001_010:ent_0113", "block_011_020:ent_0185", "block_051_060:ent_0495"]}
+{"reason": "same_type_and_name", "key": "character:孫堅", "block_entity_refs": ["block_001_010:ent_0120", "block_011_020:ent_0355"]}
+{"reason": "same_type_and_name", "key": "character:袁紹", "block_entity_refs": ["block_001_010:ent_0126", "block_011_020:ent_0191", "block_031_040:ent_0042", "block_041_050:ent_0412"]}
+{"reason": "same_type_and_name", "key": "location:長沙", "block_entity_refs": ["block_001_010:ent_0139", "block_031_040:ent_0362", "block_041_050:ent_0014", "block_051_060:ent_0099"]}
+{"reason": "same_type_and_name", "key": "location:館驛", "block_entity_refs": ["block_001_010:ent_0141", "block_021_030:ent_0314", "block_041_050:ent_0169", "block_051_060:ent_0197"]}
+{"reason": "same_type_and_name", "key": "location:河東", "block_entity_refs": ["block_001_010:ent_0142", "block_011_020:ent_0212"]}
+{"reason": "same_type_and_name", "key": "location:河間", "block_entity_refs": ["block_001_010:ent_0143", "block_031_040:ent_0194"]}
+{"reason": "same_type_and_name", "key": "location:江夏", "block_entity_refs": ["block_001_010:ent_0144", "block_021_030:ent_0168", "block_031_040:ent_0273", "block_041_050:ent_0028", "block_051_060:ent_0103"]}
+{"reason": "same_type_and_name", "key": "location:會稽", "block_entity_refs": ["block_001_010:ent_0145", "block_011_020:ent_0382", "block_021_030:ent_0427"]}
+{"reason": "same_type_and_name", "key": "location:隴西臨洮", "block_entity_refs": ["block_001_010:ent_0146", "block_051_060:ent_0460"]}
+{"reason": "same_type_and_name", "key": "location:南陽", "block_entity_refs": ["block_001_010:ent_0147", "block_011_020:ent_0292", "block_021_030:ent_0487", "block_031_040:ent_0366"]}
+{"reason": "same_type_and_name", "key": "location:宮中", "block_entity_refs": ["block_001_010:ent_0148", "block_021_030:ent_0202"]}
+{"reason": "same_type_and_name", "key": "location:平原", "block_entity_refs": ["block_001_010:ent_0149", "block_011_020:ent_0023", "block_031_040:ent_0123"]}
+{"reason": "same_type_and_name", "key": "location:宛城", "block_entity_refs": ["block_001_010:ent_0152", "block_011_020:ent_0465", "block_031_040:ent_0562"]}
+{"reason": "same_type_and_name", "key": "title:別部司馬", "block_entity_refs": ["block_001_010:ent_0172", "block_011_020:ent_0409"]}
+{"reason": "same_type_and_name", "key": "title:長沙太守", "block_entity_refs": ["block_001_010:ent_0175", "block_051_060:ent_0176"]}
+{"reason": "same_type_and_name", "key": "title:司隸校尉", "block_entity_refs": ["block_001_010:ent_0177", "block_011_020:ent_0318", "block_031_040:ent_0382"]}
+{"reason": "same_type_and_name", "key": "title:都尉", "block_entity_refs": ["block_001_010:ent_0179", "block_011_020:ent_0138", "block_031_040:ent_0224"]}
+{"reason": "same_type_and_name", "key": "title:河東太守", "block_entity_refs": ["block_001_010:ent_0181", "block_011_020:ent_0247"]}
+{"reason": "same_type_and_name", "key": "title:列侯", "block_entity_refs": ["block_001_010:ent_0186", "block_011_020:ent_0313", "block_031_040:ent_0114", "block_051_060:ent_0487"]}
+{"reason": "same_type_and_name", "key": "title:驃騎將軍", "block_entity_refs": ["block_001_010:ent_0187", "block_011_020:ent_0250"]}
+{"reason": "same_type_and_name", "key": "character:淳於瓊", "block_entity_refs": ["block_001_010:ent_0205", "block_021_030:ent_0472"]}
+{"reason": "same_type_and_name", "key": "character:郭汜", "block_entity_refs": ["block_001_010:ent_0210", "block_011_020:ent_0168", "block_051_060:ent_0311"]}
+{"reason": "same_type_and_name", "key": "character:李傕", "block_entity_refs": ["block_001_010:ent_0212", "block_011_020:ent_0176", "block_051_060:ent_0316"]}
+{"reason": "same_type_and_name", "key": "character:呂布", "block_entity_refs": ["block_001_010:ent_0215", "block_011_020:ent_0056", "block_021_030:ent_0228", "block_041_050:ent_0202"]}
+{"reason": "same_type_and_name", "key": "character:楊彪", "block_entity_refs": ["block_001_010:ent_0223", "block_011_020:ent_0187", "block_051_060:ent_0520"]}
+{"reason": "same_type_and_name", "key": "character:袁術", "block_entity_refs": ["block_001_010:ent_0224", "block_011_020:ent_0107", "block_021_030:ent_0037"]}
+{"reason": "same_type_and_name", "key": "character:張濟", "block_entity_refs": ["block_001_010:ent_0226", "block_011_020:ent_0192"]}
+{"reason": "same_type_and_name", "key": "location:泰山", "block_entity_refs": ["block_001_010:ent_0254", "block_011_020:ent_0026", "block_031_040:ent_0368"]}
+{"reason": "same_type_and_name", "key": "object:赤兔馬", "block_entity_refs": ["block_001_010:ent_0256", "block_011_020:ent_0615", "block_021_030:ent_0236", "block_041_050:ent_0124"]}
+{"reason": "same_type_and_name", "key": "object:玉璽", "block_entity_refs": ["block_001_010:ent_0257", "block_011_020:ent_0399", "block_021_030:ent_0077"]}
+{"reason": "same_type_and_name", "key": "object:畫戟", "block_entity_refs": ["block_001_010:ent_0259", "block_011_020:ent_0477"]}
+{"reason": "same_type_and_name", "key": "title:都亭侯", "block_entity_refs": ["block_001_010:ent_0270", "block_021_030:ent_0517"]}
+{"reason": "same_type_and_name", "key": "title:荊州刺史", "block_entity_refs": ["block_001_010:ent_0275", "block_051_060:ent_0127"]}
+{"reason": "same_type_and_name", "key": "title:尚書", "block_entity_refs": ["block_001_010:ent_0277", "block_021_030:ent_0146"]}
+{"reason": "same_type_and_name", "key": "title:侍禦史", "block_entity_refs": ["block_001_010:ent_0278", "block_021_030:ent_0455"]}
+{"reason": "same_type_and_name", "key": "title:侍中", "block_entity_refs": ["block_001_010:ent_0279", "block_011_020:ent_0252", "block_021_030:ent_0179"]}
+{"reason": "same_type_and_name", "key": "title:議郎", "block_entity_refs": ["block_001_010:ent_0283", "block_011_020:ent_0692", "block_021_030:ent_0338", "block_031_040:ent_0234"]}
+{"reason": "same_type_and_name", "key": "title:主簿", "block_entity_refs": ["block_001_010:ent_0286", "block_031_040:ent_0155", "block_051_060:ent_0546"]}
+{"reason": "same_type_and_name", "key": "title:左將軍", "block_entity_refs": ["block_001_010:ent_0287", "block_011_020:ent_0567", "block_021_030:ent_0092"]}
+{"reason": "same_type_and_name", "key": "character:陳宮", "block_entity_refs": ["block_001_010:ent_0290", "block_011_020:ent_0042"]}
+{"reason": "same_type_and_name", "key": "faction:袁氏", "block_entity_refs": ["block_001_010:ent_0311", "block_031_040:ent_0148"]}
+{"reason": "same_type_and_name", "key": "location:渤海", "block_entity_refs": ["block_001_010:ent_0312", "block_031_040:ent_0191"]}
+{"reason": "same_type_and_name", "key": "location:東郡", "block_entity_refs": ["block_001_010:ent_0316", "block_021_030:ent_0234"]}
+{"reason": "same_type_and_name", "key": "location:冀州", "block_entity_refs": ["block_001_010:ent_0318", "block_011_020:ent_0217", "block_021_030:ent_0128", "block_031_040:ent_0066"]}
+{"reason": "same_type_and_name", "key": "location:相府", "block_entity_refs": ["block_001_010:ent_0319", "block_011_020:ent_0671", "block_021_030:ent_0270"]}
+{"reason": "same_type_and_name", "key": "object:寶刀", "block_entity_refs": ["block_001_010:ent_0322", "block_011_020:ent_0129", "block_021_030:ent_0134"]}
+{"reason": "same_type_and_name", "key": "character:曹洪", "block_entity_refs": ["block_001_010:ent_0347", "block_011_020:ent_0038", "block_021_030:ent_0103", "block_031_040:ent_0011", "block_041_050:ent_0009", "block_051_060:ent_0012"]}
+{"reason": "same_type_and_name", "key": "character:曹仁", "block_entity_refs": ["block_001_010:ent_0348", "block_011_020:ent_0039", "block_021_030:ent_0104", "block_031_040:ent_0012", "block_041_050:ent_0010", "block_051_060:ent_0013"]}
+{"reason": "same_type_and_name", "key": "character:程普", "block_entity_refs": ["block_001_010:ent_0349", "block_011_020:ent_0338", "block_021_030:ent_0386", "block_031_040:ent_0497", "block_041_050:ent_0187", "block_051_060:ent_0014"]}
+{"reason": "same_type_and_name", "key": "character:韓當", "block_entity_refs": ["block_001_010:ent_0351", "block_011_020:ent_0343", "block_021_030:ent_0388", "block_041_050:ent_0195", "block_051_060:ent_0020"]}
+{"reason": "same_type_and_name", "key": "character:黃蓋", "block_entity_refs": ["block_001_010:ent_0355", "block_011_020:ent_0344", "block_041_050:ent_0154", "block_051_060:ent_0227"]}
+{"reason": "same_type_and_name", "key": "character:孔融", "block_entity_refs": ["block_001_010:ent_0356", "block_011_020:ent_0052", "block_021_030:ent_0109", "block_031_040:ent_0550"]}
+{"reason": "same_type_and_name", "key": "character:李典", "block_entity_refs": ["block_001_010:ent_0358", "block_011_020:ent_0101", "block_021_030:ent_0110", "block_031_040:ent_0024", "block_041_050:ent_0094", "block_051_060:ent_0143"]}
+{"reason": "same_type_and_name", "key": "character:劉岱", "block_entity_refs": ["block_001_010:ent_0359", "block_021_030:ent_0111"]}
+{"reason": "same_type_and_name", "key": "character:馬騰", "block_entity_refs": ["block_001_010:ent_0360", "block_011_020:ent_0647", "block_021_030:ent_0026", "block_041_050:ent_0325", "block_051_060:ent_0320"]}
+{"reason": "same_type_and_name", "key": "character:陶謙", "block_entity_refs": ["block_001_010:ent_0364", "block_011_020:ent_0062"]}
+{"reason": "same_type_and_name", "key": "character:文醜", "block_entity_refs": ["block_001_010:ent_0367", "block_021_030:ent_0117"]}
+{"reason": "same_type_and_name", "key": "character:夏侯惇", "block_entity_refs": ["block_001_010:ent_0369", "block_011_020:ent_0065", "block_021_030:ent_0231", "block_031_040:ent_0034", "block_041_050:ent_0063", "block_051_060:ent_0029"]}
+{"reason": "same_type_and_name", "key": "character:夏侯淵", "block_entity_refs": ["block_001_010:ent_0370", "block_011_020:ent_0105", "block_021_030:ent_0481", "block_031_040:ent_0035", "block_041_050:ent_0099", "block_051_060:ent_0293"]}
+{"reason": "same_type_and_name", "key": "character:顏良", "block_entity_refs": ["block_001_010:ent_0371", "block_021_030:ent_0120"]}
+{"reason": "same_type_and_name", "key": "character:樂進", "block_entity_refs": ["block_001_010:ent_0374", "block_011_020:ent_0053", "block_021_030:ent_0262", "block_031_040:ent_0045", "block_041_050:ent_0100", "block_051_060:ent_0152"]}
+{"reason": "same_type_and_name", "key": "character:張超", "block_entity_refs": ["block_001_010:ent_0375", "block_011_020:ent_0109"]}
+{"reason": "same_type_and_name", "key": "character:張邈", "block_entity_refs": ["block_001_010:ent_0376", "block_011_020:ent_0072"]}
+{"reason": "same_type_and_name", "key": "character:張楊", "block_entity_refs": ["block_001_010:ent_0377", "block_011_020:ent_0193"]}
+{"reason": "same_type_and_name", "key": "location:汜水關", "block_entity_refs": ["block_001_010:ent_0386", "block_021_030:ent_0319"]}
+{"reason": "same_type_and_name", "key": "object:檄文", "block_entity_refs": ["block_001_010:ent_0394", "block_041_050:ent_0125"]}
+{"reason": "same_type_and_name", "key": "title:丞相", "block_entity_refs": ["block_001_010:ent_0402", "block_011_020:ent_0488", "block_021_030:ent_0093", "block_031_040:ent_0083", "block_041_050:ent_0138", "block_051_060:ent_0063"]}
+{"reason": "same_type_and_name", "key": "title:前部", "block_entity_refs": ["block_001_010:ent_0405", "block_051_060:ent_0543"]}
+{"reason": "same_type_and_name", "key": "title:溫侯", "block_entity_refs": ["block_001_010:ent_0406", "block_011_020:ent_0631"]}
+{"reason": "same_type_and_name", "key": "title:總督", "block_entity_refs": ["block_001_010:ent_0407", "block_031_040:ent_0536"]}
+{"reason": "same_type_and_name", "key": "character:蔡瑁", "block_entity_refs": ["block_001_010:ent_0413", "block_031_040:ent_0247", "block_041_050:ent_0006"]}
+{"reason": "same_type_and_name", "key": "character:蒯良", "block_entity_refs": ["block_001_010:ent_0414", "block_021_030:ent_0155", "block_031_040:ent_0254"]}
+{"reason": "same_type_and_name", "key": "character:蒯越", "block_entity_refs": ["block_001_010:ent_0415", "block_031_040:ent_0255", "block_041_050:ent_0032"]}
+{"reason": "same_type_and_name", "key": "character:劉表", "block_entity_refs": ["block_001_010:ent_0416", "block_011_020:ent_0349", "block_021_030:ent_0023", "block_031_040:ent_0026", "block_041_050:ent_0039", "block_051_060:ent_0144"]}
+{"reason": "same_type_and_name", "key": "location:河內", "block_entity_refs": ["block_001_010:ent_0422", "block_021_030:ent_0127"]}
+{"reason": "same_type_and_name", "key": "location:荊州", "block_entity_refs": ["block_001_010:ent_0425", "block_011_020:ent_0585", "block_021_030:ent_0169", "block_031_040:ent_0065", "block_041_050:ent_0030", "block_051_060:ent_0041"]}
+{"reason": "same_type_and_name", "key": "location:太廟", "block_entity_refs": ["block_001_010:ent_0428", "block_011_020:ent_0670"]}
+{"reason": "same_type_and_name", "key": "location:滎陽", "block_entity_refs": ["block_001_010:ent_0429", "block_021_030:ent_0321"]}
+{"reason": "same_type_and_name", "key": "title:平原相", "block_entity_refs": ["block_001_010:ent_0437", "block_011_020:ent_0083"]}
+{"reason": "same_type_and_name", "key": "army:江夏之兵", "block_entity_refs": ["block_001_010:ent_0443", "block_031_040:ent_0423"]}
+{"reason": "same_type_and_name", "key": "army:荊襄之眾", "block_entity_refs": ["block_001_010:ent_0444", "block_031_040:ent_0240", "block_051_060:ent_0378"]}
+{"reason": "same_type_and_name", "key": "character:逢紀", "block_entity_refs": ["block_001_010:ent_0452", "block_021_030:ent_0113", "block_031_040:ent_0014"]}
+{"reason": "same_type_and_name", "key": "character:黃祖", "block_entity_refs": ["block_001_010:ent_0457", "block_011_020:ent_0576", "block_021_030:ent_0152", "block_031_040:ent_0438"]}
+{"reason": "same_type_and_name", "key": "character:孫策", "block_entity_refs": ["block_001_010:ent_0462", "block_011_020:ent_0354", "block_021_030:ent_0029", "block_031_040:ent_0445", "block_041_050:ent_0096"]}
+{"reason": "same_type_and_name", "key": "character:孫靜", "block_entity_refs": ["block_001_010:ent_0463", "block_011_020:ent_0356", "block_021_030:ent_0398", "block_031_040:ent_0503"]}
+{"reason": "same_type_and_name", "key": "character:孫匡", "block_entity_refs": ["block_001_010:ent_0464", "block_021_030:ent_0399"]}
+{"reason": "same_type_and_name", "key": "character:孫權", "block_entity_refs": ["block_001_010:ent_0466", "block_011_020:ent_0357", "block_021_030:ent_0400", "block_031_040:ent_0259", "block_051_060:ent_0090"]}
+{"reason": "same_type_and_name", "key": "character:孫翊", "block_entity_refs": ["block_001_010:ent_0469", "block_031_040:ent_0447"]}
+{"reason": "same_type_and_name", "key": "character:田豐", "block_entity_refs": ["block_001_010:ent_0470", "block_021_030:ent_0115", "block_031_040:ent_0033"]}
+{"reason": "same_type_and_name", "key": "character:辛評", "block_entity_refs": ["block_001_010:ent_0472", "block_031_040:ent_0036"]}
+{"reason": "same_type_and_name", "key": "character:許攸", "block_entity_refs": ["block_001_010:ent_0473", "block_021_030:ent_0118", "block_031_040:ent_0137"]}
+{"reason": "same_type_and_name", "key": "character:荀諦", "block_entity_refs": ["block_001_010:ent_0474", "block_021_030:ent_0119"]}
+{"reason": "same_type_and_name", "key": "character:趙雲", "block_entity_refs": ["block_001_010:ent_0478", "block_011_020:ent_0073", "block_031_040:ent_0049", "block_041_050:ent_0082", "block_051_060:ent_0032"]}
+{"reason": "same_type_and_name", "key": "faction:劉表勢力", "block_entity_refs": ["block_001_010:ent_0494", "block_011_020:ent_0531"]}
+{"reason": "same_type_and_name", "key": "faction:羌人", "block_entity_refs": ["block_001_010:ent_0495", "block_051_060:ent_0341"]}
+{"reason": "same_type_and_name", "key": "faction:袁紹勢力", "block_entity_refs": ["block_001_010:ent_0496", "block_021_030:ent_0060", "block_031_040:ent_0059"]}
+{"reason": "same_type_and_name", "key": "faction:袁術勢力", "block_entity_refs": ["block_001_010:ent_0497", "block_011_020:ent_0112", "block_021_030:ent_0061"]}
+{"reason": "same_type_and_name", "key": "location:樊城", "block_entity_refs": ["block_001_010:ent_0500", "block_031_040:ent_0315", "block_041_050:ent_0021"]}
+{"reason": "same_type_and_name", "key": "location:漢江", "block_entity_refs": ["block_001_010:ent_0501", "block_031_040:ent_0063", "block_051_060:ent_0039"]}
+{"reason": "same_type_and_name", "key": "location:河北", "block_entity_refs": ["block_001_010:ent_0503", "block_021_030:ent_0062", "block_031_040:ent_0193"]}
+{"reason": "same_type_and_name", "key": "location:江東", "block_entity_refs": ["block_001_010:ent_0504", "block_011_020:ent_0378", "block_021_030:ent_0363", "block_031_040:ent_0460", "block_051_060:ent_0040"]}
+{"reason": "same_type_and_name", "key": "location:荊襄", "block_entity_refs": ["block_001_010:ent_0506", "block_011_020:ent_0463", "block_031_040:ent_0064", "block_051_060:ent_0104"]}
+{"reason": "same_type_and_name", "key": "location:襄陽", "block_entity_refs": ["block_001_010:ent_0508", "block_021_030:ent_0320", "block_031_040:ent_0278", "block_041_050:ent_0065", "block_051_060:ent_0044"]}
+{"reason": "same_type_and_name", "key": "object:兜鍪", "block_entity_refs": ["block_001_010:ent_0514", "block_011_020:ent_0395"]}
+{"reason": "same_type_and_name", "key": "object:糧草", "block_entity_refs": ["block_001_010:ent_0516", "block_021_030:ent_0276"]}
+{"reason": "same_type_and_name", "key": "object:戰船", "block_entity_refs": ["block_001_010:ent_0519", "block_031_040:ent_0522", "block_041_050:ent_0005", "block_051_060:ent_0238"]}
+{"reason": "same_type_and_name", "key": "title:漢室宗親", "block_entity_refs": ["block_001_010:ent_0532", "block_031_040:ent_0085"]}
+{"reason": "same_type_and_name", "key": "title:冀州牧", "block_entity_refs": ["block_001_010:ent_0533", "block_031_040:ent_0225"]}
+{"reason": "same_type_and_name", "key": "character:貂蟬", "block_entity_refs": ["block_001_010:ent_0538", "block_011_020:ent_0432"]}
+{"reason": "same_type_and_name", "key": "character:張溫", "block_entity_refs": ["block_001_010:ent_0541", "block_041_050:ent_0161"]}
+{"reason": "same_type_and_name", "key": "location:後園", "block_entity_refs": ["block_001_010:ent_0545", "block_021_030:ent_0063", "block_031_040:ent_0272"]}
+{"reason": "same_type_and_name", "key": "location:郿塢", "block_entity_refs": ["block_001_010:ent_0548", "block_011_020:ent_0220"]}
+{"reason": "same_type_and_name", "key": "object:金帛", "block_entity_refs": ["block_001_010:ent_0553", "block_051_060:ent_0236"]}
+{"reason": "same_type_and_name", "key": "strategy:連環計", "block_entity_refs": ["block_001_010:ent_0558", "block_041_050:ent_0312"]}
+{"reason": "same_type_and_name", "key": "army:呂布軍", "block_entity_refs": ["block_001_010:ent_0563", "block_011_020:ent_0005"]}
+{"reason": "same_type_and_name", "key": "character:黃琬", "block_entity_refs": ["block_001_010:ent_0570", "block_051_060:ent_0314"]}
+{"reason": "same_type_and_name", "key": "character:賈詡", "block_entity_refs": ["block_001_010:ent_0571", "block_011_020:ent_0175", "block_021_030:ent_0153", "block_051_060:ent_0458"]}
+{"reason": "same_type_and_name", "key": "object:寶劍", "block_entity_refs": ["block_001_010:ent_0601", "block_011_020:ent_0297"]}
+{"reason": "same_type_and_name", "key": "army:青州兵", "block_entity_refs": ["block_001_010:ent_0609", "block_011_020:ent_0421"]}
+{"reason": "same_type_and_name", "key": "character:曹豹", "block_entity_refs": ["block_001_010:ent_0615", "block_011_020:ent_0269"]}
+{"reason": "same_type_and_name", "key": "character:程昱", "block_entity_refs": ["block_001_010:ent_0617", "block_011_020:ent_0044", "block_021_030:ent_0014", "block_031_040:ent_0013", "block_041_050:ent_0319", "block_051_060:ent_0258"]}
+{"reason": "same_type_and_name", "key": "character:典韋", "block_entity_refs": ["block_001_010:ent_0618", "block_011_020:ent_0045", "block_051_060:ent_0391"]}
+{"reason": "same_type_and_name", "key": "character:郭嘉", "block_entity_refs": ["block_001_010:ent_0619", "block_011_020:ent_0049", "block_021_030:ent_0018", "block_031_040:ent_0102"]}
+{"reason": "same_type_and_name", "key": "character:韓遂", "block_entity_refs": ["block_001_010:ent_0620", "block_021_030:ent_0020", "block_041_050:ent_0320", "block_051_060:ent_0312"]}
+{"reason": "same_type_and_name", "key": "character:李別", "block_entity_refs": ["block_001_010:ent_0621", "block_011_020:ent_0273"]}
+{"reason": "same_type_and_name", "key": "character:劉曄", "block_entity_refs": ["block_001_010:ent_0623", "block_011_020:ent_0102", "block_021_030:ent_0156", "block_041_050:ent_0043"]}
+{"reason": "same_type_and_name", "key": "character:呂虔", "block_entity_refs": ["block_001_010:ent_0624", "block_011_020:ent_0057", "block_021_030:ent_0261", "block_031_040:ent_0118", "block_041_050:ent_0323"]}
+{"reason": "same_type_and_name", "key": "character:馬超", "block_entity_refs": ["block_001_010:ent_0625", "block_051_060:ent_0317"]}
+{"reason": "same_type_and_name", "key": "character:滿寵", "block_entity_refs": ["block_001_010:ent_0627", "block_011_020:ent_0275", "block_021_030:ent_0027", "block_031_040:ent_0028"]}
+{"reason": "same_type_and_name", "key": "character:毛玠", "block_entity_refs": ["block_001_010:ent_0628", "block_011_020:ent_0276", "block_021_030:ent_0192", "block_031_040:ent_0500", "block_041_050:ent_0241"]}
+{"reason": "same_type_and_name", "key": "character:荀攸", "block_entity_refs": ["block_001_010:ent_0629", "block_011_020:ent_0279", "block_021_030:ent_0159", "block_031_040:ent_0139", "block_041_050:ent_0072", "block_051_060:ent_0328"]}
+{"reason": "same_type_and_name", "key": "character:荀彧", "block_entity_refs": ["block_001_010:ent_0630", "block_011_020:ent_0067", "block_021_030:ent_0036", "block_031_040:ent_0039", "block_051_060:ent_0519"]}
+{"reason": "same_type_and_name", "key": "character:於禁", "block_entity_refs": ["block_001_010:ent_0632", "block_011_020:ent_0068", "block_021_030:ent_0121", "block_031_040:ent_0040", "block_041_050:ent_0074", "block_051_060:ent_0400"]}
+{"reason": "same_type_and_name", "key": "faction:曹操勢力", "block_entity_refs": ["block_001_010:ent_0641", "block_021_030:ent_0057", "block_031_040:ent_0055"]}
+{"reason": "same_type_and_name", "key": "location:東阿", "block_entity_refs": ["block_001_010:ent_0648", "block_011_020:ent_0020"]}
+{"reason": "same_type_and_name", "key": "location:範縣", "block_entity_refs": ["block_001_010:ent_0649", "block_011_020:ent_0021"]}
+{"reason": "same_type_and_name", "key": "location:弘農", "block_entity_refs": ["block_001_010:ent_0650", "block_011_020:ent_0213"]}
+{"reason": "same_type_and_name", "key": "location:淮南", "block_entity_refs": ["block_001_010:ent_0651", "block_011_020:ent_0289", "block_021_030:ent_0064"]}
+{"reason": "same_type_and_name", "key": "location:濟北", "block_entity_refs": ["block_001_010:ent_0652", "block_011_020:ent_0584"]}
+{"reason": "same_type_and_name", "key": "location:九江", "block_entity_refs": ["block_001_010:ent_0653", "block_041_050:ent_0251"]}
+{"reason": "same_type_and_name", "key": "location:鄄城", "block_entity_refs": ["block_001_010:ent_0654", "block_011_020:ent_0022"]}
+{"reason": "same_type_and_name", "key": "location:山東", "block_entity_refs": ["block_001_010:ent_0656", "block_011_020:ent_0122"]}
+{"reason": "same_type_and_name", "key": "location:西涼", "block_entity_refs": ["block_001_010:ent_0658", "block_021_030:ent_0070", "block_051_060:ent_0348"]}
+{"reason": "same_type_and_name", "key": "location:徐州", "block_entity_refs": ["block_001_010:ent_0659", "block_011_020:ent_0029", "block_021_030:ent_0072"]}
+{"reason": "same_type_and_name", "key": "location:兗州", "block_entity_refs": ["block_001_010:ent_0660", "block_011_020:ent_0030"]}
+{"reason": "same_type_and_name", "key": "object:白旗", "block_entity_refs": ["block_001_010:ent_0665", "block_011_020:ent_0130", "block_031_040:ent_0132", "block_041_050:ent_0344"]}
+{"reason": "same_type_and_name", "key": "title:東郡太守", "block_entity_refs": ["block_001_010:ent_0675", "block_021_030:ent_0246"]}
+{"reason": "same_type_and_name", "key": "title:太僕", "block_entity_refs": ["block_001_010:ent_0681", "block_011_020:ent_0253"]}
+{"reason": "same_type_and_name", "key": "title:徵西將軍", "block_entity_refs": ["block_001_010:ent_0687", "block_051_060:ent_0370"]}
+{"reason": "same_type_and_name", "key": "title:鎮西將軍", "block_entity_refs": ["block_001_010:ent_0688", "block_051_060:ent_0371"]}
+{"reason": "same_type_and_name", "key": "army:劉備軍", "block_entity_refs": ["block_011_020:ent_0004", "block_021_030:ent_0185", "block_031_040:ent_0003", "block_051_060:ent_0303"]}
+{"reason": "same_type_and_name", "key": "location:小沛", "block_entity_refs": ["block_011_020:ent_0028", "block_021_030:ent_0131"]}
+{"reason": "same_type_and_name", "key": "object:書札", "block_entity_refs": ["block_011_020:ent_0034", "block_031_040:ent_0322"]}
+{"reason": "same_type_and_name", "key": "object:青龍刀", "block_entity_refs": ["block_011_020:ent_0035", "block_021_030:ent_0240", "block_041_050:ent_0128"]}
+{"reason": "same_type_and_name", "key": "character:陳登", "block_entity_refs": ["block_011_020:ent_0041", "block_021_030:ent_0011"]}
+{"reason": "same_type_and_name", "key": "character:糜竺", "block_entity_refs": ["block_011_020:ent_0058", "block_021_030:ent_0028", "block_031_040:ent_0501", "block_041_050:ent_0047", "block_051_060:ent_0089"]}
+{"reason": "same_type_and_name", "key": "character:宋憲", "block_entity_refs": ["block_011_020:ent_0059", "block_021_030:ent_0229"]}
+{"reason": "same_type_and_name", "key": "character:太史慈", "block_entity_refs": ["block_011_020:ent_0060", "block_041_050:ent_0205", "block_051_060:ent_0149"]}
+{"reason": "same_type_and_name", "key": "character:魏續", "block_entity_refs": ["block_011_020:ent_0064", "block_021_030:ent_0230"]}
+{"reason": "same_type_and_name", "key": "character:臧霸", "block_entity_refs": ["block_011_020:ent_0069", "block_021_030:ent_0122"]}
+{"reason": "same_type_and_name", "key": "character:張遼", "block_entity_refs": ["block_011_020:ent_0071", "block_021_030:ent_0040", "block_031_040:ent_0048", "block_041_050:ent_0101", "block_051_060:ent_0154"]}
+{"reason": "same_type_and_name", "key": "title:別駕從事", "block_entity_refs": ["block_011_020:ent_0082", "block_031_040:ent_0223"]}
+{"reason": "same_type_and_name", "key": "character:孫乾", "block_entity_refs": ["block_011_020:ent_0103", "block_021_030:ent_0030", "block_031_040:ent_0032", "block_041_050:ent_0057", "block_051_060:ent_0028"]}
+{"reason": "same_type_and_name", "key": "character:許褚", "block_entity_refs": ["block_011_020:ent_0106", "block_021_030:ent_0034", "block_031_040:ent_0037", "block_041_050:ent_0070", "block_051_060:ent_0295"]}
+{"reason": "same_type_and_name", "key": "faction:黃巾", "block_entity_refs": ["block_011_020:ent_0111", "block_021_030:ent_0264"]}
+{"reason": "same_type_and_name", "key": "location:黎陽", "block_entity_refs": ["block_011_020:ent_0119", "block_021_030:ent_0129", "block_031_040:ent_0116"]}
+{"reason": "same_type_and_name", "key": "object:密書", "block_entity_refs": ["block_011_020:ent_0128", "block_021_030:ent_0279", "block_041_050:ent_0310", "block_051_060:ent_0466"]}
+{"reason": "same_type_and_name", "key": "strategy:將計就計", "block_entity_refs": ["block_011_020:ent_0133", "block_041_050:ent_0288"]}
+{"reason": "same_type_and_name", "key": "title:幕官", "block_entity_refs": ["block_011_020:ent_0141", "block_031_040:ent_0581"]}
+{"reason": "same_type_and_name", "key": "title:徐州牧", "block_entity_refs": ["block_011_020:ent_0142", "block_021_030:ent_0149"]}
+{"reason": "same_type_and_name", "key": "character:董承", "block_entity_refs": ["block_011_020:ent_0164", "block_021_030:ent_0015", "block_051_060:ent_0309"]}
+{"reason": "same_type_and_name", "key": "character:伏皇后", "block_entity_refs": ["block_011_020:ent_0167", "block_021_030:ent_0190"]}
+{"reason": "same_type_and_name", "key": "character:審配", "block_entity_refs": ["block_011_020:ent_0180", "block_021_030:ent_0114", "block_031_040:ent_0030"]}
+{"reason": "same_type_and_name", "key": "character:徐晃", "block_entity_refs": ["block_011_020:ent_0186", "block_021_030:ent_0232", "block_031_040:ent_0038", "block_041_050:ent_0276", "block_051_060:ent_0296"]}
+{"reason": "same_type_and_name", "key": "location:長安", "block_entity_refs": ["block_011_020:ent_0208", "block_051_060:ent_0409"]}
+{"reason": "same_type_and_name", "key": "location:黃河", "block_entity_refs": ["block_011_020:ent_0223", "block_021_030:ent_0266"]}
+{"reason": "same_type_and_name", "key": "location:終南山", "block_entity_refs": ["block_011_020:ent_0224", "block_051_060:ent_0504"]}
+{"reason": "same_type_and_name", "key": "object:小舟", "block_entity_refs": ["block_011_020:ent_0225", "block_041_050:ent_0343"]}
+{"reason": "same_type_and_name", "key": "object:密詔", "block_entity_refs": ["block_011_020:ent_0228", "block_051_060:ent_0420"]}
+{"reason": "same_type_and_name", "key": "title:大司馬", "block_entity_refs": ["block_011_020:ent_0243", "block_021_030:ent_0449"]}
+{"reason": "same_type_and_name", "key": "title:國舅", "block_entity_refs": ["block_011_020:ent_0246", "block_021_030:ent_0091"]}
+{"reason": "same_type_and_name", "key": "character:紀靈", "block_entity_refs": ["block_011_020:ent_0272", "block_021_030:ent_0021"]}
+{"reason": "same_type_and_name", "key": "location:許都", "block_entity_refs": ["block_011_020:ent_0294", "block_021_030:ent_0071", "block_031_040:ent_0073", "block_041_050:ent_0337", "block_051_060:ent_0045"]}
+{"reason": "same_type_and_name", "key": "title:將軍", "block_entity_refs": ["block_011_020:ent_0311", "block_021_030:ent_0143"]}
+{"reason": "same_type_and_name", "key": "title:軍師", "block_entity_refs": ["block_011_020:ent_0312", "block_031_040:ent_0334", "block_041_050:ent_0141", "block_051_060:ent_0066"]}
+{"reason": "same_type_and_name", "key": "army:孫策軍", "block_entity_refs": ["block_011_020:ent_0325", "block_021_030:ent_0377"]}
+{"reason": "same_type_and_name", "key": "army:袁術軍", "block_entity_refs": ["block_011_020:ent_0328", "block_021_030:ent_0005"]}
+{"reason": "same_type_and_name", "key": "character:陳武", "block_entity_refs": ["block_011_020:ent_0340", "block_041_050:ent_0369", "block_051_060:ent_0016"]}
+{"reason": "same_type_and_name", "key": "character:董襲", "block_entity_refs": ["block_011_020:ent_0341", "block_031_040:ent_0433", "block_041_050:ent_0190", "block_051_060:ent_0137"]}
+{"reason": "same_type_and_name", "key": "character:華佗", "block_entity_refs": ["block_011_020:ent_0345", "block_021_030:ent_0389"]}
+{"reason": "same_type_and_name", "key": "character:蔣欽", "block_entity_refs": ["block_011_020:ent_0346", "block_041_050:ent_0197", "block_051_060:ent_0021"]}
+{"reason": "same_type_and_name", "key": "character:雷薄", "block_entity_refs": ["block_011_020:ent_0347", "block_021_030:ent_0022"]}
+{"reason": "same_type_and_name", "key": "character:凌操", "block_entity_refs": ["block_011_020:ent_0348", "block_031_040:ent_0439"]}
+{"reason": "same_type_and_name", "key": "character:呂範", "block_entity_refs": ["block_011_020:ent_0351", "block_021_030:ent_0395", "block_041_050:ent_0199", "block_051_060:ent_0186"]}
+{"reason": "same_type_and_name", "key": "character:虞翻", "block_entity_refs": ["block_011_020:ent_0363", "block_021_030:ent_0403", "block_041_050:ent_0160"]}
+{"reason": "same_type_and_name", "key": "character:張纮", "block_entity_refs": ["block_011_020:ent_0366", "block_021_030:ent_0405", "block_031_040:ent_0450", "block_041_050:ent_0207", "block_051_060:ent_0153"]}
+{"reason": "same_type_and_name", "key": "character:張昭", "block_entity_refs": ["block_011_020:ent_0369", "block_021_030:ent_0407", "block_031_040:ent_0451", "block_041_050:ent_0162", "block_051_060:ent_0155"]}
+{"reason": "same_type_and_name", "key": "character:周泰", "block_entity_refs": ["block_011_020:ent_0370", "block_041_050:ent_0208", "block_051_060:ent_0033"]}
+{"reason": "same_type_and_name", "key": "character:周瑜", "block_entity_refs": ["block_011_020:ent_0372", "block_021_030:ent_0408", "block_031_040:ent_0452", "block_041_050:ent_0209", "block_051_060:ent_0034"]}
+{"reason": "same_type_and_name", "key": "character:朱治", "block_entity_refs": ["block_011_020:ent_0373", "block_041_050:ent_0210"]}
+{"reason": "same_type_and_name", "key": "location:江南", "block_entity_refs": ["block_011_020:ent_0379", "block_021_030:ent_0428", "block_031_040:ent_0196", "block_041_050:ent_0171", "block_051_060:ent_0198"]}
+{"reason": "same_type_and_name", "key": "location:壽春", "block_entity_refs": ["block_011_020:ent_0389", "block_021_030:ent_0067"]}
+{"reason": "same_type_and_name", "key": "location:吳郡", "block_entity_refs": ["block_011_020:ent_0391", "block_021_030:ent_0431"]}
+{"reason": "same_type_and_name", "key": "object:錦袍", "block_entity_refs": ["block_011_020:ent_0396", "block_021_030:ent_0327", "block_051_060:ent_0275"]}
+{"reason": "same_type_and_name", "key": "title:長史", "block_entity_refs": ["block_011_020:ent_0411", "block_051_060:ent_0177"]}
+{"reason": "same_type_and_name", "key": "title:吳郡太守", "block_entity_refs": ["block_011_020:ent_0417", "block_021_030:ent_0456"]}
+{"reason": "same_type_and_name", "key": "title:小霸王", "block_entity_refs": ["block_011_020:ent_0418", "block_021_030:ent_0457"]}
+{"reason": "same_type_and_name", "key": "title:揚州刺史", "block_entity_refs": ["block_011_020:ent_0419", "block_041_050:ent_0350"]}
+{"reason": "same_type_and_name", "key": "character:陳珪", "block_entity_refs": ["block_011_020:ent_0430", "block_021_030:ent_0012"]}
+{"reason": "same_type_and_name", "key": "character:陳蘭", "block_entity_refs": ["block_011_020:ent_0431", "block_021_030:ent_0013"]}
+{"reason": "same_type_and_name", "key": "character:劉璋", "block_entity_refs": ["block_011_020:ent_0435", "block_021_030:ent_0024", "block_031_040:ent_0441", "block_051_060:ent_0272"]}
+{"reason": "same_type_and_name", "key": "character:張魯", "block_entity_refs": ["block_011_020:ent_0439", "block_021_030:ent_0041", "block_031_040:ent_0263", "block_051_060:ent_0502"]}
+{"reason": "same_type_and_name", "key": "character:張繡", "block_entity_refs": ["block_011_020:ent_0440", "block_021_030:ent_0042"]}
+{"reason": "same_type_and_name", "key": "location:漢中", "block_entity_refs": ["block_011_020:ent_0462", "block_051_060:ent_0456"]}
+{"reason": "same_type_and_name", "key": "location:益州", "block_entity_refs": ["block_011_020:ent_0466", "block_031_040:ent_0467"]}
+{"reason": "same_type_and_name", "key": "object:弓箭", "block_entity_refs": ["block_011_020:ent_0470", "block_041_050:ent_0282"]}
+{"reason": "same_type_and_name", "key": "object:印綾", "block_entity_refs": ["block_011_020:ent_0478", "block_021_030:ent_0439"]}
+{"reason": "same_type_and_name", "key": "title:豫州牧", "block_entity_refs": ["block_011_020:ent_0493", "block_021_030:ent_0096"]}
+{"reason": "same_type_and_name", "key": "location:江陵", "block_entity_refs": ["block_011_020:ent_0536", "block_041_050:ent_0027", "block_051_060:ent_0102"]}
+{"reason": "same_type_and_name", "key": "location:下邳", "block_entity_refs": ["block_011_020:ent_0541", "block_021_030:ent_0132"]}
+{"reason": "same_type_and_name", "key": "character:簡雍", "block_entity_refs": ["block_011_020:ent_0577", "block_021_030:ent_0108", "block_031_040:ent_0021", "block_041_050:ent_0026"]}
+{"reason": "same_type_and_name", "key": "character:李通", "block_entity_refs": ["block_011_020:ent_0578", "block_051_060:ent_0395"]}
+{"reason": "same_type_and_name", "key": "character:糜芳", "block_entity_refs": ["block_011_020:ent_0579", "block_021_030:ent_0112", "block_031_040:ent_0029", "block_041_050:ent_0046"]}
+{"reason": "same_type_and_name", "key": "faction:劉備勢力", "block_entity_refs": ["block_011_020:ent_0581", "block_021_030:ent_0059", "block_031_040:ent_0057", "block_051_060:ent_0038"]}
+{"reason": "same_type_and_name", "key": "location:汝南", "block_entity_refs": ["block_011_020:ent_0587", "block_021_030:ent_0267", "block_031_040:ent_0071", "block_041_050:ent_0172"]}
+{"reason": "same_type_and_name", "key": "location:襄城", "block_entity_refs": ["block_011_020:ent_0588", "block_021_030:ent_0170"]}
+{"reason": "same_type_and_name", "key": "object:鹿角", "block_entity_refs": ["block_011_020:ent_0591", "block_021_030:ent_0329"]}
+{"reason": "same_type_and_name", "key": "title:吳侯", "block_entity_refs": ["block_011_020:ent_0605", "block_041_050:ent_0400", "block_051_060:ent_0067"]}
+{"reason": "same_type_and_name", "key": "location:芒碭山", "block_entity_refs": ["block_011_020:ent_0623", "block_021_030:ent_0365"]}
+{"reason": "same_type_and_name", "key": "character:史渙", "block_entity_refs": ["block_011_020:ent_0625", "block_021_030:ent_0479", "block_031_040:ent_0031"]}
+{"reason": "same_type_and_name", "key": "title:伏波將軍", "block_entity_refs": ["block_011_020:ent_0630", "block_051_060:ent_0364"]}
+{"reason": "same_type_and_name", "key": "character:車冑", "block_entity_refs": ["block_011_020:ent_0644", "block_021_030:ent_0010"]}
+{"reason": "same_type_and_name", "key": "character:王子服", "block_entity_refs": ["block_011_020:ent_0648", "block_021_030:ent_0031"]}
+{"reason": "same_type_and_name", "key": "character:吳碩", "block_entity_refs": ["block_011_020:ent_0649", "block_021_030:ent_0032"]}
+{"reason": "same_type_and_name", "key": "character:吳子蘭", "block_entity_refs": ["block_011_020:ent_0650", "block_021_030:ent_0033"]}
+{"reason": "same_type_and_name", "key": "character:種輯", "block_entity_refs": ["block_011_020:ent_0652", "block_021_030:ent_0045"]}
+{"reason": "same_type_and_name", "key": "object:義狀", "block_entity_refs": ["block_011_020:ent_0676", "block_021_030:ent_0078"]}
+{"reason": "same_type_and_name", "key": "title:車騎將軍", "block_entity_refs": ["block_011_020:ent_0688", "block_021_030:ent_0089", "block_031_040:ent_0097"]}
+{"reason": "same_type_and_name", "key": "title:侍郎", "block_entity_refs": ["block_011_020:ent_0689", "block_051_060:ent_0434"]}
+{"reason": "same_type_and_name", "key": "title:西涼太守", "block_entity_refs": ["block_011_020:ent_0690", "block_021_030:ent_0094", "block_051_060:ent_0437"]}
+{"reason": "same_type_and_name", "key": "character:張燕", "block_entity_refs": ["block_021_030:ent_0043", "block_031_040:ent_0177"]}
+{"reason": "same_type_and_name", "key": "character:朱靈", "block_entity_refs": ["block_021_030:ent_0046", "block_051_060:ent_0505"]}
+{"reason": "same_type_and_name", "key": "location:十里長亭", "block_entity_refs": ["block_021_030:ent_0069", "block_051_060:ent_0529"]}
+{"reason": "same_type_and_name", "key": "object:將軍印", "block_entity_refs": ["block_021_030:ent_0076", "block_031_040:ent_0109"]}
+{"reason": "same_type_and_name", "key": "object:衣帶詔", "block_entity_refs": ["block_021_030:ent_0080", "block_031_040:ent_0076", "block_051_060:ent_0349"]}
+{"reason": "same_type_and_name", "key": "character:郭圖", "block_entity_refs": ["block_021_030:ent_0107", "block_031_040:ent_0020"]}
+{"reason": "same_type_and_name", "key": "location:官渡", "block_entity_refs": ["block_021_030:ent_0125", "block_031_040:ent_0062"]}
+{"reason": "same_type_and_name", "key": "location:河上", "block_entity_refs": ["block_021_030:ent_0126", "block_031_040:ent_0070"]}
+{"reason": "same_type_and_name", "key": "strategy:掎角之勢", "block_entity_refs": ["block_021_030:ent_0138", "block_041_050:ent_0133", "block_051_060:ent_0060"]}
+{"reason": "same_type_and_name", "key": "character:韓嵩", "block_entity_refs": ["block_021_030:ent_0151", "block_041_050:ent_0093"]}
+{"reason": "same_type_and_name", "key": "faction:荊州", "block_entity_refs": ["block_021_030:ent_0166", "block_041_050:ent_0116"]}
+{"reason": "same_type_and_name", "key": "location:江漢", "block_entity_refs": ["block_021_030:ent_0167", "block_041_050:ent_0170"]}
+{"reason": "same_type_and_name", "key": "title:零陵太守", "block_entity_refs": ["block_021_030:ent_0178", "block_051_060:ent_0129"]}
+{"reason": "same_type_and_name", "key": "army:曹軍", "block_entity_refs": ["block_021_030:ent_0183", "block_031_040:ent_0001", "block_051_060:ent_0001"]}
+{"reason": "same_type_and_name", "key": "army:輕騎", "block_entity_refs": ["block_021_030:ent_0184", "block_041_050:ent_0075"]}
+{"reason": "same_type_and_name", "key": "army:西涼軍", "block_entity_refs": ["block_021_030:ent_0187", "block_051_060:ent_0306"]}
+{"reason": "same_type_and_name", "key": "character:袁譚", "block_entity_refs": ["block_021_030:ent_0194", "block_031_040:ent_0043"]}
+{"reason": "same_type_and_name", "key": "location:鄒郡", "block_entity_refs": ["block_021_030:ent_0205", "block_031_040:ent_0283", "block_051_060:ent_0302"]}
+{"reason": "same_type_and_name", "key": "title:皇叔", "block_entity_refs": ["block_021_030:ent_0219", "block_031_040:ent_0237", "block_041_050:ent_0140", "block_051_060:ent_0126"]}
+{"reason": "same_type_and_name", "key": "location:土山", "block_entity_refs": ["block_021_030:ent_0235", "block_031_040:ent_0072"]}
+{"reason": "same_type_and_name", "key": "title:先鋒", "block_entity_refs": ["block_021_030:ent_0249", "block_031_040:ent_0584", "block_041_050:ent_0270", "block_051_060:ent_0068"]}
+{"reason": "same_type_and_name", "key": "character:龔都", "block_entity_refs": ["block_021_030:ent_0259", "block_031_040:ent_0017"]}
+{"reason": "same_type_and_name", "key": "character:劉闢", "block_entity_refs": ["block_021_030:ent_0260", "block_031_040:ent_0027"]}
+{"reason": "same_type_and_name", "key": "character:廖化", "block_entity_refs": ["block_021_030:ent_0303", "block_051_060:ent_0514"]}
+{"reason": "same_type_and_name", "key": "object:車仗", "block_entity_refs": ["block_021_030:ent_0324", "block_041_050:ent_0012"]}
+{"reason": "same_type_and_name", "key": "title:從事", "block_entity_refs": ["block_021_030:ent_0335", "block_031_040:ent_0098"]}
+{"reason": "same_type_and_name", "key": "character:關平", "block_entity_refs": ["block_021_030:ent_0348", "block_031_040:ent_0018", "block_051_060:ent_0310"]}
+{"reason": "same_type_and_name", "key": "character:週倉", "block_entity_refs": ["block_021_030:ent_0354", "block_031_040:ent_0050"]}
+{"reason": "same_type_and_name", "key": "faction:江東", "block_entity_refs": ["block_021_030:ent_0359", "block_031_040:ent_0407"]}
+{"reason": "same_type_and_name", "key": "character:顧雍", "block_entity_refs": ["block_021_030:ent_0387", "block_031_040:ent_0436", "block_041_050:ent_0153"]}
+{"reason": "same_type_and_name", "key": "character:華歆", "block_entity_refs": ["block_021_030:ent_0391", "block_051_060:ent_0269"]}
+{"reason": "same_type_and_name", "key": "character:魯肅", "block_entity_refs": ["block_021_030:ent_0396", "block_041_050:ent_0095", "block_051_060:ent_0025"]}
+{"reason": "same_type_and_name", "key": "character:吳太夫人", "block_entity_refs": ["block_021_030:ent_0401", "block_031_040:ent_0448"]}
+{"reason": "same_type_and_name", "key": "character:諸葛瑾", "block_entity_refs": ["block_021_030:ent_0409", "block_031_040:ent_0399", "block_041_050:ent_0163", "block_051_060:ent_0156"]}
+{"reason": "same_type_and_name", "key": "location:巴丘", "block_entity_refs": ["block_021_030:ent_0424", "block_051_060:ent_0342"]}
+{"reason": "same_type_and_name", "key": "object:佩劍", "block_entity_refs": ["block_021_030:ent_0437", "block_041_050:ent_0258"]}
+{"reason": "same_type_and_name", "key": "character:高覽", "block_entity_refs": ["block_021_030:ent_0473", "block_031_040:ent_0016"]}
+{"reason": "same_type_and_name", "key": "character:袁尚", "block_entity_refs": ["block_021_030:ent_0483", "block_031_040:ent_0041"]}
+{"reason": "same_type_and_name", "key": "character:張郃", "block_entity_refs": ["block_021_030:ent_0484", "block_031_040:ent_0047", "block_041_050:ent_0078", "block_051_060:ent_0300"]}
+{"reason": "same_type_and_name", "key": "location:鄴郡", "block_entity_refs": ["block_021_030:ent_0491", "block_051_060:ent_0297"]}
+{"reason": "same_type_and_name", "key": "character:馬延", "block_entity_refs": ["block_031_040:ent_0120", "block_041_050:ent_0045"]}
+{"reason": "same_type_and_name", "key": "location:西山", "block_entity_refs": ["block_031_040:ent_0136", "block_041_050:ent_0253"]}
+{"reason": "same_type_and_name", "key": "location:漳河", "block_entity_refs": ["block_031_040:ent_0153", "block_051_060:ent_0301"]}
+{"reason": "same_type_and_name", "key": "character:焦觸", "block_entity_refs": ["block_031_040:ent_0171", "block_041_050:ent_0029"]}
+{"reason": "same_type_and_name", "key": "character:張南", "block_entity_refs": ["block_031_040:ent_0176", "block_041_050:ent_0079"]}
+{"reason": "same_type_and_name", "key": "character:張顗", "block_entity_refs": ["block_031_040:ent_0178", "block_041_050:ent_0080"]}
+{"reason": "same_type_and_name", "key": "character:蔡夫人", "block_entity_refs": ["block_031_040:ent_0246", "block_041_050:ent_0033"]}
+{"reason": "same_type_and_name", "key": "character:甘夫人", "block_entity_refs": ["block_031_040:ent_0252", "block_041_050:ent_0034", "block_051_060:ent_0184"]}
+{"reason": "same_type_and_name", "key": "character:劉琮", "block_entity_refs": ["block_031_040:ent_0257", "block_041_050:ent_0041"]}
+{"reason": "same_type_and_name", "key": "character:劉琦", "block_entity_refs": ["block_031_040:ent_0258", "block_041_050:ent_0001", "block_051_060:ent_0086"]}
+{"reason": "same_type_and_name", "key": "character:王威", "block_entity_refs": ["block_031_040:ent_0260", "block_041_050:ent_0060"]}
+{"reason": "same_type_and_name", "key": "character:文聘", "block_entity_refs": ["block_031_040:ent_0261", "block_041_050:ent_0062", "block_051_060:ent_0292"]}
+{"reason": "same_type_and_name", "key": "character:伊籍", "block_entity_refs": ["block_031_040:ent_0262", "block_051_060:ent_0092"]}
+{"reason": "same_type_and_name", "key": "location:新野", "block_entity_refs": ["block_031_040:ent_0280", "block_041_050:ent_0069"]}
+{"reason": "same_type_and_name", "key": "character:龐統", "block_entity_refs": ["block_031_040:ent_0323", "block_041_050:ent_0298", "block_051_060:ent_0324"]}
+{"reason": "same_type_and_name", "key": "title:上將", "block_entity_refs": ["block_031_040:ent_0336", "block_051_060:ent_0130"]}
+{"reason": "same_type_and_name", "key": "army:趙雲一千軍", "block_entity_refs": ["block_031_040:ent_0339", "block_051_060:ent_0074"]}
+{"reason": "same_type_and_name", "key": "character:劉封", "block_entity_refs": ["block_031_040:ent_0344", "block_041_050:ent_0042", "block_051_060:ent_0085"]}
+{"reason": "same_type_and_name", "key": "character:諸葛亮", "block_entity_refs": ["block_031_040:ent_0351", "block_041_050:ent_0085", "block_051_060:ent_0035"]}
+{"reason": "same_type_and_name", "key": "location:隆中", "block_entity_refs": ["block_031_040:ent_0365", "block_041_050:ent_0044"]}
+{"reason": "same_type_and_name", "key": "title:縣令", "block_entity_refs": ["block_031_040:ent_0385", "block_051_060:ent_0368"]}
+{"reason": "same_type_and_name", "key": "army:水軍", "block_entity_refs": ["block_031_040:ent_0387", "block_051_060:ent_0251"]}
+{"reason": "same_type_and_name", "key": "title:幕賓", "block_entity_refs": ["block_031_040:ent_0420", "block_041_050:ent_0267"]}
+{"reason": "same_type_and_name", "key": "character:甘寧", "block_entity_refs": ["block_031_040:ent_0435", "block_041_050:ent_0194", "block_051_060:ent_0018"]}
+{"reason": "same_type_and_name", "key": "character:凌統", "block_entity_refs": ["block_031_040:ent_0440", "block_041_050:ent_0198", "block_051_060:ent_0022"]}
+{"reason": "same_type_and_name", "key": "character:呂蒙", "block_entity_refs": ["block_031_040:ent_0442", "block_041_050:ent_0200", "block_051_060:ent_0024"]}
+{"reason": "same_type_and_name", "key": "character:潘璋", "block_entity_refs": ["block_031_040:ent_0443", "block_041_050:ent_0203", "block_051_060:ent_0027"]}
+{"reason": "same_type_and_name", "key": "location:夏口", "block_entity_refs": ["block_031_040:ent_0465", "block_041_050:ent_0123", "block_051_060:ent_0294"]}
+{"reason": "same_type_and_name", "key": "location:柴桑", "block_entity_refs": ["block_031_040:ent_0513", "block_041_050:ent_0119", "block_051_060:ent_0097"]}
+{"reason": "same_type_and_name", "key": "location:鄱陽湖", "block_entity_refs": ["block_031_040:ent_0515", "block_041_050:ent_0219"]}
+{"reason": "same_type_and_name", "key": "title:副將", "block_entity_refs": ["block_031_040:ent_0531", "block_041_050:ent_0292", "block_051_060:ent_0065"]}
+{"reason": "same_type_and_name", "key": "battle:博望燒屯", "block_entity_refs": ["block_031_040:ent_0546", "block_041_050:ent_0149"]}
+{"reason": "same_type_and_name", "key": "character:傅巽", "block_entity_refs": ["block_031_040:ent_0549", "block_041_050:ent_0022"]}
+{"reason": "same_type_and_name", "key": "character:王粲", "block_entity_refs": ["block_031_040:ent_0554", "block_041_050:ent_0059"]}
+{"reason": "same_type_and_name", "key": "character:張允", "block_entity_refs": ["block_031_040:ent_0556", "block_041_050:ent_0081"]}
+{"reason": "same_type_and_name", "key": "location:白河", "block_entity_refs": ["block_031_040:ent_0559", "block_041_050:ent_0002"]}
+{"reason": "same_type_and_name", "key": "army:五百軍", "block_entity_refs": ["block_041_050:ent_0024", "block_051_060:ent_0180"]}
+{"reason": "same_type_and_name", "key": "character:韓玄", "block_entity_refs": ["block_041_050:ent_0025", "block_051_060:ent_0140"]}
+{"reason": "same_type_and_name", "key": "character:魏延", "block_entity_refs": ["block_041_050:ent_0061", "block_051_060:ent_0150"]}
+{"reason": "same_type_and_name", "key": "faction:曹軍", "block_entity_refs": ["block_041_050:ent_0113", "block_051_060:ent_0036"]}
+{"reason": "same_type_and_name", "key": "faction:東吳", "block_entity_refs": ["block_041_050:ent_0114", "block_051_060:ent_0037"]}
+{"reason": "same_type_and_name", "key": "character:吳國太", "block_entity_refs": ["block_041_050:ent_0157", "block_051_060:ent_0188"]}
+{"reason": "same_type_and_name", "key": "character:二喬", "block_entity_refs": ["block_041_050:ent_0192", "block_051_060:ent_0183"]}
+{"reason": "same_type_and_name", "key": "character:陸遜", "block_entity_refs": ["block_041_050:ent_0201", "block_051_060:ent_0146"]}
+{"reason": "same_type_and_name", "key": "title:都督", "block_entity_refs": ["block_041_050:ent_0232", "block_051_060:ent_0064"]}
+{"reason": "same_type_and_name", "key": "character:曹操使者", "block_entity_refs": ["block_041_050:ent_0239", "block_051_060:ent_0387"]}
+{"reason": "same_type_and_name", "key": "strategy:反間計", "block_entity_refs": ["block_041_050:ent_0261", "block_051_060:ent_0470"]}
+{"reason": "same_type_and_name", "key": "object:文書", "block_entity_refs": ["block_041_050:ent_0285", "block_051_060:ent_0211"]}
+{"reason": "same_type_and_name", "key": "location:合淝", "block_entity_refs": ["block_041_050:ent_0333", "block_051_060:ent_0101"]}
+{"reason": "same_type_and_name", "key": "character:丁奉", "block_entity_refs": ["block_041_050:ent_0370", "block_051_060:ent_0017"]}
+{"reason": "same_type_and_name", "key": "character:徐盛", "block_entity_refs": ["block_041_050:ent_0371", "block_051_060:ent_0030"]}
+{"reason": "same_type_and_name", "key": "location:赤壁", "block_entity_refs": ["block_041_050:ent_0376", "block_051_060:ent_0259"]}
+{"reason": "same_type_and_name", "key": "object:兵符", "block_entity_refs": ["block_041_050:ent_0386", "block_051_060:ent_0049"]}
+{"reason": "same_type_and_name", "key": "army:五百校刀手", "block_entity_refs": ["block_041_050:ent_0407", "block_051_060:ent_0134"]}
+{"reason": "same_type_and_name", "key": "location:南郡", "block_entity_refs": ["block_041_050:ent_0421", "block_051_060:ent_0042"]}
+{"reason": "same_type_and_name", "key": "location:彝陵", "block_entity_refs": ["block_041_050:ent_0423", "block_051_060:ent_0046"]}
+{"reason": "same_type_name_or_alias", "key": "army:曹操軍", "block_entity_refs": ["block_001_010:ent_0001", "block_011_020:ent_0002", "block_051_060:ent_0001"]}
+{"reason": "same_type_name_or_alias", "key": "army:操軍", "block_entity_refs": ["block_001_010:ent_0001", "block_051_060:ent_0001"]}
+{"reason": "same_type_name_or_alias", "key": "army:玄德軍", "block_entity_refs": ["block_001_010:ent_0003", "block_011_020:ent_0004", "block_021_030:ent_0185", "block_031_040:ent_0003"]}
+{"reason": "same_type_name_or_alias", "key": "army:劉備軍", "block_entity_refs": ["block_001_010:ent_0003", "block_011_020:ent_0004", "block_021_030:ent_0185", "block_031_040:ent_0003", "block_051_060:ent_0303"]}
+{"reason": "same_type_name_or_alias", "key": "army:西涼兵", "block_entity_refs": ["block_001_010:ent_0005", "block_011_020:ent_0152", "block_051_060:ent_0306"]}
+{"reason": "same_type_name_or_alias", "key": "army:西涼軍", "block_entity_refs": ["block_001_010:ent_0005", "block_021_030:ent_0187", "block_051_060:ent_0306"]}
+{"reason": "same_type_name_or_alias", "key": "character:蔡邕", "block_entity_refs": ["block_001_010:ent_0011", "block_021_030:ent_0384"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹操", "block_entity_refs": ["block_001_010:ent_0012", "block_011_020:ent_0037", "block_021_030:ent_0009", "block_031_040:ent_0010", "block_041_050:ent_0008", "block_051_060:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:孟德", "block_entity_refs": ["block_001_010:ent_0012", "block_021_030:ent_0009", "block_051_060:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:阿瞞", "block_entity_refs": ["block_001_010:ent_0012", "block_031_040:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹公", "block_entity_refs": ["block_001_010:ent_0012", "block_011_020:ent_0037", "block_021_030:ent_0009", "block_031_040:ent_0010", "block_041_050:ent_0008", "block_051_060:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹孟德", "block_entity_refs": ["block_001_010:ent_0012", "block_011_020:ent_0037", "block_021_030:ent_0009"]}
+{"reason": "same_type_name_or_alias", "key": "character:董卓", "block_entity_refs": ["block_001_010:ent_0018", "block_011_020:ent_0618", "block_041_050:ent_0191"]}
+{"reason": "same_type_name_or_alias", "key": "character:丞相", "block_entity_refs": ["block_001_010:ent_0018", "block_011_020:ent_0037", "block_021_030:ent_0009", "block_031_040:ent_0010", "block_041_050:ent_0008", "block_051_060:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:關羽", "block_entity_refs": ["block_001_010:ent_0021", "block_011_020:ent_0048", "block_021_030:ent_0017", "block_031_040:ent_0019", "block_041_050:ent_0023", "block_051_060:ent_0019"]}
+{"reason": "same_type_name_or_alias", "key": "character:關雲長", "block_entity_refs": ["block_001_010:ent_0021", "block_011_020:ent_0048", "block_021_030:ent_0017", "block_031_040:ent_0019", "block_041_050:ent_0023", "block_051_060:ent_0019"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉備", "block_entity_refs": ["block_001_010:ent_0025", "block_011_020:ent_0055", "block_021_030:ent_0009", "block_031_040:ent_0025", "block_041_050:ent_0038", "block_051_060:ent_0023"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉玄德", "block_entity_refs": ["block_001_010:ent_0025", "block_011_020:ent_0055", "block_021_030:ent_0009", "block_031_040:ent_0025", "block_041_050:ent_0038", "block_051_060:ent_0023"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉焉", "block_entity_refs": ["block_001_010:ent_0026", "block_051_060:ent_0461"]}
+{"reason": "same_type_name_or_alias", "key": "character:張寶", "block_entity_refs": ["block_001_010:ent_0033", "block_021_030:ent_0352"]}
+{"reason": "same_type_name_or_alias", "key": "character:張飛", "block_entity_refs": ["block_001_010:ent_0034", "block_011_020:ent_0070", "block_021_030:ent_0039", "block_031_040:ent_0046", "block_041_050:ent_0077", "block_051_060:ent_0031"]}
+{"reason": "same_type_name_or_alias", "key": "character:張角", "block_entity_refs": ["block_001_010:ent_0035", "block_021_030:ent_0353"]}
+{"reason": "same_type_name_or_alias", "key": "character:天公將軍", "block_entity_refs": ["block_001_010:ent_0035", "block_021_030:ent_0353"]}
+{"reason": "same_type_name_or_alias", "key": "character:朱儁", "block_entity_refs": ["block_001_010:ent_0039", "block_011_020:ent_0194"]}
+{"reason": "same_type_name_or_alias", "key": "faction:漢室", "block_entity_refs": ["block_001_010:ent_0048", "block_011_020:ent_0110", "block_021_030:ent_0058", "block_031_040:ent_0056", "block_051_060:ent_0195"]}
+{"reason": "same_type_name_or_alias", "key": "faction:漢朝", "block_entity_refs": ["block_001_010:ent_0048", "block_011_020:ent_0110", "block_021_030:ent_0058", "block_031_040:ent_0056"]}
+{"reason": "same_type_name_or_alias", "key": "faction:朝廷", "block_entity_refs": ["block_001_010:ent_0048", "block_011_020:ent_0110", "block_021_030:ent_0058", "block_031_040:ent_0056", "block_051_060:ent_0195"]}
+{"reason": "same_type_name_or_alias", "key": "faction:漢朝廷", "block_entity_refs": ["block_001_010:ent_0048", "block_011_020:ent_0110"]}
+{"reason": "same_type_name_or_alias", "key": "faction:社稷", "block_entity_refs": ["block_001_010:ent_0048", "block_011_020:ent_0110"]}
+{"reason": "same_type_name_or_alias", "key": "faction:漢家", "block_entity_refs": ["block_001_010:ent_0048", "block_021_030:ent_0058"]}
+{"reason": "same_type_name_or_alias", "key": "faction:王室", "block_entity_refs": ["block_001_010:ent_0048", "block_011_020:ent_0110"]}
+{"reason": "same_type_name_or_alias", "key": "location:洛陽", "block_entity_refs": ["block_001_010:ent_0054", "block_011_020:ent_0219", "block_021_030:ent_0318"]}
+{"reason": "same_type_name_or_alias", "key": "location:東都洛陽", "block_entity_refs": ["block_001_010:ent_0054", "block_011_020:ent_0219"]}
+{"reason": "same_type_name_or_alias", "key": "location:長安", "block_entity_refs": ["block_001_010:ent_0054", "block_011_020:ent_0208", "block_051_060:ent_0409"]}
+{"reason": "same_type_name_or_alias", "key": "location:長安城", "block_entity_refs": ["block_001_010:ent_0054", "block_011_020:ent_0208"]}
+{"reason": "same_type_name_or_alias", "key": "location:青州", "block_entity_refs": ["block_001_010:ent_0055", "block_011_020:ent_0025", "block_021_030:ent_0130", "block_031_040:ent_0068", "block_041_050:ent_0048"]}
+{"reason": "same_type_name_or_alias", "key": "location:潁川", "block_entity_refs": ["block_001_010:ent_0058", "block_031_040:ent_0370"]}
+{"reason": "same_type_name_or_alias", "key": "location:幽州", "block_entity_refs": ["block_001_010:ent_0059", "block_021_030:ent_0133", "block_031_040:ent_0074"]}
+{"reason": "same_type_name_or_alias", "key": "object:榜文", "block_entity_refs": ["block_001_010:ent_0065", "block_011_020:ent_0608"]}
+{"reason": "same_type_name_or_alias", "key": "object:門檻車", "block_entity_refs": ["block_001_010:ent_0066", "block_031_040:ent_0471"]}
+{"reason": "same_type_name_or_alias", "key": "object:雙股劍", "block_entity_refs": ["block_001_010:ent_0068", "block_011_020:ent_0033", "block_031_040:ent_0075"]}
+{"reason": "same_type_name_or_alias", "key": "object:黃旗", "block_entity_refs": ["block_001_010:ent_0070", "block_041_050:ent_0345", "block_051_060:ent_0115"]}
+{"reason": "same_type_name_or_alias", "key": "object:丈八蛇矛", "block_entity_refs": ["block_001_010:ent_0071", "block_011_020:ent_0299", "block_021_030:ent_0369"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:火攻", "block_entity_refs": ["block_001_010:ent_0072", "block_041_050:ent_0290"]}
+{"reason": "same_type_name_or_alias", "key": "title:騎都尉", "block_entity_refs": ["block_001_010:ent_0082", "block_011_020:ent_0251", "block_031_040:ent_0229"]}
+{"reason": "same_type_name_or_alias", "key": "title:天公將軍", "block_entity_refs": ["block_001_010:ent_0086", "block_021_030:ent_0374"]}
+{"reason": "same_type_name_or_alias", "key": "title:校尉", "block_entity_refs": ["block_001_010:ent_0087", "block_011_020:ent_0321", "block_051_060:ent_0436"]}
+{"reason": "same_type_name_or_alias", "key": "army:精兵五千", "block_entity_refs": ["block_001_010:ent_0092", "block_051_060:ent_0509"]}
+{"reason": "same_type_name_or_alias", "key": "character:陳琳", "block_entity_refs": ["block_001_010:ent_0101", "block_021_030:ent_0105", "block_031_040:ent_0095"]}
+{"reason": "same_type_name_or_alias", "key": "character:公孫瓚", "block_entity_refs": ["block_001_010:ent_0107", "block_011_020:ent_0575", "block_021_030:ent_0016"]}
+{"reason": "same_type_name_or_alias", "key": "character:獻帝", "block_entity_refs": ["block_001_010:ent_0113", "block_011_020:ent_0185", "block_021_030:ent_0019", "block_051_060:ent_0495"]}
+{"reason": "same_type_name_or_alias", "key": "character:陛下", "block_entity_refs": ["block_001_010:ent_0113", "block_011_020:ent_0185", "block_021_030:ent_0019"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫堅", "block_entity_refs": ["block_001_010:ent_0120", "block_011_020:ent_0355"]}
+{"reason": "same_type_name_or_alias", "key": "character:袁紹", "block_entity_refs": ["block_001_010:ent_0126", "block_011_020:ent_0191", "block_021_030:ent_0009", "block_031_040:ent_0042", "block_041_050:ent_0412"]}
+{"reason": "same_type_name_or_alias", "key": "character:本初", "block_entity_refs": ["block_001_010:ent_0126", "block_021_030:ent_0009", "block_031_040:ent_0042"]}
+{"reason": "same_type_name_or_alias", "key": "character:袁本初", "block_entity_refs": ["block_001_010:ent_0126", "block_021_030:ent_0009"]}
+{"reason": "same_type_name_or_alias", "key": "faction:黃巾餘黨", "block_entity_refs": ["block_001_010:ent_0136", "block_021_030:ent_0264"]}
+{"reason": "same_type_name_or_alias", "key": "faction:黃巾", "block_entity_refs": ["block_001_010:ent_0137", "block_011_020:ent_0111", "block_021_030:ent_0264"]}
+{"reason": "same_type_name_or_alias", "key": "faction:賊眾", "block_entity_refs": ["block_001_010:ent_0137", "block_011_020:ent_0111"]}
+{"reason": "same_type_name_or_alias", "key": "location:長沙", "block_entity_refs": ["block_001_010:ent_0139", "block_031_040:ent_0362", "block_041_050:ent_0014", "block_051_060:ent_0099"]}
+{"reason": "same_type_name_or_alias", "key": "location:館驛", "block_entity_refs": ["block_001_010:ent_0141", "block_021_030:ent_0314", "block_041_050:ent_0169", "block_051_060:ent_0197"]}
+{"reason": "same_type_name_or_alias", "key": "location:河東", "block_entity_refs": ["block_001_010:ent_0142", "block_011_020:ent_0212"]}
+{"reason": "same_type_name_or_alias", "key": "location:河間", "block_entity_refs": ["block_001_010:ent_0143", "block_031_040:ent_0194"]}
+{"reason": "same_type_name_or_alias", "key": "location:江夏", "block_entity_refs": ["block_001_010:ent_0144", "block_021_030:ent_0168", "block_031_040:ent_0273", "block_041_050:ent_0028", "block_051_060:ent_0103"]}
+{"reason": "same_type_name_or_alias", "key": "location:會稽", "block_entity_refs": ["block_001_010:ent_0145", "block_011_020:ent_0382", "block_021_030:ent_0427"]}
+{"reason": "same_type_name_or_alias", "key": "location:隴西臨洮", "block_entity_refs": ["block_001_010:ent_0146", "block_051_060:ent_0460"]}
+{"reason": "same_type_name_or_alias", "key": "location:臨洮", "block_entity_refs": ["block_001_010:ent_0146", "block_051_060:ent_0460"]}
+{"reason": "same_type_name_or_alias", "key": "location:南陽", "block_entity_refs": ["block_001_010:ent_0147", "block_011_020:ent_0292", "block_021_030:ent_0487", "block_031_040:ent_0366"]}
+{"reason": "same_type_name_or_alias", "key": "location:宮中", "block_entity_refs": ["block_001_010:ent_0148", "block_021_030:ent_0202"]}
+{"reason": "same_type_name_or_alias", "key": "location:平原", "block_entity_refs": ["block_001_010:ent_0149", "block_011_020:ent_0023", "block_031_040:ent_0123"]}
+{"reason": "same_type_name_or_alias", "key": "location:宛城", "block_entity_refs": ["block_001_010:ent_0152", "block_011_020:ent_0465", "block_031_040:ent_0562"]}
+{"reason": "same_type_name_or_alias", "key": "object:印瑤", "block_entity_refs": ["block_001_010:ent_0161", "block_051_060:ent_0114"]}
+{"reason": "same_type_name_or_alias", "key": "object:印綬", "block_entity_refs": ["block_001_010:ent_0161", "block_011_020:ent_0478", "block_051_060:ent_0114"]}
+{"reason": "same_type_name_or_alias", "key": "title:縣尉", "block_entity_refs": ["block_001_010:ent_0171", "block_051_060:ent_0366"]}
+{"reason": "same_type_name_or_alias", "key": "title:別部司馬", "block_entity_refs": ["block_001_010:ent_0172", "block_011_020:ent_0409"]}
+{"reason": "same_type_name_or_alias", "key": "title:長沙太守", "block_entity_refs": ["block_001_010:ent_0175", "block_051_060:ent_0176"]}
+{"reason": "same_type_name_or_alias", "key": "title:司隸校尉", "block_entity_refs": ["block_001_010:ent_0177", "block_011_020:ent_0318", "block_031_040:ent_0382"]}
+{"reason": "same_type_name_or_alias", "key": "title:車騎將軍", "block_entity_refs": ["block_001_010:ent_0177", "block_011_020:ent_0688", "block_021_030:ent_0089", "block_031_040:ent_0097"]}
+{"reason": "same_type_name_or_alias", "key": "title:假節鉞", "block_entity_refs": ["block_001_010:ent_0177", "block_011_020:ent_0310"]}
+{"reason": "same_type_name_or_alias", "key": "title:都尉", "block_entity_refs": ["block_001_010:ent_0179", "block_011_020:ent_0138", "block_031_040:ent_0224"]}
+{"reason": "same_type_name_or_alias", "key": "title:河東太守", "block_entity_refs": ["block_001_010:ent_0181", "block_011_020:ent_0247"]}
+{"reason": "same_type_name_or_alias", "key": "title:列侯", "block_entity_refs": ["block_001_010:ent_0186", "block_011_020:ent_0313", "block_031_040:ent_0114", "block_051_060:ent_0487"]}
+{"reason": "same_type_name_or_alias", "key": "title:驃騎將軍", "block_entity_refs": ["block_001_010:ent_0187", "block_011_020:ent_0250"]}
+{"reason": "same_type_name_or_alias", "key": "army:軍士", "block_entity_refs": ["block_001_010:ent_0197", "block_041_050:ent_0067"]}
+{"reason": "same_type_name_or_alias", "key": "army:武士", "block_entity_refs": ["block_001_010:ent_0197", "block_021_030:ent_0378"]}
+{"reason": "same_type_name_or_alias", "key": "character:淳於瓊", "block_entity_refs": ["block_001_010:ent_0205", "block_021_030:ent_0472"]}
+{"reason": "same_type_name_or_alias", "key": "character:丁建陽", "block_entity_refs": ["block_001_010:ent_0207", "block_011_020:ent_0617"]}
+{"reason": "same_type_name_or_alias", "key": "character:郭汜", "block_entity_refs": ["block_001_010:ent_0210", "block_011_020:ent_0168", "block_051_060:ent_0311"]}
+{"reason": "same_type_name_or_alias", "key": "character:李傕", "block_entity_refs": ["block_001_010:ent_0212", "block_011_020:ent_0176", "block_051_060:ent_0316"]}
+{"reason": "same_type_name_or_alias", "key": "character:呂布", "block_entity_refs": ["block_001_010:ent_0215", "block_011_020:ent_0056", "block_021_030:ent_0228", "block_041_050:ent_0202"]}
+{"reason": "same_type_name_or_alias", "key": "character:奉先", "block_entity_refs": ["block_001_010:ent_0215", "block_011_020:ent_0056"]}
+{"reason": "same_type_name_or_alias", "key": "character:呂佈", "block_entity_refs": ["block_001_010:ent_0215", "block_011_020:ent_0056"]}
+{"reason": "same_type_name_or_alias", "key": "character:溫侯", "block_entity_refs": ["block_001_010:ent_0215", "block_011_020:ent_0056"]}
+{"reason": "same_type_name_or_alias", "key": "character:楊彪", "block_entity_refs": ["block_001_010:ent_0223", "block_011_020:ent_0187", "block_051_060:ent_0520"]}
+{"reason": "same_type_name_or_alias", "key": "character:袁術", "block_entity_refs": ["block_001_010:ent_0224", "block_011_020:ent_0107", "block_021_030:ent_0037"]}
+{"reason": "same_type_name_or_alias", "key": "character:公路", "block_entity_refs": ["block_001_010:ent_0224", "block_011_020:ent_0107"]}
+{"reason": "same_type_name_or_alias", "key": "character:張濟", "block_entity_refs": ["block_001_010:ent_0226", "block_011_020:ent_0192"]}
+{"reason": "same_type_name_or_alias", "key": "faction:百官", "block_entity_refs": ["block_001_010:ent_0239", "block_011_020:ent_0205"]}
+{"reason": "same_type_name_or_alias", "key": "faction:公卿", "block_entity_refs": ["block_001_010:ent_0239", "block_011_020:ent_0205"]}
+{"reason": "same_type_name_or_alias", "key": "faction:眾官", "block_entity_refs": ["block_001_010:ent_0239", "block_011_020:ent_0205"]}
+{"reason": "same_type_name_or_alias", "key": "location:京師", "block_entity_refs": ["block_001_010:ent_0246", "block_021_030:ent_0071"]}
+{"reason": "same_type_name_or_alias", "key": "location:泰山", "block_entity_refs": ["block_001_010:ent_0254", "block_011_020:ent_0026", "block_031_040:ent_0368"]}
+{"reason": "same_type_name_or_alias", "key": "object:赤兔馬", "block_entity_refs": ["block_001_010:ent_0256", "block_011_020:ent_0615", "block_021_030:ent_0236", "block_041_050:ent_0124"]}
+{"reason": "same_type_name_or_alias", "key": "object:赤兔", "block_entity_refs": ["block_001_010:ent_0256", "block_021_030:ent_0236"]}
+{"reason": "same_type_name_or_alias", "key": "object:玉璽", "block_entity_refs": ["block_001_010:ent_0257", "block_011_020:ent_0399", "block_021_030:ent_0077"]}
+{"reason": "same_type_name_or_alias", "key": "object:傳國玉璽", "block_entity_refs": ["block_001_010:ent_0257", "block_011_020:ent_0399"]}
+{"reason": "same_type_name_or_alias", "key": "object:傳國璽", "block_entity_refs": ["block_001_010:ent_0257", "block_021_030:ent_0077"]}
+{"reason": "same_type_name_or_alias", "key": "object:畫戟", "block_entity_refs": ["block_001_010:ent_0259", "block_011_020:ent_0477"]}
+{"reason": "same_type_name_or_alias", "key": "object:方天畫戟", "block_entity_refs": ["block_001_010:ent_0259", "block_051_060:ent_0168"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:伏刀斧手", "block_entity_refs": ["block_001_010:ent_0262", "block_031_040:ent_0104"]}
+{"reason": "same_type_name_or_alias", "key": "title:都亭侯", "block_entity_refs": ["block_001_010:ent_0270", "block_021_030:ent_0517"]}
+{"reason": "same_type_name_or_alias", "key": "title:荊州刺史", "block_entity_refs": ["block_001_010:ent_0275", "block_051_060:ent_0127"]}
+{"reason": "same_type_name_or_alias", "key": "title:尚書", "block_entity_refs": ["block_001_010:ent_0277", "block_021_030:ent_0146"]}
+{"reason": "same_type_name_or_alias", "key": "title:侍禦史", "block_entity_refs": ["block_001_010:ent_0278", "block_021_030:ent_0455"]}
+{"reason": "same_type_name_or_alias", "key": "title:侍中", "block_entity_refs": ["block_001_010:ent_0279", "block_011_020:ent_0252", "block_021_030:ent_0179"]}
+{"reason": "same_type_name_or_alias", "key": "title:議郎", "block_entity_refs": ["block_001_010:ent_0283", "block_011_020:ent_0692", "block_021_030:ent_0338", "block_031_040:ent_0234"]}
+{"reason": "same_type_name_or_alias", "key": "title:主簿", "block_entity_refs": ["block_001_010:ent_0286", "block_031_040:ent_0155", "block_051_060:ent_0546"]}
+{"reason": "same_type_name_or_alias", "key": "title:左將軍", "block_entity_refs": ["block_001_010:ent_0287", "block_011_020:ent_0567", "block_021_030:ent_0092", "block_031_040:ent_0237"]}
+{"reason": "same_type_name_or_alias", "key": "character:陳宮", "block_entity_refs": ["block_001_010:ent_0290", "block_011_020:ent_0042"]}
+{"reason": "same_type_name_or_alias", "key": "faction:袁氏", "block_entity_refs": ["block_001_010:ent_0311", "block_011_020:ent_0663", "block_031_040:ent_0148"]}
+{"reason": "same_type_name_or_alias", "key": "location:渤海", "block_entity_refs": ["block_001_010:ent_0312", "block_031_040:ent_0191"]}
+{"reason": "same_type_name_or_alias", "key": "location:東門", "block_entity_refs": ["block_001_010:ent_0315", "block_031_040:ent_0563"]}
+{"reason": "same_type_name_or_alias", "key": "location:東郡", "block_entity_refs": ["block_001_010:ent_0316", "block_021_030:ent_0234"]}
+{"reason": "same_type_name_or_alias", "key": "location:冀州", "block_entity_refs": ["block_001_010:ent_0318", "block_011_020:ent_0217", "block_021_030:ent_0128", "block_031_040:ent_0066"]}
+{"reason": "same_type_name_or_alias", "key": "location:相府", "block_entity_refs": ["block_001_010:ent_0319", "block_011_020:ent_0671", "block_021_030:ent_0270"]}
+{"reason": "same_type_name_or_alias", "key": "object:寶刀", "block_entity_refs": ["block_001_010:ent_0322", "block_011_020:ent_0129", "block_021_030:ent_0134"]}
+{"reason": "same_type_name_or_alias", "key": "army:鐵騎三千", "block_entity_refs": ["block_001_010:ent_0340", "block_021_030:ent_0250"]}
+{"reason": "same_type_name_or_alias", "key": "army:鐵騎", "block_entity_refs": ["block_001_010:ent_0340", "block_051_060:ent_0379"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹洪", "block_entity_refs": ["block_001_010:ent_0347", "block_011_020:ent_0038", "block_021_030:ent_0103", "block_031_040:ent_0011", "block_041_050:ent_0009", "block_051_060:ent_0012"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹仁", "block_entity_refs": ["block_001_010:ent_0348", "block_011_020:ent_0039", "block_021_030:ent_0104", "block_031_040:ent_0012", "block_041_050:ent_0010", "block_051_060:ent_0013"]}
+{"reason": "same_type_name_or_alias", "key": "character:程普", "block_entity_refs": ["block_001_010:ent_0349", "block_011_020:ent_0338", "block_021_030:ent_0386", "block_031_040:ent_0497", "block_041_050:ent_0187", "block_051_060:ent_0014"]}
+{"reason": "same_type_name_or_alias", "key": "character:韓當", "block_entity_refs": ["block_001_010:ent_0351", "block_011_020:ent_0343", "block_021_030:ent_0388", "block_041_050:ent_0195", "block_051_060:ent_0020"]}
+{"reason": "same_type_name_or_alias", "key": "character:義公", "block_entity_refs": ["block_001_010:ent_0351", "block_041_050:ent_0195"]}
+{"reason": "same_type_name_or_alias", "key": "character:黃蓋", "block_entity_refs": ["block_001_010:ent_0355", "block_011_020:ent_0344", "block_041_050:ent_0154", "block_051_060:ent_0227"]}
+{"reason": "same_type_name_or_alias", "key": "character:公覆", "block_entity_refs": ["block_001_010:ent_0355", "block_041_050:ent_0154"]}
+{"reason": "same_type_name_or_alias", "key": "character:孔融", "block_entity_refs": ["block_001_010:ent_0356", "block_011_020:ent_0052", "block_021_030:ent_0109", "block_031_040:ent_0550"]}
+{"reason": "same_type_name_or_alias", "key": "character:李典", "block_entity_refs": ["block_001_010:ent_0358", "block_011_020:ent_0101", "block_021_030:ent_0110", "block_031_040:ent_0024", "block_041_050:ent_0094", "block_051_060:ent_0143"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉岱", "block_entity_refs": ["block_001_010:ent_0359", "block_021_030:ent_0111"]}
+{"reason": "same_type_name_or_alias", "key": "character:馬騰", "block_entity_refs": ["block_001_010:ent_0360", "block_011_020:ent_0647", "block_021_030:ent_0026", "block_041_050:ent_0325", "block_051_060:ent_0320"]}
+{"reason": "same_type_name_or_alias", "key": "character:陶謙", "block_entity_refs": ["block_001_010:ent_0364", "block_011_020:ent_0062"]}
+{"reason": "same_type_name_or_alias", "key": "character:府君", "block_entity_refs": ["block_001_010:ent_0364", "block_011_020:ent_0062"]}
+{"reason": "same_type_name_or_alias", "key": "character:文醜", "block_entity_refs": ["block_001_010:ent_0367", "block_021_030:ent_0117"]}
+{"reason": "same_type_name_or_alias", "key": "character:夏侯惇", "block_entity_refs": ["block_001_010:ent_0369", "block_011_020:ent_0065", "block_021_030:ent_0231", "block_031_040:ent_0034", "block_041_050:ent_0063", "block_051_060:ent_0029"]}
+{"reason": "same_type_name_or_alias", "key": "character:元讓", "block_entity_refs": ["block_001_010:ent_0369", "block_021_030:ent_0231"]}
+{"reason": "same_type_name_or_alias", "key": "character:夏侯淵", "block_entity_refs": ["block_001_010:ent_0370", "block_011_020:ent_0105", "block_021_030:ent_0481", "block_031_040:ent_0035", "block_041_050:ent_0099", "block_051_060:ent_0293"]}
+{"reason": "same_type_name_or_alias", "key": "character:顏良", "block_entity_refs": ["block_001_010:ent_0371", "block_021_030:ent_0120"]}
+{"reason": "same_type_name_or_alias", "key": "character:樂進", "block_entity_refs": ["block_001_010:ent_0374", "block_011_020:ent_0053", "block_021_030:ent_0262", "block_031_040:ent_0045", "block_041_050:ent_0100", "block_051_060:ent_0152"]}
+{"reason": "same_type_name_or_alias", "key": "character:張超", "block_entity_refs": ["block_001_010:ent_0375", "block_011_020:ent_0109"]}
+{"reason": "same_type_name_or_alias", "key": "character:張邈", "block_entity_refs": ["block_001_010:ent_0376", "block_011_020:ent_0072"]}
+{"reason": "same_type_name_or_alias", "key": "character:張楊", "block_entity_refs": ["block_001_010:ent_0377", "block_011_020:ent_0193"]}
+{"reason": "same_type_name_or_alias", "key": "location:汜水關", "block_entity_refs": ["block_001_010:ent_0386", "block_021_030:ent_0319"]}
+{"reason": "same_type_name_or_alias", "key": "object:天子密詔", "block_entity_refs": ["block_001_010:ent_0392", "block_031_040:ent_0076"]}
+{"reason": "same_type_name_or_alias", "key": "object:密詔", "block_entity_refs": ["block_001_010:ent_0392", "block_011_020:ent_0228", "block_021_030:ent_0080", "block_051_060:ent_0420"]}
+{"reason": "same_type_name_or_alias", "key": "object:檄文", "block_entity_refs": ["block_001_010:ent_0394", "block_041_050:ent_0125"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:斷糧", "block_entity_refs": ["block_001_010:ent_0400", "block_041_050:ent_0260"]}
+{"reason": "same_type_name_or_alias", "key": "title:丞相", "block_entity_refs": ["block_001_010:ent_0402", "block_011_020:ent_0488", "block_021_030:ent_0093", "block_031_040:ent_0083", "block_041_050:ent_0138", "block_051_060:ent_0063"]}
+{"reason": "same_type_name_or_alias", "key": "title:前部", "block_entity_refs": ["block_001_010:ent_0405", "block_021_030:ent_0249", "block_051_060:ent_0543"]}
+{"reason": "same_type_name_or_alias", "key": "title:先鋒", "block_entity_refs": ["block_001_010:ent_0405", "block_021_030:ent_0249", "block_031_040:ent_0584", "block_041_050:ent_0270", "block_051_060:ent_0068"]}
+{"reason": "same_type_name_or_alias", "key": "title:溫侯", "block_entity_refs": ["block_001_010:ent_0406", "block_011_020:ent_0631"]}
+{"reason": "same_type_name_or_alias", "key": "title:總督", "block_entity_refs": ["block_001_010:ent_0407", "block_031_040:ent_0536", "block_051_060:ent_0064"]}
+{"reason": "same_type_name_or_alias", "key": "army:荊州軍", "block_entity_refs": ["block_001_010:ent_0409", "block_051_060:ent_0303"]}
+{"reason": "same_type_name_or_alias", "key": "character:蔡瑁", "block_entity_refs": ["block_001_010:ent_0413", "block_031_040:ent_0247", "block_041_050:ent_0006"]}
+{"reason": "same_type_name_or_alias", "key": "character:蒯良", "block_entity_refs": ["block_001_010:ent_0414", "block_021_030:ent_0155", "block_031_040:ent_0254"]}
+{"reason": "same_type_name_or_alias", "key": "character:蒯越", "block_entity_refs": ["block_001_010:ent_0415", "block_031_040:ent_0255", "block_041_050:ent_0032"]}
+{"reason": "same_type_name_or_alias", "key": "character:異度", "block_entity_refs": ["block_001_010:ent_0415", "block_031_040:ent_0255", "block_041_050:ent_0032"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉表", "block_entity_refs": ["block_001_010:ent_0416", "block_011_020:ent_0349", "block_021_030:ent_0023", "block_031_040:ent_0026", "block_041_050:ent_0039", "block_051_060:ent_0144"]}
+{"reason": "same_type_name_or_alias", "key": "character:景升", "block_entity_refs": ["block_001_010:ent_0416", "block_031_040:ent_0026", "block_041_050:ent_0039"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉錶", "block_entity_refs": ["block_001_010:ent_0416", "block_051_060:ent_0144"]}
+{"reason": "same_type_name_or_alias", "key": "faction:百姓", "block_entity_refs": ["block_001_010:ent_0419", "block_011_020:ent_0662", "block_031_040:ent_0558", "block_041_050:ent_0036"]}
+{"reason": "same_type_name_or_alias", "key": "location:河內", "block_entity_refs": ["block_001_010:ent_0422", "block_021_030:ent_0127"]}
+{"reason": "same_type_name_or_alias", "key": "location:荊州", "block_entity_refs": ["block_001_010:ent_0425", "block_011_020:ent_0585", "block_021_030:ent_0169", "block_031_040:ent_0065", "block_041_050:ent_0030", "block_051_060:ent_0041"]}
+{"reason": "same_type_name_or_alias", "key": "location:太廟", "block_entity_refs": ["block_001_010:ent_0428", "block_011_020:ent_0670"]}
+{"reason": "same_type_name_or_alias", "key": "location:滎陽", "block_entity_refs": ["block_001_010:ent_0429", "block_021_030:ent_0321"]}
+{"reason": "same_type_name_or_alias", "key": "title:平原相", "block_entity_refs": ["block_001_010:ent_0437", "block_011_020:ent_0083"]}
+{"reason": "same_type_name_or_alias", "key": "army:江東軍", "block_entity_refs": ["block_001_010:ent_0442", "block_021_030:ent_0377"]}
+{"reason": "same_type_name_or_alias", "key": "army:孫策軍", "block_entity_refs": ["block_001_010:ent_0442", "block_011_020:ent_0325", "block_021_030:ent_0377"]}
+{"reason": "same_type_name_or_alias", "key": "army:江夏之兵", "block_entity_refs": ["block_001_010:ent_0443", "block_031_040:ent_0423", "block_041_050:ent_0088"]}
+{"reason": "same_type_name_or_alias", "key": "army:荊襄之眾", "block_entity_refs": ["block_001_010:ent_0444", "block_031_040:ent_0240", "block_051_060:ent_0378"]}
+{"reason": "same_type_name_or_alias", "key": "army:水軍", "block_entity_refs": ["block_001_010:ent_0447", "block_031_040:ent_0387", "block_041_050:ent_0007", "block_051_060:ent_0251"]}
+{"reason": "same_type_name_or_alias", "key": "army:袁紹軍", "block_entity_refs": ["block_001_010:ent_0448", "block_021_030:ent_0222", "block_031_040:ent_0006"]}
+{"reason": "same_type_name_or_alias", "key": "army:紹軍", "block_entity_refs": ["block_001_010:ent_0448", "block_021_030:ent_0004"]}
+{"reason": "same_type_name_or_alias", "key": "character:逢紀", "block_entity_refs": ["block_001_010:ent_0452", "block_021_030:ent_0113", "block_031_040:ent_0014"]}
+{"reason": "same_type_name_or_alias", "key": "character:黃祖", "block_entity_refs": ["block_001_010:ent_0457", "block_011_020:ent_0576", "block_021_030:ent_0152", "block_031_040:ent_0438"]}
+{"reason": "same_type_name_or_alias", "key": "character:教授", "block_entity_refs": ["block_001_010:ent_0458", "block_021_030:ent_0477"]}
+{"reason": "same_type_name_or_alias", "key": "character:吳夫人", "block_entity_refs": ["block_001_010:ent_0459", "block_051_060:ent_0188"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫策", "block_entity_refs": ["block_001_010:ent_0462", "block_011_020:ent_0354", "block_021_030:ent_0029", "block_031_040:ent_0445", "block_041_050:ent_0096"]}
+{"reason": "same_type_name_or_alias", "key": "character:伯符", "block_entity_refs": ["block_001_010:ent_0462", "block_011_020:ent_0354", "block_041_050:ent_0096"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫靜", "block_entity_refs": ["block_001_010:ent_0463", "block_011_020:ent_0356", "block_021_030:ent_0398", "block_031_040:ent_0503"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫匡", "block_entity_refs": ["block_001_010:ent_0464", "block_021_030:ent_0399"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫權", "block_entity_refs": ["block_001_010:ent_0466", "block_011_020:ent_0357", "block_021_030:ent_0400", "block_031_040:ent_0259", "block_041_050:ent_0038", "block_051_060:ent_0090"]}
+{"reason": "same_type_name_or_alias", "key": "character:仲謀", "block_entity_refs": ["block_001_010:ent_0466", "block_021_030:ent_0400", "block_051_060:ent_0090"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫翊", "block_entity_refs": ["block_001_010:ent_0469", "block_031_040:ent_0447"]}
+{"reason": "same_type_name_or_alias", "key": "character:田豐", "block_entity_refs": ["block_001_010:ent_0470", "block_021_030:ent_0115", "block_031_040:ent_0033"]}
+{"reason": "same_type_name_or_alias", "key": "character:辛評", "block_entity_refs": ["block_001_010:ent_0472", "block_031_040:ent_0036"]}
+{"reason": "same_type_name_or_alias", "key": "character:許攸", "block_entity_refs": ["block_001_010:ent_0473", "block_021_030:ent_0118", "block_031_040:ent_0137"]}
+{"reason": "same_type_name_or_alias", "key": "character:荀諦", "block_entity_refs": ["block_001_010:ent_0474", "block_021_030:ent_0119"]}
+{"reason": "same_type_name_or_alias", "key": "character:趙雲", "block_entity_refs": ["block_001_010:ent_0478", "block_011_020:ent_0073", "block_021_030:ent_0044", "block_031_040:ent_0049", "block_041_050:ent_0082", "block_051_060:ent_0032"]}
+{"reason": "same_type_name_or_alias", "key": "character:子龍", "block_entity_refs": ["block_001_010:ent_0478", "block_011_020:ent_0073", "block_021_030:ent_0044", "block_041_050:ent_0082", "block_051_060:ent_0032"]}
+{"reason": "same_type_name_or_alias", "key": "faction:江東孫氏", "block_entity_refs": ["block_001_010:ent_0493", "block_031_040:ent_0457"]}
+{"reason": "same_type_name_or_alias", "key": "faction:劉表勢力", "block_entity_refs": ["block_001_010:ent_0494", "block_011_020:ent_0531", "block_021_030:ent_0166", "block_031_040:ent_0058"]}
+{"reason": "same_type_name_or_alias", "key": "faction:羌人", "block_entity_refs": ["block_001_010:ent_0495", "block_051_060:ent_0341"]}
+{"reason": "same_type_name_or_alias", "key": "faction:袁紹勢力", "block_entity_refs": ["block_001_010:ent_0496", "block_021_030:ent_0060", "block_031_040:ent_0059"]}
+{"reason": "same_type_name_or_alias", "key": "faction:紹軍", "block_entity_refs": ["block_001_010:ent_0496", "block_021_030:ent_0060"]}
+{"reason": "same_type_name_or_alias", "key": "faction:袁術勢力", "block_entity_refs": ["block_001_010:ent_0497", "block_011_020:ent_0112", "block_021_030:ent_0061"]}
+{"reason": "same_type_name_or_alias", "key": "location:樊城", "block_entity_refs": ["block_001_010:ent_0500", "block_031_040:ent_0315", "block_041_050:ent_0021"]}
+{"reason": "same_type_name_or_alias", "key": "location:漢江", "block_entity_refs": ["block_001_010:ent_0501", "block_031_040:ent_0063", "block_051_060:ent_0039"]}
+{"reason": "same_type_name_or_alias", "key": "location:河北", "block_entity_refs": ["block_001_010:ent_0503", "block_021_030:ent_0062", "block_031_040:ent_0193"]}
+{"reason": "same_type_name_or_alias", "key": "location:江東", "block_entity_refs": ["block_001_010:ent_0504", "block_011_020:ent_0378", "block_021_030:ent_0363", "block_031_040:ent_0460", "block_041_050:ent_0171", "block_051_060:ent_0040"]}
+{"reason": "same_type_name_or_alias", "key": "location:荊襄", "block_entity_refs": ["block_001_010:ent_0506", "block_011_020:ent_0463", "block_031_040:ent_0064", "block_041_050:ent_0030", "block_051_060:ent_0104"]}
+{"reason": "same_type_name_or_alias", "key": "location:襄陽", "block_entity_refs": ["block_001_010:ent_0508", "block_021_030:ent_0320", "block_031_040:ent_0278", "block_041_050:ent_0065", "block_051_060:ent_0044"]}
+{"reason": "same_type_name_or_alias", "key": "object:弓弩", "block_entity_refs": ["block_001_010:ent_0511", "block_041_050:ent_0282"]}
+{"reason": "same_type_name_or_alias", "key": "object:兜鍪", "block_entity_refs": ["block_001_010:ent_0514", "block_011_020:ent_0395"]}
+{"reason": "same_type_name_or_alias", "key": "object:糧草", "block_entity_refs": ["block_001_010:ent_0516", "block_021_030:ent_0276", "block_041_050:ent_0283"]}
+{"reason": "same_type_name_or_alias", "key": "object:戰船", "block_entity_refs": ["block_001_010:ent_0519", "block_031_040:ent_0522", "block_041_050:ent_0005", "block_051_060:ent_0238"]}
+{"reason": "same_type_name_or_alias", "key": "object:船隻", "block_entity_refs": ["block_001_010:ent_0519", "block_041_050:ent_0005"]}
+{"reason": "same_type_name_or_alias", "key": "title:漢室宗親", "block_entity_refs": ["block_001_010:ent_0532", "block_031_040:ent_0085"]}
+{"reason": "same_type_name_or_alias", "key": "title:冀州牧", "block_entity_refs": ["block_001_010:ent_0533", "block_031_040:ent_0225"]}
+{"reason": "same_type_name_or_alias", "key": "character:貂蟬", "block_entity_refs": ["block_001_010:ent_0538", "block_011_020:ent_0432"]}
+{"reason": "same_type_name_or_alias", "key": "character:張溫", "block_entity_refs": ["block_001_010:ent_0541", "block_041_050:ent_0161"]}
+{"reason": "same_type_name_or_alias", "key": "faction:荊州劉表勢力", "block_entity_refs": ["block_001_010:ent_0542", "block_021_030:ent_0166", "block_031_040:ent_0058"]}
+{"reason": "same_type_name_or_alias", "key": "faction:荊州", "block_entity_refs": ["block_001_010:ent_0542", "block_021_030:ent_0166", "block_031_040:ent_0058", "block_041_050:ent_0116"]}
+{"reason": "same_type_name_or_alias", "key": "location:後園", "block_entity_refs": ["block_001_010:ent_0545", "block_021_030:ent_0063", "block_031_040:ent_0272"]}
+{"reason": "same_type_name_or_alias", "key": "location:郿塢", "block_entity_refs": ["block_001_010:ent_0548", "block_011_020:ent_0220"]}
+{"reason": "same_type_name_or_alias", "key": "object:金帛", "block_entity_refs": ["block_001_010:ent_0553", "block_051_060:ent_0236"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:連環計", "block_entity_refs": ["block_001_010:ent_0558", "block_041_050:ent_0312"]}
+{"reason": "same_type_name_or_alias", "key": "army:呂布軍", "block_entity_refs": ["block_001_010:ent_0563", "block_011_020:ent_0005"]}
+{"reason": "same_type_name_or_alias", "key": "character:黃琬", "block_entity_refs": ["block_001_010:ent_0570", "block_051_060:ent_0314"]}
+{"reason": "same_type_name_or_alias", "key": "character:賈詡", "block_entity_refs": ["block_001_010:ent_0571", "block_011_020:ent_0175", "block_021_030:ent_0153", "block_051_060:ent_0458"]}
+{"reason": "same_type_name_or_alias", "key": "character:賈詬", "block_entity_refs": ["block_001_010:ent_0571", "block_011_020:ent_0175"]}
+{"reason": "same_type_name_or_alias", "key": "object:糧食", "block_entity_refs": ["block_001_010:ent_0600", "block_011_020:ent_0475"]}
+{"reason": "same_type_name_or_alias", "key": "object:寶劍", "block_entity_refs": ["block_001_010:ent_0601", "block_011_020:ent_0297", "block_021_030:ent_0437", "block_051_060:ent_0209"]}
+{"reason": "same_type_name_or_alias", "key": "army:曹操大軍", "block_entity_refs": ["block_001_010:ent_0608", "block_011_020:ent_0002", "block_021_030:ent_0183", "block_031_040:ent_0001", "block_041_050:ent_0007"]}
+{"reason": "same_type_name_or_alias", "key": "army:曹兵", "block_entity_refs": ["block_001_010:ent_0608", "block_011_020:ent_0002", "block_021_030:ent_0183", "block_031_040:ent_0001", "block_041_050:ent_0007", "block_051_060:ent_0001"]}
+{"reason": "same_type_name_or_alias", "key": "army:青州兵", "block_entity_refs": ["block_001_010:ent_0609", "block_011_020:ent_0421"]}
+{"reason": "same_type_name_or_alias", "key": "battle:曹操攻徐州", "block_entity_refs": ["block_001_010:ent_0612", "block_011_020:ent_0011", "block_021_030:ent_0102"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹豹", "block_entity_refs": ["block_001_010:ent_0615", "block_011_020:ent_0269"]}
+{"reason": "same_type_name_or_alias", "key": "character:程昱", "block_entity_refs": ["block_001_010:ent_0617", "block_011_020:ent_0044", "block_021_030:ent_0014", "block_031_040:ent_0013", "block_041_050:ent_0319", "block_051_060:ent_0258"]}
+{"reason": "same_type_name_or_alias", "key": "character:典韋", "block_entity_refs": ["block_001_010:ent_0618", "block_011_020:ent_0045", "block_051_060:ent_0391"]}
+{"reason": "same_type_name_or_alias", "key": "character:郭嘉", "block_entity_refs": ["block_001_010:ent_0619", "block_011_020:ent_0049", "block_021_030:ent_0018", "block_031_040:ent_0102"]}
+{"reason": "same_type_name_or_alias", "key": "character:奉孝", "block_entity_refs": ["block_001_010:ent_0619", "block_011_020:ent_0049", "block_031_040:ent_0102", "block_041_050:ent_0411"]}
+{"reason": "same_type_name_or_alias", "key": "character:韓遂", "block_entity_refs": ["block_001_010:ent_0620", "block_021_030:ent_0020", "block_041_050:ent_0320", "block_051_060:ent_0312"]}
+{"reason": "same_type_name_or_alias", "key": "character:李別", "block_entity_refs": ["block_001_010:ent_0621", "block_011_020:ent_0273"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉曄", "block_entity_refs": ["block_001_010:ent_0623", "block_011_020:ent_0102", "block_021_030:ent_0156", "block_041_050:ent_0043"]}
+{"reason": "same_type_name_or_alias", "key": "character:呂虔", "block_entity_refs": ["block_001_010:ent_0624", "block_011_020:ent_0057", "block_021_030:ent_0261", "block_031_040:ent_0118", "block_041_050:ent_0323"]}
+{"reason": "same_type_name_or_alias", "key": "character:馬超", "block_entity_refs": ["block_001_010:ent_0625", "block_051_060:ent_0317"]}
+{"reason": "same_type_name_or_alias", "key": "character:孟起", "block_entity_refs": ["block_001_010:ent_0625", "block_051_060:ent_0317"]}
+{"reason": "same_type_name_or_alias", "key": "character:滿寵", "block_entity_refs": ["block_001_010:ent_0627", "block_011_020:ent_0275", "block_021_030:ent_0027", "block_031_040:ent_0028"]}
+{"reason": "same_type_name_or_alias", "key": "character:毛玠", "block_entity_refs": ["block_001_010:ent_0628", "block_011_020:ent_0276", "block_021_030:ent_0192", "block_031_040:ent_0500", "block_041_050:ent_0241"]}
+{"reason": "same_type_name_or_alias", "key": "character:荀攸", "block_entity_refs": ["block_001_010:ent_0629", "block_011_020:ent_0279", "block_021_030:ent_0159", "block_031_040:ent_0139", "block_041_050:ent_0072", "block_051_060:ent_0328"]}
+{"reason": "same_type_name_or_alias", "key": "character:荀彧", "block_entity_refs": ["block_001_010:ent_0630", "block_011_020:ent_0067", "block_021_030:ent_0036", "block_031_040:ent_0039", "block_051_060:ent_0519"]}
+{"reason": "same_type_name_or_alias", "key": "character:於禁", "block_entity_refs": ["block_001_010:ent_0632", "block_011_020:ent_0068", "block_021_030:ent_0121", "block_031_040:ent_0040", "block_041_050:ent_0074", "block_051_060:ent_0400"]}
+{"reason": "same_type_name_or_alias", "key": "faction:曹操勢力", "block_entity_refs": ["block_001_010:ent_0641", "block_011_020:ent_0013", "block_021_030:ent_0057", "block_031_040:ent_0055", "block_041_050:ent_0113", "block_051_060:ent_0036"]}
+{"reason": "same_type_name_or_alias", "key": "faction:曹操部下", "block_entity_refs": ["block_001_010:ent_0641", "block_021_030:ent_0057"]}
+{"reason": "same_type_name_or_alias", "key": "faction:群賊", "block_entity_refs": ["block_001_010:ent_0643", "block_011_020:ent_0018"]}
+{"reason": "same_type_name_or_alias", "key": "faction:徐州勢力", "block_entity_refs": ["block_001_010:ent_0644", "block_011_020:ent_0017"]}
+{"reason": "same_type_name_or_alias", "key": "location:東阿", "block_entity_refs": ["block_001_010:ent_0648", "block_011_020:ent_0020"]}
+{"reason": "same_type_name_or_alias", "key": "location:範縣", "block_entity_refs": ["block_001_010:ent_0649", "block_011_020:ent_0021"]}
+{"reason": "same_type_name_or_alias", "key": "location:弘農", "block_entity_refs": ["block_001_010:ent_0650", "block_011_020:ent_0213"]}
+{"reason": "same_type_name_or_alias", "key": "location:淮南", "block_entity_refs": ["block_001_010:ent_0651", "block_011_020:ent_0289", "block_021_030:ent_0064"]}
+{"reason": "same_type_name_or_alias", "key": "location:濟北", "block_entity_refs": ["block_001_010:ent_0652", "block_011_020:ent_0584"]}
+{"reason": "same_type_name_or_alias", "key": "location:九江", "block_entity_refs": ["block_001_010:ent_0653", "block_041_050:ent_0251"]}
+{"reason": "same_type_name_or_alias", "key": "location:鄄城", "block_entity_refs": ["block_001_010:ent_0654", "block_011_020:ent_0022"]}
+{"reason": "same_type_name_or_alias", "key": "location:瑯琊", "block_entity_refs": ["block_001_010:ent_0655", "block_011_020:ent_0539"]}
+{"reason": "same_type_name_or_alias", "key": "location:山東", "block_entity_refs": ["block_001_010:ent_0656", "block_011_020:ent_0122"]}
+{"reason": "same_type_name_or_alias", "key": "location:西涼", "block_entity_refs": ["block_001_010:ent_0658", "block_021_030:ent_0070", "block_051_060:ent_0348"]}
+{"reason": "same_type_name_or_alias", "key": "location:徐州", "block_entity_refs": ["block_001_010:ent_0659", "block_011_020:ent_0029", "block_021_030:ent_0072"]}
+{"reason": "same_type_name_or_alias", "key": "location:兗州", "block_entity_refs": ["block_001_010:ent_0660", "block_011_020:ent_0030"]}
+{"reason": "same_type_name_or_alias", "key": "object:聖旨", "block_entity_refs": ["block_001_010:ent_0664", "block_011_020:ent_0228"]}
+{"reason": "same_type_name_or_alias", "key": "object:白旗", "block_entity_refs": ["block_001_010:ent_0665", "block_011_020:ent_0130", "block_031_040:ent_0132", "block_041_050:ent_0344", "block_051_060:ent_0277"]}
+{"reason": "same_type_name_or_alias", "key": "title:東郡太守", "block_entity_refs": ["block_001_010:ent_0675", "block_021_030:ent_0246"]}
+{"reason": "same_type_name_or_alias", "key": "title:從事", "block_entity_refs": ["block_001_010:ent_0680", "block_021_030:ent_0335", "block_031_040:ent_0098", "block_051_060:ent_0541"]}
+{"reason": "same_type_name_or_alias", "key": "title:太僕", "block_entity_refs": ["block_001_010:ent_0681", "block_011_020:ent_0253"]}
+{"reason": "same_type_name_or_alias", "key": "title:徵西將軍", "block_entity_refs": ["block_001_010:ent_0687", "block_051_060:ent_0370"]}
+{"reason": "same_type_name_or_alias", "key": "title:鎮西將軍", "block_entity_refs": ["block_001_010:ent_0688", "block_051_060:ent_0371"]}
+{"reason": "same_type_name_or_alias", "key": "army:曹軍", "block_entity_refs": ["block_011_020:ent_0002", "block_021_030:ent_0183", "block_031_040:ent_0001", "block_041_050:ent_0007", "block_051_060:ent_0001"]}
+{"reason": "same_type_name_or_alias", "key": "faction:曹兵", "block_entity_refs": ["block_011_020:ent_0013", "block_021_030:ent_0057", "block_031_040:ent_0055", "block_041_050:ent_0113", "block_051_060:ent_0036"]}
+{"reason": "same_type_name_or_alias", "key": "faction:曹操軍", "block_entity_refs": ["block_011_020:ent_0013", "block_021_030:ent_0057", "block_031_040:ent_0055", "block_041_050:ent_0113"]}
+{"reason": "same_type_name_or_alias", "key": "faction:曹軍", "block_entity_refs": ["block_011_020:ent_0013", "block_021_030:ent_0057", "block_031_040:ent_0055", "block_041_050:ent_0113", "block_051_060:ent_0036"]}
+{"reason": "same_type_name_or_alias", "key": "faction:操軍", "block_entity_refs": ["block_011_020:ent_0013", "block_051_060:ent_0036"]}
+{"reason": "same_type_name_or_alias", "key": "faction:劉備軍", "block_entity_refs": ["block_011_020:ent_0014", "block_021_030:ent_0059", "block_031_040:ent_0057", "block_041_050:ent_0117", "block_051_060:ent_0038"]}
+{"reason": "same_type_name_or_alias", "key": "location:小沛", "block_entity_refs": ["block_011_020:ent_0028", "block_021_030:ent_0131"]}
+{"reason": "same_type_name_or_alias", "key": "object:書札", "block_entity_refs": ["block_011_020:ent_0034", "block_031_040:ent_0322"]}
+{"reason": "same_type_name_or_alias", "key": "object:青龍刀", "block_entity_refs": ["block_011_020:ent_0035", "block_021_030:ent_0240", "block_041_050:ent_0128"]}
+{"reason": "same_type_name_or_alias", "key": "character:明公", "block_entity_refs": ["block_011_020:ent_0037", "block_021_030:ent_0009", "block_031_040:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹賊", "block_entity_refs": ["block_011_020:ent_0037", "block_021_030:ent_0009", "block_041_050:ent_0008", "block_051_060:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹丞相", "block_entity_refs": ["block_011_020:ent_0037", "block_021_030:ent_0009", "block_031_040:ent_0010", "block_041_050:ent_0008", "block_051_060:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹阿瞞", "block_entity_refs": ["block_011_020:ent_0037", "block_051_060:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:陳登", "block_entity_refs": ["block_011_020:ent_0041", "block_021_030:ent_0011"]}
+{"reason": "same_type_name_or_alias", "key": "character:郭奉孝", "block_entity_refs": ["block_011_020:ent_0049", "block_041_050:ent_0411"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉皇叔", "block_entity_refs": ["block_011_020:ent_0055", "block_021_030:ent_0009", "block_031_040:ent_0025", "block_041_050:ent_0038", "block_051_060:ent_0023"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉使君", "block_entity_refs": ["block_011_020:ent_0055", "block_031_040:ent_0025", "block_041_050:ent_0038"]}
+{"reason": "same_type_name_or_alias", "key": "character:使君", "block_entity_refs": ["block_011_020:ent_0055", "block_021_030:ent_0009", "block_031_040:ent_0025", "block_041_050:ent_0038"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉豫州", "block_entity_refs": ["block_011_020:ent_0055", "block_031_040:ent_0025", "block_041_050:ent_0038"]}
+{"reason": "same_type_name_or_alias", "key": "character:糜竺", "block_entity_refs": ["block_011_020:ent_0058", "block_021_030:ent_0028", "block_031_040:ent_0501", "block_041_050:ent_0047", "block_051_060:ent_0089"]}
+{"reason": "same_type_name_or_alias", "key": "character:子仲", "block_entity_refs": ["block_011_020:ent_0058", "block_041_050:ent_0047"]}
+{"reason": "same_type_name_or_alias", "key": "character:宋憲", "block_entity_refs": ["block_011_020:ent_0059", "block_021_030:ent_0229"]}
+{"reason": "same_type_name_or_alias", "key": "character:太史慈", "block_entity_refs": ["block_011_020:ent_0060", "block_041_050:ent_0205", "block_051_060:ent_0149"]}
+{"reason": "same_type_name_or_alias", "key": "character:老母", "block_entity_refs": ["block_011_020:ent_0061", "block_031_040:ent_0346"]}
+{"reason": "same_type_name_or_alias", "key": "character:魏續", "block_entity_refs": ["block_011_020:ent_0064", "block_021_030:ent_0230"]}
+{"reason": "same_type_name_or_alias", "key": "character:臧霸", "block_entity_refs": ["block_011_020:ent_0069", "block_021_030:ent_0122"]}
+{"reason": "same_type_name_or_alias", "key": "character:張遼", "block_entity_refs": ["block_011_020:ent_0071", "block_021_030:ent_0040", "block_031_040:ent_0048", "block_041_050:ent_0101", "block_051_060:ent_0154"]}
+{"reason": "same_type_name_or_alias", "key": "character:文遠", "block_entity_refs": ["block_011_020:ent_0071", "block_021_030:ent_0040", "block_051_060:ent_0154"]}
+{"reason": "same_type_name_or_alias", "key": "title:別駕從事", "block_entity_refs": ["block_011_020:ent_0082", "block_031_040:ent_0223"]}
+{"reason": "same_type_name_or_alias", "key": "title:別駕", "block_entity_refs": ["block_011_020:ent_0082", "block_031_040:ent_0082", "block_051_060:ent_0544"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫乾", "block_entity_refs": ["block_011_020:ent_0103", "block_021_030:ent_0030", "block_031_040:ent_0032", "block_041_050:ent_0057", "block_051_060:ent_0028"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫幹", "block_entity_refs": ["block_011_020:ent_0103", "block_021_030:ent_0030", "block_031_040:ent_0032", "block_051_060:ent_0028"]}
+{"reason": "same_type_name_or_alias", "key": "character:許褚", "block_entity_refs": ["block_011_020:ent_0106", "block_021_030:ent_0034", "block_031_040:ent_0037", "block_041_050:ent_0070", "block_051_060:ent_0295"]}
+{"reason": "same_type_name_or_alias", "key": "character:許仲康", "block_entity_refs": ["block_011_020:ent_0106", "block_031_040:ent_0037"]}
+{"reason": "same_type_name_or_alias", "key": "character:袁公", "block_entity_refs": ["block_011_020:ent_0107", "block_031_040:ent_0042"]}
+{"reason": "same_type_name_or_alias", "key": "faction:漢朝朝廷", "block_entity_refs": ["block_011_020:ent_0110", "block_021_030:ent_0058"]}
+{"reason": "same_type_name_or_alias", "key": "location:黎陽", "block_entity_refs": ["block_011_020:ent_0119", "block_021_030:ent_0129", "block_031_040:ent_0116"]}
+{"reason": "same_type_name_or_alias", "key": "object:密書", "block_entity_refs": ["block_011_020:ent_0128", "block_021_030:ent_0279", "block_041_050:ent_0310", "block_051_060:ent_0466"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:將計就計", "block_entity_refs": ["block_011_020:ent_0133", "block_041_050:ent_0288"]}
+{"reason": "same_type_name_or_alias", "key": "title:幕官", "block_entity_refs": ["block_011_020:ent_0141", "block_031_040:ent_0581"]}
+{"reason": "same_type_name_or_alias", "key": "title:徐州牧", "block_entity_refs": ["block_011_020:ent_0142", "block_021_030:ent_0149"]}
+{"reason": "same_type_name_or_alias", "key": "character:董承", "block_entity_refs": ["block_011_020:ent_0164", "block_021_030:ent_0015", "block_051_060:ent_0309"]}
+{"reason": "same_type_name_or_alias", "key": "character:國舅", "block_entity_refs": ["block_011_020:ent_0164", "block_021_030:ent_0015"]}
+{"reason": "same_type_name_or_alias", "key": "character:伏皇后", "block_entity_refs": ["block_011_020:ent_0167", "block_021_030:ent_0190"]}
+{"reason": "same_type_name_or_alias", "key": "character:審配", "block_entity_refs": ["block_011_020:ent_0180", "block_021_030:ent_0114", "block_031_040:ent_0030"]}
+{"reason": "same_type_name_or_alias", "key": "character:徐晃", "block_entity_refs": ["block_011_020:ent_0186", "block_021_030:ent_0232", "block_031_040:ent_0038", "block_041_050:ent_0276", "block_051_060:ent_0296"]}
+{"reason": "same_type_name_or_alias", "key": "location:黃河", "block_entity_refs": ["block_011_020:ent_0223", "block_021_030:ent_0266"]}
+{"reason": "same_type_name_or_alias", "key": "location:終南山", "block_entity_refs": ["block_011_020:ent_0224", "block_051_060:ent_0504"]}
+{"reason": "same_type_name_or_alias", "key": "object:小舟", "block_entity_refs": ["block_011_020:ent_0225", "block_041_050:ent_0343"]}
+{"reason": "same_type_name_or_alias", "key": "object:白絹", "block_entity_refs": ["block_011_020:ent_0233", "block_021_030:ent_0080"]}
+{"reason": "same_type_name_or_alias", "key": "title:大司馬", "block_entity_refs": ["block_011_020:ent_0243", "block_021_030:ent_0449"]}
+{"reason": "same_type_name_or_alias", "key": "title:國舅", "block_entity_refs": ["block_011_020:ent_0246", "block_021_030:ent_0091"]}
+{"reason": "same_type_name_or_alias", "key": "character:紀靈", "block_entity_refs": ["block_011_020:ent_0272", "block_021_030:ent_0021"]}
+{"reason": "same_type_name_or_alias", "key": "faction:術軍", "block_entity_refs": ["block_011_020:ent_0286", "block_021_030:ent_0061"]}
+{"reason": "same_type_name_or_alias", "key": "location:許都", "block_entity_refs": ["block_011_020:ent_0294", "block_021_030:ent_0071", "block_031_040:ent_0073", "block_041_050:ent_0337", "block_051_060:ent_0045"]}
+{"reason": "same_type_name_or_alias", "key": "location:許昌", "block_entity_refs": ["block_011_020:ent_0294", "block_021_030:ent_0071", "block_031_040:ent_0073", "block_041_050:ent_0223", "block_051_060:ent_0045"]}
+{"reason": "same_type_name_or_alias", "key": "title:將軍", "block_entity_refs": ["block_011_020:ent_0311", "block_021_030:ent_0143"]}
+{"reason": "same_type_name_or_alias", "key": "title:軍師", "block_entity_refs": ["block_011_020:ent_0312", "block_031_040:ent_0334", "block_041_050:ent_0141", "block_051_060:ent_0066"]}
+{"reason": "same_type_name_or_alias", "key": "army:袁術軍", "block_entity_refs": ["block_011_020:ent_0328", "block_021_030:ent_0005"]}
+{"reason": "same_type_name_or_alias", "key": "character:陳武", "block_entity_refs": ["block_011_020:ent_0340", "block_041_050:ent_0369", "block_051_060:ent_0016"]}
+{"reason": "same_type_name_or_alias", "key": "character:董襲", "block_entity_refs": ["block_011_020:ent_0341", "block_031_040:ent_0433", "block_041_050:ent_0190", "block_051_060:ent_0137"]}
+{"reason": "same_type_name_or_alias", "key": "character:華佗", "block_entity_refs": ["block_011_020:ent_0345", "block_021_030:ent_0389"]}
+{"reason": "same_type_name_or_alias", "key": "character:蔣欽", "block_entity_refs": ["block_011_020:ent_0346", "block_041_050:ent_0197", "block_051_060:ent_0021"]}
+{"reason": "same_type_name_or_alias", "key": "character:雷薄", "block_entity_refs": ["block_011_020:ent_0347", "block_021_030:ent_0022"]}
+{"reason": "same_type_name_or_alias", "key": "character:凌操", "block_entity_refs": ["block_011_020:ent_0348", "block_031_040:ent_0439"]}
+{"reason": "same_type_name_or_alias", "key": "character:呂範", "block_entity_refs": ["block_011_020:ent_0351", "block_021_030:ent_0395", "block_041_050:ent_0199", "block_051_060:ent_0186"]}
+{"reason": "same_type_name_or_alias", "key": "character:子衡", "block_entity_refs": ["block_011_020:ent_0351", "block_051_060:ent_0186"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫郎", "block_entity_refs": ["block_011_020:ent_0354", "block_021_030:ent_0029"]}
+{"reason": "same_type_name_or_alias", "key": "character:虞翻", "block_entity_refs": ["block_011_020:ent_0363", "block_021_030:ent_0403", "block_041_050:ent_0160"]}
+{"reason": "same_type_name_or_alias", "key": "character:張纮", "block_entity_refs": ["block_011_020:ent_0366", "block_021_030:ent_0405", "block_031_040:ent_0450", "block_041_050:ent_0207", "block_051_060:ent_0153"]}
+{"reason": "same_type_name_or_alias", "key": "character:張昭", "block_entity_refs": ["block_011_020:ent_0369", "block_021_030:ent_0407", "block_031_040:ent_0451", "block_041_050:ent_0162", "block_051_060:ent_0155"]}
+{"reason": "same_type_name_or_alias", "key": "character:子佈", "block_entity_refs": ["block_011_020:ent_0369", "block_021_030:ent_0407"]}
+{"reason": "same_type_name_or_alias", "key": "character:周泰", "block_entity_refs": ["block_011_020:ent_0370", "block_041_050:ent_0208", "block_051_060:ent_0033"]}
+{"reason": "same_type_name_or_alias", "key": "character:週泰", "block_entity_refs": ["block_011_020:ent_0370", "block_041_050:ent_0208", "block_051_060:ent_0033"]}
+{"reason": "same_type_name_or_alias", "key": "character:周瑜", "block_entity_refs": ["block_011_020:ent_0372", "block_021_030:ent_0408", "block_031_040:ent_0452", "block_041_050:ent_0209", "block_051_060:ent_0034"]}
+{"reason": "same_type_name_or_alias", "key": "character:公瑾", "block_entity_refs": ["block_011_020:ent_0372", "block_021_030:ent_0408", "block_041_050:ent_0209", "block_051_060:ent_0034"]}
+{"reason": "same_type_name_or_alias", "key": "character:朱治", "block_entity_refs": ["block_011_020:ent_0373", "block_041_050:ent_0210"]}
+{"reason": "same_type_name_or_alias", "key": "location:江南", "block_entity_refs": ["block_011_020:ent_0379", "block_021_030:ent_0428", "block_031_040:ent_0196", "block_041_050:ent_0171", "block_051_060:ent_0198"]}
+{"reason": "same_type_name_or_alias", "key": "location:壽春", "block_entity_refs": ["block_011_020:ent_0389", "block_021_030:ent_0067"]}
+{"reason": "same_type_name_or_alias", "key": "location:吳郡", "block_entity_refs": ["block_011_020:ent_0391", "block_021_030:ent_0431"]}
+{"reason": "same_type_name_or_alias", "key": "object:錦袍", "block_entity_refs": ["block_011_020:ent_0396", "block_021_030:ent_0327", "block_051_060:ent_0275"]}
+{"reason": "same_type_name_or_alias", "key": "title:長史", "block_entity_refs": ["block_011_020:ent_0411", "block_051_060:ent_0177"]}
+{"reason": "same_type_name_or_alias", "key": "title:吳郡太守", "block_entity_refs": ["block_011_020:ent_0417", "block_021_030:ent_0456"]}
+{"reason": "same_type_name_or_alias", "key": "title:小霸王", "block_entity_refs": ["block_011_020:ent_0418", "block_021_030:ent_0457"]}
+{"reason": "same_type_name_or_alias", "key": "title:揚州刺史", "block_entity_refs": ["block_011_020:ent_0419", "block_041_050:ent_0350"]}
+{"reason": "same_type_name_or_alias", "key": "character:陳珪", "block_entity_refs": ["block_011_020:ent_0430", "block_021_030:ent_0012"]}
+{"reason": "same_type_name_or_alias", "key": "character:陳蘭", "block_entity_refs": ["block_011_020:ent_0431", "block_021_030:ent_0013"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉璋", "block_entity_refs": ["block_011_020:ent_0435", "block_021_030:ent_0024", "block_031_040:ent_0441", "block_051_060:ent_0272"]}
+{"reason": "same_type_name_or_alias", "key": "character:張魯", "block_entity_refs": ["block_011_020:ent_0439", "block_021_030:ent_0041", "block_031_040:ent_0263", "block_051_060:ent_0502"]}
+{"reason": "same_type_name_or_alias", "key": "character:張繡", "block_entity_refs": ["block_011_020:ent_0440", "block_021_030:ent_0042"]}
+{"reason": "same_type_name_or_alias", "key": "location:漢中", "block_entity_refs": ["block_011_020:ent_0462", "block_051_060:ent_0456"]}
+{"reason": "same_type_name_or_alias", "key": "location:益州", "block_entity_refs": ["block_011_020:ent_0466", "block_031_040:ent_0467", "block_051_060:ent_0202"]}
+{"reason": "same_type_name_or_alias", "key": "object:弓箭", "block_entity_refs": ["block_011_020:ent_0470", "block_041_050:ent_0282"]}
+{"reason": "same_type_name_or_alias", "key": "object:印綾", "block_entity_refs": ["block_011_020:ent_0478", "block_021_030:ent_0439", "block_031_040:ent_0144"]}
+{"reason": "same_type_name_or_alias", "key": "title:曹丞相", "block_entity_refs": ["block_011_020:ent_0488", "block_021_030:ent_0093", "block_031_040:ent_0083", "block_041_050:ent_0138"]}
+{"reason": "same_type_name_or_alias", "key": "title:豫州牧", "block_entity_refs": ["block_011_020:ent_0493", "block_021_030:ent_0096", "block_031_040:ent_0237"]}
+{"reason": "same_type_name_or_alias", "key": "title:劉豫州", "block_entity_refs": ["block_011_020:ent_0493", "block_041_050:ent_0142"]}
+{"reason": "same_type_name_or_alias", "key": "faction:江東", "block_entity_refs": ["block_011_020:ent_0532", "block_021_030:ent_0359", "block_031_040:ent_0407", "block_041_050:ent_0114", "block_051_060:ent_0037"]}
+{"reason": "same_type_name_or_alias", "key": "location:江陵", "block_entity_refs": ["block_011_020:ent_0536", "block_041_050:ent_0027", "block_051_060:ent_0102"]}
+{"reason": "same_type_name_or_alias", "key": "location:下邳", "block_entity_refs": ["block_011_020:ent_0541", "block_021_030:ent_0132"]}
+{"reason": "same_type_name_or_alias", "key": "location:下邳城", "block_entity_refs": ["block_011_020:ent_0541", "block_021_030:ent_0132"]}
+{"reason": "same_type_name_or_alias", "key": "object:首級", "block_entity_refs": ["block_011_020:ent_0546", "block_021_030:ent_0242"]}
+{"reason": "same_type_name_or_alias", "key": "character:簡雍", "block_entity_refs": ["block_011_020:ent_0577", "block_021_030:ent_0108", "block_031_040:ent_0021", "block_041_050:ent_0026"]}
+{"reason": "same_type_name_or_alias", "key": "character:李通", "block_entity_refs": ["block_011_020:ent_0578", "block_051_060:ent_0395"]}
+{"reason": "same_type_name_or_alias", "key": "character:糜芳", "block_entity_refs": ["block_011_020:ent_0579", "block_021_030:ent_0112", "block_031_040:ent_0029", "block_041_050:ent_0046"]}
+{"reason": "same_type_name_or_alias", "key": "faction:劉備勢力", "block_entity_refs": ["block_011_020:ent_0581", "block_021_030:ent_0059", "block_031_040:ent_0057", "block_041_050:ent_0117", "block_051_060:ent_0038"]}
+{"reason": "same_type_name_or_alias", "key": "faction:玄德軍", "block_entity_refs": ["block_011_020:ent_0581", "block_021_030:ent_0059", "block_031_040:ent_0057", "block_041_050:ent_0117", "block_051_060:ent_0038"]}
+{"reason": "same_type_name_or_alias", "key": "location:汝南", "block_entity_refs": ["block_011_020:ent_0587", "block_021_030:ent_0267", "block_031_040:ent_0071", "block_041_050:ent_0172"]}
+{"reason": "same_type_name_or_alias", "key": "location:襄城", "block_entity_refs": ["block_011_020:ent_0588", "block_021_030:ent_0170"]}
+{"reason": "same_type_name_or_alias", "key": "object:鹿角", "block_entity_refs": ["block_011_020:ent_0591", "block_021_030:ent_0329"]}
+{"reason": "same_type_name_or_alias", "key": "title:吳侯", "block_entity_refs": ["block_011_020:ent_0605", "block_041_050:ent_0400", "block_051_060:ent_0067"]}
+{"reason": "same_type_name_or_alias", "key": "location:芒碭山", "block_entity_refs": ["block_011_020:ent_0623", "block_021_030:ent_0365"]}
+{"reason": "same_type_name_or_alias", "key": "character:史渙", "block_entity_refs": ["block_011_020:ent_0625", "block_021_030:ent_0479", "block_031_040:ent_0031"]}
+{"reason": "same_type_name_or_alias", "key": "title:伏波將軍", "block_entity_refs": ["block_011_020:ent_0630", "block_051_060:ent_0364"]}
+{"reason": "same_type_name_or_alias", "key": "character:車冑", "block_entity_refs": ["block_011_020:ent_0644", "block_021_030:ent_0010"]}
+{"reason": "same_type_name_or_alias", "key": "character:王子服", "block_entity_refs": ["block_011_020:ent_0648", "block_021_030:ent_0031"]}
+{"reason": "same_type_name_or_alias", "key": "character:子服", "block_entity_refs": ["block_011_020:ent_0648", "block_021_030:ent_0031"]}
+{"reason": "same_type_name_or_alias", "key": "character:吳碩", "block_entity_refs": ["block_011_020:ent_0649", "block_021_030:ent_0032"]}
+{"reason": "same_type_name_or_alias", "key": "character:吳子蘭", "block_entity_refs": ["block_011_020:ent_0650", "block_021_030:ent_0033"]}
+{"reason": "same_type_name_or_alias", "key": "character:種輯", "block_entity_refs": ["block_011_020:ent_0652", "block_021_030:ent_0045"]}
+{"reason": "same_type_name_or_alias", "key": "faction:袁氏勢力", "block_entity_refs": ["block_011_020:ent_0663", "block_031_040:ent_0059"]}
+{"reason": "same_type_name_or_alias", "key": "location:書院", "block_entity_refs": ["block_011_020:ent_0665", "block_051_060:ent_0200"]}
+{"reason": "same_type_name_or_alias", "key": "object:義狀", "block_entity_refs": ["block_011_020:ent_0676", "block_021_030:ent_0078"]}
+{"reason": "same_type_name_or_alias", "key": "title:劉皇叔", "block_entity_refs": ["block_011_020:ent_0687", "block_021_030:ent_0219", "block_031_040:ent_0237", "block_051_060:ent_0126"]}
+{"reason": "same_type_name_or_alias", "key": "title:皇叔", "block_entity_refs": ["block_011_020:ent_0687", "block_021_030:ent_0219", "block_031_040:ent_0237", "block_041_050:ent_0140", "block_051_060:ent_0126"]}
+{"reason": "same_type_name_or_alias", "key": "title:侍郎", "block_entity_refs": ["block_011_020:ent_0689", "block_051_060:ent_0434"]}
+{"reason": "same_type_name_or_alias", "key": "title:西涼太守", "block_entity_refs": ["block_011_020:ent_0690", "block_021_030:ent_0094", "block_051_060:ent_0437"]}
+{"reason": "same_type_name_or_alias", "key": "title:宜城亭侯", "block_entity_refs": ["block_011_020:ent_0691", "block_031_040:ent_0237"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹瞞", "block_entity_refs": ["block_021_030:ent_0009", "block_041_050:ent_0008"]}
+{"reason": "same_type_name_or_alias", "key": "character:皇叔", "block_entity_refs": ["block_021_030:ent_0009", "block_031_040:ent_0025", "block_041_050:ent_0038", "block_051_060:ent_0023"]}
+{"reason": "same_type_name_or_alias", "key": "character:主公", "block_entity_refs": ["block_021_030:ent_0009", "block_041_050:ent_0038", "block_051_060:ent_0090"]}
+{"reason": "same_type_name_or_alias", "key": "character:關某", "block_entity_refs": ["block_021_030:ent_0017", "block_041_050:ent_0023", "block_051_060:ent_0019"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉景升", "block_entity_refs": ["block_021_030:ent_0023", "block_031_040:ent_0026", "block_041_050:ent_0039", "block_051_060:ent_0144"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉季玉", "block_entity_refs": ["block_021_030:ent_0024", "block_051_060:ent_0272"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫伯符", "block_entity_refs": ["block_021_030:ent_0029", "block_041_050:ent_0096"]}
+{"reason": "same_type_name_or_alias", "key": "character:張文遠", "block_entity_refs": ["block_021_030:ent_0040", "block_051_060:ent_0154"]}
+{"reason": "same_type_name_or_alias", "key": "character:張燕", "block_entity_refs": ["block_021_030:ent_0043", "block_031_040:ent_0177"]}
+{"reason": "same_type_name_or_alias", "key": "character:趙子龍", "block_entity_refs": ["block_021_030:ent_0044", "block_041_050:ent_0082", "block_051_060:ent_0032"]}
+{"reason": "same_type_name_or_alias", "key": "character:朱靈", "block_entity_refs": ["block_021_030:ent_0046", "block_051_060:ent_0505"]}
+{"reason": "same_type_name_or_alias", "key": "faction:袁軍", "block_entity_refs": ["block_021_030:ent_0060", "block_031_040:ent_0059"]}
+{"reason": "same_type_name_or_alias", "key": "location:十里長亭", "block_entity_refs": ["block_021_030:ent_0069", "block_051_060:ent_0529"]}
+{"reason": "same_type_name_or_alias", "key": "location:西涼州", "block_entity_refs": ["block_021_030:ent_0070", "block_041_050:ent_0336", "block_051_060:ent_0348"]}
+{"reason": "same_type_name_or_alias", "key": "object:將軍印", "block_entity_refs": ["block_021_030:ent_0076", "block_031_040:ent_0109"]}
+{"reason": "same_type_name_or_alias", "key": "object:衣帶詔", "block_entity_refs": ["block_021_030:ent_0080", "block_031_040:ent_0076", "block_051_060:ent_0349"]}
+{"reason": "same_type_name_or_alias", "key": "title:漢相", "block_entity_refs": ["block_021_030:ent_0093", "block_031_040:ent_0083"]}
+{"reason": "same_type_name_or_alias", "key": "character:甘夫人", "block_entity_refs": ["block_021_030:ent_0106", "block_031_040:ent_0252", "block_041_050:ent_0034", "block_051_060:ent_0184"]}
+{"reason": "same_type_name_or_alias", "key": "character:糜夫人", "block_entity_refs": ["block_021_030:ent_0106", "block_041_050:ent_0035"]}
+{"reason": "same_type_name_or_alias", "key": "character:郭圖", "block_entity_refs": ["block_021_030:ent_0107", "block_031_040:ent_0020"]}
+{"reason": "same_type_name_or_alias", "key": "character:子遠", "block_entity_refs": ["block_021_030:ent_0118", "block_031_040:ent_0137"]}
+{"reason": "same_type_name_or_alias", "key": "location:並州", "block_entity_refs": ["block_021_030:ent_0124", "block_031_040:ent_0060"]}
+{"reason": "same_type_name_or_alias", "key": "location:官渡", "block_entity_refs": ["block_021_030:ent_0125", "block_031_040:ent_0062"]}
+{"reason": "same_type_name_or_alias", "key": "location:河上", "block_entity_refs": ["block_021_030:ent_0126", "block_031_040:ent_0070"]}
+{"reason": "same_type_name_or_alias", "key": "object:陳琳檄文", "block_entity_refs": ["block_021_030:ent_0136", "block_031_040:ent_0096"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:掎角之勢", "block_entity_refs": ["block_021_030:ent_0138", "block_041_050:ent_0133", "block_051_060:ent_0060"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:疑兵", "block_entity_refs": ["block_021_030:ent_0140", "block_041_050:ent_0052"]}
+{"reason": "same_type_name_or_alias", "key": "character:韓嵩", "block_entity_refs": ["block_021_030:ent_0151", "block_041_050:ent_0093"]}
+{"reason": "same_type_name_or_alias", "key": "location:江漢", "block_entity_refs": ["block_021_030:ent_0167", "block_041_050:ent_0170"]}
+{"reason": "same_type_name_or_alias", "key": "location:荊襄九郡", "block_entity_refs": ["block_021_030:ent_0169", "block_031_040:ent_0064"]}
+{"reason": "same_type_name_or_alias", "key": "title:零陵太守", "block_entity_refs": ["block_021_030:ent_0178", "block_051_060:ent_0129"]}
+{"reason": "same_type_name_or_alias", "key": "army:輕騎", "block_entity_refs": ["block_021_030:ent_0184", "block_041_050:ent_0075"]}
+{"reason": "same_type_name_or_alias", "key": "character:袁譚", "block_entity_refs": ["block_021_030:ent_0194", "block_031_040:ent_0043"]}
+{"reason": "same_type_name_or_alias", "key": "location:鄒郡", "block_entity_refs": ["block_021_030:ent_0205", "block_031_040:ent_0283", "block_051_060:ent_0302"]}
+{"reason": "same_type_name_or_alias", "key": "object:書信", "block_entity_refs": ["block_021_030:ent_0206", "block_031_040:ent_0150", "block_051_060:ent_0531"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:劫寨", "block_entity_refs": ["block_021_030:ent_0214", "block_031_040:ent_0380"]}
+{"reason": "same_type_name_or_alias", "key": "location:土山", "block_entity_refs": ["block_021_030:ent_0235", "block_031_040:ent_0072"]}
+{"reason": "same_type_name_or_alias", "key": "army:三萬軍", "block_entity_refs": ["block_021_030:ent_0251", "block_031_040:ent_0242"]}
+{"reason": "same_type_name_or_alias", "key": "character:龔都", "block_entity_refs": ["block_021_030:ent_0259", "block_031_040:ent_0017"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉闢", "block_entity_refs": ["block_021_030:ent_0260", "block_031_040:ent_0027"]}
+{"reason": "same_type_name_or_alias", "key": "object:糧草輜重", "block_entity_refs": ["block_021_030:ent_0276", "block_031_040:ent_0518"]}
+{"reason": "same_type_name_or_alias", "key": "character:廖化", "block_entity_refs": ["block_021_030:ent_0303", "block_051_060:ent_0514"]}
+{"reason": "same_type_name_or_alias", "key": "object:車仗", "block_entity_refs": ["block_021_030:ent_0324", "block_041_050:ent_0012"]}
+{"reason": "same_type_name_or_alias", "key": "object:火把", "block_entity_refs": ["block_021_030:ent_0325", "block_041_050:ent_0425"]}
+{"reason": "same_type_name_or_alias", "key": "character:關平", "block_entity_refs": ["block_021_030:ent_0348", "block_031_040:ent_0018", "block_051_060:ent_0310"]}
+{"reason": "same_type_name_or_alias", "key": "character:週倉", "block_entity_refs": ["block_021_030:ent_0354", "block_031_040:ent_0050"]}
+{"reason": "same_type_name_or_alias", "key": "faction:東吳", "block_entity_refs": ["block_021_030:ent_0359", "block_031_040:ent_0407", "block_041_050:ent_0114", "block_051_060:ent_0037"]}
+{"reason": "same_type_name_or_alias", "key": "faction:孫氏", "block_entity_refs": ["block_021_030:ent_0359", "block_031_040:ent_0457", "block_041_050:ent_0114"]}
+{"reason": "same_type_name_or_alias", "key": "location:三江", "block_entity_refs": ["block_021_030:ent_0363", "block_041_050:ent_0049"]}
+{"reason": "same_type_name_or_alias", "key": "character:顧雍", "block_entity_refs": ["block_021_030:ent_0387", "block_031_040:ent_0436", "block_041_050:ent_0153"]}
+{"reason": "same_type_name_or_alias", "key": "character:華歆", "block_entity_refs": ["block_021_030:ent_0391", "block_051_060:ent_0269"]}
+{"reason": "same_type_name_or_alias", "key": "character:魯肅", "block_entity_refs": ["block_021_030:ent_0396", "block_041_050:ent_0095", "block_051_060:ent_0025"]}
+{"reason": "same_type_name_or_alias", "key": "character:子敬", "block_entity_refs": ["block_021_030:ent_0396", "block_041_050:ent_0095", "block_051_060:ent_0025"]}
+{"reason": "same_type_name_or_alias", "key": "character:吳太夫人", "block_entity_refs": ["block_021_030:ent_0401", "block_031_040:ent_0448"]}
+{"reason": "same_type_name_or_alias", "key": "character:夫人", "block_entity_refs": ["block_021_030:ent_0401", "block_051_060:ent_0185"]}
+{"reason": "same_type_name_or_alias", "key": "character:周郎", "block_entity_refs": ["block_021_030:ent_0408", "block_041_050:ent_0209", "block_051_060:ent_0034"]}
+{"reason": "same_type_name_or_alias", "key": "character:諸葛瑾", "block_entity_refs": ["block_021_030:ent_0409", "block_031_040:ent_0399", "block_041_050:ent_0163", "block_051_060:ent_0156"]}
+{"reason": "same_type_name_or_alias", "key": "location:巴丘", "block_entity_refs": ["block_021_030:ent_0424", "block_051_060:ent_0342"]}
+{"reason": "same_type_name_or_alias", "key": "location:西山", "block_entity_refs": ["block_021_030:ent_0426", "block_031_040:ent_0136", "block_041_050:ent_0253"]}
+{"reason": "same_type_name_or_alias", "key": "object:佩劍", "block_entity_refs": ["block_021_030:ent_0437", "block_041_050:ent_0258"]}
+{"reason": "same_type_name_or_alias", "key": "army:五千軍", "block_entity_refs": ["block_021_030:ent_0467", "block_041_050:ent_0086"]}
+{"reason": "same_type_name_or_alias", "key": "character:高覽", "block_entity_refs": ["block_021_030:ent_0473", "block_031_040:ent_0016"]}
+{"reason": "same_type_name_or_alias", "key": "character:袁尚", "block_entity_refs": ["block_021_030:ent_0483", "block_031_040:ent_0041"]}
+{"reason": "same_type_name_or_alias", "key": "character:張郃", "block_entity_refs": ["block_021_030:ent_0484", "block_031_040:ent_0047", "block_041_050:ent_0078", "block_051_060:ent_0300"]}
+{"reason": "same_type_name_or_alias", "key": "character:張邰", "block_entity_refs": ["block_021_030:ent_0484", "block_031_040:ent_0047"]}
+{"reason": "same_type_name_or_alias", "key": "location:曹寨", "block_entity_refs": ["block_021_030:ent_0486", "block_041_050:ent_0248"]}
+{"reason": "same_type_name_or_alias", "key": "location:鄴郡", "block_entity_refs": ["block_021_030:ent_0491", "block_051_060:ent_0297"]}
+{"reason": "same_type_name_or_alias", "key": "army:操兵", "block_entity_refs": ["block_031_040:ent_0001", "block_041_050:ent_0007", "block_051_060:ent_0001"]}
+{"reason": "same_type_name_or_alias", "key": "faction:曹方", "block_entity_refs": ["block_031_040:ent_0055", "block_041_050:ent_0113"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:深溝高壘", "block_entity_refs": ["block_031_040:ent_0077", "block_051_060:ent_0424"]}
+{"reason": "same_type_name_or_alias", "key": "character:馬延", "block_entity_refs": ["block_031_040:ent_0120", "block_041_050:ent_0045"]}
+{"reason": "same_type_name_or_alias", "key": "character:張鋇", "block_entity_refs": ["block_031_040:ent_0152", "block_041_050:ent_0080"]}
+{"reason": "same_type_name_or_alias", "key": "location:漳河", "block_entity_refs": ["block_031_040:ent_0153", "block_051_060:ent_0301"]}
+{"reason": "same_type_name_or_alias", "key": "character:焦觸", "block_entity_refs": ["block_031_040:ent_0171", "block_041_050:ent_0029"]}
+{"reason": "same_type_name_or_alias", "key": "character:張南", "block_entity_refs": ["block_031_040:ent_0176", "block_041_050:ent_0079"]}
+{"reason": "same_type_name_or_alias", "key": "character:張顗", "block_entity_refs": ["block_031_040:ent_0178", "block_041_050:ent_0080"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:詐降計", "block_entity_refs": ["block_031_040:ent_0217", "block_041_050:ent_0289"]}
+{"reason": "same_type_name_or_alias", "key": "army:五百軍", "block_entity_refs": ["block_031_040:ent_0239", "block_041_050:ent_0024", "block_051_060:ent_0180"]}
+{"reason": "same_type_name_or_alias", "key": "character:蔡夫人", "block_entity_refs": ["block_031_040:ent_0246", "block_041_050:ent_0033"]}
+{"reason": "same_type_name_or_alias", "key": "character:阿斗", "block_entity_refs": ["block_031_040:ent_0256", "block_041_050:ent_0001"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉琮", "block_entity_refs": ["block_031_040:ent_0257", "block_041_050:ent_0041"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉琦", "block_entity_refs": ["block_031_040:ent_0258", "block_041_050:ent_0001", "block_051_060:ent_0086"]}
+{"reason": "same_type_name_or_alias", "key": "character:公子", "block_entity_refs": ["block_031_040:ent_0258", "block_041_050:ent_0001", "block_051_060:ent_0086"]}
+{"reason": "same_type_name_or_alias", "key": "character:王威", "block_entity_refs": ["block_031_040:ent_0260", "block_041_050:ent_0060"]}
+{"reason": "same_type_name_or_alias", "key": "character:文聘", "block_entity_refs": ["block_031_040:ent_0261", "block_041_050:ent_0062", "block_051_060:ent_0292"]}
+{"reason": "same_type_name_or_alias", "key": "character:伊籍", "block_entity_refs": ["block_031_040:ent_0262", "block_051_060:ent_0092"]}
+{"reason": "same_type_name_or_alias", "key": "location:金鳳台", "block_entity_refs": ["block_031_040:ent_0274", "block_051_060:ent_0271"]}
+{"reason": "same_type_name_or_alias", "key": "location:銅雀台", "block_entity_refs": ["block_031_040:ent_0276", "block_051_060:ent_0291"]}
+{"reason": "same_type_name_or_alias", "key": "location:襄陽城", "block_entity_refs": ["block_031_040:ent_0278", "block_041_050:ent_0065"]}
+{"reason": "same_type_name_or_alias", "key": "location:新野", "block_entity_refs": ["block_031_040:ent_0280", "block_041_050:ent_0069"]}
+{"reason": "same_type_name_or_alias", "key": "location:玉龍台", "block_entity_refs": ["block_031_040:ent_0281", "block_051_060:ent_0299"]}
+{"reason": "same_type_name_or_alias", "key": "character:龐統", "block_entity_refs": ["block_031_040:ent_0323", "block_041_050:ent_0298", "block_051_060:ent_0324"]}
+{"reason": "same_type_name_or_alias", "key": "character:鳳雛", "block_entity_refs": ["block_031_040:ent_0323", "block_041_050:ent_0298", "block_051_060:ent_0324"]}
+{"reason": "same_type_name_or_alias", "key": "character:元直", "block_entity_refs": ["block_031_040:ent_0324", "block_041_050:ent_0071"]}
+{"reason": "same_type_name_or_alias", "key": "character:徐庶", "block_entity_refs": ["block_031_040:ent_0324", "block_041_050:ent_0071"]}
+{"reason": "same_type_name_or_alias", "key": "character:司馬德操", "block_entity_refs": ["block_031_040:ent_0325", "block_051_060:ent_0325"]}
+{"reason": "same_type_name_or_alias", "key": "character:司馬徽", "block_entity_refs": ["block_031_040:ent_0325", "block_051_060:ent_0325"]}
+{"reason": "same_type_name_or_alias", "key": "title:鳳雛", "block_entity_refs": ["block_031_040:ent_0332", "block_041_050:ent_0314"]}
+{"reason": "same_type_name_or_alias", "key": "title:上將", "block_entity_refs": ["block_031_040:ent_0336", "block_051_060:ent_0130"]}
+{"reason": "same_type_name_or_alias", "key": "army:趙雲一千軍", "block_entity_refs": ["block_031_040:ent_0339", "block_051_060:ent_0074"]}
+{"reason": "same_type_name_or_alias", "key": "character:劉封", "block_entity_refs": ["block_031_040:ent_0344", "block_041_050:ent_0042", "block_051_060:ent_0085"]}
+{"reason": "same_type_name_or_alias", "key": "character:諸葛亮", "block_entity_refs": ["block_031_040:ent_0351", "block_041_050:ent_0085", "block_051_060:ent_0035"]}
+{"reason": "same_type_name_or_alias", "key": "character:孔明", "block_entity_refs": ["block_031_040:ent_0351", "block_041_050:ent_0085", "block_051_060:ent_0035"]}
+{"reason": "same_type_name_or_alias", "key": "character:伏龍", "block_entity_refs": ["block_031_040:ent_0351", "block_051_060:ent_0035"]}
+{"reason": "same_type_name_or_alias", "key": "character:臥龍先生", "block_entity_refs": ["block_031_040:ent_0351", "block_041_050:ent_0085"]}
+{"reason": "same_type_name_or_alias", "key": "character:臥龍", "block_entity_refs": ["block_031_040:ent_0351", "block_041_050:ent_0085", "block_051_060:ent_0035"]}
+{"reason": "same_type_name_or_alias", "key": "character:諸葛先生", "block_entity_refs": ["block_031_040:ent_0351", "block_051_060:ent_0035"]}
+{"reason": "same_type_name_or_alias", "key": "character:先生", "block_entity_refs": ["block_031_040:ent_0351", "block_041_050:ent_0085"]}
+{"reason": "same_type_name_or_alias", "key": "location:隆中", "block_entity_refs": ["block_031_040:ent_0365", "block_041_050:ent_0044"]}
+{"reason": "same_type_name_or_alias", "key": "title:縣令", "block_entity_refs": ["block_031_040:ent_0385", "block_051_060:ent_0368"]}
+{"reason": "same_type_name_or_alias", "key": "army:曹操水軍", "block_entity_refs": ["block_031_040:ent_0387", "block_041_050:ent_0007"]}
+{"reason": "same_type_name_or_alias", "key": "character:孫仲謀", "block_entity_refs": ["block_031_040:ent_0395", "block_051_060:ent_0090"]}
+{"reason": "same_type_name_or_alias", "key": "title:幕賓", "block_entity_refs": ["block_031_040:ent_0420", "block_041_050:ent_0267"]}
+{"reason": "same_type_name_or_alias", "key": "character:甘寧", "block_entity_refs": ["block_031_040:ent_0435", "block_041_050:ent_0194", "block_051_060:ent_0018"]}
+{"reason": "same_type_name_or_alias", "key": "character:興霸", "block_entity_refs": ["block_031_040:ent_0435", "block_041_050:ent_0194"]}
+{"reason": "same_type_name_or_alias", "key": "character:凌統", "block_entity_refs": ["block_031_040:ent_0440", "block_041_050:ent_0198", "block_051_060:ent_0022"]}
+{"reason": "same_type_name_or_alias", "key": "character:呂蒙", "block_entity_refs": ["block_031_040:ent_0442", "block_041_050:ent_0200", "block_051_060:ent_0024"]}
+{"reason": "same_type_name_or_alias", "key": "character:潘璋", "block_entity_refs": ["block_031_040:ent_0443", "block_041_050:ent_0203", "block_051_060:ent_0027"]}
+{"reason": "same_type_name_or_alias", "key": "location:大江", "block_entity_refs": ["block_031_040:ent_0458", "block_041_050:ent_0168"]}
+{"reason": "same_type_name_or_alias", "key": "location:夏口", "block_entity_refs": ["block_031_040:ent_0465", "block_041_050:ent_0123", "block_051_060:ent_0294"]}
+{"reason": "same_type_name_or_alias", "key": "location:西川", "block_entity_refs": ["block_031_040:ent_0467", "block_051_060:ent_0202"]}
+{"reason": "same_type_name_or_alias", "key": "title:大都督", "block_entity_refs": ["block_031_040:ent_0479", "block_051_060:ent_0064"]}
+{"reason": "same_type_name_or_alias", "key": "location:柴桑", "block_entity_refs": ["block_031_040:ent_0513", "block_041_050:ent_0119", "block_051_060:ent_0097"]}
+{"reason": "same_type_name_or_alias", "key": "location:鄱陽湖", "block_entity_refs": ["block_031_040:ent_0515", "block_041_050:ent_0219"]}
+{"reason": "same_type_name_or_alias", "key": "title:副將", "block_entity_refs": ["block_031_040:ent_0531", "block_041_050:ent_0292", "block_051_060:ent_0065"]}
+{"reason": "same_type_name_or_alias", "key": "army:第一隊", "block_entity_refs": ["block_031_040:ent_0538", "block_041_050:ent_0354"]}
+{"reason": "same_type_name_or_alias", "key": "battle:博望燒屯", "block_entity_refs": ["block_031_040:ent_0546", "block_041_050:ent_0149"]}
+{"reason": "same_type_name_or_alias", "key": "character:傅巽", "block_entity_refs": ["block_031_040:ent_0549", "block_041_050:ent_0022"]}
+{"reason": "same_type_name_or_alias", "key": "character:王粲", "block_entity_refs": ["block_031_040:ent_0554", "block_041_050:ent_0059"]}
+{"reason": "same_type_name_or_alias", "key": "character:張允", "block_entity_refs": ["block_031_040:ent_0556", "block_041_050:ent_0081"]}
+{"reason": "same_type_name_or_alias", "key": "location:白河", "block_entity_refs": ["block_031_040:ent_0559", "block_041_050:ent_0002"]}
+{"reason": "same_type_name_or_alias", "key": "object:降書", "block_entity_refs": ["block_031_040:ent_0568", "block_041_050:ent_0306"]}
+{"reason": "same_type_name_or_alias", "key": "object:紅旗", "block_entity_refs": ["block_031_040:ent_0570", "block_041_050:ent_0392"]}
+{"reason": "same_type_name_or_alias", "key": "character:公子劉琦", "block_entity_refs": ["block_041_050:ent_0001", "block_051_060:ent_0086"]}
+{"reason": "same_type_name_or_alias", "key": "object:船筏", "block_entity_refs": ["block_041_050:ent_0005", "block_051_060:ent_0235"]}
+{"reason": "same_type_name_or_alias", "key": "army:北兵", "block_entity_refs": ["block_041_050:ent_0007", "block_051_060:ent_0372"]}
+{"reason": "same_type_name_or_alias", "key": "object:一口劍", "block_entity_refs": ["block_041_050:ent_0011", "block_051_060:ent_0237"]}
+{"reason": "same_type_name_or_alias", "key": "character:韓玄", "block_entity_refs": ["block_041_050:ent_0025", "block_051_060:ent_0140"]}
+{"reason": "same_type_name_or_alias", "key": "location:荊楚", "block_entity_refs": ["block_041_050:ent_0030", "block_051_060:ent_0041"]}
+{"reason": "same_type_name_or_alias", "key": "army:荊州水軍", "block_entity_refs": ["block_041_050:ent_0031", "block_051_060:ent_0220"]}
+{"reason": "same_type_name_or_alias", "key": "army:玄德軍馬", "block_entity_refs": ["block_041_050:ent_0037", "block_051_060:ent_0005"]}
+{"reason": "same_type_name_or_alias", "key": "character:叔父", "block_entity_refs": ["block_041_050:ent_0038", "block_051_060:ent_0312"]}
+{"reason": "same_type_name_or_alias", "key": "character:豫州", "block_entity_refs": ["block_041_050:ent_0038", "block_051_060:ent_0023"]}
+{"reason": "same_type_name_or_alias", "key": "character:吳侯", "block_entity_refs": ["block_041_050:ent_0038", "block_051_060:ent_0090"]}
+{"reason": "same_type_name_or_alias", "key": "character:魏延", "block_entity_refs": ["block_041_050:ent_0061", "block_051_060:ent_0150"]}
+{"reason": "same_type_name_or_alias", "key": "character:常山趙子龍", "block_entity_refs": ["block_041_050:ent_0082", "block_051_060:ent_0032"]}
+{"reason": "same_type_name_or_alias", "key": "character:諸葛孔明", "block_entity_refs": ["block_041_050:ent_0085", "block_051_060:ent_0035"]}
+{"reason": "same_type_name_or_alias", "key": "character:軍師", "block_entity_refs": ["block_041_050:ent_0085", "block_051_060:ent_0035"]}
+{"reason": "same_type_name_or_alias", "key": "character:魯子敬", "block_entity_refs": ["block_041_050:ent_0095", "block_051_060:ent_0025"]}
+{"reason": "same_type_name_or_alias", "key": "faction:孫權勢力", "block_entity_refs": ["block_041_050:ent_0114", "block_051_060:ent_0037"]}
+{"reason": "same_type_name_or_alias", "key": "faction:江南", "block_entity_refs": ["block_041_050:ent_0114", "block_051_060:ent_0037"]}
+{"reason": "same_type_name_or_alias", "key": "location:柴桑郡", "block_entity_refs": ["block_041_050:ent_0119", "block_051_060:ent_0097"]}
+{"reason": "same_type_name_or_alias", "key": "location:當陽", "block_entity_refs": ["block_041_050:ent_0120", "block_051_060:ent_0098"]}
+{"reason": "same_type_name_or_alias", "key": "location:當陽長坂", "block_entity_refs": ["block_041_050:ent_0120", "block_051_060:ent_0098"]}
+{"reason": "same_type_name_or_alias", "key": "location:長坂", "block_entity_refs": ["block_041_050:ent_0120", "block_051_060:ent_0098"]}
+{"reason": "same_type_name_or_alias", "key": "object:浮橋", "block_entity_refs": ["block_041_050:ent_0126", "block_051_060:ent_0464"]}
+{"reason": "same_type_name_or_alias", "key": "character:吳國太", "block_entity_refs": ["block_041_050:ent_0157", "block_051_060:ent_0188"]}
+{"reason": "same_type_name_or_alias", "key": "location:江左", "block_entity_refs": ["block_041_050:ent_0171", "block_051_060:ent_0198"]}
+{"reason": "same_type_name_or_alias", "key": "army:第二隊", "block_entity_refs": ["block_041_050:ent_0181", "block_051_060:ent_0252"]}
+{"reason": "same_type_name_or_alias", "key": "character:二喬", "block_entity_refs": ["block_041_050:ent_0192", "block_051_060:ent_0183"]}
+{"reason": "same_type_name_or_alias", "key": "character:陸遜", "block_entity_refs": ["block_041_050:ent_0201", "block_051_060:ent_0146"]}
+{"reason": "same_type_name_or_alias", "key": "character:都督", "block_entity_refs": ["block_041_050:ent_0209", "block_051_060:ent_0034"]}
+{"reason": "same_type_name_or_alias", "key": "character:週郎", "block_entity_refs": ["block_041_050:ent_0209", "block_051_060:ent_0034"]}
+{"reason": "same_type_name_or_alias", "key": "character:週都督", "block_entity_refs": ["block_041_050:ent_0209", "block_051_060:ent_0034"]}
+{"reason": "same_type_name_or_alias", "key": "character:周公瑾", "block_entity_refs": ["block_041_050:ent_0209", "block_051_060:ent_0034"]}
+{"reason": "same_type_name_or_alias", "key": "location:周瑜大寨", "block_entity_refs": ["block_041_050:ent_0220", "block_051_060:ent_0048"]}
+{"reason": "same_type_name_or_alias", "key": "title:都督", "block_entity_refs": ["block_041_050:ent_0232", "block_051_060:ent_0064"]}
+{"reason": "same_type_name_or_alias", "key": "title:週都督", "block_entity_refs": ["block_041_050:ent_0232", "block_051_060:ent_0064"]}
+{"reason": "same_type_name_or_alias", "key": "army:刀斧手", "block_entity_refs": ["block_041_050:ent_0234", "block_051_060:ent_0179"]}
+{"reason": "same_type_name_or_alias", "key": "army:東吳水軍", "block_entity_refs": ["block_041_050:ent_0235", "block_051_060:ent_0221"]}
+{"reason": "same_type_name_or_alias", "key": "character:曹操使者", "block_entity_refs": ["block_041_050:ent_0239", "block_051_060:ent_0387"]}
+{"reason": "same_type_name_or_alias", "key": "faction:荊州軍", "block_entity_refs": ["block_041_050:ent_0247", "block_051_060:ent_0038"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:擲杯為號", "block_entity_refs": ["block_041_050:ent_0259", "block_051_060:ent_0536"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:刀斧手埋伏", "block_entity_refs": ["block_041_050:ent_0259", "block_051_060:ent_0212"]}
+{"reason": "same_type_name_or_alias", "key": "strategy:反間計", "block_entity_refs": ["block_041_050:ent_0261", "block_051_060:ent_0470"]}
+{"reason": "same_type_name_or_alias", "key": "army:東吳軍", "block_entity_refs": ["block_041_050:ent_0271", "block_051_060:ent_0002"]}
+{"reason": "same_type_name_or_alias", "key": "location:江邊", "block_entity_refs": ["block_041_050:ent_0278", "block_051_060:ent_0232"]}
+{"reason": "same_type_name_or_alias", "key": "location:江口", "block_entity_refs": ["block_041_050:ent_0279", "block_051_060:ent_0043"]}
+{"reason": "same_type_name_or_alias", "key": "object:文書", "block_entity_refs": ["block_041_050:ent_0285", "block_051_060:ent_0211"]}
+{"reason": "same_type_name_or_alias", "key": "battle:赤壁鏖兵", "block_entity_refs": ["block_041_050:ent_0297", "block_051_060:ent_0224"]}
+{"reason": "same_type_name_or_alias", "key": "battle:赤壁之戰", "block_entity_refs": ["block_041_050:ent_0297", "block_051_060:ent_0224"]}
+{"reason": "same_type_name_or_alias", "key": "character:龐士元", "block_entity_refs": ["block_041_050:ent_0298", "block_051_060:ent_0324"]}
+{"reason": "same_type_name_or_alias", "key": "character:士元", "block_entity_refs": ["block_041_050:ent_0298", "block_051_060:ent_0324"]}
+{"reason": "same_type_name_or_alias", "key": "character:鳳雛先生", "block_entity_refs": ["block_041_050:ent_0298", "block_051_060:ent_0324"]}
+{"reason": "same_type_name_or_alias", "key": "location:合淝", "block_entity_refs": ["block_041_050:ent_0333", "block_051_060:ent_0101"]}
+{"reason": "same_type_name_or_alias", "key": "character:丁奉", "block_entity_refs": ["block_041_050:ent_0370", "block_051_060:ent_0017"]}
+{"reason": "same_type_name_or_alias", "key": "character:徐盛", "block_entity_refs": ["block_041_050:ent_0371", "block_051_060:ent_0030"]}
+{"reason": "same_type_name_or_alias", "key": "location:赤壁", "block_entity_refs": ["block_041_050:ent_0376", "block_051_060:ent_0259"]}
+{"reason": "same_type_name_or_alias", "key": "location:漢川", "block_entity_refs": ["block_041_050:ent_0377", "block_051_060:ent_0456"]}
+{"reason": "same_type_name_or_alias", "key": "object:兵符", "block_entity_refs": ["block_041_050:ent_0386", "block_051_060:ent_0049"]}
+{"reason": "same_type_name_or_alias", "key": "army:五百校刀手", "block_entity_refs": ["block_041_050:ent_0407", "block_051_060:ent_0134"]}
+{"reason": "same_type_name_or_alias", "key": "location:南郡", "block_entity_refs": ["block_041_050:ent_0421", "block_051_060:ent_0042"]}
+{"reason": "same_type_name_or_alias", "key": "location:彝陵", "block_entity_refs": ["block_041_050:ent_0423", "block_051_060:ent_0046"]}
+{"reason": "same_type_name_or_alias", "key": "object:箭頭", "block_entity_refs": ["block_041_050:ent_0424", "block_051_060:ent_0054"]}

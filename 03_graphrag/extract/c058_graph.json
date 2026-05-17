@@ -1,0 +1,2245 @@
+{
+  "book": "三國演義",
+  "chapter_no": 58,
+  "chapter_title": "馬孟起興兵雪恨　曹阿瞞割鬚棄袍",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_chen_qun",
+      "name": "陳群",
+      "type": "character",
+      "aliases": [
+        "陳長文",
+        "長文"
+      ],
+      "description": "治書侍禦史，向曹操獻取江南之策。",
+      "evidence": [
+        "治書侍禦史陳群，字長文"
+      ]
+    },
+    {
+      "id": "title_zhishu_shiyushi",
+      "name": "治書侍禦史",
+      "type": "title",
+      "aliases": [],
+      "description": "陳群在本章所任官職。",
+      "evidence": [
+        "乃治書侍禦史陳群"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹阿瞞",
+        "孟德",
+        "丞相"
+      ],
+      "description": "曹軍主帥，與馬超、韓遂在長安、潼關、渭河一帶交戰。",
+      "evidence": [
+        "今操起三十萬大軍",
+        "曹阿瞞割鬚棄袍"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在章中被眾人稱呼的官職。",
+      "evidence": [
+        "丞相可命上將提兵"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "皇叔"
+      ],
+      "description": "荊州一方之主，受魯肅來書，與孔明商議退曹。",
+      "evidence": [
+        "使玄德同力拒曹",
+        "皇叔自有退兵之策"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "權"
+      ],
+      "description": "東吳之主，得知曹操欲取江南後召眾將商議。",
+      "evidence": [
+        "細作報知孫權",
+        "權聚眾將商議"
+      ]
+    },
+    {
+      "id": "faction_eastern_wu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "江東"
+      ],
+      "description": "孫權勢力，因曹操南取江南而求援劉備。",
+      "evidence": [
+        "江東之地",
+        "東吳"
+      ]
+    },
+    {
+      "id": "char_zhang_zhao",
+      "name": "張昭",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權帳下謀臣，建議請魯肅寫信求劉備同拒曹操。",
+      "evidence": [
+        "張昭曰：可差人往魯子敬處"
+      ]
+    },
+    {
+      "id": "char_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "魯子敬",
+        "子敬",
+        "肅"
+      ],
+      "description": "受張昭建議修書給劉備，求其同力拒曹。",
+      "evidence": [
+        "肅領命，隨即修書"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "孔明",
+      "type": "character",
+      "aliases": [
+        "諸葛亮"
+      ],
+      "description": "劉備軍師，判斷曹操忌憚西涼兵，提出不動荊吳之兵而退曹。",
+      "evidence": [
+        "差人往南郡請孔明",
+        "操平生所慮者，乃西涼之兵也"
+      ]
+    },
+    {
+      "id": "faction_liu_bei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州軍"
+      ],
+      "description": "劉備在荊州、荊襄一帶的勢力。",
+      "evidence": [
+        "舉荊襄之眾"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "北兵",
+        "操軍"
+      ],
+      "description": "曹操所統軍政勢力，在本章與西涼軍交戰。",
+      "evidence": [
+        "北兵侵犯",
+        "操軍見西涼兵到"
+      ]
+    },
+    {
+      "id": "char_ma_teng",
+      "name": "馬騰",
+      "type": "character",
+      "aliases": [
+        "先君",
+        "老將軍"
+      ],
+      "description": "馬超之父，被曹操所害；曾與韓遂結為兄弟。",
+      "evidence": [
+        "今操殺馬騰",
+        "吾與汝父結為兄弟"
+      ]
+    },
+    {
+      "id": "char_ma_chao",
+      "name": "馬超",
+      "type": "character",
+      "aliases": [
+        "馬孟起",
+        "孟起",
+        "超"
+      ],
+      "description": "馬騰之子，統西涼軍起兵報仇，追擊曹操至割鬚棄袍。",
+      "evidence": [
+        "其子馬超現統西涼之眾",
+        "害我父弟"
+      ]
+    },
+    {
+      "id": "char_pang_de",
+      "name": "龐德",
+      "type": "character",
+      "aliases": [
+        "令明",
+        "龐令明",
+        "德"
+      ],
+      "description": "馬超帳前心腹校尉，後隨韓遂攻渭南並救出韓遂。",
+      "evidence": [
+        "姓龐，名德，字令明",
+        "救出韓遂"
+      ]
+    },
+    {
+      "id": "title_xiaowei",
+      "name": "校尉",
+      "type": "title",
+      "aliases": [
+        "帳前心腹校尉"
+      ],
+      "description": "龐德在馬超帳前的職銜。",
+      "evidence": [
+        "帳前心腹校尉"
+      ]
+    },
+    {
+      "id": "char_ma_dai",
+      "name": "馬岱",
+      "type": "character",
+      "aliases": [
+        "岱"
+      ],
+      "description": "向馬超報告馬騰、黃奎遇害，後與龐德為馬超後應。",
+      "evidence": [
+        "乃馬岱也",
+        "令龐德、馬岱為後應"
+      ]
+    },
+    {
+      "id": "char_huang_kui",
+      "name": "黃奎",
+      "type": "character",
+      "aliases": [],
+      "description": "侍郎，與馬騰同謀殺曹操，事泄被斬。",
+      "evidence": [
+        "侍郎黃奎同謀殺操"
+      ]
+    },
+    {
+      "id": "title_shilang",
+      "name": "侍郎",
+      "type": "title",
+      "aliases": [],
+      "description": "黃奎官職。",
+      "evidence": [
+        "侍郎黃奎"
+      ]
+    },
+    {
+      "id": "char_han_sui",
+      "name": "韓遂",
+      "type": "character",
+      "aliases": [
+        "遂"
+      ],
+      "description": "西涼太守，拒絕曹操誘捕馬超，與馬超合兵反曹。",
+      "evidence": [
+        "西涼太守韓遂",
+        "吾當相助"
+      ]
+    },
+    {
+      "id": "title_xiliang_taishou",
+      "name": "西涼太守",
+      "type": "title",
+      "aliases": [],
+      "description": "韓遂在西涼的官職。",
+      "evidence": [
+        "西涼太守韓遂"
+      ]
+    },
+    {
+      "id": "char_cao_envoy",
+      "name": "曹操使者",
+      "type": "character",
+      "aliases": [
+        "操使者"
+      ],
+      "description": "攜曹操書至韓遂處，後被韓遂斬殺。",
+      "evidence": [
+        "韓遂便將操使者推出斬之"
+      ]
+    },
+    {
+      "id": "char_hou_xuan",
+      "name": "侯選",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂手下八部將之一。",
+      "evidence": [
+        "乃侯選、程銀、李堪"
+      ]
+    },
+    {
+      "id": "char_cheng_yin",
+      "name": "程銀",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂八部將之一，渭南陷馬坑戰中折損。",
+      "evidence": [
+        "折了將佐程銀、張橫"
+      ]
+    },
+    {
+      "id": "char_li_kan",
+      "name": "李堪",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂手下八部將之一。",
+      "evidence": [
+        "李堪、張橫"
+      ]
+    },
+    {
+      "id": "char_zhang_heng",
+      "name": "張橫",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂八部將之一，渭南陷馬坑戰中折損。",
+      "evidence": [
+        "折了將佐程銀、張橫"
+      ]
+    },
+    {
+      "id": "char_liang_xing",
+      "name": "梁興",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂手下八部將之一。",
+      "evidence": [
+        "梁興、成宜"
+      ]
+    },
+    {
+      "id": "char_cheng_yi",
+      "name": "成宜",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂八部將之一，後奉馬超命帶三十騎哨探。",
+      "evidence": [
+        "梁興、成宜",
+        "成宜引三十騎"
+      ]
+    },
+    {
+      "id": "char_ma_wan",
+      "name": "馬玩",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂手下八部將之一。",
+      "evidence": [
+        "馬玩、楊秋"
+      ]
+    },
+    {
+      "id": "char_yang_qiu",
+      "name": "楊秋",
+      "type": "character",
+      "aliases": [],
+      "description": "韓遂手下八部將之一。",
+      "evidence": [
+        "馬玩、楊秋"
+      ]
+    },
+    {
+      "id": "char_zhong_yao",
+      "name": "鍾繇",
+      "type": "character",
+      "aliases": [],
+      "description": "長安郡守，報告曹操並守長安，城破後棄城而走。",
+      "evidence": [
+        "長安郡守鍾繇",
+        "從東門棄城而走"
+      ]
+    },
+    {
+      "id": "title_changan_junshou",
+      "name": "長安郡守",
+      "type": "title",
+      "aliases": [],
+      "description": "鍾繇官職。",
+      "evidence": [
+        "長安郡守鍾繇"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [
+        "洪"
+      ],
+      "description": "曹操部將，守關中計失守，後在潼關救曹操。",
+      "evidence": [
+        "曹洪、徐晃到曰關",
+        "勿傷吾主！曹洪在此"
+      ]
+    },
+    {
+      "id": "char_xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [
+        "晃"
+      ],
+      "description": "曹操部將，勸曹洪勿戰，後獻暗渡截路之策。",
+      "evidence": [
+        "徐晃苦苦擋住",
+        "徐晃進曰"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，諫曹洪性躁，後守左寨與留寨。",
+      "evidence": [
+        "曹仁諫：洪性躁",
+        "左寨曹仁"
+      ]
+    },
+    {
+      "id": "char_xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，守右寨，後帶騎兵接應曹洪。",
+      "evidence": [
+        "右寨夏侯淵",
+        "夏侯淵引數十騎馬隨到"
+      ]
+    },
+    {
+      "id": "char_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，潼關前出戰馬超後敗走。",
+      "evidence": [
+        "於禁出迎",
+        "於禁敗走"
+      ]
+    },
+    {
+      "id": "char_zhang_he",
+      "name": "張郃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，潼關前與馬超戰二十合敗走。",
+      "evidence": [
+        "張郃出迎，戰二十合亦敗走"
+      ]
+    },
+    {
+      "id": "char_li_tong",
+      "name": "李通",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，被馬超刺落馬下。",
+      "evidence": [
+        "一槍刺李通於馬下"
+      ]
+    },
+    {
+      "id": "char_xu_chu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [
+        "虎痴",
+        "褚"
+      ],
+      "description": "曹操帳前侍衛將，於渭河負曹操上船救命。",
+      "evidence": [
+        "操視之，乃許褚也",
+        "褚負操一躍上船"
+      ]
+    },
+    {
+      "id": "char_ding_fei",
+      "name": "丁斐",
+      "type": "character",
+      "aliases": [
+        "斐"
+      ],
+      "description": "渭南縣令，以縱馬放牛誘敵救曹操，後被任為典軍校尉。",
+      "evidence": [
+        "渭南縣令丁斐",
+        "遂命為典軍校尉"
+      ]
+    },
+    {
+      "id": "title_weinan_xianling",
+      "name": "渭南縣令",
+      "type": "title",
+      "aliases": [],
+      "description": "丁斐原任官職。",
+      "evidence": [
+        "渭南縣令丁斐"
+      ]
+    },
+    {
+      "id": "title_dianjun_xiaowei",
+      "name": "典軍校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操因丁斐救命之功而任命的官職。",
+      "evidence": [
+        "遂命為典軍校尉"
+      ]
+    },
+    {
+      "id": "char_dian_wei",
+      "name": "典韋",
+      "type": "character",
+      "aliases": [],
+      "description": "曾與許褚同領虎衛軍，章中被韓遂提及已死。",
+      "evidence": [
+        "典韋、許褚領之",
+        "典韋已死"
+      ]
+    },
+    {
+      "id": "army_tiger_guard",
+      "name": "虎衛軍",
+      "type": "army",
+      "aliases": [
+        "帳前侍衛"
+      ],
+      "description": "曹操選精壯之人組成的近衛軍，由典韋、許褚領之。",
+      "evidence": [
+        "名曰虎衛軍",
+        "典韋、許褚領之"
+      ]
+    },
+    {
+      "id": "loc_xichuan",
+      "name": "西川",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備欲取之地，陳群據此推測劉備無暇救孫權。",
+      "evidence": [
+        "若劉備欲取西川"
+      ]
+    },
+    {
+      "id": "loc_hefei",
+      "name": "合淝",
+      "type": "location",
+      "aliases": [
+        "淝"
+      ],
+      "description": "曹操可會合其眾南取江南之處。",
+      "evidence": [
+        "會合淝之眾"
+      ]
+    },
+    {
+      "id": "loc_jiangnan",
+      "name": "江南",
+      "type": "location",
+      "aliases": [
+        "東南"
+      ],
+      "description": "陳群建議曹操攻取的目標區域。",
+      "evidence": [
+        "徑取江南"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "魯肅書送至劉備處的地點。",
+      "evidence": [
+        "發書到荊州"
+      ]
+    },
+    {
+      "id": "loc_nanjun",
+      "name": "南郡",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備派人請孔明來荊州前所往之地。",
+      "evidence": [
+        "差人往南郡請孔明"
+      ]
+    },
+    {
+      "id": "loc_xiliangzhou",
+      "name": "西涼州",
+      "type": "location",
+      "aliases": [
+        "西涼"
+      ],
+      "description": "馬超駐地與西涼軍來源。",
+      "evidence": [
+        "馬超在西涼州"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [
+        "許都"
+      ],
+      "description": "馬騰、黃奎被害相關地點，曹操書亦提許都。",
+      "evidence": [
+        "老將軍在許昌有事",
+        "擒赴許都"
+      ]
+    },
+    {
+      "id": "loc_changan",
+      "name": "長安",
+      "type": "location",
+      "aliases": [],
+      "description": "鍾繇所守城池，後被馬超、韓遂攻取。",
+      "evidence": [
+        "殺奔長安來",
+        "得了城池"
+      ]
+    },
+    {
+      "id": "loc_tongguan",
+      "name": "潼關",
+      "type": "location",
+      "aliases": [
+        "關隘"
+      ],
+      "description": "曹操與馬超交戰、曹操割鬚棄袍之關隘。",
+      "evidence": [
+        "操進兵直叩潼關"
+      ]
+    },
+    {
+      "id": "loc_pushanjin",
+      "name": "蒲阪津",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操命曹洪安排船筏之處。",
+      "evidence": [
+        "曹洪於蒲阪津，安排船筏"
+      ]
+    },
+    {
+      "id": "loc_weihe",
+      "name": "渭河",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操渡河遭馬超追逼之處。",
+      "evidence": [
+        "操自領兵渡渭河"
+      ]
+    },
+    {
+      "id": "loc_weinan",
+      "name": "渭南",
+      "type": "location",
+      "aliases": [],
+      "description": "韓遂、龐德率兵攻至，丁斐任縣令。",
+      "evidence": [
+        "直抵渭南",
+        "渭南縣令丁斐"
+      ]
+    },
+    {
+      "id": "loc_weibei",
+      "name": "渭北",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操收兵屯駐並設伏之地。",
+      "evidence": [
+        "曹操收兵屯渭北"
+      ]
+    },
+    {
+      "id": "army_xiliang",
+      "name": "西涼之兵",
+      "type": "army",
+      "aliases": [
+        "西涼軍",
+        "西涼軍馬",
+        "西涼之眾"
+      ],
+      "description": "馬超統率的主力，與曹操軍多次交戰。",
+      "evidence": [
+        "馬超現統西涼之眾",
+        "西涼兵一齊衝殺"
+      ]
+    },
+    {
+      "id": "army_jingxiang",
+      "name": "荊襄之眾",
+      "type": "army",
+      "aliases": [],
+      "description": "劉備承諾若馬超攻曹右方，則舉此軍遏曹前路。",
+      "evidence": [
+        "備當舉荊襄之眾"
+      ]
+    },
+    {
+      "id": "army_hefei",
+      "name": "淝之眾",
+      "type": "army",
+      "aliases": [
+        "合淝之眾"
+      ],
+      "description": "陳群建議曹操會合後南攻江南的兵力。",
+      "evidence": [
+        "會合淝之眾"
+      ]
+    },
+    {
+      "id": "army_cao_300k",
+      "name": "三十萬大軍",
+      "type": "army",
+      "aliases": [
+        "北兵"
+      ],
+      "description": "曹操準備南下時的軍勢。",
+      "evidence": [
+        "操起三十萬大軍"
+      ]
+    },
+    {
+      "id": "army_han_sui_eight",
+      "name": "八部軍馬",
+      "type": "army",
+      "aliases": [
+        "八將"
+      ],
+      "description": "韓遂手下侯選、程銀等八部兵將。",
+      "evidence": [
+        "手下八部軍馬",
+        "八將隨著韓遂"
+      ]
+    },
+    {
+      "id": "army_coalition_200k",
+      "name": "二十萬大兵",
+      "type": "army",
+      "aliases": [],
+      "description": "韓遂八部與馬超龐德、馬岱合起的西涼聯軍。",
+      "evidence": [
+        "共起二十萬大兵"
+      ]
+    },
+    {
+      "id": "army_cao_hong_3000",
+      "name": "三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "曹洪出關追擊西涼軍時所點兵力。",
+      "evidence": [
+        "點起三千兵殺下關來"
+      ]
+    },
+    {
+      "id": "army_qiang_reinforcement",
+      "name": "羌人部落",
+      "type": "army",
+      "aliases": [
+        "二萬生力兵"
+      ],
+      "description": "增援馬超的兩萬新兵。",
+      "evidence": [
+        "添二萬生力兵來助戰，乃是羌人部落"
+      ]
+    },
+    {
+      "id": "army_pang_de_cavalry",
+      "name": "鐵騎",
+      "type": "army",
+      "aliases": [],
+      "description": "龐德先引衝突的騎兵，陷入曹操陷馬坑。",
+      "evidence": [
+        "龐德先引鐵騎"
+      ]
+    },
+    {
+      "id": "army_cheng_yi_scouts",
+      "name": "三十騎",
+      "type": "army",
+      "aliases": [
+        "哨探騎"
+      ],
+      "description": "成宜奉馬超命先往曹營哨探的騎兵。",
+      "evidence": [
+        "成宜引三十騎往前哨探"
+      ]
+    },
+    {
+      "id": "obj_lusu_letter",
+      "name": "魯肅書",
+      "type": "object",
+      "aliases": [],
+      "description": "魯肅送給劉備的求援書信。",
+      "evidence": [
+        "玄德將魯肅書與孔明看"
+      ]
+    },
+    {
+      "id": "obj_caocao_letter",
+      "name": "曹操書",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操致韓遂的書信，內容誘其擒馬超赴許都。",
+      "evidence": [
+        "遂將出曹操書示之"
+      ]
+    },
+    {
+      "id": "obj_secret_edict",
+      "name": "密詔",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備與馬騰昔日同受、誓誅曹操的詔命。",
+      "evidence": [
+        "同受密詔，誓誅此賊"
+      ]
+    },
+    {
+      "id": "obj_command_flag",
+      "name": "令字旗",
+      "type": "object",
+      "aliases": [],
+      "description": "馬超用以傳令各部退軍的旗號。",
+      "evidence": [
+        "差令字旗傳與各部"
+      ]
+    },
+    {
+      "id": "obj_red_robe",
+      "name": "紅袍",
+      "type": "object",
+      "aliases": [
+        "錦袍"
+      ],
+      "description": "曹操逃避馬超追拿時脫下的袍服。",
+      "evidence": [
+        "急脫下紅袍",
+        "脫錦袍"
+      ]
+    },
+    {
+      "id": "obj_carried_blade",
+      "name": "所佩刀",
+      "type": "object",
+      "aliases": [
+        "佩刀"
+      ],
+      "description": "曹操用以割斷鬚髯的刀。",
+      "evidence": [
+        "掣所佩刀斷其髯"
+      ]
+    },
+    {
+      "id": "obj_boats",
+      "name": "船筏",
+      "type": "object",
+      "aliases": [
+        "船"
+      ],
+      "description": "曹洪在蒲阪津安排，供曹操渡渭河。",
+      "evidence": [
+        "安排船筏",
+        "拖操下船"
+      ]
+    },
+    {
+      "id": "obj_signal_cannon",
+      "name": "號砲",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操設伏時用作伏兵起發信號。",
+      "evidence": [
+        "號砲響時，伏兵盡起"
+      ]
+    },
+    {
+      "id": "obj_horse_pit",
+      "name": "陷馬坑",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操沿河設置，使龐德鐵騎墜入。",
+      "evidence": [
+        "人馬俱落於陷馬坑內"
+      ]
+    },
+    {
+      "id": "strat_chenqun_jiangnan",
+      "name": "陳群取江南策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "趁劉備取西川無暇救孫權，會合淝眾直取江南。",
+      "evidence": [
+        "會合淝之眾，徑取江南"
+      ]
+    },
+    {
+      "id": "strat_kongming_xiliang",
+      "name": "孔明借西涼退曹策",
+      "type": "strategy",
+      "aliases": [
+        "退兵之策"
+      ],
+      "description": "利用曹操畏懼馬超西涼兵，使曹操不敢正覷東南。",
+      "evidence": [
+        "操平生所慮者，乃西涼之兵"
+      ]
+    },
+    {
+      "id": "strat_feigned_retreat_changan",
+      "name": "佯退取長安計",
+      "type": "strategy",
+      "aliases": [
+        "暫且收軍"
+      ],
+      "description": "圍城後假退，誘長安軍民開門出入，再奪城。",
+      "evidence": [
+        "不如暫且收軍",
+        "長安唾手可得"
+      ]
+    },
+    {
+      "id": "strat_machao_insult_lure",
+      "name": "罵陣激將計",
+      "type": "strategy",
+      "aliases": [
+        "激將廝殺"
+      ],
+      "description": "馬超軍日夜辱罵，誘曹洪出關中計。",
+      "evidence": [
+        "馬超軍日夜輪流來罵"
+      ]
+    },
+    {
+      "id": "strat_deep_defense",
+      "name": "堅壁不戰策",
+      "type": "strategy",
+      "aliases": [
+        "深溝高壘"
+      ],
+      "description": "曹操敗後堅守寨柵，不准出戰，等待西涼兵自退。",
+      "evidence": [
+        "深溝高壘，不准出戰"
+      ]
+    },
+    {
+      "id": "strat_dark_crossing",
+      "name": "暗渡截路策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "徐晃建議派一軍暗渡河西，截取道路，配合正面攻擊。",
+      "evidence": [
+        "若得一軍暗渡之軍，先截取路"
+      ]
+    },
+    {
+      "id": "strat_river_blockade",
+      "name": "拒河斷糧策",
+      "type": "strategy",
+      "aliases": [
+        "循河拒住岸北"
+      ],
+      "description": "馬超判斷曹操渡河北，主張沿河拒守，使曹軍糧盡自亂。",
+      "evidence": [
+        "拒住岸北",
+        "河東糧盡"
+      ]
+    },
+    {
+      "id": "strat_dingfei_lure",
+      "name": "縱馬放牛誘敵策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "丁斐縱馬放牛吸引西涼兵爭取牛馬，令曹操脫險。",
+      "evidence": [
+        "縱馬放牛以誘賊"
+      ]
+    },
+    {
+      "id": "strat_yongdao_trap",
+      "name": "甬道陷馬疑兵策",
+      "type": "strategy",
+      "aliases": [
+        "陷馬坑計"
+      ],
+      "description": "曹操沿河築甬道、虛立旌旗並設壕塹陷馬坑誘敵。",
+      "evidence": [
+        "循河築起甬道",
+        "虛立旌旗"
+      ]
+    },
+    {
+      "id": "strat_empty_camp_ambush",
+      "name": "虛中軍伏兵策",
+      "type": "strategy",
+      "aliases": [
+        "四散伏兵"
+      ],
+      "description": "曹操在渭北虛其中軍、四面伏兵，待號砲起而圍敵。",
+      "evidence": [
+        "四散伏兵，虛其中軍"
+      ]
+    },
+    {
+      "id": "battle_changan",
+      "name": "長安攻取戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "馬超、韓遂聯軍用佯退計奪取長安。",
+      "evidence": [
+        "殺奔長安來",
+        "得了城池"
+      ]
+    },
+    {
+      "id": "battle_tongguan",
+      "name": "潼關之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹操進兵潼關與西涼軍交戰，馬超連敗曹將並追擊曹操。",
+      "evidence": [
+        "操進兵直叩潼關"
+      ]
+    },
+    {
+      "id": "battle_weihe_crossing",
+      "name": "渭河渡兵遇險",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹操渡渭河時被馬超逼近，許褚負操上船，丁斐誘敵解圍。",
+      "evidence": [
+        "操自領兵渡渭河",
+        "褚負操一躍上船"
+      ]
+    },
+    {
+      "id": "battle_weinan_pit",
+      "name": "渭南陷馬坑戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "韓遂、龐德攻渭南，龐德鐵騎陷入曹操所設陷馬坑。",
+      "evidence": [
+        "直抵渭南",
+        "俱落於陷馬坑內"
+      ]
+    },
+    {
+      "id": "battle_weibei_ambush",
+      "name": "渭北伏兵",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹操在渭北設空營伏兵，卻只圍住成宜三十騎哨探。",
+      "evidence": [
+        "曹操收兵屯渭北",
+        "只圍得三十騎馬"
+      ]
+    },
+    {
+      "id": "event_lusu_request_help",
+      "name": "魯肅致書求援",
+      "type": "event",
+      "aliases": [],
+      "description": "東吳經張昭建議，由魯肅寫信請劉備同拒曹操。",
+      "evidence": [
+        "使玄德同力拒曹"
+      ]
+    },
+    {
+      "id": "event_ma_dai_reports",
+      "name": "馬岱報喪",
+      "type": "event",
+      "aliases": [],
+      "description": "馬岱向馬超報告馬騰、黃奎等被曹操所害。",
+      "evidence": [
+        "叔父與侍郎黃奎同謀殺操"
+      ]
+    },
+    {
+      "id": "event_han_sui_alliance",
+      "name": "韓遂與馬超合兵",
+      "type": "event",
+      "aliases": [],
+      "description": "韓遂拒絕曹操書信，斬使並與馬超起二十萬大兵。",
+      "evidence": [
+        "吾當相助",
+        "共起二十萬大兵"
+      ]
+    },
+    {
+      "id": "event_cut_beard_discard_robe",
+      "name": "曹操割鬚棄袍",
+      "type": "event",
+      "aliases": [
+        "割髯脫袍"
+      ],
+      "description": "馬超追拿曹操，曹操脫袍、割髯、包頸而逃。",
+      "evidence": [
+        "急脫下紅袍",
+        "斷其髯"
+      ]
+    },
+    {
+      "id": "event_caohong_rescue",
+      "name": "曹洪救曹操",
+      "type": "event",
+      "aliases": [],
+      "description": "曹洪攔住馬超，使曹操在追擊中走脫。",
+      "evidence": [
+        "勿傷吾主！曹洪在此"
+      ]
+    },
+    {
+      "id": "event_caohong_loses_pass",
+      "name": "曹洪中計失關",
+      "type": "event",
+      "aliases": [],
+      "description": "曹洪受馬超軍辱罵誘出關，遭馬岱引軍殺至而棄關。",
+      "evidence": [
+        "不想中賊姦計"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_chen_qun",
+      "target": "title_zhishu_shiyushi",
+      "type": "任職",
+      "description": "陳群任治書侍禦史。",
+      "evidence": [
+        "乃治書侍禦史陳群"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_chen_qun",
+      "target": "strat_chenqun_jiangnan",
+      "type": "獻策",
+      "description": "陳群向曹操提出南取江南之策。",
+      "evidence": [
+        "陳長文有何良策"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_chenqun_jiangnan",
+      "target": "loc_jiangnan",
+      "type": "攻取目標",
+      "description": "此策以江南為攻取目標。",
+      "evidence": [
+        "徑取江南"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_sun_quan",
+      "type": "結盟",
+      "description": "劉備與孫權形成唇齒相依的同盟關係。",
+      "evidence": [
+        "劉備、孫權結為唇齒"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "faction_eastern_wu",
+      "type": "統屬",
+      "description": "孫權為東吳一方主君。",
+      "evidence": [
+        "權聚眾將商議"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "source": "char_zhang_zhao",
+      "target": "char_sun_quan",
+      "type": "獻議",
+      "description": "張昭建議孫權請魯肅致書劉備。",
+      "evidence": [
+        "張昭曰：可差人往魯子敬處"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_su",
+      "target": "obj_lusu_letter",
+      "type": "書寫",
+      "description": "魯肅奉命修書給劉備。",
+      "evidence": [
+        "肅領命，隨即修書"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "obj_lusu_letter",
+      "target": "char_liu_bei",
+      "type": "送達",
+      "description": "魯肅書送至劉備處。",
+      "evidence": [
+        "使人送玄德"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "event_lusu_request_help",
+      "target": "char_liu_bei",
+      "type": "請援對象",
+      "description": "魯肅致書是為請劉備同拒曹操。",
+      "evidence": [
+        "使玄德同力拒曹"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhuge_liang",
+      "type": "諮詢",
+      "description": "劉備請孔明來商議魯肅書與退曹之策。",
+      "evidence": [
+        "差人往南郡請孔明"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_kongming_xiliang",
+      "type": "提出策略",
+      "description": "孔明提出借西涼馬超牽制曹操的退兵之策。",
+      "evidence": [
+        "西涼之兵也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strat_kongming_xiliang",
+      "target": "army_xiliang",
+      "type": "借勢",
+      "description": "此策依賴曹操忌憚西涼兵。",
+      "evidence": [
+        "操平生所慮者，乃西涼之兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_ma_teng",
+      "type": "殺害",
+      "description": "曹操殺害馬騰，成為馬超起兵復仇原因。",
+      "evidence": [
+        "今操殺馬騰"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_teng",
+      "target": "char_ma_chao",
+      "type": "父子",
+      "description": "馬騰是馬超之父。",
+      "evidence": [
+        "其子馬超"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "army_xiliang",
+      "type": "統領",
+      "description": "馬超統率西涼之眾。",
+      "evidence": [
+        "馬超現統西涼之眾"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pang_de",
+      "target": "title_xiaowei",
+      "type": "任職",
+      "description": "龐德為馬超帳前心腹校尉。",
+      "evidence": [
+        "帳前心腹校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pang_de",
+      "target": "char_ma_chao",
+      "type": "隸屬",
+      "description": "龐德是馬超帳下將佐。",
+      "evidence": [
+        "聚帳下將佐",
+        "乃帳前心腹校尉"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ma_dai",
+      "target": "event_ma_dai_reports",
+      "type": "報告",
+      "description": "馬岱向馬超報告馬騰與黃奎被害。",
+      "evidence": [
+        "馬岱也",
+        "叔父與弟皆死矣"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_kui",
+      "target": "title_shilang",
+      "type": "任職",
+      "description": "黃奎為侍郎。",
+      "evidence": [
+        "侍郎黃奎"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_kui",
+      "target": "char_ma_teng",
+      "type": "同謀",
+      "description": "黃奎與馬騰同謀殺曹操。",
+      "evidence": [
+        "同謀殺操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_secret_edict",
+      "type": "同受",
+      "description": "劉備昔日與馬騰同受密詔。",
+      "evidence": [
+        "備昔與先君同受密詔"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "obj_secret_edict",
+      "target": "char_cao_cao",
+      "type": "討伐目標",
+      "description": "密詔相關誓言指向誅曹操。",
+      "evidence": [
+        "誓誅此賊"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_jingxiang",
+      "type": "承諾動員",
+      "description": "劉備承諾馬超若攻曹右方，自己舉荊襄兵遏曹。",
+      "evidence": [
+        "備當舉荊襄之眾"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_han_sui",
+      "target": "title_xiliang_taishou",
+      "type": "任職",
+      "description": "韓遂為西涼太守。",
+      "evidence": [
+        "西涼太守韓遂"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_caocao_letter",
+      "type": "發書",
+      "description": "曹操寫信給韓遂誘捕馬超。",
+      "evidence": [
+        "曹操書示之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "obj_caocao_letter",
+      "target": "char_han_sui",
+      "type": "送達",
+      "description": "曹操書信由韓遂出示給馬超。",
+      "evidence": [
+        "遂將出曹操書示之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_caocao_letter",
+      "target": "char_ma_chao",
+      "type": "誘捕內容",
+      "description": "書中要求韓遂擒馬超赴許都。",
+      "evidence": [
+        "將馬超擒赴許都"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_han_sui",
+      "target": "char_ma_teng",
+      "type": "結為兄弟",
+      "description": "韓遂說自己與馬騰結為兄弟。",
+      "evidence": [
+        "吾與汝父結為兄弟"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_han_sui",
+      "target": "char_ma_chao",
+      "type": "支援",
+      "description": "韓遂拒絕害馬超，表示馬超興兵則相助。",
+      "evidence": [
+        "汝若興兵，吾當相助"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_han_sui",
+      "target": "char_cao_envoy",
+      "type": "斬殺",
+      "description": "韓遂斬殺曹操使者。",
+      "evidence": [
+        "操使者推出斬之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_han_sui",
+      "target": "army_han_sui_eight",
+      "type": "統領",
+      "description": "韓遂點起手下八部軍馬。",
+      "evidence": [
+        "點手下八部軍馬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_han_sui_eight",
+      "target": "char_hou_xuan",
+      "type": "包含部將",
+      "description": "侯選為八部將之一。",
+      "evidence": [
+        "乃侯選、程銀、李堪"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_han_sui_eight",
+      "target": "char_cheng_yin",
+      "type": "包含部將",
+      "description": "程銀為八部將之一。",
+      "evidence": [
+        "侯選、程銀、李堪"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_han_sui_eight",
+      "target": "char_zhang_heng",
+      "type": "包含部將",
+      "description": "張橫為八部將之一。",
+      "evidence": [
+        "李堪、張橫"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_han_sui",
+      "target": "army_coalition_200k",
+      "type": "合兵",
+      "description": "韓遂八部與馬超部將合起二十萬大兵。",
+      "evidence": [
+        "共起二十萬大兵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "army_coalition_200k",
+      "type": "合兵",
+      "description": "馬超與韓遂共同起兵二十萬。",
+      "evidence": [
+        "合馬超手下龐德、馬岱"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_coalition_200k",
+      "target": "loc_changan",
+      "type": "行軍攻打",
+      "description": "聯軍殺奔長安。",
+      "evidence": [
+        "殺奔長安來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhong_yao",
+      "target": "title_changan_junshou",
+      "type": "任職",
+      "description": "鍾繇為長安郡守。",
+      "evidence": [
+        "長安郡守鍾繇"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhong_yao",
+      "target": "char_cao_cao",
+      "type": "飛報",
+      "description": "鍾繇向曹操急報長安受威脅。",
+      "evidence": [
+        "飛報曹操"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhong_yao",
+      "target": "loc_changan",
+      "type": "防守",
+      "description": "鍾繇守長安並布陣拒敵。",
+      "evidence": [
+        "引軍拒敵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_feigned_retreat_changan",
+      "target": "battle_changan",
+      "type": "使用於",
+      "description": "佯退計用於奪取長安。",
+      "evidence": [
+        "各部軍馬漸漸退去"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "strat_feigned_retreat_changan",
+      "type": "採用策略",
+      "description": "馬超稱此計大妙並傳令退軍。",
+      "evidence": [
+        "此計大妙",
+        "傳與各部"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_pang_de",
+      "target": "loc_changan",
+      "type": "破關入城",
+      "description": "龐德斬關斷鎖，放馬超、韓遂軍入城。",
+      "evidence": [
+        "斬關斷鎖，放馬超、韓遂軍馬入城"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhong_yao",
+      "target": "loc_changan",
+      "type": "棄守",
+      "description": "長安失陷後鍾繇由東門逃走。",
+      "evidence": [
+        "從東門棄城而走"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "loc_tongguan",
+      "type": "防守",
+      "description": "曹洪與徐晃到關隘替鍾繇堅守。",
+      "evidence": [
+        "曹洪、徐晃到曰關，替鍾繇堅守"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_cao_hong",
+      "type": "勸阻",
+      "description": "徐晃勸曹洪勿中馬超激將之計。",
+      "evidence": [
+        "切不可與戰"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "strat_machao_insult_lure",
+      "type": "使用策略",
+      "description": "馬超軍日夜罵陣，激曹洪出戰。",
+      "evidence": [
+        "日夜輪流來罵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "army_cao_hong_3000",
+      "type": "率領",
+      "description": "曹洪點三千兵殺下關。",
+      "evidence": [
+        "點起三千兵殺下關來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_dai",
+      "target": "event_caohong_loses_pass",
+      "type": "伏擊參與",
+      "description": "馬岱引軍殺至，曹洪等棄關。",
+      "evidence": [
+        "岱引軍殺至"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_tongguan",
+      "type": "進兵",
+      "description": "曹操進兵直叩潼關。",
+      "evidence": [
+        "操進兵直叩潼關"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "char_cao_cao",
+      "type": "建議",
+      "description": "曹仁建議先立寨柵再打關。",
+      "evidence": [
+        "可先下定寨柵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "loc_tongguan",
+      "type": "守左寨",
+      "description": "曹仁守曹軍左寨。",
+      "evidence": [
+        "左寨曹仁"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xiahou_yuan",
+      "target": "loc_tongguan",
+      "type": "守右寨",
+      "description": "夏侯淵守曹軍右寨。",
+      "evidence": [
+        "右寨夏侯淵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_yu_jin",
+      "type": "擊敗",
+      "description": "馬超八九合敗於禁。",
+      "evidence": [
+        "於禁敗走"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_zhang_he",
+      "type": "擊敗",
+      "description": "馬超二十合敗張郃。",
+      "evidence": [
+        "張郃出迎，戰二十合亦敗走"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_li_tong",
+      "type": "擊殺",
+      "description": "馬超一槍刺李通於馬下。",
+      "evidence": [
+        "一槍刺李通於馬下"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "event_cut_beard_discard_robe",
+      "type": "追逼促成",
+      "description": "馬超追拿曹操，迫使其脫袍割髯。",
+      "evidence": [
+        "長髯者是曹操",
+        "短髯者是曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_red_robe",
+      "type": "棄置",
+      "description": "曹操逃命時脫下紅袍。",
+      "evidence": [
+        "急脫下紅袍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_carried_blade",
+      "type": "使用",
+      "description": "曹操用佩刀割斷鬚髯。",
+      "evidence": [
+        "掣所佩刀斷其髯"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "event_caohong_rescue",
+      "type": "執行救援",
+      "description": "曹洪攔住馬超救曹操。",
+      "evidence": [
+        "勿傷吾主！曹洪在此"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "event_caohong_rescue",
+      "target": "char_cao_cao",
+      "type": "救援對象",
+      "description": "曹操因曹洪阻馬超而脫身。",
+      "evidence": [
+        "操得命走脫"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xiahou_yuan",
+      "target": "char_cao_hong",
+      "type": "接應",
+      "description": "夏侯淵引騎兵趕到，使馬超退走。",
+      "evidence": [
+        "夏侯淵引數十騎馬隨到"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_deep_defense",
+      "type": "下令",
+      "description": "曹操敗後命軍士堅守不出。",
+      "evidence": [
+        "堅守寨柵，深溝高壘"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_qiang_reinforcement",
+      "target": "char_ma_chao",
+      "type": "增援",
+      "description": "羌人部落二萬生力兵增援馬超。",
+      "evidence": [
+        "馬超又添二萬生力兵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "strat_dark_crossing",
+      "type": "獻策",
+      "description": "徐晃建議暗渡截路，配合曹操正面攻擊。",
+      "evidence": [
+        "徐晃進曰"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "obj_boats",
+      "type": "準備",
+      "description": "曹洪奉曹操令在蒲阪津安排船筏。",
+      "evidence": [
+        "曹洪於蒲阪津，安排船筏"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "battle_weihe_crossing",
+      "type": "指揮渡河",
+      "description": "曹操自領兵渡渭河。",
+      "evidence": [
+        "操自領兵渡渭河"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "strat_river_blockade",
+      "type": "提出策略",
+      "description": "馬超主張循河拒北岸，使曹軍不能渡河且糧盡。",
+      "evidence": [
+        "吾當引一軍循河拒住岸北"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "char_cao_cao",
+      "type": "救援",
+      "description": "許褚拖負曹操上船，使其脫離馬超追擊。",
+      "evidence": [
+        "褚負操一躍上船"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "army_tiger_guard",
+      "type": "統領",
+      "description": "韓遂稱許褚與典韋領虎衛軍。",
+      "evidence": [
+        "典韋、許褚領之"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dian_wei",
+      "target": "army_tiger_guard",
+      "type": "曾統領",
+      "description": "典韋曾與許褚領虎衛軍，章中已死。",
+      "evidence": [
+        "典韋已死"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ding_fei",
+      "target": "title_weinan_xianling",
+      "type": "任職",
+      "description": "丁斐是渭南縣令。",
+      "evidence": [
+        "渭南縣令丁斐"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ding_fei",
+      "target": "strat_dingfei_lure",
+      "type": "施策",
+      "description": "丁斐以縱馬放牛誘走敵軍。",
+      "evidence": [
+        "縱馬放牛以誘賊"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strat_dingfei_lure",
+      "target": "char_cao_cao",
+      "type": "救援效果",
+      "description": "丁斐之計使曹操得脫。",
+      "evidence": [
+        "曹操因此得脫"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_ding_fei",
+      "type": "任命",
+      "description": "曹操感謝丁斐並任其為典軍校尉。",
+      "evidence": [
+        "遂命為典軍校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ding_fei",
+      "target": "title_dianjun_xiaowei",
+      "type": "受任",
+      "description": "丁斐被任命為典軍校尉。",
+      "evidence": [
+        "遂命為典軍校尉"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_yongdao_trap",
+      "type": "部署",
+      "description": "曹操命諸將築甬道、設疑兵陷坑拒敵。",
+      "evidence": [
+        "循河築起甬道"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strat_yongdao_trap",
+      "target": "obj_horse_pit",
+      "type": "包含設施",
+      "description": "甬道陷馬疑兵策包括陷馬坑。",
+      "evidence": [
+        "陷馬坑內"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_han_sui",
+      "target": "battle_weinan_pit",
+      "type": "進攻參與",
+      "description": "韓遂與龐德率五萬兵直抵渭南。",
+      "evidence": [
+        "韓遂與龐德將兵五萬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pang_de",
+      "target": "army_pang_de_cavalry",
+      "type": "率領",
+      "description": "龐德先引鐵騎衝突而來。",
+      "evidence": [
+        "龐德先引鐵騎"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_pang_de_cavalry",
+      "target": "obj_horse_pit",
+      "type": "陷入",
+      "description": "龐德鐵騎落入陷馬坑。",
+      "evidence": [
+        "人馬俱落於陷馬坑內"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pang_de",
+      "target": "char_han_sui",
+      "type": "救援",
+      "description": "龐德殺開血路救出韓遂。",
+      "evidence": [
+        "救出韓遂"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "battle_weinan_pit",
+      "target": "char_cheng_yin",
+      "type": "造成戰損",
+      "description": "渭南陷坑戰中程銀折損。",
+      "evidence": [
+        "折了將佐程銀、張橫"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "battle_weinan_pit",
+      "target": "char_zhang_heng",
+      "type": "造成戰損",
+      "description": "渭南陷坑戰中張橫折損。",
+      "evidence": [
+        "折了將佐程銀、張橫"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_pang_de",
+      "type": "任命後應",
+      "description": "馬超令龐德、馬岱為後應。",
+      "evidence": [
+        "令龐德、馬岱為後應"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_ma_dai",
+      "type": "任命後應",
+      "description": "馬超令馬岱與龐德為後應。",
+      "evidence": [
+        "令龐德、馬岱為後應"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_empty_camp_ambush",
+      "type": "部署",
+      "description": "曹操在渭北虛中軍並四散伏兵。",
+      "evidence": [
+        "四散伏兵，虛其中軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strat_empty_camp_ambush",
+      "target": "obj_signal_cannon",
+      "type": "使用信號",
+      "description": "伏兵以號砲為起發信號。",
+      "evidence": [
+        "號砲響時"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ma_chao",
+      "target": "char_cheng_yi",
+      "type": "派遣哨探",
+      "description": "馬超先派成宜帶三十騎探營。",
+      "evidence": [
+        "馬超卻先使成宜"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cheng_yi",
+      "target": "army_cheng_yi_scouts",
+      "type": "率領",
+      "description": "成宜率三十騎入曹軍中軍哨探。",
+      "evidence": [
+        "成宜引三十騎"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "battle_weibei_ambush",
+      "target": "army_cheng_yi_scouts",
+      "type": "包圍",
+      "description": "曹操伏兵只圍住成宜三十騎。",
+      "evidence": [
+        "只圍得三十騎馬"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "id": "event_lusu_request_help",
+      "name": "魯肅致書求援",
+      "summary": "孫權聞曹操欲南取江南，張昭建議請魯肅致書劉備，求其同力拒曹。",
+      "participants": [
+        "char_sun_quan",
+        "char_zhang_zhao",
+        "char_lu_su",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "使玄德同力拒曹"
+      ]
+    },
+    {
+      "id": "event_ma_dai_reports",
+      "name": "馬岱報馬騰遇害",
+      "summary": "馬岱逃回告知馬超：馬騰與黃奎同謀殺曹操事泄被斬，馬超因此起復仇之心。",
+      "participants": [
+        "char_ma_dai",
+        "char_ma_chao",
+        "char_ma_teng",
+        "char_huang_kui",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_xuchang",
+        "loc_xiliangzhou"
+      ],
+      "evidence": [
+        "叔父與侍郎黃奎同謀殺操"
+      ]
+    },
+    {
+      "id": "event_han_sui_alliance",
+      "name": "韓遂拒曹並與馬超合兵",
+      "summary": "韓遂出示曹操誘捕馬超之書，隨後斬使，表示與馬騰結義不忍害馬超，並與馬超合兵。",
+      "participants": [
+        "char_han_sui",
+        "char_ma_chao",
+        "char_cao_envoy",
+        "char_ma_teng"
+      ],
+      "locations": [
+        "loc_xiliangzhou"
+      ],
+      "evidence": [
+        "吾與汝父結為兄弟",
+        "操使者推出斬之"
+      ]
+    },
+    {
+      "id": "battle_changan",
+      "name": "長安攻取戰",
+      "summary": "馬超、韓遂率二十萬兵殺奔長安，先佯退誘鍾繇開城，龐德破關放軍入城，鍾繇棄城而走。",
+      "participants": [
+        "char_ma_chao",
+        "char_han_sui",
+        "char_pang_de",
+        "char_zhong_yao"
+      ],
+      "locations": [
+        "loc_changan"
+      ],
+      "evidence": [
+        "長安唾手可得",
+        "斬關斷鎖"
+      ]
+    },
+    {
+      "id": "event_caohong_loses_pass",
+      "name": "曹洪中計失關",
+      "summary": "曹洪、徐晃守關；馬超軍辱罵激將，曹洪不聽徐晃勸，率三千兵出關後中計棄關。",
+      "participants": [
+        "char_cao_hong",
+        "char_xu_huang",
+        "char_ma_chao",
+        "char_ma_dai"
+      ],
+      "locations": [
+        "loc_tongguan"
+      ],
+      "evidence": [
+        "不想中賊姦計"
+      ]
+    },
+    {
+      "id": "battle_tongguan",
+      "name": "潼關之戰",
+      "summary": "曹操進兵潼關，馬超連敗於禁、張郃並刺李通於馬下，西涼軍衝殺使曹操大敗。",
+      "participants": [
+        "char_cao_cao",
+        "char_ma_chao",
+        "char_yu_jin",
+        "char_zhang_he",
+        "char_li_tong"
+      ],
+      "locations": [
+        "loc_tongguan"
+      ],
+      "evidence": [
+        "操進兵直叩潼關",
+        "一槍刺李通"
+      ]
+    },
+    {
+      "id": "event_cut_beard_discard_robe",
+      "name": "曹操割鬚棄袍",
+      "summary": "馬超追認曹操外貌，曹操先脫紅袍，又割鬚並以旗角包頸逃走。",
+      "participants": [
+        "char_cao_cao",
+        "char_ma_chao"
+      ],
+      "locations": [
+        "loc_tongguan"
+      ],
+      "evidence": [
+        "急脫下紅袍",
+        "斷其髯"
+      ]
+    },
+    {
+      "id": "event_caohong_rescue",
+      "name": "曹洪救曹操",
+      "summary": "馬超追近曹操時，曹洪大叫勿傷吾主並攔住馬超，曹操得以走脫。",
+      "participants": [
+        "char_cao_hong",
+        "char_cao_cao",
+        "char_ma_chao",
+        "char_xiahou_yuan"
+      ],
+      "locations": [
+        "loc_tongguan"
+      ],
+      "evidence": [
+        "勿傷吾主！曹洪在此"
+      ]
+    },
+    {
+      "id": "battle_weihe_crossing",
+      "name": "渭河渡兵遇險",
+      "summary": "曹操渡渭河，被馬超追至百餘步內；許褚拖負曹操上船，丁斐縱馬放牛誘敵，曹操脫險。",
+      "participants": [
+        "char_cao_cao",
+        "char_ma_chao",
+        "char_xu_chu",
+        "char_ding_fei"
+      ],
+      "locations": [
+        "loc_weihe"
+      ],
+      "evidence": [
+        "褚負操一躍上船",
+        "縱馬放牛以誘賊"
+      ]
+    },
+    {
+      "id": "battle_weinan_pit",
+      "name": "渭南陷馬坑戰",
+      "summary": "韓遂與龐德率五萬兵至渭南，龐德鐵騎衝入曹操所設陷馬坑，龐德殺出並救韓遂，程銀、張橫折損。",
+      "participants": [
+        "char_han_sui",
+        "char_pang_de",
+        "char_cao_cao",
+        "char_cheng_yin",
+        "char_zhang_heng"
+      ],
+      "locations": [
+        "loc_weinan"
+      ],
+      "evidence": [
+        "俱落於陷馬坑內",
+        "救出韓遂"
+      ]
+    },
+    {
+      "id": "battle_weibei_ambush",
+      "name": "渭北伏兵",
+      "summary": "曹操屯渭北，設空中軍與四面伏兵等待西涼軍劫營；馬超先派成宜三十騎哨探，伏兵只圍住哨騎。",
+      "participants": [
+        "char_cao_cao",
+        "char_ma_chao",
+        "char_cheng_yi"
+      ],
+      "locations": [
+        "loc_weibei"
+      ],
+      "evidence": [
+        "四散伏兵，虛其中軍",
+        "只圍得三十騎馬"
+      ]
+    }
+  ],
+  "notes": [
+    "本章檔案在部分段落有重複、脫漏或錯字，抽取僅依可讀正文支持。",
+    "未將未命名細作、眾官、一般軍士列為主要實體。"
+  ]
+}

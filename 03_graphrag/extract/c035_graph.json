@@ -1,0 +1,1963 @@
+{
+  "book": "三國演義",
+  "chapter_no": 35,
+  "chapter_title": "玄德南漳逢隱淪　單福新野遇英主",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "ch35_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "劉使君",
+        "劉皇叔",
+        "皇叔",
+        "使君",
+        "備"
+      ],
+      "description": "新野之主；遭蔡瑁追逼後躍過檀溪，遇水鏡先生與單福，後任單福為軍師擊敗二呂。",
+      "evidence": [
+        "席上不見了玄德",
+        "躍馬過溪",
+        "拜單福為軍師"
+      ]
+    },
+    {
+      "id": "ch35_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "雲"
+      ],
+      "description": "劉備部將；率原帶三百軍追尋劉備，後在新野迎戰時刺死呂曠。",
+      "evidence": [
+        "趙雲引軍趕出",
+        "原帶來三百軍",
+        "一槍刺呂曠"
+      ]
+    },
+    {
+      "id": "ch35_cai_mao",
+      "name": "蔡瑁",
+      "type": "character",
+      "aliases": [
+        "瑁"
+      ],
+      "description": "荊州上將；請劉備赴宴後引軍追趕，被孫乾書札指為設謀相害。",
+      "evidence": [
+        "蔡瑁引軍望西趕去",
+        "吾為上將",
+        "蔡瑁設謀相害"
+      ]
+    },
+    {
+      "id": "ch35_mudong",
+      "name": "牧童",
+      "type": "character",
+      "aliases": [
+        "小童"
+      ],
+      "description": "南漳途中吹短笛的牧童；識出劉備並指引其見水鏡先生。",
+      "evidence": [
+        "一牧童跨於牛背",
+        "吾師水鏡先生"
+      ]
+    },
+    {
+      "id": "ch35_shui_jing",
+      "name": "水鏡先生",
+      "type": "character",
+      "aliases": [
+        "水鏡"
+      ],
+      "description": "隱居草堂的高士；接待劉備，談伏龍鳳雛並拒絕出山相助。",
+      "evidence": [
+        "此即吾師水鏡先生",
+        "公今日倖免大難",
+        "山野閒散之人"
+      ]
+    },
+    {
+      "id": "ch35_yuan_zhi",
+      "name": "元直",
+      "type": "character",
+      "aliases": [],
+      "description": "夜訪水鏡的友人；評劉表徒有虛名，欲投明主。",
+      "evidence": [
+        "元直何來",
+        "此人欲往投明主"
+      ]
+    },
+    {
+      "id": "ch35_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "關公",
+        "關雲長",
+        "雲長"
+      ],
+      "description": "劉備部將；與張飛尋主會合，後依單福計策截擊呂翔。",
+      "evidence": [
+        "乃雲長、翼德也",
+        "乃關雲長也",
+        "衝殺一陣"
+      ]
+    },
+    {
+      "id": "ch35_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德"
+      ],
+      "description": "劉備部將；與關羽尋主會合，後從右路截擊並刺死呂翔。",
+      "evidence": [
+        "乃雲長、翼德也",
+        "張飛一矛刺中"
+      ]
+    },
+    {
+      "id": "ch35_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [
+        "孫幹",
+        "乾"
+      ],
+      "description": "劉備幕下；建議致書劉表，並入荊州呈書申訴蔡瑁謀害。",
+      "evidence": [
+        "孫乾等商議",
+        "孫幹呈上書札",
+        "若殺蔡瑁"
+      ]
+    },
+    {
+      "id": "ch35_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "景升",
+        "劉景升",
+        "表"
+      ],
+      "description": "荊州之主；聞蔡瑁害劉備後大怒，命劉琦赴新野請罪。",
+      "evidence": [
+        "劉表喚入問曰",
+        "表大怒",
+        "使長子劉琦"
+      ]
+    },
+    {
+      "id": "ch35_cai_furen",
+      "name": "蔡夫人",
+      "type": "character",
+      "aliases": [
+        "蔡氏"
+      ],
+      "description": "劉琦繼母；為蔡瑁哭求免死，也被劉琦稱常懷謀害之心。",
+      "evidence": [
+        "蔡夫人出，哭求免死",
+        "繼母蔡氏"
+      ]
+    },
+    {
+      "id": "ch35_liu_qi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "琦"
+      ],
+      "description": "劉表長子；奉命到新野請罪，並向劉備求教如何避開繼母之禍。",
+      "evidence": [
+        "長子劉琦",
+        "奉命赴新野",
+        "幸叔父指教"
+      ]
+    },
+    {
+      "id": "ch35_shan_fu",
+      "name": "單福",
+      "type": "character",
+      "aliases": [
+        "福",
+        "單富"
+      ],
+      "description": "自潁上來投劉備的人；以的盧馬試劉備仁德，後被拜為軍師。",
+      "evidence": [
+        "姓單，名福",
+        "自潁上來此",
+        "拜單福為軍師"
+      ]
+    },
+    {
+      "id": "ch35_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "丞相"
+      ],
+      "description": "自冀州回許都後有取荊州之意，差曹仁、李典及二呂屯樊城。",
+      "evidence": [
+        "曹操自冀州回許都",
+        "特差曹仁、李典"
+      ]
+    },
+    {
+      "id": "ch35_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [
+        "仁"
+      ],
+      "description": "曹操部將；受命屯樊城，先遣二呂攻新野，敗後再點二萬五千軍雪恥。",
+      "evidence": [
+        "曹仁大喜",
+        "與二呂兵五千",
+        "點起二萬五千軍馬"
+      ]
+    },
+    {
+      "id": "ch35_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [
+        "典"
+      ],
+      "description": "曹操部將；勸曹仁按兵不動並申報曹操，後被迫同征新野。",
+      "evidence": [
+        "與李典商議",
+        "今只宜按兵不動",
+        "典不得已"
+      ]
+    },
+    {
+      "id": "ch35_lu_kuang",
+      "name": "呂曠",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操降將；與呂翔請兵攻劉備，在新野前戰被趙雲刺死。",
+      "evidence": [
+        "降將呂曠",
+        "大將呂曠",
+        "刺呂曠於馬下"
+      ]
+    },
+    {
+      "id": "ch35_lu_xiang",
+      "name": "呂翔",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操降將；與呂曠率五千兵攻新野，敗走時被張飛刺死。",
+      "evidence": [
+        "降將呂曠、呂翔",
+        "呂翔抵敵不住",
+        "落馬而死"
+      ]
+    },
+    {
+      "id": "ch35_pang_tong",
+      "name": "龐統",
+      "type": "character",
+      "aliases": [],
+      "description": "本章被提及的人物；水鏡先生愛其才並呼為弟。",
+      "evidence": [
+        "愛龐統，呼之為弟"
+      ]
+    },
+    {
+      "id": "ch35_faction_liubei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "新野軍"
+      ],
+      "description": "以劉備為主的新野軍政集團，包含關羽、張飛、趙雲、孫乾與新投的單福。",
+      "evidence": [
+        "主公可作速回縣",
+        "調練本部人馬"
+      ]
+    },
+    {
+      "id": "ch35_faction_jingzhou",
+      "name": "荊州劉表勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州"
+      ],
+      "description": "劉表統轄的荊州勢力，蔡瑁為其上將，劉琦為其長子。",
+      "evidence": [
+        "劉表喚入問曰",
+        "吾為上將",
+        "長子劉琦"
+      ]
+    },
+    {
+      "id": "ch35_faction_caocao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍"
+      ],
+      "description": "曹操統率的軍事勢力，本章派曹仁、李典與二呂屯樊城、攻新野。",
+      "evidence": [
+        "奉丞相命",
+        "曹仁、李典",
+        "領兵三萬"
+      ]
+    },
+    {
+      "id": "ch35_faction_hanshi",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [],
+      "description": "劉備請水鏡出山時提出共同扶持的政治目標。",
+      "evidence": [
+        "同扶漢室"
+      ]
+    },
+    {
+      "id": "ch35_loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備赴會並遭蔡瑁追害的地點。",
+      "evidence": [
+        "襄陽赴會",
+        "襄陽一事"
+      ]
+    },
+    {
+      "id": "ch35_loc_tanxi",
+      "name": "檀溪",
+      "type": "location",
+      "aliases": [
+        "大溪",
+        "闊澗"
+      ],
+      "description": "劉備躍馬逃脫的溪澗。",
+      "evidence": [
+        "遙望大溪",
+        "躍馬檀溪",
+        "闊澗一躍而過"
+      ]
+    },
+    {
+      "id": "ch35_loc_nanzhang",
+      "name": "南漳",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備過溪後前往並遇牧童、水鏡的方向。",
+      "evidence": [
+        "望南漳策馬而行"
+      ]
+    },
+    {
+      "id": "ch35_loc_shuijing_caotang",
+      "name": "水鏡草堂",
+      "type": "location",
+      "aliases": [
+        "草堂"
+      ],
+      "description": "水鏡先生居處；劉備在此受接待並聽聞伏龍鳳雛。",
+      "evidence": [
+        "水鏡請入草堂",
+        "宿於草堂之側"
+      ]
+    },
+    {
+      "id": "ch35_loc_xinye",
+      "name": "新野",
+      "type": "location",
+      "aliases": [
+        "縣中"
+      ],
+      "description": "劉備駐地；單福來投、二呂進攻與曹仁再征的目標。",
+      "evidence": [
+        "遂急引軍歸新野",
+        "投新野來",
+        "前往新野廝殺"
+      ]
+    },
+    {
+      "id": "ch35_loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表所在；孫乾持書至此申訴蔡瑁害劉備。",
+      "evidence": [
+        "孫乾賒書至荊州"
+      ]
+    },
+    {
+      "id": "ch35_loc_fancheng",
+      "name": "樊城",
+      "type": "location",
+      "aliases": [],
+      "description": "曹仁、李典與二呂屯兵之處，作為窺伺荊襄的據點。",
+      "evidence": [
+        "屯樊城",
+        "守樊城"
+      ]
+    },
+    {
+      "id": "ch35_loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操自冀州返回的都城。",
+      "evidence": [
+        "回許都"
+      ]
+    },
+    {
+      "id": "ch35_loc_jizhou",
+      "name": "冀州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操回許都前所在之地。",
+      "evidence": [
+        "自冀州回許都"
+      ]
+    },
+    {
+      "id": "ch35_loc_yingshang",
+      "name": "潁上",
+      "type": "location",
+      "aliases": [],
+      "description": "單福自稱來處。",
+      "evidence": [
+        "自潁上來此"
+      ]
+    },
+    {
+      "id": "ch35_title_liuhuangshu",
+      "name": "劉皇叔",
+      "type": "title",
+      "aliases": [
+        "皇叔"
+      ],
+      "description": "新野百姓歌中對劉備的稱呼。",
+      "evidence": [
+        "新野牧，劉皇叔"
+      ]
+    },
+    {
+      "id": "ch35_title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備授予單福的軍中職務。",
+      "evidence": [
+        "拜單福為軍師"
+      ]
+    },
+    {
+      "id": "ch35_title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在曹軍口中的官職稱呼。",
+      "evidence": [
+        "奉丞相命",
+        "以獻丞相"
+      ]
+    },
+    {
+      "id": "ch35_title_shangjiang",
+      "name": "上將",
+      "type": "title",
+      "aliases": [],
+      "description": "蔡瑁自稱在荊州赴會時負防護之責的職位。",
+      "evidence": [
+        "吾為上將"
+      ]
+    },
+    {
+      "id": "ch35_title_dajiang",
+      "name": "大將",
+      "type": "title",
+      "aliases": [],
+      "description": "呂曠出陣時自稱的軍職。",
+      "evidence": [
+        "吾乃大將呂曠"
+      ]
+    },
+    {
+      "id": "ch35_title_fulong",
+      "name": "伏龍",
+      "type": "title",
+      "aliases": [],
+      "description": "水鏡先生提及的未出山賢士稱號。",
+      "evidence": [
+        "伏龍、鳳雛"
+      ]
+    },
+    {
+      "id": "ch35_title_fengchu",
+      "name": "鳳雛",
+      "type": "title",
+      "aliases": [
+        "雛"
+      ],
+      "description": "水鏡先生提及的未出山賢士稱號。",
+      "evidence": [
+        "伏龍、鳳雛"
+      ]
+    },
+    {
+      "id": "ch35_title_mingzhu",
+      "name": "明主",
+      "type": "title",
+      "aliases": [
+        "英主"
+      ],
+      "description": "元直與單福欲投靠的理想君主稱呼。",
+      "evidence": [
+        "欲往投明主",
+        "單福新野遇英主"
+      ]
+    },
+    {
+      "id": "ch35_obj_dilu",
+      "name": "的盧馬",
+      "type": "object",
+      "aliases": [
+        "此馬"
+      ],
+      "description": "劉備坐騎；躍過檀溪救主，後被單福指出終必妨一主。",
+      "evidence": [
+        "此非的盧馬乎",
+        "此乃救主",
+        "終必妨一主"
+      ]
+    },
+    {
+      "id": "ch35_obj_shuzha",
+      "name": "書札",
+      "type": "object",
+      "aliases": [
+        "書"
+      ],
+      "description": "劉備命孫乾送往劉表處的申訴文書，指蔡瑁設謀相害。",
+      "evidence": [
+        "呈上書札",
+        "具言蔡瑁設謀相害"
+      ]
+    },
+    {
+      "id": "ch35_obj_qin",
+      "name": "琴",
+      "type": "object",
+      "aliases": [
+        "橫琴"
+      ],
+      "description": "水鏡草堂中的琴；琴聲引出水鏡對竊聽英雄的判斷。",
+      "evidence": [
+        "橫琴於石床",
+        "琴韻清幽"
+      ]
+    },
+    {
+      "id": "ch35_obj_duandi",
+      "name": "短笛",
+      "type": "object",
+      "aliases": [],
+      "description": "牧童騎牛時吹奏之物。",
+      "evidence": [
+        "口吹短笛而來"
+      ]
+    },
+    {
+      "id": "ch35_strategy_caimao_harm",
+      "name": "蔡瑁設謀相害",
+      "type": "strategy",
+      "aliases": [],
+      "description": "蔡瑁利用襄陽赴會後追趕劉備的謀害行動。",
+      "evidence": [
+        "蔡瑁設謀相害",
+        "引軍望西趕去"
+      ]
+    },
+    {
+      "id": "ch35_strategy_sunqian_letter",
+      "name": "致書劉表申訴",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孫乾建議劉備先寫信給劉表，申明蔡瑁謀害之事。",
+      "evidence": [
+        "可先致書於景升",
+        "訴告此事"
+      ]
+    },
+    {
+      "id": "ch35_strategy_dilu_test",
+      "name": "的盧試德",
+      "type": "strategy",
+      "aliases": [
+        "禳馬試探"
+      ],
+      "description": "單福以將的盧馬賜仇人的說法試探劉備是否仁德。",
+      "evidence": [
+        "將此馬賜之",
+        "以此言相試"
+      ]
+    },
+    {
+      "id": "ch35_strategy_three_routes",
+      "name": "三路迎敵之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "單福安排關羽左出、張飛右出、劉備與趙雲前路相迎，以破二呂。",
+      "evidence": [
+        "關公引一軍從左",
+        "張飛引一軍從右",
+        "出兵前路相迎"
+      ]
+    },
+    {
+      "id": "ch35_strategy_lidian_hold",
+      "name": "李典按兵申報之策",
+      "type": "strategy",
+      "aliases": [
+        "按兵不動"
+      ],
+      "description": "李典主張二將陣亡後暫按兵不動，申報曹操起大兵征剿。",
+      "evidence": [
+        "只宜按兵不動",
+        "申報丞相"
+      ]
+    },
+    {
+      "id": "ch35_army_zhaoyun_300",
+      "name": "趙雲三百軍",
+      "type": "army",
+      "aliases": [
+        "三百軍"
+      ],
+      "description": "趙雲原帶來並用於追尋劉備的三百軍士。",
+      "evidence": [
+        "原帶來三百軍"
+      ]
+    },
+    {
+      "id": "ch35_army_liubei_2000",
+      "name": "劉備二千人馬",
+      "type": "army",
+      "aliases": [
+        "二千人馬"
+      ],
+      "description": "劉備、單福、趙雲出關迎敵時所率兵力。",
+      "evidence": [
+        "共引二千人馬"
+      ]
+    },
+    {
+      "id": "ch35_army_cao_fancheng",
+      "name": "曹軍樊城三萬兵",
+      "type": "army",
+      "aliases": [
+        "三萬兵"
+      ],
+      "description": "曹操命曹仁、李典等屯於樊城、窺伺荊襄的兵力。",
+      "evidence": [
+        "領兵三萬，屯樊城"
+      ]
+    },
+    {
+      "id": "ch35_army_lu_5000",
+      "name": "二呂五千兵",
+      "type": "army",
+      "aliases": [
+        "五千精兵"
+      ],
+      "description": "曹仁撥給呂曠、呂翔攻取劉備首級的兵力。",
+      "evidence": [
+        "願請精兵五千",
+        "與二呂兵五千"
+      ]
+    },
+    {
+      "id": "ch35_army_caoren_25000",
+      "name": "曹仁二萬五千軍",
+      "type": "army",
+      "aliases": [
+        "二萬五千軍馬"
+      ],
+      "description": "曹仁敗後強與李典同起、渡河再攻新野的兵力。",
+      "evidence": [
+        "點起二萬五千軍馬"
+      ]
+    },
+    {
+      "id": "ch35_event_caimao_chase",
+      "name": "蔡瑁追玄德",
+      "type": "event",
+      "aliases": [],
+      "description": "蔡瑁在襄陽會後引軍西追劉備，趙雲追出質問其故。",
+      "evidence": [
+        "蔡瑁引軍望西趕去了"
+      ]
+    },
+    {
+      "id": "ch35_event_tanxi_leap",
+      "name": "玄德躍馬檀溪",
+      "type": "event",
+      "aliases": [
+        "躍馬過溪"
+      ],
+      "description": "劉備騎的盧一躍過檀溪，逃脫蔡瑁追害。",
+      "evidence": [
+        "躍馬過溪",
+        "賴躍馬檀溪得脫"
+      ]
+    },
+    {
+      "id": "ch35_event_meet_shuijing",
+      "name": "玄德南漳逢水鏡",
+      "type": "event",
+      "aliases": [
+        "南漳逢隱淪"
+      ],
+      "description": "劉備至南漳遇牧童，進入草堂拜見水鏡先生。",
+      "evidence": [
+        "得拜尊顏",
+        "水鏡請入草堂"
+      ]
+    },
+    {
+      "id": "ch35_event_yuanzhi_visit",
+      "name": "元直夜訪水鏡",
+      "type": "event",
+      "aliases": [],
+      "description": "元直夜入草堂，向水鏡談及劉表善惡不能用去。",
+      "evidence": [
+        "更深，忽聽一人叩門",
+        "元直何來"
+      ]
+    },
+    {
+      "id": "ch35_event_return_xinye",
+      "name": "玄德歸新野",
+      "type": "event",
+      "aliases": [],
+      "description": "趙雲尋到劉備，關羽、張飛途中會合，眾人返回新野。",
+      "evidence": [
+        "趙雲也",
+        "投新野來",
+        "相見大喜"
+      ]
+    },
+    {
+      "id": "ch35_event_letter_rebuke",
+      "name": "劉表責蔡瑁",
+      "type": "event",
+      "aliases": [],
+      "description": "孫乾持書告蔡瑁害劉備，劉表大怒欲斬蔡瑁，後因求情與勸諫釋之。",
+      "evidence": [
+        "表大怒",
+        "命推出斬之",
+        "責而釋之"
+      ]
+    },
+    {
+      "id": "ch35_event_liuqi_appeal",
+      "name": "劉琦求教避禍",
+      "type": "event",
+      "aliases": [],
+      "description": "劉琦赴新野後向劉備哭訴繼母蔡氏謀害，求其指教。",
+      "evidence": [
+        "侄無計免禍",
+        "幸叔父指教"
+      ]
+    },
+    {
+      "id": "ch35_event_shanfu_join",
+      "name": "單福投劉備",
+      "type": "event",
+      "aliases": [
+        "單福新野遇英主"
+      ],
+      "description": "單福在新野市上行歌求見劉備，試其仁德後受拜為軍師。",
+      "evidence": [
+        "欲來投托",
+        "拜單福為軍師"
+      ]
+    },
+    {
+      "id": "ch35_event_cao_tun_fancheng",
+      "name": "曹軍屯樊城",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操遣曹仁、李典、呂曠、呂翔領兵三萬屯樊城，以探荊襄虛實。",
+      "evidence": [
+        "領兵三萬，屯樊城"
+      ]
+    },
+    {
+      "id": "ch35_event_lu_attack",
+      "name": "二呂攻新野",
+      "type": "event",
+      "aliases": [],
+      "description": "呂曠、呂翔請五千精兵，欲取劉備首級獻曹操。",
+      "evidence": [
+        "取劉備之頭",
+        "前往新野廝殺"
+      ]
+    },
+    {
+      "id": "ch35_battle_xinye_lu",
+      "name": "新野破二呂之戰",
+      "type": "battle",
+      "aliases": [
+        "二呂新野之敗"
+      ],
+      "description": "劉備依單福三路計迎敵，趙雲殺呂曠，張飛殺呂翔，曹軍大敗。",
+      "evidence": [
+        "趙雲一槍刺呂曠",
+        "張飛一矛刺中",
+        "大半多被擒獲"
+      ]
+    },
+    {
+      "id": "ch35_event_caoren_march",
+      "name": "曹仁再征新野",
+      "type": "event",
+      "aliases": [
+        "雪恥兵"
+      ],
+      "description": "曹仁不聽李典按兵之策，強同李典點二萬五千軍渡河攻新野。",
+      "evidence": [
+        "此仇不可不急報",
+        "渡河投新野而來"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_faction_liubei",
+      "type": "統領",
+      "description": "劉備為新野軍主公。",
+      "evidence": [
+        "主公可作速回縣"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_zhao_yun",
+      "target": "ch35_faction_liubei",
+      "type": "隸屬",
+      "description": "趙雲稱劉備為主，屬劉備勢力。",
+      "evidence": [
+        "吾主何在"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_guan_yu",
+      "target": "ch35_faction_liubei",
+      "type": "隸屬",
+      "description": "關羽隨劉備行動並奉命出戰。",
+      "evidence": [
+        "即差關、張二人"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_zhang_fei",
+      "target": "ch35_faction_liubei",
+      "type": "隸屬",
+      "description": "張飛隨劉備行動並奉命出戰。",
+      "evidence": [
+        "即差關、張二人"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_sun_qian",
+      "target": "ch35_faction_liubei",
+      "type": "隸屬",
+      "description": "孫乾參與劉備新野議事並受派送書。",
+      "evidence": [
+        "與孫乾等商議"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "ch35_shan_fu",
+      "target": "ch35_faction_liubei",
+      "type": "投效",
+      "description": "單福來投劉備，後受拜為軍師。",
+      "evidence": [
+        "欲來投托",
+        "拜單福為軍師"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_liu_biao",
+      "target": "ch35_faction_jingzhou",
+      "type": "統領",
+      "description": "劉表為荊州方面主事者。",
+      "evidence": [
+        "孫乾賒書至荊州",
+        "劉表喚入問曰"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_cai_mao",
+      "target": "ch35_faction_jingzhou",
+      "type": "隸屬",
+      "description": "蔡瑁在荊州赴會防護中自稱上將。",
+      "evidence": [
+        "吾為上將"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "ch35_liu_qi",
+      "target": "ch35_liu_biao",
+      "type": "父子",
+      "description": "劉琦為劉表長子。",
+      "evidence": [
+        "使長子劉琦"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_cai_furen",
+      "target": "ch35_liu_qi",
+      "type": "繼母",
+      "description": "蔡夫人即劉琦所稱繼母蔡氏。",
+      "evidence": [
+        "繼母蔡氏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_cao_cao",
+      "target": "ch35_faction_caocao",
+      "type": "統領",
+      "description": "曹操為曹軍最高指揮者。",
+      "evidence": [
+        "奉丞相命"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_cao_ren",
+      "target": "ch35_faction_caocao",
+      "type": "隸屬",
+      "description": "曹仁受曹操差遣。",
+      "evidence": [
+        "特差曹仁"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_li_dian",
+      "target": "ch35_faction_caocao",
+      "type": "隸屬",
+      "description": "李典受曹操差遣。",
+      "evidence": [
+        "特差曹仁、李典"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_lu_kuang",
+      "target": "ch35_faction_caocao",
+      "type": "降附",
+      "description": "呂曠為曹操方面降將。",
+      "evidence": [
+        "降將呂曠"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_lu_xiang",
+      "target": "ch35_faction_caocao",
+      "type": "降附",
+      "description": "呂翔為曹操方面降將。",
+      "evidence": [
+        "降將呂曠、呂翔"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_title_liuhuangshu",
+      "type": "稱號",
+      "description": "新野歌謠稱劉備為劉皇叔。",
+      "evidence": [
+        "新野牧，劉皇叔"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_cao_cao",
+      "target": "ch35_title_chengxiang",
+      "type": "官職",
+      "description": "曹操被部下稱為丞相。",
+      "evidence": [
+        "以獻丞相"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_cai_mao",
+      "target": "ch35_title_shangjiang",
+      "type": "官職",
+      "description": "蔡瑁自稱上將。",
+      "evidence": [
+        "吾為上將"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "ch35_lu_kuang",
+      "target": "ch35_title_dajiang",
+      "type": "官職",
+      "description": "呂曠出陣自稱大將。",
+      "evidence": [
+        "吾乃大將呂曠"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_faction_hanshi",
+      "type": "政治目標",
+      "description": "劉備請水鏡出山同扶漢室。",
+      "evidence": [
+        "同扶漢室"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "ch35_cai_mao",
+      "target": "ch35_strategy_caimao_harm",
+      "type": "施行計策",
+      "description": "蔡瑁被指設謀害劉備。",
+      "evidence": [
+        "蔡瑁設謀相害"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "ch35_cai_mao",
+      "target": "ch35_liu_bei",
+      "type": "追害",
+      "description": "蔡瑁引軍追趕劉備。",
+      "evidence": [
+        "引軍望西趕去了"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "ch35_zhao_yun",
+      "target": "ch35_army_zhaoyun_300",
+      "type": "統領",
+      "description": "趙雲率原帶三百軍出西門尋劉備。",
+      "evidence": [
+        "引著原帶來三百軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_zhao_yun",
+      "target": "ch35_cai_mao",
+      "type": "質問",
+      "description": "趙雲追上蔡瑁，質問其請宴後追兵之故。",
+      "evidence": [
+        "何故引著軍馬追來"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_zhao_yun",
+      "target": "ch35_liu_bei",
+      "type": "尋主救援",
+      "description": "趙雲連夜尋找劉備並催其回新野。",
+      "evidence": [
+        "尋不見主公",
+        "連夜跟問到此"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_loc_tanxi",
+      "type": "行動",
+      "description": "劉備騎馬躍過檀溪逃難。",
+      "evidence": [
+        "躍馬過溪"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_obj_dilu",
+      "target": "ch35_liu_bei",
+      "type": "救援",
+      "description": "的盧馬在檀溪救劉備脫險。",
+      "evidence": [
+        "此乃救主"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_loc_nanzhang",
+      "type": "行軍",
+      "description": "劉備過溪後往南漳而行。",
+      "evidence": [
+        "望南漳策馬而行"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_mudong",
+      "target": "ch35_shui_jing",
+      "type": "師徒",
+      "description": "牧童稱水鏡先生為其師。",
+      "evidence": [
+        "吾師水鏡先生"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_mudong",
+      "target": "ch35_liu_bei",
+      "type": "引見",
+      "description": "牧童識出劉備並指其見水鏡。",
+      "evidence": [
+        "將軍莫非破黃巾劉玄德否",
+        "指謂玄德"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_shui_jing",
+      "target": "ch35_liu_bei",
+      "type": "接待",
+      "description": "水鏡請劉備入草堂，並看出其剛脫大難。",
+      "evidence": [
+        "公今日倖免大難",
+        "請入草堂"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_shui_jing",
+      "target": "ch35_title_fulong",
+      "type": "提及賢士",
+      "description": "水鏡向劉備提到伏龍。",
+      "evidence": [
+        "伏龍、鳳雛"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_shui_jing",
+      "target": "ch35_title_fengchu",
+      "type": "提及賢士",
+      "description": "水鏡向劉備提到鳳雛。",
+      "evidence": [
+        "伏龍、鳳雛"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_shui_jing",
+      "type": "邀請出山",
+      "description": "劉備請水鏡出山相助。",
+      "evidence": [
+        "拜請水鏡出山相助"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_shui_jing",
+      "target": "ch35_liu_bei",
+      "type": "薦賢",
+      "description": "水鏡拒絕出山，稱另有勝己十倍者可助劉備。",
+      "evidence": [
+        "不堪世用",
+        "自有勝吾十倍者"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_shui_jing",
+      "target": "ch35_yuan_zhi",
+      "type": "朋友",
+      "description": "水鏡稱元直為友。",
+      "evidence": [
+        "此吾友也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_yuan_zhi",
+      "target": "ch35_liu_biao",
+      "type": "評斷",
+      "description": "元直認為劉表善善惡惡只是虛名。",
+      "evidence": [
+        "徒有虛名",
+        "善而不能用"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_shui_jing",
+      "target": "ch35_pang_tong",
+      "type": "友愛稱弟",
+      "description": "水鏡先生被敘及愛龐統並呼之為弟。",
+      "evidence": [
+        "愛龐統，呼之為弟"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "source": "ch35_zhao_yun",
+      "target": "ch35_loc_shuijing_caotang",
+      "type": "尋至",
+      "description": "趙雲帶人尋到水鏡莊外。",
+      "evidence": [
+        "到莊來也",
+        "乃趙雲也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "ch35_guan_yu",
+      "target": "ch35_liu_bei",
+      "type": "會合",
+      "description": "關羽在劉備返新野途中會合。",
+      "evidence": [
+        "乃雲長、翼德也",
+        "相見大喜"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_zhang_fei",
+      "target": "ch35_liu_bei",
+      "type": "會合",
+      "description": "張飛在劉備返新野途中會合。",
+      "evidence": [
+        "乃雲長、翼德也",
+        "相見大喜"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_sun_qian",
+      "target": "ch35_strategy_sunqian_letter",
+      "type": "提出策略",
+      "description": "孫乾建議先致書劉表申訴。",
+      "evidence": [
+        "可先致書於景升"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_sun_qian",
+      "type": "派遣",
+      "description": "劉備命孫乾持書至荊州。",
+      "evidence": [
+        "令孫乾賒書至荊州"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_sun_qian",
+      "target": "ch35_liu_biao",
+      "type": "呈書告狀",
+      "description": "孫乾向劉表呈書，說明蔡瑁謀害劉備。",
+      "evidence": [
+        "孫幹呈上書札"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_obj_shuzha",
+      "target": "ch35_cai_mao",
+      "type": "指控",
+      "description": "書札內容指蔡瑁設謀害劉備。",
+      "evidence": [
+        "具言蔡瑁設謀相害"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_liu_biao",
+      "target": "ch35_cai_mao",
+      "type": "責罰",
+      "description": "劉表怒責蔡瑁並一度命推出斬之。",
+      "evidence": [
+        "急喚蔡瑁責罵",
+        "命推出斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_cai_furen",
+      "target": "ch35_liu_biao",
+      "type": "求情",
+      "description": "蔡夫人向劉表哭求免蔡瑁死罪。",
+      "evidence": [
+        "蔡夫人出，哭求免死"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_sun_qian",
+      "target": "ch35_liu_biao",
+      "type": "勸諫",
+      "description": "孫乾勸劉表不要殺蔡瑁，以免劉備難安居。",
+      "evidence": [
+        "若殺蔡瑁",
+        "不能安居於此"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_liu_biao",
+      "target": "ch35_liu_qi",
+      "type": "派遣請罪",
+      "description": "劉表派劉琦同孫乾往新野請罪。",
+      "evidence": [
+        "使長子劉琦同孫乾"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_liu_qi",
+      "target": "ch35_liu_bei",
+      "type": "求教",
+      "description": "劉琦向劉備哭訴無計免禍並求指教。",
+      "evidence": [
+        "侄無計免禍",
+        "幸叔父指教"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_cai_furen",
+      "target": "ch35_liu_qi",
+      "type": "謀害威脅",
+      "description": "劉琦稱繼母蔡氏常懷謀害之心。",
+      "evidence": [
+        "常懷謀害之心"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_liu_qi",
+      "type": "勸告",
+      "description": "劉備勸劉琦小心盡孝以免禍。",
+      "evidence": [
+        "小心盡孝，自然無禍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_obj_dilu",
+      "type": "乘騎",
+      "description": "劉備指出若非此馬已死，確認的盧為其坐騎。",
+      "evidence": [
+        "若非此馬，吾已為泉下之人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_shan_fu",
+      "target": "ch35_liu_bei",
+      "type": "投托",
+      "description": "單福自稱久聞劉備納士招賢，欲來投托。",
+      "evidence": [
+        "欲來投托"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_shan_fu",
+      "target": "ch35_obj_dilu",
+      "type": "識別評斷",
+      "description": "單福認出劉備坐騎為的盧並評其妨主。",
+      "evidence": [
+        "此非的盧馬乎",
+        "卻只妨主"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_shan_fu",
+      "target": "ch35_strategy_dilu_test",
+      "type": "設計試探",
+      "description": "單福以禳馬之說試探劉備仁德。",
+      "evidence": [
+        "以此言相試"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_strategy_dilu_test",
+      "type": "拒絕",
+      "description": "劉備拒絕將禍轉嫁仇人的做法。",
+      "evidence": [
+        "利己妨人之事",
+        "不敢聞教"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_shan_fu",
+      "target": "ch35_loc_yingshang",
+      "type": "來自",
+      "description": "單福自稱從潁上而來。",
+      "evidence": [
+        "自潁上來此"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_shan_fu",
+      "type": "任命",
+      "description": "劉備拜單福為軍師。",
+      "evidence": [
+        "拜單福為軍師"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_shan_fu",
+      "target": "ch35_title_junshi",
+      "type": "受任官職",
+      "description": "單福受劉備任命為軍師。",
+      "evidence": [
+        "拜單福為軍師"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_shan_fu",
+      "target": "ch35_army_liubei_2000",
+      "type": "參與統軍",
+      "description": "單福與劉備、趙雲引二千人馬迎敵。",
+      "evidence": [
+        "與單福、趙雲等，共引二千人馬"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "ch35_cao_cao",
+      "target": "ch35_cao_ren",
+      "type": "差遣",
+      "description": "曹操差曹仁屯樊城。",
+      "evidence": [
+        "特差曹仁"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_cao_cao",
+      "target": "ch35_li_dian",
+      "type": "差遣",
+      "description": "曹操差李典屯樊城。",
+      "evidence": [
+        "特差曹仁、李典"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_cao_cao",
+      "target": "ch35_lu_kuang",
+      "type": "差遣",
+      "description": "曹操差呂曠隨軍屯樊城並攻劉備。",
+      "evidence": [
+        "並降將呂曠"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_cao_cao",
+      "target": "ch35_lu_xiang",
+      "type": "差遣",
+      "description": "曹操差呂翔隨軍屯樊城並攻劉備。",
+      "evidence": [
+        "呂曠、呂翔等"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_cao_ren",
+      "target": "ch35_loc_fancheng",
+      "type": "屯兵",
+      "description": "曹仁領兵屯於樊城。",
+      "evidence": [
+        "屯樊城"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_li_dian",
+      "target": "ch35_loc_fancheng",
+      "type": "屯兵",
+      "description": "李典領兵屯於樊城。",
+      "evidence": [
+        "屯樊城"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_cao_ren",
+      "target": "ch35_army_lu_5000",
+      "type": "授兵",
+      "description": "曹仁撥五千兵給呂曠、呂翔攻新野。",
+      "evidence": [
+        "與二呂兵五千"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_lu_kuang",
+      "target": "ch35_liu_bei",
+      "type": "攻打",
+      "description": "呂曠奉命來擒劉備。",
+      "evidence": [
+        "特來擒汝"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_lu_xiang",
+      "target": "ch35_liu_bei",
+      "type": "攻打",
+      "description": "呂翔與呂曠同率兵攻新野取劉備。",
+      "evidence": [
+        "取劉備之頭"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "ch35_shan_fu",
+      "target": "ch35_strategy_three_routes",
+      "type": "制定計策",
+      "description": "單福制定三路迎敵之計。",
+      "evidence": [
+        "福曰：既有敵兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_strategy_three_routes",
+      "type": "採納計策",
+      "description": "劉備採用單福計策分兵迎敵。",
+      "evidence": [
+        "玄德從其言"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_guan_yu",
+      "target": "ch35_strategy_three_routes",
+      "type": "執行左路",
+      "description": "關羽依計從左路出軍截擊。",
+      "evidence": [
+        "關公引一軍從左而出"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_zhang_fei",
+      "target": "ch35_strategy_three_routes",
+      "type": "執行右路",
+      "description": "張飛依計從右路出軍斷後。",
+      "evidence": [
+        "張飛引一軍從右而出"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_liu_bei",
+      "target": "ch35_army_liubei_2000",
+      "type": "統領",
+      "description": "劉備率二千人馬出關迎敵。",
+      "evidence": [
+        "共引二千人馬出關"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_zhao_yun",
+      "target": "ch35_lu_kuang",
+      "type": "擊殺",
+      "description": "趙雲交戰數合後刺死呂曠。",
+      "evidence": [
+        "一槍刺呂曠於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_guan_yu",
+      "target": "ch35_lu_xiang",
+      "type": "截擊",
+      "description": "關羽突出衝殺，使呂翔折兵大半。",
+      "evidence": [
+        "路傍一軍突出",
+        "呂翔折兵大半"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_zhang_fei",
+      "target": "ch35_lu_xiang",
+      "type": "擊殺",
+      "description": "張飛趁呂翔措手不及一矛刺死。",
+      "evidence": [
+        "被張飛一矛刺中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_faction_liubei",
+      "target": "ch35_battle_xinye_lu",
+      "type": "勝利",
+      "description": "劉備軍依三路計擊敗二呂。",
+      "evidence": [
+        "玄德合軍追趕",
+        "大半多被擒獲"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_faction_caocao",
+      "target": "ch35_battle_xinye_lu",
+      "type": "失敗",
+      "description": "曹軍二呂陣亡，敗軍回報曹仁。",
+      "evidence": [
+        "敗軍回見",
+        "二將陣亡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_li_dian",
+      "target": "ch35_strategy_lidian_hold",
+      "type": "提出策略",
+      "description": "李典建議按兵不動並申報曹操。",
+      "evidence": [
+        "今只宜按兵不動"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_li_dian",
+      "target": "ch35_cao_ren",
+      "type": "勸諫",
+      "description": "李典勸曹仁勿輕視劉備，主張求援。",
+      "evidence": [
+        "劉備人傑也",
+        "不可輕視"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_cao_ren",
+      "target": "ch35_li_dian",
+      "type": "強令同征",
+      "description": "曹仁疑李典怯戰或懷二心，迫其同往新野。",
+      "evidence": [
+        "汝若不同去",
+        "真懷二心"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "ch35_cao_ren",
+      "target": "ch35_army_caoren_25000",
+      "type": "統領",
+      "description": "曹仁點起二萬五千軍馬再攻新野。",
+      "evidence": [
+        "點起二萬五千軍馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "ch35_li_dian",
+      "target": "ch35_army_caoren_25000",
+      "type": "被迫同行",
+      "description": "李典不得已與曹仁同起二萬五千軍。",
+      "evidence": [
+        "典不得已",
+        "與曹仁點起"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "ch35_cao_ren",
+      "target": "ch35_loc_xinye",
+      "type": "進軍",
+      "description": "曹仁渡河投新野而來。",
+      "evidence": [
+        "渡河投新野而來"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "events": [
+    {
+      "id": "ch35_event_caimao_chase",
+      "name": "蔡瑁追玄德",
+      "summary": "襄陽席上劉備不見，蔡瑁引軍西追；趙雲率三百軍追出，質問蔡瑁並尋主未得。",
+      "participants": [
+        "ch35_liu_bei",
+        "ch35_cai_mao",
+        "ch35_zhao_yun",
+        "ch35_army_zhaoyun_300"
+      ],
+      "locations": [
+        "ch35_loc_xiangyang",
+        "ch35_loc_tanxi"
+      ],
+      "evidence": [
+        "席上不見了玄德",
+        "引軍望西趕去了"
+      ]
+    },
+    {
+      "id": "ch35_event_tanxi_leap",
+      "name": "玄德躍馬檀溪",
+      "summary": "劉備騎的盧越過檀溪脫險，認為是天意，後此事成為指控蔡瑁的關鍵。",
+      "participants": [
+        "ch35_liu_bei",
+        "ch35_obj_dilu",
+        "ch35_cai_mao"
+      ],
+      "locations": [
+        "ch35_loc_tanxi"
+      ],
+      "evidence": [
+        "闊澗一躍而過",
+        "賴躍馬檀溪得脫"
+      ]
+    },
+    {
+      "id": "ch35_event_meet_shuijing",
+      "name": "玄德南漳逢水鏡",
+      "summary": "劉備往南漳途中遇牧童，入草堂拜見水鏡先生；水鏡看出其逃難，談及伏龍鳳雛。",
+      "participants": [
+        "ch35_liu_bei",
+        "ch35_mudong",
+        "ch35_shui_jing",
+        "ch35_title_fulong",
+        "ch35_title_fengchu"
+      ],
+      "locations": [
+        "ch35_loc_nanzhang",
+        "ch35_loc_shuijing_caotang"
+      ],
+      "evidence": [
+        "吾師水鏡先生",
+        "公今必逃難至此"
+      ]
+    },
+    {
+      "id": "ch35_event_yuanzhi_visit",
+      "name": "元直夜訪水鏡",
+      "summary": "夜深元直來訪水鏡，稱劉表善善惡惡徒有虛名；天明前已另投明主而去。",
+      "participants": [
+        "ch35_yuan_zhi",
+        "ch35_shui_jing",
+        "ch35_liu_biao"
+      ],
+      "locations": [
+        "ch35_loc_shuijing_caotang"
+      ],
+      "evidence": [
+        "元直何來",
+        "徒有虛名"
+      ]
+    },
+    {
+      "id": "ch35_event_return_xinye",
+      "name": "玄德歸新野",
+      "summary": "趙雲尋至水鏡莊，催劉備速回新野；途中又與關羽、張飛會合。",
+      "participants": [
+        "ch35_liu_bei",
+        "ch35_zhao_yun",
+        "ch35_guan_yu",
+        "ch35_zhang_fei"
+      ],
+      "locations": [
+        "ch35_loc_shuijing_caotang",
+        "ch35_loc_xinye"
+      ],
+      "evidence": [
+        "連夜跟問到此",
+        "投新野來"
+      ]
+    },
+    {
+      "id": "ch35_event_letter_rebuke",
+      "name": "劉表責蔡瑁",
+      "summary": "孫乾依議送書至荊州，告蔡瑁害劉備；劉表怒欲斬蔡瑁，蔡夫人求情，孫乾勸免，遂責而釋之。",
+      "participants": [
+        "ch35_sun_qian",
+        "ch35_liu_bei",
+        "ch35_liu_biao",
+        "ch35_cai_mao",
+        "ch35_cai_furen",
+        "ch35_obj_shuzha"
+      ],
+      "locations": [
+        "ch35_loc_jingzhou"
+      ],
+      "evidence": [
+        "呈上書札",
+        "命推出斬之",
+        "責而釋之"
+      ]
+    },
+    {
+      "id": "ch35_event_liuqi_appeal",
+      "name": "劉琦求教避禍",
+      "summary": "劉琦奉命赴新野請罪，席間墮淚，向劉備訴說繼母蔡氏謀害之憂。",
+      "participants": [
+        "ch35_liu_qi",
+        "ch35_liu_bei",
+        "ch35_cai_furen"
+      ],
+      "locations": [
+        "ch35_loc_xinye"
+      ],
+      "evidence": [
+        "奉命赴新野",
+        "侄無計免禍"
+      ]
+    },
+    {
+      "id": "ch35_event_shanfu_join",
+      "name": "單福投劉備",
+      "summary": "單福在新野市中行歌求見劉備，識的盧並以禳馬之說試其仁德，劉備遂拜其為軍師。",
+      "participants": [
+        "ch35_shan_fu",
+        "ch35_liu_bei",
+        "ch35_obj_dilu",
+        "ch35_strategy_dilu_test"
+      ],
+      "locations": [
+        "ch35_loc_xinye",
+        "ch35_loc_yingshang"
+      ],
+      "evidence": [
+        "行歌於市",
+        "以此言相試",
+        "拜單福為軍師"
+      ]
+    },
+    {
+      "id": "ch35_event_cao_tun_fancheng",
+      "name": "曹軍屯樊城",
+      "summary": "曹操自冀州回許都後欲取荊州，派曹仁、李典與呂曠、呂翔等領三萬兵屯樊城。",
+      "participants": [
+        "ch35_cao_cao",
+        "ch35_cao_ren",
+        "ch35_li_dian",
+        "ch35_lu_kuang",
+        "ch35_lu_xiang",
+        "ch35_army_cao_fancheng"
+      ],
+      "locations": [
+        "ch35_loc_jizhou",
+        "ch35_loc_xudu",
+        "ch35_loc_fancheng"
+      ],
+      "evidence": [
+        "有取荊州之意",
+        "領兵三萬，屯樊城"
+      ]
+    },
+    {
+      "id": "ch35_event_lu_attack",
+      "name": "二呂攻新野",
+      "summary": "呂曠、呂翔向曹仁請五千兵，欲取劉備首級以獻曹操，遂往新野廝殺。",
+      "participants": [
+        "ch35_cao_ren",
+        "ch35_lu_kuang",
+        "ch35_lu_xiang",
+        "ch35_army_lu_5000",
+        "ch35_liu_bei"
+      ],
+      "locations": [
+        "ch35_loc_fancheng",
+        "ch35_loc_xinye"
+      ],
+      "evidence": [
+        "願請精兵五千",
+        "取劉備之頭"
+      ]
+    },
+    {
+      "id": "ch35_battle_xinye_lu",
+      "name": "新野破二呂之戰",
+      "summary": "單福定三路計，劉備採納；趙雲殺呂曠，關羽截擊呂翔，張飛刺死呂翔，曹軍大敗。",
+      "participants": [
+        "ch35_liu_bei",
+        "ch35_shan_fu",
+        "ch35_zhao_yun",
+        "ch35_guan_yu",
+        "ch35_zhang_fei",
+        "ch35_lu_kuang",
+        "ch35_lu_xiang",
+        "ch35_strategy_three_routes"
+      ],
+      "locations": [
+        "ch35_loc_xinye"
+      ],
+      "evidence": [
+        "敵可破矣",
+        "一槍刺呂曠",
+        "張飛一矛刺中"
+      ]
+    },
+    {
+      "id": "ch35_event_caoren_march",
+      "name": "曹仁再征新野",
+      "summary": "二呂敗亡後，李典勸曹仁按兵申報，曹仁不從，強同李典點二萬五千軍渡河攻新野。",
+      "participants": [
+        "ch35_cao_ren",
+        "ch35_li_dian",
+        "ch35_army_caoren_25000",
+        "ch35_strategy_lidian_hold"
+      ],
+      "locations": [
+        "ch35_loc_fancheng",
+        "ch35_loc_xinye"
+      ],
+      "evidence": [
+        "此仇不可不急報",
+        "點起二萬五千軍馬",
+        "渡河投新野而來"
+      ]
+    }
+  ],
+  "notes": [
+    "本章文本只明示「元直」為水鏡友人，未直接說明其與「單福」為同一人，故分列。",
+    "伏龍、鳳雛在本章僅作賢士稱號出現，未抽取未在正文明示的本名。",
+    "篇末曹仁、李典二萬五千軍攻新野尚未分出勝負。"
+  ]
+}

@@ -1,0 +1,2098 @@
+{
+  "book": "三國演義",
+  "chapter_no": 51,
+  "chapter_title": "曹仁大戰東吳兵　孔明一氣周公瑾",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_zhugeliang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "軍師"
+      ],
+      "description": "劉備軍師，本章設計讓周瑜先攻南郡，後以兵符詐調守軍奪取南郡、荊州、襄陽。",
+      "evidence": [
+        "孔明笑曰",
+        "諸葛亮自得了南郡",
+        "吾奉軍師將令"
+      ]
+    },
+    {
+      "id": "char_liubei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "豫州"
+      ],
+      "description": "屯兵油江口，意欲取得南郡作為立足之地。",
+      "evidence": [
+        "劉玄德使孫乾",
+        "移兵屯油江口",
+        "欲得南郡"
+      ]
+    },
+    {
+      "id": "char_guanyu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長"
+      ],
+      "description": "曾犯法被孔明欲斬，後被劉備求情赦免；結尾襲取襄陽。",
+      "evidence": [
+        "欲斬雲長",
+        "雲長襲取了襄陽"
+      ]
+    },
+    {
+      "id": "char_zhangfei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [],
+      "description": "受諸葛亮安排，襲取荊州。",
+      "evidence": [
+        "卻教張飛襲了荊州"
+      ]
+    },
+    {
+      "id": "char_zhouyu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "公瑾",
+        "周郎",
+        "週郎",
+        "都督"
+      ],
+      "description": "東吳都督，主攻南郡與彝陵，先中曹操遺計，後以詐死計大破曹仁，最終被孔明先取南郡所激怒。",
+      "evidence": [
+        "周瑜收軍點將",
+        "都督自提兵至",
+        "周瑜大怒"
+      ]
+    },
+    {
+      "id": "char_lusu",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "肅"
+      ],
+      "description": "隨周瑜往見劉備、孔明，參與南郡形勢議論。",
+      "evidence": [
+        "周瑜、魯肅引兵到來",
+        "肅曰"
+      ]
+    },
+    {
+      "id": "char_sunqian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [
+        "乾"
+      ],
+      "description": "劉備使者，持薄禮向周瑜致賀。",
+      "evidence": [
+        "使孫乾來",
+        "有薄禮上獻"
+      ]
+    },
+    {
+      "id": "char_zhaoyun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "趙子龍",
+        "常山趙子龍"
+      ],
+      "description": "先迎接周瑜，後奉諸葛亮將令據守南郡。",
+      "evidence": [
+        "趙雲領數騎來接",
+        "吾乃常山趙子龍也"
+      ]
+    },
+    {
+      "id": "char_caoren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操命守南郡，與東吳多次交戰，夜劫周瑜大寨中伏後走襄陽大路。",
+      "evidence": [
+        "令曹仁守南郡",
+        "曹仁引大軍",
+        "徑投襄陽大路"
+      ]
+    },
+    {
+      "id": "char_caohong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "奉曹仁分付守彝陵，後與曹仁、曹純參與南郡作戰。",
+      "evidence": [
+        "曹洪守彝陵",
+        "曹洪出馬搦戰"
+      ]
+    },
+    {
+      "id": "char_niujin",
+      "name": "牛金",
+      "type": "character",
+      "aliases": [],
+      "description": "曹仁部將，出戰被圍後為曹仁所救，後為夜襲先鋒。",
+      "evidence": [
+        "牛金奮然進曰",
+        "令牛金為先鋒"
+      ]
+    },
+    {
+      "id": "char_jiangqin",
+      "name": "蔣欽",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，先為取南郡先鋒，初戰失利，後參與伏擊曹仁。",
+      "evidence": [
+        "乃蔣欽也",
+        "汝為先鋒",
+        "韓當、蔣欽殺來"
+      ]
+    },
+    {
+      "id": "char_xusheng",
+      "name": "徐盛",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，任蔣欽副將，救出中箭的周瑜，後參與夜伏。",
+      "evidence": [
+        "徐盛、丁奉為副將",
+        "徐盛、丁奉二人捨命救去"
+      ]
+    },
+    {
+      "id": "char_dingfeng",
+      "name": "丁奉",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，任蔣欽副將，以詐敗誘牛金入陣，並救周瑜。",
+      "evidence": [
+        "丁奉縱馬來迎",
+        "奉詐敗",
+        "丁、徐二將救得周瑜"
+      ]
+    },
+    {
+      "id": "char_ganning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [
+        "甘興乃"
+      ],
+      "description": "東吳將領，建議先取彝陵，後奪彝陵並在曹仁敗退時截殺。",
+      "evidence": [
+        "甘寧曰",
+        "寧奪了彝陵",
+        "又遇甘寧大殺"
+      ]
+    },
+    {
+      "id": "char_zhoutai",
+      "name": "周泰",
+      "type": "character",
+      "aliases": [
+        "週泰"
+      ],
+      "description": "東吳將領，突圍入彝陵救甘寧，又參與伏擊曹仁。",
+      "evidence": [
+        "週泰願往",
+        "西邊週泰、潘璋殺來"
+      ]
+    },
+    {
+      "id": "char_caochun",
+      "name": "曹純",
+      "type": "character",
+      "aliases": [],
+      "description": "曹仁之弟，接應曹仁救牛金，後與牛金救曹洪、參與夜襲後隊。",
+      "evidence": [
+        "仁弟曹純",
+        "曹純與牛金暗地引兵"
+      ]
+    },
+    {
+      "id": "char_chengpu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [
+        "程德謀"
+      ],
+      "description": "東吳將領，督後軍，周瑜受傷後守寨並與周瑜密議詐死計。",
+      "evidence": [
+        "程普督後軍",
+        "程德謀既同掌兵權",
+        "瑜密謂普"
+      ]
+    },
+    {
+      "id": "char_chenjiao",
+      "name": "陳矯",
+      "type": "character",
+      "aliases": [
+        "矯"
+      ],
+      "description": "曹仁幕下，建議速救彝陵並在南郡城中執行曹操遺計，後留守南郡。",
+      "evidence": [
+        "矯曰",
+        "陳矯在敵樓上",
+        "留陳矯領些少軍士守城"
+      ]
+    },
+    {
+      "id": "char_handang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，與曹洪交鋒，後參與夜伏曹仁。",
+      "evidence": [
+        "使韓當出馬",
+        "東邊韓當、蔣欽殺來"
+      ]
+    },
+    {
+      "id": "char_lingtong",
+      "name": "凌統",
+      "type": "character",
+      "aliases": [
+        "公績"
+      ],
+      "description": "東吳將領，在南郡敗戰中敵住曹兵，後截殺曹仁敗軍。",
+      "evidence": [
+        "幸得凌統引一軍",
+        "凌統又引一軍攔住"
+      ]
+    },
+    {
+      "id": "char_panzhang",
+      "name": "潘璋",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，周瑜怒戰時被命出戰，後參與夜伏。",
+      "evidence": [
+        "使潘璋出戰",
+        "週泰、潘璋殺來"
+      ]
+    },
+    {
+      "id": "char_chenwu",
+      "name": "陳武",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，參與北面伏擊曹仁夜襲軍。",
+      "evidence": [
+        "北邊陳武、呂蒙殺來"
+      ]
+    },
+    {
+      "id": "char_lumeng",
+      "name": "呂蒙",
+      "type": "character",
+      "aliases": [
+        "蒙"
+      ],
+      "description": "東吳將領，提出砍樹斷路奪馬之計，後參與夜伏。",
+      "evidence": [
+        "呂蒙曰",
+        "砍倒樹木",
+        "陳武、呂蒙殺來"
+      ]
+    },
+    {
+      "id": "char_xiahoudun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [
+        "惇"
+      ],
+      "description": "駐襄陽，被諸葛亮以兵符詐誘出城，致使關羽襲取襄陽。",
+      "evidence": [
+        "夏侯惇在襄陽",
+        "誘惇引兵出"
+      ]
+    },
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "丞相"
+      ],
+      "description": "臨歸時命曹仁守南郡，留下遺計助曹仁設伏。",
+      "evidence": [
+        "曹操臨歸",
+        "丞相遺計",
+        "丞相妙策如神"
+      ]
+    },
+    {
+      "id": "faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "吳",
+        "江東"
+      ],
+      "description": "周瑜所屬勢力，進兵攻取南郡、彝陵。",
+      "evidence": [
+        "吾東吳久欲",
+        "吳兵已渡漢江",
+        "回見吳侯"
+      ]
+    },
+    {
+      "id": "faction_liubei",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備、諸葛亮所領勢力，屯油江口，最後先取南郡、荊州、襄陽。",
+      "evidence": [
+        "玄德在何處",
+        "現移兵屯油江口",
+        "張飛襲了荊州"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹兵"
+      ],
+      "description": "曹操、曹仁一方，據守南郡、彝陵、襄陽等處。",
+      "evidence": [
+        "曹兵分三門而出",
+        "曹仁守南郡",
+        "夏侯惇在襄陽"
+      ]
+    },
+    {
+      "id": "loc_nanjun",
+      "name": "南郡",
+      "type": "location",
+      "aliases": [
+        "南郡城"
+      ],
+      "description": "本章爭奪核心城池，先由曹仁守，後為趙雲奉諸葛亮令取得。",
+      "evidence": [
+        "攻取南郡",
+        "曹仁在南郡",
+        "已取城了"
+      ]
+    },
+    {
+      "id": "loc_oiljiang",
+      "name": "油江口",
+      "type": "location",
+      "aliases": [
+        "油江",
+        "江口"
+      ],
+      "description": "劉備、孔明屯兵之處。",
+      "evidence": [
+        "屯油江口",
+        "孔明亦在油江否",
+        "江口屯紮"
+      ]
+    },
+    {
+      "id": "loc_hanjiang",
+      "name": "漢江",
+      "type": "location",
+      "aliases": [],
+      "description": "東吳渡江進兵，亦為周瑜所稱欲吞併之地。",
+      "evidence": [
+        "吞併漢江",
+        "吳兵已渡漢江"
+      ]
+    },
+    {
+      "id": "loc_yiling",
+      "name": "彝陵",
+      "type": "location",
+      "aliases": [
+        "彝陵城"
+      ],
+      "description": "曹洪據守之地，甘寧攻取後又被曹純、牛金圍困。",
+      "evidence": [
+        "曹洪守彝陵",
+        "寧奪了彝陵",
+        "圍了彝陵"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛亮以兵符詐調守軍後，張飛襲取。",
+      "evidence": [
+        "詐調荊州守城軍馬",
+        "張飛襲了荊州"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "夏侯惇駐守之地，關羽趁其被誘出後襲取。",
+      "evidence": [
+        "夏侯惇在襄陽",
+        "襲取了襄陽"
+      ]
+    },
+    {
+      "id": "loc_jiangdong",
+      "name": "江東",
+      "type": "location",
+      "aliases": [],
+      "description": "東吳本部方向，程普等曾議暫退回江東。",
+      "evidence": [
+        "暫回江東"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹仁欲斬周瑜首級後送往之處。",
+      "evidence": [
+        "送赴許都"
+      ]
+    },
+    {
+      "id": "loc_zhouyu_camp",
+      "name": "周瑜大寨",
+      "type": "location",
+      "aliases": [
+        "吳寨"
+      ],
+      "description": "周瑜詐死設伏之營寨，曹仁夜劫至此中計。",
+      "evidence": [
+        "徑投周瑜大寨",
+        "吳寨內"
+      ]
+    },
+    {
+      "id": "loc_yiling_small_road",
+      "name": "彝陵南僻小路",
+      "type": "location",
+      "aliases": [
+        "小路"
+      ],
+      "description": "呂蒙命砍樹阻斷的敗走之路，曹洪等棄馬而走。",
+      "evidence": [
+        "彝陵南僻小路",
+        "亂柴塞道"
+      ]
+    },
+    {
+      "id": "battle_caoren_dongwu",
+      "name": "曹仁大戰東吳兵",
+      "type": "battle",
+      "aliases": [],
+      "description": "本章總體戰事，圍繞曹仁守南郡與東吳進攻展開。",
+      "evidence": [
+        "曹仁大戰東吳兵",
+        "吳兵大敗",
+        "曹兵大敗"
+      ]
+    },
+    {
+      "id": "battle_yiling",
+      "name": "彝陵之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "甘寧取彝陵、被圍，周泰突入救援，周瑜率軍解圍並奪馬。",
+      "evidence": [
+        "寧奪了彝陵",
+        "甘寧困於彝陵",
+        "吳兵得馬五百餘匹"
+      ]
+    },
+    {
+      "id": "battle_nanjun_trap",
+      "name": "南郡陷城之戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹仁依曹操遺計假敗誘周瑜入城，弩箭陷坑並發，使周瑜中箭。",
+      "evidence": [
+        "城門大開",
+        "弓弩齊發",
+        "周瑜急勒馬回"
+      ]
+    },
+    {
+      "id": "battle_night_raid",
+      "name": "周瑜大寨夜伏",
+      "type": "battle",
+      "aliases": [
+        "曹仁劫寨中伏"
+      ],
+      "description": "周瑜詐死誘曹仁夜劫大寨，東吳四面伏兵大破曹軍。",
+      "evidence": [
+        "今晚便去劫寨",
+        "情知中計",
+        "四下砲聲齊發"
+      ]
+    },
+    {
+      "id": "title_wuhou",
+      "name": "吳侯",
+      "type": "title",
+      "aliases": [],
+      "description": "東吳君主稱號，周瑜向其申報戰功。",
+      "evidence": [
+        "申報吳侯",
+        "回見吳侯"
+      ]
+    },
+    {
+      "id": "title_dudu",
+      "name": "都督",
+      "type": "title",
+      "aliases": [
+        "總督"
+      ],
+      "description": "周瑜在東吳軍中的統帥稱號。",
+      "evidence": [
+        "總督作賀",
+        "都督自提兵至"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "諸葛亮在劉備軍中的稱號，趙雲奉其將令取南郡。",
+      "evidence": [
+        "奉軍師將令"
+      ]
+    },
+    {
+      "id": "title_yuzhou",
+      "name": "豫州",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜稱呼劉備的官號。",
+      "evidence": [
+        "豫州移兵在此"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操稱號，曹仁、陳矯均稱其遺計。",
+      "evidence": [
+        "丞相遺計",
+        "丞相妙策如神"
+      ]
+    },
+    {
+      "id": "title_xianfeng",
+      "name": "先鋒",
+      "type": "title",
+      "aliases": [],
+      "description": "軍中前部將領職責，蔣欽與牛金在不同階段被任為先鋒。",
+      "evidence": [
+        "汝為先鋒",
+        "牛金為先鋒"
+      ]
+    },
+    {
+      "id": "title_fujiang",
+      "name": "副將",
+      "type": "title",
+      "aliases": [],
+      "description": "徐盛、丁奉輔助蔣欽先渡江的職務。",
+      "evidence": [
+        "徐盛、丁奉為副將"
+      ]
+    },
+    {
+      "id": "obj_gift",
+      "name": "薄禮",
+      "type": "object",
+      "aliases": [
+        "禮物"
+      ],
+      "description": "劉備遣孫乾獻給周瑜的賀禮。",
+      "evidence": [
+        "有薄禮上獻",
+        "瑜收了禮物"
+      ]
+    },
+    {
+      "id": "obj_caocao_plan",
+      "name": "曹操遺計",
+      "type": "object",
+      "aliases": [
+        "丞相遺計",
+        "書"
+      ],
+      "description": "曹操留給曹仁的計策書，被拆看後用於南郡誘敵。",
+      "evidence": [
+        "拆丞相遺計觀之",
+        "遂拆書觀之"
+      ]
+    },
+    {
+      "id": "obj_bingfu",
+      "name": "兵符",
+      "type": "object",
+      "aliases": [],
+      "description": "諸葛亮用來詐調荊州、襄陽守軍的軍令憑信。",
+      "evidence": [
+        "遂用兵符",
+        "詐欺兵符求救"
+      ]
+    },
+    {
+      "id": "obj_poison_arrow",
+      "name": "毒弩箭",
+      "type": "object",
+      "aliases": [
+        "弩箭",
+        "箭頭"
+      ],
+      "description": "南郡城中射中周瑜左肋的毒箭。",
+      "evidence": [
+        "被一弩箭",
+        "箭頭上有毒"
+      ]
+    },
+    {
+      "id": "obj_jinchuangyao",
+      "name": "金瘡藥",
+      "type": "object",
+      "aliases": [],
+      "description": "醫者為周瑜箭傷敷用的藥。",
+      "evidence": [
+        "將金瘡藥敷掩瘡口"
+      ]
+    },
+    {
+      "id": "obj_captured_horses",
+      "name": "馬五百餘匹",
+      "type": "object",
+      "aliases": [
+        "馬"
+      ],
+      "description": "曹洪、曹純、牛金敗走受阻後棄下，被吳兵所得。",
+      "evidence": [
+        "盡皆棄馬而走",
+        "得馬五百餘匹"
+      ]
+    },
+    {
+      "id": "strategy_kongming_wait",
+      "name": "孔明坐收南郡之計",
+      "type": "strategy",
+      "aliases": [
+        "先讓東吳取南郡"
+      ],
+      "description": "諸葛亮讓周瑜先攻，待其廝殺後使劉備得南郡。",
+      "evidence": [
+        "先讓東吳去取",
+        "盡著周瑜去廝殺"
+      ]
+    },
+    {
+      "id": "strategy_horns",
+      "name": "掎角之勢",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹仁令曹洪守彝陵，與南郡互相牽制支援。",
+      "evidence": [
+        "以為掎角之勢"
+      ]
+    },
+    {
+      "id": "strategy_hold_defense",
+      "name": "堅守勿戰",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹仁面對吳兵渡江時提出的守城策略。",
+      "evidence": [
+        "堅守勿戰為上"
+      ]
+    },
+    {
+      "id": "strategy_dingfeng_feign",
+      "name": "丁奉詐敗誘敵",
+      "type": "strategy",
+      "aliases": [],
+      "description": "丁奉假敗引牛金入陣，再圍困之。",
+      "evidence": [
+        "奉詐敗",
+        "圍牛金於陣中"
+      ]
+    },
+    {
+      "id": "strategy_cut_road",
+      "name": "呂蒙斷路奪馬計",
+      "type": "strategy",
+      "aliases": [
+        "砍樹塞道"
+      ],
+      "description": "呂蒙命砍倒樹木堵塞彝陵小路，使敗軍棄馬。",
+      "evidence": [
+        "砍倒樹木",
+        "馬不能行"
+      ]
+    },
+    {
+      "id": "strategy_caocao_trap",
+      "name": "曹操南郡誘敵計",
+      "type": "strategy",
+      "aliases": [
+        "南郡陷城計"
+      ],
+      "description": "曹仁依曹操遺計假示空城與敗走，引周瑜入甕城中伏。",
+      "evidence": [
+        "丞相妙策如神",
+        "兩邊弓弩齊發"
+      ]
+    },
+    {
+      "id": "strategy_zhouyu_fake_death",
+      "name": "周瑜詐死誘劫寨計",
+      "type": "strategy",
+      "aliases": [
+        "掛孝誘敵"
+      ],
+      "description": "周瑜假稱箭瘡發作而死，誘曹仁夜劫大寨。",
+      "evidence": [
+        "此吾之計也",
+        "箭瘡大發而死",
+        "各寨盡皆掛孝"
+      ]
+    },
+    {
+      "id": "strategy_bingfu_deception",
+      "name": "兵符詐調計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "諸葛亮用兵符詐調守軍救援，趁空襲取荊州、襄陽。",
+      "evidence": [
+        "詐調荊州守城軍馬",
+        "詐欺兵符求救"
+      ]
+    },
+    {
+      "id": "army_dongwu",
+      "name": "吳兵",
+      "type": "army",
+      "aliases": [
+        "吳軍",
+        "東吳兵"
+      ],
+      "description": "周瑜統率的東吳軍隊。",
+      "evidence": [
+        "吳兵已渡漢江",
+        "吳軍敗走",
+        "吳兵大敗"
+      ]
+    },
+    {
+      "id": "army_cao",
+      "name": "曹兵",
+      "type": "army",
+      "aliases": [
+        "曹軍"
+      ],
+      "description": "曹仁統率的曹操軍隊。",
+      "evidence": [
+        "曹兵迎之",
+        "曹軍大敗",
+        "曹兵衝來"
+      ]
+    },
+    {
+      "id": "army_liubei",
+      "name": "劉備軍馬",
+      "type": "army",
+      "aliases": [
+        "玄德軍馬"
+      ],
+      "description": "劉備屯於油江口、江口的兵馬。",
+      "evidence": [
+        "移兵屯油江口",
+        "江口屯紮"
+      ]
+    },
+    {
+      "id": "army_elite_5000",
+      "name": "五千精銳軍馬",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜撥給蔣欽先渡江取南郡的前部兵馬。",
+      "evidence": [
+        "撥五千精銳軍馬"
+      ]
+    },
+    {
+      "id": "army_ganning_3000",
+      "name": "甘寧三千兵",
+      "type": "army",
+      "aliases": [
+        "精兵三千"
+      ],
+      "description": "甘寧請領攻取彝陵的三千精兵。",
+      "evidence": [
+        "某願以精兵三千",
+        "甘寧領三千兵"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_liubei",
+      "target": "char_guanyu",
+      "type": "結義",
+      "description": "劉備以昔日結義同生死為由，為關羽求情。",
+      "evidence": [
+        "昔吾三人結義時",
+        "誓同生死"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "char_guanyu",
+      "type": "欲斬後饒恕",
+      "description": "孔明欲斬雲長，因劉備求情而饒之。",
+      "evidence": [
+        "欲斬雲長",
+        "孔明方才饒了"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "char_guanyu",
+      "type": "救援求情",
+      "description": "劉備請孔明記過，讓關羽將功贖罪。",
+      "evidence": [
+        "望權記過",
+        "容將功贖罪"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "title_wuhou",
+      "type": "申報戰功",
+      "description": "周瑜點將敘功後申報吳侯。",
+      "evidence": [
+        "各各敘功",
+        "申報吳侯"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_dongwu",
+      "type": "統領",
+      "description": "周瑜收軍點將並率吳兵進攻南郡。",
+      "evidence": [
+        "周瑜收軍點將",
+        "進兵攻取南郡"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_dongwu",
+      "target": "faction_dongwu",
+      "type": "隸屬",
+      "description": "吳兵屬於東吳勢力。",
+      "evidence": [
+        "吾東吳久欲",
+        "吳兵已渡漢江"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_cao",
+      "target": "faction_cao",
+      "type": "隸屬",
+      "description": "曹兵屬於曹操勢力。",
+      "evidence": [
+        "曹兵",
+        "曹操臨歸"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "army_liubei",
+      "target": "faction_liubei",
+      "type": "隸屬",
+      "description": "劉備軍馬屬於劉備一方。",
+      "evidence": [
+        "玄德在何處",
+        "現移兵屯油江口"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sunqian",
+      "target": "char_zhouyu",
+      "type": "出使致賀",
+      "description": "孫乾奉劉備命來向周瑜致賀。",
+      "evidence": [
+        "使孫乾來",
+        "作賀"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "char_sunqian",
+      "type": "派遣",
+      "description": "劉備派孫乾向周瑜送禮。",
+      "evidence": [
+        "主公特命乾",
+        "薄禮上獻"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sunqian",
+      "target": "obj_gift",
+      "type": "贈送",
+      "description": "孫乾代表劉備獻薄禮給周瑜。",
+      "evidence": [
+        "有薄禮上獻"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "loc_oiljiang",
+      "type": "屯兵",
+      "description": "劉備移兵屯於油江口。",
+      "evidence": [
+        "現移兵屯油江口"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "loc_oiljiang",
+      "type": "同屯",
+      "description": "孔明與劉備同在油江。",
+      "evidence": [
+        "孔明與主公同在油江"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "loc_nanjun",
+      "type": "攻取目標",
+      "description": "周瑜進兵攻取南郡。",
+      "evidence": [
+        "遂進兵攻取南郡"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "loc_nanjun",
+      "type": "欲取",
+      "description": "劉備表明若周瑜不取南郡，自己必取。",
+      "evidence": [
+        "若都督不取",
+        "備必取之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_liubei",
+      "type": "猜疑",
+      "description": "周瑜認為劉備屯油江是為取南郡。",
+      "evidence": [
+        "必有取南郡之意"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_lusu",
+      "type": "同行",
+      "description": "周瑜與魯肅引兵去見劉備、孔明。",
+      "evidence": [
+        "周瑜、魯肅引兵到來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "char_zhouyu",
+      "type": "迎接",
+      "description": "孔明使趙雲領數騎接周瑜。",
+      "evidence": [
+        "趙雲領數騎來接"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "strategy_kongming_wait",
+      "type": "制定",
+      "description": "孔明設計讓周瑜先與曹仁廝殺，再使劉備得南郡。",
+      "evidence": [
+        "計將安出",
+        "只須如此如此"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strategy_kongming_wait",
+      "target": "char_liubei",
+      "type": "服務於",
+      "description": "該計目的在使劉備坐得南郡。",
+      "evidence": [
+        "教主公在南郡城中高坐"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_jiangqin",
+      "type": "任命先鋒",
+      "description": "周瑜命蔣欽為取南郡先鋒。",
+      "evidence": [
+        "汝為先鋒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_jiangqin",
+      "target": "title_xianfeng",
+      "type": "擔任",
+      "description": "蔣欽擔任先鋒。",
+      "evidence": [
+        "汝為先鋒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xusheng",
+      "target": "title_fujiang",
+      "type": "擔任",
+      "description": "徐盛為副將。",
+      "evidence": [
+        "徐盛、丁奉為副將"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dingfeng",
+      "target": "title_fujiang",
+      "type": "擔任",
+      "description": "丁奉為副將。",
+      "evidence": [
+        "徐盛、丁奉為副將"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_elite_5000",
+      "target": "char_jiangqin",
+      "type": "受其率領",
+      "description": "五千精銳軍馬由蔣欽先渡江。",
+      "evidence": [
+        "撥五千精銳軍馬",
+        "先渡江"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_caoren",
+      "type": "任命守城",
+      "description": "曹操臨歸命曹仁守南郡等處。",
+      "evidence": [
+        "令曹仁守南郡等處"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caoren",
+      "target": "loc_nanjun",
+      "type": "據守",
+      "description": "曹仁在南郡守城。",
+      "evidence": [
+        "曹仁在南郡"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caoren",
+      "target": "char_caohong",
+      "type": "分付守城",
+      "description": "曹仁分付曹洪守彝陵。",
+      "evidence": [
+        "分付曹洪守彝陵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caohong",
+      "target": "loc_yiling",
+      "type": "據守",
+      "description": "曹洪守彝陵以配合南郡。",
+      "evidence": [
+        "曹洪守彝陵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_horns",
+      "target": "loc_nanjun",
+      "type": "防守支點",
+      "description": "南郡為掎角之勢的一端。",
+      "evidence": [
+        "曹仁在南郡",
+        "掎角之勢"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strategy_horns",
+      "target": "loc_yiling",
+      "type": "防守支點",
+      "description": "彝陵為掎角之勢的一端。",
+      "evidence": [
+        "曹洪守彝陵",
+        "掎角之勢"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caoren",
+      "target": "strategy_hold_defense",
+      "type": "主張",
+      "description": "曹仁主張面對吳兵堅守不戰。",
+      "evidence": [
+        "堅守勿戰為上"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_niujin",
+      "target": "army_cao",
+      "type": "率軍出戰",
+      "description": "牛金請精兵出城決戰。",
+      "evidence": [
+        "願藉精兵五百",
+        "引軍出戰"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dingfeng",
+      "target": "strategy_dingfeng_feign",
+      "type": "執行",
+      "description": "丁奉詐敗，引牛金入陣。",
+      "evidence": [
+        "奉詐敗",
+        "牛金引軍追趕"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_dingfeng_feign",
+      "target": "char_niujin",
+      "type": "圍困",
+      "description": "詐敗使牛金被圍於陣中。",
+      "evidence": [
+        "圍牛金於陣中"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caoren",
+      "target": "char_niujin",
+      "type": "救援",
+      "description": "曹仁殺入吳陣救出牛金。",
+      "evidence": [
+        "殺到垓心",
+        "救牛金"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caochun",
+      "target": "char_caoren",
+      "type": "接應",
+      "description": "曹純引兵接應曹仁與牛金。",
+      "evidence": [
+        "亦引兵接應"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ganning",
+      "target": "loc_yiling",
+      "type": "建議攻取",
+      "description": "甘寧建議先取彝陵，再取南郡。",
+      "evidence": [
+        "徑取彝陵",
+        "然後可取南郡"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_ganning_3000",
+      "type": "撥兵",
+      "description": "周瑜使甘寧領三千兵攻彝陵。",
+      "evidence": [
+        "教甘寧領三千兵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_ganning_3000",
+      "target": "char_ganning",
+      "type": "受其率領",
+      "description": "三千精兵由甘寧率領。",
+      "evidence": [
+        "甘寧領三千兵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ganning",
+      "target": "char_caohong",
+      "type": "交戰擊敗",
+      "description": "甘寧與曹洪交鋒，曹洪敗走。",
+      "evidence": [
+        "洪出與甘寧交鋒",
+        "洪敗走"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ganning",
+      "target": "loc_yiling",
+      "type": "奪取",
+      "description": "甘寧奪了彝陵。",
+      "evidence": [
+        "寧奪了彝陵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caochun",
+      "target": "char_caohong",
+      "type": "救援",
+      "description": "曹純受命暗地引兵救曹洪。",
+      "evidence": [
+        "曹純與牛金暗地引兵救曹洪"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_niujin",
+      "target": "char_caohong",
+      "type": "救援",
+      "description": "牛金與曹純同去救曹洪。",
+      "evidence": [
+        "曹純與牛金暗地引兵救曹洪"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhoutai",
+      "target": "char_ganning",
+      "type": "救援",
+      "description": "周泰突入曹軍中到城下救甘寧。",
+      "evidence": [
+        "週泰願往",
+        "徑到城下"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lumeng",
+      "target": "strategy_cut_road",
+      "type": "提出",
+      "description": "呂蒙提議砍樹斷路以奪馬。",
+      "evidence": [
+        "呂蒙曰",
+        "砍倒樹木"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "strategy_cut_road",
+      "type": "採納",
+      "description": "周瑜聽從呂蒙之計，差軍砍樹塞道。",
+      "evidence": [
+        "瑜從之",
+        "差軍去"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_cut_road",
+      "target": "obj_captured_horses",
+      "type": "造成取得",
+      "description": "斷路使曹軍棄馬，吳兵得馬五百餘匹。",
+      "evidence": [
+        "馬不能行",
+        "得馬五百餘匹"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caoren",
+      "target": "obj_caocao_plan",
+      "type": "拆閱",
+      "description": "曹仁拆看曹操留下的遺計。",
+      "evidence": [
+        "遂拆書觀之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "obj_caocao_plan",
+      "target": "strategy_caocao_trap",
+      "type": "承載計策",
+      "description": "曹操遺計內容被用作南郡誘敵陷城。",
+      "evidence": [
+        "丞相妙策如神",
+        "弓弩齊發"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caoren",
+      "target": "strategy_caocao_trap",
+      "type": "執行",
+      "description": "曹仁依計分三門出兵假敗，引周瑜入城。",
+      "evidence": [
+        "軍分三門而出",
+        "仁敗走"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_chenjiao",
+      "target": "strategy_caocao_trap",
+      "type": "配合執行",
+      "description": "陳矯在敵樓上見周瑜入城，稱曹操妙策。",
+      "evidence": [
+        "陳矯在敵樓上",
+        "丞相妙策如神"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_caocao_trap",
+      "target": "char_zhouyu",
+      "type": "使中伏受傷",
+      "description": "南郡陷城計使周瑜中毒弩箭落馬。",
+      "evidence": [
+        "正射中左助",
+        "翻身落馬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "obj_poison_arrow",
+      "target": "char_zhouyu",
+      "type": "射傷",
+      "description": "毒弩箭射中周瑜左肋。",
+      "evidence": [
+        "被一弩箭",
+        "箭頭上有毒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xusheng",
+      "target": "char_zhouyu",
+      "type": "救援",
+      "description": "徐盛與丁奉捨命救走周瑜。",
+      "evidence": [
+        "徐盛、丁奉二人捨命救去"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dingfeng",
+      "target": "char_zhouyu",
+      "type": "救援",
+      "description": "丁奉與徐盛救得周瑜回帳。",
+      "evidence": [
+        "丁、徐二將救得周瑜"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lingtong",
+      "target": "army_dongwu",
+      "type": "救援",
+      "description": "凌統引軍敵住曹兵，掩護吳軍收敗。",
+      "evidence": [
+        "凌統引一軍",
+        "敵住曹兵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "obj_jinchuangyao",
+      "target": "char_zhouyu",
+      "type": "治療",
+      "description": "醫者拔箭後以金瘡藥敷周瑜傷口。",
+      "evidence": [
+        "金瘡藥敷掩瘡口"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_chengpu",
+      "target": "army_dongwu",
+      "type": "約束守寨",
+      "description": "程普令三軍緊守各寨，不准輕出。",
+      "evidence": [
+        "三軍緊守各寨"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "strategy_zhouyu_fake_death",
+      "type": "制定",
+      "description": "周瑜吐血墜馬後密告程普這是自己的計策。",
+      "evidence": [
+        "此吾之計也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_chengpu",
+      "target": "strategy_zhouyu_fake_death",
+      "type": "知情配合",
+      "description": "周瑜密謂程普，之後吳寨掛孝傳死訊。",
+      "evidence": [
+        "瑜密謂普",
+        "各寨盡皆掛孝"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strategy_zhouyu_fake_death",
+      "target": "char_caoren",
+      "type": "誘敵",
+      "description": "詐死消息誘曹仁決定夜劫周瑜大寨。",
+      "evidence": [
+        "歸寨即死",
+        "今晚便去劫寨"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caoren",
+      "target": "char_niujin",
+      "type": "任命先鋒",
+      "description": "曹仁夜襲時令牛金為先鋒。",
+      "evidence": [
+        "令牛金為先鋒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_niujin",
+      "target": "title_xianfeng",
+      "type": "擔任",
+      "description": "牛金擔任曹仁夜襲先鋒。",
+      "evidence": [
+        "牛金為先鋒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caoren",
+      "target": "char_chenjiao",
+      "type": "留守命令",
+      "description": "曹仁出劫寨時留陳矯守南郡。",
+      "evidence": [
+        "留陳矯領些少軍士守城"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "battle_night_raid",
+      "target": "char_caoren",
+      "type": "使敗走",
+      "description": "曹仁夜劫中伏，只引少數騎殺出重圍。",
+      "evidence": [
+        "曹兵大敗",
+        "殺出重圍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_handang",
+      "target": "battle_night_raid",
+      "type": "參與伏擊",
+      "description": "韓當自東邊伏擊曹軍。",
+      "evidence": [
+        "東邊韓當、蔣欽殺來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_jiangqin",
+      "target": "battle_night_raid",
+      "type": "參與伏擊",
+      "description": "蔣欽自東邊伏擊曹軍。",
+      "evidence": [
+        "東邊韓當、蔣欽殺來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhoutai",
+      "target": "battle_night_raid",
+      "type": "參與伏擊",
+      "description": "周泰自西邊伏擊曹軍。",
+      "evidence": [
+        "西邊週泰、潘璋殺來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_panzhang",
+      "target": "battle_night_raid",
+      "type": "參與伏擊",
+      "description": "潘璋自西邊伏擊曹軍。",
+      "evidence": [
+        "西邊週泰、潘璋殺來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xusheng",
+      "target": "battle_night_raid",
+      "type": "參與伏擊",
+      "description": "徐盛自南邊伏擊曹軍。",
+      "evidence": [
+        "南邊徐盛、丁奉殺來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dingfeng",
+      "target": "battle_night_raid",
+      "type": "參與伏擊",
+      "description": "丁奉自南邊伏擊曹軍。",
+      "evidence": [
+        "南邊徐盛、丁奉殺來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_chenwu",
+      "target": "battle_night_raid",
+      "type": "參與伏擊",
+      "description": "陳武自北邊伏擊曹軍。",
+      "evidence": [
+        "北邊陳武、呂蒙殺來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lumeng",
+      "target": "battle_night_raid",
+      "type": "參與伏擊",
+      "description": "呂蒙自北邊伏擊曹軍。",
+      "evidence": [
+        "北邊陳武、呂蒙殺來"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_lingtong",
+      "target": "char_caoren",
+      "type": "攔截",
+      "description": "凌統在曹仁敗走近南郡時攔路截殺。",
+      "evidence": [
+        "攔住去路",
+        "截殺一陣"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ganning",
+      "target": "char_caoren",
+      "type": "追擊",
+      "description": "甘寧又截殺曹仁敗軍。",
+      "evidence": [
+        "又遇甘寧大殺"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caoren",
+      "target": "loc_xiangyang",
+      "type": "敗走方向",
+      "description": "曹仁不敢回南郡，往襄陽大路而行。",
+      "evidence": [
+        "徑投襄陽大路而行"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "loc_nanjun",
+      "type": "據守",
+      "description": "趙雲在南郡城上告知周瑜已取城。",
+      "evidence": [
+        "已取城了",
+        "常山趙子龍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "char_zhugeliang",
+      "type": "奉令",
+      "description": "趙雲稱自己奉軍師將令取城。",
+      "evidence": [
+        "奉軍師將令"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "obj_bingfu",
+      "type": "使用",
+      "description": "諸葛亮用兵符詐調守軍。",
+      "evidence": [
+        "遂用兵符"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "strategy_bingfu_deception",
+      "type": "制定執行",
+      "description": "諸葛亮以兵符詐調荊州、襄陽守軍。",
+      "evidence": [
+        "詐調荊州守城軍馬",
+        "詐欺兵符求救"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_bingfu_deception",
+      "target": "loc_jingzhou",
+      "type": "導致失守",
+      "description": "詐調荊州守軍，使張飛得以襲取。",
+      "evidence": [
+        "詐調荊州守城軍馬",
+        "張飛襲了荊州"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhangfei",
+      "target": "loc_jingzhou",
+      "type": "襲取",
+      "description": "張飛襲取荊州。",
+      "evidence": [
+        "張飛襲了荊州"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_bingfu_deception",
+      "target": "char_xiahoudun",
+      "type": "詐誘",
+      "description": "兵符詐欺誘夏侯惇引兵出襄陽。",
+      "evidence": [
+        "誘惇引兵出"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guanyu",
+      "target": "loc_xiangyang",
+      "type": "襲取",
+      "description": "關羽趁夏侯惇出城後襲取襄陽。",
+      "evidence": [
+        "雲長襲取了襄陽"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "loc_jingzhou",
+      "type": "計劃攻取",
+      "description": "周瑜得知南郡已失後，欲使甘寧取荊州。",
+      "evidence": [
+        "使甘寧引數千軍馬",
+        "徑取荊州"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "loc_xiangyang",
+      "type": "計劃攻取",
+      "description": "周瑜欲使凌統取襄陽。",
+      "evidence": [
+        "凌統引數千軍馬",
+        "徑取襄陽"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "char_zhouyu",
+      "type": "挫敗激怒",
+      "description": "諸葛亮先取南郡、荊州、襄陽，使周瑜大怒。",
+      "evidence": [
+        "周瑜大怒",
+        "諸葛亮自得了南郡"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "title_dudu",
+      "type": "擔任",
+      "description": "周瑜以都督身份統兵。",
+      "evidence": [
+        "都督自提兵至"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "title_junshi",
+      "type": "擔任",
+      "description": "諸葛亮被趙雲稱為軍師。",
+      "evidence": [
+        "奉軍師將令"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "title_yuzhou",
+      "type": "被稱為",
+      "description": "周瑜稱劉備為豫州。",
+      "evidence": [
+        "豫州移兵在此"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caocao",
+      "target": "title_chengxiang",
+      "type": "被稱為",
+      "description": "曹操的遺計被曹仁、陳矯稱為丞相遺計。",
+      "evidence": [
+        "曹操臨歸",
+        "丞相遺計"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "events": [
+    {
+      "id": "event_pardon_guanyu",
+      "name": "孔明饒雲長",
+      "summary": "孔明欲斬雲長，劉備以結義誓言求情，孔明遂饒之。",
+      "participants": [
+        "char_zhugeliang",
+        "char_liubei",
+        "char_guanyu"
+      ],
+      "locations": [],
+      "evidence": [
+        "欲斬雲長",
+        "孔明方才饒了"
+      ]
+    },
+    {
+      "id": "event_zhouyu_attack_nanjun",
+      "name": "周瑜進兵南郡",
+      "summary": "周瑜收軍點將、犒賞三軍後，進兵攻取南郡。",
+      "participants": [
+        "char_zhouyu",
+        "army_dongwu",
+        "title_wuhou"
+      ],
+      "locations": [
+        "loc_nanjun"
+      ],
+      "evidence": [
+        "大犒三軍",
+        "進兵攻取南郡"
+      ]
+    },
+    {
+      "id": "event_oiljiang_meeting",
+      "name": "油江口論南郡",
+      "summary": "孫乾送禮後，周瑜、魯肅往見劉備、孔明，雙方試探南郡歸屬。",
+      "participants": [
+        "char_sunqian",
+        "char_zhouyu",
+        "char_lusu",
+        "char_liubei",
+        "char_zhugeliang",
+        "char_zhaoyun"
+      ],
+      "locations": [
+        "loc_oiljiang",
+        "loc_nanjun"
+      ],
+      "evidence": [
+        "移兵屯油江口",
+        "莫非有取南郡之意"
+      ]
+    },
+    {
+      "id": "event_jiangqin_vanguard",
+      "name": "蔣欽先渡漢江",
+      "summary": "周瑜命蔣欽為先鋒，徐盛、丁奉為副將，率五千精銳先渡江。",
+      "participants": [
+        "char_zhouyu",
+        "char_jiangqin",
+        "char_xusheng",
+        "char_dingfeng",
+        "army_elite_5000"
+      ],
+      "locations": [
+        "loc_hanjiang",
+        "loc_nanjun"
+      ],
+      "evidence": [
+        "汝為先鋒",
+        "先渡江"
+      ]
+    },
+    {
+      "id": "event_niujin_trapped",
+      "name": "牛金被圍曹仁救出",
+      "summary": "丁奉詐敗誘牛金入陣，曹仁披甲出城，殺入吳陣救出牛金與餘騎。",
+      "participants": [
+        "char_niujin",
+        "char_dingfeng",
+        "char_caoren",
+        "char_xusheng",
+        "char_jiangqin",
+        "char_caochun"
+      ],
+      "locations": [
+        "loc_nanjun"
+      ],
+      "evidence": [
+        "奉詐敗",
+        "救牛金",
+        "曹仁得勝而回"
+      ]
+    },
+    {
+      "id": "event_ganning_takes_yiling",
+      "name": "甘寧奪彝陵",
+      "summary": "甘寧請精兵三千先取彝陵，與曹洪交鋒二十餘合後奪城。",
+      "participants": [
+        "char_ganning",
+        "char_zhouyu",
+        "char_caohong",
+        "army_ganning_3000"
+      ],
+      "locations": [
+        "loc_yiling"
+      ],
+      "evidence": [
+        "精兵三千",
+        "洪敗走",
+        "寧奪了彝陵"
+      ]
+    },
+    {
+      "id": "event_yiling_rescue",
+      "name": "彝陵解圍奪馬",
+      "summary": "曹純、牛金圍彝陵；周泰突入救甘寧，呂蒙斷小路，吳軍破曹兵並得馬五百餘匹。",
+      "participants": [
+        "char_ganning",
+        "char_zhoutai",
+        "char_zhouyu",
+        "char_lumeng",
+        "char_caohong",
+        "char_caochun",
+        "char_niujin",
+        "army_dongwu",
+        "army_cao"
+      ],
+      "locations": [
+        "loc_yiling",
+        "loc_yiling_small_road"
+      ],
+      "evidence": [
+        "甘寧困於彝陵",
+        "砍倒樹木",
+        "得馬五百餘匹"
+      ]
+    },
+    {
+      "id": "event_nanjun_trap",
+      "name": "南郡中伏周瑜中箭",
+      "summary": "曹仁依曹操遺計假敗誘周瑜入南郡，城中弓弩陷坑齊發，周瑜中毒箭落馬。",
+      "participants": [
+        "char_caoren",
+        "char_caocao",
+        "char_chenjiao",
+        "char_zhouyu",
+        "char_xusheng",
+        "char_dingfeng",
+        "char_lingtong"
+      ],
+      "locations": [
+        "loc_nanjun"
+      ],
+      "evidence": [
+        "丞相妙策如神",
+        "弓弩齊發",
+        "箭頭上有毒"
+      ]
+    },
+    {
+      "id": "event_zhouyu_fake_death",
+      "name": "周瑜詐死誘曹仁",
+      "summary": "周瑜假作箭瘡發作吐血墜馬，傳出死訊並掛孝，誘曹仁夜劫大寨。",
+      "participants": [
+        "char_zhouyu",
+        "char_chengpu",
+        "char_caoren",
+        "char_chenjiao"
+      ],
+      "locations": [
+        "loc_zhouyu_camp",
+        "loc_nanjun"
+      ],
+      "evidence": [
+        "此吾之計也",
+        "箭瘡大發而死",
+        "今晚便去劫寨"
+      ]
+    },
+    {
+      "id": "event_caoren_night_raid",
+      "name": "曹仁夜劫大寨中伏",
+      "summary": "曹仁率牛金、曹洪、曹純夜劫周瑜大寨，遭東吳四面伏兵大破，敗走襄陽大路。",
+      "participants": [
+        "char_caoren",
+        "char_niujin",
+        "char_caohong",
+        "char_caochun",
+        "char_handang",
+        "char_jiangqin",
+        "char_zhoutai",
+        "char_panzhang",
+        "char_xusheng",
+        "char_dingfeng",
+        "char_chenwu",
+        "char_lumeng",
+        "char_lingtong",
+        "char_ganning"
+      ],
+      "locations": [
+        "loc_zhouyu_camp",
+        "loc_nanjun",
+        "loc_xiangyang"
+      ],
+      "evidence": [
+        "徑投周瑜大寨",
+        "四下砲聲齊發",
+        "徑投襄陽大路"
+      ]
+    },
+    {
+      "id": "event_zhaoyun_nanjun",
+      "name": "趙雲奉令取南郡",
+      "summary": "周瑜破曹後到南郡城下，趙雲在城上稱奉軍師將令已取城。",
+      "participants": [
+        "char_zhaoyun",
+        "char_zhugeliang",
+        "char_zhouyu"
+      ],
+      "locations": [
+        "loc_nanjun"
+      ],
+      "evidence": [
+        "奉軍師將令",
+        "已取城了"
+      ]
+    },
+    {
+      "id": "event_zhangfei_jingzhou",
+      "name": "張飛襲荊州",
+      "summary": "諸葛亮用兵符詐調荊州守城軍馬來救，張飛乘機襲取荊州。",
+      "participants": [
+        "char_zhugeliang",
+        "char_zhangfei"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "用兵符",
+        "張飛襲了荊州"
+      ]
+    },
+    {
+      "id": "event_guanyu_xiangyang",
+      "name": "雲長襲襄陽",
+      "summary": "諸葛亮以兵符詐欺夏侯惇求救，誘其引兵出襄陽，關羽遂襲取襄陽。",
+      "participants": [
+        "char_zhugeliang",
+        "char_xiahoudun",
+        "char_guanyu"
+      ],
+      "locations": [
+        "loc_xiangyang"
+      ],
+      "evidence": [
+        "夏侯惇在襄陽",
+        "誘惇引兵出",
+        "雲長襲取了襄陽"
+      ]
+    }
+  ],
+  "notes": [
+    "正文同時出現周泰與週泰，已以周泰為主名、週泰列入 aliases。",
+    "孫權姓名未在本章正文直接出現，故以原文稱號吳侯作為 title 實體。",
+    "只抽取本章文字明示或可由近句直接支持的關係。"
+  ]
+}

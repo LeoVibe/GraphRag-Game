@@ -1,0 +1,2512 @@
+{
+  "book": "三國演義",
+  "chapter_no": 40,
+  "chapter_title": "蔡夫人議獻荊州　諸葛亮火燒新野",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_liubei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "使君"
+      ],
+      "description": "新野主將，受劉表託孤，拒絕奪取荊州，後依諸葛亮之計退往樊城。",
+      "evidence": [
+        "玄德問孔明求拒曹兵之計",
+        "不如走樊城以避之"
+      ]
+    },
+    {
+      "id": "char_zhugeliang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明"
+      ],
+      "description": "劉備軍師，先建議取荊州，後部署撤民、疑兵、火攻與水攻。",
+      "evidence": [
+        "孔明曰",
+        "一面與孔明商議拒敵之計"
+      ]
+    },
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹公",
+        "丞相"
+      ],
+      "description": "率大軍南征，接納劉琮降書，派諸將攻新野。",
+      "evidence": [
+        "傳令起大兵五十萬",
+        "宋忠...獻上降書"
+      ]
+    },
+    {
+      "id": "char_liubiao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "劉景升",
+        "景升"
+      ],
+      "description": "荊州之主，病危時託孤於劉備，後病死。",
+      "evidence": [
+        "劉景升病在危篤",
+        "特託孤於賢弟"
+      ]
+    },
+    {
+      "id": "char_caifuren",
+      "name": "蔡夫人",
+      "type": "character",
+      "aliases": [
+        "蔡氏"
+      ],
+      "description": "劉表夫人，與蔡瑁、張允議立劉琮並獻荊州。",
+      "evidence": [
+        "蔡夫人與蔡瑁、張允商議",
+        "蔡夫人從屏後轉出"
+      ]
+    },
+    {
+      "id": "char_caimao",
+      "name": "蔡瑁",
+      "type": "character",
+      "aliases": [],
+      "description": "蔡夫人同黨，阻劉琦入見，擁立劉琮。",
+      "evidence": [
+        "使蔡瑁、張允二人把住外門",
+        "蔡瑁遂立劉琮為主"
+      ]
+    },
+    {
+      "id": "char_zhangyun",
+      "name": "張允",
+      "type": "character",
+      "aliases": [],
+      "description": "蔡夫人同黨，參與把守外門與立劉琮。",
+      "evidence": [
+        "蔡瑁、張允二人把住外門",
+        "蔡夫人與蔡瑁、張允商議"
+      ]
+    },
+    {
+      "id": "char_liucong",
+      "name": "劉琮",
+      "type": "character",
+      "aliases": [
+        "次子劉琮"
+      ],
+      "description": "劉表次子，被蔡氏勢力立為荊州之主，後寫降書獻曹操。",
+      "evidence": [
+        "立劉琮為主",
+        "便寫降書"
+      ]
+    },
+    {
+      "id": "char_liuqi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "大公子"
+      ],
+      "description": "劉表長子，鎮守江夏，遣伊籍向劉備求援問罪。",
+      "evidence": [
+        "劉琦在江夏",
+        "公子差伊籍到來"
+      ]
+    },
+    {
+      "id": "char_ligui",
+      "name": "李珪",
+      "type": "character",
+      "aliases": [],
+      "description": "荊州幕官，反對蔡氏廢長立幼。",
+      "evidence": [
+        "幕官李珪",
+        "廢長立幼"
+      ]
+    },
+    {
+      "id": "char_fuxun",
+      "name": "傅巽",
+      "type": "character",
+      "aliases": [
+        "傅公悌",
+        "公悌"
+      ],
+      "description": "勸劉琮獻荊襄九郡於曹操。",
+      "evidence": [
+        "巽有一計",
+        "傅公悌之言是也"
+      ]
+    },
+    {
+      "id": "char_kuaiyue",
+      "name": "蒯越",
+      "type": "character",
+      "aliases": [
+        "蒯異度",
+        "異度"
+      ],
+      "description": "支持傅巽降曹之議，勸劉琮順勢歸曹。",
+      "evidence": [
+        "蒯越曰",
+        "蒯異度之言甚善"
+      ]
+    },
+    {
+      "id": "char_wangcan",
+      "name": "王粲",
+      "type": "character",
+      "aliases": [
+        "仲宣"
+      ],
+      "description": "山陽高平人，勸劉琮採納獻荊襄之策。",
+      "evidence": [
+        "姓王，名粲，字仲宣",
+        "傅、蒯二君之謀，乃長策也"
+      ]
+    },
+    {
+      "id": "char_songzhong",
+      "name": "宋忠",
+      "type": "character",
+      "aliases": [],
+      "description": "奉劉琮命潛往曹操軍前投獻降書，後被關羽盤問。",
+      "evidence": [
+        "令宋忠潛地往曹操軍前投獻",
+        "被雲長喚住"
+      ]
+    },
+    {
+      "id": "char_yiji",
+      "name": "伊籍",
+      "type": "character",
+      "aliases": [
+        "機伯"
+      ],
+      "description": "受劉琦差遣赴新野報信，勸劉備借弔喪擒劉琮。",
+      "evidence": [
+        "公子劉琦差伊籍到來",
+        "機伯之言是也"
+      ]
+    },
+    {
+      "id": "char_sunqian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [],
+      "description": "受命往河邊調撥船隻救濟百姓。",
+      "evidence": [
+        "差孫乾往河邊調撥船隻"
+      ]
+    },
+    {
+      "id": "char_mizhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "受命護送各官家眷到樊城。",
+      "evidence": [
+        "差糜竺護送各官家眷到樊城"
+      ]
+    },
+    {
+      "id": "char_guanyu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長"
+      ],
+      "description": "率一千軍伏於白河上流，以布袋遏水後放水淹曹軍。",
+      "evidence": [
+        "雲長引一千軍到白河上流頭埋伏",
+        "急令軍士一齊掣起布袋"
+      ]
+    },
+    {
+      "id": "char_zhangfei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [],
+      "description": "率一千軍伏於博陵渡口，截擊被水淹後逃走的曹軍。",
+      "evidence": [
+        "張飛引一千軍到博陵渡口埋伏",
+        "乃張飛也"
+      ]
+    },
+    {
+      "id": "char_zhaoyun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [],
+      "description": "率三千軍分伏新野四門，火起後於東門外追擊曹軍。",
+      "evidence": [
+        "趙雲引軍三千",
+        "東門外從後擊之"
+      ]
+    },
+    {
+      "id": "char_mifang",
+      "name": "糜芳",
+      "type": "character",
+      "aliases": [],
+      "description": "與劉封率青紅旗疑兵，後追殺新野敗兵。",
+      "evidence": [
+        "糜芳、劉封二人帶二千軍",
+        "糜芳引一軍至"
+      ]
+    },
+    {
+      "id": "char_liufeng",
+      "name": "劉封",
+      "type": "character",
+      "aliases": [],
+      "description": "與糜芳執行鵲尾坡疑兵，後截殺曹軍。",
+      "evidence": [
+        "劉封、糜芳分為四隊",
+        "劉封又引一軍截殺"
+      ]
+    },
+    {
+      "id": "char_caoren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "與曹洪率曹操前隊十萬攻新野，入空城後遭火攻與水攻。",
+      "evidence": [
+        "曹仁、曹洪引軍十萬為前隊",
+        "曹仁大敗"
+      ]
+    },
+    {
+      "id": "char_caohong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "與曹仁率前隊攻新野，主張在空城安歇。",
+      "evidence": [
+        "曹仁、曹洪引軍十萬",
+        "曹洪曰"
+      ]
+    },
+    {
+      "id": "char_xuchu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "被任為折衝將軍，率三千鐵甲軍為先鋒開路。",
+      "evidence": [
+        "令許褚為折衝將軍",
+        "引三千鐵甲軍開路"
+      ]
+    },
+    {
+      "id": "char_xiahoudun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [
+        "惇"
+      ],
+      "description": "曾中諸葛亮火攻，後被列入曹操南征第三隊。",
+      "evidence": [
+        "惇遭諸葛亮詭計",
+        "夏侯淵、夏侯惇為第三隊"
+      ]
+    },
+    {
+      "id": "char_xiahouyuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操南征第三隊將領之一。",
+      "evidence": [
+        "夏侯淵、夏侯惇為第三隊"
+      ]
+    },
+    {
+      "id": "char_yujin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操南征第四隊將領之一，曾提醒火攻之患。",
+      "evidence": [
+        "於禁、李典為第四隊",
+        "李典、於禁曾言及此"
+      ]
+    },
+    {
+      "id": "char_lidian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操南征第四隊將領之一，曾提醒夏侯惇防火攻。",
+      "evidence": [
+        "於禁、李典為第四隊",
+        "李典、於禁曾言及此"
+      ]
+    },
+    {
+      "id": "char_kongrong",
+      "name": "孔融",
+      "type": "character",
+      "aliases": [],
+      "description": "太中大夫，反對曹操伐劉備、劉表、孫權，後被曹操處死。",
+      "evidence": [
+        "太中大夫孔融",
+        "廷尉又至，盡收融家"
+      ]
+    },
+    {
+      "id": "char_xilv",
+      "name": "郗慮",
+      "type": "character",
+      "aliases": [],
+      "description": "禦史大夫，因怨孔融而將其言語告知曹操。",
+      "evidence": [
+        "禦史大夫郗慮",
+        "入告曹操"
+      ]
+    },
+    {
+      "id": "char_zhixi",
+      "name": "脂習",
+      "type": "character",
+      "aliases": [
+        "京兆脂習"
+      ],
+      "description": "為孔融伏屍而哭，後收葬孔融父子。",
+      "evidence": [
+        "京兆脂習伏屍而哭",
+        "習收融父子屍首"
+      ]
+    },
+    {
+      "id": "char_xunyu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "勸曹操不要殺為孔融哭屍的脂習。",
+      "evidence": [
+        "荀彧曰",
+        "不可殺"
+      ]
+    },
+    {
+      "id": "char_dengyi",
+      "name": "鄧義",
+      "type": "character",
+      "aliases": [],
+      "description": "治中，受命守荊州。",
+      "evidence": [
+        "命治中鄧義"
+      ]
+    },
+    {
+      "id": "char_liuxian",
+      "name": "劉先",
+      "type": "character",
+      "aliases": [],
+      "description": "別駕，受命守荊州。",
+      "evidence": [
+        "別駕劉先守荊州"
+      ]
+    },
+    {
+      "id": "char_sunquan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [],
+      "description": "江東之主，被曹操與孔融視為南方重要勢力。",
+      "evidence": [
+        "孫權虎踞六郡",
+        "吾所慮者，劉備、孫權耳"
+      ]
+    },
+    {
+      "id": "faction_caocao",
+      "name": "曹操軍",
+      "type": "faction",
+      "aliases": [
+        "曹兵",
+        "曹軍"
+      ],
+      "description": "曹操南征荊襄的大軍。",
+      "evidence": [
+        "曹兵已經到博望",
+        "曹軍又來"
+      ]
+    },
+    {
+      "id": "faction_liubei",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備在新野的軍民與諸將。",
+      "evidence": [
+        "主公且寬心",
+        "聚諸將聽令"
+      ]
+    },
+    {
+      "id": "faction_jingzhou",
+      "name": "荊州勢力",
+      "type": "faction",
+      "aliases": [
+        "荊襄"
+      ],
+      "description": "劉表死後由蔡氏與劉琮掌控的荊州政權。",
+      "evidence": [
+        "荊襄九郡",
+        "荊州之主"
+      ]
+    },
+    {
+      "id": "faction_caishi",
+      "name": "蔡氏宗族",
+      "type": "faction",
+      "aliases": [
+        "蔡氏"
+      ],
+      "description": "蔡夫人一族，劉琮即位後分領荊州之兵。",
+      "evidence": [
+        "蔡氏宗族，分領荊州之兵"
+      ]
+    },
+    {
+      "id": "faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "東吳兵"
+      ],
+      "description": "江東孫權勢力，被蔡瑁用作阻劉琦離任的理由。",
+      "evidence": [
+        "倘東吳兵至"
+      ]
+    },
+    {
+      "id": "faction_xinye_people",
+      "name": "新野居民",
+      "type": "faction",
+      "aliases": [
+        "百姓"
+      ],
+      "description": "劉備撤離新野時願從者被帶往樊城暫避。",
+      "evidence": [
+        "願從者，即於今日皆跟我往樊城"
+      ]
+    },
+    {
+      "id": "loc_xinye",
+      "name": "新野",
+      "type": "location",
+      "aliases": [
+        "新野縣"
+      ],
+      "description": "劉備駐地，後被曹軍入城並遭火攻。",
+      "evidence": [
+        "新野小縣",
+        "滿縣火起"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表基業所在，蔡氏擁立劉琮後的爭奪核心。",
+      "evidence": [
+        "取彼荊州",
+        "守荊州"
+      ]
+    },
+    {
+      "id": "loc_jingxiang",
+      "name": "荊襄九郡",
+      "type": "location",
+      "aliases": [
+        "荊襄"
+      ],
+      "description": "劉琮臣屬建議獻給曹操的地盤。",
+      "evidence": [
+        "將荊襄九郡，獻與曹操"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "蔡夫人與劉琮駐紮之處，也是伊籍建議問罪目標。",
+      "evidence": [
+        "前赴襄陽駐紮",
+        "同往襄陽問罪"
+      ]
+    },
+    {
+      "id": "loc_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "劉琦鎮守之地。",
+      "evidence": [
+        "劉琦在江夏",
+        "奉父命鎮守江夏"
+      ]
+    },
+    {
+      "id": "loc_fancheng",
+      "name": "樊城",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備撤離新野後的暫避地。",
+      "evidence": [
+        "走樊城以避之",
+        "皆跟我往樊城暫避"
+      ]
+    },
+    {
+      "id": "loc_wancheng",
+      "name": "宛城",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操軍前所在，宋忠至此獻降書。",
+      "evidence": [
+        "直至宛城，接著曹操"
+      ]
+    },
+    {
+      "id": "loc_bowang",
+      "name": "博望",
+      "type": "location",
+      "aliases": [],
+      "description": "曹兵逼近新野前抵達之地。",
+      "evidence": [
+        "曹兵已經到博望"
+      ]
+    },
+    {
+      "id": "loc_queweipo",
+      "name": "鵲尾坡",
+      "type": "location",
+      "aliases": [],
+      "description": "糜芳、劉封設青紅旗疑兵之地。",
+      "evidence": [
+        "鵲尾坡前屯住"
+      ]
+    },
+    {
+      "id": "loc_baihe",
+      "name": "白河",
+      "type": "location",
+      "aliases": [
+        "白河上流"
+      ],
+      "description": "關羽伏兵遏水放水處，曹軍在此遭水淹。",
+      "evidence": [
+        "白河上流頭埋伏",
+        "奔至白河邊"
+      ]
+    },
+    {
+      "id": "loc_boling",
+      "name": "博陵渡口",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛伏兵截擊曹軍逃路之地。",
+      "evidence": [
+        "博陵渡口埋伏"
+      ]
+    },
+    {
+      "id": "loc_xinye_east_gate",
+      "name": "新野東門",
+      "type": "location",
+      "aliases": [
+        "東門"
+      ],
+      "description": "諸葛亮故意留下的曹軍逃路，趙雲於外追擊。",
+      "evidence": [
+        "只留東門放他出走"
+      ]
+    },
+    {
+      "id": "loc_xinye_other_gates",
+      "name": "新野西南北三門",
+      "type": "location",
+      "aliases": [
+        "西、南、北三門"
+      ],
+      "description": "趙雲伏軍射火箭縱火之處。",
+      "evidence": [
+        "西、南、北三門皆火起"
+      ]
+    },
+    {
+      "id": "title_taizhong",
+      "name": "太中大夫",
+      "type": "title",
+      "aliases": [],
+      "description": "孔融官職。",
+      "evidence": [
+        "太中大夫孔融"
+      ]
+    },
+    {
+      "id": "title_yushi",
+      "name": "禦史大夫",
+      "type": "title",
+      "aliases": [],
+      "description": "郗慮官職。",
+      "evidence": [
+        "禦史大夫郗慮"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操被稱呼的職銜。",
+      "evidence": [
+        "丞相興此無義之師"
+      ]
+    },
+    {
+      "id": "title_tingwei",
+      "name": "廷尉",
+      "type": "title",
+      "aliases": [],
+      "description": "執捕並斬孔融家人的官署或官職。",
+      "evidence": [
+        "廷尉執去",
+        "廷尉又至"
+      ]
+    },
+    {
+      "id": "title_zhechong",
+      "name": "折衝將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操任命許褚的將軍號。",
+      "evidence": [
+        "令許褚為折衝將軍"
+      ]
+    },
+    {
+      "id": "title_jingzhou_lord",
+      "name": "荊州之主",
+      "type": "title",
+      "aliases": [],
+      "description": "劉表死後荊州統治名位。",
+      "evidence": [
+        "為荊州之主"
+      ]
+    },
+    {
+      "id": "title_zhizhong",
+      "name": "治中",
+      "type": "title",
+      "aliases": [],
+      "description": "鄧義官職。",
+      "evidence": [
+        "治中鄧義"
+      ]
+    },
+    {
+      "id": "title_biejia",
+      "name": "別駕",
+      "type": "title",
+      "aliases": [],
+      "description": "劉先官職。",
+      "evidence": [
+        "別駕劉先"
+      ]
+    },
+    {
+      "id": "title_huangmen",
+      "name": "黃門侍郎",
+      "type": "title",
+      "aliases": [],
+      "description": "王粲曾被徵辟的官職。",
+      "evidence": [
+        "闢為黃門侍郎，不就"
+      ]
+    },
+    {
+      "id": "title_xianfeng",
+      "name": "先鋒",
+      "type": "title",
+      "aliases": [],
+      "description": "許褚率三千鐵甲軍擔任的軍中位置。",
+      "evidence": [
+        "引兵三千為先鋒"
+      ]
+    },
+    {
+      "id": "title_muguan",
+      "name": "幕官",
+      "type": "title",
+      "aliases": [],
+      "description": "李珪在荊州的身份。",
+      "evidence": [
+        "幕官李珪"
+      ]
+    },
+    {
+      "id": "obj_yizhu",
+      "name": "遺囑",
+      "type": "object",
+      "aliases": [],
+      "description": "劉表本欲立劉琦，蔡夫人等後又假寫以立劉琮。",
+      "evidence": [
+        "商議寫遺囑",
+        "假寫遺囑"
+      ]
+    },
+    {
+      "id": "obj_jiangshu",
+      "name": "降書",
+      "type": "object",
+      "aliases": [],
+      "description": "劉琮向曹操歸降的文書，由宋忠送達。",
+      "evidence": [
+        "便寫降書",
+        "獻上降書"
+      ]
+    },
+    {
+      "id": "obj_aishu",
+      "name": "哀書",
+      "type": "object",
+      "aliases": [],
+      "description": "劉琦遣伊籍呈給劉備的報喪求援文書。",
+      "evidence": [
+        "哀書呈報"
+      ]
+    },
+    {
+      "id": "obj_budai",
+      "name": "布袋",
+      "type": "object",
+      "aliases": [
+        "沙土布袋"
+      ],
+      "description": "關羽軍用以裝沙土遏住白河之水。",
+      "evidence": [
+        "各帶布袋，多裝沙土"
+      ]
+    },
+    {
+      "id": "obj_yanxiao",
+      "name": "硫黃焰硝引火之物",
+      "type": "object",
+      "aliases": [
+        "硫黃焰硝"
+      ],
+      "description": "趙雲伏軍預藏於新野民宅屋上的引火物。",
+      "evidence": [
+        "多藏硫黃焰硝引火之物"
+      ]
+    },
+    {
+      "id": "obj_huojian",
+      "name": "火箭",
+      "type": "object",
+      "aliases": [],
+      "description": "新野火攻時射入城中的縱火武器。",
+      "evidence": [
+        "火箭射入城去"
+      ]
+    },
+    {
+      "id": "obj_qinghongqi",
+      "name": "青紅旗號",
+      "type": "object",
+      "aliases": [
+        "青旗",
+        "紅旗"
+      ],
+      "description": "糜芳、劉封在鵲尾坡用於疑兵的旗號。",
+      "evidence": [
+        "一半紅旗，一半青旗"
+      ]
+    },
+    {
+      "id": "obj_leimu_paoshi",
+      "name": "擂木砲石",
+      "type": "object",
+      "aliases": [],
+      "description": "山上用以阻止許褚上攻的滾木石塊。",
+      "evidence": [
+        "擂木砲石打將下來"
+      ]
+    },
+    {
+      "id": "strat_take_jingzhou",
+      "name": "取荊州拒曹之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "諸葛亮建議趁劉表病危取荊州安身以拒曹操。",
+      "evidence": [
+        "取彼荊州為安身之地"
+      ]
+    },
+    {
+      "id": "strat_offer_jingxiang",
+      "name": "獻荊襄九郡之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "傅巽等勸劉琮將荊襄九郡獻給曹操以保名爵。",
+      "evidence": [
+        "將荊襄九郡，獻與曹操"
+      ]
+    },
+    {
+      "id": "strat_funeral_capture",
+      "name": "吊喪擒劉琮之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "伊籍建議劉備以吊喪為名赴襄陽擒劉琮。",
+      "evidence": [
+        "以吊喪為名",
+        "就便擒下"
+      ]
+    },
+    {
+      "id": "strat_retreat_fancheng",
+      "name": "走樊城避敵",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備拒絕奪荊州後決定往樊城避曹兵。",
+      "evidence": [
+        "不如走樊城以避之"
+      ]
+    },
+    {
+      "id": "strat_xinye_fire",
+      "name": "新野火攻計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "諸葛亮令趙雲伏軍縱火焚新野，誘曹軍由東門逃出後追擊。",
+      "evidence": [
+        "城中火勢大作",
+        "只留東門"
+      ]
+    },
+    {
+      "id": "strat_baihe_water",
+      "name": "白河水攻計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "關羽先遏白河水，待曹軍至下流時放水淹之。",
+      "evidence": [
+        "遏住白河之水",
+        "放水淹之"
+      ]
+    },
+    {
+      "id": "strat_queweipo_feint",
+      "name": "鵲尾坡疑兵計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "糜芳、劉封以青紅旗號分走，使曹軍疑有伏兵。",
+      "evidence": [
+        "他心疑必不敢追"
+      ]
+    },
+    {
+      "id": "strat_evacuate_xinye",
+      "name": "新野撤民計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備軍張榜曉諭居民隨軍往樊城暫避。",
+      "evidence": [
+        "皆跟我往樊城暫避"
+      ]
+    },
+    {
+      "id": "army_caocao_five",
+      "name": "曹操五隊軍馬",
+      "type": "army",
+      "aliases": [
+        "大兵五十萬"
+      ],
+      "description": "曹操南征時分作五隊、每隊十萬的大軍。",
+      "evidence": [
+        "起大兵五十萬",
+        "每隊各引兵十萬"
+      ]
+    },
+    {
+      "id": "army_caoren_front",
+      "name": "曹仁曹洪前隊",
+      "type": "army",
+      "aliases": [
+        "第一隊",
+        "前隊"
+      ],
+      "description": "曹仁、曹洪率領的曹操南征第一隊十萬軍。",
+      "evidence": [
+        "曹仁、曹洪為第一隊",
+        "引軍十萬為前隊"
+      ]
+    },
+    {
+      "id": "army_xuchu_vanguard",
+      "name": "許褚鐵甲先鋒",
+      "type": "army",
+      "aliases": [
+        "三千鐵甲軍"
+      ],
+      "description": "許褚率領的先鋒開路部隊。",
+      "evidence": [
+        "許褚引三千鐵甲軍開路"
+      ]
+    },
+    {
+      "id": "army_guanyu_ambush",
+      "name": "關羽白河伏軍",
+      "type": "army",
+      "aliases": [
+        "雲長一千軍"
+      ],
+      "description": "關羽率領埋伏於白河上流的一千軍。",
+      "evidence": [
+        "雲長引一千軍"
+      ]
+    },
+    {
+      "id": "army_zhangfei_ambush",
+      "name": "張飛博陵伏軍",
+      "type": "army",
+      "aliases": [
+        "張飛一千軍"
+      ],
+      "description": "張飛率領埋伏於博陵渡口的一千軍。",
+      "evidence": [
+        "張飛引一千軍"
+      ]
+    },
+    {
+      "id": "army_zhaoyun_ambush",
+      "name": "趙雲四門伏軍",
+      "type": "army",
+      "aliases": [
+        "趙雲三千軍"
+      ],
+      "description": "趙雲率三千軍分伏新野四門，負責火攻與追擊。",
+      "evidence": [
+        "趙雲引軍三千，分為四隊"
+      ]
+    },
+    {
+      "id": "army_mifang_liufeng",
+      "name": "糜芳劉封疑兵",
+      "type": "army",
+      "aliases": [
+        "二千軍"
+      ],
+      "description": "糜芳、劉封率二千軍持青紅旗在鵲尾坡疑敵並追擊敗兵。",
+      "evidence": [
+        "糜芳、劉封二人帶二千軍"
+      ]
+    },
+    {
+      "id": "army_jingzhou",
+      "name": "荊州之兵",
+      "type": "army",
+      "aliases": [],
+      "description": "劉琮即位後由蔡氏宗族分領的荊州兵力。",
+      "evidence": [
+        "分領荊州之兵"
+      ]
+    },
+    {
+      "id": "army_liubei_elite",
+      "name": "劉備麾下精兵",
+      "type": "army",
+      "aliases": [
+        "麾下精兵"
+      ],
+      "description": "伊籍請劉備盡起以往襄陽問罪的兵力。",
+      "evidence": [
+        "盡起麾下精兵"
+      ]
+    },
+    {
+      "id": "battle_burning_xinye",
+      "name": "火燒新野",
+      "type": "battle",
+      "aliases": [
+        "新野火攻"
+      ],
+      "description": "諸葛亮設伏火燒空城新野，曹仁曹洪前隊大敗。",
+      "evidence": [
+        "滿縣火起",
+        "曹仁大敗"
+      ]
+    },
+    {
+      "id": "battle_baihe_flood",
+      "name": "白河水淹曹軍",
+      "type": "battle",
+      "aliases": [
+        "白河水攻"
+      ],
+      "description": "關羽放開白河上流積水，淹殺曹軍。",
+      "evidence": [
+        "曹軍人馬俱溺於水中"
+      ]
+    },
+    {
+      "id": "battle_bowang_fire",
+      "name": "博望燒屯",
+      "type": "battle",
+      "aliases": [
+        "博望火攻"
+      ],
+      "description": "前番諸葛亮火攻夏侯惇軍，本章中被反覆提及。",
+      "evidence": [
+        "前番一把火",
+        "博望燒屯之火"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_liubei",
+      "target": "char_zhugeliang",
+      "type": "求計",
+      "description": "劉備向諸葛亮詢問拒曹兵之計。",
+      "evidence": [
+        "玄德問孔明求拒曹兵之計"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "strat_take_jingzhou",
+      "type": "獻策",
+      "description": "諸葛亮建議劉備乘劉表病危取荊州。",
+      "evidence": [
+        "可乘此機會，取彼荊州"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liubei",
+      "target": "strat_take_jingzhou",
+      "type": "拒絕",
+      "description": "劉備因受劉表恩義，不忍圖取荊州。",
+      "evidence": [
+        "受景升之恩，安忍圖操"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "strat_take_jingzhou",
+      "target": "loc_jingzhou",
+      "type": "目標",
+      "description": "此計以荊州為安身拒曹之地。",
+      "evidence": [
+        "取彼荊州為安身之地"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caocao",
+      "target": "army_caocao_five",
+      "type": "統領",
+      "description": "曹操起五十萬大兵，分五隊南征。",
+      "evidence": [
+        "傳令起大兵五十萬"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_caocao_five",
+      "target": "loc_jingxiang",
+      "type": "行軍目標",
+      "description": "曹操大軍南下荊襄。",
+      "evidence": [
+        "大軍南下荊襄"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caoren",
+      "target": "army_caoren_front",
+      "type": "統領",
+      "description": "曹仁與曹洪為第一隊前軍主將。",
+      "evidence": [
+        "曹仁、曹洪為第一隊"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caohong",
+      "target": "army_caoren_front",
+      "type": "統領",
+      "description": "曹洪與曹仁同率前隊。",
+      "evidence": [
+        "曹仁、曹洪引軍十萬"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xuchu",
+      "target": "title_zhechong",
+      "type": "任命",
+      "description": "曹操任命許褚為折衝將軍。",
+      "evidence": [
+        "令許褚為折衝將軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xuchu",
+      "target": "army_xuchu_vanguard",
+      "type": "統領",
+      "description": "許褚率三千鐵甲軍擔任先鋒。",
+      "evidence": [
+        "引兵三千為先鋒"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_xuchu_vanguard",
+      "target": "loc_xinye",
+      "type": "攻向",
+      "description": "許褚先鋒開路殺奔新野。",
+      "evidence": [
+        "殺奔新野來"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xiahoudun",
+      "target": "battle_bowang_fire",
+      "type": "敗於",
+      "description": "夏侯惇承認曾遭諸葛亮火攻破軍。",
+      "evidence": [
+        "遭諸葛亮詭計，用火攻破我軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "battle_bowang_fire",
+      "type": "用計",
+      "description": "博望火攻被歸為諸葛亮前番用火之計。",
+      "evidence": [
+        "前番一把火"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_kongrong",
+      "target": "char_caocao",
+      "type": "諫阻",
+      "description": "孔融反對曹操伐劉備、劉表、孫權。",
+      "evidence": [
+        "興此無義之師"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xilv",
+      "target": "char_caocao",
+      "type": "告發",
+      "description": "郗慮將孔融批評曹操之言告知曹操。",
+      "evidence": [
+        "乃以此言入告曹操"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_kongrong",
+      "type": "處死",
+      "description": "曹操殺孔融並誅及其家小。",
+      "evidence": [
+        "曹操既殺孔融"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "title_tingwei",
+      "target": "char_kongrong",
+      "type": "執行拘捕",
+      "description": "廷尉奉命逮捕孔融。",
+      "evidence": [
+        "尊君被廷尉執去"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhixi",
+      "target": "char_kongrong",
+      "type": "哭葬",
+      "description": "脂習為孔融伏屍而哭並收葬父子。",
+      "evidence": [
+        "伏屍而哭",
+        "收融父子屍首"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xunyu",
+      "target": "char_caocao",
+      "type": "諫止",
+      "description": "荀彧勸曹操不要殺脂習。",
+      "evidence": [
+        "乃義人也，不可殺"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_kongrong",
+      "target": "title_taizhong",
+      "type": "官職",
+      "description": "孔融官為太中大夫。",
+      "evidence": [
+        "太中大夫孔融"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xilv",
+      "target": "title_yushi",
+      "type": "官職",
+      "description": "郗慮官為禦史大夫。",
+      "evidence": [
+        "禦史大夫郗慮"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caocao",
+      "target": "title_chengxiang",
+      "type": "官職稱呼",
+      "description": "曹操被稱為丞相。",
+      "evidence": [
+        "丞相興此無義之師"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_liubei",
+      "type": "託孤",
+      "description": "劉表病危時將後事託付劉備。",
+      "evidence": [
+        "特託孤於賢弟"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liubiao",
+      "target": "loc_jingzhou",
+      "type": "擬交付",
+      "description": "劉表表示死後劉備可自領荊州。",
+      "evidence": [
+        "賢弟可自領荊州"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_liuqi",
+      "type": "擬立",
+      "description": "劉表欲令劉備輔佐長子劉琦為荊州之主。",
+      "evidence": [
+        "輔佐長子劉琦為荊州之主"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caifuren",
+      "target": "char_caimao",
+      "type": "同謀",
+      "description": "蔡夫人與蔡瑁商議劉表死後事。",
+      "evidence": [
+        "蔡夫人與蔡瑁、張允商議"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caifuren",
+      "target": "char_zhangyun",
+      "type": "同謀",
+      "description": "蔡夫人與張允同謀立劉琮。",
+      "evidence": [
+        "蔡夫人與蔡瑁、張允商議"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caimao",
+      "target": "char_liuqi",
+      "type": "阻攔",
+      "description": "蔡瑁在外門阻止劉琦探病。",
+      "evidence": [
+        "蔡瑁當住曰"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caifuren",
+      "target": "obj_yizhu",
+      "type": "偽造",
+      "description": "蔡夫人等假寫遺囑立劉琮。",
+      "evidence": [
+        "假寫遺囑"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "obj_yizhu",
+      "target": "char_liucong",
+      "type": "立嗣",
+      "description": "假遺囑指定劉琮為荊州之主。",
+      "evidence": [
+        "令次子劉琮為荊州之主"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caimao",
+      "target": "char_liucong",
+      "type": "擁立",
+      "description": "蔡瑁擁立劉琮為主。",
+      "evidence": [
+        "蔡瑁遂立劉琮為主"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liucong",
+      "target": "title_jingzhou_lord",
+      "type": "取得稱號",
+      "description": "劉琮被立為荊州之主。",
+      "evidence": [
+        "立劉琮為主"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "faction_caishi",
+      "target": "army_jingzhou",
+      "type": "分領",
+      "description": "蔡氏宗族分掌荊州兵力。",
+      "evidence": [
+        "蔡氏宗族，分領荊州之兵"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dengyi",
+      "target": "title_zhizhong",
+      "type": "官職",
+      "description": "鄧義官為治中。",
+      "evidence": [
+        "治中鄧義"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liuxian",
+      "target": "title_biejia",
+      "type": "官職",
+      "description": "劉先官為別駕。",
+      "evidence": [
+        "別駕劉先"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_dengyi",
+      "target": "loc_jingzhou",
+      "type": "鎮守",
+      "description": "鄧義受命守荊州。",
+      "evidence": [
+        "鄧義、別駕劉先守荊州"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liuxian",
+      "target": "loc_jingzhou",
+      "type": "鎮守",
+      "description": "劉先受命守荊州。",
+      "evidence": [
+        "劉先守荊州"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caifuren",
+      "target": "loc_xiangyang",
+      "type": "駐紮",
+      "description": "蔡夫人與劉琮前往襄陽駐紮。",
+      "evidence": [
+        "前赴襄陽駐紮"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liucong",
+      "target": "loc_xiangyang",
+      "type": "駐紮",
+      "description": "劉琮與蔡夫人駐紮襄陽。",
+      "evidence": [
+        "自與劉琮前赴襄陽"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caifuren",
+      "target": "char_liuqi",
+      "type": "防備",
+      "description": "蔡夫人駐襄陽防備劉琦。",
+      "evidence": [
+        "以防劉琦、劉備"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caifuren",
+      "target": "char_liubei",
+      "type": "防備",
+      "description": "蔡夫人駐襄陽防備劉備。",
+      "evidence": [
+        "以防劉琦、劉備"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_ligui",
+      "target": "char_caifuren",
+      "type": "反對",
+      "description": "李珪斥責蔡氏朋謀、廢長立幼。",
+      "evidence": [
+        "內外朋謀，假稱遺命"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ligui",
+      "target": "char_caimao",
+      "type": "反對",
+      "description": "李珪反對蔡瑁等廢長立幼。",
+      "evidence": [
+        "廢長立幼"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ligui",
+      "target": "title_muguan",
+      "type": "身份",
+      "description": "李珪是荊州幕官。",
+      "evidence": [
+        "幕官李珪"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_fuxun",
+      "target": "strat_offer_jingxiang",
+      "type": "獻策",
+      "description": "傅巽提出獻荊襄九郡給曹操。",
+      "evidence": [
+        "巽有一計",
+        "獻與曹操"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_kuaiyue",
+      "target": "strat_offer_jingxiang",
+      "type": "支持",
+      "description": "蒯越贊同傅巽降曹之策。",
+      "evidence": [
+        "傅公悌之言是也"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wangcan",
+      "target": "strat_offer_jingxiang",
+      "type": "支持",
+      "description": "王粲勸劉琮不可遲疑，採納傅、蒯之謀。",
+      "evidence": [
+        "傅、蒯二君之謀，乃長策"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caifuren",
+      "target": "strat_offer_jingxiang",
+      "type": "支持",
+      "description": "蔡夫人稱三人意見相同，不必再告知她。",
+      "evidence": [
+        "三人所見相同，何必告我"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liucong",
+      "target": "strat_offer_jingxiang",
+      "type": "採納",
+      "description": "劉琮最終決意寫降書歸曹。",
+      "evidence": [
+        "劉琮意決，便寫降書"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_offer_jingxiang",
+      "target": "loc_jingxiang",
+      "type": "交付對象",
+      "description": "此計以荊襄九郡為獻出之地。",
+      "evidence": [
+        "荊襄九郡"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_offer_jingxiang",
+      "target": "char_caocao",
+      "type": "歸降對象",
+      "description": "此計主張把荊襄獻給曹操。",
+      "evidence": [
+        "獻與曹操"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liucong",
+      "target": "obj_jiangshu",
+      "type": "書寫",
+      "description": "劉琮寫降書。",
+      "evidence": [
+        "便寫降書"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_songzhong",
+      "target": "obj_jiangshu",
+      "type": "遞送",
+      "description": "宋忠奉命送降書到曹操軍前。",
+      "evidence": [
+        "令宋忠潛地往曹操軍前投獻"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_songzhong",
+      "target": "loc_wancheng",
+      "type": "行至",
+      "description": "宋忠至宛城見曹操。",
+      "evidence": [
+        "直至宛城，接著曹操"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "obj_jiangshu",
+      "target": "char_caocao",
+      "type": "投獻",
+      "description": "降書被送交曹操。",
+      "evidence": [
+        "獻上降書"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_songzhong",
+      "type": "賞賜",
+      "description": "曹操大喜，重賞宋忠。",
+      "evidence": [
+        "重賞宋忠"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_liucong",
+      "type": "許諾保位",
+      "description": "曹操命劉琮出迎，仍使其為荊州之主。",
+      "evidence": [
+        "永為荊州之主"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_songzhong",
+      "type": "盤問",
+      "description": "關羽喚住宋忠，細問荊州之事。",
+      "evidence": [
+        "被雲長喚住，細問荊州之事"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liubei",
+      "target": "char_songzhong",
+      "type": "釋放",
+      "description": "劉備斥責宋忠後放其離去。",
+      "evidence": [
+        "可速去"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liuqi",
+      "target": "char_yiji",
+      "type": "差遣",
+      "description": "劉琦派伊籍向劉備報信求援。",
+      "evidence": [
+        "公子劉琦差伊籍到來"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yiji",
+      "target": "char_liubei",
+      "type": "呈報求援",
+      "description": "伊籍向劉備呈哀書，請其往襄陽問罪。",
+      "evidence": [
+        "哀書呈報",
+        "同往襄陽問罪"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liuqi",
+      "target": "loc_jiangxia",
+      "type": "鎮守",
+      "description": "劉琦奉父命鎮守江夏。",
+      "evidence": [
+        "奉父命鎮守江夏"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_yiji",
+      "target": "strat_funeral_capture",
+      "type": "獻策",
+      "description": "伊籍建議劉備借吊喪赴襄陽擒劉琮。",
+      "evidence": [
+        "以吊喪為名",
+        "擒下"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "strat_funeral_capture",
+      "type": "支持",
+      "description": "諸葛亮認為伊籍之言可從。",
+      "evidence": [
+        "機伯之言是也"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liubei",
+      "target": "strat_funeral_capture",
+      "type": "拒絕",
+      "description": "劉備不願執劉表之子奪其地。",
+      "evidence": [
+        "何面目復見吾兄"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_funeral_capture",
+      "target": "char_liucong",
+      "type": "擒拿目標",
+      "description": "此計目標是誘出並擒劉琮。",
+      "evidence": [
+        "誘劉琮出迎，就便擒下"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_funeral_capture",
+      "target": "loc_xiangyang",
+      "type": "執行地",
+      "description": "此計需前赴襄陽。",
+      "evidence": [
+        "前赴襄陽"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liubei",
+      "target": "strat_retreat_fancheng",
+      "type": "決策",
+      "description": "劉備決定走樊城避曹兵。",
+      "evidence": [
+        "不如走樊城以避之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_retreat_fancheng",
+      "target": "loc_fancheng",
+      "type": "目的地",
+      "description": "撤退方向為樊城。",
+      "evidence": [
+        "走樊城"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "strat_evacuate_xinye",
+      "type": "安排",
+      "description": "諸葛亮安排新野居民隨軍撤往樊城。",
+      "evidence": [
+        "四門張榜，曉諭居民"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_evacuate_xinye",
+      "target": "faction_xinye_people",
+      "type": "救濟對象",
+      "description": "撤民計針對願隨劉備離開的新野百姓。",
+      "evidence": [
+        "願從者，即於今日皆跟我"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_evacuate_xinye",
+      "target": "loc_fancheng",
+      "type": "撤往",
+      "description": "居民被告知往樊城暫避。",
+      "evidence": [
+        "往樊城暫避"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_sunqian",
+      "target": "faction_xinye_people",
+      "type": "救濟",
+      "description": "孫乾調撥船隻救濟百姓。",
+      "evidence": [
+        "調撥船隻，救濟百姓"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_mizhu",
+      "target": "loc_fancheng",
+      "type": "護送",
+      "description": "糜竺護送各官家眷到樊城。",
+      "evidence": [
+        "護送各官家眷到樊城"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "army_guanyu_ambush",
+      "type": "調遣",
+      "description": "諸葛亮令關羽率軍到白河上流埋伏。",
+      "evidence": [
+        "教雲長引一千軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guanyu",
+      "target": "army_guanyu_ambush",
+      "type": "統領",
+      "description": "關羽統領白河伏軍。",
+      "evidence": [
+        "雲長引一千軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_guanyu_ambush",
+      "target": "loc_baihe",
+      "type": "埋伏",
+      "description": "關羽軍埋伏於白河上流。",
+      "evidence": [
+        "白河上流頭埋伏"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_guanyu_ambush",
+      "target": "obj_budai",
+      "type": "使用",
+      "description": "關羽軍以布袋裝沙土遏水。",
+      "evidence": [
+        "各帶布袋，多裝沙土"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "obj_budai",
+      "target": "strat_baihe_water",
+      "type": "工具",
+      "description": "布袋是白河水攻遏水所用物件。",
+      "evidence": [
+        "遏住白河之水"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "army_zhangfei_ambush",
+      "type": "調遣",
+      "description": "諸葛亮令張飛率軍伏於博陵渡口。",
+      "evidence": [
+        "張飛引一千軍到博陵渡口"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhangfei",
+      "target": "army_zhangfei_ambush",
+      "type": "統領",
+      "description": "張飛統領博陵伏軍。",
+      "evidence": [
+        "張飛引一千軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_zhangfei_ambush",
+      "target": "loc_boling",
+      "type": "埋伏",
+      "description": "張飛伏軍所在為博陵渡口。",
+      "evidence": [
+        "博陵渡口埋伏"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "army_zhaoyun_ambush",
+      "type": "調遣",
+      "description": "諸葛亮令趙雲率三千軍分伏四門。",
+      "evidence": [
+        "趙雲引軍三千，分為四隊"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "army_zhaoyun_ambush",
+      "type": "統領",
+      "description": "趙雲統領四門伏軍。",
+      "evidence": [
+        "趙雲引軍三千"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_zhaoyun_ambush",
+      "target": "obj_yanxiao",
+      "type": "預藏",
+      "description": "趙雲軍在城內屋上預藏引火之物。",
+      "evidence": [
+        "多藏硫黃焰硝"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_zhaoyun_ambush",
+      "target": "obj_huojian",
+      "type": "使用",
+      "description": "趙雲伏軍以火箭射入城中縱火。",
+      "evidence": [
+        "火箭射入城去"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_zhaoyun_ambush",
+      "target": "loc_xinye_other_gates",
+      "type": "縱火",
+      "description": "趙雲伏軍在西南北三門放火。",
+      "evidence": [
+        "西、南、北三門皆火起"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_zhaoyun_ambush",
+      "target": "loc_xinye_east_gate",
+      "type": "伏擊",
+      "description": "趙雲於東門外等曹軍出逃後追擊。",
+      "evidence": [
+        "於東門外從後擊之"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "army_mifang_liufeng",
+      "type": "調遣",
+      "description": "諸葛亮令糜芳、劉封率二千軍設疑兵。",
+      "evidence": [
+        "再令糜芳、劉封二人帶二千軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_mifang",
+      "target": "army_mifang_liufeng",
+      "type": "統領",
+      "description": "糜芳統領疑兵之一部。",
+      "evidence": [
+        "糜芳、劉封二人帶二千軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liufeng",
+      "target": "army_mifang_liufeng",
+      "type": "統領",
+      "description": "劉封統領疑兵之一部。",
+      "evidence": [
+        "糜芳、劉封二人帶二千軍"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_mifang_liufeng",
+      "target": "loc_queweipo",
+      "type": "屯駐",
+      "description": "疑兵屯於鵲尾坡前。",
+      "evidence": [
+        "鵲尾坡前屯住"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "army_mifang_liufeng",
+      "target": "obj_qinghongqi",
+      "type": "使用",
+      "description": "糜芳、劉封軍使用青紅旗號迷惑曹軍。",
+      "evidence": [
+        "一半紅旗，一半青旗"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caoren",
+      "target": "loc_xinye",
+      "type": "攻入",
+      "description": "曹仁領兵進入無人防守的新野城。",
+      "evidence": [
+        "教且奪新野城歇馬"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caohong",
+      "target": "loc_xinye",
+      "type": "駐軍",
+      "description": "曹洪主張曹軍在新野城內安歇。",
+      "evidence": [
+        "權且在城安歇"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_xuchu",
+      "target": "strat_queweipo_feint",
+      "type": "疑懼",
+      "description": "許褚見青紅旗號，判斷前方有伏兵。",
+      "evidence": [
+        "前面必有伏兵"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caoren",
+      "target": "strat_queweipo_feint",
+      "type": "誤判",
+      "description": "曹仁認為鵲尾坡只是疑兵，命許褚速進。",
+      "evidence": [
+        "此是疑兵，必無埋伏"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_queweipo_feint",
+      "target": "char_xuchu",
+      "type": "誘敵",
+      "description": "疑兵引許褚追入林下並延誤曹軍。",
+      "evidence": [
+        "提兵殺入",
+        "不見一人"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liubei",
+      "target": "obj_leimu_paoshi",
+      "type": "配合誘敵",
+      "description": "劉備與孔明在山頂現身，山上以擂木砲石阻敵。",
+      "evidence": [
+        "左玄德，右孔明",
+        "擂木砲石打將下來"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "obj_leimu_paoshi",
+      "type": "配合誘敵",
+      "description": "諸葛亮與劉備同在山頂誘許褚上攻。",
+      "evidence": [
+        "二人對坐飲酒",
+        "不能前進"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "strat_xinye_fire",
+      "type": "設計",
+      "description": "諸葛亮部署新野城內引火、三門射火與東門追擊。",
+      "evidence": [
+        "城中火勢大作",
+        "只留東門"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_xinye_fire",
+      "target": "battle_burning_xinye",
+      "type": "形成戰役",
+      "description": "新野火攻計造成火燒新野。",
+      "evidence": [
+        "滿縣火起"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "battle_burning_xinye",
+      "target": "loc_xinye",
+      "type": "發生地",
+      "description": "火燒新野發生在新野城。",
+      "evidence": [
+        "新野縣",
+        "滿縣火起"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "battle_burning_xinye",
+      "target": "army_caoren_front",
+      "type": "擊敗",
+      "description": "曹仁曹洪前隊在新野遭火攻大敗。",
+      "evidence": [
+        "曹仁大敗"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "battle_burning_xinye",
+      "type": "參戰追擊",
+      "description": "趙雲在曹軍逃出東門後追擊混戰。",
+      "evidence": [
+        "趙雲引軍趕來混戰"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_mifang",
+      "target": "battle_burning_xinye",
+      "type": "參戰追擊",
+      "description": "糜芳引軍衝殺曹軍敗兵。",
+      "evidence": [
+        "糜芳引一軍至"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_liufeng",
+      "target": "battle_burning_xinye",
+      "type": "參戰截殺",
+      "description": "劉封引軍截殺曹軍。",
+      "evidence": [
+        "劉封又引一軍截殺"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "strat_baihe_water",
+      "target": "battle_baihe_flood",
+      "type": "形成戰役",
+      "description": "白河水攻計造成曹軍溺水大敗。",
+      "evidence": [
+        "曹軍人馬俱溺"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "battle_baihe_flood",
+      "target": "loc_baihe",
+      "type": "發生地",
+      "description": "水攻發生在白河。",
+      "evidence": [
+        "奔至白河邊"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_guanyu",
+      "target": "battle_baihe_flood",
+      "type": "執行",
+      "description": "關羽下令掣起布袋放水。",
+      "evidence": [
+        "急令軍士一齊掣起布袋"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "battle_baihe_flood",
+      "target": "faction_caocao",
+      "type": "重創",
+      "description": "曹軍大量人馬被白河水淹死。",
+      "evidence": [
+        "死者極多"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhangfei",
+      "target": "loc_boling",
+      "type": "截擊",
+      "description": "張飛在博陵渡口攔截逃至水勢慢處的曹軍。",
+      "evidence": [
+        "行到博陵渡口",
+        "乃張飛也"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_zhangfei",
+      "target": "char_caoren",
+      "type": "敵對攔截",
+      "description": "張飛攔住曹仁等敗軍逃路。",
+      "evidence": [
+        "曹仁引眾將",
+        "一軍攔路"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_sunquan",
+      "type": "視為威脅",
+      "description": "曹操認為劉備、孫權是其所慮者。",
+      "evidence": [
+        "吾所慮者，劉備、孫權耳"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_liubei",
+      "type": "敵對",
+      "description": "曹操將劉備視為腹心之患並南征。",
+      "evidence": [
+        "劉備如此猖狂，真腹心之患"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_kongrong",
+      "target": "char_liubei",
+      "type": "維護",
+      "description": "孔融以劉備為漢室宗親，反對曹操輕伐。",
+      "evidence": [
+        "劉備，劉表皆漢室宗親，不可輕伐"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_kongrong",
+      "target": "char_liubiao",
+      "type": "維護",
+      "description": "孔融以劉表為漢室宗親，反對曹操輕伐。",
+      "evidence": [
+        "劉備，劉表皆漢室宗親"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_kongrong",
+      "target": "char_sunquan",
+      "type": "評估難取",
+      "description": "孔融認為孫權據六郡與大江之險，不易攻取。",
+      "evidence": [
+        "孫權虎踞六郡"
+      ],
+      "confidence": 1
+    },
+    {
+      "source": "char_wangcan",
+      "target": "title_huangmen",
+      "type": "曾被徵辟",
+      "description": "王粲十七歲時曾被徵為黃門侍郎但不就。",
+      "evidence": [
+        "闢為黃門侍郎，不就"
+      ],
+      "confidence": 1
+    }
+  ],
+  "events": [
+    {
+      "id": "event_caocao_south_campaign",
+      "name": "曹操五路南征",
+      "summary": "曹操起五十萬大軍，分五隊南下，許褚為先鋒，曹仁曹洪為前隊。",
+      "participants": [
+        "char_caocao",
+        "char_caoren",
+        "char_caohong",
+        "char_xuchu",
+        "char_xiahouyuan",
+        "char_xiahoudun",
+        "char_yujin",
+        "char_lidian",
+        "army_caocao_five"
+      ],
+      "locations": [
+        "loc_jingxiang",
+        "loc_xinye"
+      ],
+      "evidence": [
+        "起大兵五十萬",
+        "每隊各引兵十萬"
+      ]
+    },
+    {
+      "id": "event_kongrong_death",
+      "name": "孔融被殺",
+      "summary": "孔融反對曹操無義之師，被郗慮告發後遭曹操處死，脂習哭葬，荀彧諫止曹操殺脂習。",
+      "participants": [
+        "char_kongrong",
+        "char_caocao",
+        "char_xilv",
+        "char_zhixi",
+        "char_xunyu"
+      ],
+      "locations": [],
+      "evidence": [
+        "曹操既殺孔融",
+        "脂習伏屍而哭"
+      ]
+    },
+    {
+      "id": "event_liubiao_entrust",
+      "name": "劉表託孤",
+      "summary": "劉表病危請劉備至荊州託孤，並有意讓劉備輔佐劉琦。",
+      "participants": [
+        "char_liubiao",
+        "char_liubei",
+        "char_liuqi"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "特託孤於賢弟",
+        "輔佐長子劉琦"
+      ]
+    },
+    {
+      "id": "event_caishi_coup",
+      "name": "蔡氏假遺囑立劉琮",
+      "summary": "劉表死後，蔡夫人、蔡瑁、張允假寫遺囑，阻劉琦，擁立劉琮為主。",
+      "participants": [
+        "char_caifuren",
+        "char_caimao",
+        "char_zhangyun",
+        "char_liucong",
+        "char_liuqi",
+        "char_ligui"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_xiangyang",
+        "loc_jiangxia"
+      ],
+      "evidence": [
+        "假寫遺囑",
+        "蔡瑁遂立劉琮為主"
+      ]
+    },
+    {
+      "id": "event_liucong_surrender",
+      "name": "劉琮獻荊襄降曹",
+      "summary": "傅巽、蒯越、王粲與蔡夫人勸劉琮獻荊襄九郡，劉琮寫降書命宋忠送至宛城曹操軍前。",
+      "participants": [
+        "char_liucong",
+        "char_fuxun",
+        "char_kuaiyue",
+        "char_wangcan",
+        "char_caifuren",
+        "char_songzhong",
+        "char_caocao"
+      ],
+      "locations": [
+        "loc_jingxiang",
+        "loc_wancheng"
+      ],
+      "evidence": [
+        "獻與曹操",
+        "獻上降書"
+      ]
+    },
+    {
+      "id": "event_yiji_message",
+      "name": "伊籍報喪求援",
+      "summary": "劉琦派伊籍向劉備呈哀書，請劉備起兵往襄陽問罪；伊籍又獻吊喪擒劉琮之計。",
+      "participants": [
+        "char_liuqi",
+        "char_yiji",
+        "char_liubei",
+        "char_zhugeliang"
+      ],
+      "locations": [
+        "loc_jiangxia",
+        "loc_xiangyang",
+        "loc_xinye"
+      ],
+      "evidence": [
+        "哀書呈報",
+        "同往襄陽問罪"
+      ]
+    },
+    {
+      "id": "event_xinye_evacuate",
+      "name": "劉備棄新野走樊城",
+      "summary": "曹兵至博望後，諸葛亮安排張榜撤民，孫乾調船救百姓，糜竺護送家眷至樊城。",
+      "participants": [
+        "char_liubei",
+        "char_zhugeliang",
+        "char_sunqian",
+        "char_mizhu",
+        "faction_xinye_people"
+      ],
+      "locations": [
+        "loc_xinye",
+        "loc_bowang",
+        "loc_fancheng"
+      ],
+      "evidence": [
+        "曹兵已經到博望",
+        "往樊城暫避"
+      ]
+    },
+    {
+      "id": "event_queweipo_feint",
+      "name": "鵲尾坡疑兵誘曹軍",
+      "summary": "糜芳、劉封持青紅旗屯鵲尾坡，許褚疑有伏兵，曹仁判為疑兵而催軍前進。",
+      "participants": [
+        "char_mifang",
+        "char_liufeng",
+        "char_xuchu",
+        "char_caoren",
+        "char_liubei",
+        "char_zhugeliang"
+      ],
+      "locations": [
+        "loc_queweipo"
+      ],
+      "evidence": [
+        "紅旗軍走在左，青旗軍走在右",
+        "此是疑兵"
+      ]
+    },
+    {
+      "id": "event_burning_xinye",
+      "name": "火燒新野",
+      "summary": "曹仁、曹洪入新野空城安歇後，西南北三門火起，曹軍由東門逃出，被趙雲、糜芳、劉封追殺。",
+      "participants": [
+        "char_caoren",
+        "char_caohong",
+        "char_zhaoyun",
+        "char_mifang",
+        "char_liufeng",
+        "army_caoren_front",
+        "army_zhaoyun_ambush"
+      ],
+      "locations": [
+        "loc_xinye",
+        "loc_xinye_other_gates",
+        "loc_xinye_east_gate"
+      ],
+      "evidence": [
+        "滿縣火起",
+        "曹仁大敗"
+      ]
+    },
+    {
+      "id": "event_baihe_flood",
+      "name": "白河水淹曹軍",
+      "summary": "關羽在白河上流放開先前遏住的河水，曹軍人馬大量溺死。",
+      "participants": [
+        "char_guanyu",
+        "faction_caocao",
+        "army_guanyu_ambush"
+      ],
+      "locations": [
+        "loc_baihe"
+      ],
+      "evidence": [
+        "掣起布袋",
+        "俱溺於水中"
+      ]
+    },
+    {
+      "id": "event_boling_intercept",
+      "name": "張飛博陵渡口截曹仁",
+      "summary": "曹仁等逃向水勢較慢處，到博陵渡口時遭張飛伏軍攔截。",
+      "participants": [
+        "char_zhangfei",
+        "char_caoren",
+        "army_zhangfei_ambush"
+      ],
+      "locations": [
+        "loc_boling"
+      ],
+      "evidence": [
+        "行到博陵渡口",
+        "一軍攔路"
+      ]
+    }
+  ],
+  "notes": [
+    "僅依本章正文抽取；部分原文有缺漏或重複處，未補入正文未明示的關係。"
+  ]
+}

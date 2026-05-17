@@ -1,0 +1,23 @@
+{
+  "block_dirs": [
+    "data_ref/sanguo_chaptered/unified_graph_codex_gpt-5.5_block_001_010",
+    "data_ref/sanguo_chaptered/unified_graph_codex_gpt-5.5_block_011_020",
+    "data_ref/sanguo_chaptered/unified_graph_codex_gpt-5.5_block_021_030",
+    "data_ref/sanguo_chaptered/unified_graph_codex_gpt-5.5_block_031_040",
+    "data_ref/sanguo_chaptered/unified_graph_codex_gpt-5.5_block_041_050",
+    "data_ref/sanguo_chaptered/unified_graph_codex_gpt-5.5_block_051_060"
+  ],
+  "output": "data_ref/sanguo_chaptered/half_book_001_060_global_merge",
+  "block_count": 6,
+  "chapter_start": 1,
+  "chapter_end": 60,
+  "block_entity_count": 3465,
+  "global_entity_count": 2663,
+  "merged_entity_count_delta": 802,
+  "merge_group_count": 398,
+  "block_relationship_count": 5181,
+  "global_relationship_count": 5049,
+  "deduped_relationship_count_delta": 87,
+  "dropped_relationship_count": 45,
+  "cross_type_name_candidate_count": 16
+}

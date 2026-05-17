@@ -1,0 +1,1846 @@
+{
+  "book": "三國演義",
+  "chapter_no": 55,
+  "chapter_title": "玄德智激孫夫人　孔明二氣周公瑾",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "備"
+      ],
+      "description": "本章主角之一，與孫夫人成親後滯留吳中，後借祭祖之名逃離南徐，得趙雲、孫夫人、諸葛亮、關羽接應。",
+      "evidence": [
+        "玄德與孫夫人成親",
+        "離了南徐",
+        "諸葛亮在此等候"
+      ]
+    },
+    {
+      "id": "char_sun_furen",
+      "name": "孫夫人",
+      "type": "character",
+      "aliases": [
+        "夫人",
+        "郡主",
+        "吳侯之妹"
+      ],
+      "description": "孫權之妹，劉備之妻，性好武事；在劉備逃歸途中多次喝退吳將。",
+      "evidence": [
+        "吾妹嫁劉備",
+        "夫人自幼好觀武事",
+        "四將喏喏連聲而退"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "吳侯",
+        "權"
+      ],
+      "description": "吳主，得知劉備逃走後命將追拿，後又授劍令蔣欽、周泰追殺。",
+      "evidence": [
+        "孫權令陳武、潘璋",
+        "封一口劍在此"
+      ]
+    },
+    {
+      "id": "char_wu_guotai",
+      "name": "吳國太",
+      "type": "character",
+      "aliases": [
+        "國太",
+        "母親"
+      ],
+      "description": "孫權之母，力主將孫夫人嫁給劉備，並准孫夫人以祭祖名義出行。",
+      "evidence": [
+        "我母親力主",
+        "國太十分愛敬",
+        "此孝道也"
+      ]
+    },
+    {
+      "id": "char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "公瑾",
+        "周公瑾",
+        "周郎",
+        "週都督",
+        "周都督",
+        "瑜"
+      ],
+      "description": "東吳都督，先獻軟困劉備之計，又派徐盛、丁奉截路，最後親率水軍追襲，遭關羽伏兵驚退而舊創迸裂。",
+      "evidence": [
+        "修密書付給人",
+        "吾奉週都督將令",
+        "周瑜自領慣戰水軍",
+        "金瘡迸裂"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "軍師"
+      ],
+      "description": "劉備軍師，預給趙雲三個錦囊，並在劉郎浦以荊州水軍接應劉備。",
+      "evidence": [
+        "孔明分付三個錦囊",
+        "諸葛亮在此等候多時"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "趙子龍",
+        "子龍",
+        "雲"
+      ],
+      "description": "率五百軍隨劉備在吳，依錦囊設法促劉備離吳，逃亡途中護衛劉備與孫夫人。",
+      "evidence": [
+        "趙雲與五百軍",
+        "佯作失驚之狀",
+        "子龍勒馬於車傍"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫幹",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備部下，被劉備先遣回荊州報喜。",
+      "evidence": [
+        "先教孫幹回荊州報喜"
+      ]
+    },
+    {
+      "id": "char_zhang_zhao",
+      "name": "張昭",
+      "type": "character",
+      "aliases": [
+        "昭"
+      ],
+      "description": "東吳謀臣，贊同周瑜以富貴聲色困住劉備、圖取荊州之議。",
+      "evidence": [
+        "公瑾之謀，正合愚意",
+        "然後荊州可圖"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [],
+      "description": "被趙雲假稱將報赤壁之恨、起兵攻荊州，以促劉備離吳。",
+      "evidence": [
+        "曹操要報赤壁鏖兵之恨",
+        "起精兵五十萬"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "關雲長",
+        "雲長"
+      ],
+      "description": "劉備大將，在黃州界首率刀手伏出，迫使周瑜退走。",
+      "evidence": [
+        "為首一員大將，乃關雲長也",
+        "雲長趕來"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張"
+      ],
+      "description": "劉備大將，本章被周瑜列為劉備不可久屈人下的重要將領之一。",
+      "evidence": [
+        "有關、張、趙雲之將"
+      ]
+    },
+    {
+      "id": "char_chen_wu",
+      "name": "陳武",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權所派追拿劉備的吳將，與潘璋率五百精兵追趕。",
+      "evidence": [
+        "令陳武、潘璋選五百精兵"
+      ]
+    },
+    {
+      "id": "char_pan_zhang",
+      "name": "潘璋",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權所派追拿劉備的吳將，與陳武率五百精兵追趕。",
+      "evidence": [
+        "陳武、潘璋趕到"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [
+        "普"
+      ],
+      "description": "東吳將領，判斷陳武、潘璋因懼孫夫人而難以擒回劉備。",
+      "evidence": [
+        "某料陳武、潘璋必擒此人不得"
+      ]
+    },
+    {
+      "id": "char_xu_sheng",
+      "name": "徐盛",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜所派截路吳將，與丁奉率三千軍馬守衝要，後被孫夫人喝退。",
+      "evidence": [
+        "徐盛、丁奉引三千軍馬",
+        "放條大路"
+      ]
+    },
+    {
+      "id": "char_ding_feng",
+      "name": "丁奉",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜所派截路吳將，與徐盛同守柴桑要路，後放劉備一行通過。",
+      "evidence": [
+        "徐盛、丁奉瞭望",
+        "截住去路"
+      ]
+    },
+    {
+      "id": "char_jiang_qin",
+      "name": "蔣欽",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權後派追殺劉備的吳將之一，持有先殺孫夫人、後斬劉備的劍令。",
+      "evidence": [
+        "乃蔣欽、週泰",
+        "封一口劍在此"
+      ]
+    },
+    {
+      "id": "char_zhou_tai",
+      "name": "周泰",
+      "type": "character",
+      "aliases": [
+        "週泰"
+      ],
+      "description": "與蔣欽同來追劉備，參與後續岸上追趕。",
+      "evidence": [
+        "乃蔣欽、週泰"
+      ]
+    },
+    {
+      "id": "char_huang_gai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [],
+      "description": "隨周瑜水軍追襲劉備，並與韓當阻止周瑜再登岸死戰。",
+      "evidence": [
+        "左有黃蓋",
+        "黃蓋、韓當力阻"
+      ]
+    },
+    {
+      "id": "char_han_dang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [],
+      "description": "隨周瑜水軍追襲劉備，並與黃蓋勸阻周瑜再戰。",
+      "evidence": [
+        "右有韓當",
+        "黃蓋、韓當力阻"
+      ]
+    },
+    {
+      "id": "faction_wu",
+      "name": "吳",
+      "type": "faction",
+      "aliases": [
+        "東吳",
+        "吳中勢力"
+      ],
+      "description": "孫權統領的江東勢力，本章設計困劉備並追擊其歸荊州。",
+      "evidence": [
+        "吳侯",
+        "吳中",
+        "周瑜自領慣戰水軍"
+      ]
+    },
+    {
+      "id": "faction_liu_bei",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "荊州劉備方"
+      ],
+      "description": "以劉備為主的荊州方面勢力，含諸葛亮、趙雲、關羽等。",
+      "evidence": [
+        "請主公便回",
+        "皆是荊州水軍"
+      ]
+    },
+    {
+      "id": "faction_maids",
+      "name": "侍婢",
+      "type": "faction",
+      "aliases": [
+        "孫夫人侍婢"
+      ],
+      "description": "孫夫人房中佩劍侍女，劉備以金帛收買其心。",
+      "evidence": [
+        "侍婢皆佩劍",
+        "散給侍婢"
+      ]
+    },
+    {
+      "id": "loc_nanxu",
+      "name": "南徐",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備與孫夫人成親並逃離的吳地城邑。",
+      "evidence": [
+        "一到南徐",
+        "離了南徐"
+      ]
+    },
+    {
+      "id": "loc_dongfu",
+      "name": "東府",
+      "type": "location",
+      "aliases": [],
+      "description": "趙雲與五百軍在南徐時駐住之處。",
+      "evidence": [
+        "在東府前住"
+      ]
+    },
+    {
+      "id": "loc_chaisang",
+      "name": "柴桑郡",
+      "type": "location",
+      "aliases": [
+        "柴桑"
+      ],
+      "description": "孫權派人向周瑜報婚事之地；劉備逃亡後經柴桑界首。",
+      "evidence": [
+        "來柴桑郡報周瑜",
+        "來到柴桑界首"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備方面的歸返目標，也是周瑜、張昭謀取的目標。",
+      "evidence": [
+        "回荊州報喜",
+        "荊州可圖"
+      ]
+    },
+    {
+      "id": "loc_wuzhong",
+      "name": "吳中",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜建議用富貴聲色軟困劉備之地。",
+      "evidence": [
+        "軟困之於吳中"
+      ]
+    },
+    {
+      "id": "loc_chaisang_boundary",
+      "name": "柴桑界首",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備逃亡途中遭後追前截的地界。",
+      "evidence": [
+        "來到柴桑界首",
+        "追兵至矣"
+      ]
+    },
+    {
+      "id": "loc_liulangpu",
+      "name": "劉郎浦",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備一行近本界尋渡之處，諸葛亮在此以船接應。",
+      "evidence": [
+        "來到劉郎浦",
+        "篷船二十餘只"
+      ]
+    },
+    {
+      "id": "loc_jiang_an",
+      "name": "江岸",
+      "type": "location",
+      "aliases": [
+        "江邊"
+      ],
+      "description": "劉備沿江尋船、周瑜水陸追襲的重要場景。",
+      "evidence": [
+        "望江岸去了",
+        "沿著江岸尋渡"
+      ]
+    },
+    {
+      "id": "loc_huangzhou_boundary",
+      "name": "黃州界首",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜追至此處，遇關羽伏兵。",
+      "evidence": [
+        "前面是黃州界首",
+        "關雲長也"
+      ]
+    },
+    {
+      "id": "title_wuhou",
+      "name": "吳侯",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權在本章中的稱號。",
+      "evidence": [
+        "吳侯大會文武"
+      ]
+    },
+    {
+      "id": "title_dudu",
+      "name": "周都督",
+      "type": "title",
+      "aliases": [
+        "週都督",
+        "都督"
+      ],
+      "description": "周瑜在本章中的軍職稱呼。",
+      "evidence": [
+        "奉週都督將令",
+        "飛報都督"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "諸葛亮在劉備軍中的職稱。",
+      "evidence": [
+        "軍師有三條妙計"
+      ]
+    },
+    {
+      "id": "title_junzhu",
+      "name": "郡主",
+      "type": "title",
+      "aliases": [],
+      "description": "吳將對孫夫人的稱呼，顯示其尊貴身份。",
+      "evidence": [
+        "若見郡主",
+        "郡主自幼好觀武事"
+      ]
+    },
+    {
+      "id": "obj_jinbo",
+      "name": "金帛",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備散給孫夫人侍婢以收買人心的財物。",
+      "evidence": [
+        "將金帛散給侍婢"
+      ]
+    },
+    {
+      "id": "obj_jinnang",
+      "name": "三個錦囊",
+      "type": "object",
+      "aliases": [
+        "錦囊"
+      ],
+      "description": "諸葛亮交給趙雲的三個密封計策載體，用於保劉備回荊州。",
+      "evidence": [
+        "分付三個錦囊",
+        "可保主公回家"
+      ]
+    },
+    {
+      "id": "obj_yuyan",
+      "name": "玉硯",
+      "type": "object",
+      "aliases": [],
+      "description": "孫權怒聞劉備逃走後摔碎之物。",
+      "evidence": [
+        "將案上玉硯摔為粉碎"
+      ]
+    },
+    {
+      "id": "obj_sword_order",
+      "name": "一口劍",
+      "type": "object",
+      "aliases": [
+        "封劍"
+      ],
+      "description": "孫權交給蔣欽、周泰的追殺令信物，命先殺孫夫人後斬劉備。",
+      "evidence": [
+        "封一口劍在此",
+        "先殺他妹，後斬劉備"
+      ]
+    },
+    {
+      "id": "obj_xiruan",
+      "name": "細軟",
+      "type": "object",
+      "aliases": [
+        "隨身細軟"
+      ],
+      "description": "孫夫人逃離南徐時隨車攜帶的物品。",
+      "evidence": [
+        "止帶隨身一應細軟"
+      ]
+    },
+    {
+      "id": "obj_boats",
+      "name": "篷船",
+      "type": "object",
+      "aliases": [
+        "拖篷船"
+      ],
+      "description": "諸葛亮在劉郎浦備下接應劉備的船隻。",
+      "evidence": [
+        "篷船二十餘只"
+      ]
+    },
+    {
+      "id": "obj_warships",
+      "name": "戰船",
+      "type": "object",
+      "aliases": [],
+      "description": "周瑜率吳中水軍追襲劉備所乘船隊。",
+      "evidence": [
+        "只見戰船無數"
+      ]
+    },
+    {
+      "id": "strat_soft_trap",
+      "name": "軟困劉備之計",
+      "type": "strategy",
+      "aliases": [
+        "軟困之於吳中"
+      ],
+      "description": "周瑜建議以華堂、美色、玩好困住劉備，使其疏遠關張與諸葛，再發兵奪荊州。",
+      "evidence": [
+        "軟困之於吳中",
+        "隔遠諸葛之契",
+        "然後以兵擊之"
+      ]
+    },
+    {
+      "id": "strat_jinnang_miaoj",
+      "name": "錦囊妙計",
+      "type": "strategy",
+      "aliases": [
+        "三條妙計",
+        "神出鬼沒之計"
+      ],
+      "description": "諸葛亮預置三條計策，趙雲按時機開啟以保劉備歸去。",
+      "evidence": [
+        "軍師有三條妙計",
+        "神出鬼沒之計"
+      ]
+    },
+    {
+      "id": "strat_false_jingzhou",
+      "name": "曹操攻荊州假報",
+      "type": "strategy",
+      "aliases": [
+        "荊州危急之報"
+      ],
+      "description": "趙雲依計假稱曹操起兵五十萬攻荊州，促使劉備生歸心。",
+      "evidence": [
+        "佯作失驚之狀",
+        "起精兵五十萬"
+      ]
+    },
+    {
+      "id": "strat_ancestor_escape",
+      "name": "祭祖脫身計",
+      "type": "strategy",
+      "aliases": [
+        "江邊祭祖不告而去"
+      ],
+      "description": "孫夫人提出正旦拜賀時推稱江邊祭祖，藉此與劉備離開南徐。",
+      "evidence": [
+        "推稱江邊祭祖",
+        "不告而去"
+      ]
+    },
+    {
+      "id": "strat_beauty_trap",
+      "name": "美人局",
+      "type": "strategy",
+      "aliases": [],
+      "description": "諸葛亮點破吳方用婚姻與聲色困劉備的手段。",
+      "evidence": [
+        "休再使美人局手段"
+      ]
+    },
+    {
+      "id": "army_zhao_500",
+      "name": "五百軍",
+      "type": "army",
+      "aliases": [
+        "趙雲五百軍"
+      ],
+      "description": "趙雲帶在東府前駐守並護送劉備逃走的軍士。",
+      "evidence": [
+        "趙雲與五百軍",
+        "五百軍士前遮後擁"
+      ]
+    },
+    {
+      "id": "army_chen_pan_500",
+      "name": "五百精兵",
+      "type": "army",
+      "aliases": [
+        "陳武潘璋追兵"
+      ],
+      "description": "孫權命陳武、潘璋選取追拿劉備的兵力。",
+      "evidence": [
+        "選五百精兵"
+      ]
+    },
+    {
+      "id": "army_xu_ding_3000",
+      "name": "三千軍馬",
+      "type": "army",
+      "aliases": [
+        "徐盛丁奉截路軍"
+      ],
+      "description": "周瑜預先命徐盛、丁奉帶去衝要處截劉備的兵馬。",
+      "evidence": [
+        "引三千軍馬",
+        "紮營等候"
+      ]
+    },
+    {
+      "id": "army_jingzhou_navy",
+      "name": "荊州水軍",
+      "type": "army",
+      "aliases": [],
+      "description": "諸葛亮安排扮作客人的水軍，在劉郎浦以船接應劉備。",
+      "evidence": [
+        "皆是荊州水軍"
+      ]
+    },
+    {
+      "id": "army_wu_navy",
+      "name": "慣戰水軍",
+      "type": "army",
+      "aliases": [
+        "東吳水軍",
+        "大小水軍"
+      ],
+      "description": "周瑜親自率領追襲劉備的吳方水軍。",
+      "evidence": [
+        "周瑜自領慣戰水軍",
+        "大小水軍"
+      ]
+    },
+    {
+      "id": "army_guanyu_swordsmen",
+      "name": "刀手",
+      "type": "army",
+      "aliases": [
+        "關羽伏兵"
+      ],
+      "description": "關羽在黃州界首率領伏出的兵士。",
+      "evidence": [
+        "一彪刀手擁出"
+      ]
+    },
+    {
+      "id": "battle_chibi",
+      "name": "赤壁鏖兵",
+      "type": "battle",
+      "aliases": [
+        "赤壁之戰"
+      ],
+      "description": "本章被趙雲假報用作曹操報復的由頭。",
+      "evidence": [
+        "報赤壁鏖兵之恨"
+      ]
+    },
+    {
+      "id": "battle_chaisang_interception",
+      "name": "柴桑界首截路",
+      "type": "battle",
+      "aliases": [
+        "前截後追"
+      ],
+      "description": "劉備逃至柴桑界首時，前有徐盛丁奉截路、後有陳武潘璋追兵。",
+      "evidence": [
+        "前有攔截之兵，後有追趕之兵"
+      ]
+    },
+    {
+      "id": "battle_liulangpu_pursuit",
+      "name": "劉郎浦江上追襲",
+      "type": "battle",
+      "aliases": [
+        "江岸追襲"
+      ],
+      "description": "諸葛亮船接劉備後，周瑜率戰船與水軍追趕。",
+      "evidence": [
+        "戰船無數",
+        "看看趕上"
+      ]
+    },
+    {
+      "id": "battle_huangzhou_ambush",
+      "name": "黃州界首伏擊",
+      "type": "battle",
+      "aliases": [
+        "關羽伏兵"
+      ],
+      "description": "周瑜上岸追至黃州界首，遭關羽率刀手伏出，遂退走。",
+      "evidence": [
+        "一聲鼓響",
+        "關雲長也"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_liu_bei",
+      "target": "char_sun_furen",
+      "type": "夫妻",
+      "description": "劉備與孫夫人在南徐成親。",
+      "evidence": [
+        "玄德與孫夫人成親"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_sun_furen",
+      "type": "兄妹",
+      "description": "孫夫人是孫權之妹。",
+      "evidence": [
+        "吾妹嫁劉備"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "char_sun_furen",
+      "type": "母女",
+      "description": "吳國太是孫夫人之母。",
+      "evidence": [
+        "苦告母親"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "char_sun_quan",
+      "type": "母子",
+      "description": "孫權稱吳國太為母親。",
+      "evidence": [
+        "我母親力主"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "title_wuhou",
+      "type": "稱號",
+      "description": "孫權在本章被稱為吳侯。",
+      "evidence": [
+        "吳侯大會文武"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_furen",
+      "target": "title_junzhu",
+      "type": "稱號",
+      "description": "孫夫人被吳將稱為郡主。",
+      "evidence": [
+        "若見郡主"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "title_dudu",
+      "type": "官職",
+      "description": "周瑜被稱為周都督。",
+      "evidence": [
+        "奉週都督將令"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "title_junshi",
+      "type": "官職",
+      "description": "諸葛亮在劉備軍中被稱為軍師。",
+      "evidence": [
+        "軍師有三條妙計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "faction_wu",
+      "type": "統領",
+      "description": "孫權是吳方主君。",
+      "evidence": [
+        "吳侯大會文武"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "faction_liu_bei",
+      "type": "統領",
+      "description": "劉備為荊州劉備方主公。",
+      "evidence": [
+        "請主公便回"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "faction_liu_bei",
+      "type": "隸屬",
+      "description": "諸葛亮為劉備軍師。",
+      "evidence": [
+        "軍師有三條妙計"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "faction_liu_bei",
+      "type": "隸屬",
+      "description": "趙雲護衛劉備，稱其主公。",
+      "evidence": [
+        "主公休慌"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "faction_liu_bei",
+      "type": "隸屬",
+      "description": "關羽為劉備方大將。",
+      "evidence": [
+        "有關、張、趙雲之將"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "faction_liu_bei",
+      "type": "隸屬",
+      "description": "張飛被列為劉備的重要將領。",
+      "evidence": [
+        "有關、張、趙雲之將"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "faction_wu",
+      "type": "隸屬",
+      "description": "周瑜為吳方都督。",
+      "evidence": [
+        "周都督將令"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_chen_wu",
+      "target": "faction_wu",
+      "type": "隸屬",
+      "description": "陳武奉孫權命追劉備。",
+      "evidence": [
+        "奉主公之命"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_pan_zhang",
+      "target": "faction_wu",
+      "type": "隸屬",
+      "description": "潘璋奉孫權命追劉備。",
+      "evidence": [
+        "奉主公之命"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_xu_sheng",
+      "target": "faction_wu",
+      "type": "隸屬",
+      "description": "徐盛奉周瑜將令截劉備。",
+      "evidence": [
+        "奉週都督將令"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_ding_feng",
+      "target": "faction_wu",
+      "type": "隸屬",
+      "description": "丁奉奉周瑜將令截劉備。",
+      "evidence": [
+        "奉週都督將令"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_jiang_qin",
+      "target": "faction_wu",
+      "type": "隸屬",
+      "description": "蔣欽持孫權劍令追殺。",
+      "evidence": [
+        "封一口劍在此"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_zhou_tai",
+      "target": "faction_wu",
+      "type": "隸屬",
+      "description": "周泰與蔣欽同來追劉備。",
+      "evidence": [
+        "乃蔣欽、週泰"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "faction_maids",
+      "type": "贈與收心",
+      "description": "劉備將金帛分給孫夫人侍婢以收買人心。",
+      "evidence": [
+        "將金帛散給侍婢"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_jinbo",
+      "target": "faction_maids",
+      "type": "贈與物",
+      "description": "金帛是劉備給侍婢的財物。",
+      "evidence": [
+        "金帛散給侍婢"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_sun_qian",
+      "type": "派遣",
+      "description": "劉備派孫幹先回荊州報喜。",
+      "evidence": [
+        "先教孫幹回荊州報喜"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "loc_jingzhou",
+      "type": "行軍",
+      "description": "孫幹被派往荊州。",
+      "evidence": [
+        "回荊州報喜"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_zhou_yu",
+      "type": "報告問計",
+      "description": "孫權遣人到柴桑向周瑜報告婚事並詢問對策。",
+      "evidence": [
+        "來柴桑郡報周瑜"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strat_soft_trap",
+      "type": "提出計策",
+      "description": "周瑜密書建議以富貴聲色軟困劉備。",
+      "evidence": [
+        "又當就此用計",
+        "軟困之於吳中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_zhao",
+      "target": "strat_soft_trap",
+      "type": "支持計策",
+      "description": "張昭認為周瑜之謀合意，可藉此圖荊州。",
+      "evidence": [
+        "公瑾之謀，正合愚意"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_soft_trap",
+      "target": "char_liu_bei",
+      "type": "目標",
+      "description": "軟困之計以劉備為主要目標。",
+      "evidence": [
+        "劉備以梟雄之姿"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_soft_trap",
+      "target": "loc_wuzhong",
+      "type": "施行地點",
+      "description": "周瑜主張在吳中軟困劉備。",
+      "evidence": [
+        "軟困之於吳中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_soft_trap",
+      "target": "loc_jingzhou",
+      "type": "奪取目標",
+      "description": "計策最終意在圖取荊州。",
+      "evidence": [
+        "然後荊州可圖也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_soft_trap",
+      "target": "char_zhuge_liang",
+      "type": "離間",
+      "description": "計策要隔遠劉備與諸葛亮。",
+      "evidence": [
+        "隔遠諸葛之契"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_soft_trap",
+      "target": "char_guan_yu",
+      "type": "離間",
+      "description": "計策要分開劉備與關羽等將的情分。",
+      "evidence": [
+        "分開關、張之情"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strat_soft_trap",
+      "target": "char_zhang_fei",
+      "type": "離間",
+      "description": "計策要分開劉備與張飛等將的情分。",
+      "evidence": [
+        "分開關、張之情"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "obj_jinnang",
+      "type": "交付",
+      "description": "諸葛亮把三個錦囊交給趙雲。",
+      "evidence": [
+        "分付三個錦囊與我"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_jinnang",
+      "target": "strat_jinnang_miaoj",
+      "type": "承載",
+      "description": "錦囊內藏三條妙計。",
+      "evidence": [
+        "軍師有三條妙計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "obj_jinnang",
+      "type": "保管開啟",
+      "description": "趙雲按諸葛亮吩咐在年終開錦囊。",
+      "evidence": [
+        "住到年終，開第二個"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "strat_false_jingzhou",
+      "type": "執行計策",
+      "description": "趙雲佯報曹操攻荊州，使劉備起歸意。",
+      "evidence": [
+        "佯作失驚之狀",
+        "請主公便回"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strat_false_jingzhou",
+      "target": "char_cao_cao",
+      "type": "借名",
+      "description": "假報以曹操報赤壁之恨為由。",
+      "evidence": [
+        "曹操要報赤壁鏖兵之恨"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "strat_false_jingzhou",
+      "target": "loc_jingzhou",
+      "type": "聲稱攻打",
+      "description": "假報聲稱曹操大軍將殺奔荊州。",
+      "evidence": [
+        "殺奔荊州"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "army_zhao_500",
+      "type": "統領",
+      "description": "趙雲率五百軍駐東府並護送劉備。",
+      "evidence": [
+        "趙雲與五百軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_zhao_500",
+      "target": "loc_dongfu",
+      "type": "駐紮",
+      "description": "五百軍在東府前住。",
+      "evidence": [
+        "在東府前住"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_furen",
+      "target": "strat_ancestor_escape",
+      "type": "提出計策",
+      "description": "孫夫人提出正旦借江邊祭祖離開。",
+      "evidence": [
+        "推稱江邊祭祖"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhao_yun",
+      "type": "命令",
+      "description": "劉備命趙雲正旦先引軍士出城等候。",
+      "evidence": [
+        "你先引軍士出城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_furen",
+      "target": "char_wu_guotai",
+      "type": "請准出行",
+      "description": "孫夫人向國太以孝道為名請求出行祭祖。",
+      "evidence": [
+        "正旦拜賀",
+        "此孝道也"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "source": "char_sun_furen",
+      "target": "obj_xiruan",
+      "type": "攜帶",
+      "description": "孫夫人乘車離開時只帶隨身細軟。",
+      "evidence": [
+        "止帶隨身一應細軟"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_nanxu",
+      "type": "逃離",
+      "description": "劉備與孫夫人會合趙雲後離開南徐。",
+      "evidence": [
+        "離了南徐"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_chen_wu",
+      "type": "派遣追拿",
+      "description": "孫權命陳武追拿劉備。",
+      "evidence": [
+        "令陳武、潘璋"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_pan_zhang",
+      "type": "派遣追拿",
+      "description": "孫權命潘璋追拿劉備。",
+      "evidence": [
+        "令陳武、潘璋"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_wu",
+      "target": "army_chen_pan_500",
+      "type": "統領",
+      "description": "陳武率五百精兵追趕。",
+      "evidence": [
+        "選五百精兵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_pan_zhang",
+      "target": "army_chen_pan_500",
+      "type": "統領",
+      "description": "潘璋率五百精兵追趕。",
+      "evidence": [
+        "選五百精兵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "obj_yuyan",
+      "type": "摔碎",
+      "description": "孫權怒聞劉備逃走，摔碎案上玉硯。",
+      "evidence": [
+        "玉硯摔為粉碎"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "char_sun_quan",
+      "type": "進言",
+      "description": "程普向孫權判斷追將必不能擒劉備。",
+      "evidence": [
+        "必擒此人不得"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_xu_sheng",
+      "type": "派遣截路",
+      "description": "周瑜預先派徐盛守衝要截劉備。",
+      "evidence": [
+        "先使徐盛、丁奉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_ding_feng",
+      "type": "派遣截路",
+      "description": "周瑜預先派丁奉守衝要截劉備。",
+      "evidence": [
+        "先使徐盛、丁奉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_sheng",
+      "target": "army_xu_ding_3000",
+      "type": "統領",
+      "description": "徐盛與丁奉率三千軍馬截路。",
+      "evidence": [
+        "引三千軍馬"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_ding_feng",
+      "target": "army_xu_ding_3000",
+      "type": "統領",
+      "description": "丁奉與徐盛率三千軍馬截路。",
+      "evidence": [
+        "引三千軍馬"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "army_xu_ding_3000",
+      "target": "loc_chaisang_boundary",
+      "type": "設伏截路",
+      "description": "徐盛丁奉軍在柴桑界首衝要處截住劉備。",
+      "evidence": [
+        "於衝要之處紮營",
+        "截住去路"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_xu_sheng",
+      "target": "char_liu_bei",
+      "type": "攔截",
+      "description": "徐盛奉周瑜令攔截劉備。",
+      "evidence": [
+        "劉備早早下馬受縛"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ding_feng",
+      "target": "char_liu_bei",
+      "type": "攔截",
+      "description": "丁奉奉周瑜令攔截劉備。",
+      "evidence": [
+        "劉備早早下馬受縛"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_furen",
+      "target": "char_xu_sheng",
+      "type": "喝退",
+      "description": "孫夫人出面，使徐盛不敢違拗而放行。",
+      "evidence": [
+        "安敢與夫人違拗",
+        "放條大路"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_furen",
+      "target": "char_ding_feng",
+      "type": "喝退",
+      "description": "孫夫人出面，使丁奉不敢違拗而放行。",
+      "evidence": [
+        "安敢與夫人違拗",
+        "放條大路"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_furen",
+      "target": "char_chen_wu",
+      "type": "叱退",
+      "description": "陳武追到後被孫夫人正色叱退。",
+      "evidence": [
+        "陳武、潘璋，來此何干",
+        "四將喏喏連聲而退"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_furen",
+      "target": "char_pan_zhang",
+      "type": "叱退",
+      "description": "潘璋追到後被孫夫人正色叱退。",
+      "evidence": [
+        "陳武、潘璋，來此何干",
+        "四將喏喏連聲而退"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "obj_sword_order",
+      "type": "授令",
+      "description": "孫權封劍交給蔣欽、周泰作追殺令。",
+      "evidence": [
+        "封一口劍在此"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_sword_order",
+      "target": "char_sun_furen",
+      "type": "命殺",
+      "description": "劍令要求先殺孫權之妹孫夫人。",
+      "evidence": [
+        "先殺他妹"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_sword_order",
+      "target": "char_liu_bei",
+      "type": "命斬",
+      "description": "劍令要求殺孫夫人後再斬劉備。",
+      "evidence": [
+        "後斬劉備"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jiang_qin",
+      "target": "char_liu_bei",
+      "type": "追殺",
+      "description": "蔣欽持令追趕劉備。",
+      "evidence": [
+        "無問水旱之路，趕上殺了"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_tai",
+      "target": "char_liu_bei",
+      "type": "追殺",
+      "description": "周泰與蔣欽同追劉備。",
+      "evidence": [
+        "乃蔣欽、週泰"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_liulangpu",
+      "type": "接應地點",
+      "description": "諸葛亮在劉郎浦船中等候劉備。",
+      "evidence": [
+        "諸葛亮在此等候多時"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "army_jingzhou_navy",
+      "type": "調度",
+      "description": "諸葛亮安排荊州水軍扮作客人接應。",
+      "evidence": [
+        "船中扮作客人的，皆是荊州水軍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_jingzhou_navy",
+      "target": "obj_boats",
+      "type": "乘船接應",
+      "description": "荊州水軍乘篷船接應劉備一行。",
+      "evidence": [
+        "篷船二十餘只",
+        "皆是荊州水軍"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "obj_boats",
+      "target": "char_liu_bei",
+      "type": "接渡",
+      "description": "篷船載劉備、孫夫人與五百軍離岸。",
+      "evidence": [
+        "玄德與孫夫人便奔上船"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_beauty_trap",
+      "type": "識破嘲諷",
+      "description": "諸葛亮讓吳將轉告周瑜勿再用美人局。",
+      "evidence": [
+        "休再使美人局手段"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "army_wu_navy",
+      "type": "統領",
+      "description": "周瑜親率慣戰水軍追趕劉備。",
+      "evidence": [
+        "周瑜自領慣戰水軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_wu_navy",
+      "target": "obj_warships",
+      "type": "乘載",
+      "description": "吳方水軍乘無數戰船追擊。",
+      "evidence": [
+        "戰船無數"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_huang_gai",
+      "target": "char_zhou_yu",
+      "type": "隨行",
+      "description": "黃蓋在周瑜水軍左側隨行。",
+      "evidence": [
+        "左有黃蓋"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_dang",
+      "target": "char_zhou_yu",
+      "type": "隨行",
+      "description": "韓當在周瑜水軍右側隨行。",
+      "evidence": [
+        "右有韓當"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_liu_bei",
+      "type": "追襲",
+      "description": "周瑜水陸追趕劉備車馬。",
+      "evidence": [
+        "望見玄德車馬不遠",
+        "並力追襲"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "army_guanyu_swordsmen",
+      "type": "統領",
+      "description": "關羽率一彪刀手伏出。",
+      "evidence": [
+        "一彪刀手擁出",
+        "關雲長也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_zhou_yu",
+      "type": "伏兵驚退",
+      "description": "關羽伏兵出現，使周瑜失措退走。",
+      "evidence": [
+        "周瑜舉止失措",
+        "急撥馬便走"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_gai",
+      "target": "char_zhou_yu",
+      "type": "勸阻",
+      "description": "黃蓋阻止周瑜再登岸決戰。",
+      "evidence": [
+        "黃蓋、韓當力阻"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_dang",
+      "target": "char_zhou_yu",
+      "type": "勸阻",
+      "description": "韓當阻止周瑜再登岸決戰。",
+      "evidence": [
+        "黃蓋、韓當力阻"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "battle_huangzhou_ambush",
+      "target": "char_zhou_yu",
+      "type": "造成後果",
+      "description": "黃州伏兵後，周瑜怒羞交加，金瘡迸裂昏倒。",
+      "evidence": [
+        "金瘡迸裂，倒於船上"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_marriage",
+      "name": "劉備與孫夫人成親",
+      "summary": "吳國太力主婚事，孫夫人與劉備成親；劉備以金帛收買侍婢，並派孫幹回荊州報喜。",
+      "participants": [
+        "char_liu_bei",
+        "char_sun_furen",
+        "char_wu_guotai",
+        "char_sun_qian",
+        "faction_maids"
+      ],
+      "locations": [
+        "loc_nanxu"
+      ],
+      "evidence": [
+        "玄德與孫夫人成親",
+        "先教孫幹回荊州報喜"
+      ]
+    },
+    {
+      "id": "evt_soft_trap_plan",
+      "name": "周瑜密獻軟困之計",
+      "summary": "周瑜得知婚事弄假成真後，密書孫權，建議在吳中以富貴聲色困住劉備，離間其與關張、諸葛，再取荊州；張昭附議。",
+      "participants": [
+        "char_zhou_yu",
+        "char_sun_quan",
+        "char_zhang_zhao",
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_guan_yu",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_chaisang",
+        "loc_wuzhong",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "修密書",
+        "軟困之於吳中",
+        "荊州可圖"
+      ]
+    },
+    {
+      "id": "evt_false_report",
+      "name": "趙雲依錦囊假報荊州危急",
+      "summary": "年終時趙雲想起諸葛亮所給錦囊，佯報曹操起兵攻荊州，促使劉備向孫夫人求助歸去。",
+      "participants": [
+        "char_zhao_yun",
+        "char_zhuge_liang",
+        "char_liu_bei",
+        "char_cao_cao",
+        "char_sun_furen"
+      ],
+      "locations": [
+        "loc_dongfu",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "住到年終，開第二個",
+        "佯作失驚",
+        "殺奔荊州"
+      ]
+    },
+    {
+      "id": "evt_new_year_escape",
+      "name": "正旦祭祖逃離南徐",
+      "summary": "孫夫人提出正旦以江邊祭祖為名離開；劉備命趙雲先出城等候，二人瞞過孫權後與五百軍離開南徐。",
+      "participants": [
+        "char_liu_bei",
+        "char_sun_furen",
+        "char_zhao_yun",
+        "char_wu_guotai",
+        "char_sun_quan",
+        "army_zhao_500"
+      ],
+      "locations": [
+        "loc_nanxu",
+        "loc_jiang_an"
+      ],
+      "evidence": [
+        "推稱江邊祭祖",
+        "五百軍士前遮後擁",
+        "離了南徐"
+      ]
+    },
+    {
+      "id": "evt_sunquan_chase_order",
+      "name": "孫權命陳武潘璋追拿",
+      "summary": "孫權酒醒後得知劉備逃走，怒摔玉硯，命陳武、潘璋率五百精兵無分晝夜追拿。",
+      "participants": [
+        "char_sun_quan",
+        "char_chen_wu",
+        "char_pan_zhang",
+        "char_cheng_pu",
+        "army_chen_pan_500",
+        "obj_yuyan"
+      ],
+      "locations": [
+        "loc_nanxu"
+      ],
+      "evidence": [
+        "聞知走了玄德",
+        "選五百精兵",
+        "玉硯摔為粉碎"
+      ]
+    },
+    {
+      "id": "evt_chaisang_interception",
+      "name": "柴桑界首前截後追",
+      "summary": "劉備到柴桑界首時，後有陳武、潘璋追兵，前有周瑜所派徐盛、丁奉三千軍馬截路，形成前後受敵。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhao_yun",
+        "char_xu_sheng",
+        "char_ding_feng",
+        "char_chen_wu",
+        "char_pan_zhang",
+        "army_xu_ding_3000",
+        "army_chen_pan_500"
+      ],
+      "locations": [
+        "loc_chaisang_boundary"
+      ],
+      "evidence": [
+        "追兵至矣",
+        "截住去路",
+        "前後無路"
+      ]
+    },
+    {
+      "id": "evt_sun_furen_rebukes_generals",
+      "name": "孫夫人喝退四將",
+      "summary": "孫夫人先使徐盛、丁奉放行，後又在陳武、潘璋追到時正色斥責，四將不敢動手而退。",
+      "participants": [
+        "char_sun_furen",
+        "char_zhao_yun",
+        "char_xu_sheng",
+        "char_ding_feng",
+        "char_chen_wu",
+        "char_pan_zhang"
+      ],
+      "locations": [
+        "loc_chaisang_boundary"
+      ],
+      "evidence": [
+        "安敢與夫人違拗",
+        "四將喏喏連聲而退"
+      ]
+    },
+    {
+      "id": "evt_sword_order_pursuit",
+      "name": "蔣欽周泰持劍追殺",
+      "summary": "蔣欽、周泰趕到，宣稱孫權封劍下令先殺孫夫人、後斬劉備，並安排水陸追趕。",
+      "participants": [
+        "char_jiang_qin",
+        "char_zhou_tai",
+        "char_sun_quan",
+        "char_sun_furen",
+        "char_liu_bei",
+        "obj_sword_order"
+      ],
+      "locations": [
+        "loc_jiang_an"
+      ],
+      "evidence": [
+        "封一口劍在此",
+        "無問水旱之路"
+      ]
+    },
+    {
+      "id": "evt_liulangpu_rescue",
+      "name": "諸葛亮劉郎浦船接劉備",
+      "summary": "劉備到劉郎浦無船可渡時，江岸出現二十餘隻篷船；諸葛亮與荊州水軍在船中等候，接走劉備一行。",
+      "participants": [
+        "char_liu_bei",
+        "char_sun_furen",
+        "char_zhao_yun",
+        "char_zhuge_liang",
+        "army_jingzhou_navy",
+        "obj_boats"
+      ],
+      "locations": [
+        "loc_liulangpu",
+        "loc_jiang_an"
+      ],
+      "evidence": [
+        "並無船隻",
+        "篷船二十餘只",
+        "諸葛亮在此等候"
+      ]
+    },
+    {
+      "id": "evt_zhouyu_water_pursuit",
+      "name": "周瑜率水軍追襲",
+      "summary": "諸葛亮接走劉備後，周瑜親率慣戰水軍及戰船追趕，黃蓋、韓當隨行。",
+      "participants": [
+        "char_zhou_yu",
+        "char_huang_gai",
+        "char_han_dang",
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "army_wu_navy",
+        "obj_warships"
+      ],
+      "locations": [
+        "loc_jiang_an"
+      ],
+      "evidence": [
+        "戰船無數",
+        "周瑜自領慣戰水軍",
+        "看看趕上"
+      ]
+    },
+    {
+      "id": "evt_huangzhou_ambush",
+      "name": "關羽黃州伏兵驚退周瑜",
+      "summary": "周瑜上岸追近劉備車馬，到黃州界首時，關羽率刀手伏出；周瑜失措退走。",
+      "participants": [
+        "char_zhou_yu",
+        "char_guan_yu",
+        "char_liu_bei",
+        "char_huang_gai",
+        "char_han_dang",
+        "army_guanyu_swordsmen"
+      ],
+      "locations": [
+        "loc_huangzhou_boundary"
+      ],
+      "evidence": [
+        "前面是黃州界首",
+        "一彪刀手擁出",
+        "周瑜縱馬逃命"
+      ]
+    },
+    {
+      "id": "evt_zhouyu_collapse",
+      "name": "周瑜舊創迸裂昏倒",
+      "summary": "周瑜計敗受辱，欲再戰被黃蓋、韓當阻止，隨即大叫一聲，金瘡迸裂倒於船上，不省人事。",
+      "participants": [
+        "char_zhou_yu",
+        "char_huang_gai",
+        "char_han_dang"
+      ],
+      "locations": [
+        "loc_jiang_an"
+      ],
+      "evidence": [
+        "有何面目去見吳侯",
+        "金瘡迸裂",
+        "不省人事"
+      ]
+    }
+  ],
+  "notes": [
+    "趙雲所稱曹操起精兵攻荊州，是依錦囊促劉備離吳的說辭；本章未寫曹操實際出兵。",
+    "部分原文將「周」作「週」，實體以常見本名收錄，異體置於 aliases。"
+  ]
+}

@@ -1,0 +1,1866 @@
+{
+  "book": "三國演義",
+  "chapter_no": 54,
+  "chapter_title": "吳國太佛寺看新郎　劉皇叔洞房續佳偶",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉皇叔",
+        "皇叔",
+        "劉玄德"
+      ],
+      "description": "荊州方面主公，本章被東吳以婚事誘至南徐，後與孫夫人結親。",
+      "evidence": [
+        "玄德出城迎接",
+        "招劉玄德為婿",
+        "孫夫人與玄德結親"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "諸葛孔明",
+        "亮",
+        "諸葛先生"
+      ],
+      "description": "劉備謀士，應對魯肅索荊州，識破周瑜招親之計，授趙雲三個錦囊。",
+      "evidence": [
+        "孔明變色曰",
+        "此乃周瑜之計",
+        "三個錦囊"
+      ]
+    },
+    {
+      "id": "char_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "子敬"
+      ],
+      "description": "東吳使者，奉命祭弔並索還荊州，後向周瑜、孫權回報。",
+      "evidence": [
+        "魯肅到",
+        "幾時可以交割",
+        "呈上文書"
+      ]
+    },
+    {
+      "id": "char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "周都督",
+        "週督",
+        "周瑾"
+      ],
+      "description": "東吳都督，認為魯肅中諸葛之謀，設招親拘劉備以取荊州之計。",
+      "evidence": [
+        "子敬中諸葛之謀",
+        "我今上書主公"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "吳侯",
+        "權"
+      ],
+      "description": "東吳之主，接受周瑜計策，派呂範作媒，後在甘露寺見劉備。",
+      "evidence": [
+        "孫權入後堂",
+        "吾有一妹",
+        "孫權送出寺前"
+      ]
+    },
+    {
+      "id": "char_lv_fan",
+      "name": "呂範",
+      "type": "character",
+      "aliases": [
+        "子衡"
+      ],
+      "description": "東吳使者，被孫權選為媒人，往荊州向劉備提親。",
+      "evidence": [
+        "非呂範不可",
+        "特來作媒"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [
+        "孫幹"
+      ],
+      "description": "劉備使者，與呂範同往江南說合親事，後勸劉備速成婚事。",
+      "evidence": [
+        "孫乾和呂範回見吳侯",
+        "早早畢姻"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "趙子龍",
+        "子龍",
+        "常山趙子龍"
+      ],
+      "description": "劉備部將，受孔明三錦囊，護送劉備入吳並識破刀斧手埋伏。",
+      "evidence": [
+        "非子龍不可行",
+        "保主公入吳",
+        "見房內有刀斧手埋伏"
+      ]
+    },
+    {
+      "id": "char_wu_guotai",
+      "name": "吳國太",
+      "type": "character",
+      "aliases": [
+        "國太",
+        "吳夫人"
+      ],
+      "description": "孫權母輩人物，愛護孫夫人，在甘露寺看中劉備並喝退伏兵。",
+      "evidence": [
+        "國太大怒",
+        "真吾君也",
+        "叱退賈華"
+      ]
+    },
+    {
+      "id": "char_lady_sun",
+      "name": "孫夫人",
+      "type": "character",
+      "aliases": [
+        "吳侯之妹",
+        "小妹",
+        "幼女"
+      ],
+      "description": "孫權之妹，周瑜計策中被用作招親名義，後與劉備結親。",
+      "evidence": [
+        "吾有一妹",
+        "吳侯之妹",
+        "孫夫人與玄德結親"
+      ]
+    },
+    {
+      "id": "char_qiao_guolao",
+      "name": "喬國老",
+      "type": "character",
+      "aliases": [
+        "國老"
+      ],
+      "description": "南徐名士，二喬之父，向吳國太揭露婚事並勸真招劉備。",
+      "evidence": [
+        "喬國老乃二喬之父",
+        "不如真個招他"
+      ]
+    },
+    {
+      "id": "char_jia_hua",
+      "name": "賈華",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，奉命預伏三百刀斧手於甘露寺。",
+      "evidence": [
+        "權遂喚賈華",
+        "叱退賈華"
+      ]
+    },
+    {
+      "id": "char_lady_gan",
+      "name": "甘夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備亡妻，其去世使周瑜認為可用續娶之計。",
+      "evidence": [
+        "劉玄德沒了甘夫人"
+      ]
+    },
+    {
+      "id": "char_liu_qi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "公子",
+        "令侄"
+      ],
+      "description": "劉表之子，去世後成為魯肅索還荊州的理由。",
+      "evidence": [
+        "令侄棄世",
+        "公子已去世"
+      ]
+    },
+    {
+      "id": "char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "劉景升"
+      ],
+      "description": "劉備宗親，孔明以其與劉備關係作為承繼荊州的理由。",
+      "evidence": [
+        "劉景升乃我主之兄"
+      ]
+    },
+    {
+      "id": "char_a_dou",
+      "name": "阿鬥",
+      "type": "character",
+      "aliases": [],
+      "description": "本章被提及為趙雲昔日長坂救護之人。",
+      "evidence": [
+        "長坂抱阿鬥"
+      ]
+    },
+    {
+      "id": "char_er_qiao",
+      "name": "二喬",
+      "type": "character",
+      "aliases": [],
+      "description": "喬國老之女輩人物，本章用以說明喬國老身份。",
+      "evidence": [
+        "喬國老乃二喬之父"
+      ]
+    },
+    {
+      "id": "fac_liu_bei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州方面"
+      ],
+      "description": "以劉備為主的荊州勢力，孔明、趙雲、孫乾皆屬之。",
+      "evidence": [
+        "我主人",
+        "主公",
+        "隨行五百餘人"
+      ]
+    },
+    {
+      "id": "fac_eastern_wu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "江東",
+        "江南",
+        "吳侯勢力"
+      ],
+      "description": "孫權所領勢力，周瑜、魯肅、呂範、賈華皆為其臣屬。",
+      "evidence": [
+        "回見吳侯",
+        "東吳就婚",
+        "江南"
+      ]
+    },
+    {
+      "id": "fac_han",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [
+        "漢土",
+        "朝廷"
+      ],
+      "description": "劉備、孔明言談中所稱正統與扶助對象。",
+      "evidence": [
+        "復歸正統",
+        "以扶漢室"
+      ]
+    },
+    {
+      "id": "fac_cao",
+      "name": "曹賊勢力",
+      "type": "faction",
+      "aliases": [
+        "曹賊",
+        "曹"
+      ],
+      "description": "孫劉聯姻說辭中共同對抗的敵方。",
+      "evidence": [
+        "同心破曹",
+        "休教曹賊笑話"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [
+        "荊州城",
+        "荊州城池"
+      ],
+      "description": "劉備所據重地，東吳索還及周瑜計策所圖目標。",
+      "evidence": [
+        "即還荊州",
+        "取荊州",
+        "荊州城池"
+      ]
+    },
+    {
+      "id": "loc_xichuan",
+      "name": "西川",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備文書中約定取下後才歸還荊州的條件地。",
+      "evidence": [
+        "取了西川便還"
+      ]
+    },
+    {
+      "id": "loc_chaisang",
+      "name": "柴桑郡",
+      "type": "location",
+      "aliases": [
+        "柴桑"
+      ],
+      "description": "魯肅回東吳後先見周瑜之地。",
+      "evidence": [
+        "先到柴桑郡見周瑜"
+      ]
+    },
+    {
+      "id": "loc_nanxu",
+      "name": "南徐",
+      "type": "location",
+      "aliases": [],
+      "description": "孫權與吳國太所在，劉備入吳成親與甘露寺會面之地。",
+      "evidence": [
+        "投南徐見孫權",
+        "望南徐進發"
+      ]
+    },
+    {
+      "id": "loc_jiangnan",
+      "name": "江南",
+      "type": "location",
+      "aliases": [
+        "江左"
+      ],
+      "description": "東吳地域稱呼，孫乾與呂範往返說合婚事之處。",
+      "evidence": [
+        "同到江南",
+        "江左之人"
+      ]
+    },
+    {
+      "id": "loc_ganlu_temple",
+      "name": "甘露寺",
+      "type": "location",
+      "aliases": [
+        "佛寺",
+        "方丈"
+      ],
+      "description": "吳國太看劉備、賈華伏兵被揭、劉備劈石之地。",
+      "evidence": [
+        "投甘露寺來",
+        "甘露寺方丈"
+      ]
+    },
+    {
+      "id": "loc_guanyi",
+      "name": "館驛",
+      "type": "location",
+      "aliases": [],
+      "description": "呂範及劉備一行在南徐安歇之處。",
+      "evidence": [
+        "留來人在館驛",
+        "館驛安歇"
+      ]
+    },
+    {
+      "id": "loc_qiao_house",
+      "name": "喬國老宅",
+      "type": "location",
+      "aliases": [
+        "喬國老宅前"
+      ],
+      "description": "劉備求喬國老相助之處。",
+      "evidence": [
+        "至喬國老宅前下馬"
+      ]
+    },
+    {
+      "id": "loc_shuyuan",
+      "name": "書院",
+      "type": "location",
+      "aliases": [],
+      "description": "吳國太安排劉備暫住並準備完婚之處。",
+      "evidence": [
+        "搬入書院暫住"
+      ]
+    },
+    {
+      "id": "loc_changban",
+      "name": "當陽長坂",
+      "type": "location",
+      "aliases": [
+        "長坂",
+        "當陽"
+      ],
+      "description": "趙雲昔日救阿鬥事跡的地點，本章作舊事提及。",
+      "evidence": [
+        "當陽長坂抱阿鬥"
+      ]
+    },
+    {
+      "id": "loc_zhu_mapo",
+      "name": "駐馬坡",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備與孫權並馬觀江山後得名之處。",
+      "evidence": [
+        "此處名為駐馬坡"
+      ]
+    },
+    {
+      "id": "loc_tongque",
+      "name": "銅雀宮",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明斥魯肅時提及的曹方宮殿。",
+      "evidence": [
+        "二喬置於銅雀宮"
+      ]
+    },
+    {
+      "id": "battle_changban",
+      "name": "當陽長坂",
+      "type": "battle",
+      "aliases": [
+        "長坂"
+      ],
+      "description": "本章引用趙雲長坂救阿鬥的舊戰事，不是本章新發生戰役。",
+      "evidence": [
+        "長坂抱阿鬥者"
+      ]
+    },
+    {
+      "id": "title_liu_huangshu",
+      "name": "劉皇叔",
+      "type": "title",
+      "aliases": [
+        "皇叔"
+      ],
+      "description": "劉備在本章常用稱號，強調其漢室宗親身份。",
+      "evidence": [
+        "致意劉皇叔",
+        "皇叔名聞四海"
+      ]
+    },
+    {
+      "id": "title_wu_hou",
+      "name": "吳侯",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權稱號。",
+      "evidence": [
+        "回見吳侯",
+        "吾主吳侯"
+      ]
+    },
+    {
+      "id": "title_zhou_dudu",
+      "name": "周都督",
+      "type": "title",
+      "aliases": [
+        "大都督",
+        "六郡八十一州大都督"
+      ],
+      "description": "周瑜在東吳的軍事職稱。",
+      "evidence": [
+        "週都督有書呈",
+        "六郡八十一州大都督"
+      ]
+    },
+    {
+      "id": "title_guotai",
+      "name": "國太",
+      "type": "title",
+      "aliases": [
+        "吳國太"
+      ],
+      "description": "吳國太在章中被稱呼的尊號。",
+      "evidence": [
+        "國太大怒",
+        "國太問曰"
+      ]
+    },
+    {
+      "id": "obj_gifts",
+      "name": "薄禮",
+      "type": "object",
+      "aliases": [
+        "禮物"
+      ],
+      "description": "孫權遣魯肅祭弔所帶禮物。",
+      "evidence": [
+        "特具薄禮",
+        "收了禮物"
+      ]
+    },
+    {
+      "id": "obj_wenshu",
+      "name": "文書",
+      "type": "object",
+      "aliases": [
+        "字據"
+      ],
+      "description": "劉備承諾取西川後歸還荊州的書面憑據，由劉備、孔明、魯肅押字。",
+      "evidence": [
+        "玄德親筆寫成文書",
+        "取了西川便還"
+      ]
+    },
+    {
+      "id": "obj_three_bags",
+      "name": "三個錦囊",
+      "type": "object",
+      "aliases": [
+        "錦囊"
+      ],
+      "description": "孔明交給趙雲的三個計策載體。",
+      "evidence": [
+        "當領此三個錦囊"
+      ]
+    },
+    {
+      "id": "obj_fast_boats",
+      "name": "快船十隻",
+      "type": "object",
+      "aliases": [
+        "快船"
+      ],
+      "description": "劉備入吳時所乘船隻。",
+      "evidence": [
+        "取快船十隻"
+      ]
+    },
+    {
+      "id": "obj_betrothal",
+      "name": "聘",
+      "type": "object",
+      "aliases": [
+        "聘禮"
+      ],
+      "description": "孔明先派人往東吳送納的婚聘。",
+      "evidence": [
+        "往東吳納了聘"
+      ]
+    },
+    {
+      "id": "obj_sword",
+      "name": "劍",
+      "type": "object",
+      "aliases": [
+        "寶劍"
+      ],
+      "description": "劉備在甘露寺前劈石所用兵器。",
+      "evidence": [
+        "拔從者所佩之劍"
+      ]
+    },
+    {
+      "id": "obj_hate_stone",
+      "name": "恨石",
+      "type": "object",
+      "aliases": [
+        "石塊"
+      ],
+      "description": "劉備祝告後一劍劈開的石頭，後稱恨石。",
+      "evidence": [
+        "砍石為兩段",
+        "恨石尚存"
+      ]
+    },
+    {
+      "id": "obj_armor",
+      "name": "細鎧",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備赴甘露寺時內穿的防護甲。",
+      "evidence": [
+        "內披細鎧"
+      ]
+    },
+    {
+      "id": "obj_room_weapons",
+      "name": "槍刀軍器",
+      "type": "object",
+      "aliases": [
+        "槍刀",
+        "軍器"
+      ],
+      "description": "孫夫人房中陳列的兵器，侍婢亦佩劍懸刀。",
+      "evidence": [
+        "槍刀簇滿",
+        "侍婢皆佩劍懸刀"
+      ]
+    },
+    {
+      "id": "strat_xichuan_return",
+      "name": "取西川還荊州",
+      "type": "strategy",
+      "aliases": [
+        "藉地混賴"
+      ],
+      "description": "以取西川作為歸還荊州條件的拖延策略。",
+      "evidence": [
+        "取了西川便還",
+        "名為藉地"
+      ]
+    },
+    {
+      "id": "strat_marriage_lure",
+      "name": "假招親取荊州",
+      "type": "strategy",
+      "aliases": [
+        "美人計",
+        "招贅之計"
+      ],
+      "description": "周瑜以孫權之妹招劉備入贅為名，欲拘囚劉備換取荊州。",
+      "evidence": [
+        "賺到南徐",
+        "討荊州換劉備"
+      ]
+    },
+    {
+      "id": "strat_three_bags",
+      "name": "三條妙計",
+      "type": "strategy",
+      "aliases": [
+        "三個錦囊妙計"
+      ],
+      "description": "孔明為劉備入吳預設的三項應對方案。",
+      "evidence": [
+        "囊中有三條妙計"
+      ]
+    },
+    {
+      "id": "strat_publicize_wedding",
+      "name": "宣揚婚事",
+      "type": "strategy",
+      "aliases": [
+        "第一個錦囊之計"
+      ],
+      "description": "讓五百軍士披紅掛彩購辦婚物，使南徐城中盡知劉備入贅。",
+      "evidence": [
+        "披紅掛彩",
+        "城中人盡知其事"
+      ]
+    },
+    {
+      "id": "strat_ambush",
+      "name": "刀斧手埋伏",
+      "type": "strategy",
+      "aliases": [
+        "伏於兩廊"
+      ],
+      "description": "呂範建議、孫權安排賈華率刀斧手埋伏，視吳國太反應擒劉備。",
+      "evidence": [
+        "伏於兩廊",
+        "一聲號舉"
+      ]
+    },
+    {
+      "id": "army_liu_500",
+      "name": "五百隨行軍士",
+      "type": "army",
+      "aliases": [
+        "五百軍",
+        "隨行五百餘人"
+      ],
+      "description": "劉備入吳隨行軍士，由趙雲護領，並執行宣揚婚事之計。",
+      "evidence": [
+        "隨行五百餘人",
+        "趙雲引五百軍"
+      ]
+    },
+    {
+      "id": "army_jia_300",
+      "name": "三百刀斧手",
+      "type": "army",
+      "aliases": [
+        "刀斧手"
+      ],
+      "description": "賈華統領、伏於甘露寺兩廊的東吳伏兵。",
+      "evidence": [
+        "三百刀斧手",
+        "刀斧手埋伏"
+      ]
+    },
+    {
+      "id": "event_jingzhou_claim",
+      "name": "魯肅索還荊州",
+      "type": "event",
+      "aliases": [],
+      "description": "魯肅以劉琦已死為由催劉備交割荊州，孔明力辯劉備可承劉表之業。",
+      "evidence": [
+        "公子已去世",
+        "弟承兄業"
+      ]
+    },
+    {
+      "id": "event_wenshu",
+      "name": "西川還荊州文書成立",
+      "type": "event",
+      "aliases": [],
+      "description": "劉備寫文書承諾取西川後還荊州，孔明與魯肅押字。",
+      "evidence": [
+        "親筆寫成文書",
+        "遂押了字"
+      ]
+    },
+    {
+      "id": "event_marriage_lure",
+      "name": "周瑜設招親計",
+      "type": "event",
+      "aliases": [
+        "美人計"
+      ],
+      "description": "周瑜因甘夫人去世，設以孫權妹招親誘拘劉備之計。",
+      "evidence": [
+        "劉備喪妻，必續娶",
+        "幽囚在獄中"
+      ]
+    },
+    {
+      "id": "event_ganlu_meeting",
+      "name": "甘露寺看新郎",
+      "type": "event",
+      "aliases": [
+        "甘露寺會"
+      ],
+      "description": "吳國太在甘露寺相看劉備，趙雲揭出伏兵，吳國太喝退賈華。",
+      "evidence": [
+        "國太見了玄德",
+        "叱退賈華"
+      ]
+    },
+    {
+      "id": "event_sun_liu_marriage",
+      "name": "孫劉結親",
+      "type": "event",
+      "aliases": [
+        "洞房續佳偶"
+      ],
+      "description": "吳國太安排劉備入府暫住，數日後孫夫人與劉備正式結親。",
+      "evidence": [
+        "擇日畢姻",
+        "孫夫人與玄德結親"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_liu_bei",
+      "target": "title_liu_huangshu",
+      "type": "稱號",
+      "description": "劉備在章中被稱為劉皇叔。",
+      "evidence": [
+        "致意劉皇叔"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "title_wu_hou",
+      "type": "稱號",
+      "description": "孫權被稱為吳侯。",
+      "evidence": [
+        "回見吳侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "title_zhou_dudu",
+      "type": "官職",
+      "description": "周瑜以周都督、大都督身份行事。",
+      "evidence": [
+        "週都督有書呈"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "title_guotai",
+      "type": "稱號",
+      "description": "吳國太在章中多稱國太。",
+      "evidence": [
+        "國太大怒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "fac_liu_bei",
+      "type": "統領",
+      "description": "劉備為荊州方面主公。",
+      "evidence": [
+        "主公便可應允"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "fac_liu_bei",
+      "type": "隸屬",
+      "description": "孔明為劉備謀士。",
+      "evidence": [
+        "我主人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "fac_liu_bei",
+      "type": "隸屬",
+      "description": "趙雲奉孔明命保劉備入吳。",
+      "evidence": [
+        "保主公入吳"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "fac_liu_bei",
+      "type": "隸屬",
+      "description": "孫乾受孔明安排出使江南。",
+      "evidence": [
+        "教孫幹往江南"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "fac_eastern_wu",
+      "type": "統領",
+      "description": "孫權是東吳之主。",
+      "evidence": [
+        "吾主吳侯"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "fac_eastern_wu",
+      "type": "隸屬",
+      "description": "周瑜為東吳都督。",
+      "evidence": [
+        "周都督"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_lu_su",
+      "target": "fac_eastern_wu",
+      "type": "隸屬",
+      "description": "魯肅奉東吳之命出使。",
+      "evidence": [
+        "遣某前來"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_lv_fan",
+      "target": "fac_eastern_wu",
+      "type": "隸屬",
+      "description": "呂範奉孫權命作媒。",
+      "evidence": [
+        "範領命"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jia_hua",
+      "target": "fac_eastern_wu",
+      "type": "隸屬",
+      "description": "賈華奉孫權命預備伏兵。",
+      "evidence": [
+        "權遂喚賈華"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_lu_su",
+      "type": "派遣",
+      "description": "孫權遣魯肅攜禮祭弔並處理荊州事。",
+      "evidence": [
+        "遣某前來致祭"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_lu_su",
+      "target": "loc_jingzhou",
+      "type": "索還",
+      "description": "魯肅以劉琦已死為由向劉備索還荊州。",
+      "evidence": [
+        "幾時可以交割"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_qi",
+      "target": "event_jingzhou_claim",
+      "type": "觸發",
+      "description": "劉琦去世成為魯肅索還荊州的理由。",
+      "evidence": [
+        "公子已去世"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "char_liu_bei",
+      "type": "宗親",
+      "description": "孔明稱劉景升為劉備之兄，作為承繼理由。",
+      "evidence": [
+        "劉景升乃我主之兄"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_jingzhou",
+      "type": "據守",
+      "description": "劉備暫據荊州，東吳要求交割。",
+      "evidence": [
+        "還荊州",
+        "交割"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "event_jingzhou_claim",
+      "type": "辯護",
+      "description": "孔明為劉備承荊州辯解。",
+      "evidence": [
+        "弟承兄業"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_wenshu",
+      "type": "簽署",
+      "description": "劉備親筆寫成歸還荊州條件文書並押字。",
+      "evidence": [
+        "親筆寫成文書"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "obj_wenshu",
+      "type": "作保簽署",
+      "description": "孔明作保，也在文書上押字。",
+      "evidence": [
+        "保人諸葛孔明也押了字"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_su",
+      "target": "obj_wenshu",
+      "type": "簽署收執",
+      "description": "魯肅押字並收下文書。",
+      "evidence": [
+        "遂押了字，收了文書"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_wenshu",
+      "target": "loc_xichuan",
+      "type": "條件",
+      "description": "文書約定取西川後才還荊州。",
+      "evidence": [
+        "取了西川便還"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_xichuan_return",
+      "target": "loc_jingzhou",
+      "type": "延緩歸還",
+      "description": "取西川還荊州之說使荊州歸還無定期。",
+      "evidence": [
+        "知他幾時取西川"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_lu_su",
+      "target": "char_zhou_yu",
+      "type": "回報",
+      "description": "魯肅攜文書到柴桑見周瑜。",
+      "evidence": [
+        "先到柴桑郡見周瑜"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_zhuge_liang",
+      "type": "識破計謀",
+      "description": "周瑜認為魯肅中了諸葛亮之謀。",
+      "evidence": [
+        "中諸葛之謀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_lu_su",
+      "type": "救援",
+      "description": "周瑜因舊情承諾替魯肅解困。",
+      "evidence": [
+        "如何不救你"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "source": "char_lady_gan",
+      "target": "char_liu_bei",
+      "type": "配偶已亡",
+      "description": "甘夫人是劉備亡妻。",
+      "evidence": [
+        "玄德沒了甘夫人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strat_marriage_lure",
+      "type": "設計",
+      "description": "周瑜設以孫權妹招親拘劉備之計。",
+      "evidence": [
+        "我今上書主公"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_marriage_lure",
+      "target": "char_liu_bei",
+      "type": "針對",
+      "description": "此計欲誘劉備到南徐後拘禁。",
+      "evidence": [
+        "賺到南徐"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_marriage_lure",
+      "target": "loc_jingzhou",
+      "type": "目的",
+      "description": "拘劉備的目的是換取荊州。",
+      "evidence": [
+        "討荊州換劉備"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_marriage_lure",
+      "target": "char_lady_sun",
+      "type": "利用名義",
+      "description": "周瑜以孫權妹婚事作計策名義。",
+      "evidence": [
+        "將我女兒為名"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_sun_quan",
+      "type": "上書獻計",
+      "description": "周瑜寫書呈孫權，說可用此計得荊州。",
+      "evidence": [
+        "週都督有書呈"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_lv_fan",
+      "type": "任命作媒",
+      "description": "孫權認為非呂範不可，命其往荊州作媒。",
+      "evidence": [
+        "非呂範不可"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lv_fan",
+      "target": "char_liu_bei",
+      "type": "提親",
+      "description": "呂範向劉備提出孫權妹婚事。",
+      "evidence": [
+        "特來作媒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_lady_sun",
+      "type": "兄妹",
+      "description": "孫權稱孫夫人為自己的妹妹。",
+      "evidence": [
+        "吾有一妹"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "char_lady_sun",
+      "type": "母女",
+      "description": "吳國太稱女兒婚事應由自己作主。",
+      "evidence": [
+        "女兒須是我的"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_marriage_lure",
+      "type": "識破",
+      "description": "孔明聽呂範來意，即判定是周瑜為荊州設計。",
+      "evidence": [
+        "此乃周瑜之計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_liu_bei",
+      "type": "勸允婚事",
+      "description": "孔明勸劉備應允入吳成親。",
+      "evidence": [
+        "主公便可應允"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_sun_qian",
+      "type": "派遣",
+      "description": "孔明派孫乾往江南說合親事。",
+      "evidence": [
+        "教孫幹往江南"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "char_lv_fan",
+      "type": "同行",
+      "description": "孫乾與呂範同到江南見孫權。",
+      "evidence": [
+        "與呂範同到江南"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_zhao_yun",
+      "type": "託付護衛",
+      "description": "孔明認為護劉備入吳非趙雲不可。",
+      "evidence": [
+        "非子龍不可行"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "obj_three_bags",
+      "type": "交付",
+      "description": "孔明將三個錦囊交給趙雲收藏。",
+      "evidence": [
+        "與雲貼肉收藏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_three_bags",
+      "target": "strat_three_bags",
+      "type": "包含",
+      "description": "三個錦囊內含三條妙計。",
+      "evidence": [
+        "囊中有三條妙計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_liu_bei",
+      "type": "護衛",
+      "description": "趙雲奉命保護劉備入吳。",
+      "evidence": [
+        "保主公入吳"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_fast_boats",
+      "type": "使用",
+      "description": "劉備一行乘快船十隻赴南徐。",
+      "evidence": [
+        "取快船十隻"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_nanxu",
+      "type": "行軍前往",
+      "description": "劉備率趙雲、孫乾等從荊州前往南徐。",
+      "evidence": [
+        "前往南徐進發"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_liu_500",
+      "type": "率領",
+      "description": "劉備入吳時隨行五百餘人。",
+      "evidence": [
+        "隨行五百餘人"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "army_liu_500",
+      "target": "strat_publicize_wedding",
+      "type": "執行",
+      "description": "五百軍士披紅掛彩買辦婚物，使城中知悉婚事。",
+      "evidence": [
+        "披紅掛彩"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_publicize_wedding",
+      "target": "char_wu_guotai",
+      "type": "迫使知情",
+      "description": "婚事被傳遍南徐，使吳國太得知孫權瞞她。",
+      "evidence": [
+        "滿城百姓，那一個不知"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_qiao_guolao",
+      "type": "拜訪",
+      "description": "劉備先到南徐拜見喬國老。",
+      "evidence": [
+        "先往拜見"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_qiao_guolao",
+      "target": "char_wu_guotai",
+      "type": "告知婚事",
+      "description": "喬國老向吳國太賀喜並指出劉備已到。",
+      "evidence": [
+        "今特來賀喜"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_wu_guotai",
+      "type": "揭示實情",
+      "description": "孫權向吳國太說明招親其實是周瑜取荊州之計。",
+      "evidence": [
+        "此是周瑜之計"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "char_zhou_yu",
+      "type": "斥責",
+      "description": "吳國太怒罵周瑜以女兒為名使用美人計。",
+      "evidence": [
+        "罵周瑜曰"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_qiao_guolao",
+      "target": "char_wu_guotai",
+      "type": "勸諫",
+      "description": "喬國老勸吳國太真招劉備為婿。",
+      "evidence": [
+        "不如真個招他"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_lv_fan",
+      "target": "strat_ambush",
+      "type": "建議",
+      "description": "呂範建議令賈華率刀斧手預伏。",
+      "evidence": [
+        "何不令賈華"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_jia_hua",
+      "type": "下令",
+      "description": "孫權召賈華預先準備伏兵。",
+      "evidence": [
+        "權遂喚賈華"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jia_hua",
+      "target": "army_jia_300",
+      "type": "統領",
+      "description": "賈華部領三百刀斧手。",
+      "evidence": [
+        "賈華部領三百刀斧手"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_jia_300",
+      "target": "loc_ganlu_temple",
+      "type": "埋伏",
+      "description": "刀斧手伏於甘露寺兩廊。",
+      "evidence": [
+        "伏於兩廊"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_qiao_guolao",
+      "target": "char_liu_bei",
+      "type": "示警",
+      "description": "喬國老派人告知劉備次日會見需小心。",
+      "evidence": [
+        "好生在意"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "army_liu_500",
+      "type": "率領",
+      "description": "趙雲引五百軍隨行護衛劉備赴甘露寺。",
+      "evidence": [
+        "引五百軍隨行"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_armor",
+      "type": "穿戴",
+      "description": "劉備赴甘露寺時內披細鎧。",
+      "evidence": [
+        "內披細鎧"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_ganlu_temple",
+      "type": "赴會",
+      "description": "劉備至甘露寺見孫權、吳國太。",
+      "evidence": [
+        "投甘露寺來"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "char_liu_bei",
+      "type": "賞識",
+      "description": "吳國太見劉備後大喜，認可其為佳婿。",
+      "evidence": [
+        "真吾君也"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_qiao_guolao",
+      "target": "char_liu_bei",
+      "type": "稱讚",
+      "description": "喬國老稱劉備有龍鳳之姿與仁德。",
+      "evidence": [
+        "龍鳳之姿"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "char_zhao_yun",
+      "type": "稱讚",
+      "description": "吳國太認出趙雲長坂救阿鬥事，稱其真將軍。",
+      "evidence": [
+        "真將軍也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_a_dou",
+      "type": "救護舊事",
+      "description": "趙雲被提及曾在當陽長坂抱護阿鬥。",
+      "evidence": [
+        "長坂抱阿鬥"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "strat_ambush",
+      "type": "發現",
+      "description": "趙雲巡視時發現房內刀斧手埋伏。",
+      "evidence": [
+        "刀斧手埋伏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_wu_guotai",
+      "type": "告發伏兵",
+      "description": "劉備跪告吳國太有伏兵欲害。",
+      "evidence": [
+        "跪於國太席前"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "char_jia_hua",
+      "type": "喝退",
+      "description": "吳國太在喬國老與劉備勸說後喝退賈華。",
+      "evidence": [
+        "方叱退賈華"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_hate_stone",
+      "type": "劈開",
+      "description": "劉備祝告後以劍將石砍為兩段。",
+      "evidence": [
+        "砍石為兩段"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_sword",
+      "type": "使用",
+      "description": "劉備拔從者佩劍劈石。",
+      "evidence": [
+        "拔從者所佩之劍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "obj_hate_stone",
+      "type": "見證",
+      "description": "孫權在後面看見劉備劈石。",
+      "evidence": [
+        "孫權在後面看見"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_zhu_mapo",
+      "type": "同遊",
+      "description": "劉備與孫權並馬觀江山，後有駐馬坡之名。",
+      "evidence": [
+        "二人並轡望山河"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "loc_zhu_mapo",
+      "type": "同遊",
+      "description": "孫權與劉備在山坡揚鞭大笑。",
+      "evidence": [
+        "揚鞭大笑"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "char_liu_bei",
+      "type": "建議",
+      "description": "孫乾勸劉備哀求喬國老，早成婚事以免變故。",
+      "evidence": [
+        "早早畢姻"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_qiao_guolao",
+      "type": "求助",
+      "description": "劉備向喬國老訴說江左有人欲害。",
+      "evidence": [
+        "恐不能久居"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_qiao_guolao",
+      "target": "char_wu_guotai",
+      "type": "轉告護持",
+      "description": "喬國老入見吳國太，請她護持劉備。",
+      "evidence": [
+        "吾為公告國太"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "char_liu_bei",
+      "type": "庇護安置",
+      "description": "吳國太安排劉備搬入書院暫住。",
+      "evidence": [
+        "搬入書院暫住"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wu_guotai",
+      "target": "army_liu_500",
+      "type": "安置",
+      "description": "吳國太准劉備軍士搬入府中安歇。",
+      "evidence": [
+        "盡搬入府中安歇"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_lady_sun",
+      "type": "成婚",
+      "description": "劉備與孫夫人於數日筵會後結親。",
+      "evidence": [
+        "孫夫人與玄德結親"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lady_sun",
+      "target": "obj_room_weapons",
+      "type": "房中陳列",
+      "description": "孫夫人房中滿列槍刀，侍婢佩劍懸刀。",
+      "evidence": [
+        "槍刀簇滿"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_qiao_guolao",
+      "target": "char_er_qiao",
+      "type": "父女",
+      "description": "喬國老被說明為二喬之父。",
+      "evidence": [
+        "二喬之父"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_eastern_wu",
+      "target": "fac_cao",
+      "type": "敵對",
+      "description": "呂範以孫劉聯姻可同心破曹為說辭。",
+      "evidence": [
+        "同心破曹"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "fac_liu_bei",
+      "target": "fac_cao",
+      "type": "敵對",
+      "description": "婚事說辭稱兩家合力可破曹。",
+      "evidence": [
+        "同心破曹"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "fac_liu_bei",
+      "target": "fac_han",
+      "type": "扶助名義",
+      "description": "呂範提親時稱聯姻破曹以扶漢室。",
+      "evidence": [
+        "以扶漢室"
+      ],
+      "confidence": 0.88
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_lu_su_demands_jingzhou",
+      "name": "魯肅索還荊州",
+      "summary": "魯肅奉東吳之命至荊州祭弔，隨即以劉琦已死為由要求劉備交割荊州；孔明出言反駁，主張劉備承劉表之業有理。",
+      "participants": [
+        "char_lu_su",
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_liu_qi",
+        "char_liu_biao"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "公子已去世",
+        "幾時可以交割",
+        "弟承兄業"
+      ]
+    },
+    {
+      "id": "ev_xichuan_document",
+      "name": "西川還荊州文書成立",
+      "summary": "劉備寫下取西川後歸還荊州的文書，孔明作保押字，魯肅也押字收執。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_lu_su"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "取了西川便還",
+        "遂押了字"
+      ]
+    },
+    {
+      "id": "ev_zhou_yu_marriage_plan",
+      "name": "周瑜設招親計",
+      "summary": "魯肅持文書回柴桑見周瑜，周瑜認為其中了諸葛之謀；得知甘夫人去世後，周瑜設以孫權妹招親誘拘劉備、換取荊州之計。",
+      "participants": [
+        "char_zhou_yu",
+        "char_lu_su",
+        "char_lady_gan",
+        "char_sun_quan",
+        "char_lady_sun"
+      ],
+      "locations": [
+        "loc_chaisang",
+        "loc_jingzhou",
+        "loc_nanxu"
+      ],
+      "evidence": [
+        "中諸葛之謀",
+        "賺到南徐",
+        "討荊州換劉備"
+      ]
+    },
+    {
+      "id": "ev_lv_fan_mediation",
+      "name": "呂範赴荊州作媒",
+      "summary": "孫權命呂範往荊州，以兩家結親、共破曹賊為名向劉備提親；孔明識破此為周瑜之計，卻勸劉備應允。",
+      "participants": [
+        "char_sun_quan",
+        "char_lv_fan",
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_lady_sun"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_jiangnan"
+      ],
+      "evidence": [
+        "非呂範不可",
+        "特來作媒",
+        "此乃周瑜之計"
+      ]
+    },
+    {
+      "id": "ev_brocade_bags_given",
+      "name": "孔明授三錦囊",
+      "summary": "孔明定下三條妙計，交給趙雲三個錦囊，命其護劉備入吳並依序施行。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_zhao_yun",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "三個錦囊",
+        "依序而行"
+      ]
+    },
+    {
+      "id": "ev_liu_bei_to_nanxu",
+      "name": "劉備入南徐並宣揚婚事",
+      "summary": "建安十四年冬十月，劉備與趙雲、孫乾率五百餘人乘十隻快船至南徐；趙雲依第一錦囊，令軍士披紅掛彩買辦婚物，使城中皆知婚事。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhao_yun",
+        "char_sun_qian",
+        "army_liu_500"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_nanxu"
+      ],
+      "evidence": [
+        "快船十隻",
+        "披紅掛彩",
+        "城中人盡知"
+      ]
+    },
+    {
+      "id": "ev_wu_guotai_confronts_sun_quan",
+      "name": "吳國太質問孫權",
+      "summary": "喬國老向吳國太賀喜，使她得知婚事；孫權承認此為周瑜取荊州之計，吳國太怒罵周瑜以女兒作美人計。",
+      "participants": [
+        "char_wu_guotai",
+        "char_sun_quan",
+        "char_qiao_guolao",
+        "char_zhou_yu",
+        "char_lady_sun"
+      ],
+      "locations": [
+        "loc_nanxu"
+      ],
+      "evidence": [
+        "滿城百姓皆知",
+        "此是周瑜之計",
+        "使美人計"
+      ]
+    },
+    {
+      "id": "ev_ganlu_temple_meeting",
+      "name": "甘露寺看新郎與伏兵敗露",
+      "summary": "吳國太、喬國老、孫權在甘露寺會劉備；賈華三百刀斧手伏於兩廊，趙雲察覺後告知劉備，劉備跪告吳國太，吳國太喝退賈華。",
+      "participants": [
+        "char_wu_guotai",
+        "char_qiao_guolao",
+        "char_sun_quan",
+        "char_liu_bei",
+        "char_zhao_yun",
+        "char_jia_hua",
+        "army_jia_300",
+        "army_liu_500"
+      ],
+      "locations": [
+        "loc_ganlu_temple"
+      ],
+      "evidence": [
+        "國太見了玄德",
+        "刀斧手埋伏",
+        "叱退賈華"
+      ]
+    },
+    {
+      "id": "ev_cut_hate_stone",
+      "name": "劉備劍劈恨石",
+      "summary": "劉備在甘露寺殿前對天祝告，若能回荊州成王霸業則一劍斷石，隨後將石砍為兩段，孫權在後看見。",
+      "participants": [
+        "char_liu_bei",
+        "char_sun_quan"
+      ],
+      "locations": [
+        "loc_ganlu_temple"
+      ],
+      "evidence": [
+        "一劍揮石為兩段",
+        "砍石為兩段"
+      ]
+    },
+    {
+      "id": "ev_zhu_mapo",
+      "name": "並轡駐馬坡",
+      "summary": "劉備與孫權同觀江山，談南人駕船、北人乘馬，隨後並馬馳驟山坡，後此處名為駐馬坡。",
+      "participants": [
+        "char_liu_bei",
+        "char_sun_quan"
+      ],
+      "locations": [
+        "loc_ganlu_temple",
+        "loc_zhu_mapo"
+      ],
+      "evidence": [
+        "天下第一江山",
+        "此處名為駐馬坡"
+      ]
+    },
+    {
+      "id": "ev_move_to_residence",
+      "name": "吳國太安置劉備一行",
+      "summary": "劉備向喬國老稱江左有人欲害，喬國老轉告吳國太；吳國太命劉備搬入書院，又准趙雲與軍士入府安歇。",
+      "participants": [
+        "char_liu_bei",
+        "char_qiao_guolao",
+        "char_wu_guotai",
+        "char_zhao_yun",
+        "army_liu_500"
+      ],
+      "locations": [
+        "loc_qiao_house",
+        "loc_shuyuan"
+      ],
+      "evidence": [
+        "恐不能久居",
+        "搬入書院暫住",
+        "搬入府中安歇"
+      ]
+    },
+    {
+      "id": "ev_sun_liu_marriage",
+      "name": "孫夫人與玄德結親",
+      "summary": "數日筵會後，孫夫人與劉備正式結親；洞房中槍刀軍器遍列，侍婢佩劍懸刀，使劉備驚懼。",
+      "participants": [
+        "char_liu_bei",
+        "char_lady_sun",
+        "char_wu_guotai"
+      ],
+      "locations": [
+        "loc_shuyuan"
+      ],
+      "evidence": [
+        "孫夫人與玄德結親",
+        "槍刀簇滿",
+        "侍婢皆佩劍懸刀"
+      ]
+    }
+  ],
+  "notes": [
+    "本章檔案文字有少量重複、訛脫，抽取僅依可辨識正文。",
+    "當陽長坂為本章提及的趙雲舊事，不是本章新發生戰役。"
+  ]
+}

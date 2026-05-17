@@ -1,0 +1,2365 @@
+{
+  "book": "三國演義",
+  "chapter_no": 39,
+  "chapter_title": "荊州城公子三求計　博望坡軍師初用兵",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳之主，攻破黃祖後調度江東防務。",
+      "evidence": [
+        "孫權督眾攻打夏口",
+        "權從其言"
+      ]
+    },
+    {
+      "id": "char_huang_zu",
+      "name": "黃祖",
+      "type": "character",
+      "aliases": [],
+      "description": "江夏守將，夏口兵敗後逃往荊州，被甘寧射殺。",
+      "evidence": [
+        "黃祖兵敗將亡",
+        "祖中箭翻身落馬"
+      ]
+    },
+    {
+      "id": "char_gan_ning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [
+        "興霸"
+      ],
+      "description": "東吳將領，斬黃祖、為蘇飛求赦，後奉命鎮守夏口。",
+      "evidence": [
+        "甘寧攔住",
+        "興霸射死卿父"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，追至黃祖敗走處，與甘寧合兵。",
+      "evidence": [
+        "乃程普也",
+        "與程普合兵一處"
+      ]
+    },
+    {
+      "id": "char_zhang_zhao",
+      "name": "張昭",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳謀臣，建議孫權棄江夏、回江東以逸待勞。",
+      "evidence": [
+        "張昭曰：孤城不可守"
+      ]
+    },
+    {
+      "id": "char_su_fei",
+      "name": "蘇飛",
+      "type": "character",
+      "aliases": [],
+      "description": "曾有恩於甘寧，被囚於檻車，後因甘寧求情得赦。",
+      "evidence": [
+        "密使人告甘寧求救",
+        "權乃赦蘇飛"
+      ]
+    },
+    {
+      "id": "char_ling_tong",
+      "name": "凌統",
+      "type": "character",
+      "aliases": [],
+      "description": "凌操之子，席間欲向甘寧報父仇，被孫權勸止。",
+      "evidence": [
+        "乃凌統也",
+        "故欲報仇"
+      ]
+    },
+    {
+      "id": "char_ling_cao",
+      "name": "凌操",
+      "type": "character",
+      "aliases": [],
+      "description": "凌統之父，舊日被甘寧射死。",
+      "evidence": [
+        "射死他父親凌操"
+      ]
+    },
+    {
+      "id": "char_sun_jing",
+      "name": "孫靜",
+      "type": "character",
+      "aliases": [],
+      "description": "奉孫權命引軍守吳會。",
+      "evidence": [
+        "命孫靜引一枝軍守吳會"
+      ]
+    },
+    {
+      "id": "char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [],
+      "description": "在鄱陽湖訓練水軍，備攻戰。",
+      "evidence": [
+        "周瑜日於鄱陽湖教練水軍"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "使君"
+      ],
+      "description": "駐新野，受劉表召赴荊州，後倚孔明用兵破曹軍。",
+      "evidence": [
+        "玄德便請孔明計議",
+        "吾得孔明，猶魚之得水也"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "亮",
+        "臥龍先生"
+      ],
+      "description": "劉備軍師，為劉琦定避禍之計，初用兵於博望坡火攻。",
+      "evidence": [
+        "諸葛亮為軍師",
+        "亮有一計"
+      ]
+    },
+    {
+      "id": "char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "景升"
+      ],
+      "description": "荊州之主，邀劉備議事，命劉琦鎮守江夏。",
+      "evidence": [
+        "劉表差人來請玄德",
+        "劉表令劉琦引兵三千"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長"
+      ],
+      "description": "留守新野，後奉孔明令在豫山伏兵。",
+      "evidence": [
+        "留雲長守新野",
+        "雲長可引一千軍往豫山埋伏"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德"
+      ],
+      "description": "隨劉備赴荊州，後在安林伏兵並刺死夏侯蘭。",
+      "evidence": [
+        "令張飛引五百人馬",
+        "張飛一槍刺夏侯蘭"
+      ]
+    },
+    {
+      "id": "char_cai_mao",
+      "name": "蔡瑁",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表提及曾欲因襄陽事斬其首以謝劉備。",
+      "evidence": [
+        "即欲斬蔡瑁之首"
+      ]
+    },
+    {
+      "id": "char_liu_qi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "公子"
+      ],
+      "description": "劉表之子，因繼母不容而向劉備、孔明求救，後鎮守江夏。",
+      "evidence": [
+        "公子劉琦來見",
+        "欲守江夏"
+      ]
+    },
+    {
+      "id": "char_liuqi_stepmother",
+      "name": "繼母",
+      "type": "character",
+      "aliases": [
+        "劉琦繼母"
+      ],
+      "description": "劉琦所稱不能相容、使其性命危急的人。",
+      "evidence": [
+        "繼母無法相容",
+        "繼母不見容"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [],
+      "description": "罷三公自任丞相，派夏侯惇等攻向新野。",
+      "evidence": [
+        "曹操罷三公之職",
+        "操即命夏侯惇為總督"
+      ]
+    },
+    {
+      "id": "char_mao_jie",
+      "name": "毛玠",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操任命為東曹掾。",
+      "evidence": [
+        "以毛玠為東曹掾"
+      ]
+    },
+    {
+      "id": "char_cui_yan",
+      "name": "崔琰",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操任命為西曹掾。",
+      "evidence": [
+        "崔琰為西曹掾"
+      ]
+    },
+    {
+      "id": "char_sima_yi",
+      "name": "司馬懿",
+      "type": "character",
+      "aliases": [
+        "馬懿"
+      ],
+      "description": "曹操任命的文學掾，文中以家世介紹其身分。",
+      "evidence": [
+        "馬懿為文學撣仲",
+        "司馬防之子"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操軍總督，率十萬兵至博望，被孔明火攻擊敗。",
+      "evidence": [
+        "命夏侯惇為總督",
+        "夏侯惇冒煙突火而走"
+      ]
+    },
+    {
+      "id": "char_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍副將，戰中提醒夏侯惇防火攻，後逃走。",
+      "evidence": [
+        "於禁、李典押住陣腳",
+        "可防火攻"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍副將，察覺道路狹隘恐遭火攻，後遇關羽阻擊。",
+      "evidence": [
+        "典謂禁曰",
+        "乃關雲長也"
+      ]
+    },
+    {
+      "id": "char_xiahou_lan",
+      "name": "夏侯蘭",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍副將，救糧草時被張飛刺死。",
+      "evidence": [
+        "夏侯蘭、韓浩來救糧草",
+        "張飛一槍刺夏侯蘭"
+      ]
+    },
+    {
+      "id": "char_han_hao",
+      "name": "韓浩",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍副將，隨夏侯惇出兵，博望坡戰中走脫。",
+      "evidence": [
+        "韓浩為副將",
+        "韓浩奪路走脫"
+      ]
+    },
+    {
+      "id": "char_xun_yan",
+      "name": "荀彥",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操幕下進言者，提醒不可輕視劉備與諸葛亮。",
+      "evidence": [
+        "荀彥曰",
+        "不可輕敵"
+      ]
+    },
+    {
+      "id": "char_xu_shu",
+      "name": "徐庶",
+      "type": "character",
+      "aliases": [
+        "元直",
+        "徐元直"
+      ],
+      "description": "向曹操稱讚諸葛亮才能，勸夏侯惇勿輕敵。",
+      "evidence": [
+        "徐庶曰",
+        "徐元直在丞相面前"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備將領，在博望坡前誘敵詐敗，火起後回軍趕殺。",
+      "evidence": [
+        "趙雲出馬",
+        "雲詐敗而走"
+      ]
+    },
+    {
+      "id": "char_mi_zhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "隨孔明引五百軍守縣。",
+      "evidence": [
+        "亮與糜竺、糜芳引五百軍守縣"
+      ]
+    },
+    {
+      "id": "char_mi_fang",
+      "name": "糜芳",
+      "type": "character",
+      "aliases": [],
+      "description": "隨孔明引五百軍守縣。",
+      "evidence": [
+        "糜竺、糜芳引五百軍守縣"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [],
+      "description": "奉孔明安排準備慶喜事宜。",
+      "evidence": [
+        "命孫乾、簡本準備慶喜"
+      ]
+    },
+    {
+      "id": "char_liu_feng",
+      "name": "劉封",
+      "type": "character",
+      "aliases": [],
+      "description": "博望坡戰後與玄德、趙雲等會合。",
+      "evidence": [
+        "玄德、趙雲、劉封、關平等皆至"
+      ]
+    },
+    {
+      "id": "char_guan_ping",
+      "name": "關平",
+      "type": "character",
+      "aliases": [],
+      "description": "博望坡戰後與劉備軍會合。",
+      "evidence": [
+        "劉封、關平等皆至"
+      ]
+    },
+    {
+      "id": "fac_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "江東"
+      ],
+      "description": "孫權所領勢力，攻黃祖後在江岸、水軍方面加強佈防。",
+      "evidence": [
+        "東吳已攻殺黃祖",
+        "東吳自此廣造戰船"
+      ]
+    },
+    {
+      "id": "fac_jingzhou",
+      "name": "荊州勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州"
+      ],
+      "description": "劉表所據勢力，受黃祖敗亡與江夏防務影響。",
+      "evidence": [
+        "赴荊州議事",
+        "親為荊州之主"
+      ]
+    },
+    {
+      "id": "fac_liubei_army",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備、孔明、關張趙等所屬軍事集團。",
+      "evidence": [
+        "主公若欲亮行兵",
+        "收聚眾軍"
+      ]
+    },
+    {
+      "id": "fac_cao_army",
+      "name": "曹操軍",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹家人馬"
+      ],
+      "description": "曹操派夏侯惇統率攻新野的軍隊。",
+      "evidence": [
+        "曹家人馬，自相踐踏",
+        "曹軍"
+      ]
+    },
+    {
+      "id": "loc_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "孫權攻打黃祖及甘寧後來鎮守之地。",
+      "evidence": [
+        "攻打夏口",
+        "往夏口鎮守"
+      ]
+    },
+    {
+      "id": "loc_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "黃祖棄守、劉琦奉命鎮守的重地。",
+      "evidence": [
+        "遂棄江夏",
+        "江夏重地"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表治所所在區域，劉備赴此議事。",
+      "evidence": [
+        "望荊州而走",
+        "赴荊州議事"
+      ]
+    },
+    {
+      "id": "loc_wuhui",
+      "name": "吳會",
+      "type": "location",
+      "aliases": [],
+      "description": "東吳大軍返回及孫靜鎮守之地。",
+      "evidence": [
+        "大軍既至吳會",
+        "守吳會"
+      ]
+    },
+    {
+      "id": "loc_chaisang",
+      "name": "柴桑",
+      "type": "location",
+      "aliases": [],
+      "description": "孫權屯大軍之地。",
+      "evidence": [
+        "孫權自領大軍，屯柴桑"
+      ]
+    },
+    {
+      "id": "loc_poyang_lake",
+      "name": "鄱陽湖",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜訓練水軍之地。",
+      "evidence": [
+        "鄱陽湖教練水軍"
+      ]
+    },
+    {
+      "id": "loc_xinye",
+      "name": "新野",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備駐地，曹軍攻擊目標，博望戰後回師處。",
+      "evidence": [
+        "留雲長守新野",
+        "班師回新野"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備向劉表先謝之舊事地點。",
+      "evidence": [
+        "當先謝襄陽之事"
+      ]
+    },
+    {
+      "id": "loc_bowangcheng",
+      "name": "博望城",
+      "type": "location",
+      "aliases": [],
+      "description": "夏侯惇軍直抵並經過的戰場附近地點。",
+      "evidence": [
+        "直抵博望城",
+        "前面便是博望城"
+      ]
+    },
+    {
+      "id": "loc_bowangpo",
+      "name": "博望坡",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明火攻擊敗夏侯惇之地。",
+      "evidence": [
+        "直趕至博望坡",
+        "博望相持用火攻"
+      ]
+    },
+    {
+      "id": "loc_bowangshan",
+      "name": "博望山",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明命劉備屯兵誘敵之地。",
+      "evidence": [
+        "引兵就博望山下屯住"
+      ]
+    },
+    {
+      "id": "loc_yushan",
+      "name": "豫山",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明安排關羽伏兵之處。",
+      "evidence": [
+        "博望之左有山，名曰豫山"
+      ]
+    },
+    {
+      "id": "loc_anlin",
+      "name": "安林",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明安排張飛伏兵之處。",
+      "evidence": [
+        "右有林，名曰安林"
+      ]
+    },
+    {
+      "id": "loc_luochuankou",
+      "name": "羅川口",
+      "type": "location",
+      "aliases": [],
+      "description": "博望城後方地名。",
+      "evidence": [
+        "後面是羅川口"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [],
+      "description": "夏侯惇敗後回去之地。",
+      "evidence": [
+        "自回許昌"
+      ]
+    },
+    {
+      "id": "loc_xuanwu_pool",
+      "name": "玄武池",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操練水軍之處，顯示其南征意圖。",
+      "evidence": [
+        "作玄武池以練水軍"
+      ]
+    },
+    {
+      "id": "battle_xiakou",
+      "name": "攻打夏口",
+      "type": "battle",
+      "aliases": [
+        "夏口之戰"
+      ],
+      "description": "孫權攻黃祖，導致黃祖棄江夏並被甘寧斬首。",
+      "evidence": [
+        "督眾攻打夏口",
+        "黃祖兵敗將亡"
+      ]
+    },
+    {
+      "id": "battle_bowangpo",
+      "name": "博望坡之戰",
+      "type": "battle",
+      "aliases": [
+        "博望坡火攻"
+      ],
+      "description": "孔明初用兵，以誘敵、伏兵、火攻擊敗夏侯惇十萬軍。",
+      "evidence": [
+        "博望相持用火攻",
+        "初出茅廬第一功"
+      ]
+    },
+    {
+      "id": "event_sufei_pardon",
+      "name": "甘寧請赦蘇飛",
+      "type": "event",
+      "aliases": [],
+      "description": "甘寧以昔日恩情為由，願納還官爵為蘇飛贖罪，孫權赦之。",
+      "evidence": [
+        "願納還官爵，以贖飛罪",
+        "權乃赦蘇飛"
+      ]
+    },
+    {
+      "id": "event_liuqi_three_requests",
+      "name": "劉琦三求計",
+      "type": "event",
+      "aliases": [],
+      "description": "劉琦多次向孔明求救，終得赴江夏避禍之策。",
+      "evidence": [
+        "乞先生一言救我",
+        "已有良策"
+      ]
+    },
+    {
+      "id": "event_kongming_orders",
+      "name": "孔明借劍印調兵",
+      "type": "event",
+      "aliases": [],
+      "description": "孔明借劉備劍印統一號令，分派關張劉等伏兵用火。",
+      "evidence": [
+        "乞假劍印",
+        "孔明遂聚集眾將聽令"
+      ]
+    },
+    {
+      "id": "title_duwei",
+      "name": "都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權升甘寧所授官職。",
+      "evidence": [
+        "升甘寧為都尉"
+      ]
+    },
+    {
+      "id": "title_chenglie_duwei",
+      "name": "承烈都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權加封凌統的官職。",
+      "evidence": [
+        "加封凌統為承烈都尉"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "諸葛亮在劉備軍中的身份稱號。",
+      "evidence": [
+        "諸葛亮為軍師"
+      ]
+    },
+    {
+      "id": "title_sangong",
+      "name": "三公",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操罷去的舊官職體系。",
+      "evidence": [
+        "曹操罷三公之職"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操自兼之官職。",
+      "evidence": [
+        "自以丞相兼之"
+      ]
+    },
+    {
+      "id": "title_dongcaoyuan",
+      "name": "東曹掾",
+      "type": "title",
+      "aliases": [],
+      "description": "毛玠所任官職。",
+      "evidence": [
+        "毛玠為東曹掾"
+      ]
+    },
+    {
+      "id": "title_xicaoyuan",
+      "name": "西曹掾",
+      "type": "title",
+      "aliases": [],
+      "description": "崔琰所任官職。",
+      "evidence": [
+        "崔琰為西曹掾"
+      ]
+    },
+    {
+      "id": "title_wenxueyuan",
+      "name": "文學掾",
+      "type": "title",
+      "aliases": [],
+      "description": "司馬懿所任官職；原文此處字形有訛。",
+      "evidence": [
+        "馬懿為文學撣仲"
+      ]
+    },
+    {
+      "id": "title_zongdu",
+      "name": "總督",
+      "type": "title",
+      "aliases": [],
+      "description": "夏侯惇奉曹操命擔任的軍職。",
+      "evidence": [
+        "命夏侯惇為總督"
+      ]
+    },
+    {
+      "id": "title_fujiang",
+      "name": "副將",
+      "type": "title",
+      "aliases": [],
+      "description": "於禁、李典、夏侯蘭、韓浩出征時所任軍職。",
+      "evidence": [
+        "為副將，領兵十萬"
+      ]
+    },
+    {
+      "id": "title_jingzhou_lord",
+      "name": "荊州之主",
+      "type": "title",
+      "aliases": [],
+      "description": "劉表欲死後讓劉備承接之地位。",
+      "evidence": [
+        "親為荊州之主"
+      ]
+    },
+    {
+      "id": "obj_huangzu_head",
+      "name": "黃祖首級",
+      "type": "object",
+      "aliases": [],
+      "description": "甘寧斬黃祖後獻給孫權，供祭亡父。",
+      "evidence": [
+        "獻黃祖首級",
+        "止將黃祖首級祭獻"
+      ]
+    },
+    {
+      "id": "obj_wooden_box",
+      "name": "木匣",
+      "type": "object",
+      "aliases": [],
+      "description": "孫權命用來盛貯黃祖首級的器物。",
+      "evidence": [
+        "命以木匣盛貯"
+      ]
+    },
+    {
+      "id": "obj_prison_cart",
+      "name": "檻車",
+      "type": "object",
+      "aliases": [],
+      "description": "蘇飛被囚之車。",
+      "evidence": [
+        "蘇飛在門檻車內"
+      ]
+    },
+    {
+      "id": "obj_sword_seal",
+      "name": "劍印",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備交給孔明作為行兵號令的信物。",
+      "evidence": [
+        "乞假劍印",
+        "玄德便以劍印付孔明"
+      ]
+    },
+    {
+      "id": "obj_warships",
+      "name": "戰船",
+      "type": "object",
+      "aliases": [],
+      "description": "孫權調給甘寧及東吳廣造的水戰器具。",
+      "evidence": [
+        "戰船一百隻",
+        "廣造戰船"
+      ]
+    },
+    {
+      "id": "obj_grain_supplies",
+      "name": "糧草輜重",
+      "type": "object",
+      "aliases": [
+        "糧草車輛"
+      ],
+      "description": "曹軍運輸物資，被火攻焚燒，戰後為劉備軍所獲。",
+      "evidence": [
+        "糧草車輛，都被火燒",
+        "所獲糧草輜重"
+      ]
+    },
+    {
+      "id": "strat_zhangzhao_wait",
+      "name": "張昭棄江夏以逸待勞之議",
+      "type": "strategy",
+      "aliases": [],
+      "description": "張昭主張不守孤城，先回江東，待劉表來攻再敗之。",
+      "evidence": [
+        "孤城不可守",
+        "我以逸待勞"
+      ]
+    },
+    {
+      "id": "strat_refuse_south_campaign",
+      "name": "孔明婉拒南征之策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孔明教劉備見劉表時先謝罪，若令征江東則不可應允。",
+      "evidence": [
+        "切不可應允",
+        "整頓軍馬"
+      ]
+    },
+    {
+      "id": "strat_liuqi_jiangxia",
+      "name": "孔明江夏避禍之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孔明勸劉琦請守江夏，以離開內宅爭危。",
+      "evidence": [
+        "乞屯兵守江夏",
+        "則可避禍矣"
+      ]
+    },
+    {
+      "id": "strat_recruit_militia",
+      "name": "招募民兵操練陣法",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孔明建議劉備招募新野民兵並親自訓練陣法。",
+      "evidence": [
+        "可速招募民兵",
+        "朝夕教演陣法"
+      ]
+    },
+    {
+      "id": "strat_bowang_fire",
+      "name": "孔明博望坡火攻之計",
+      "type": "strategy",
+      "aliases": [
+        "博望火攻"
+      ],
+      "description": "孔明用伏兵、棄營誘敵、夜風蘆葦縱火擊敗曹軍。",
+      "evidence": [
+        "但看南面火起",
+        "可防火攻"
+      ]
+    },
+    {
+      "id": "strat_zhaoyun_feign",
+      "name": "趙雲詐敗誘敵",
+      "type": "strategy",
+      "aliases": [],
+      "description": "趙雲與夏侯惇交戰後屢次詐敗，引其深入博望坡。",
+      "evidence": [
+        "雲詐敗而走",
+        "不數合又走"
+      ]
+    },
+    {
+      "id": "army_ganning_5000",
+      "name": "甘寧五千兵",
+      "type": "army",
+      "aliases": [
+        "甘寧夏口守軍"
+      ],
+      "description": "孫權命甘寧帶往夏口鎮守的兵馬，配戰船百隻。",
+      "evidence": [
+        "甘寧領兵五千、戰船一百隻"
+      ]
+    },
+    {
+      "id": "army_sunjing_wuhui",
+      "name": "孫靜吳會守軍",
+      "type": "army",
+      "aliases": [],
+      "description": "孫靜所引守吳會的一枝軍。",
+      "evidence": [
+        "孫靜引一枝軍守吳會"
+      ]
+    },
+    {
+      "id": "army_sunquan_chaisang",
+      "name": "孫權柴桑大軍",
+      "type": "army",
+      "aliases": [],
+      "description": "孫權親自率領並屯於柴桑的大軍。",
+      "evidence": [
+        "孫權自領大軍，屯柴桑"
+      ]
+    },
+    {
+      "id": "army_zhouyu_navy",
+      "name": "周瑜水軍",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜在鄱陽湖操練的水軍。",
+      "evidence": [
+        "周瑜日於鄱陽湖教練水軍"
+      ]
+    },
+    {
+      "id": "army_zhangfei_500",
+      "name": "張飛五百人馬",
+      "type": "army",
+      "aliases": [],
+      "description": "張飛隨劉備赴荊州時所引兵馬。",
+      "evidence": [
+        "令張飛引五百人馬跟隨荊州"
+      ]
+    },
+    {
+      "id": "army_liuqi_3000",
+      "name": "劉琦三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "劉表命劉琦引往江夏鎮守的部隊。",
+      "evidence": [
+        "劉琦引兵三千往江夏鎮守"
+      ]
+    },
+    {
+      "id": "army_xiahoudun_100k",
+      "name": "夏侯惇十萬軍",
+      "type": "army",
+      "aliases": [
+        "曹軍十萬"
+      ],
+      "description": "曹操命夏侯惇總督，於禁等為副將，攻向新野的軍隊。",
+      "evidence": [
+        "領兵十萬",
+        "殺奔新野來了"
+      ]
+    },
+    {
+      "id": "army_guanyu_1000",
+      "name": "關羽一千伏兵",
+      "type": "army",
+      "aliases": [],
+      "description": "孔明命關羽引往豫山埋伏的軍隊。",
+      "evidence": [
+        "雲長可引一千軍往豫山埋伏"
+      ]
+    },
+    {
+      "id": "army_zhangfei_1000",
+      "name": "張飛一千伏兵",
+      "type": "army",
+      "aliases": [],
+      "description": "孔明命張飛引往安林背後山谷埋伏的軍隊。",
+      "evidence": [
+        "翼德可引一千軍去安林背後山谷中埋伏"
+      ]
+    },
+    {
+      "id": "army_liubei_bowang",
+      "name": "劉備博望山軍",
+      "type": "army",
+      "aliases": [],
+      "description": "孔明命劉備帶到博望山下屯住並棄營誘敵的部隊。",
+      "evidence": [
+        "主公今日可便引兵就博望山下屯住"
+      ]
+    },
+    {
+      "id": "army_zhaoyun_vanguard",
+      "name": "趙雲前部軍",
+      "type": "army",
+      "aliases": [],
+      "description": "趙雲用於出馬誘敵的劉備軍前部。",
+      "evidence": [
+        "趙雲出馬",
+        "以此等軍馬為前部"
+      ]
+    },
+    {
+      "id": "army_kongming_500",
+      "name": "孔明五百守縣軍",
+      "type": "army",
+      "aliases": [],
+      "description": "孔明與糜竺、糜芳留守縣城的五百軍。",
+      "evidence": [
+        "亮與糜竺、糜芳引五百軍守縣"
+      ]
+    },
+    {
+      "id": "army_xinye_militia_3000",
+      "name": "新野三千民兵",
+      "type": "army",
+      "aliases": [],
+      "description": "劉備招募的新野民兵，由孔明操練。",
+      "evidence": [
+        "招新野之民，得三千人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_sun_quan",
+      "target": "loc_xiakou",
+      "type": "攻打",
+      "description": "孫權督眾攻打夏口。",
+      "evidence": [
+        "孫權督眾攻打夏口"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_zu",
+      "target": "loc_jiangxia",
+      "type": "棄守",
+      "description": "黃祖兵敗後棄江夏。",
+      "evidence": [
+        "遂棄江夏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_zu",
+      "target": "loc_jingzhou",
+      "type": "逃往",
+      "description": "黃祖敗走荊州方向。",
+      "evidence": [
+        "望荊州而走"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "char_huang_zu",
+      "type": "擊殺",
+      "description": "甘寧背射黃祖並梟首。",
+      "evidence": [
+        "背射黃祖",
+        "寧梟其首級"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "obj_huangzu_head",
+      "type": "獻上",
+      "description": "甘寧將黃祖首級獻給孫權。",
+      "evidence": [
+        "獻黃祖首級"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "obj_wooden_box",
+      "type": "命令使用",
+      "description": "孫權命以木匣盛貯黃祖首級。",
+      "evidence": [
+        "命以木匣盛貯"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_gan_ning",
+      "type": "任命",
+      "description": "孫權升甘寧為都尉。",
+      "evidence": [
+        "升甘寧為都尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "title_duwei",
+      "type": "擔任",
+      "description": "甘寧受封為都尉。",
+      "evidence": [
+        "升甘寧為都尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_zhao",
+      "target": "strat_zhangzhao_wait",
+      "type": "提出",
+      "description": "張昭提出棄江夏、回江東以逸待勞之議。",
+      "evidence": [
+        "張昭曰：孤城不可守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "strat_zhangzhao_wait",
+      "type": "採納",
+      "description": "孫權依從張昭之言。",
+      "evidence": [
+        "權從其言"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "loc_jiangxia",
+      "type": "棄守",
+      "description": "孫權依議棄江夏回江東。",
+      "evidence": [
+        "遂棄江夏，班師回江東"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_su_fei",
+      "target": "char_gan_ning",
+      "type": "求救",
+      "description": "蘇飛在檻車中密請甘寧救命。",
+      "evidence": [
+        "密使人告甘寧求救"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "char_su_fei",
+      "type": "救援請赦",
+      "description": "甘寧為報舊恩向孫權求赦蘇飛。",
+      "evidence": [
+        "願納還官爵，以贖飛罪"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_su_fei",
+      "type": "赦免",
+      "description": "孫權接受甘寧求情，赦免蘇飛。",
+      "evidence": [
+        "權乃赦蘇飛"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ling_tong",
+      "target": "char_gan_ning",
+      "type": "敵對報仇",
+      "description": "凌統因父仇席間欲殺甘寧。",
+      "evidence": [
+        "直取甘寧",
+        "故欲報仇"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "char_ling_cao",
+      "type": "曾經射殺",
+      "description": "甘寧在江夏時曾射死凌操。",
+      "evidence": [
+        "射死他父親凌操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_ling_tong",
+      "type": "勸止",
+      "description": "孫權勸凌統勿再理舊仇。",
+      "evidence": [
+        "權連忙勸住"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "army_ganning_5000",
+      "type": "派遣",
+      "description": "孫權命甘寧領五千兵與百隻戰船往夏口。",
+      "evidence": [
+        "領兵五千、戰船一百隻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "loc_xiakou",
+      "type": "鎮守",
+      "description": "甘寧奉命往夏口鎮守。",
+      "evidence": [
+        "往夏口鎮守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_ling_tong",
+      "type": "加封",
+      "description": "孫權加封凌統為承烈都尉。",
+      "evidence": [
+        "加封凌統為承烈都尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ling_tong",
+      "target": "title_chenglie_duwei",
+      "type": "擔任",
+      "description": "凌統受封承烈都尉。",
+      "evidence": [
+        "加封凌統為承烈都尉"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_dongwu",
+      "target": "obj_warships",
+      "type": "建造",
+      "description": "東吳廣造戰船。",
+      "evidence": [
+        "東吳自此廣造戰船"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_jing",
+      "target": "army_sunjing_wuhui",
+      "type": "統領",
+      "description": "孫靜引一枝軍守吳會。",
+      "evidence": [
+        "孫靜引一枝軍守吳會"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_sunjing_wuhui",
+      "target": "loc_wuhui",
+      "type": "守衛",
+      "description": "孫靜軍守吳會。",
+      "evidence": [
+        "守吳會"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "army_sunquan_chaisang",
+      "type": "統領",
+      "description": "孫權自領大軍屯柴桑。",
+      "evidence": [
+        "自領大軍，屯柴桑"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_sunquan_chaisang",
+      "target": "loc_chaisang",
+      "type": "屯駐",
+      "description": "孫權大軍屯於柴桑。",
+      "evidence": [
+        "屯柴桑"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "army_zhouyu_navy",
+      "type": "訓練",
+      "description": "周瑜在鄱陽湖教練水軍。",
+      "evidence": [
+        "教練水軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_zhouyu_navy",
+      "target": "loc_poyang_lake",
+      "type": "訓練於",
+      "description": "周瑜水軍在鄱陽湖訓練。",
+      "evidence": [
+        "於鄱陽湖教練水軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "char_liu_bei",
+      "type": "召請",
+      "description": "劉表請劉備赴荊州議事。",
+      "evidence": [
+        "劉表差人來請玄德"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_refuse_south_campaign",
+      "type": "提出",
+      "description": "孔明預判劉表求報仇，教劉備不可應允南征。",
+      "evidence": [
+        "此必因江東破了黃祖",
+        "切不可應允"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strat_refuse_south_campaign",
+      "type": "採納",
+      "description": "劉備依孔明之言應對劉表。",
+      "evidence": [
+        "玄德依言"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guan_yu",
+      "type": "命令留守",
+      "description": "劉備留關羽守新野。",
+      "evidence": [
+        "留雲長守新野"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "army_zhangfei_500",
+      "type": "統領",
+      "description": "張飛引五百人馬隨劉備赴荊州。",
+      "evidence": [
+        "令張飛引五百人馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_zhangfei_500",
+      "target": "loc_jingzhou",
+      "type": "行軍至",
+      "description": "張飛五百人馬跟隨劉備至荊州。",
+      "evidence": [
+        "跟隨荊州"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "char_cai_mao",
+      "type": "曾欲懲處",
+      "description": "劉表說曾想斬蔡瑁以謝劉備。",
+      "evidence": [
+        "即欲斬蔡瑁之首"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "title_jingzhou_lord",
+      "type": "欲託付",
+      "description": "劉表欲死後讓劉備為荊州之主。",
+      "evidence": [
+        "親為荊州之主"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_jingzhou_lord",
+      "type": "婉拒",
+      "description": "劉備不忍乘劉表之危取荊州。",
+      "evidence": [
+        "安忍乘其危而奪之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liuqi_stepmother",
+      "target": "char_liu_qi",
+      "type": "不容",
+      "description": "劉琦稱繼母不能容他。",
+      "evidence": [
+        "繼母無法相容"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_qi",
+      "target": "char_liu_bei",
+      "type": "求救",
+      "description": "劉琦向劉備求救。",
+      "evidence": [
+        "望叔父憐而救之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_qi",
+      "target": "char_zhuge_liang",
+      "type": "求計",
+      "description": "劉琦多次請孔明賜救命之策。",
+      "evidence": [
+        "乞先生一言救我"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_liuqi_jiangxia",
+      "type": "提出",
+      "description": "孔明提出請守江夏以避禍。",
+      "evidence": [
+        "乞屯兵守江夏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_liuqi_jiangxia",
+      "target": "loc_jiangxia",
+      "type": "目標地",
+      "description": "此計以赴江夏鎮守為避禍方式。",
+      "evidence": [
+        "江夏乏人守禦"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_qi",
+      "target": "char_liu_biao",
+      "type": "上言請命",
+      "description": "劉琦向劉表請求守江夏。",
+      "evidence": [
+        "劉琦上言，欲守江夏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_biao",
+      "target": "army_liuqi_3000",
+      "type": "派遣",
+      "description": "劉表命劉琦引三千兵鎮守江夏。",
+      "evidence": [
+        "令劉琦引兵三千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_liuqi_3000",
+      "target": "loc_jiangxia",
+      "type": "鎮守",
+      "description": "劉琦三千兵往江夏鎮守。",
+      "evidence": [
+        "往江夏鎮守"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_sangong",
+      "type": "罷除",
+      "description": "曹操罷三公之職。",
+      "evidence": [
+        "罷三公之職"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_chengxiang",
+      "type": "自任",
+      "description": "曹操自兼丞相。",
+      "evidence": [
+        "自以丞相兼之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_mao_jie",
+      "type": "任命",
+      "description": "曹操任命毛玠為東曹掾。",
+      "evidence": [
+        "以毛玠為東曹掾"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mao_jie",
+      "target": "title_dongcaoyuan",
+      "type": "擔任",
+      "description": "毛玠任東曹掾。",
+      "evidence": [
+        "毛玠為東曹掾"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cui_yan",
+      "type": "任命",
+      "description": "曹操任命崔琰為西曹掾。",
+      "evidence": [
+        "崔琰為西曹掾"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cui_yan",
+      "target": "title_xicaoyuan",
+      "type": "擔任",
+      "description": "崔琰任西曹掾。",
+      "evidence": [
+        "崔琰為西曹掾"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_sima_yi",
+      "type": "任命",
+      "description": "曹操任命司馬懿為文學掾。",
+      "evidence": [
+        "馬懿為文學撣仲"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_sima_yi",
+      "target": "title_wenxueyuan",
+      "type": "擔任",
+      "description": "司馬懿任文學掾；原文字形有訛。",
+      "evidence": [
+        "馬懿為文學撣仲"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xiahou_dun",
+      "type": "任命",
+      "description": "曹操命夏侯惇為總督。",
+      "evidence": [
+        "命夏侯惇為總督"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "title_zongdu",
+      "type": "擔任",
+      "description": "夏侯惇任總督。",
+      "evidence": [
+        "夏侯惇為總督"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_yu_jin",
+      "type": "任命副將",
+      "description": "曹操命於禁為夏侯惇副將。",
+      "evidence": [
+        "於禁、李典、夏侯蘭、韓浩為副將"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_li_dian",
+      "type": "任命副將",
+      "description": "曹操命李典為夏侯惇副將。",
+      "evidence": [
+        "於禁、李典、夏侯蘭、韓浩為副將"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xiahou_lan",
+      "type": "任命副將",
+      "description": "曹操命夏侯蘭為副將。",
+      "evidence": [
+        "夏侯蘭、韓浩為副將"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_han_hao",
+      "type": "任命副將",
+      "description": "曹操命韓浩為副將。",
+      "evidence": [
+        "韓浩為副將"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "army_xiahoudun_100k",
+      "type": "統領",
+      "description": "夏侯惇統兵十萬攻向新野。",
+      "evidence": [
+        "領兵十萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_xiahoudun_100k",
+      "target": "loc_bowangcheng",
+      "type": "行軍至",
+      "description": "夏侯惇軍直抵博望城。",
+      "evidence": [
+        "直抵博望城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_xiahoudun_100k",
+      "target": "loc_xinye",
+      "type": "威脅",
+      "description": "曹軍以新野為進攻目標。",
+      "evidence": [
+        "以窺新野",
+        "殺奔新野來了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xun_yan",
+      "target": "char_xiahou_dun",
+      "type": "提醒輕敵風險",
+      "description": "荀彥指出劉備兼得諸葛亮，不可輕敵。",
+      "evidence": [
+        "不可輕敵"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "char_zhuge_liang",
+      "type": "稱讚才能",
+      "description": "徐庶稱孔明有經天緯地之才、出鬼入神之計。",
+      "evidence": [
+        "經天緯地之才",
+        "出鬼入神之計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "char_liu_bei",
+      "type": "敵對欲擒",
+      "description": "夏侯惇誇口要生擒劉備。",
+      "evidence": [
+        "一陣生擒劉備"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "char_zhuge_liang",
+      "type": "敵對欲擒",
+      "description": "夏侯惇誇口要活捉諸葛亮。",
+      "evidence": [
+        "活捉諸葛"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhuge_liang",
+      "type": "信任倚重",
+      "description": "劉備以師禮待孔明，稱得孔明如魚得水。",
+      "evidence": [
+        "以師禮待之",
+        "猶魚之得水也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_zhuge_liang",
+      "type": "先疑後服",
+      "description": "關羽初疑孔明，博望戰後拜伏。",
+      "evidence": [
+        "待之太過",
+        "下馬拜伏於車前"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_zhuge_liang",
+      "type": "先疑後服",
+      "description": "張飛初笑孔明坐守，戰後拜伏。",
+      "evidence": [
+        "好自在",
+        "拜伏於車前"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_recruit_militia",
+      "type": "提出",
+      "description": "孔明建議劉備速募民兵備敵。",
+      "evidence": [
+        "可速招募民兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_xinye_militia_3000",
+      "type": "招募",
+      "description": "劉備招得新野民兵三千。",
+      "evidence": [
+        "遂招新野之民，得三千人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "army_xinye_militia_3000",
+      "type": "訓練",
+      "description": "孔明朝夕教演新野民兵陣法。",
+      "evidence": [
+        "孔明朝夕教演陣法"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_sword_seal",
+      "type": "交付",
+      "description": "劉備將劍印交給孔明行兵。",
+      "evidence": [
+        "以劍印付孔明"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "event_kongming_orders",
+      "type": "主持",
+      "description": "孔明借劍印聚眾將聽令。",
+      "evidence": [
+        "孔明遂聚集眾將聽令"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "army_guanyu_1000",
+      "type": "調遣",
+      "description": "孔明命關羽帶一千軍往豫山埋伏。",
+      "evidence": [
+        "雲長可引一千軍往豫山埋伏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "army_guanyu_1000",
+      "type": "統領",
+      "description": "關羽統領豫山伏兵。",
+      "evidence": [
+        "雲長可引一千軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_guanyu_1000",
+      "target": "loc_yushan",
+      "type": "埋伏於",
+      "description": "關羽軍在豫山埋伏。",
+      "evidence": [
+        "往豫山埋伏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "army_zhangfei_1000",
+      "type": "調遣",
+      "description": "孔明命張飛帶一千軍往安林背後埋伏。",
+      "evidence": [
+        "翼德可引一千軍去安林"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "army_zhangfei_1000",
+      "type": "統領",
+      "description": "張飛統領安林伏兵。",
+      "evidence": [
+        "翼德可引一千軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_zhangfei_1000",
+      "target": "loc_anlin",
+      "type": "埋伏於",
+      "description": "張飛軍在安林背後山谷埋伏。",
+      "evidence": [
+        "安林背後山谷中埋伏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "army_liubei_bowang",
+      "type": "調遣",
+      "description": "孔明命劉備帶兵屯博望山下並棄營誘敵。",
+      "evidence": [
+        "引兵就博望山下屯住",
+        "棄營而走"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_liubei_bowang",
+      "type": "統領",
+      "description": "劉備親引博望山軍。",
+      "evidence": [
+        "主公便引兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_liubei_bowang",
+      "target": "loc_bowangshan",
+      "type": "屯駐",
+      "description": "劉備軍屯於博望山下。",
+      "evidence": [
+        "博望山下屯住"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "army_kongming_500",
+      "type": "統領留守",
+      "description": "孔明與糜竺、糜芳引五百軍守縣。",
+      "evidence": [
+        "亮與糜竺、糜芳引五百軍守縣"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mi_zhu",
+      "target": "army_kongming_500",
+      "type": "隨同",
+      "description": "糜竺隨孔明守縣。",
+      "evidence": [
+        "糜竺、糜芳引五百軍守縣"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mi_fang",
+      "target": "army_kongming_500",
+      "type": "隨同",
+      "description": "糜芳隨孔明守縣。",
+      "evidence": [
+        "糜竺、糜芳引五百軍守縣"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "strat_zhaoyun_feign",
+      "type": "執行",
+      "description": "趙雲與夏侯惇交戰後詐敗誘敵。",
+      "evidence": [
+        "雲詐敗而走"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_zhaoyun_feign",
+      "target": "army_xiahoudun_100k",
+      "type": "誘敵深入",
+      "description": "趙雲詐敗引夏侯惇軍追入博望坡。",
+      "evidence": [
+        "從後追趕",
+        "直趕至博望坡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_yu_jin",
+      "type": "警示火攻",
+      "description": "李典提醒於禁道路狹窄、草木叢雜，恐遭火攻。",
+      "evidence": [
+        "倘彼用火攻，奈何"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "char_xiahou_dun",
+      "type": "警示火攻",
+      "description": "於禁向夏侯惇報告需防火攻。",
+      "evidence": [
+        "可防火攻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_bowang_fire",
+      "target": "army_xiahoudun_100k",
+      "type": "擊敗",
+      "description": "孔明火攻使曹軍自相踐踏、死者無數。",
+      "evidence": [
+        "四面八方，盡皆是火",
+        "死者不計其數"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_guanyu_1000",
+      "target": "obj_grain_supplies",
+      "type": "焚燒",
+      "description": "關羽伏兵依令出擊焚曹軍糧草。",
+      "evidence": [
+        "縱兵出擊，就焚其糧草"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_zhangfei_1000",
+      "target": "obj_grain_supplies",
+      "type": "焚燒",
+      "description": "張飛伏兵向屯糧處縱火。",
+      "evidence": [
+        "向博望城舊屯糧草處縱火"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_xiahou_lan",
+      "type": "擊殺",
+      "description": "張飛一槍刺夏侯蘭於馬下。",
+      "evidence": [
+        "一槍刺夏侯蘭於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_hao",
+      "target": "battle_bowangpo",
+      "type": "逃脫",
+      "description": "韓浩在博望坡戰中奪路走脫。",
+      "evidence": [
+        "韓浩奪路走脫"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiahou_dun",
+      "target": "loc_xuchang",
+      "type": "敗退",
+      "description": "夏侯惇收拾殘軍回許昌。",
+      "evidence": [
+        "收拾殘軍，自回許昌"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_liubei_army",
+      "target": "obj_grain_supplies",
+      "type": "獲取分賞",
+      "description": "劉備軍收獲曹軍糧草輜重並分賞將士。",
+      "evidence": [
+        "所獲糧草輜重，分賞將士"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_liubei_army",
+      "target": "loc_xinye",
+      "type": "班師",
+      "description": "劉備軍戰後回新野。",
+      "evidence": [
+        "班師回新野"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_cao_cao",
+      "type": "預判來攻",
+      "description": "孔明判斷曹操必親自引大軍來。",
+      "evidence": [
+        "曹操必自引大軍來"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "fac_cao_army",
+      "type": "另有對策",
+      "description": "孔明稱已有一計可敵曹軍。",
+      "evidence": [
+        "亮有一計，可敵曹軍"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "battle_xiakou",
+      "name": "攻打夏口與黃祖敗亡",
+      "summary": "孫權攻夏口，黃祖敗棄江夏逃往荊州；甘寧伏擊並射殺黃祖，獻其首級。",
+      "participants": [
+        "char_sun_quan",
+        "char_huang_zu",
+        "char_gan_ning",
+        "char_cheng_pu"
+      ],
+      "locations": [
+        "loc_xiakou",
+        "loc_jiangxia",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "孫權督眾攻打夏口",
+        "甘寧攔住",
+        "獻黃祖首級"
+      ]
+    },
+    {
+      "id": "event_sufei_pardon",
+      "name": "甘寧請赦蘇飛",
+      "summary": "蘇飛在檻車中求救，甘寧向孫權哭請，以願還官爵為蘇飛贖罪，孫權赦免蘇飛。",
+      "participants": [
+        "char_su_fei",
+        "char_gan_ning",
+        "char_sun_quan"
+      ],
+      "locations": [
+        "loc_wuhui"
+      ],
+      "evidence": [
+        "密使人告甘寧求救",
+        "願納還官爵",
+        "權乃赦蘇飛"
+      ]
+    },
+    {
+      "id": "event_lingtong_feud",
+      "name": "凌統席間欲殺甘寧",
+      "summary": "慶功宴上凌統因父仇拔劍取甘寧，孫權勸止，並調甘寧往夏口避開凌統。",
+      "participants": [
+        "char_ling_tong",
+        "char_gan_ning",
+        "char_ling_cao",
+        "char_sun_quan"
+      ],
+      "locations": [
+        "loc_wuhui",
+        "loc_xiakou"
+      ],
+      "evidence": [
+        "直取甘寧",
+        "射死他父親凌操",
+        "往夏口鎮守"
+      ]
+    },
+    {
+      "id": "event_dongwu_defense",
+      "name": "東吳佈置江岸水軍",
+      "summary": "孫權命甘寧鎮夏口、孫靜守吳會，自屯柴桑，周瑜於鄱陽湖練水軍。",
+      "participants": [
+        "char_sun_quan",
+        "char_gan_ning",
+        "char_sun_jing",
+        "char_zhou_yu"
+      ],
+      "locations": [
+        "loc_xiakou",
+        "loc_wuhui",
+        "loc_chaisang",
+        "loc_poyang_lake"
+      ],
+      "evidence": [
+        "廣造戰船",
+        "守吳會",
+        "屯柴桑",
+        "教練水軍"
+      ]
+    },
+    {
+      "id": "event_liubiao_invites_liubei",
+      "name": "劉表召劉備議事",
+      "summary": "劉表因黃祖敗亡召劉備赴荊州，孔明教劉備不可應允南征江東。",
+      "participants": [
+        "char_liu_biao",
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_zhang_fei",
+        "char_guan_yu"
+      ],
+      "locations": [
+        "loc_xinye",
+        "loc_jingzhou",
+        "loc_xiangyang"
+      ],
+      "evidence": [
+        "請玄德赴荊州議事",
+        "切不可應允",
+        "留雲長守新野"
+      ]
+    },
+    {
+      "id": "event_liubiao_offers_jingzhou",
+      "name": "劉表欲以荊州付劉備",
+      "summary": "劉表稱年老多病，欲讓劉備將來為荊州之主；劉備不忍乘危而取。",
+      "participants": [
+        "char_liu_biao",
+        "char_liu_bei",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "吾今年老多病",
+        "親為荊州之主",
+        "安忍乘其危而奪之"
+      ]
+    },
+    {
+      "id": "event_liuqi_three_requests",
+      "name": "劉琦三求計",
+      "summary": "劉琦因繼母不容求劉備與孔明相救，孔明終以申生、重耳之例，勸其請守江夏避禍。",
+      "participants": [
+        "char_liu_qi",
+        "char_liuqi_stepmother",
+        "char_liu_bei",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_jiangxia"
+      ],
+      "evidence": [
+        "繼母不見容",
+        "先生忍無一言相救",
+        "乞屯兵守江夏"
+      ]
+    },
+    {
+      "id": "event_liuqi_to_jiangxia",
+      "name": "劉琦鎮守江夏",
+      "summary": "劉琦上言欲守江夏，劉備支持，劉表命劉琦引三千兵往江夏鎮守。",
+      "participants": [
+        "char_liu_qi",
+        "char_liu_biao",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_jiangxia"
+      ],
+      "evidence": [
+        "劉琦上言，欲守江夏",
+        "江夏重地",
+        "引兵三千往江夏鎮守"
+      ]
+    },
+    {
+      "id": "event_cao_titles_and_campaign",
+      "name": "曹操任官遣夏侯惇南進",
+      "summary": "曹操罷三公自任丞相，任毛玠、崔琰、司馬懿，命夏侯惇為總督、於禁等副將，領十萬兵抵博望窺新野。",
+      "participants": [
+        "char_cao_cao",
+        "char_mao_jie",
+        "char_cui_yan",
+        "char_sima_yi",
+        "char_xiahou_dun",
+        "char_yu_jin",
+        "char_li_dian",
+        "char_xiahou_lan",
+        "char_han_hao"
+      ],
+      "locations": [
+        "loc_bowangcheng",
+        "loc_xinye",
+        "loc_xuanwu_pool"
+      ],
+      "evidence": [
+        "罷三公之職",
+        "命夏侯惇為總督",
+        "領兵十萬"
+      ]
+    },
+    {
+      "id": "event_liubei_recruits_militia",
+      "name": "劉備招募新野民兵",
+      "summary": "孔明見劉備憂曹兵將至，建議招募民兵；劉備得新野民三千，孔明朝夕教演陣法。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_xinye"
+      ],
+      "evidence": [
+        "可速招募民兵",
+        "得三千人",
+        "朝夕教演陣法"
+      ]
+    },
+    {
+      "id": "event_kongming_orders",
+      "name": "孔明借劍印調兵",
+      "summary": "孔明向劉備借劍印，命關羽伏豫山、張飛伏安林，命劉備屯博望山下誘敵，自與糜竺、糜芳守縣。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_mi_zhu",
+        "char_mi_fang"
+      ],
+      "locations": [
+        "loc_yushan",
+        "loc_anlin",
+        "loc_bowangshan",
+        "loc_xinye"
+      ],
+      "evidence": [
+        "乞假劍印",
+        "往豫山埋伏",
+        "安林背後山谷中埋伏",
+        "引五百軍守縣"
+      ]
+    },
+    {
+      "id": "battle_bowangpo",
+      "name": "博望坡火攻破曹軍",
+      "summary": "趙雲詐敗誘夏侯惇追入博望坡，夜間火起，關張伏兵焚糧截殺，張飛刺死夏侯蘭，夏侯惇敗回許昌。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_liu_bei",
+        "char_zhao_yun",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_xiahou_dun",
+        "char_yu_jin",
+        "char_li_dian",
+        "char_xiahou_lan",
+        "char_han_hao"
+      ],
+      "locations": [
+        "loc_bowangpo",
+        "loc_bowangcheng",
+        "loc_yushan",
+        "loc_anlin",
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "雲詐敗而走",
+        "四面八方，盡皆是火",
+        "一槍刺夏侯蘭",
+        "自回許昌"
+      ]
+    },
+    {
+      "id": "event_return_xinye_next_plan",
+      "name": "回師新野與孔明預判曹操親征",
+      "summary": "劉備軍收獲糧草輜重班師新野，關張拜服孔明；孔明預判曹操必親引大軍來，另有計可敵。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_zhao_yun",
+        "char_liu_feng",
+        "char_guan_ping"
+      ],
+      "locations": [
+        "loc_xinye"
+      ],
+      "evidence": [
+        "分賞將士，班師回新野",
+        "拜伏於車前",
+        "曹操必自引大軍來"
+      ]
+    }
+  ],
+  "notes": [
+    "正文多處有重複與疑似訛字；抽取時以章節內可辨識語句為依據。",
+    "司馬懿與文學掾條目因原文顯示為「馬懿為文學撣仲」而標低置信度。"
+  ]
+}

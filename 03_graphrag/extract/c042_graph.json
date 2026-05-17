@@ -1,0 +1,1984 @@
+{
+  "book": "三國演義",
+  "chapter_no": 42,
+  "chapter_title": "張翼德大鬧長坂橋　劉豫州敗走漢津口",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "子龍"
+      ],
+      "description": "突圍斬敵，懷抱阿斗脫出重圍，至長坂橋得張飛接應。",
+      "evidence": [
+        "趙雲挺槍便刺",
+        "懷抱公子，身突重圍"
+      ]
+    },
+    {
+      "id": "char_zhong_jin",
+      "name": "鐘縉",
+      "type": "character",
+      "aliases": [
+        "鐘纓"
+      ],
+      "description": "與鍾紳攔住趙雲，先戰而被趙雲刺落馬下。",
+      "evidence": [
+        "鐘縉、鍾紳二人攔住趙雲",
+        "被雲一槍刺落馬下"
+      ]
+    },
+    {
+      "id": "char_zhong_shen",
+      "name": "鍾紳",
+      "type": "character",
+      "aliases": [
+        "鐘紳"
+      ],
+      "description": "持戟追趕趙雲，被趙雲以青釭寶劍斬殺。",
+      "evidence": [
+        "鐘紳持戟趕來",
+        "紳落馬而死"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德",
+        "張翼德",
+        "燕人張翼德"
+      ],
+      "description": "立馬長坂橋接應趙雲，以怒喝震退曹軍，後拆斷橋樑。",
+      "evidence": [
+        "追兵我自當之",
+        "我乃燕人張翼德也"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉豫州",
+        "皇叔",
+        "叔父"
+      ],
+      "description": "率眾敗走漢津，接回阿斗，後至江夏與孔明、劉琦議抗曹之策。",
+      "evidence": [
+        "見玄德與眾人憩於樹下",
+        "玄德至江夏"
+      ]
+    },
+    {
+      "id": "char_mi_furen",
+      "name": "糜夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "身帶重傷，不肯上馬，投井而死。",
+      "evidence": [
+        "糜夫人身帶重傷",
+        "投井而死"
+      ]
+    },
+    {
+      "id": "char_adou",
+      "name": "阿斗",
+      "type": "character",
+      "aliases": [
+        "公子",
+        "孺子"
+      ],
+      "description": "被趙雲懷抱救出，交還劉備。",
+      "evidence": [
+        "公子尚在懷中",
+        "雙手遞與玄德"
+      ]
+    },
+    {
+      "id": "char_wen_pin",
+      "name": "文聘",
+      "type": "character",
+      "aliases": [],
+      "description": "引軍追趕趙雲至長坂橋。",
+      "evidence": [
+        "文聘引軍趕來",
+        "追趙雲至長坂橋"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "丞相"
+      ],
+      "description": "統率曹軍追擊劉備，於長坂橋懼張飛，後入襄陽並發檄江東。",
+      "evidence": [
+        "操聞知，急上馬",
+        "曹操下令軍中"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，至長坂橋與眾將會合。",
+      "evidence": [
+        "曹仁、李典、夏侯惇等都至"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，勸曹操防備諸葛亮詐謀。",
+      "evidence": [
+        "李典曰：此恐是諸葛亮之詐謀"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，參與長坂橋追至之列。",
+      "evidence": [
+        "夏侯惇、夏侯淵、樂進"
+      ]
+    },
+    {
+      "id": "char_xiahou_yuan",
+      "name": "夏侯淵",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，參與長坂橋追至之列。",
+      "evidence": [
+        "夏侯淵、樂進、張遼"
+      ]
+    },
+    {
+      "id": "char_yue_jin",
+      "name": "樂進",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，參與長坂橋追至之列。",
+      "evidence": [
+        "樂進、張遼、張郃"
+      ]
+    },
+    {
+      "id": "char_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，安撫曹操並奉命再探長坂橋。",
+      "evidence": [
+        "張遼曰：丞相休驚",
+        "令張遼、許褚再至長坂橋"
+      ]
+    },
+    {
+      "id": "char_zhang_he",
+      "name": "張郃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，參與長坂橋追至之列。",
+      "evidence": [
+        "張郃、許褚等都至"
+      ]
+    },
+    {
+      "id": "char_xu_chu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "曹軍將領，與張遼奉命探聽長坂橋。",
+      "evidence": [
+        "張遼、許褚趕上",
+        "令張遼、許褚再至長坂橋"
+      ]
+    },
+    {
+      "id": "char_xiahou_jie",
+      "name": "夏侯傑",
+      "type": "character",
+      "aliases": [],
+      "description": "在曹操身邊，被張飛喝聲驚倒而死。",
+      "evidence": [
+        "夏侯傑驚得肝膽碎裂"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關雲長"
+      ],
+      "description": "借江夏軍馬一萬，在漢津截出退曹，保護劉備登船。",
+      "evidence": [
+        "原來是關雲長",
+        "保護玄德等到漢津"
+      ]
+    },
+    {
+      "id": "char_gan_furen",
+      "name": "甘夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "隨劉備至漢津，與阿斗登船。",
+      "evidence": [
+        "甘夫人、阿斗至船中坐定"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "諸葛孔明",
+        "亮",
+        "軍師"
+      ],
+      "description": "預料曹操追趕，安排漢津接應，後倡議聯絡東吳抗曹。",
+      "evidence": [
+        "又恐是諸葛孔明之計",
+        "我料曹操必來追趕"
+      ]
+    },
+    {
+      "id": "char_liu_qi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "琦",
+        "公子",
+        "小侄"
+      ],
+      "description": "自江夏起兵乘船接應劉備，後與劉備、孔明共議。",
+      "evidence": [
+        "乃劉琦也",
+        "小侄特來接應"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [],
+      "description": "隨孔明在船上會合劉備。",
+      "evidence": [
+        "背後立著孫乾"
+      ]
+    },
+    {
+      "id": "char_han_song",
+      "name": "韓嵩",
+      "type": "character",
+      "aliases": [],
+      "description": "被曹操釋放，並加為大鴻臚。",
+      "evidence": [
+        "釋韓嵩之囚",
+        "加為大鴻臚"
+      ]
+    },
+    {
+      "id": "char_xun_you",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [],
+      "description": "向曹操獻發檄江東、共擒劉備之計。",
+      "evidence": [
+        "荀攸曰：遣使馳檄江東"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "權"
+      ],
+      "description": "江東之主，聽從魯肅之言，遣魯肅往江夏。",
+      "evidence": [
+        "請孫權會獵於江夏",
+        "權喜從其言"
+      ]
+    },
+    {
+      "id": "char_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "肅"
+      ],
+      "description": "奉孫權命赴江夏吊喪探情，會見劉備、孔明，後與孔明赴柴桑。",
+      "evidence": [
+        "孫權差魯肅來吊喪",
+        "與孔明登舟"
+      ]
+    },
+    {
+      "id": "char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [],
+      "description": "已亡，成為魯肅往江夏吊喪的名義背景。",
+      "evidence": [
+        "今劉表新亡"
+      ]
+    },
+    {
+      "id": "char_sun_ce",
+      "name": "孫策",
+      "type": "character",
+      "aliases": [],
+      "description": "被孔明提及其亡故時襄陽吊喪舊事，用以判斷魯肅來意。",
+      "evidence": [
+        "往日孫策亡時"
+      ]
+    },
+    {
+      "id": "char_wu_chen",
+      "name": "吳臣",
+      "type": "character",
+      "aliases": [],
+      "description": "蒼梧太守；孔明對魯肅稱劉備將往投之。",
+      "evidence": [
+        "蒼梧太守吳臣有舊",
+        "將往投之"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹家",
+        "北軍"
+      ],
+      "description": "曹操所統軍政勢力，本章追擊劉備並水陸東下。",
+      "evidence": [
+        "曹軍聞之",
+        "曹操大振兵威"
+      ]
+    },
+    {
+      "id": "faction_liu",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備率領的殘部，從長坂敗退至漢津、江夏。",
+      "evidence": [
+        "玄德與眾人",
+        "劉備新敗"
+      ]
+    },
+    {
+      "id": "faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "江東",
+        "孫權勢力",
+        "南軍"
+      ],
+      "description": "孫權統轄的江東勢力，曹操發檄拉攏，孔明欲往結援。",
+      "evidence": [
+        "遣使馳檄江東",
+        "往投東吳孫權"
+      ]
+    },
+    {
+      "id": "faction_jingzhou",
+      "name": "荊州",
+      "type": "faction",
+      "aliases": [
+        "荊州軍民"
+      ],
+      "description": "劉表故地勢力，襄陽軍民出郭降曹。",
+      "evidence": [
+        "劉表新亡",
+        "引荊州軍民出郭投降"
+      ]
+    },
+    {
+      "id": "faction_jiangxia",
+      "name": "江夏勢力",
+      "type": "faction",
+      "aliases": [
+        "江夏之兵",
+        "劉琦軍"
+      ],
+      "description": "劉琦所據江夏兵力，接應劉備並借兵給關羽。",
+      "evidence": [
+        "江夏之兵",
+        "江夏借得軍馬一萬"
+      ]
+    },
+    {
+      "id": "loc_changban_bridge",
+      "name": "長坂橋",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛立馬拒曹、接應趙雲之地。",
+      "evidence": [
+        "望長坂橋而走",
+        "立馬橋上"
+      ]
+    },
+    {
+      "id": "loc_changban",
+      "name": "當陽長坂",
+      "type": "location",
+      "aliases": [
+        "長坂",
+        "當陽"
+      ],
+      "description": "劉備敗退與趙雲突圍背景地點。",
+      "evidence": [
+        "當陽長坂大戰",
+        "玄德訴說當陽之事"
+      ]
+    },
+    {
+      "id": "loc_hanjin",
+      "name": "漢津",
+      "type": "location",
+      "aliases": [
+        "漢津口"
+      ],
+      "description": "劉備敗走至此，關羽、劉琦、孔明相繼接應。",
+      "evidence": [
+        "玄德行近漢津",
+        "保護玄德等到漢津"
+      ]
+    },
+    {
+      "id": "loc_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "劉琦所在之地，劉備後往江夏，魯肅亦來此吊喪探情。",
+      "evidence": [
+        "共投江夏",
+        "往江夏吊喪"
+      ]
+    },
+    {
+      "id": "loc_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明認為城險糧足可久守，後由關羽留兵鎮守。",
+      "evidence": [
+        "夏口城險",
+        "引五千軍守夏口"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "荊州軍民出降後，曹操入城安民。",
+      "evidence": [
+        "襄陽之事",
+        "曹操入城"
+      ]
+    },
+    {
+      "id": "loc_jiangling",
+      "name": "江陵",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操恐水路先被劉備奪取，提兵赴江陵。",
+      "evidence": [
+        "水路先被玄德奪了江陵"
+      ]
+    },
+    {
+      "id": "loc_chaisang",
+      "name": "柴桑郡",
+      "type": "location",
+      "aliases": [
+        "柴桑"
+      ],
+      "description": "魯肅與孔明登舟前往之地。",
+      "evidence": [
+        "望柴桑郡來"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操欲與孫權分取之地。",
+      "evidence": [
+        "分荊州之地"
+      ]
+    },
+    {
+      "id": "loc_cangwu",
+      "name": "蒼梧",
+      "type": "location",
+      "aliases": [],
+      "description": "吳臣所任太守之地，孔明假稱將往投依。",
+      "evidence": [
+        "蒼梧太守吳臣"
+      ]
+    },
+    {
+      "id": "battle_changban_bridge",
+      "name": "長坂橋對峙",
+      "type": "battle",
+      "aliases": [
+        "張翼德大鬧長坂橋",
+        "長坂橋喝退曹軍"
+      ],
+      "description": "張飛據橋怒喝，曹軍疑伏而退。",
+      "evidence": [
+        "獨退曹家百萬兵"
+      ]
+    },
+    {
+      "id": "battle_dangyang_changban",
+      "name": "當陽長坂大戰",
+      "type": "battle",
+      "aliases": [],
+      "description": "前段敗戰背景，關羽據此得知劉備困厄。",
+      "evidence": [
+        "探知當陽長坂大戰"
+      ]
+    },
+    {
+      "id": "battle_hanjin_intercept",
+      "name": "漢津截擊",
+      "type": "battle",
+      "aliases": [],
+      "description": "關羽引江夏軍馬於漢津道路截出，使曹操退兵。",
+      "evidence": [
+        "從此路截出",
+        "傳令大軍速退"
+      ]
+    },
+    {
+      "id": "event_zhaoyun_breakout",
+      "name": "趙雲突圍至長坂橋",
+      "type": "event",
+      "aliases": [],
+      "description": "趙雲斬鐘縉、鍾紳後脫出，遭文聘追趕，至長坂橋求張飛援助。",
+      "evidence": [
+        "趙雲得脫",
+        "翼德援我"
+      ]
+    },
+    {
+      "id": "event_zhaoyun_return_adou",
+      "name": "趙雲交還阿斗",
+      "type": "event",
+      "aliases": [],
+      "description": "趙雲向劉備報糜夫人死，並將阿斗交還。",
+      "evidence": [
+        "糜夫人投井而死",
+        "雙手遞與玄德"
+      ]
+    },
+    {
+      "id": "event_zhangfei_retreat_cao",
+      "name": "張飛喝退曹軍",
+      "type": "event",
+      "aliases": [],
+      "description": "張飛在長坂橋三喝，曹操與諸將驚退。",
+      "evidence": [
+        "誰敢與我決一死戰",
+        "操便回馬而走"
+      ]
+    },
+    {
+      "id": "event_bridge_break_float",
+      "name": "斷橋與搭浮橋",
+      "type": "event",
+      "aliases": [],
+      "description": "張飛拆斷長坂橋，劉備判為失計，曹操遂命軍搭浮橋追趕。",
+      "evidence": [
+        "令將橋樑拆斷",
+        "速搭三座浮橋"
+      ]
+    },
+    {
+      "id": "event_hanjin_rescue",
+      "name": "漢津接應",
+      "type": "event",
+      "aliases": [],
+      "description": "劉備至漢津被追，關羽截住曹軍，劉琦舟師、孔明相繼會合接應。",
+      "evidence": [
+        "關雲長截出",
+        "小侄特來接應"
+      ]
+    },
+    {
+      "id": "event_xiakou_jiangxia_plan",
+      "name": "夏口江夏掎角之議",
+      "type": "event",
+      "aliases": [],
+      "description": "孔明建議夏口屯住、江夏整軍，形成掎角之勢抗曹。",
+      "evidence": [
+        "夏口城險",
+        "為掎角之勢"
+      ]
+    },
+    {
+      "id": "event_xiangyang_submission",
+      "name": "襄陽降曹",
+      "type": "event",
+      "aliases": [],
+      "description": "襄陽荊州軍民出郭投降，曹操入城安民並任賞眾官。",
+      "evidence": [
+        "出郭投降",
+        "曹操入城"
+      ]
+    },
+    {
+      "id": "event_xunyou_edict",
+      "name": "荀攸獻檄江東之計",
+      "type": "event",
+      "aliases": [],
+      "description": "荀攸建議曹操發檄江東，使孫權驚疑或會攻劉備。",
+      "evidence": [
+        "遣使馳檄江東",
+        "操從其計"
+      ]
+    },
+    {
+      "id": "event_lianwu_discussion",
+      "name": "江夏議聯東吳",
+      "type": "event",
+      "aliases": [],
+      "description": "孔明勸劉備往投東吳孫權，以南北相持取利。",
+      "evidence": [
+        "往投東吳孫權",
+        "南北兩軍互相吞併"
+      ]
+    },
+    {
+      "id": "event_lusu_kongming_to_chaisang",
+      "name": "魯肅孔明赴柴桑",
+      "type": "event",
+      "aliases": [],
+      "description": "魯肅至江夏吊喪探情，孔明請命同行，二人登舟赴柴桑。",
+      "evidence": [
+        "魯肅來吊喪",
+        "與孔明登舟"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在文中的稱號。",
+      "evidence": [
+        "丞相休驚"
+      ]
+    },
+    {
+      "id": "title_dahonglu",
+      "name": "大鴻臚",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操加授韓嵩的官職。",
+      "evidence": [
+        "加為大鴻臚"
+      ]
+    },
+    {
+      "id": "title_huangshu",
+      "name": "皇叔",
+      "type": "title",
+      "aliases": [],
+      "description": "魯肅稱劉備之稱號。",
+      "evidence": [
+        "久聞皇叔大名"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "劉琦稱孔明之職稱。",
+      "evidence": [
+        "軍師之言甚善"
+      ]
+    },
+    {
+      "id": "title_yuzhou",
+      "name": "劉豫州",
+      "type": "title",
+      "aliases": [],
+      "description": "本回標題中劉備之稱。",
+      "evidence": [
+        "劉豫州敗走漢津口"
+      ]
+    },
+    {
+      "id": "title_cangwu_taishou",
+      "name": "蒼梧太守",
+      "type": "title",
+      "aliases": [],
+      "description": "吳臣之官職。",
+      "evidence": [
+        "蒼梧太守吳臣"
+      ]
+    },
+    {
+      "id": "obj_qinggang_sword",
+      "name": "青釭寶劍",
+      "type": "object",
+      "aliases": [],
+      "description": "趙雲拔出斬殺鍾紳的寶劍。",
+      "evidence": [
+        "拔出青釭寶劍砍去"
+      ]
+    },
+    {
+      "id": "obj_she_spear",
+      "name": "蛇矛",
+      "type": "object",
+      "aliases": [],
+      "description": "張飛在長坂橋所持兵器。",
+      "evidence": [
+        "手綽蛇矛"
+      ]
+    },
+    {
+      "id": "obj_qinglong_blade",
+      "name": "青龍刀",
+      "type": "object",
+      "aliases": [],
+      "description": "關羽漢津截曹時所持兵器。",
+      "evidence": [
+        "手持青龍刀"
+      ]
+    },
+    {
+      "id": "obj_chitu_horse",
+      "name": "赤兔馬",
+      "type": "object",
+      "aliases": [],
+      "description": "關羽漢津截曹時所乘坐騎。",
+      "evidence": [
+        "坐下赤兔馬"
+      ]
+    },
+    {
+      "id": "obj_float_bridges",
+      "name": "三座浮橋",
+      "type": "object",
+      "aliases": [
+        "浮橋"
+      ],
+      "description": "曹操命軍搭建以過斷橋。",
+      "evidence": [
+        "速搭三座浮橋"
+      ]
+    },
+    {
+      "id": "obj_edict",
+      "name": "檄文",
+      "type": "object",
+      "aliases": [
+        "檄"
+      ],
+      "description": "曹操依荀攸計發往江東的文書。",
+      "evidence": [
+        "發檄遣使赴東吳"
+      ]
+    },
+    {
+      "id": "obj_boats",
+      "name": "船隻",
+      "type": "object",
+      "aliases": [
+        "舟船",
+        "戰船"
+      ],
+      "description": "漢津接應劉備與江上會合所用舟船。",
+      "evidence": [
+        "已有船隻伺候",
+        "舟船如蟻"
+      ]
+    },
+    {
+      "id": "strat_dust_suspect_ambush",
+      "name": "馬尾樹枝疑兵",
+      "type": "strategy",
+      "aliases": [
+        "疑有伏後"
+      ],
+      "description": "張飛以二十餘騎拖樹枝揚塵，使曹軍疑有伏兵。",
+      "evidence": [
+        "塵頭大起，疑有伏後",
+        "解去馬尾樹枝"
+      ]
+    },
+    {
+      "id": "strat_break_bridge",
+      "name": "斷橋",
+      "type": "strategy",
+      "aliases": [
+        "拆斷橋樑"
+      ],
+      "description": "張飛退曹後拆斷橋樑；劉備認為此舉暴露兵怯。",
+      "evidence": [
+        "令將橋樑拆斷",
+        "惜失於計較"
+      ]
+    },
+    {
+      "id": "strat_jijiao",
+      "name": "掎角之勢",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孔明建議夏口屯住、江夏整軍，兩處互為支援抗曹。",
+      "evidence": [
+        "為掎角之勢，可以抵當曹操"
+      ]
+    },
+    {
+      "id": "strat_xunyou_edict",
+      "name": "檄江東會獵之計",
+      "type": "strategy",
+      "aliases": [
+        "會獵於江夏"
+      ],
+      "description": "荀攸建議曹操發檄江東，請孫權共擒劉備並分荊州。",
+      "evidence": [
+        "請孫權會獵於江夏",
+        "共擒劉備"
+      ]
+    },
+    {
+      "id": "strat_lianwu",
+      "name": "聯吳抗曹之策",
+      "type": "strategy",
+      "aliases": [
+        "南北相持之策"
+      ],
+      "description": "孔明欲赴江東說動孫權，使南北相持，劉備從中取利。",
+      "evidence": [
+        "往投東吳孫權",
+        "南北相持"
+      ]
+    },
+    {
+      "id": "strat_lusu_condolence",
+      "name": "吊喪探情",
+      "type": "strategy",
+      "aliases": [
+        "吊喪探聽軍情"
+      ],
+      "description": "魯肅以吊喪為名到江夏，實探劉備與曹操虛實。",
+      "evidence": [
+        "非為吊喪，乃來探聽軍情"
+      ]
+    },
+    {
+      "id": "strat_fake_wuchen",
+      "name": "假稱投吳臣",
+      "type": "strategy",
+      "aliases": [],
+      "description": "孔明對魯肅稱劉備將投蒼梧吳臣，以引出江東建議。",
+      "evidence": [
+        "將往投之",
+        "別有良圖"
+      ]
+    },
+    {
+      "id": "army_zhangfei_twenty",
+      "name": "張飛原隨二十餘騎",
+      "type": "army",
+      "aliases": [
+        "二十餘騎"
+      ],
+      "description": "張飛留在橋後樹林中的少量騎兵，用以製造疑兵。",
+      "evidence": [
+        "原隨二十餘騎"
+      ]
+    },
+    {
+      "id": "army_jiangxia_10000",
+      "name": "江夏軍馬一萬",
+      "type": "army",
+      "aliases": [],
+      "description": "關羽從江夏借得的一萬軍馬。",
+      "evidence": [
+        "去江夏借得軍馬一萬"
+      ]
+    },
+    {
+      "id": "army_guan_yu_5000",
+      "name": "雲長五千軍",
+      "type": "army",
+      "aliases": [
+        "五千軍"
+      ],
+      "description": "劉備留下由關羽統領鎮守夏口的兵力。",
+      "evidence": [
+        "留下雲長，引五千軍守夏口"
+      ]
+    },
+    {
+      "id": "army_cao_830k",
+      "name": "曹操馬步水軍八十三萬",
+      "type": "army",
+      "aliases": [
+        "曹操大軍",
+        "一百萬",
+        "馬步水軍"
+      ],
+      "description": "曹操點計的水陸大軍，詐稱一百萬沿江而來。",
+      "evidence": [
+        "馬步水軍共八十三萬",
+        "詐稱一百萬"
+      ]
+    },
+    {
+      "id": "army_liuqi_fleet",
+      "name": "劉琦江夏舟師",
+      "type": "army",
+      "aliases": [
+        "江夏之兵",
+        "劉琦戰船"
+      ],
+      "description": "劉琦盡起江夏兵船接應劉備。",
+      "evidence": [
+        "江夏之兵，小侄已盡起至此"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_zhong_jin",
+      "target": "char_zhao_yun",
+      "type": "攔截",
+      "description": "鐘縉與鍾紳攔住趙雲廝殺。",
+      "evidence": [
+        "攔住趙雲廝殺"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhong_shen",
+      "target": "char_zhao_yun",
+      "type": "攔截",
+      "description": "鍾紳與鐘縉共同攔截趙雲。",
+      "evidence": [
+        "鐘縉、鍾紳二人"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_zhong_jin",
+      "type": "斬殺",
+      "description": "趙雲交戰不三合，刺落鐘縉。",
+      "evidence": [
+        "被雲一槍刺落馬下"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_zhong_shen",
+      "type": "斬殺",
+      "description": "趙雲以青釭寶劍斬鍾紳。",
+      "evidence": [
+        "青釭寶劍砍去",
+        "紳落馬而死"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "obj_qinggang_sword",
+      "type": "使用",
+      "description": "趙雲拔青釭寶劍殺敵。",
+      "evidence": [
+        "拔出青釭寶劍砍去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wen_pin",
+      "target": "char_zhao_yun",
+      "type": "追擊",
+      "description": "文聘引軍追趕趙雲至長坂橋。",
+      "evidence": [
+        "文聘引軍趕來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_zhao_yun",
+      "type": "救援",
+      "description": "張飛在橋上接應趙雲，承擔追兵。",
+      "evidence": [
+        "翼德援我",
+        "追兵我自當之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "loc_changban_bridge",
+      "type": "據守",
+      "description": "張飛立馬長坂橋上拒敵。",
+      "evidence": [
+        "立馬橋上"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_adou",
+      "type": "保護",
+      "description": "趙雲懷抱阿斗突圍。",
+      "evidence": [
+        "懷抱公子，身突重圍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_mi_furen",
+      "type": "掩埋",
+      "description": "糜夫人投井後，趙雲推土牆掩之。",
+      "evidence": [
+        "推土牆掩之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_liu_bei",
+      "type": "交還",
+      "description": "趙雲將阿斗交還劉備。",
+      "evidence": [
+        "雙手遞與玄德"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_adou",
+      "type": "接回",
+      "description": "劉備接過阿斗，又因惜趙雲而擲之於地。",
+      "evidence": [
+        "玄德接過",
+        "擲之於地"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhao_yun",
+      "type": "倚重",
+      "description": "劉備稱阿斗幾乎損他一員大將，顯示重視趙雲。",
+      "evidence": [
+        "幾損我一員大將"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "obj_she_spear",
+      "type": "使用",
+      "description": "張飛在橋上手持蛇矛。",
+      "evidence": [
+        "手綽蛇矛"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "army_zhangfei_twenty",
+      "type": "統領",
+      "description": "張飛喚回原隨二十餘騎。",
+      "evidence": [
+        "喚回原隨二十餘騎"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "strat_dust_suspect_ambush",
+      "type": "施用",
+      "description": "張飛以馬尾樹枝揚塵，造成伏兵假象。",
+      "evidence": [
+        "解去馬尾樹枝"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "strat_dust_suspect_ambush",
+      "target": "faction_cao",
+      "type": "造成疑懼",
+      "description": "橋東塵起使文聘與曹軍疑有伏兵，不敢近前。",
+      "evidence": [
+        "疑有伏後",
+        "不敢近前"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_fei",
+      "type": "懼怕",
+      "description": "曹操因張飛威勢而奔逃。",
+      "evidence": [
+        "曹操懼張飛之威"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "faction_cao",
+      "type": "喝退",
+      "description": "張飛在長坂橋怒喝，使曹軍潰退。",
+      "evidence": [
+        "獨退曹家百萬兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_xiahou_jie",
+      "type": "驚死",
+      "description": "夏侯傑被張飛喝聲驚倒而死。",
+      "evidence": [
+        "驚得肝膽碎裂"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_chengxiang",
+      "type": "擁有稱號",
+      "description": "張遼稱曹操為丞相。",
+      "evidence": [
+        "丞相休驚"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_cao",
+      "type": "統領",
+      "description": "曹操統率曹軍追擊與進兵。",
+      "evidence": [
+        "曹操下令軍中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_cao_cao",
+      "type": "勸諫",
+      "description": "張遼安撫曹操，勸其回軍追劉備。",
+      "evidence": [
+        "料張飛一人",
+        "急回軍殺去"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_liao",
+      "type": "派遣",
+      "description": "曹操令張遼探聽長坂橋消息。",
+      "evidence": [
+        "令張遼、許褚再至長坂橋"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xu_chu",
+      "type": "派遣",
+      "description": "曹操令許褚與張遼同探長坂橋。",
+      "evidence": [
+        "令張遼、許褚再至長坂橋"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "strat_break_bridge",
+      "type": "執行",
+      "description": "張飛退曹後命人拆斷長坂橋。",
+      "evidence": [
+        "令將橋樑拆斷"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_break_bridge",
+      "target": "loc_changban_bridge",
+      "type": "作用於",
+      "description": "斷橋之舉發生於長坂橋。",
+      "evidence": [
+        "張飛已拆斷橋樑"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strat_break_bridge",
+      "type": "批評",
+      "description": "劉備認為拆橋使曹操料其兵怯。",
+      "evidence": [
+        "惜失於計較",
+        "彼料我無軍而怯"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_cao_cao",
+      "type": "勸諫",
+      "description": "李典勸曹操防備諸葛亮詐謀，不可輕進。",
+      "evidence": [
+        "不可輕進"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_float_bridges",
+      "type": "下令搭建",
+      "description": "曹操命一萬軍速搭三座浮橋。",
+      "evidence": [
+        "速搭三座浮橋"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_cao_830k",
+      "type": "統領",
+      "description": "曹操計點馬步水軍八十三萬，詐稱百萬。",
+      "evidence": [
+        "計點馬步水軍共八十三萬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_cao_830k",
+      "target": "char_liu_bei",
+      "type": "追擊",
+      "description": "曹軍追趕劉備至漢津。",
+      "evidence": [
+        "眾將領命",
+        "奮威追趕"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "army_jiangxia_10000",
+      "type": "統領",
+      "description": "關羽從江夏借得軍馬一萬前來。",
+      "evidence": [
+        "借得軍馬一萬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_qinglong_blade",
+      "type": "使用",
+      "description": "關羽截出時手持青龍刀。",
+      "evidence": [
+        "手持青龍刀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_chitu_horse",
+      "type": "乘騎",
+      "description": "關羽截出時坐赤兔馬。",
+      "evidence": [
+        "坐下赤兔馬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "battle_hanjin_intercept",
+      "type": "參與",
+      "description": "關羽於漢津道路截擊曹軍。",
+      "evidence": [
+        "特地從此路截出"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "battle_hanjin_intercept",
+      "target": "faction_cao",
+      "type": "迫退",
+      "description": "曹操見關羽即令大軍速退。",
+      "evidence": [
+        "傳令大軍速退"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhuge_liang",
+      "type": "疑中其計",
+      "description": "曹操見關羽截出，以為又中孔明之計。",
+      "evidence": [
+        "又中諸葛亮之計也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_liu_bei",
+      "type": "保護",
+      "description": "關羽回軍護送劉備等至漢津。",
+      "evidence": [
+        "保護玄德等到漢津"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_qi",
+      "target": "char_liu_bei",
+      "type": "接應",
+      "description": "劉琦聞劉備困於曹操，特來接應。",
+      "evidence": [
+        "小侄特來接應"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_qi",
+      "target": "army_liuqi_fleet",
+      "type": "統領",
+      "description": "劉琦盡起江夏兵船接應。",
+      "evidence": [
+        "江夏之兵，小侄已盡起至此"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_guan_yu",
+      "type": "派遣接應",
+      "description": "孔明先令關羽於漢津登陸接應。",
+      "evidence": [
+        "先令雲長於漢津登陸地而接"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_liu_qi",
+      "type": "請來接應",
+      "description": "孔明請劉琦先到漢津接應劉備。",
+      "evidence": [
+        "特請公子先來接應"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_jijiao",
+      "type": "提議",
+      "description": "孔明主張夏口、江夏分據以成掎角。",
+      "evidence": [
+        "為掎角之勢"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_jijiao",
+      "target": "loc_xiakou",
+      "type": "配置",
+      "description": "掎角之勢以夏口屯住為一端。",
+      "evidence": [
+        "且到夏口屯住"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_jijiao",
+      "target": "loc_jiangxia",
+      "type": "配置",
+      "description": "掎角之勢以江夏整頓戰船軍器為一端。",
+      "evidence": [
+        "自回江夏，整頓戰船"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guan_yu",
+      "type": "留守任務",
+      "description": "劉備留下關羽帶五千軍守夏口。",
+      "evidence": [
+        "留下雲長，引五千軍守夏口"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "army_guan_yu_5000",
+      "type": "統領",
+      "description": "關羽統五千軍守夏口。",
+      "evidence": [
+        "引五千軍守夏口"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_jiangxia",
+      "type": "前往",
+      "description": "劉備與孔明、劉琦同往江夏。",
+      "evidence": [
+        "共投江夏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_jiangxia",
+      "type": "前往",
+      "description": "孔明與劉備、劉琦同投江夏。",
+      "evidence": [
+        "玄德、孔明、劉琦共投江夏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_jingzhou",
+      "target": "char_cao_cao",
+      "type": "投降",
+      "description": "襄陽荊州軍民出郭向曹操投降。",
+      "evidence": [
+        "引荊州軍民出郭投降"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_xiangyang",
+      "type": "入城",
+      "description": "曹操入襄陽並安民。",
+      "evidence": [
+        "曹操入城、安民已定"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_han_song",
+      "type": "釋放任命",
+      "description": "曹操釋韓嵩之囚並加官。",
+      "evidence": [
+        "釋韓嵩之囚"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_han_song",
+      "target": "title_dahonglu",
+      "type": "被任命",
+      "description": "韓嵩被加為大鴻臚。",
+      "evidence": [
+        "加為大鴻臚"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xun_you",
+      "target": "char_cao_cao",
+      "type": "獻計",
+      "description": "荀攸向曹操獻發檄江東之計。",
+      "evidence": [
+        "荀攸曰",
+        "操從其計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strat_xunyou_edict",
+      "type": "採納",
+      "description": "曹操採用荀攸發檄江東之計。",
+      "evidence": [
+        "操從其計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_xunyou_edict",
+      "target": "faction_dongwu",
+      "type": "發檄拉攏",
+      "description": "此計以檄文請孫權會獵江夏、共擒劉備。",
+      "evidence": [
+        "遣使馳檄江東"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_edict",
+      "type": "發出",
+      "description": "曹操發檄遣使赴東吳。",
+      "evidence": [
+        "發檄遣使赴東吳"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_sun_quan",
+      "type": "邀約會攻",
+      "description": "曹操欲請孫權會獵江夏，共擒劉備。",
+      "evidence": [
+        "請孫權會獵於江夏"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_lu_su",
+      "target": "char_sun_quan",
+      "type": "請命獻策",
+      "description": "魯肅請命往江夏吊喪並說劉備合力破曹。",
+      "evidence": [
+        "肅請奉命往江夏吊喪"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_lu_su",
+      "type": "派遣",
+      "description": "孫權聽從魯肅之言，遣魯肅往江夏。",
+      "evidence": [
+        "即遣魯肅賒禮往江夏"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_su",
+      "target": "strat_lusu_condolence",
+      "type": "執行",
+      "description": "魯肅以吊喪為名到江夏探情。",
+      "evidence": [
+        "魯肅來吊喪"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_lusu_condolence",
+      "target": "loc_jiangxia",
+      "type": "目的地",
+      "description": "吊喪探情之行的目的地是江夏。",
+      "evidence": [
+        "往江夏吊喪"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_lianwu",
+      "type": "提議",
+      "description": "孔明主張劉備往投東吳孫權，以為應援。",
+      "evidence": [
+        "往投東吳孫權"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_lianwu",
+      "target": "faction_dongwu",
+      "type": "聯絡",
+      "description": "聯吳之策要借孫權為應援。",
+      "evidence": [
+        "以為應援"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "strat_lianwu",
+      "target": "faction_cao",
+      "type": "對抗",
+      "description": "聯吳之策以南北相持抗曹。",
+      "evidence": [
+        "南北相持"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_fake_wuchen",
+      "type": "設言",
+      "description": "孔明對魯肅稱劉備將往投吳臣。",
+      "evidence": [
+        "將往投之"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "source": "strat_fake_wuchen",
+      "target": "char_wu_chen",
+      "type": "假稱投奔",
+      "description": "假稱投奔的對象是蒼梧太守吳臣。",
+      "evidence": [
+        "蒼梧太守吳臣有舊"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "source": "char_wu_chen",
+      "target": "title_cangwu_taishou",
+      "type": "擁有職銜",
+      "description": "吳臣被稱為蒼梧太守。",
+      "evidence": [
+        "蒼梧太守吳臣"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_lu_su",
+      "type": "同行",
+      "description": "孔明與魯肅登舟赴柴桑。",
+      "evidence": [
+        "與孔明登舟"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_chaisang",
+      "type": "行往",
+      "description": "孔明隨魯肅往柴桑郡。",
+      "evidence": [
+        "望柴桑郡來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_su",
+      "target": "loc_chaisang",
+      "type": "行往",
+      "description": "魯肅別劉備、劉琦後往柴桑。",
+      "evidence": [
+        "望柴桑郡來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "char_zhuge_liang",
+      "type": "隨行",
+      "description": "孫乾立於孔明船後。",
+      "evidence": [
+        "背後立著孫乾"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_huangshu",
+      "type": "擁有稱號",
+      "description": "魯肅稱劉備為皇叔。",
+      "evidence": [
+        "久聞皇叔大名"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "title_junshi",
+      "type": "擁有稱號",
+      "description": "劉琦稱孔明為軍師。",
+      "evidence": [
+        "軍師之言甚善"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_yuzhou",
+      "type": "擁有稱號",
+      "description": "本回標題稱劉備為劉豫州。",
+      "evidence": [
+        "劉豫州敗走漢津口"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_boats",
+      "type": "登船",
+      "description": "關羽請劉備入船坐定。",
+      "evidence": [
+        "請玄德並甘夫人、阿斗至船中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gan_furen",
+      "target": "obj_boats",
+      "type": "登船",
+      "description": "甘夫人隨劉備至船中坐定。",
+      "evidence": [
+        "甘夫人、阿斗至船中坐定"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_adou",
+      "target": "obj_boats",
+      "type": "登船",
+      "description": "阿斗與劉備、甘夫人同登船。",
+      "evidence": [
+        "阿斗至船中坐定"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_su",
+      "target": "char_liu_bei",
+      "type": "探問軍情",
+      "description": "魯肅向劉備詢問曹操軍勢虛實。",
+      "evidence": [
+        "敢問操軍約有幾何"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhaoyun_breakout",
+      "name": "趙雲突圍至長坂橋",
+      "summary": "趙雲被鐘縉、鍾紳攔截，斬二人後脫身，又遭文聘追趕，至長坂橋向張飛求援。",
+      "participants": [
+        "char_zhao_yun",
+        "char_zhong_jin",
+        "char_zhong_shen",
+        "char_wen_pin",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_changban_bridge"
+      ],
+      "evidence": [
+        "趙雲得脫",
+        "翼德援我"
+      ]
+    },
+    {
+      "id": "event_zhaoyun_return_adou",
+      "name": "趙雲交還阿斗",
+      "summary": "趙雲向劉備報告糜夫人投井，並將懷中阿斗交還；劉備因惜大將而擲阿斗。",
+      "participants": [
+        "char_zhao_yun",
+        "char_liu_bei",
+        "char_mi_furen",
+        "char_adou"
+      ],
+      "locations": [
+        "loc_changban"
+      ],
+      "evidence": [
+        "糜夫人投井而死",
+        "雙手遞與玄德"
+      ]
+    },
+    {
+      "id": "event_zhangfei_retreat_cao",
+      "name": "張飛喝退曹軍",
+      "summary": "張飛據長坂橋怒喝，曹操與諸將疑伏驚退，夏侯傑被喝聲驚死。",
+      "participants": [
+        "char_zhang_fei",
+        "char_cao_cao",
+        "char_xiahou_jie",
+        "char_zhang_liao",
+        "char_xu_chu",
+        "faction_cao"
+      ],
+      "locations": [
+        "loc_changban_bridge"
+      ],
+      "evidence": [
+        "誰敢與我決一死戰",
+        "操便回馬而走"
+      ]
+    },
+    {
+      "id": "event_bridge_break_float",
+      "name": "斷橋與搭浮橋",
+      "summary": "張飛拆斷長坂橋；劉備指出此舉失計。曹操探知後命搭三座浮橋，火速進兵。",
+      "participants": [
+        "char_zhang_fei",
+        "char_liu_bei",
+        "char_cao_cao",
+        "char_zhang_liao",
+        "char_xu_chu",
+        "char_li_dian"
+      ],
+      "locations": [
+        "loc_changban_bridge"
+      ],
+      "evidence": [
+        "令將橋樑拆斷",
+        "速搭三座浮橋"
+      ]
+    },
+    {
+      "id": "event_hanjin_rescue",
+      "name": "漢津接應",
+      "summary": "劉備近漢津遇曹軍追迫，關羽引江夏軍馬截出退曹，隨後劉琦舟師與孔明船隊接應會合。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_cao_cao",
+        "char_liu_qi",
+        "char_zhuge_liang",
+        "char_sun_qian",
+        "char_gan_furen",
+        "char_adou"
+      ],
+      "locations": [
+        "loc_hanjin"
+      ],
+      "evidence": [
+        "關雲長截出",
+        "小侄特來接應"
+      ]
+    },
+    {
+      "id": "event_xiakou_jiangxia_plan",
+      "name": "夏口江夏掎角之議",
+      "summary": "孔明建議劉備暫屯夏口，劉琦回江夏整兵，兩地成掎角之勢；劉備後留關羽守夏口，自與孔明、劉琦往江夏。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_liu_bei",
+        "char_liu_qi",
+        "char_guan_yu"
+      ],
+      "locations": [
+        "loc_xiakou",
+        "loc_jiangxia"
+      ],
+      "evidence": [
+        "夏口城險",
+        "為掎角之勢"
+      ]
+    },
+    {
+      "id": "event_xiangyang_submission",
+      "name": "襄陽降曹",
+      "summary": "曹操因疑有伏兵不追漢津，轉赴江陵方向；襄陽荊州軍民出郭降曹，曹操入城安民並釋韓嵩、加大鴻臚。",
+      "participants": [
+        "char_cao_cao",
+        "char_han_song",
+        "faction_jingzhou"
+      ],
+      "locations": [
+        "loc_xiangyang",
+        "loc_jiangling"
+      ],
+      "evidence": [
+        "出郭投降",
+        "加為大鴻臚"
+      ]
+    },
+    {
+      "id": "event_xunyou_edict",
+      "name": "荀攸獻檄江東之計",
+      "summary": "荀攸建議曹操發檄江東，請孫權會獵江夏、共擒劉備、分荊州；曹操採納並率八十三萬水陸軍沿江而來。",
+      "participants": [
+        "char_xun_you",
+        "char_cao_cao",
+        "char_sun_quan",
+        "char_liu_bei",
+        "army_cao_830k"
+      ],
+      "locations": [
+        "loc_jiangxia",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "操從其計",
+        "水陸並進"
+      ]
+    },
+    {
+      "id": "event_lianwu_discussion",
+      "name": "江夏議聯東吳",
+      "summary": "劉備至江夏後，孔明建議往投東吳孫權，以南北相持，劉備可從中取利。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_liu_qi",
+        "char_sun_quan"
+      ],
+      "locations": [
+        "loc_jiangxia"
+      ],
+      "evidence": [
+        "往投東吳孫權",
+        "南北相持"
+      ]
+    },
+    {
+      "id": "event_lusu_kongming_to_chaisang",
+      "name": "魯肅孔明赴柴桑",
+      "summary": "孫權遣魯肅往江夏吊喪探情；魯肅見劉備、孔明後，孔明請命同行，二人登舟赴柴桑。",
+      "participants": [
+        "char_sun_quan",
+        "char_lu_su",
+        "char_liu_bei",
+        "char_liu_qi",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_jiangxia",
+        "loc_chaisang"
+      ],
+      "evidence": [
+        "魯肅來吊喪",
+        "與孔明登舟"
+      ]
+    }
+  ],
+  "notes": [
+    "原文有數處重複與訛字，抽取僅依可辨識且正文支持的內容。"
+  ]
+}

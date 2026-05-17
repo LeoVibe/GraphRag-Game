@@ -1,0 +1,1282 @@
+{
+  "book": "三國演義",
+  "chapter_no": 47,
+  "chapter_title": "闞澤密獻詐降書　龐統巧授連環計",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_kanze",
+      "name": "闞澤",
+      "type": "character",
+      "aliases": [
+        "隚澤",
+        "閔澤",
+        "閏澤",
+        "德潤"
+      ],
+      "description": "東吳參謀，與黃蓋交善，受託扮作漁翁赴曹營獻詐降書，並以辯才使曹操暫信黃蓋降意。",
+      "evidence": [
+        "字德潤",
+        "孫權召為參謀",
+        "與黃蓋最相善",
+        "扮作漁翁"
+      ]
+    },
+    {
+      "id": "char_huanggai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [
+        "黃公覆",
+        "公覆"
+      ],
+      "description": "東吳將領，與闞澤合謀詐降曹操；本回中詐降書以其名義呈上。",
+      "evidence": [
+        "黃公覆",
+        "願率眾歸降",
+        "黃蓋用苦肉計"
+      ]
+    },
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹丞相",
+        "丞相"
+      ],
+      "description": "曹軍主帥，先疑闞澤詐降，後又接見龐統並採納連環計。",
+      "evidence": [
+        "曹操憑幾危坐",
+        "聚眾謀士商議",
+        "非先生良謀"
+      ]
+    },
+    {
+      "id": "char_sunquan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳之主，曾召闞澤為參謀。",
+      "evidence": [
+        "孫權召為參謀"
+      ]
+    },
+    {
+      "id": "char_zhouyu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "周公瑾",
+        "公瑾",
+        "周郎"
+      ],
+      "description": "東吳主帥，安排魯肅請龐統用計，利用蔣幹促成龐統入曹營。",
+      "evidence": [
+        "周瑜聽得乾又到",
+        "請龐士元來",
+        "分付龐統用計"
+      ]
+    },
+    {
+      "id": "char_ganning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，在闞澤示意下於蔡中、蔡和面前假作有反意。",
+      "evidence": [
+        "澤至寧寨",
+        "寧會意",
+        "甘寧拔劍而起"
+      ]
+    },
+    {
+      "id": "char_caizhong",
+      "name": "蔡中",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操方面在東吳探聽消息者，與蔡和密報黃蓋受刑及甘寧內應假象。",
+      "evidence": [
+        "蔡中、蔡和來報",
+        "二蔡即時寫書"
+      ]
+    },
+    {
+      "id": "char_caihe",
+      "name": "蔡和",
+      "type": "character",
+      "aliases": [],
+      "description": "與蔡中同為曹操探聽東吳消息者，被闞澤、甘寧設局誤導。",
+      "evidence": [
+        "蔡和、蔡中至",
+        "密報曹操"
+      ]
+    },
+    {
+      "id": "char_jianggan",
+      "name": "蔣幹",
+      "type": "character",
+      "aliases": [
+        "蔣乾",
+        "子翼"
+      ],
+      "description": "曹操謀士，再赴江南水寨探聽實信，後將龐統引至曹營。",
+      "evidence": [
+        "蔣幹進曰",
+        "徑到江南水寨",
+        "幹先入見"
+      ]
+    },
+    {
+      "id": "char_lusu",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳謀臣，受周瑜囑咐請龐統，且曾向周瑜推薦龐統。",
+      "evidence": [
+        "囑咐魯肅",
+        "曾薦之於周瑜"
+      ]
+    },
+    {
+      "id": "char_pangtong",
+      "name": "龐統",
+      "type": "character",
+      "aliases": [
+        "龐士元",
+        "士元",
+        "鳳雛先生"
+      ],
+      "description": "襄陽人，避亂居江東；向周瑜提出火攻須配合連環計，後借蔣幹入曹營獻計。",
+      "evidence": [
+        "襄陽龐統",
+        "字士元",
+        "莫非鳳雛先生",
+        "須用火攻"
+      ]
+    },
+    {
+      "id": "char_liubei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [],
+      "description": "本回末由龐統對曹操提及，稱若周瑜被破則劉備無所用。",
+      "evidence": [
+        "則劉備無所用矣"
+      ]
+    },
+    {
+      "id": "char_unnamed_taoist",
+      "name": "道袍竹冠之人",
+      "type": "character",
+      "aliases": [],
+      "description": "章末在江邊扯住龐統，點破苦肉計、詐降書與連環計，正文尚未揭名。",
+      "evidence": [
+        "道袍竹冠",
+        "一把扯住統",
+        "看下文分解"
+      ]
+    },
+    {
+      "id": "faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "孫氏",
+        "江東勢力"
+      ],
+      "description": "孫權所領勢力，周瑜、黃蓋、闞澤、甘寧等皆在其陣營。",
+      "evidence": [
+        "東吳參謀",
+        "蓋受孫氏厚恩",
+        "江東六郡之卒"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "中國"
+      ],
+      "description": "曹操所領北方大軍，與東吳對峙於大江。",
+      "evidence": [
+        "曹軍水寨",
+        "中國百萬之師",
+        "北兵不慣乘舟"
+      ]
+    },
+    {
+      "id": "location_kuaiji_shanyin",
+      "name": "會稽山陰",
+      "type": "location",
+      "aliases": [],
+      "description": "闞澤籍貫。",
+      "evidence": [
+        "會稽山陰人也"
+      ]
+    },
+    {
+      "id": "location_jiangdong",
+      "name": "江東",
+      "type": "location",
+      "aliases": [
+        "江左",
+        "江南"
+      ],
+      "description": "東吳所在地域，闞澤自曹營返回此處，蔣幹亦赴江南水寨。",
+      "evidence": [
+        "重回江東",
+        "江左甘寧",
+        "江南水寨"
+      ]
+    },
+    {
+      "id": "location_cao_water_camp",
+      "name": "曹軍水寨",
+      "type": "location",
+      "aliases": [
+        "曹操水寨"
+      ],
+      "description": "曹操水軍營寨，闞澤、龐統先後入此。",
+      "evidence": [
+        "早到曹軍水寨",
+        "同觀水寨"
+      ]
+    },
+    {
+      "id": "location_ganning_camp",
+      "name": "甘寧寨",
+      "type": "location",
+      "aliases": [
+        "寧寨"
+      ],
+      "description": "甘寧駐寨，闞澤到此探蔡中、蔡和消息並設局。",
+      "evidence": [
+        "甘寧寨中",
+        "澤至寧寨"
+      ]
+    },
+    {
+      "id": "location_jiangnan_water_camp",
+      "name": "江南水寨",
+      "type": "location",
+      "aliases": [
+        "周瑜寨"
+      ],
+      "description": "周瑜所在水寨，蔣幹第二次前來探聽消息。",
+      "evidence": [
+        "徑到江南水寨邊",
+        "直入周瑜寨中"
+      ]
+    },
+    {
+      "id": "location_west_mountain_hermitage",
+      "name": "西山背後小庵",
+      "type": "location",
+      "aliases": [
+        "小庵"
+      ],
+      "description": "周瑜安排蔣幹歇息之處，蔣幹由此發現龐統。",
+      "evidence": [
+        "西山背後小庵歇息"
+      ]
+    },
+    {
+      "id": "location_grass_hut",
+      "name": "山岩草屋",
+      "type": "location",
+      "aliases": [
+        "草屋"
+      ],
+      "description": "龐統在西山附近讀兵書的居處。",
+      "evidence": [
+        "山岩畔有草屋",
+        "誦孫、吳兵書"
+      ]
+    },
+    {
+      "id": "location_jiangbian",
+      "name": "江邊",
+      "type": "location",
+      "aliases": [],
+      "description": "龐統離開曹營後欲下船之處，亦為道袍竹冠之人攔住他的地點。",
+      "evidence": [
+        "至江邊",
+        "正欲下船"
+      ]
+    },
+    {
+      "id": "location_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "龐統籍貫。",
+      "evidence": [
+        "襄陽龐統"
+      ]
+    },
+    {
+      "id": "battle_chibi",
+      "name": "赤壁鏖兵",
+      "type": "battle",
+      "aliases": [
+        "赤壁之戰"
+      ],
+      "description": "詩中點出的即將以火攻決勝的大戰背景。",
+      "evidence": [
+        "赤壁鏖兵用火攻"
+      ]
+    },
+    {
+      "id": "title_dongwu_counsellor",
+      "name": "東吳參謀",
+      "type": "title",
+      "aliases": [
+        "參謀"
+      ],
+      "description": "闞澤所任職銜。",
+      "evidence": [
+        "自稱是東吳參謀",
+        "孫權召為參謀"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "曹丞相",
+      "type": "title",
+      "aliases": [
+        "丞相"
+      ],
+      "description": "曹操在本回中被稱呼的官職稱號。",
+      "evidence": [
+        "曹丞相求賢若渴",
+        "伏聞丞相"
+      ]
+    },
+    {
+      "id": "title_fengchu",
+      "name": "鳳雛先生",
+      "type": "title",
+      "aliases": [
+        "鳳雛"
+      ],
+      "description": "龐統的稱號，蔣幹與曹操皆以此重視其才名。",
+      "evidence": [
+        "莫非鳳雛先生否",
+        "鳳雛先生來"
+      ]
+    },
+    {
+      "id": "object_false_surrender_letter",
+      "name": "詐降書",
+      "type": "object",
+      "aliases": [
+        "降書",
+        "黃蓋降書"
+      ],
+      "description": "黃蓋以投降曹操為名所修之書，由闞澤送入曹營。",
+      "evidence": [
+        "獻詐降書",
+        "書已修下了",
+        "操拆書"
+      ]
+    },
+    {
+      "id": "object_secret_report",
+      "name": "密書",
+      "type": "object",
+      "aliases": [
+        "二蔡密報"
+      ],
+      "description": "蔡中、蔡和及闞澤分別送往曹操處的秘密書信。",
+      "evidence": [
+        "以密書呈上",
+        "二蔡即時寫書",
+        "另自修書"
+      ]
+    },
+    {
+      "id": "object_green_flag",
+      "name": "青牙旗",
+      "type": "object",
+      "aliases": [],
+      "description": "闞澤密報曹操用以辨認黃蓋來船的暗號旗。",
+      "evidence": [
+        "船頭插青牙旗"
+      ]
+    },
+    {
+      "id": "object_iron_chains",
+      "name": "鐵環連鎖",
+      "type": "object",
+      "aliases": [
+        "鐵環"
+      ],
+      "description": "龐統建議曹操將船首尾相連所用之物。",
+      "evidence": [
+        "首尾用鐵環連鎖"
+      ]
+    },
+    {
+      "id": "object_planks",
+      "name": "闊板",
+      "type": "object",
+      "aliases": [],
+      "description": "龐統建議在連鎖船上鋪設，使人馬可通行。",
+      "evidence": [
+        "上鋪闊板",
+        "馬可走矣"
+      ]
+    },
+    {
+      "id": "object_caocao_notice",
+      "name": "榜",
+      "type": "object",
+      "aliases": [
+        "曹操榜文"
+      ],
+      "description": "曹操寫押交付龐統，用以保全龐統江邊家屬。",
+      "evidence": [
+        "操命寫榜僉押付統",
+        "可保全矣"
+      ]
+    },
+    {
+      "id": "object_sunwu_books",
+      "name": "孫、吳兵書",
+      "type": "object",
+      "aliases": [],
+      "description": "蔣幹在草屋中見龐統誦讀的兵書。",
+      "evidence": [
+        "誦孫、吳兵書"
+      ]
+    },
+    {
+      "id": "strategy_bitter_flesh",
+      "name": "苦肉計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "黃蓋受刑以取信曹操的詐降前置計策。",
+      "evidence": [
+        "黃蓋用苦肉計",
+        "黃蓋受責"
+      ]
+    },
+    {
+      "id": "strategy_false_surrender",
+      "name": "詐降計",
+      "type": "strategy",
+      "aliases": [
+        "詐降"
+      ],
+      "description": "黃蓋、闞澤以投降為名誘曹操信任的計策。",
+      "evidence": [
+        "下詐降書",
+        "願率眾歸降"
+      ]
+    },
+    {
+      "id": "strategy_inner_agent",
+      "name": "內應計",
+      "type": "strategy",
+      "aliases": [
+        "內應"
+      ],
+      "description": "使曹操相信甘寧、闞澤等可為曹營內應的假象。",
+      "evidence": [
+        "同為內應",
+        "皆有反意"
+      ]
+    },
+    {
+      "id": "strategy_fire_attack",
+      "name": "火攻",
+      "type": "strategy",
+      "aliases": [],
+      "description": "龐統指出破曹兵必須使用的攻擊方式。",
+      "evidence": [
+        "欲破曹兵，須用火攻"
+      ]
+    },
+    {
+      "id": "strategy_chain_plan",
+      "name": "連環計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "龐統使曹操將船連鎖成排，以便日後火攻成功的計策。",
+      "evidence": [
+        "獻連環計",
+        "釘作一處",
+        "首尾用鐵環連鎖"
+      ]
+    },
+    {
+      "id": "army_jiangdong_six",
+      "name": "江東六郡之卒",
+      "type": "army",
+      "aliases": [],
+      "description": "黃蓋詐降書中所稱東吳兵力。",
+      "evidence": [
+        "江東六郡之卒"
+      ]
+    },
+    {
+      "id": "army_cao_million",
+      "name": "中國百萬之師",
+      "type": "army",
+      "aliases": [
+        "百萬之師"
+      ],
+      "description": "黃蓋詐降書中所稱曹操大軍。",
+      "evidence": [
+        "中國百萬之師"
+      ]
+    },
+    {
+      "id": "army_cao_water_force",
+      "name": "曹操水軍",
+      "type": "army",
+      "aliases": [
+        "水軍",
+        "北兵"
+      ],
+      "description": "曹操麾下水上軍隊，因不服水土與舟船顛簸而多病。",
+      "evidence": [
+        "水軍多疾",
+        "北兵不慣乘舟"
+      ]
+    },
+    {
+      "id": "army_river_patrol",
+      "name": "巡江軍士",
+      "type": "army",
+      "aliases": [],
+      "description": "曹營巡江士卒，抓住扮作漁翁的闞澤並報曹操。",
+      "evidence": [
+        "巡江軍士拿住"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_kanze",
+      "target": "title_dongwu_counsellor",
+      "type": "擔任",
+      "description": "闞澤為東吳參謀。",
+      "evidence": [
+        "孫權召為參謀"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sunquan",
+      "target": "char_kanze",
+      "type": "任命",
+      "description": "孫權召闞澤為參謀。",
+      "evidence": [
+        "孫權召為參謀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_kanze",
+      "target": "faction_dongwu",
+      "type": "隸屬",
+      "description": "闞澤以東吳參謀身份行事。",
+      "evidence": [
+        "東吳參謀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_huanggai",
+      "target": "faction_dongwu",
+      "type": "隸屬",
+      "description": "黃蓋受孫氏厚恩，屬東吳陣營。",
+      "evidence": [
+        "蓋受孫氏厚恩"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_kanze",
+      "target": "char_huanggai",
+      "type": "友善協作",
+      "description": "闞澤與黃蓋交好，受其託送詐降書。",
+      "evidence": [
+        "與黃蓋最相善",
+        "故欲使獻詐降書"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huanggai",
+      "target": "object_false_surrender_letter",
+      "type": "修書",
+      "description": "黃蓋預先修下詐降書交闞澤帶往曹營。",
+      "evidence": [
+        "書已修下了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_kanze",
+      "target": "object_false_surrender_letter",
+      "type": "遞送",
+      "description": "闞澤領書後夜渡至曹營呈交曹操。",
+      "evidence": [
+        "澤領了書",
+        "望北岸而行"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "object_false_surrender_letter",
+      "target": "char_caocao",
+      "type": "呈交",
+      "description": "詐降書被送至曹操帳中拆看。",
+      "evidence": [
+        "操拆書"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_huanggai",
+      "target": "strategy_bitter_flesh",
+      "type": "使用",
+      "description": "黃蓋以苦肉計作為詐降取信的背景。",
+      "evidence": [
+        "黃蓋用苦肉計"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huanggai",
+      "target": "strategy_false_surrender",
+      "type": "執行",
+      "description": "黃蓋以歸降曹操為名行詐降。",
+      "evidence": [
+        "願率眾歸降",
+        "下詐降書"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_kanze",
+      "target": "strategy_false_surrender",
+      "type": "執行",
+      "description": "闞澤赴曹營獻書並以言辭補強詐降可信度。",
+      "evidence": [
+        "非公能辯",
+        "好人"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_kanze",
+      "type": "審問",
+      "description": "曹操先疑闞澤為姦細，欲斬後又聽其辯解。",
+      "evidence": [
+        "莫非是姦細麼",
+        "推出斬之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "title_chengxiang",
+      "type": "稱號",
+      "description": "曹操在本回中被稱為丞相。",
+      "evidence": [
+        "曹丞相求賢若渴"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caizhong",
+      "target": "char_caocao",
+      "type": "密報",
+      "description": "蔡中向曹操報黃蓋受刑與甘寧內應等消息。",
+      "evidence": [
+        "蔡中、蔡和來報",
+        "密報曹操"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caihe",
+      "target": "char_caocao",
+      "type": "密報",
+      "description": "蔡和與蔡中同寫密書報曹操。",
+      "evidence": [
+        "二蔡即時寫書"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_kanze",
+      "target": "char_ganning",
+      "type": "設局協作",
+      "description": "闞澤以目示意甘寧，甘寧會意假作不平。",
+      "evidence": [
+        "澤以目送甘寧",
+        "寧會意"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ganning",
+      "target": "strategy_inner_agent",
+      "type": "假裝參與",
+      "description": "甘寧在二蔡面前作出欲為曹操內應的假象。",
+      "evidence": [
+        "皆有反意",
+        "同為內應"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caizhong",
+      "target": "strategy_inner_agent",
+      "type": "誤信並傳報",
+      "description": "蔡中把甘寧假作內應之事密報曹操。",
+      "evidence": [
+        "甘寧與某同為內應"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caihe",
+      "target": "strategy_inner_agent",
+      "type": "誤信並傳報",
+      "description": "蔡和把甘寧假作內應之事密報曹操。",
+      "evidence": [
+        "二蔡即時寫書"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_kanze",
+      "target": "object_green_flag",
+      "type": "設定暗號",
+      "description": "闞澤密報曹操以青牙旗辨認黃蓋來船。",
+      "evidence": [
+        "船頭插青牙旗而來者"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "object_green_flag",
+      "target": "char_huanggai",
+      "type": "識別",
+      "description": "插青牙旗的船被指定為黃蓋來降之船。",
+      "evidence": [
+        "即是也"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_jianggan",
+      "type": "派探",
+      "description": "曹操求能入周瑜寨探實信者，蔣幹主動請行。",
+      "evidence": [
+        "誰敢直入周瑜寨中",
+        "蔣幹進曰"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_jianggan",
+      "target": "location_jiangnan_water_camp",
+      "type": "行至",
+      "description": "蔣幹駕小舟到江南水寨邊。",
+      "evidence": [
+        "徑到江南水寨邊"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_jianggan",
+      "target": "char_zhouyu",
+      "type": "會見",
+      "description": "蔣幹入周瑜寨中見周瑜。",
+      "evidence": [
+        "入寨見周瑜"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_lusu",
+      "type": "囑咐",
+      "description": "周瑜囑魯肅請龐統來配合用計。",
+      "evidence": [
+        "囑咐魯肅",
+        "請龐士元來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lusu",
+      "target": "char_pangtong",
+      "type": "推薦",
+      "description": "魯肅曾向周瑜推薦龐統。",
+      "evidence": [
+        "魯肅曾薦之於周瑜"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_pangtong",
+      "type": "用計安排",
+      "description": "周瑜分付龐統用計以破曹。",
+      "evidence": [
+        "分付龐統用計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_pangtong",
+      "target": "strategy_fire_attack",
+      "type": "提出",
+      "description": "龐統認為破曹兵須用火攻。",
+      "evidence": [
+        "欲破曹兵，須用火攻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_pangtong",
+      "target": "strategy_chain_plan",
+      "type": "設計",
+      "description": "龐統提出連環計，使曹船釘作一處。",
+      "evidence": [
+        "除非獻連環計",
+        "教他釘作一處"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_chain_plan",
+      "target": "strategy_fire_attack",
+      "type": "配合",
+      "description": "連環計使曹船不能四散，為火攻成功創造條件。",
+      "evidence": [
+        "然後功可成也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_jianggan",
+      "target": "char_pangtong",
+      "type": "引薦入曹營",
+      "description": "蔣幹遇龐統後，帶其到曹操寨中。",
+      "evidence": [
+        "既至操寨",
+        "鳳雛先生來"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_pangtong",
+      "target": "title_fengchu",
+      "type": "稱號",
+      "description": "龐統被稱為鳳雛先生。",
+      "evidence": [
+        "莫非鳳雛先生否"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_pangtong",
+      "type": "禮遇",
+      "description": "曹操親自迎入龐統，並殷勤相待。",
+      "evidence": [
+        "親自出帳迎入",
+        "殷勤相待"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_pangtong",
+      "target": "location_cao_water_camp",
+      "type": "觀察",
+      "description": "龐統與曹操同觀曹營水寨。",
+      "evidence": [
+        "又與同觀水寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_chain_plan",
+      "target": "army_cao_water_force",
+      "type": "施用於",
+      "description": "連環計建議將曹操大小水軍船隻成排連鎖。",
+      "evidence": [
+        "大船小船各皆配搭",
+        "首尾用鐵環連鎖"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "object_iron_chains",
+      "target": "strategy_chain_plan",
+      "type": "構成工具",
+      "description": "鐵環連鎖是連環計的核心連船方式。",
+      "evidence": [
+        "首尾用鐵環連鎖"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "object_planks",
+      "target": "strategy_chain_plan",
+      "type": "構成工具",
+      "description": "闊板鋪於連船之上，使人馬可通行。",
+      "evidence": [
+        "上鋪闊板",
+        "馬可走矣"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "object_caocao_notice",
+      "type": "交付",
+      "description": "曹操命人寫榜並交付龐統。",
+      "evidence": [
+        "命寫榜僉押付統"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "object_caocao_notice",
+      "target": "char_pangtong",
+      "type": "保護憑據",
+      "description": "榜文用於保全龐統江邊家屬。",
+      "evidence": [
+        "若得此榜，可保全矣"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_unnamed_taoist",
+      "target": "char_pangtong",
+      "type": "攔阻",
+      "description": "道袍竹冠之人在江邊扯住龐統。",
+      "evidence": [
+        "一把扯住統"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_unnamed_taoist",
+      "target": "strategy_chain_plan",
+      "type": "點破",
+      "description": "此人明言龐統來獻連環計。",
+      "evidence": [
+        "你又來獻連環計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_unnamed_taoist",
+      "target": "strategy_bitter_flesh",
+      "type": "點破",
+      "description": "此人指出黃蓋用苦肉計。",
+      "evidence": [
+        "黃蓋用苦肉計"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_unnamed_taoist",
+      "target": "object_false_surrender_letter",
+      "type": "點破",
+      "description": "此人指出闞澤下詐降書。",
+      "evidence": [
+        "闞澤下詐降書"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_dongwu",
+      "target": "faction_cao",
+      "type": "敵對",
+      "description": "東吳與曹操勢力在大江對峙，周瑜謀破曹兵。",
+      "evidence": [
+        "破曹當用何策",
+        "破東吳"
+      ],
+      "confidence": 0.97
+    }
+  ],
+  "events": [
+    {
+      "id": "event_kanze_accepts_mission",
+      "name": "闞澤受託獻詐降書",
+      "summary": "黃蓋欲讓闞澤送詐降書，闞澤欣然應諾，當夜扮作漁翁渡江北上。",
+      "participants": [
+        "char_kanze",
+        "char_huanggai"
+      ],
+      "locations": [
+        "location_jiangdong",
+        "location_cao_water_camp"
+      ],
+      "evidence": [
+        "欣然應諾",
+        "扮作漁翁",
+        "望北岸而行"
+      ]
+    },
+    {
+      "id": "event_kanze_debates_caocao",
+      "name": "闞澤曹營辯詐降",
+      "summary": "闞澤被巡江軍士拿住帶見曹操，曹操疑其詐降欲斬，闞澤以辯才反駁，使曹操轉喜。",
+      "participants": [
+        "char_kanze",
+        "char_caocao",
+        "army_river_patrol"
+      ],
+      "locations": [
+        "location_cao_water_camp"
+      ],
+      "evidence": [
+        "巡江軍士拿住",
+        "推出斬之",
+        "操大喜"
+      ]
+    },
+    {
+      "id": "event_kanze_returns_to_huanggai",
+      "name": "闞澤回報黃蓋",
+      "summary": "闞澤辭出曹營，重回江東見黃蓋，細述曹營經過。",
+      "participants": [
+        "char_kanze",
+        "char_huanggai"
+      ],
+      "locations": [
+        "location_jiangdong"
+      ],
+      "evidence": [
+        "重回江東",
+        "來見黃蓋",
+        "細說前事"
+      ]
+    },
+    {
+      "id": "event_ganning_camp_setup",
+      "name": "甘寧寨中偽作反意",
+      "summary": "闞澤至甘寧寨探二蔡消息，與甘寧配合，在蔡中、蔡和面前假作不滿周瑜。",
+      "participants": [
+        "char_kanze",
+        "char_ganning",
+        "char_caizhong",
+        "char_caihe"
+      ],
+      "locations": [
+        "location_ganning_camp"
+      ],
+      "evidence": [
+        "澤以目送甘寧",
+        "寧會意",
+        "皆有反意"
+      ]
+    },
+    {
+      "id": "event_secret_reports_to_caocao",
+      "name": "二蔡與闞澤密報曹操",
+      "summary": "蔡中、蔡和密報甘寧等願為內應；闞澤另修書，告知黃蓋來船以青牙旗為號。",
+      "participants": [
+        "char_caizhong",
+        "char_caihe",
+        "char_kanze",
+        "char_caocao",
+        "char_ganning",
+        "char_huanggai"
+      ],
+      "locations": [
+        "location_ganning_camp",
+        "location_cao_water_camp"
+      ],
+      "evidence": [
+        "二蔡即時寫書",
+        "另自修書",
+        "船頭插青牙旗"
+      ]
+    },
+    {
+      "id": "event_caocao_seeks_spy",
+      "name": "曹操聚謀士求探實信",
+      "summary": "曹操連得二書仍疑惑，召眾謀士商議誰可入周瑜寨中探聽。",
+      "participants": [
+        "char_caocao",
+        "char_jianggan"
+      ],
+      "locations": [
+        "location_cao_water_camp"
+      ],
+      "evidence": [
+        "連得二書",
+        "疑惑不定",
+        "誰敢直入周瑜寨中"
+      ]
+    },
+    {
+      "id": "event_jianggan_second_visit",
+      "name": "蔣幹二訪江南水寨",
+      "summary": "蔣幹自請再往東吳，駕小舟到江南水寨；周瑜得知後安排利用他。",
+      "participants": [
+        "char_jianggan",
+        "char_zhouyu",
+        "char_lusu"
+      ],
+      "locations": [
+        "location_jiangnan_water_camp"
+      ],
+      "evidence": [
+        "前日空往東吳",
+        "徑到江南水寨",
+        "吾之成功"
+      ]
+    },
+    {
+      "id": "event_zhouyu_invites_pangtong",
+      "name": "周瑜請龐統用計",
+      "summary": "周瑜囑魯肅請龐統，龐統提出破曹須火攻並須先用連環計。",
+      "participants": [
+        "char_zhouyu",
+        "char_lusu",
+        "char_pangtong"
+      ],
+      "locations": [
+        "location_jiangdong"
+      ],
+      "evidence": [
+        "請龐士元來",
+        "破曹當用何策",
+        "須用火攻"
+      ]
+    },
+    {
+      "id": "event_jianggan_meets_pangtong",
+      "name": "蔣幹小庵遇龐統",
+      "summary": "蔣幹被安置於西山小庵，夜間尋讀書聲至草屋，見龐統誦兵書並邀其歸曹。",
+      "participants": [
+        "char_jianggan",
+        "char_pangtong"
+      ],
+      "locations": [
+        "location_west_mountain_hermitage",
+        "location_grass_hut"
+      ],
+      "evidence": [
+        "西山背後小庵",
+        "誦孫、吳兵書",
+        "如肯歸曹"
+      ]
+    },
+    {
+      "id": "event_pangtong_enters_cao_camp",
+      "name": "蔣幹引龐統入曹營",
+      "summary": "蔣幹帶龐統至曹操寨，曹操親迎並請教兵機。",
+      "participants": [
+        "char_jianggan",
+        "char_pangtong",
+        "char_caocao"
+      ],
+      "locations": [
+        "location_cao_water_camp"
+      ],
+      "evidence": [
+        "既至操寨",
+        "親自出帳迎入",
+        "乞不吝教誨"
+      ]
+    },
+    {
+      "id": "event_pangtong_inspects_cao_navy",
+      "name": "龐統觀曹操水寨",
+      "summary": "龐統與曹操登高觀陸寨，又同觀水寨，稱讚其布置以取信曹操。",
+      "participants": [
+        "char_pangtong",
+        "char_caocao",
+        "army_cao_water_force"
+      ],
+      "locations": [
+        "location_cao_water_camp"
+      ],
+      "evidence": [
+        "並馬登高而望",
+        "同觀水寨",
+        "名不虛傳"
+      ]
+    },
+    {
+      "id": "event_chain_plan_given",
+      "name": "龐統巧授連環計",
+      "summary": "龐統以北兵不慣舟船、多生疾病為由，勸曹操將大小船首尾用鐵環連鎖並鋪闊板。",
+      "participants": [
+        "char_pangtong",
+        "char_caocao",
+        "army_cao_water_force"
+      ],
+      "locations": [
+        "location_cao_water_camp"
+      ],
+      "evidence": [
+        "水軍多疾",
+        "首尾用鐵環連鎖",
+        "上鋪闊板"
+      ]
+    },
+    {
+      "id": "event_caocao_gives_notice",
+      "name": "曹操付榜保龐統家屬",
+      "summary": "龐統稱家屬在江邊，曹操命寫榜僉押交給龐統，以便保全其家屬。",
+      "participants": [
+        "char_caocao",
+        "char_pangtong"
+      ],
+      "locations": [
+        "location_cao_water_camp",
+        "location_jiangbian"
+      ],
+      "evidence": [
+        "家屬現居何處",
+        "命寫榜僉押付統"
+      ]
+    },
+    {
+      "id": "event_taoist_stops_pangtong",
+      "name": "道袍竹冠之人攔龐統",
+      "summary": "龐統至江邊欲下船時，被一名道袍竹冠之人扯住，對方點破苦肉計、詐降書與連環計。",
+      "participants": [
+        "char_pangtong",
+        "char_unnamed_taoist",
+        "char_huanggai",
+        "char_kanze"
+      ],
+      "locations": [
+        "location_jiangbian"
+      ],
+      "evidence": [
+        "正欲下船",
+        "一把扯住統",
+        "只好瞞得住曹"
+      ]
+    }
+  ],
+  "notes": [
+    "原文中闞澤姓名有隚澤、閔澤、閏澤等異文，已收入 aliases。",
+    "原文中蔣幹亦作蔣乾，已收入 aliases。",
+    "章末道袍竹冠之人未在本章明示姓名，故不推斷其身份。"
+  ]
+}

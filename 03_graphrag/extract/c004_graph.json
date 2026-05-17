@@ -1,0 +1,1848 @@
+{
+  "book": "三國演義",
+  "chapter_no": 4,
+  "chapter_title": "廢漢帝陳留踐位　謀董賊孟德獻刀",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [
+        "董賊",
+        "董相國",
+        "丞相",
+        "恩相"
+      ],
+      "description": "掌權廢立皇帝，殘暴弄權，後被曹操圖謀刺殺。",
+      "evidence": [
+        "董卓欲殺袁紹",
+        "卓請陳留王登殿",
+        "董卓為相國",
+        "董卓欺主弄權"
+      ]
+    },
+    {
+      "id": "char_li_ru",
+      "name": "李儒",
+      "type": "character",
+      "aliases": [
+        "儒"
+      ],
+      "description": "董卓謀士，勸止妄殺袁紹，宣讀廢立策文，奉命入宮弒帝。",
+      "evidence": [
+        "李儒止之曰",
+        "乃命李儒讀策",
+        "命李儒帶武士十人"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [],
+      "description": "因反對董卓而離京奔冀州，後在渤海集兵，密書王允圖董卓。",
+      "evidence": [
+        "袁紹手提寶劍",
+        "奔冀州去了",
+        "袁紹在渤海"
+      ]
+    },
+    {
+      "id": "char_yuan_wei",
+      "name": "袁隗",
+      "type": "character",
+      "aliases": [
+        "太傅袁隗"
+      ],
+      "description": "袁紹之叔，面對董卓詢問廢立時附和其議。",
+      "evidence": [
+        "太傅袁隗",
+        "太尉所見是也"
+      ]
+    },
+    {
+      "id": "char_zhou_bi",
+      "name": "周毖",
+      "type": "character",
+      "aliases": [
+        "週毖",
+        "侍中周毖"
+      ],
+      "description": "侍中，向董卓分析袁紹去後若逼迫過急必生變。",
+      "evidence": [
+        "侍中周毖",
+        "若購之急，勢必為變"
+      ]
+    },
+    {
+      "id": "char_wu_qiong",
+      "name": "伍瓊",
+      "type": "character",
+      "aliases": [
+        "校尉伍瓊"
+      ],
+      "description": "校尉，與周毖同被董卓詢問袁紹去向。",
+      "evidence": [
+        "校尉伍瓊",
+        "袁紹此去若何"
+      ]
+    },
+    {
+      "id": "char_lesser_emperor",
+      "name": "少帝",
+      "type": "character",
+      "aliases": [
+        "弘農王",
+        "帝"
+      ],
+      "description": "被董卓廢為弘農王，囚於永安宮，後被李儒逼死。",
+      "evidence": [
+        "少帝四月登基，至九月即被廢",
+        "扶何太后並弘農王",
+        "命李儒帶武士十人，入宮弒帝"
+      ]
+    },
+    {
+      "id": "char_chenliu_wang_xie",
+      "name": "陳留王協",
+      "type": "character",
+      "aliases": [
+        "陳留王",
+        "協",
+        "伯和",
+        "獻帝"
+      ],
+      "description": "靈帝中子，被董卓擁立為皇帝，即漢獻帝。",
+      "evidence": [
+        "奉陳留王為皇帝",
+        "陳留王協，表字伯和，即獻帝也"
+      ]
+    },
+    {
+      "id": "char_he_taihou",
+      "name": "何太后",
+      "type": "character",
+      "aliases": [
+        "太后"
+      ],
+      "description": "與少帝、唐妃同被董卓幽禁於永安宮，李儒弒帝時在場。",
+      "evidence": [
+        "何太后並弘農王及帝妃唐氏永安宮閒住",
+        "帝與後、妃正在樓上"
+      ]
+    },
+    {
+      "id": "char_tang_fei",
+      "name": "唐妃",
+      "type": "character",
+      "aliases": [
+        "唐氏",
+        "帝妃唐氏"
+      ],
+      "description": "少帝妃，與少帝及何太后一同困於永安宮。",
+      "evidence": [
+        "帝妃唐氏永安宮閒住",
+        "少帝與何太后、唐妃困於永安宮中"
+      ]
+    },
+    {
+      "id": "char_ding_guan",
+      "name": "丁管",
+      "type": "character",
+      "aliases": [
+        "尚書丁管",
+        "丁公"
+      ],
+      "description": "尚書，當眾斥董卓欺天，擊董卓而被處斬。",
+      "evidence": [
+        "尚書丁管也",
+        "直擊董卓",
+        "卓命牽出斬之"
+      ]
+    },
+    {
+      "id": "char_cai_yong",
+      "name": "蔡邕",
+      "type": "character",
+      "aliases": [
+        "邕"
+      ],
+      "description": "名流才士，經李儒推薦被董卓徵用，後拜侍中。",
+      "evidence": [
+        "薦蔡邕之才",
+        "拜為侍中"
+      ]
+    },
+    {
+      "id": "char_wu_fu",
+      "name": "伍孚",
+      "type": "character",
+      "aliases": [
+        "德瑜",
+        "越騎校尉伍孚"
+      ],
+      "description": "越騎校尉，因憤恨董卓殘暴而刺殺董卓未成，被剖剮。",
+      "evidence": [
+        "越騎校尉伍孚，字德瑜",
+        "藏短刀，欲伺便殺卓",
+        "牽出剖剮"
+      ]
+    },
+    {
+      "id": "char_lu_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "奉先",
+        "布"
+      ],
+      "description": "侍從董卓，制伏伍孚，亦奉命為曹操挑選西涼馬。",
+      "evidence": [
+        "呂布便入，揪倒伍孚",
+        "呂布侍立於側",
+        "奉先可親去揀一騎"
+      ]
+    },
+    {
+      "id": "char_wang_yun",
+      "name": "王允",
+      "type": "character",
+      "aliases": [
+        "司徒",
+        "允"
+      ],
+      "description": "司徒，受袁紹密書，設宴與公卿商議誅董，借七寶刀給曹操。",
+      "evidence": [
+        "密書來見王允",
+        "王允設宴後堂",
+        "取寶刀與之"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "孟德",
+        "操",
+        "驍騎校尉曹操"
+      ],
+      "description": "驍騎校尉，願刺殺董卓，獻刀脫身後逃出京城，途中與陳宮同行。",
+      "evidence": [
+        "驍騎校尉曹操",
+        "願即斷董卓頭",
+        "操有寶刀一口，獻上恩相",
+        "乘馬飛出東門"
+      ]
+    },
+    {
+      "id": "char_chen_gong",
+      "name": "陳宮",
+      "type": "character",
+      "aliases": [
+        "公檯",
+        "陳縣令"
+      ],
+      "description": "中牟縣令，識破曹操後感其忠義，棄官隨曹操逃亡，後因呂伯奢事欲殺曹操。",
+      "evidence": [
+        "吾姓陳，名宮，字公檯",
+        "願棄一官，從公而逃",
+        "便欲拔劍來殺曹操"
+      ]
+    },
+    {
+      "id": "char_lu_boshe",
+      "name": "呂伯奢",
+      "type": "character",
+      "aliases": [
+        "伯奢"
+      ],
+      "description": "曹操父親的結義弟兄，在成皋接待曹操與陳宮，後被曹操殺害。",
+      "evidence": [
+        "名伯奢，是吾父結義弟兄",
+        "老夫家無好酒",
+        "操揮劍砍伯奢於驢下"
+      ]
+    },
+    {
+      "id": "faction_han_court",
+      "name": "漢朝",
+      "type": "faction",
+      "aliases": [
+        "漢家",
+        "王室",
+        "社稷"
+      ],
+      "description": "本章中被董卓挾持與侵奪的朝廷秩序。",
+      "evidence": [
+        "漢家宗社",
+        "欲掃清王室",
+        "社稷旦難保"
+      ]
+    },
+    {
+      "id": "faction_yuan_clan",
+      "name": "袁氏",
+      "type": "faction",
+      "aliases": [],
+      "description": "袁紹所屬門族，四世樹恩，門生遍布天下。",
+      "evidence": [
+        "袁氏樹恩四世，門生耘於天下"
+      ]
+    },
+    {
+      "id": "faction_court_officials",
+      "name": "百官",
+      "type": "faction",
+      "aliases": [
+        "群臣",
+        "公卿",
+        "眾官"
+      ],
+      "description": "朝廷群臣，多畏懼董卓，後部分受王允邀宴商議。",
+      "evidence": [
+        "辭別百官而出",
+        "群臣恐",
+        "公卿皆至"
+      ]
+    },
+    {
+      "id": "faction_dong_army",
+      "name": "董卓軍",
+      "type": "army",
+      "aliases": [
+        "軍士",
+        "甲士",
+        "武士",
+        "獄卒"
+      ],
+      "description": "董卓所掌武力，用於威嚇朝廷、弒帝、屠掠陽城與捉拿曹操。",
+      "evidence": [
+        "以軍法從事",
+        "命李儒帶武士十人",
+        "卓命軍士圍住",
+        "常帶甲士護衛"
+      ]
+    },
+    {
+      "id": "army_yuan_shao_forces",
+      "name": "袁紹兵馬",
+      "type": "army",
+      "aliases": [
+        "兵",
+        "卒"
+      ],
+      "description": "袁紹在渤海所集結訓練，欲掃清王室的軍力。",
+      "evidence": [
+        "紹今集兵練使卒"
+      ]
+    },
+    {
+      "id": "loc_jizhou",
+      "name": "冀州",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹離京後投奔之地。",
+      "evidence": [
+        "奔冀州去了"
+      ]
+    },
+    {
+      "id": "loc_jiade_palace",
+      "name": "嘉德殿",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓大會文武、宣讀廢立策文之處。",
+      "evidence": [
+        "請帝升嘉德殿，大會文武"
+      ]
+    },
+    {
+      "id": "loc_yongan_palace",
+      "name": "永安宮",
+      "type": "location",
+      "aliases": [],
+      "description": "何太后、弘農王與唐氏被幽禁之所，也是李儒弒帝處。",
+      "evidence": [
+        "永安宮閒住",
+        "困於永安宮中",
+        "入宮弒帝"
+      ]
+    },
+    {
+      "id": "loc_luoyang",
+      "name": "洛陽",
+      "type": "location",
+      "aliases": [
+        "舊宮殿所在"
+      ],
+      "description": "少帝詩中提及舊宮殿所在；陳宮亦曾在洛陽求官。",
+      "evidence": [
+        "洛水一條青",
+        "舊宮殿",
+        "吾前在洛陽求官時"
+      ]
+    },
+    {
+      "id": "loc_yangcheng",
+      "name": "陽城",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓引軍出城屠掠村民之地。",
+      "evidence": [
+        "行到陽城地方"
+      ]
+    },
+    {
+      "id": "loc_bohai",
+      "name": "渤海",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹得知董卓弄權時所在與集兵之地。",
+      "evidence": [
+        "袁紹在渤海"
+      ]
+    },
+    {
+      "id": "loc_dong_gate",
+      "name": "東門",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹懸節離京處；曹操亦由東門逃出。",
+      "evidence": [
+        "懸節東門",
+        "飛出東門"
+      ]
+    },
+    {
+      "id": "loc_prime_minister_residence",
+      "name": "相府",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操佩七寶刀入見董卓、獻刀脫身之處。",
+      "evidence": [
+        "來至相府",
+        "操牽馬出相府"
+      ]
+    },
+    {
+      "id": "loc_zhongmou_county",
+      "name": "中牟縣",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操逃亡途中被守關軍士擒獲，見縣令陳宮之處。",
+      "evidence": [
+        "路經中牟縣",
+        "擒見縣令"
+      ]
+    },
+    {
+      "id": "loc_chenggao",
+      "name": "成皋",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操與陳宮逃亡三日至此，往投呂伯奢家。",
+      "evidence": [
+        "至成皋地方"
+      ]
+    },
+    {
+      "id": "loc_dongjun",
+      "name": "東郡",
+      "type": "location",
+      "aliases": [],
+      "description": "陳宮老母妻子所在之地。",
+      "evidence": [
+        "老母妻子，皆在東郡"
+      ]
+    },
+    {
+      "id": "loc_chenliu",
+      "name": "陳留",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操父親避難之地。",
+      "evidence": [
+        "汝父已避陳留去了"
+      ]
+    },
+    {
+      "id": "title_taifu",
+      "name": "太傅",
+      "type": "title",
+      "aliases": [],
+      "description": "袁隗所任官職。",
+      "evidence": [
+        "太傅袁隗"
+      ]
+    },
+    {
+      "id": "title_shizhong",
+      "name": "侍中",
+      "type": "title",
+      "aliases": [],
+      "description": "周毖與蔡邕相關官職；蔡邕被董卓拜為侍中。",
+      "evidence": [
+        "侍中周毖",
+        "拜為侍中"
+      ]
+    },
+    {
+      "id": "title_xiaowei",
+      "name": "校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "伍瓊所任官職。",
+      "evidence": [
+        "校尉伍瓊"
+      ]
+    },
+    {
+      "id": "title_shangshu",
+      "name": "尚書",
+      "type": "title",
+      "aliases": [],
+      "description": "丁管所任官職。",
+      "evidence": [
+        "尚書丁管"
+      ]
+    },
+    {
+      "id": "title_xiangguo",
+      "name": "相國",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓廢立後所得高位，享有特殊朝儀待遇。",
+      "evidence": [
+        "董卓為相國",
+        "贊拜不名"
+      ]
+    },
+    {
+      "id": "title_yueqi_xiaowei",
+      "name": "越騎校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "伍孚所任官職。",
+      "evidence": [
+        "越騎校尉伍孚"
+      ]
+    },
+    {
+      "id": "title_situ",
+      "name": "司徒",
+      "type": "title",
+      "aliases": [],
+      "description": "王允所任官職。",
+      "evidence": [
+        "司徒貴誕"
+      ]
+    },
+    {
+      "id": "title_xiaoqi_xiaowei",
+      "name": "驍騎校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操所任官職。",
+      "evidence": [
+        "驍騎校尉曹操"
+      ]
+    },
+    {
+      "id": "title_wanhu_hou",
+      "name": "萬戶侯",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓懸賞擒獻曹操者可封之爵。",
+      "evidence": [
+        "擒獻者，賞千金，封萬戶侯"
+      ]
+    },
+    {
+      "id": "object_baodao",
+      "name": "七寶刀",
+      "type": "object",
+      "aliases": [
+        "寶刀"
+      ],
+      "description": "王允借給曹操刺董卓的寶刀，曹操失敗後改稱獻刀。",
+      "evidence": [
+        "司徒有七寶刀一口",
+        "願借與操入相府刺殺之",
+        "操有寶刀一口，獻上恩相"
+      ]
+    },
+    {
+      "id": "object_short_blade",
+      "name": "短刀",
+      "type": "object",
+      "aliases": [],
+      "description": "伍孚藏於朝服內、意圖刺殺董卓的武器；李儒弒帝時也以短刀威逼。",
+      "evidence": [
+        "藏短刀，欲伺便殺卓",
+        "持短刀白練於前"
+      ]
+    },
+    {
+      "id": "object_white_silk",
+      "name": "白練",
+      "type": "object",
+      "aliases": [],
+      "description": "李儒弒帝時用以逼迫少帝的物件。",
+      "evidence": [
+        "持短刀白練於前"
+      ]
+    },
+    {
+      "id": "object_poison_wine",
+      "name": "鴯酒",
+      "type": "object",
+      "aliases": [
+        "壽酒"
+      ],
+      "description": "李儒奉給少帝、實為弒帝所用的酒。",
+      "evidence": [
+        "儒以鴯酒奉帝",
+        "董相國特上壽酒"
+      ]
+    },
+    {
+      "id": "object_xiliang_horse",
+      "name": "西涼好馬",
+      "type": "object",
+      "aliases": [
+        "西涼進來好馬"
+      ],
+      "description": "董卓命呂布選來賜曹操，曹操藉試馬逃離相府。",
+      "evidence": [
+        "吾有西涼進來好馬",
+        "揀一騎賜與孟德",
+        "加鞭望東南而去"
+      ]
+    },
+    {
+      "id": "strategy_dethronement",
+      "name": "廢立之謀",
+      "type": "strategy",
+      "aliases": [
+        "廢漢帝",
+        "廢立"
+      ],
+      "description": "董卓以策文廢少帝、立陳留王的政治行動。",
+      "evidence": [
+        "廢立之事若何",
+        "奉陳留王為皇帝"
+      ]
+    },
+    {
+      "id": "strategy_assassinate_dong",
+      "name": "刺殺董卓",
+      "type": "strategy",
+      "aliases": [
+        "圖董卓",
+        "殺董卓"
+      ],
+      "description": "多人試圖誅殺董卓，包括丁管、伍孚、曹操。",
+      "evidence": [
+        "直擊董卓",
+        "欲伺便殺卓",
+        "入相府刺殺之"
+      ]
+    },
+    {
+      "id": "strategy_offer_knife",
+      "name": "獻刀脫身",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操行刺被董卓察覺時，臨機改稱獻寶刀以脫身。",
+      "evidence": [
+        "孟德何為",
+        "操有寶刀一口，獻上恩相"
+      ]
+    },
+    {
+      "id": "strategy_wanted_order",
+      "name": "畫影圖形捉拿曹操",
+      "type": "strategy",
+      "aliases": [
+        "遍行文書"
+      ],
+      "description": "董卓發布文書，以畫像懸賞緝捕曹操。",
+      "evidence": [
+        "遍行文書，畫影圖形，捉拿曹操"
+      ]
+    },
+    {
+      "id": "event_yuan_shao_leaves",
+      "name": "袁紹奔冀州",
+      "type": "event",
+      "aliases": [],
+      "description": "袁紹辭別百官，懸節東門後離京奔冀州。",
+      "evidence": [
+        "辭別百官而出",
+        "懸節東門，奔冀州去了"
+      ]
+    },
+    {
+      "id": "event_depose_emperor",
+      "name": "董卓廢帝立陳留王",
+      "type": "event",
+      "aliases": [
+        "陳留踐位"
+      ],
+      "description": "董卓在嘉德殿宣讀策文，廢少帝而立陳留王協為帝。",
+      "evidence": [
+        "天子暗弱",
+        "請奉陳留王為皇帝",
+        "陳留王協，即獻帝也"
+      ]
+    },
+    {
+      "id": "event_ding_guan_death",
+      "name": "丁管擊董卓被斬",
+      "type": "event",
+      "aliases": [],
+      "description": "丁管高罵董卓欺天，以像簡擊之，隨即被處斬。",
+      "evidence": [
+        "敢為欺天之謀",
+        "直擊董卓",
+        "牽出斬之"
+      ]
+    },
+    {
+      "id": "event_cai_yong_recruited",
+      "name": "蔡邕應徵拜侍中",
+      "type": "event",
+      "aliases": [],
+      "description": "李儒薦蔡邕，董卓威逼徵召，蔡邕至後被拜為侍中。",
+      "evidence": [
+        "薦蔡邕之才",
+        "如不來，當滅汝族",
+        "拜為侍中"
+      ]
+    },
+    {
+      "id": "event_murder_lesser_emperor",
+      "name": "李儒弒少帝",
+      "type": "event",
+      "aliases": [
+        "永安宮弒帝"
+      ],
+      "description": "董卓因少帝詩有怨望，命李儒入永安宮弒帝。",
+      "evidence": [
+        "怨望作詩，殺之有名矣",
+        "入宮弒帝"
+      ]
+    },
+    {
+      "id": "event_yangcheng_massacre",
+      "name": "陽城屠掠",
+      "type": "event",
+      "aliases": [],
+      "description": "董卓軍於陽城圍殺社賽村民，掠婦女財物，偽稱殺賊大勝。",
+      "evidence": [
+        "陽城地方",
+        "盡皆殺之，掠婦女財物",
+        "揚言殺賊大勝而回"
+      ]
+    },
+    {
+      "id": "event_wu_fu_assassination",
+      "name": "伍孚刺董卓",
+      "type": "event",
+      "aliases": [],
+      "description": "伍孚藏短刀於朝服內刺董卓，被呂布制伏後遭剖剮。",
+      "evidence": [
+        "藏短刀",
+        "拔刀直刺卓",
+        "呂布便入，揪倒伍孚"
+      ]
+    },
+    {
+      "id": "event_wang_yun_banquet",
+      "name": "王允後堂設宴議董卓",
+      "type": "event",
+      "aliases": [],
+      "description": "王允假稱壽宴召公卿，席間哭訴董卓弄權，曹操提出刺董。",
+      "evidence": [
+        "王允設宴後堂",
+        "董卓欺主弄權",
+        "願即斷董卓頭"
+      ]
+    },
+    {
+      "id": "event_cao_cao_attempt",
+      "name": "曹操獻刀刺董卓",
+      "type": "event",
+      "aliases": [
+        "謀董賊孟德獻刀"
+      ],
+      "description": "曹操持王允七寶刀入相府刺董卓，因被鏡中看破而改稱獻刀。",
+      "evidence": [
+        "佩著寶刀，來至相府",
+        "照見曹操在背後拔刀",
+        "獻上恩相"
+      ]
+    },
+    {
+      "id": "event_cao_cao_escape",
+      "name": "曹操逃出洛陽",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操借試西涼馬離開相府，乘馬飛出東門逃亡。",
+      "evidence": [
+        "願借試一試",
+        "乘馬飛出東門"
+      ]
+    },
+    {
+      "id": "event_cao_cao_wanted",
+      "name": "董卓懸賞捉拿曹操",
+      "type": "event",
+      "aliases": [],
+      "description": "李儒判斷曹操行刺無疑，董卓下令畫影圖形緝捕曹操。",
+      "evidence": [
+        "行刺無疑矣",
+        "畫影圖形，捉拿曹操"
+      ]
+    },
+    {
+      "id": "event_chen_gong_releases_cao",
+      "name": "陳宮釋曹操棄官同行",
+      "type": "event",
+      "aliases": [],
+      "description": "陳宮在中牟縣識破曹操，因感其忠義而放走並同行。",
+      "evidence": [
+        "曾認得汝是賜操",
+        "願棄一官，從公而逃"
+      ]
+    },
+    {
+      "id": "event_lu_boshe_killing",
+      "name": "曹操殺呂伯奢一家",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操誤疑呂伯奢家人欲害己，殺其家人；又為免後患殺呂伯奢。",
+      "evidence": [
+        "縛而殺之，何如",
+        "誤殺好人矣",
+        "操揮劍砍伯奢於驢下"
+      ]
+    },
+    {
+      "id": "event_chen_gong_considers_killing_cao",
+      "name": "陳宮欲殺曹操",
+      "type": "event",
+      "aliases": [],
+      "description": "陳宮因呂伯奢事認為曹操狠毒，夜中欲拔劍殺之。",
+      "evidence": [
+        "原來是個狼心之徒",
+        "便欲拔劍來殺曹操"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_li_ru",
+      "target": "char_dong_zhuo",
+      "type": "謀士／輔佐",
+      "description": "李儒多次為董卓出謀，如勸止殺袁紹、讀策廢立、判斷曹操行刺。",
+      "evidence": [
+        "李儒止之曰",
+        "乃命李儒讀策",
+        "卓以其事告之"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_dong_zhuo",
+      "type": "敵對",
+      "description": "袁紹離京後在渤海集兵，密書王允共圖董卓。",
+      "evidence": [
+        "袁紹忿忿而去",
+        "欲掃清王室",
+        "當乘間圖"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "loc_jizhou",
+      "type": "行往",
+      "description": "袁紹離京後奔赴冀州。",
+      "evidence": [
+        "奔冀州去了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "loc_bohai",
+      "type": "所在",
+      "description": "袁紹聞知董卓弄權時在渤海。",
+      "evidence": [
+        "時袁紹在渤海"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "faction_yuan_clan",
+      "type": "隸屬家族",
+      "description": "袁紹屬袁氏門族。",
+      "evidence": [
+        "袁氏樹恩四世"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_yuan_wei",
+      "target": "char_yuan_shao",
+      "type": "親屬",
+      "description": "董卓稱袁紹為袁隗之侄。",
+      "evidence": [
+        "汝侄無禮"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "strategy_dethronement",
+      "type": "主導",
+      "description": "董卓主導廢少帝、立陳留王之事。",
+      "evidence": [
+        "廢立之事若何",
+        "卓請陳留王登殿"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_lesser_emperor",
+      "type": "廢黜／幽禁",
+      "description": "董卓廢少帝為弘農王，並將其幽禁於永安宮。",
+      "evidence": [
+        "少帝四月登基，至九月即被廢",
+        "弘農王...永安宮閒住"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_chenliu_wang_xie",
+      "type": "擁立",
+      "description": "董卓立陳留王協為皇帝。",
+      "evidence": [
+        "請陳留王登殿",
+        "奉陳留王為皇帝"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chenliu_wang_xie",
+      "target": "title_xiangguo",
+      "type": "反向任命關聯",
+      "description": "陳留王即位後，董卓為相國；正文敘事將此置於踐位後。",
+      "evidence": [
+        "董卓為相國"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "title_xiangguo",
+      "type": "擔任",
+      "description": "董卓廢立後為相國。",
+      "evidence": [
+        "董卓為相國"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_he_taihou",
+      "target": "loc_yongan_palace",
+      "type": "被幽禁於",
+      "description": "何太后被董卓安置於永安宮。",
+      "evidence": [
+        "何太后...永安宮閒住"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lesser_emperor",
+      "target": "loc_yongan_palace",
+      "type": "被幽禁於",
+      "description": "少帝被廢後困於永安宮。",
+      "evidence": [
+        "少帝...困於永安宮中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_tang_fei",
+      "target": "loc_yongan_palace",
+      "type": "被幽禁於",
+      "description": "唐妃與少帝、何太后同困永安宮。",
+      "evidence": [
+        "唐妃困於永安宮中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ding_guan",
+      "target": "char_dong_zhuo",
+      "type": "攻擊／斥罵",
+      "description": "丁管斥董卓為賊臣並持像簡擊之。",
+      "evidence": [
+        "賊臣董卓",
+        "直擊董卓"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_ding_guan",
+      "type": "處死",
+      "description": "董卓命人將丁管牽出斬首。",
+      "evidence": [
+        "卓命牽出斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_ru",
+      "target": "char_cai_yong",
+      "type": "推薦",
+      "description": "李儒向董卓推薦蔡邕。",
+      "evidence": [
+        "因薦蔡邕之才"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_cai_yong",
+      "type": "徵召／任命",
+      "description": "董卓威逼蔡邕應召，並拜其為侍中。",
+      "evidence": [
+        "卓命徵之",
+        "拜為侍中"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cai_yong",
+      "target": "title_shizhong",
+      "type": "擔任",
+      "description": "蔡邕被董卓拜為侍中。",
+      "evidence": [
+        "拜為侍中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_ru",
+      "target": "char_lesser_emperor",
+      "type": "弒殺",
+      "description": "李儒奉董卓命入永安宮弒少帝。",
+      "evidence": [
+        "命李儒...入宮弒帝"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "event_murder_lesser_emperor",
+      "type": "下令",
+      "description": "董卓因少帝作怨詩而命李儒弒帝。",
+      "evidence": [
+        "卓曰：怨望作詩",
+        "遂命李儒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_ru",
+      "target": "object_poison_wine",
+      "type": "使用",
+      "description": "李儒以酒奉少帝，作為逼死少帝的手段。",
+      "evidence": [
+        "儒以鴯酒奉帝"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_li_ru",
+      "target": "object_short_blade",
+      "type": "威逼使用",
+      "description": "李儒令左右持短刀威逼少帝。",
+      "evidence": [
+        "持短刀白練於前"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_ru",
+      "target": "object_white_silk",
+      "type": "威逼使用",
+      "description": "李儒令左右持白練威逼少帝。",
+      "evidence": [
+        "持短刀白練於前"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "event_yangcheng_massacre",
+      "type": "指揮",
+      "description": "董卓引軍至陽城，命軍士圍殺村民並掠奪。",
+      "evidence": [
+        "卓命軍士圍住",
+        "盡皆殺之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "faction_dong_army",
+      "target": "event_yangcheng_massacre",
+      "type": "執行",
+      "description": "董卓軍士實施陽城圍殺與掠奪。",
+      "evidence": [
+        "軍士圍住",
+        "掠婦女財物"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "event_yangcheng_massacre",
+      "target": "loc_yangcheng",
+      "type": "發生於",
+      "description": "陽城屠掠發生在陽城地方。",
+      "evidence": [
+        "行到陽城地方"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wu_fu",
+      "target": "title_yueqi_xiaowei",
+      "type": "擔任",
+      "description": "伍孚任越騎校尉。",
+      "evidence": [
+        "越騎校尉伍孚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wu_fu",
+      "target": "char_dong_zhuo",
+      "type": "行刺",
+      "description": "伍孚藏短刀，於朝中刺董卓未成。",
+      "evidence": [
+        "欲伺便殺卓",
+        "拔刀直刺卓"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wu_fu",
+      "target": "object_short_blade",
+      "type": "持有",
+      "description": "伍孚於朝服內藏短刀。",
+      "evidence": [
+        "藏短刀"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "char_wu_fu",
+      "type": "制伏",
+      "description": "伍孚刺董卓時，呂布入內將其揪倒。",
+      "evidence": [
+        "呂布便入，揪倒伍孚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_wu_fu",
+      "type": "處死",
+      "description": "董卓怒而命人將伍孚剖剮。",
+      "evidence": [
+        "牽出剖剮"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "char_dong_zhuo",
+      "type": "侍從／護衛",
+      "description": "呂布侍立董卓側，並在伍孚刺殺時救護董卓。",
+      "evidence": [
+        "呂布侍立於側",
+        "呂布便入"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_wang_yun",
+      "type": "密書聯絡",
+      "description": "袁紹遣人帶密書給王允，催其圖董卓。",
+      "evidence": [
+        "密書來見王允",
+        "公若有心，當乘間圖"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_yuan_shao_forces",
+      "type": "統領／集結",
+      "description": "袁紹在渤海集兵練卒。",
+      "evidence": [
+        "紹今集兵練使卒"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_yuan_shao_forces",
+      "target": "char_dong_zhuo",
+      "type": "預備敵對",
+      "description": "袁紹集兵欲掃清王室，目標為討董卓。",
+      "evidence": [
+        "欲掃清王室"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "event_wang_yun_banquet",
+      "type": "主辦",
+      "description": "王允假稱生辰設宴，召集公卿議論董卓。",
+      "evidence": [
+        "今日老夫賤降",
+        "王允設宴後堂"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_wang_yun_banquet",
+      "target": "faction_court_officials",
+      "type": "參與",
+      "description": "公卿眾官到王允後堂赴宴。",
+      "evidence": [
+        "公卿皆至",
+        "眾官皆曰"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "event_wang_yun_banquet",
+      "type": "參與",
+      "description": "曹操在宴中大笑並提出殺董卓。",
+      "evidence": [
+        "坐中一人撫掌大笑",
+        "乃驍騎校尉曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_xiaoqi_xiaowei",
+      "type": "擔任",
+      "description": "曹操任驍騎校尉。",
+      "evidence": [
+        "驍騎校尉曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_dong_zhuo",
+      "type": "偽事／圖謀行刺",
+      "description": "曹操表面屈身事董卓，實欲乘機刺殺。",
+      "evidence": [
+        "屈身以事卓者，實欲乘間圖之",
+        "入相府刺殺之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "object_baodao",
+      "type": "持有",
+      "description": "王允有七寶刀一口。",
+      "evidence": [
+        "司徒有七寶刀一口"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "char_cao_cao",
+      "type": "借與",
+      "description": "王允將七寶刀借給曹操刺殺董卓。",
+      "evidence": [
+        "願借與操",
+        "允隨取寶刀與之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "object_baodao",
+      "type": "持有／使用",
+      "description": "曹操藏七寶刀入相府刺董卓，失敗後稱獻刀。",
+      "evidence": [
+        "操藏刀",
+        "佩著寶刀",
+        "獻上恩相"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_cao_cao_attempt",
+      "target": "loc_prime_minister_residence",
+      "type": "發生於",
+      "description": "曹操刺董卓與獻刀發生在相府。",
+      "evidence": [
+        "來至相府"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "object_baodao",
+      "type": "接收",
+      "description": "曹操改稱獻刀後，董卓接過七寶刀並交呂布收下。",
+      "evidence": [
+        "卓接視之",
+        "遞與呂布收了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_bu",
+      "target": "object_baodao",
+      "type": "收存",
+      "description": "董卓將曹操所獻寶刀遞給呂布收下。",
+      "evidence": [
+        "遂遞與呂布收了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_lu_bu",
+      "type": "命令",
+      "description": "董卓命呂布親自去選西涼馬給曹操。",
+      "evidence": [
+        "奉先可親去揀一騎"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "object_xiliang_horse",
+      "type": "贈與意圖",
+      "description": "董卓命呂布挑西涼好馬賜曹操。",
+      "evidence": [
+        "揀一騎賜與孟德"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "object_xiliang_horse",
+      "type": "借用逃離",
+      "description": "曹操借試西涼馬，出相府後加鞭逃走。",
+      "evidence": [
+        "願借試一試",
+        "加鞭望東南而去"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_ru",
+      "target": "strategy_wanted_order",
+      "type": "建議促成",
+      "description": "李儒建議召曹操試其虛實，後判定行刺無疑，促成緝捕。",
+      "evidence": [
+        "如推託不來，則必是行刺",
+        "行刺無疑矣"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "strategy_wanted_order",
+      "type": "發布",
+      "description": "董卓下令遍行文書、畫影圖形捉拿曹操。",
+      "evidence": [
+        "卓遂令遍行文書"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_wanted_order",
+      "target": "char_cao_cao",
+      "type": "追捕目標",
+      "description": "緝捕文書的目標是曹操。",
+      "evidence": [
+        "捉拿曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_dong_gate",
+      "type": "逃出",
+      "description": "曹操乘馬由東門逃離。",
+      "evidence": [
+        "乘馬飛出東門"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_zhongmou_county",
+      "type": "途經被捕",
+      "description": "曹操逃亡時路經中牟縣被守關軍士擒獲。",
+      "evidence": [
+        "路經中牟縣，為守關軍士所獲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "loc_zhongmou_county",
+      "type": "任職",
+      "description": "陳宮為中牟縣令。",
+      "evidence": [
+        "擒見縣令",
+        "吾姓陳，名宮"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "char_cao_cao",
+      "type": "釋放／同行",
+      "description": "陳宮暗中取出曹操，願棄官隨其逃亡。",
+      "evidence": [
+        "暗地取出曹操",
+        "願棄一官，從公而逃"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "loc_dongjun",
+      "type": "家屬所在地",
+      "description": "陳宮說老母妻子皆在東郡。",
+      "evidence": [
+        "老母妻子，皆在東郡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_chenggao",
+      "type": "行至",
+      "description": "曹操與陳宮逃亡三日到成皋。",
+      "evidence": [
+        "行了三日，至成皋地方"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_boshe",
+      "target": "char_cao_cao",
+      "type": "父輩結義關係",
+      "description": "呂伯奢是曹操父親的結義弟兄，曹操稱其可問家中消息。",
+      "evidence": [
+        "是吾父結義弟兄"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_boshe",
+      "target": "char_cao_cao",
+      "type": "接待",
+      "description": "呂伯奢接待曹操與陳宮，外出沽酒相待。",
+      "evidence": [
+        "入見伯奢",
+        "往西村沽一樽來相待"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_lu_boshe",
+      "target": "loc_chenggao",
+      "type": "居住附近",
+      "description": "曹操到成皋後前往呂伯奢莊上。",
+      "evidence": [
+        "至成皋地方",
+        "二人至莊前"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_lu_boshe",
+      "type": "殺害",
+      "description": "曹操因恐呂伯奢返家後追究，揮劍將其砍死。",
+      "evidence": [
+        "操揮劍砍伯奢於驢下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chen_gong",
+      "target": "char_cao_cao",
+      "type": "道德譴責／欲殺",
+      "description": "陳宮斥曹操知而故殺為大不義，夜中欲殺曹操。",
+      "evidence": [
+        "知而故殺，大不義也",
+        "便欲拔劍來殺曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lesser_emperor",
+      "target": "char_he_taihou",
+      "type": "母子同困",
+      "description": "少帝與何太后同被困於永安宮，臨死前欲與太后作別。",
+      "evidence": [
+        "少帝與何太后...困於永安宮中",
+        "容我與太后作別"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_lesser_emperor",
+      "target": "char_tang_fei",
+      "type": "夫妻／同困",
+      "description": "唐妃為帝妃，與少帝同困永安宮。",
+      "evidence": [
+        "帝妃唐氏",
+        "帝與後、妃正在樓上"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_bi",
+      "target": "title_shizhong",
+      "type": "擔任",
+      "description": "周毖任侍中。",
+      "evidence": [
+        "侍中周毖"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wu_qiong",
+      "target": "title_xiaowei",
+      "type": "擔任",
+      "description": "伍瓊任校尉。",
+      "evidence": [
+        "校尉伍瓊"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuan_wei",
+      "target": "title_taifu",
+      "type": "擔任",
+      "description": "袁隗任太傅。",
+      "evidence": [
+        "太傅袁隗"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ding_guan",
+      "target": "title_shangshu",
+      "type": "擔任",
+      "description": "丁管任尚書。",
+      "evidence": [
+        "尚書丁管"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "title_situ",
+      "type": "擔任",
+      "description": "王允任司徒。",
+      "evidence": [
+        "司徒貴誕"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strategy_assassinate_dong",
+      "target": "char_dong_zhuo",
+      "type": "目標",
+      "description": "刺殺董卓策略以董卓為目標。",
+      "evidence": [
+        "殺卓",
+        "斷董卓頭"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "event_yuan_shao_leaves",
+      "name": "袁紹奔冀州",
+      "summary": "袁紹與董卓衝突後辭別百官，懸節東門，奔往冀州。",
+      "participants": [
+        "char_yuan_shao",
+        "char_dong_zhuo",
+        "faction_court_officials"
+      ],
+      "locations": [
+        "loc_dong_gate",
+        "loc_jizhou"
+      ],
+      "evidence": [
+        "辭別百官而出",
+        "懸節東門，奔冀州去了"
+      ]
+    },
+    {
+      "id": "event_depose_emperor",
+      "name": "董卓廢帝立陳留王",
+      "summary": "董卓在嘉德殿大會文武，命李儒讀策，廢少帝而立陳留王協為皇帝。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_li_ru",
+        "char_lesser_emperor",
+        "char_chenliu_wang_xie",
+        "char_he_taihou",
+        "faction_court_officials"
+      ],
+      "locations": [
+        "loc_jiade_palace",
+        "loc_yongan_palace"
+      ],
+      "evidence": [
+        "天子暗弱",
+        "奉陳留王為皇帝",
+        "封鎖宮門"
+      ]
+    },
+    {
+      "id": "event_ding_guan_death",
+      "name": "丁管擊董卓被斬",
+      "summary": "丁管當眾怒斥董卓欺天，持像簡擊董卓，被董卓下令處斬。",
+      "participants": [
+        "char_ding_guan",
+        "char_dong_zhuo",
+        "faction_dong_army"
+      ],
+      "locations": [
+        "loc_jiade_palace"
+      ],
+      "evidence": [
+        "直擊董卓",
+        "卓命牽出斬之"
+      ]
+    },
+    {
+      "id": "event_cai_yong_recruited",
+      "name": "蔡邕應徵拜侍中",
+      "summary": "李儒勸董卓擢用名流並推薦蔡邕，董卓威逼蔡邕應召，拜為侍中。",
+      "participants": [
+        "char_li_ru",
+        "char_dong_zhuo",
+        "char_cai_yong"
+      ],
+      "locations": [],
+      "evidence": [
+        "薦蔡邕之才",
+        "拜為侍中"
+      ]
+    },
+    {
+      "id": "event_murder_lesser_emperor",
+      "name": "李儒弒少帝",
+      "summary": "少帝困居永安宮作詩寄怨，董卓得詩後命李儒帶武士入宮弒帝。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_li_ru",
+        "char_lesser_emperor",
+        "char_he_taihou",
+        "char_tang_fei",
+        "faction_dong_army"
+      ],
+      "locations": [
+        "loc_yongan_palace"
+      ],
+      "evidence": [
+        "怨望作詩",
+        "入宮弒帝"
+      ]
+    },
+    {
+      "id": "event_yangcheng_massacre",
+      "name": "陽城屠掠",
+      "summary": "董卓引軍至陽城，趁村民社賽聚集時圍殺百姓，掠取婦女財物，偽稱大勝。",
+      "participants": [
+        "char_dong_zhuo",
+        "faction_dong_army"
+      ],
+      "locations": [
+        "loc_yangcheng"
+      ],
+      "evidence": [
+        "陽城地方",
+        "盡皆殺之",
+        "揚言殺賊大勝而回"
+      ]
+    },
+    {
+      "id": "event_wu_fu_assassination",
+      "name": "伍孚刺董卓",
+      "summary": "伍孚藏短刀於朝服，趁董卓入朝時直刺，被呂布制伏，隨後遭剖剮。",
+      "participants": [
+        "char_wu_fu",
+        "char_dong_zhuo",
+        "char_lu_bu"
+      ],
+      "locations": [],
+      "evidence": [
+        "拔刀直刺卓",
+        "呂布便入，揪倒伍孚",
+        "牽出剖剮"
+      ]
+    },
+    {
+      "id": "event_wang_yun_banquet",
+      "name": "王允後堂設宴議董卓",
+      "summary": "王允假託壽宴召集公卿，席間哭訴董卓弄權，曹操提出借刀刺董卓。",
+      "participants": [
+        "char_wang_yun",
+        "char_cao_cao",
+        "faction_court_officials"
+      ],
+      "locations": [],
+      "evidence": [
+        "王允設宴後堂",
+        "無一計殺董卓",
+        "願借與操"
+      ]
+    },
+    {
+      "id": "event_cao_cao_attempt",
+      "name": "曹操獻刀刺董卓",
+      "summary": "曹操佩王允七寶刀至相府，欲趁呂布離開時刺董卓，因被鏡中照見而改稱獻刀。",
+      "participants": [
+        "char_cao_cao",
+        "char_dong_zhuo",
+        "char_lu_bu",
+        "char_wang_yun"
+      ],
+      "locations": [
+        "loc_prime_minister_residence"
+      ],
+      "evidence": [
+        "佩著寶刀",
+        "照見曹操在背後拔刀",
+        "獻上恩相"
+      ]
+    },
+    {
+      "id": "event_cao_cao_escape",
+      "name": "曹操逃出洛陽",
+      "summary": "曹操借試董卓所賜西涼馬，離開相府後策馬由東門逃走。",
+      "participants": [
+        "char_cao_cao",
+        "char_dong_zhuo",
+        "char_lu_bu"
+      ],
+      "locations": [
+        "loc_prime_minister_residence",
+        "loc_dong_gate"
+      ],
+      "evidence": [
+        "願借試一試",
+        "乘馬飛出東門"
+      ]
+    },
+    {
+      "id": "event_cao_cao_wanted",
+      "name": "董卓懸賞捉拿曹操",
+      "summary": "李儒判定曹操行刺無疑，董卓下令畫影圖形、懸賞千金與萬戶侯緝捕曹操。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_li_ru",
+        "char_cao_cao",
+        "faction_dong_army"
+      ],
+      "locations": [],
+      "evidence": [
+        "行刺無疑矣",
+        "畫影圖形，捉拿曹操"
+      ]
+    },
+    {
+      "id": "event_chen_gong_releases_cao",
+      "name": "陳宮釋曹操棄官同行",
+      "summary": "曹操路經中牟被擒，縣令陳宮識破其身分，夜審後感其忠義，棄官同行逃亡。",
+      "participants": [
+        "char_cao_cao",
+        "char_chen_gong"
+      ],
+      "locations": [
+        "loc_zhongmou_county"
+      ],
+      "evidence": [
+        "路經中牟縣",
+        "暗地取出曹操",
+        "願棄一官"
+      ]
+    },
+    {
+      "id": "event_lu_boshe_killing",
+      "name": "曹操殺呂伯奢一家",
+      "summary": "曹操與陳宮投宿呂伯奢家，誤疑家人要害己而殺其家人，又為免後患殺呂伯奢。",
+      "participants": [
+        "char_cao_cao",
+        "char_chen_gong",
+        "char_lu_boshe"
+      ],
+      "locations": [
+        "loc_chenggao"
+      ],
+      "evidence": [
+        "誤殺好人矣",
+        "砍伯奢於驢下"
+      ]
+    },
+    {
+      "id": "event_chen_gong_considers_killing_cao",
+      "name": "陳宮欲殺曹操",
+      "summary": "陳宮因曹操殺呂伯奢事認為其狠毒，夜宿客店時欲拔劍殺曹操。",
+      "participants": [
+        "char_chen_gong",
+        "char_cao_cao"
+      ],
+      "locations": [],
+      "evidence": [
+        "原來是個狼心之徒",
+        "便欲拔劍來殺曹操"
+      ]
+    }
+  ],
+  "notes": [
+    "本章文本存在若干疑似錯字或重複段落，抽取以提供檔案正文可支持的資訊為準。",
+    "未將正文只作詩評或泛稱、且未參與情節的人物另列為實體。"
+  ]
+}

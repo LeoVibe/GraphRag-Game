@@ -1,0 +1,2032 @@
+{
+  "book": "三國演義",
+  "chapter_no": 34,
+  "chapter_title": "蔡夫人隔屏聽密語　劉皇叔躍馬過檀溪",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹公"
+      ],
+      "description": "北征歸來後築銅雀台、封賞功臣，並議南征劉表。",
+      "evidence": [
+        "操大喜，遂作高台",
+        "欲南徵劉表"
+      ]
+    },
+    {
+      "id": "char_xunyou",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [
+        "攸"
+      ],
+      "description": "為曹操解釋銅雀出土為吉兆。",
+      "evidence": [
+        "攸曰：今得銅雀，亦吉祥之兆"
+      ]
+    },
+    {
+      "id": "char_caozhi",
+      "name": "曹植",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操少子，建議銅雀台立三座並留在鄒郡造台。",
+      "evidence": [
+        "少子曹植進曰",
+        "留曹植與曹丕在鄒郡造台"
+      ]
+    },
+    {
+      "id": "char_caopi",
+      "name": "曹丕",
+      "type": "character",
+      "aliases": [],
+      "description": "與曹植同留鄒郡督造銅雀台。",
+      "evidence": [
+        "留曹植與曹丕在鄒郡造台"
+      ]
+    },
+    {
+      "id": "char_zhangyan",
+      "name": "張燕",
+      "type": "character",
+      "aliases": [],
+      "description": "奉曹操安排守北寨。",
+      "evidence": [
+        "使張燕守北寨"
+      ]
+    },
+    {
+      "id": "char_guojia",
+      "name": "郭嘉",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操追贈為貞侯。",
+      "evidence": [
+        "表贈郭嘉為貞侯"
+      ]
+    },
+    {
+      "id": "char_guoyi",
+      "name": "郭奕",
+      "type": "character",
+      "aliases": [
+        "奕"
+      ],
+      "description": "郭嘉之子，被曹操養於府中。",
+      "evidence": [
+        "養其子奕於府中"
+      ]
+    },
+    {
+      "id": "char_xunyu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "勸曹操暫緩南征，先養精蓄銳。",
+      "evidence": [
+        "荀彧曰：大軍方北徵而回，未可複動"
+      ]
+    },
+    {
+      "id": "char_liubiao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "景升",
+        "劉荊州"
+      ],
+      "description": "荊州主，厚待劉備，後受蔡氏、蔡瑁挑撥而疑劉備。",
+      "evidence": [
+        "劉表待之甚厚",
+        "未辭景升"
+      ]
+    },
+    {
+      "id": "char_liubei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉皇叔",
+        "使君",
+        "備"
+      ],
+      "description": "本章主角，討平江夏叛亂、屯新野，後在襄陽會遭蔡瑁設害並躍馬過檀溪。",
+      "evidence": [
+        "劉皇叔躍馬過檀溪",
+        "玄德招安餘黨"
+      ]
+    },
+    {
+      "id": "char_zhangwu",
+      "name": "張武",
+      "type": "character",
+      "aliases": [],
+      "description": "降將，在江夏擄掠造反，被趙雲刺死。",
+      "evidence": [
+        "降將張武、陳孫在江夏擄掠人民",
+        "被趙雲一槍刺落馬下"
+      ]
+    },
+    {
+      "id": "char_chensun",
+      "name": "陳孫",
+      "type": "character",
+      "aliases": [],
+      "description": "與張武同在江夏造反，被張飛刺死。",
+      "evidence": [
+        "張武、陳孫在江夏擄掠人民",
+        "將陳孫刺死"
+      ]
+    },
+    {
+      "id": "char_guanyu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關"
+      ],
+      "description": "劉備麾下將領，勸劉備赴襄陽以免荊州生疑。",
+      "evidence": [
+        "玄德與關、張、趙雲出馬",
+        "雲長曰"
+      ]
+    },
+    {
+      "id": "char_zhangfei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張"
+      ],
+      "description": "劉備麾下將領，在江夏殺陳孫，後勸劉備不要赴襄陽會。",
+      "evidence": [
+        "張飛大喝一聲",
+        "不如休去"
+      ]
+    },
+    {
+      "id": "char_zhaoyun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "雲"
+      ],
+      "description": "劉備麾下將領，殺張武奪馬，後率三百軍保護劉備赴襄陽。",
+      "evidence": [
+        "趙雲挺槍而出",
+        "馬步軍三百人同往"
+      ]
+    },
+    {
+      "id": "char_caimao",
+      "name": "蔡瑁",
+      "type": "character",
+      "aliases": [
+        "瑁"
+      ],
+      "description": "蔡夫人之弟，屢次設計謀害劉備。",
+      "evidence": [
+        "蔡瑁告其姊蔡夫人",
+        "蔡瑁設計害君"
+      ]
+    },
+    {
+      "id": "char_caifuren",
+      "name": "蔡夫人",
+      "type": "character",
+      "aliases": [
+        "蔡氏"
+      ],
+      "description": "劉表夫人，竊聽劉表與劉備談話，並與蔡瑁謀害劉備。",
+      "evidence": [
+        "蔡夫人出立屏後",
+        "蔡氏乃密召蔡瑁"
+      ]
+    },
+    {
+      "id": "char_kuaiyue",
+      "name": "蒯越",
+      "type": "character",
+      "aliases": [
+        "蒯異度",
+        "越"
+      ],
+      "description": "荊州謀士，識的盧妨主，後參與蔡瑁襄陽設計。",
+      "evidence": [
+        "蒯越見而問之",
+        "蔡瑁預請蒯越計議"
+      ]
+    },
+    {
+      "id": "char_kuailiang",
+      "name": "蒯良",
+      "type": "character",
+      "aliases": [],
+      "description": "蒯越兄長，以善相馬被提及。",
+      "evidence": [
+        "先兄蒯良，最善相馬"
+      ]
+    },
+    {
+      "id": "char_yiji",
+      "name": "伊籍",
+      "type": "character",
+      "aliases": [
+        "機伯"
+      ],
+      "description": "荊州幕賓，兩次向劉備告警蔡瑁之謀。",
+      "evidence": [
+        "荊州幕賓伊籍，字機伯",
+        "伊籍探知蔡瑁欲害玄德"
+      ]
+    },
+    {
+      "id": "char_ganfuren",
+      "name": "甘夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備夫人，在新野生劉禪。",
+      "evidence": [
+        "甘夫人生劉禪"
+      ]
+    },
+    {
+      "id": "char_liuchan",
+      "name": "劉禪",
+      "type": "character",
+      "aliases": [
+        "阿斗"
+      ],
+      "description": "甘夫人所生之子，乳名阿斗。",
+      "evidence": [
+        "甘夫人生劉禪",
+        "故乳名阿斗"
+      ]
+    },
+    {
+      "id": "char_liuq",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "琦"
+      ],
+      "description": "劉表長子，襄陽會時與劉琮出迎劉備。",
+      "evidence": [
+        "長子琦",
+        "劉琦、劉琮二子，引一班文武官僚出迎"
+      ]
+    },
+    {
+      "id": "char_liucong",
+      "name": "劉琮",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表之子，與劉琦在襄陽接待劉備。",
+      "evidence": [
+        "劉琦、劉琮二子，引一班文武官僚出迎"
+      ]
+    },
+    {
+      "id": "char_sungan",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備部下，勸劉備不要輕赴襄陽。",
+      "evidence": [
+        "孫乾曰：今忽請赴會，不可輕往"
+      ]
+    },
+    {
+      "id": "char_wenpin",
+      "name": "文聘",
+      "type": "character",
+      "aliases": [],
+      "description": "被蒯越安排與王威另設席，以牽制趙雲。",
+      "evidence": [
+        "使文聘、王威二人另設一席於外廳"
+      ]
+    },
+    {
+      "id": "char_wangwei",
+      "name": "王威",
+      "type": "character",
+      "aliases": [],
+      "description": "與文聘同受安排，欲將趙雲請離劉備身邊。",
+      "evidence": [
+        "文聘、王威入請趙雲赴席"
+      ]
+    },
+    {
+      "id": "char_caixun",
+      "name": "蔡勳",
+      "type": "character",
+      "aliases": [],
+      "description": "蒯越建議由其守把襄陽伏擊部署。",
+      "evidence": [
+        "可預作準備。使蔡勳守把"
+      ]
+    },
+    {
+      "id": "char_zhanglu",
+      "name": "張魯",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表所憂慮的外部威脅之一。",
+      "evidence": [
+        "張魯、孫權皆足為慮"
+      ]
+    },
+    {
+      "id": "char_sunquan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表所憂慮的外部威脅之一。",
+      "evidence": [
+        "張魯、孫權皆足為慮"
+      ]
+    },
+    {
+      "id": "char_chenshi",
+      "name": "陳氏",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表前妻，劉琦之母。",
+      "evidence": [
+        "前妻陳氏所生長子琦"
+      ]
+    },
+    {
+      "id": "faction_caocao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍"
+      ],
+      "description": "曹操統率的軍政勢力，本章由北征歸許都並屯田備用。",
+      "evidence": [
+        "操將所得袁紹之兵",
+        "分兵屯田"
+      ]
+    },
+    {
+      "id": "faction_liubiao",
+      "name": "劉表勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州勢力"
+      ],
+      "description": "以劉表為主的荊州勢力，包含蔡瑁、蒯越等官員。",
+      "evidence": [
+        "劉表待之甚厚",
+        "九郡四十二州官員"
+      ]
+    },
+    {
+      "id": "faction_liubei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "玄德本部"
+      ],
+      "description": "劉備及其關羽、張飛、趙雲、孫乾等部屬。",
+      "evidence": [
+        "引本部軍馬徑往新野",
+        "趙雲引三百軍圍繞保護"
+      ]
+    },
+    {
+      "id": "faction_caishi",
+      "name": "蔡氏親族",
+      "type": "faction",
+      "aliases": [
+        "蔡氏"
+      ],
+      "description": "蔡夫人與蔡瑁形成的荊州內部親族勢力，合謀排除劉備。",
+      "evidence": [
+        "蔡氏乃密召蔡瑁",
+        "暗與蔡夫人商議"
+      ]
+    },
+    {
+      "id": "loc_zhanghe",
+      "name": "漳河",
+      "type": "location",
+      "aliases": [],
+      "description": "銅雀台築於其上。",
+      "evidence": [
+        "築銅雀台於漳河之上"
+      ]
+    },
+    {
+      "id": "loc_tongquetai",
+      "name": "銅雀台",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操因銅雀吉兆而興建的高台。",
+      "evidence": [
+        "築銅雀台於漳河之上"
+      ]
+    },
+    {
+      "id": "loc_yulongtai",
+      "name": "玉龍",
+      "type": "location",
+      "aliases": [
+        "玉龍台"
+      ],
+      "description": "曹植建議在銅雀台左側建的一座台。",
+      "evidence": [
+        "左邊一座，名為玉龍"
+      ]
+    },
+    {
+      "id": "loc_jinfengtai",
+      "name": "金鳳",
+      "type": "location",
+      "aliases": [
+        "金鳳台"
+      ],
+      "description": "曹植建議在銅雀台右側建的一座台。",
+      "evidence": [
+        "右邊一座，名為金鳳"
+      ]
+    },
+    {
+      "id": "loc_zoujun",
+      "name": "鄒郡",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操留曹植、曹丕造台之地。",
+      "evidence": [
+        "留曹植與曹丕在鄒郡造台"
+      ]
+    },
+    {
+      "id": "loc_beizhai",
+      "name": "北寨",
+      "type": "location",
+      "aliases": [],
+      "description": "張燕奉命駐守之處。",
+      "evidence": [
+        "使張燕守北寨"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操北征後班師返回之地。",
+      "evidence": [
+        "班師回許都"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉表根據地，劉備寄居其間。",
+      "evidence": [
+        "玄德自到荊州",
+        "劉表待之甚厚"
+      ]
+    },
+    {
+      "id": "loc_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "張武、陳孫擄掠造反與劉備平叛之地。",
+      "evidence": [
+        "在江夏擄掠人民",
+        "來到江夏"
+      ]
+    },
+    {
+      "id": "loc_xinye",
+      "name": "新野",
+      "type": "location",
+      "aliases": [
+        "新野縣"
+      ],
+      "description": "劉表讓劉備屯紮之地，劉備後奔回此處。",
+      "evidence": [
+        "襄陽屬邑新野縣",
+        "奔回新野"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備建議趁曹操北征時襲取的空虛之地。",
+      "evidence": [
+        "許昌空虛，若以荊襄之眾，乘間襲之"
+      ]
+    },
+    {
+      "id": "loc_liucheng",
+      "name": "柳城",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操北征後自此回師。",
+      "evidence": [
+        "聞曹操自柳城回"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "蔡瑁設宴謀害劉備的會集地。",
+      "evidence": [
+        "大會眾官於襄陽",
+        "赴襄陽"
+      ]
+    },
+    {
+      "id": "loc_guanshe",
+      "name": "館舍",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備在荊州、襄陽暫住之所，蔡瑁曾欲就此殺害。",
+      "evidence": [
+        "請先就館舍殺之",
+        "請玄德於館舍暫歇"
+      ]
+    },
+    {
+      "id": "loc_zhouya",
+      "name": "州衙",
+      "type": "location",
+      "aliases": [],
+      "description": "襄陽宴會舉行之處。",
+      "evidence": [
+        "玄德乘的盧馬至州衙"
+      ]
+    },
+    {
+      "id": "loc_houyuan",
+      "name": "後園",
+      "type": "location",
+      "aliases": [],
+      "description": "的盧在宴會時被牽入拴住，伊籍也在此接應劉備。",
+      "evidence": [
+        "命牽入後園拴",
+        "疾入後園，接著玄德"
+      ]
+    },
+    {
+      "id": "loc_ximen",
+      "name": "西門",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備逃離襄陽宴會時撞出的城門。",
+      "evidence": [
+        "玄德撞出西門"
+      ]
+    },
+    {
+      "id": "loc_tanxi",
+      "name": "檀溪",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備被追至溪邊，的盧躍過此溪救主。",
+      "evidence": [
+        "那檀溪闊數丈",
+        "一躍三丈，飛上西岸"
+      ]
+    },
+    {
+      "id": "loc_xiangjiang",
+      "name": "襄江",
+      "type": "location",
+      "aliases": [],
+      "description": "檀溪水所通之江。",
+      "evidence": [
+        "水通襄江"
+      ]
+    },
+    {
+      "id": "obj_tongque",
+      "name": "銅雀",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操掘出的瑞物，被荀攸解為吉祥之兆。",
+      "evidence": [
+        "掘出一銅雀",
+        "亦吉祥之兆"
+      ]
+    },
+    {
+      "id": "obj_dilu",
+      "name": "的盧",
+      "type": "object",
+      "aliases": [
+        "的盧馬"
+      ],
+      "description": "張武所騎駿馬，後歸劉備；被蒯越稱為妨主，卻在檀溪救劉備。",
+      "evidence": [
+        "名為的盧",
+        "一躍三丈，飛上西岸"
+      ]
+    },
+    {
+      "id": "obj_fanshi",
+      "name": "反詩",
+      "type": "object",
+      "aliases": [
+        "壁上詩"
+      ],
+      "description": "蔡瑁題於館舍牆上用以誣陷劉備反叛。",
+      "evidence": [
+        "題反詩於壁上",
+        "詩四句"
+      ]
+    },
+    {
+      "id": "obj_pingfeng",
+      "name": "屏風",
+      "type": "object",
+      "aliases": [
+        "屏"
+      ],
+      "description": "蔡夫人用以藏身竊聽劉表與劉備談話。",
+      "evidence": [
+        "蔡夫人出立屏後",
+        "於屏後聽得"
+      ]
+    },
+    {
+      "id": "title_zhenhou",
+      "name": "貞侯",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操追贈郭嘉的侯號。",
+      "evidence": [
+        "表贈郭嘉為貞侯"
+      ]
+    },
+    {
+      "id": "title_liuhuangshu",
+      "name": "劉皇叔",
+      "type": "title",
+      "aliases": [],
+      "description": "本章題目用以稱劉備的稱號。",
+      "evidence": [
+        "劉皇叔躍馬過檀溪"
+      ]
+    },
+    {
+      "id": "title_liujingzhou",
+      "name": "劉荊州",
+      "type": "title",
+      "aliases": [],
+      "description": "正文稱劉表的地方性稱號。",
+      "evidence": [
+        "蒯異度對劉荊州雲"
+      ]
+    },
+    {
+      "id": "army_yuanshao_old",
+      "name": "袁紹之兵",
+      "type": "army",
+      "aliases": [
+        "袁紹舊兵"
+      ],
+      "description": "曹操所得袁紹兵馬，約五六十萬。",
+      "evidence": [
+        "所得袁紹之兵，共五六十萬"
+      ]
+    },
+    {
+      "id": "army_liubiao_30000",
+      "name": "三萬軍",
+      "type": "army",
+      "aliases": [
+        "劉表三萬軍"
+      ],
+      "description": "劉表撥給劉備討江夏叛亂的兵力。",
+      "evidence": [
+        "即點三萬軍，與玄德前去"
+      ]
+    },
+    {
+      "id": "army_liubei_benbu",
+      "name": "劉備本部軍馬",
+      "type": "army",
+      "aliases": [
+        "本部軍馬"
+      ],
+      "description": "劉備屯紮新野的本部兵馬。",
+      "evidence": [
+        "引本部軍馬徑往新野"
+      ]
+    },
+    {
+      "id": "army_zhaoyun_300",
+      "name": "趙雲三百軍",
+      "type": "army",
+      "aliases": [
+        "馬步軍三百人"
+      ],
+      "description": "趙雲帶赴襄陽保護劉備的三百馬步軍。",
+      "evidence": [
+        "馬步軍三百人同往",
+        "三百軍圍繞保護"
+      ]
+    },
+    {
+      "id": "army_caimao_500",
+      "name": "蔡瑁五百軍",
+      "type": "army",
+      "aliases": [
+        "五百軍"
+      ],
+      "description": "蔡瑁伏於城內並追趕劉備的兵力。",
+      "evidence": [
+        "伏五百軍在城內",
+        "引五百軍隨後追趕"
+      ]
+    },
+    {
+      "id": "army_zhangwu_chensun",
+      "name": "張武陳孫叛軍",
+      "type": "army",
+      "aliases": [
+        "餘黨"
+      ],
+      "description": "張武、陳孫在江夏造反的部眾。",
+      "evidence": [
+        "張武、陳孫引兵來迎",
+        "玄德招安餘黨"
+      ]
+    },
+    {
+      "id": "army_jingxiang",
+      "name": "荊襄之眾",
+      "type": "army",
+      "aliases": [],
+      "description": "劉備建議劉表用以乘虛襲許昌的荊襄兵眾。",
+      "evidence": [
+        "若以荊襄之眾，乘間襲之"
+      ]
+    },
+    {
+      "id": "strategy_south_liubiao",
+      "name": "南徵劉表",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操回許都後提出的南征計畫。",
+      "evidence": [
+        "復聚眾謀士商議，欲南徵劉表"
+      ]
+    },
+    {
+      "id": "strategy_tuntian",
+      "name": "分兵屯田",
+      "type": "strategy",
+      "aliases": [
+        "屯田候調"
+      ],
+      "description": "曹操採納荀彧暫緩南征後的養兵措施。",
+      "evidence": [
+        "遂分兵屯田，以候調用"
+      ]
+    },
+    {
+      "id": "strategy_xuchang_raid",
+      "name": "乘虛襲許昌",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備建議趁曹操北征、許昌空虛時進攻。",
+      "evidence": [
+        "許昌空虛",
+        "乘間襲之"
+      ]
+    },
+    {
+      "id": "strategy_caimao_assassination",
+      "name": "蔡瑁害劉備之謀",
+      "type": "strategy",
+      "aliases": [
+        "殺劉備之謀"
+      ],
+      "description": "蔡夫人與蔡瑁謀殺劉備的計策。",
+      "evidence": [
+        "請先就館舍殺之",
+        "蔡瑁設計害君"
+      ]
+    },
+    {
+      "id": "strategy_fake_poem",
+      "name": "反詩誣陷",
+      "type": "strategy",
+      "aliases": [
+        "題反詩"
+      ],
+      "description": "蔡瑁寫詩於壁上，誣稱劉備有反叛之意。",
+      "evidence": [
+        "劉備有反叛之意，題反詩於壁上"
+      ]
+    },
+    {
+      "id": "strategy_xiangyang_ambush",
+      "name": "襄陽設宴伏兵",
+      "type": "strategy",
+      "aliases": [
+        "襄陽會設害"
+      ],
+      "description": "蔡瑁借襄陽大會設宴與伏軍謀害劉備。",
+      "evidence": [
+        "大會眾官於襄陽",
+        "只待半酣，號起下手"
+      ]
+    },
+    {
+      "id": "strategy_isolate_zhaoyun",
+      "name": "外廳留趙雲",
+      "type": "strategy",
+      "aliases": [
+        "分離趙雲"
+      ],
+      "description": "蒯越建議另設一席先請住趙雲，以便對劉備下手。",
+      "evidence": [
+        "另設一席於外廳，以待武將",
+        "先請住趙雲"
+      ]
+    },
+    {
+      "id": "strategy_zhaoyun_guard",
+      "name": "趙雲護主",
+      "type": "strategy",
+      "aliases": [
+        "三百軍保護"
+      ],
+      "description": "趙雲率三百軍隨劉備赴襄陽以保護其安全。",
+      "evidence": [
+        "可保主公無事",
+        "三百軍圍繞保護"
+      ]
+    },
+    {
+      "id": "strategy_zhaoan",
+      "name": "招安餘黨",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備平定江夏後收撫叛軍餘眾。",
+      "evidence": [
+        "玄德招安餘黨"
+      ]
+    },
+    {
+      "id": "battle_jiangxia",
+      "name": "江夏平叛",
+      "type": "battle",
+      "aliases": [
+        "討張武陳孫"
+      ],
+      "description": "劉備奉劉表命討伐張武、陳孫叛亂。",
+      "evidence": [
+        "張武、陳孫在江夏擄掠人民",
+        "備請往討之"
+      ]
+    },
+    {
+      "id": "event_tongque",
+      "name": "銅雀築台",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操因銅雀吉兆興築銅雀台。",
+      "evidence": [
+        "掘出一銅雀",
+        "築銅雀台於漳河之上"
+      ]
+    },
+    {
+      "id": "event_dilu_transfer",
+      "name": "的盧轉贈與警告",
+      "type": "event",
+      "aliases": [],
+      "description": "劉備得的盧後贈劉表，又因蒯越警告被歸還。",
+      "evidence": [
+        "玄德遂將此馬送與劉表",
+        "名為的盧，騎馬則妨主"
+      ]
+    },
+    {
+      "id": "event_screen_eavesdrop",
+      "name": "蔡夫人隔屏聽密語",
+      "type": "event",
+      "aliases": [],
+      "description": "蔡夫人在屏後竊聽劉表與劉備談話，因而怨恨劉備。",
+      "evidence": [
+        "蔡夫人出立屏後",
+        "心甚恨之"
+      ]
+    },
+    {
+      "id": "event_tanxi_leap",
+      "name": "劉備躍馬過檀溪",
+      "type": "event",
+      "aliases": [
+        "躍馬檀溪"
+      ],
+      "description": "劉備被蔡瑁追至檀溪，的盧一躍過溪，使劉備脫險。",
+      "evidence": [
+        "縱馬下溪",
+        "一躍三丈，飛上西岸"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_xunyou",
+      "target": "obj_tongque",
+      "type": "解兆",
+      "description": "荀攸向曹操解釋銅雀出土為吉祥之兆。",
+      "evidence": [
+        "今得銅雀，亦吉祥之兆"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "loc_tongquetai",
+      "type": "建造",
+      "description": "曹操因銅雀吉兆決定建銅雀台。",
+      "evidence": [
+        "遂作高台",
+        "築銅雀台於漳河之上"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "loc_tongquetai",
+      "target": "loc_zhanghe",
+      "type": "位於",
+      "description": "銅雀台建於漳河之上。",
+      "evidence": [
+        "築銅雀台於漳河之上"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caozhi",
+      "target": "loc_tongquetai",
+      "type": "建議擴建",
+      "description": "曹植建議三台並立，銅雀居中。",
+      "evidence": [
+        "中間高者，名為銅雀"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caozhi",
+      "target": "loc_yulongtai",
+      "type": "建議命名",
+      "description": "曹植建議左台名玉龍。",
+      "evidence": [
+        "左邊一座，名為玉龍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caozhi",
+      "target": "loc_jinfengtai",
+      "type": "建議命名",
+      "description": "曹植建議右台名金鳳。",
+      "evidence": [
+        "右邊一座，名為金鳳"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caozhi",
+      "target": "loc_zoujun",
+      "type": "留駐造台",
+      "description": "曹植留在鄒郡造台。",
+      "evidence": [
+        "留曹植與曹丕在鄒郡造台"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caopi",
+      "target": "loc_zoujun",
+      "type": "留駐造台",
+      "description": "曹丕與曹植同留鄒郡造台。",
+      "evidence": [
+        "留曹植與曹丕在鄒郡造台"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhangyan",
+      "target": "loc_beizhai",
+      "type": "駐守",
+      "description": "張燕奉曹操命守北寨。",
+      "evidence": [
+        "使張燕守北寨"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "army_yuanshao_old",
+      "type": "統領",
+      "description": "曹操帶所得袁紹兵馬回許都。",
+      "evidence": [
+        "操將所得袁紹之兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "loc_xudu",
+      "type": "班師",
+      "description": "曹操率軍班師回許都。",
+      "evidence": [
+        "班師回許都"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_guojia",
+      "type": "追贈",
+      "description": "曹操表贈郭嘉為貞侯。",
+      "evidence": [
+        "表贈郭嘉為貞侯"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guojia",
+      "target": "title_zhenhou",
+      "type": "受封",
+      "description": "郭嘉被追贈為貞侯。",
+      "evidence": [
+        "郭嘉為貞侯"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_guoyi",
+      "type": "撫養",
+      "description": "曹操將郭嘉之子郭奕養於府中。",
+      "evidence": [
+        "養其子奕於府中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "strategy_south_liubiao",
+      "type": "提出",
+      "description": "曹操聚謀士商議南征劉表。",
+      "evidence": [
+        "欲南徵劉表"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xunyu",
+      "target": "strategy_south_liubiao",
+      "type": "諫止暫緩",
+      "description": "荀彧認為大軍剛北征回來，不宜立刻再動。",
+      "evidence": [
+        "未可複動",
+        "且待半年"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caocao",
+      "target": "strategy_tuntian",
+      "type": "採納施行",
+      "description": "曹操聽從荀彧後分兵屯田。",
+      "evidence": [
+        "操從之，遂分兵屯田"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_liubei",
+      "type": "厚待",
+      "description": "劉備到荊州後，劉表待之甚厚。",
+      "evidence": [
+        "玄德自到荊州，劉表待之甚厚"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhangwu",
+      "target": "char_chensun",
+      "type": "共同造反",
+      "description": "張武與陳孫在江夏擄掠人民並謀反。",
+      "evidence": [
+        "張武、陳孫在江夏擄掠人民，共謀造反"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhangwu",
+      "target": "army_zhangwu_chensun",
+      "type": "統領",
+      "description": "張武引兵迎戰劉備。",
+      "evidence": [
+        "張武、陳孫引兵來迎"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chensun",
+      "target": "army_zhangwu_chensun",
+      "type": "統領",
+      "description": "陳孫與張武同領叛軍。",
+      "evidence": [
+        "張武、陳孫引兵來迎"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liubei",
+      "target": "battle_jiangxia",
+      "type": "請命討伐",
+      "description": "劉備請往討伐江夏叛亂。",
+      "evidence": [
+        "備請往討之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubiao",
+      "target": "army_liubiao_30000",
+      "type": "調撥",
+      "description": "劉表點三萬軍給劉備前去江夏。",
+      "evidence": [
+        "即點三萬軍，與玄德前去"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "army_liubiao_30000",
+      "type": "統領",
+      "description": "劉備領三萬軍往江夏。",
+      "evidence": [
+        "與玄德前去",
+        "玄德領命即行"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "battle_jiangxia",
+      "target": "loc_jiangxia",
+      "type": "發生於",
+      "description": "江夏平叛發生在江夏。",
+      "evidence": [
+        "來到江夏"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "char_zhangwu",
+      "type": "擊殺",
+      "description": "趙雲衝陣刺落張武。",
+      "evidence": [
+        "被趙雲一槍刺落馬下"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "obj_dilu",
+      "type": "奪取",
+      "description": "趙雲殺張武後牽馬回陣。",
+      "evidence": [
+        "牽馬回陣"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhangfei",
+      "target": "char_chensun",
+      "type": "擊殺",
+      "description": "張飛挺矛刺死陳孫。",
+      "evidence": [
+        "將陳孫刺死"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "strategy_zhaoan",
+      "type": "施行",
+      "description": "劉備討平後招安叛軍餘黨。",
+      "evidence": [
+        "玄德招安餘黨"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "loc_jiangxia",
+      "type": "平復",
+      "description": "劉備平復江夏諸縣後班師。",
+      "evidence": [
+        "平復江夏諸縣，班師而回"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liubei",
+      "target": "obj_dilu",
+      "type": "贈與",
+      "description": "劉備將得自張武的駿馬送給劉表。",
+      "evidence": [
+        "玄德遂將此馬送與劉表"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubiao",
+      "target": "obj_dilu",
+      "type": "接受後返還",
+      "description": "劉表先收馬，聽蒯越之言後送還劉備。",
+      "evidence": [
+        "此玄德所送也",
+        "敬當送還"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_kuaiyue",
+      "target": "obj_dilu",
+      "type": "相馬警告",
+      "description": "蒯越稱此馬名的盧，騎則妨主。",
+      "evidence": [
+        "名為的盧，騎馬則妨主"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_liubei",
+      "type": "派駐",
+      "description": "劉表讓劉備率本部軍馬屯紮新野。",
+      "evidence": [
+        "弟可引本部軍馬於本縣屯紮"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_liubei_benbu",
+      "target": "loc_xinye",
+      "type": "屯紮",
+      "description": "劉備本部軍馬移屯新野。",
+      "evidence": [
+        "引本部軍馬徑往新野"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yiji",
+      "target": "char_liubei",
+      "type": "警告",
+      "description": "伊籍提醒劉備的盧不可乘。",
+      "evidence": [
+        "公所騎馬，不可乘也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_ganfuren",
+      "target": "char_liuchan",
+      "type": "生育",
+      "description": "甘夫人在新野生劉禪。",
+      "evidence": [
+        "甘夫人生劉禪"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liuchan",
+      "target": "loc_xinye",
+      "type": "出生於",
+      "description": "劉禪出生時劉備在新野。",
+      "evidence": [
+        "玄德自到新野",
+        "甘夫人生劉禪"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_liubei",
+      "target": "strategy_xuchang_raid",
+      "type": "建議",
+      "description": "劉備建議劉表趁曹操北征襲取許昌。",
+      "evidence": [
+        "許昌空虛",
+        "乘間襲之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_xuchang_raid",
+      "target": "loc_xuchang",
+      "type": "目標",
+      "description": "乘虛襲取的目標是許昌。",
+      "evidence": [
+        "許昌空虛"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubiao",
+      "target": "strategy_xuchang_raid",
+      "type": "拒絕",
+      "description": "劉表以坐據九郡足矣為由不採納。",
+      "evidence": [
+        "吾坐據九郡足矣，豈可別圖"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caifuren",
+      "target": "obj_pingfeng",
+      "type": "藏身竊聽",
+      "description": "蔡夫人常在屏風後竊聽劉表與劉備談話。",
+      "evidence": [
+        "凡遇玄德與表敘論，必來竊聽"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caifuren",
+      "target": "char_liubei",
+      "type": "猜忌",
+      "description": "蔡夫人素來疑忌劉備。",
+      "evidence": [
+        "蔡夫人素疑玄德"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "char_caifuren",
+      "type": "進讒",
+      "description": "蔡瑁向蔡夫人說劉備久居荊州必為患。",
+      "evidence": [
+        "劉備遣三將居外，自居荊州，久必為患"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caifuren",
+      "target": "char_liubiao",
+      "type": "進言防備",
+      "description": "蔡夫人勸劉表防範劉備。",
+      "evidence": [
+        "不可不防之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caifuren",
+      "target": "char_caimao",
+      "type": "密召合謀",
+      "description": "蔡夫人密召蔡瑁商議除劉備。",
+      "evidence": [
+        "蔡氏乃密召蔡瑁入，商議能事"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "strategy_caimao_assassination",
+      "type": "提出",
+      "description": "蔡瑁提出先在館舍殺劉備。",
+      "evidence": [
+        "請先就館舍殺之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_caimao_assassination",
+      "target": "char_liubei",
+      "type": "謀害目標",
+      "description": "蔡瑁之謀的目標是劉備。",
+      "evidence": [
+        "蔡瑁欲害玄德"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yiji",
+      "target": "strategy_caimao_assassination",
+      "type": "探知",
+      "description": "伊籍探知蔡瑁欲害劉備。",
+      "evidence": [
+        "伊籍探知蔡瑁欲害玄德"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yiji",
+      "target": "char_liubei",
+      "type": "夜報救援",
+      "description": "伊籍夜入館舍告知蔡瑁陰謀，催劉備速走。",
+      "evidence": [
+        "特夤夜來報",
+        "催促玄德速速起身"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "loc_xinye",
+      "type": "逃回",
+      "description": "劉備得報後星夜奔回新野。",
+      "evidence": [
+        "星夜奔回新野"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "strategy_fake_poem",
+      "type": "施行",
+      "description": "蔡瑁在館舍壁上寫反詩誣陷劉備。",
+      "evidence": [
+        "題反詩於壁上"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_fake_poem",
+      "target": "obj_fanshi",
+      "type": "產生物",
+      "description": "反詩誣陷計以壁上詩為證物。",
+      "evidence": [
+        "果有詩四句"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "char_liubiao",
+      "type": "誣告",
+      "description": "蔡瑁向劉表稱劉備題反詩不辭而去。",
+      "evidence": [
+        "劉備有反叛之意"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_liubei",
+      "type": "遲疑不殺",
+      "description": "劉表雖怒，仍懷疑反詩非劉備所作，未立即擒殺。",
+      "evidence": [
+        "未可造次，容徐圖之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caimao",
+      "target": "strategy_xiangyang_ambush",
+      "type": "策劃",
+      "description": "蔡瑁改以襄陽大會設伏謀害劉備。",
+      "evidence": [
+        "即日大會眾官於襄陽，就彼處謀之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caifuren",
+      "target": "strategy_xiangyang_ambush",
+      "type": "共謀",
+      "description": "蔡夫人與蔡瑁暗中商議襄陽設害。",
+      "evidence": [
+        "暗與蔡夫人商議"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sungan",
+      "target": "char_liubei",
+      "type": "勸阻赴會",
+      "description": "孫乾認為荊州有事故，勸劉備不可輕往襄陽。",
+      "evidence": [
+        "今忽請赴會，不可輕往"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guanyu",
+      "target": "char_liubei",
+      "type": "勸赴會",
+      "description": "關羽認為不去會使荊州生疑。",
+      "evidence": [
+        "若不去，則荊州反生疑矣"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhangfei",
+      "target": "char_liubei",
+      "type": "勸勿赴會",
+      "description": "張飛認為宴會不善，主張不要去。",
+      "evidence": [
+        "筵無好筵，會無好會，不如休去"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "strategy_zhaoyun_guard",
+      "type": "提出執行",
+      "description": "趙雲請率三百軍同往保護劉備。",
+      "evidence": [
+        "馬步軍三百人同往，可保主公無事"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_zhaoyun_300",
+      "target": "char_liubei",
+      "type": "保護",
+      "description": "趙雲三百軍在襄陽館舍圍繞保護劉備。",
+      "evidence": [
+        "三百軍圍繞保護"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "char_liubei",
+      "type": "迎接",
+      "description": "蔡瑁在襄陽出郭迎接劉備，外表謙謹。",
+      "evidence": [
+        "蔡瑁出郭迎接，意甚謙謹"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liuq",
+      "target": "char_liubei",
+      "type": "出迎",
+      "description": "劉琦與劉琮帶官僚出迎劉備。",
+      "evidence": [
+        "劉琦、劉琮二子，引一班文武官僚出迎"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liucong",
+      "target": "char_liubei",
+      "type": "出迎",
+      "description": "劉琮與劉琦同迎劉備。",
+      "evidence": [
+        "劉琦、劉琮二子，引一班文武官僚出迎"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liuq",
+      "target": "char_liubiao",
+      "type": "父子",
+      "description": "劉琦稱劉表為父親。",
+      "evidence": [
+        "父親氣疾作"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liucong",
+      "target": "char_liubiao",
+      "type": "父子",
+      "description": "劉琮與劉琦並稱劉表二子。",
+      "evidence": [
+        "劉琦、劉琮二子"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_chenshi",
+      "target": "char_liuq",
+      "type": "母子",
+      "description": "陳氏為劉琦之母。",
+      "evidence": [
+        "前妻陳氏所生長子琦"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "char_kuaiyue",
+      "type": "計議",
+      "description": "蔡瑁預先請蒯越商議除劉備。",
+      "evidence": [
+        "蔡瑁預請蒯越計議"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_kuaiyue",
+      "target": "strategy_isolate_zhaoyun",
+      "type": "建議",
+      "description": "蒯越建議另設外廳席位先留住趙雲。",
+      "evidence": [
+        "先請住趙雲，然後可行事"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caixun",
+      "target": "strategy_xiangyang_ambush",
+      "type": "守把",
+      "description": "蔡勳被安排守把襄陽伏擊部署。",
+      "evidence": [
+        "使蔡勳守把"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wenpin",
+      "target": "strategy_isolate_zhaoyun",
+      "type": "執行",
+      "description": "文聘入請趙雲赴外席。",
+      "evidence": [
+        "文聘、王威入請趙雲赴席"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wangwei",
+      "target": "strategy_isolate_zhaoyun",
+      "type": "執行",
+      "description": "王威與文聘同請趙雲赴席。",
+      "evidence": [
+        "文聘、王威入請趙雲赴席"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "army_caimao_500",
+      "type": "統領",
+      "description": "蔡瑁伏五百軍並率其追趕劉備。",
+      "evidence": [
+        "伏五百軍在城內",
+        "引五百軍隨後追趕"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "army_zhaoyun_300",
+      "type": "遣回",
+      "description": "蔡瑁將劉備帶來的三百軍遣歸館舍。",
+      "evidence": [
+        "將玄德帶來三百軍，都遣歸館舍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yiji",
+      "target": "char_liubei",
+      "type": "宴中告警",
+      "description": "伊籍在宴中借更衣暗示劉備逃走。",
+      "evidence": [
+        "以目視玄德，低聲謂曰：請更衣"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "loc_ximen",
+      "type": "逃出",
+      "description": "劉備從西門逃離襄陽。",
+      "evidence": [
+        "玄德撞出西門"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_caimao",
+      "target": "char_liubei",
+      "type": "追趕",
+      "description": "蔡瑁率五百軍追趕逃出西門的劉備。",
+      "evidence": [
+        "引五百軍隨後追趕"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liubei",
+      "target": "loc_tanxi",
+      "type": "渡越",
+      "description": "劉備被追至檀溪，縱馬下溪後躍過西岸。",
+      "evidence": [
+        "縱馬下溪",
+        "飛上西岸"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "obj_dilu",
+      "target": "char_liubei",
+      "type": "救主",
+      "description": "的盧從水中躍起，救劉備脫離追兵。",
+      "evidence": [
+        "一躍三丈，飛上西岸"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "loc_tanxi",
+      "target": "loc_xiangjiang",
+      "type": "水系相通",
+      "description": "檀溪水通襄江。",
+      "evidence": [
+        "水通襄江"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "army_zhaoyun_300",
+      "type": "統領",
+      "description": "趙雲率三百軍趕來追尋劉備。",
+      "evidence": [
+        "趙雲引三百軍趕來"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "id": "event_tongque",
+      "name": "銅雀築台",
+      "summary": "曹操掘得銅雀，荀攸解為吉兆；曹植建議三台並立，曹操遂在漳河築銅雀台，留曹植、曹丕督造。",
+      "participants": [
+        "char_caocao",
+        "char_xunyou",
+        "char_caozhi",
+        "char_caopi",
+        "char_zhangyan"
+      ],
+      "locations": [
+        "loc_zhanghe",
+        "loc_tongquetai",
+        "loc_zoujun",
+        "loc_beizhai"
+      ],
+      "evidence": [
+        "掘出一銅雀",
+        "築銅雀台於漳河之上"
+      ]
+    },
+    {
+      "id": "event_cao_strategy_delay",
+      "name": "曹操暫緩南征",
+      "summary": "曹操回許都後欲南征劉表，荀彧以大軍新回為由勸其待半年養精蓄銳，曹操採納並分兵屯田。",
+      "participants": [
+        "char_caocao",
+        "char_xunyu",
+        "char_liubiao"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "欲南徵劉表",
+        "且待半年，養精蓄銳"
+      ]
+    },
+    {
+      "id": "battle_jiangxia",
+      "name": "江夏平叛",
+      "summary": "張武、陳孫在江夏造反，劉備奉劉表命率三萬軍討伐；趙雲殺張武奪馬，張飛殺陳孫，劉備招安餘黨、平復諸縣。",
+      "participants": [
+        "char_liubei",
+        "char_liubiao",
+        "char_zhangwu",
+        "char_chensun",
+        "char_zhaoyun",
+        "char_zhangfei",
+        "char_guanyu",
+        "army_liubiao_30000",
+        "army_zhangwu_chensun"
+      ],
+      "locations": [
+        "loc_jiangxia"
+      ],
+      "evidence": [
+        "備請往討之",
+        "平復江夏諸縣"
+      ]
+    },
+    {
+      "id": "event_dilu_transfer",
+      "name": "的盧轉贈與警告",
+      "summary": "劉備將張武之馬送給劉表；蒯越識其為的盧並稱妨主，劉表遂還馬；伊籍又提醒劉備不可乘。",
+      "participants": [
+        "char_liubei",
+        "char_liubiao",
+        "char_kuaiyue",
+        "char_yiji"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "玄德遂將此馬送與劉表",
+        "公所騎馬，不可乘也"
+      ]
+    },
+    {
+      "id": "event_xinye_settlement",
+      "name": "劉備屯新野",
+      "summary": "劉表以新野有錢糧，命劉備引本部軍馬屯紮；劉備到新野後軍民皆喜，政治一新。",
+      "participants": [
+        "char_liubiao",
+        "char_liubei",
+        "army_liubei_benbu"
+      ],
+      "locations": [
+        "loc_xinye"
+      ],
+      "evidence": [
+        "引本部軍馬徑往新野",
+        "軍民皆喜，政治一新"
+      ]
+    },
+    {
+      "id": "event_liuchan_birth",
+      "name": "劉禪出生",
+      "summary": "建安十二年春，甘夫人在新野生劉禪，乳名阿斗，正文並記白鶴與異香等祥異。",
+      "participants": [
+        "char_ganfuren",
+        "char_liuchan",
+        "char_liubei"
+      ],
+      "locations": [
+        "loc_xinye"
+      ],
+      "evidence": [
+        "甘夫人生劉禪",
+        "故乳名阿斗"
+      ]
+    },
+    {
+      "id": "event_xuchang_proposal",
+      "name": "劉備建議襲許昌",
+      "summary": "曹操北征時，劉備勸劉表乘許昌空虛，以荊襄之眾襲取；劉表以坐據九郡足矣拒絕，後聞曹操自柳城回而後悔。",
+      "participants": [
+        "char_liubei",
+        "char_liubiao",
+        "char_caocao",
+        "army_jingxiang"
+      ],
+      "locations": [
+        "loc_xuchang",
+        "loc_liucheng",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "許昌空虛",
+        "吾坐據九郡足矣"
+      ]
+    },
+    {
+      "id": "event_screen_eavesdrop",
+      "name": "蔡夫人隔屏聽密語",
+      "summary": "劉表與劉備後堂飲宴談心事時，蔡夫人在屏風後竊聽；她素疑劉備，聽後更恨，並向劉表進言防備。",
+      "participants": [
+        "char_caifuren",
+        "char_liubiao",
+        "char_liubei"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "蔡夫人出立屏後",
+        "於屏後聽得劉備之言"
+      ]
+    },
+    {
+      "id": "event_caimao_first_plot",
+      "name": "蔡瑁館舍謀害與反詩誣陷",
+      "summary": "蔡夫人密召蔡瑁商議，蔡瑁欲先在館舍殺劉備；伊籍夜報使劉備逃回新野。蔡瑁未及下手，便題反詩於壁誣告劉備。",
+      "participants": [
+        "char_caifuren",
+        "char_caimao",
+        "char_yiji",
+        "char_liubei",
+        "char_liubiao"
+      ],
+      "locations": [
+        "loc_guanshe",
+        "loc_xinye",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "請先就館舍殺之",
+        "題反詩於壁上"
+      ]
+    },
+    {
+      "id": "event_xiangyang_feast",
+      "name": "襄陽會設伏",
+      "summary": "蔡瑁與蔡夫人借襄陽大會再謀劉備；趙雲率三百軍護送，蔡瑁與蒯越安排蔡勳守把、文聘王威設外席牽制趙雲，並伏五百軍待半酣下手。",
+      "participants": [
+        "char_liubei",
+        "char_zhaoyun",
+        "char_caimao",
+        "char_caifuren",
+        "char_kuaiyue",
+        "char_caixun",
+        "char_wenpin",
+        "char_wangwei",
+        "char_liuq",
+        "char_liucong",
+        "army_zhaoyun_300",
+        "army_caimao_500"
+      ],
+      "locations": [
+        "loc_xiangyang",
+        "loc_guanshe",
+        "loc_zhouya",
+        "loc_houyuan"
+      ],
+      "evidence": [
+        "大會眾官於襄陽",
+        "只待半酣，號起下手"
+      ]
+    },
+    {
+      "id": "event_yiji_feast_warning",
+      "name": "伊籍宴中告警",
+      "summary": "宴席間伊籍以目示意並低聲請劉備更衣，隨後到後園告知蔡瑁設計害君，劉備遂從西門逃出。",
+      "participants": [
+        "char_yiji",
+        "char_liubei",
+        "char_caimao"
+      ],
+      "locations": [
+        "loc_zhouya",
+        "loc_houyuan",
+        "loc_ximen"
+      ],
+      "evidence": [
+        "請更衣",
+        "蔡瑁設計害君"
+      ]
+    },
+    {
+      "id": "event_tanxi_leap",
+      "name": "劉備躍馬過檀溪",
+      "summary": "劉備逃出西門後被蔡瑁五百軍追至檀溪，的盧先陷水中，後一躍三丈飛上西岸，使劉備脫險；趙雲隨後率三百軍趕來。",
+      "participants": [
+        "char_liubei",
+        "char_caimao",
+        "char_zhaoyun",
+        "obj_dilu",
+        "army_caimao_500",
+        "army_zhaoyun_300"
+      ],
+      "locations": [
+        "loc_ximen",
+        "loc_tanxi",
+        "loc_xiangjiang"
+      ],
+      "evidence": [
+        "檀溪闊數丈",
+        "一躍三丈，飛上西岸"
+      ]
+    }
+  ],
+  "notes": [
+    "抽取以本章正文可明確支持者為準；正文中疑似重複或訛字處未外推補全。"
+  ]
+}

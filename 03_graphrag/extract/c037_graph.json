@@ -1,0 +1,1760 @@
+{
+  "book": "三國演義",
+  "chapter_no": 37,
+  "chapter_title": "司馬徽再薦名士　劉玄德三顧草廬",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_xu_shu",
+      "name": "徐庶",
+      "type": "character",
+      "aliases": [
+        "徐元直",
+        "元直",
+        "庶"
+      ],
+      "description": "原事劉備，因母書赴許昌；徐母死後葬母守墓，不受曹操所賜。",
+      "evidence": [
+        "徐庶趲程赴許昌",
+        "近於新野事劉豫州",
+        "居喪守墓"
+      ]
+    },
+    {
+      "id": "char_xu_mother",
+      "name": "徐母",
+      "type": "character",
+      "aliases": [
+        "老母",
+        "老夫人"
+      ],
+      "description": "徐庶之母，責徐庶棄劉備赴曹操，後自縊。",
+      "evidence": [
+        "徐母勃然大怒",
+        "老夫人自縵於梁間"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "魏武"
+      ],
+      "description": "在許昌接見徐庶，弔祭徐母，並籌備南征、練水軍。",
+      "evidence": [
+        "曹操知徐庶已到",
+        "曹操使人賒禮吊問",
+        "準備南征"
+      ]
+    },
+    {
+      "id": "char_xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，受命迎徐庶，並諫曹操天寒暫緩南征。",
+      "evidence": [
+        "命荀彧、程昱等一班謀士往迎之",
+        "荀彧諫"
+      ]
+    },
+    {
+      "id": "char_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，受命迎接徐庶。",
+      "evidence": [
+        "命荀彧、程昱等一班謀士往迎之"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "劉豫州",
+        "備"
+      ],
+      "description": "駐新野，求見諸葛亮以求安邦定國之策，兩訪臥龍岡不遇。",
+      "evidence": [
+        "玄德正安排禮物",
+        "欲見孔明，求安邦定國之策",
+        "再往臥龍岡謁孔明"
+      ]
+    },
+    {
+      "id": "char_sima_hui",
+      "name": "司馬徽",
+      "type": "character",
+      "aliases": [
+        "徽"
+      ],
+      "description": "來訪劉備，再評薦諸葛亮，稱其才不可量。",
+      "evidence": [
+        "視之，乃司馬徽也",
+        "其才不可量也"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "臥龍",
+        "臥龍先生",
+        "諸葛先生"
+      ],
+      "description": "隱居臥龍岡的賢士，本章雖未正式出場，為劉備屢次求訪的核心人物。",
+      "evidence": [
+        "薦南陽諸葛亮",
+        "臥龍先生住何處",
+        "孔明乃二家兄"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關"
+      ],
+      "description": "隨劉備訪孔明，對孔明自比管仲、樂毅提出疑問，亦曾勸劉備先回。",
+      "evidence": [
+        "時雲長在側曰",
+        "玄德同關、張"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張"
+      ],
+      "description": "隨劉備訪孔明，多次不耐遠訪並稱孔明為村夫。",
+      "evidence": [
+        "張飛曰",
+        "量一村夫"
+      ]
+    },
+    {
+      "id": "char_farmer",
+      "name": "農夫",
+      "type": "character",
+      "aliases": [],
+      "description": "在隆中耕田作歌，向劉備指出臥龍岡與諸葛亮居處。",
+      "evidence": [
+        "勒馬喚農夫問曰",
+        "乃臥龍岡也"
+      ]
+    },
+    {
+      "id": "char_wolong_tongzi",
+      "name": "童子",
+      "type": "character",
+      "aliases": [
+        "一童"
+      ],
+      "description": "臥龍莊童子，向劉備傳達諸葛亮外出或在莊的情況。",
+      "evidence": [
+        "一童出問",
+        "先生今早少出",
+        "先生今日在莊否"
+      ]
+    },
+    {
+      "id": "char_cui_zhouping",
+      "name": "崔州平",
+      "type": "character",
+      "aliases": [
+        "博陵崔州平",
+        "州平"
+      ],
+      "description": "孔明之友，與劉備談治亂與天命，婉拒赴新野。",
+      "evidence": [
+        "孔明之友博陵崔州平",
+        "順天者逸，逆天者勞"
+      ]
+    },
+    {
+      "id": "char_guangyuan",
+      "name": "廣元",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備雪中二訪時在村店對飲者之一，自稱山野慵懶，不談治國安民。",
+      "evidence": [
+        "廣元曰",
+        "吾等皆山野慵懶之徒"
+      ]
+    },
+    {
+      "id": "char_zhuge_jun",
+      "name": "諸葛均",
+      "type": "character",
+      "aliases": [
+        "均"
+      ],
+      "description": "諸葛亮之弟，在草堂接待劉備，進文房四寶使其留書。",
+      "evidence": [
+        "某乃臥龍之弟諸葛均也",
+        "均進文房四寶"
+      ]
+    },
+    {
+      "id": "char_zhuge_jin",
+      "name": "諸葛瑾",
+      "type": "character",
+      "aliases": [],
+      "description": "諸葛均所稱長兄，正在江東孫仲謀處為幕賓。",
+      "evidence": [
+        "長兄諸葛瑾",
+        "江東孫仲謀處為幕賓"
+      ]
+    },
+    {
+      "id": "char_sun_zhongmou",
+      "name": "孫仲謀",
+      "type": "character",
+      "aliases": [],
+      "description": "江東之主，諸葛瑾在其處任幕賓。",
+      "evidence": [
+        "江東孫仲謀處為幕賓"
+      ]
+    },
+    {
+      "id": "char_huang_chengyan",
+      "name": "黃承彥",
+      "type": "character",
+      "aliases": [
+        "承彥"
+      ],
+      "description": "諸葛亮岳父，雪中騎驢過小橋，被劉備誤認為臥龍。",
+      "evidence": [
+        "家兄岳父黃承彥",
+        "騎驢過小橋"
+      ]
+    },
+    {
+      "id": "char_buzhe",
+      "name": "卜者",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備準備第三次往臥龍岡時令其揲蓍選擇吉期。",
+      "evidence": [
+        "令卜者揲蓍"
+      ]
+    },
+    {
+      "id": "char_guan_zhong",
+      "name": "管仲",
+      "type": "character",
+      "aliases": [],
+      "description": "春秋名人，諸葛亮常自比之。",
+      "evidence": [
+        "每常自比管仲、樂毅"
+      ]
+    },
+    {
+      "id": "char_yue_yi",
+      "name": "樂毅",
+      "type": "character",
+      "aliases": [],
+      "description": "戰國名人，諸葛亮常自比之。",
+      "evidence": [
+        "自比管仲、樂毅"
+      ]
+    },
+    {
+      "id": "char_jiang_ziya",
+      "name": "薑子牙",
+      "type": "character",
+      "aliases": [],
+      "description": "司馬徽用以比擬諸葛亮的古代賢臣。",
+      "evidence": [
+        "可比興週八百年之薑子牙"
+      ]
+    },
+    {
+      "id": "char_zhang_zifang",
+      "name": "張子房",
+      "type": "character",
+      "aliases": [],
+      "description": "司馬徽用以比擬諸葛亮的古代謀臣。",
+      "evidence": [
+        "旺漢四百年之張子房"
+      ]
+    },
+    {
+      "id": "char_yin_kui",
+      "name": "殷馗",
+      "type": "character",
+      "aliases": [],
+      "description": "司馬徽提及的善觀天文者，曾言潁川多賢。",
+      "evidence": [
+        "昔有殷馗善觀天文"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹營"
+      ],
+      "description": "以曹操為首，荀彧、程昱等謀士及水軍屬之。",
+      "evidence": [
+        "曹操知徐庶已到",
+        "一班謀士",
+        "教練水軍"
+      ]
+    },
+    {
+      "id": "faction_liu",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "劉備一方"
+      ],
+      "description": "以劉備為主，關羽、張飛隨行求賢；徐庶原曾在新野事劉備。",
+      "evidence": [
+        "近於新野事劉豫州",
+        "玄德同關、張"
+      ]
+    },
+    {
+      "id": "faction_han",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [
+        "漢朝",
+        "朝廷"
+      ],
+      "description": "劉備自稱漢朝苗裔，志在匡扶漢室。",
+      "evidence": [
+        "漢室之冑",
+        "合當匡扶漢室"
+      ]
+    },
+    {
+      "id": "faction_jiangdong",
+      "name": "江東孫仲謀處",
+      "type": "faction",
+      "aliases": [
+        "江東"
+      ],
+      "description": "孫仲謀在江東的勢力，諸葛瑾任幕賓。",
+      "evidence": [
+        "江東孫仲謀處為幕賓"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [],
+      "description": "徐庶赴往之地，曹操與徐母所在。",
+      "evidence": [
+        "徐庶趲程赴許昌",
+        "喚回許昌去矣"
+      ]
+    },
+    {
+      "id": "loc_xuchang_south_plain",
+      "name": "許昌之南原",
+      "type": "location",
+      "aliases": [],
+      "description": "徐庶葬母並守墓之處。",
+      "evidence": [
+        "葬母柩於許昌之南原"
+      ]
+    },
+    {
+      "id": "loc_xinye",
+      "name": "新野",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備所在縣邑，徐庶曾在此事劉備，劉備多次由此往返臥龍岡。",
+      "evidence": [
+        "偶至新野",
+        "三人回至新野"
+      ]
+    },
+    {
+      "id": "loc_longzhong",
+      "name": "隆中",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備往訪諸葛亮所到之地。",
+      "evidence": [
+        "玄德同關、張並從人等來隆中"
+      ]
+    },
+    {
+      "id": "loc_wolonggang",
+      "name": "臥龍岡",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛亮隱居之岡，劉備兩訪不遇並準備再訪。",
+      "evidence": [
+        "乃臥龍岡也",
+        "回望臥龍岡"
+      ]
+    },
+    {
+      "id": "loc_wolong_zhuang",
+      "name": "臥龍莊",
+      "type": "location",
+      "aliases": [
+        "茅廬",
+        "草堂",
+        "仙莊"
+      ],
+      "description": "諸葛亮居處所在，劉備親至拜訪並留書。",
+      "evidence": [
+        "同往臥龍莊上一談",
+        "草堂之上",
+        "敬至仙莊"
+      ]
+    },
+    {
+      "id": "loc_nanyang",
+      "name": "南陽",
+      "type": "location",
+      "aliases": [],
+      "description": "與諸葛亮隱居、徐庶推薦諸葛亮相關的地名。",
+      "evidence": [
+        "薦南陽諸葛亮",
+        "南陽有隱居"
+      ]
+    },
+    {
+      "id": "loc_zhanghe",
+      "name": "漳河",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操引水入玄武池的水源。",
+      "evidence": [
+        "引漳河之水作一池"
+      ]
+    },
+    {
+      "id": "loc_xuanwuchi",
+      "name": "玄武池",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操所建水池，用以教練水軍、準備南征。",
+      "evidence": [
+        "名玄武池",
+        "於內教練水軍"
+      ]
+    },
+    {
+      "id": "loc_yingchuan",
+      "name": "潁川",
+      "type": "location",
+      "aliases": [
+        "潁分"
+      ],
+      "description": "司馬徽稱其地多賢，並引殷馗觀天文之說。",
+      "evidence": [
+        "何潁川之多賢乎",
+        "群星聚於潁分"
+      ]
+    },
+    {
+      "id": "loc_boling",
+      "name": "博陵",
+      "type": "location",
+      "aliases": [],
+      "description": "崔州平稱號中的籍貫地。",
+      "evidence": [
+        "博陵崔州平"
+      ]
+    },
+    {
+      "id": "loc_village_inn",
+      "name": "村店",
+      "type": "location",
+      "aliases": [
+        "店"
+      ],
+      "description": "劉備雪中二訪時入店見二人對飲之處。",
+      "evidence": [
+        "悶來村店飲村酒",
+        "遂下馬入店"
+      ]
+    },
+    {
+      "id": "loc_xiaoqiao",
+      "name": "小橋",
+      "type": "location",
+      "aliases": [],
+      "description": "黃承彥騎驢踏雪而來之處。",
+      "evidence": [
+        "騎驢過小橋"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [
+        "襄陽城"
+      ],
+      "description": "詩中標示臥龍岡在襄陽城西二十里。",
+      "evidence": [
+        "襄陽城西二十里"
+      ]
+    },
+    {
+      "id": "battle_southern_campaign",
+      "name": "南征",
+      "type": "battle",
+      "aliases": [
+        "南徵"
+      ],
+      "description": "曹操欲待春暖進行的南方戰事，本章為籌備與練水軍階段。",
+      "evidence": [
+        "欲商議南徵",
+        "準備南征"
+      ]
+    },
+    {
+      "id": "title_liubei_offices",
+      "name": "漢左將軍宜城亭侯領豫州牧皇叔",
+      "type": "title",
+      "aliases": [
+        "左將軍",
+        "宜城亭侯",
+        "豫州牧",
+        "皇叔"
+      ],
+      "description": "劉備向臥龍莊童子通報的官職與身份稱號。",
+      "evidence": [
+        "漢左將軍宜城亭侯領豫州牧皇叔劉備"
+      ]
+    },
+    {
+      "id": "title_wolong",
+      "name": "臥龍先生",
+      "type": "title",
+      "aliases": [
+        "臥龍"
+      ],
+      "description": "諸葛亮的稱號。",
+      "evidence": [
+        "乃臥龍先生所作也"
+      ]
+    },
+    {
+      "id": "title_mubin",
+      "name": "幕賓",
+      "type": "title",
+      "aliases": [],
+      "description": "諸葛瑾在江東孫仲謀處的身份。",
+      "evidence": [
+        "為幕賓"
+      ]
+    },
+    {
+      "id": "object_forged_letter",
+      "name": "一紙偽書",
+      "type": "object",
+      "aliases": [
+        "母書",
+        "家書"
+      ],
+      "description": "召徐庶至許昌的書信，徐母認定其為偽書。",
+      "evidence": [
+        "因得母書",
+        "今憑一紙偽書"
+      ]
+    },
+    {
+      "id": "object_xumu_zan",
+      "name": "《徐母贊》",
+      "type": "object",
+      "aliases": [],
+      "description": "後人稱頌徐母節義的贊文。",
+      "evidence": [
+        "後人有《徐母贊》"
+      ]
+    },
+    {
+      "id": "object_liubei_letter",
+      "name": "劉備留書",
+      "type": "object",
+      "aliases": [
+        "書",
+        "雲箋"
+      ],
+      "description": "劉備二訪不遇後寫給諸葛亮的書信。",
+      "evidence": [
+        "願藉紙筆作一書",
+        "拂展雲箋，寫書"
+      ]
+    },
+    {
+      "id": "object_wenfang",
+      "name": "文房四寶",
+      "type": "object",
+      "aliases": [],
+      "description": "諸葛均提供給劉備寫書的筆墨紙硯。",
+      "evidence": [
+        "均進文房四寶"
+      ]
+    },
+    {
+      "id": "object_liangfu_yin",
+      "name": "《梁父吟》",
+      "type": "object",
+      "aliases": [],
+      "description": "黃承彥提及並記得的吟詩篇章。",
+      "evidence": [
+        "觀《梁父吟》，記得這篇"
+      ]
+    },
+    {
+      "id": "strategy_forged_letter",
+      "name": "偽書召徐庶",
+      "type": "strategy",
+      "aliases": [
+        "一紙偽書賺徐庶"
+      ],
+      "description": "以偽造母書使徐庶離開劉備、赴許昌的計策。",
+      "evidence": [
+        "今憑一紙偽書",
+        "因得母書，故星夜至此"
+      ]
+    },
+    {
+      "id": "strategy_personal_visit",
+      "name": "親往求賢",
+      "type": "strategy",
+      "aliases": [
+        "三顧草廬"
+      ],
+      "description": "劉備堅持親自往臥龍岡求見孔明，不用召喚方式。",
+      "evidence": [
+        "孔明當世大賢，豈可召乎",
+        "親叩柴門"
+      ]
+    },
+    {
+      "id": "strategy_shuntian",
+      "name": "順天聽命",
+      "type": "strategy",
+      "aliases": [
+        "順天者逸，逆天者勞"
+      ],
+      "description": "崔州平勸劉備順應治亂天命的論點。",
+      "evidence": [
+        "順天者逸，逆天者勞"
+      ]
+    },
+    {
+      "id": "strategy_kuangfu_han",
+      "name": "匡扶漢室",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備自述身為漢冑應承擔的政治志向。",
+      "evidence": [
+        "合當匡扶漢室"
+      ]
+    },
+    {
+      "id": "strategy_buji_zhaijie",
+      "name": "揲蓍齋戒",
+      "type": "strategy",
+      "aliases": [
+        "選擇吉期",
+        "薰沐更衣"
+      ],
+      "description": "劉備準備第三次拜謁孔明前的禮儀安排。",
+      "evidence": [
+        "揲蓍，選擇吉期",
+        "齋戒三日，薰沐更衣"
+      ]
+    },
+    {
+      "id": "army_cao_navy",
+      "name": "水軍",
+      "type": "army",
+      "aliases": [
+        "曹操水軍"
+      ],
+      "description": "曹操在玄武池訓練、用於南征準備的軍隊。",
+      "evidence": [
+        "於內教練水軍"
+      ]
+    },
+    {
+      "id": "event_xushu_xuchang",
+      "name": "徐庶赴許昌",
+      "type": "event",
+      "aliases": [],
+      "description": "徐庶到許昌拜見曹操並見其母。",
+      "evidence": [
+        "徐庶趲程赴許昌",
+        "庶入相府拜見曹操"
+      ]
+    },
+    {
+      "id": "event_xumu_suicide",
+      "name": "徐母責子自縊",
+      "type": "event",
+      "aliases": [],
+      "description": "徐母斥責徐庶棄明投暗後自縊。",
+      "evidence": [
+        "遂棄明投暗",
+        "老夫人自縵於梁間"
+      ]
+    },
+    {
+      "id": "event_xuanwuchi_navy",
+      "name": "曹操建玄武池練水軍",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操聽荀彧諫暫緩南征，引漳河水作玄武池操練水軍。",
+      "evidence": [
+        "引漳河之水作一池",
+        "教練水軍"
+      ]
+    },
+    {
+      "id": "event_sima_recommends",
+      "name": "司馬徽再薦孔明",
+      "type": "event",
+      "aliases": [],
+      "description": "司馬徽至新野訪劉備，高度評價諸葛亮。",
+      "evidence": [
+        "乃司馬徽也",
+        "其才不可量也"
+      ]
+    },
+    {
+      "id": "event_first_visit",
+      "name": "劉備初訪臥龍岡",
+      "type": "event",
+      "aliases": [],
+      "description": "劉備與關羽、張飛首次往隆中臥龍岡訪孔明，不遇而返。",
+      "evidence": [
+        "特來拜見先生",
+        "先生今早少出"
+      ]
+    },
+    {
+      "id": "event_second_visit",
+      "name": "劉備雪中二訪臥龍莊",
+      "type": "event",
+      "aliases": [],
+      "description": "劉備冒雪再訪孔明，先遇村店對飲者，後見諸葛均並留書，又誤認黃承彥。",
+      "evidence": [
+        "冒風雪而來",
+        "兩番不遇大賢"
+      ]
+    },
+    {
+      "id": "event_prepare_third_visit",
+      "name": "劉備準備三訪孔明",
+      "type": "event",
+      "aliases": [],
+      "description": "早春時劉備卜吉齋戒，準備再往臥龍岡謁孔明，關張不悅入諫。",
+      "evidence": [
+        "再往臥龍岡謁孔明",
+        "關、張聞之不悅"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_xu_shu",
+      "target": "char_liu_bei",
+      "type": "曾事",
+      "description": "徐庶曾在新野事奉劉備。",
+      "evidence": [
+        "近於新野事劉豫州"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "loc_xuchang",
+      "type": "赴往",
+      "description": "徐庶趕赴許昌。",
+      "evidence": [
+        "徐庶趲程赴許昌"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xun_yu",
+      "type": "命令",
+      "description": "曹操命荀彧迎接徐庶。",
+      "evidence": [
+        "命荀彧、程昱等一班謀士往迎之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cheng_yu",
+      "type": "命令",
+      "description": "曹操命程昱迎接徐庶。",
+      "evidence": [
+        "命荀彧、程昱等一班謀士往迎之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_cao",
+      "type": "統領",
+      "description": "曹操為曹操勢力核心。",
+      "evidence": [
+        "曹操知徐庶已到",
+        "操欲商議南徵"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "faction_cao",
+      "type": "隸屬",
+      "description": "荀彧為曹操謀士之一。",
+      "evidence": [
+        "荀彧、程昱等一班謀士"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "faction_cao",
+      "type": "隸屬",
+      "description": "程昱為曹操謀士之一。",
+      "evidence": [
+        "荀彧、程昱等一班謀士"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "char_xu_mother",
+      "type": "母子",
+      "description": "徐母是徐庶之母。",
+      "evidence": [
+        "老母在此",
+        "急往見其母"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xu_mother",
+      "type": "囚禁利用",
+      "description": "曹操囚徐母，並藉母書使徐庶回許昌。",
+      "evidence": [
+        "曹操囚其母",
+        "遣人馳書，喚回許昌"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_xu_mother",
+      "target": "object_forged_letter",
+      "type": "辨識",
+      "description": "徐母責徐庶憑偽書而離開劉備。",
+      "evidence": [
+        "今憑一紙偽書"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_forged_letter",
+      "target": "char_xu_shu",
+      "type": "誘回",
+      "description": "偽書使徐庶星夜趕至許昌。",
+      "evidence": [
+        "因得母書，故星夜至此"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_xu_mother",
+      "target": "char_liu_bei",
+      "type": "讚許",
+      "description": "徐母稱劉備仁義且為漢室之冑。",
+      "evidence": [
+        "劉玄德仁義佈於四海",
+        "漢室之冑"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_mother",
+      "target": "char_cao_cao",
+      "type": "斥責敵對",
+      "description": "徐母在贊文中被稱讚豫州、毀觸魏武。",
+      "evidence": [
+        "讚美豫州，毀觸魏武"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xu_mother",
+      "type": "弔祭",
+      "description": "徐母死後，曹操遣人弔問並親往祭。",
+      "evidence": [
+        "使人賒禮吊問，又親往祭"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "loc_xuchang_south_plain",
+      "type": "葬母守墓",
+      "description": "徐庶將母柩葬於許昌南原並守墓。",
+      "evidence": [
+        "葬母柩於許昌之南原"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "char_cao_cao",
+      "type": "拒受賜予",
+      "description": "徐庶不接受曹操賞賜。",
+      "evidence": [
+        "凡曹操所賜，庶俱不受"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "battle_southern_campaign",
+      "type": "準備",
+      "description": "曹操欲議南征並做軍事準備。",
+      "evidence": [
+        "欲商議南徵",
+        "準備南征"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "battle_southern_campaign",
+      "type": "建議暫緩",
+      "description": "荀彧以天寒為由諫曹操待春暖再進兵。",
+      "evidence": [
+        "天寒未可用兵",
+        "姑待春暖"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_xuanwuchi",
+      "type": "建造",
+      "description": "曹操引漳河水作玄武池。",
+      "evidence": [
+        "引漳河之水作一池，名玄武池"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "loc_xuanwuchi",
+      "target": "loc_zhanghe",
+      "type": "取水來源",
+      "description": "玄武池由漳河引水而成。",
+      "evidence": [
+        "引漳河之水作一池"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_cao_navy",
+      "target": "loc_xuanwuchi",
+      "type": "訓練於",
+      "description": "曹操水軍在玄武池中操練。",
+      "evidence": [
+        "於內教練水軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_cao_navy",
+      "target": "faction_cao",
+      "type": "隸屬",
+      "description": "水軍是曹操準備南征的軍隊。",
+      "evidence": [
+        "操從之",
+        "教練水軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "faction_liu",
+      "type": "統領",
+      "description": "劉備為關、張等所隨之主。",
+      "evidence": [
+        "玄德同關、張並從人等"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "faction_liu",
+      "type": "隨行隸屬",
+      "description": "關羽隨劉備往訪孔明。",
+      "evidence": [
+        "玄德同關、張"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "faction_liu",
+      "type": "隨行隸屬",
+      "description": "張飛隨劉備往訪孔明。",
+      "evidence": [
+        "玄德同關、張"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sima_hui",
+      "target": "char_liu_bei",
+      "type": "來訪",
+      "description": "司馬徽到劉備處相探。",
+      "evidence": [
+        "特來相探",
+        "視之，乃司馬徽也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "char_zhuge_liang",
+      "type": "薦舉",
+      "description": "徐庶臨行向劉備推薦南陽諸葛亮。",
+      "evidence": [
+        "元直臨行，薦南陽諸葛亮"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sima_hui",
+      "target": "char_zhuge_liang",
+      "type": "評薦",
+      "description": "司馬徽稱孔明才不可量，並以古賢相比。",
+      "evidence": [
+        "其才不可量也",
+        "可比興週八百年之薑子牙"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sima_hui",
+      "target": "char_liu_bei",
+      "type": "認定得主",
+      "description": "司馬徽說臥龍雖已得其主，但不得其時。",
+      "evidence": [
+        "臥龍雖得其主，不得其時"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "title_wolong",
+      "type": "稱號",
+      "description": "諸葛亮被稱為臥龍先生。",
+      "evidence": [
+        "乃臥龍先生所作也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_wolonggang",
+      "type": "居住",
+      "description": "諸葛亮高臥於臥龍岡前茅廬。",
+      "evidence": [
+        "茅廬中，即諸葛先生高臥之地"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "title_liubei_offices",
+      "type": "官職稱號",
+      "description": "劉備拜訪時以左將軍、宜城亭侯、豫州牧、皇叔等身份通名。",
+      "evidence": [
+        "漢左將軍宜城亭侯領豫州牧皇叔劉備"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strategy_personal_visit",
+      "type": "採行",
+      "description": "劉備堅持親自往訪孔明。",
+      "evidence": [
+        "孔明當世大賢，豈可召乎",
+        "親叩柴門"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhuge_liang",
+      "type": "延攬求見",
+      "description": "劉備求見孔明以求安邦定國之策。",
+      "evidence": [
+        "欲見孔明，求安邦定國之策"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_guan_zhong",
+      "type": "自比",
+      "description": "孔明常自比管仲。",
+      "evidence": [
+        "每常自比管仲、樂毅"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_yue_yi",
+      "type": "自比",
+      "description": "孔明常自比樂毅。",
+      "evidence": [
+        "每常自比管仲、樂毅"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sima_hui",
+      "target": "char_jiang_ziya",
+      "type": "比擬孔明",
+      "description": "司馬徽認為孔明可比薑子牙。",
+      "evidence": [
+        "可比興週八百年之薑子牙"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sima_hui",
+      "target": "char_zhang_zifang",
+      "type": "比擬孔明",
+      "description": "司馬徽認為孔明可比張子房。",
+      "evidence": [
+        "旺漢四百年之張子房"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sima_hui",
+      "target": "char_yin_kui",
+      "type": "引述",
+      "description": "司馬徽引殷馗觀天文之說解釋潁川多賢。",
+      "evidence": [
+        "昔有殷馗善觀天文"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yin_kui",
+      "target": "loc_yingchuan",
+      "type": "預言多賢",
+      "description": "殷馗稱潁川分野群星聚集，必多賢士。",
+      "evidence": [
+        "群星聚於潁分，其地必多賢士"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_farmer",
+      "target": "loc_wolonggang",
+      "type": "指路",
+      "description": "農夫告知劉備臥龍先生居於臥龍岡。",
+      "evidence": [
+        "自此山之南，一帶高岡，乃臥龍岡也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wolong_tongzi",
+      "target": "char_zhuge_liang",
+      "type": "侍從傳話",
+      "description": "童子向劉備傳達先生外出或在堂上讀書。",
+      "evidence": [
+        "先生今早少出",
+        "現在堂上讀書"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_longzhong",
+      "type": "前往",
+      "description": "劉備與關張往隆中尋訪孔明。",
+      "evidence": [
+        "來隆中"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_cui_zhouping",
+      "type": "遇見問策",
+      "description": "劉備誤問崔州平是否臥龍，並請教一言。",
+      "evidence": [
+        "先生非臥龍否",
+        "請教一言"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cui_zhouping",
+      "target": "char_zhuge_liang",
+      "type": "友人",
+      "description": "崔州平自稱孔明之友。",
+      "evidence": [
+        "孔明之友博陵崔州平"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cui_zhouping",
+      "target": "loc_boling",
+      "type": "籍貫稱號",
+      "description": "崔州平以博陵為稱。",
+      "evidence": [
+        "博陵崔州平"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cui_zhouping",
+      "target": "strategy_shuntian",
+      "type": "提出",
+      "description": "崔州平以順天聽命論勸劉備。",
+      "evidence": [
+        "順天者逸，逆天者勞"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strategy_kuangfu_han",
+      "type": "志向",
+      "description": "劉備表示身為漢冑，應匡扶漢室。",
+      "evidence": [
+        "合當匡扶漢室"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strategy_kuangfu_han",
+      "target": "faction_han",
+      "type": "目標",
+      "description": "匡扶漢室以恢復漢朝秩序為目標。",
+      "evidence": [
+        "匡扶漢室"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_zhuge_liang",
+      "type": "輕視",
+      "description": "張飛稱孔明為村夫，認為不必親往。",
+      "evidence": [
+        "量一村夫"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_liu_bei",
+      "type": "勸返",
+      "description": "關羽建議劉備先回，再派人探聽。",
+      "evidence": [
+        "不如而歸，再使人來探聽"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_liu_bei",
+      "type": "勸返",
+      "description": "張飛多次勸劉備不必久候或冒雪遠訪。",
+      "evidence": [
+        "既不見，自歸去罷了",
+        "不如回新野"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_village_inn",
+      "type": "入店",
+      "description": "劉備雪中聽歌後下馬入店。",
+      "evidence": [
+        "遂下馬入店"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guangyuan",
+      "type": "邀請",
+      "description": "劉備邀廣元等二人同往臥龍莊談論。",
+      "evidence": [
+        "敢請二公同往臥龍莊上一談"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_guangyuan",
+      "target": "char_liu_bei",
+      "type": "婉拒問政",
+      "description": "廣元自稱不懂治國安民，不勞劉備下問。",
+      "evidence": [
+        "不省治國安民之事，不勞下問"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_wolong_zhuang",
+      "type": "拜訪",
+      "description": "劉備二訪時到臥龍莊前扣門。",
+      "evidence": [
+        "到莊前下馬，扣門問童子"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_jun",
+      "target": "char_zhuge_liang",
+      "type": "兄弟",
+      "description": "諸葛均是諸葛亮之弟。",
+      "evidence": [
+        "臥龍之弟諸葛均",
+        "孔明乃二家兄"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_jin",
+      "target": "char_zhuge_liang",
+      "type": "兄弟",
+      "description": "諸葛瑾為諸葛亮長兄。",
+      "evidence": [
+        "長兄諸葛瑾",
+        "孔明乃二家兄"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_jin",
+      "target": "char_sun_zhongmou",
+      "type": "任職",
+      "description": "諸葛瑾在孫仲謀處為幕賓。",
+      "evidence": [
+        "江東孫仲謀處為幕賓"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_jin",
+      "target": "title_mubin",
+      "type": "官職身分",
+      "description": "諸葛瑾的身份為幕賓。",
+      "evidence": [
+        "為幕賓"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_sun_zhongmou",
+      "target": "faction_jiangdong",
+      "type": "統屬",
+      "description": "孫仲謀為江東勢力中心。",
+      "evidence": [
+        "江東孫仲謀處"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhuge_jun",
+      "target": "object_wenfang",
+      "type": "提供",
+      "description": "諸葛均進文房四寶供劉備寫書。",
+      "evidence": [
+        "均進文房四寶"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "object_liubei_letter",
+      "type": "撰寫",
+      "description": "劉備在二訪不遇後寫書留給孔明。",
+      "evidence": [
+        "拂展雲箋，寫書"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "object_liubei_letter",
+      "target": "char_zhuge_liang",
+      "type": "留達對象",
+      "description": "劉備留書要諸葛均轉達給諸葛亮。",
+      "evidence": [
+        "留達令兄"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_chengyan",
+      "target": "char_zhuge_liang",
+      "type": "岳父",
+      "description": "黃承彥是諸葛亮岳父。",
+      "evidence": [
+        "家兄岳父黃承彥"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_chengyan",
+      "target": "object_liangfu_yin",
+      "type": "吟誦記誦",
+      "description": "黃承彥稱自己觀《梁父吟》並記得此篇。",
+      "evidence": [
+        "觀《梁父吟》，記得這篇"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_huang_chengyan",
+      "type": "誤認",
+      "description": "劉備聽詩見黃承彥，誤以為是真臥龍。",
+      "evidence": [
+        "此真臥龍矣"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strategy_buji_zhaijie",
+      "type": "採行",
+      "description": "劉備為第三次拜謁孔明而卜吉齋戒。",
+      "evidence": [
+        "揲蓍，選擇吉期",
+        "齋戒三日"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_buzhe",
+      "target": "strategy_buji_zhaijie",
+      "type": "執行卜吉",
+      "description": "卜者為劉備揲蓍選擇吉期。",
+      "evidence": [
+        "令卜者揲蓍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "event_prepare_third_visit",
+      "type": "入諫反對",
+      "description": "關羽對劉備再訪孔明不悅並入諫。",
+      "evidence": [
+        "關、張聞之不悅，遂一齊入諫"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "event_prepare_third_visit",
+      "type": "入諫反對",
+      "description": "張飛對劉備再訪孔明不悅並入諫。",
+      "evidence": [
+        "關、張聞之不悅，遂一齊入諫"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_xinye",
+      "type": "往返駐地",
+      "description": "劉備多次由新野出發或返回。",
+      "evidence": [
+        "三人回至新野",
+        "玄德回新野之後"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_nanyang",
+      "type": "隱居關聯",
+      "description": "章中以南陽隱居稱諸葛亮。",
+      "evidence": [
+        "南陽有隱居"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "loc_wolonggang",
+      "target": "loc_xiangyang",
+      "type": "方位",
+      "description": "詩中說臥龍岡在襄陽城西二十里。",
+      "evidence": [
+        "襄陽城西二十里"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xushu_xuchang",
+      "name": "徐庶赴許昌",
+      "summary": "徐庶趕到許昌，曹操命荀彧、程昱等迎接，徐庶入相府拜見曹操，隨後見母。",
+      "participants": [
+        "char_xu_shu",
+        "char_cao_cao",
+        "char_xun_yu",
+        "char_cheng_yu",
+        "char_xu_mother"
+      ],
+      "locations": [
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "徐庶趲程赴許昌",
+        "庶入相府拜見曹操"
+      ]
+    },
+    {
+      "id": "event_xumu_suicide",
+      "name": "徐母責子自縊",
+      "summary": "徐母斥責徐庶因偽書棄劉備赴曹，稱其棄明投暗，隨後自縊身亡。",
+      "participants": [
+        "char_xu_mother",
+        "char_xu_shu",
+        "char_liu_bei",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "今憑一紙偽書",
+        "老夫人自縵於梁間"
+      ]
+    },
+    {
+      "id": "event_xumu_funeral",
+      "name": "徐庶葬母守墓",
+      "summary": "曹操遣禮弔問並親祭徐母；徐庶將母柩葬於許昌南原，居喪守墓，不受曹操所賜。",
+      "participants": [
+        "char_cao_cao",
+        "char_xu_shu",
+        "char_xu_mother"
+      ],
+      "locations": [
+        "loc_xuchang_south_plain",
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "又親往祭",
+        "葬母柩於許昌之南原",
+        "庶俱不受"
+      ]
+    },
+    {
+      "id": "event_xuanwuchi_navy",
+      "name": "曹操建玄武池練水軍",
+      "summary": "曹操欲南征，荀彧諫天寒暫緩；曹操採納後引漳河水作玄武池，在池中教練水軍。",
+      "participants": [
+        "char_cao_cao",
+        "char_xun_yu",
+        "army_cao_navy"
+      ],
+      "locations": [
+        "loc_zhanghe",
+        "loc_xuanwuchi"
+      ],
+      "evidence": [
+        "天寒未可用兵",
+        "引漳河之水作一池",
+        "準備南征"
+      ]
+    },
+    {
+      "id": "event_sima_recommends",
+      "name": "司馬徽再薦孔明",
+      "summary": "司馬徽到新野見劉備，談徐庶與徐母，並盛讚孔明才不可量，可比薑子牙、張子房。",
+      "participants": [
+        "char_sima_hui",
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_guan_yu",
+        "char_jiang_ziya",
+        "char_zhang_zifang"
+      ],
+      "locations": [
+        "loc_xinye"
+      ],
+      "evidence": [
+        "乃司馬徽也",
+        "其才不可量也",
+        "可比興週八百年之薑子牙"
+      ]
+    },
+    {
+      "id": "event_first_visit",
+      "name": "劉備初訪臥龍岡",
+      "summary": "劉備與關羽、張飛到隆中求見孔明，農夫指示臥龍岡，童子告知先生外出，劉備不遇而返。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_farmer",
+        "char_wolong_tongzi",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_longzhong",
+        "loc_wolonggang",
+        "loc_wolong_zhuang"
+      ],
+      "evidence": [
+        "玄德同關、張並從人等來隆中",
+        "先生今早少出"
+      ]
+    },
+    {
+      "id": "event_cui_zhouping_discourse",
+      "name": "劉備遇崔州平論治亂",
+      "summary": "劉備返途中遇崔州平，詢問孔明並求教；崔州平以治亂天命勸說，婉拒同往新野。",
+      "participants": [
+        "char_liu_bei",
+        "char_cui_zhouping",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_longzhong",
+        "loc_wolonggang"
+      ],
+      "evidence": [
+        "孔明之友博陵崔州平",
+        "順天者逸，逆天者勞",
+        "無意功名久矣"
+      ]
+    },
+    {
+      "id": "event_second_visit",
+      "name": "劉備雪中二訪臥龍莊",
+      "summary": "劉備聞孔明已回，冒雪再訪；途中遇村店對飲者，廣元等婉拒治國之問，劉備再到臥龍莊。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_guangyuan",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_xinye",
+        "loc_village_inn",
+        "loc_wolong_zhuang"
+      ],
+      "evidence": [
+        "臥龍先生已回矣",
+        "冒風雪而來",
+        "吾等皆山野慵懶之徒"
+      ]
+    },
+    {
+      "id": "event_zhugejun_letter",
+      "name": "劉備見諸葛均並留書",
+      "summary": "劉備在草堂見到諸葛均，得知孔明外出，遂借文房四寶寫書留達孔明。",
+      "participants": [
+        "char_liu_bei",
+        "char_zhuge_jun",
+        "char_zhuge_liang",
+        "char_wolong_tongzi"
+      ],
+      "locations": [
+        "loc_wolong_zhuang"
+      ],
+      "evidence": [
+        "某乃臥龍之弟諸葛均也",
+        "願藉紙筆作一書",
+        "均進文房四寶"
+      ]
+    },
+    {
+      "id": "event_huang_chengyan_misrecognition",
+      "name": "劉備誤認黃承彥",
+      "summary": "劉備離莊時見黃承彥騎驢踏雪吟詩而來，誤認為臥龍，諸葛均說明其為孔明岳父。",
+      "participants": [
+        "char_liu_bei",
+        "char_huang_chengyan",
+        "char_zhuge_jun",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_xiaoqiao",
+        "loc_wolonggang"
+      ],
+      "evidence": [
+        "此真臥龍矣",
+        "家兄岳父黃承彥"
+      ]
+    },
+    {
+      "id": "event_prepare_third_visit",
+      "name": "劉備準備三訪孔明",
+      "summary": "劉備回新野後至早春，令卜者選吉期，齋戒薰沐後準備再往臥龍岡謁孔明；關羽、張飛不悅入諫。",
+      "participants": [
+        "char_liu_bei",
+        "char_buzhe",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_zhuge_liang"
+      ],
+      "locations": [
+        "loc_xinye",
+        "loc_wolonggang"
+      ],
+      "evidence": [
+        "選擇吉期，齋戒三日",
+        "再往臥龍岡謁孔明",
+        "關、張聞之不悅"
+      ]
+    }
+  ],
+  "notes": [
+    "原文局部有缺字、重複與訛字；抽取以本章可辨識片段為準。"
+  ]
+}

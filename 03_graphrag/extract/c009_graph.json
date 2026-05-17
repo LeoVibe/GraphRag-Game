@@ -1,0 +1,2143 @@
+{
+  "book": "三國演義",
+  "chapter_no": 9,
+  "chapter_title": "除暴兇呂布助司徒　犯長安李傕聽賈詡",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [
+        "董太師",
+        "太師",
+        "恩相"
+      ],
+      "description": "把持朝政者，本章先被王允、呂布等設計誅殺，死後郿塢家產被抄。",
+      "evidence": [
+        "「太師怒入後園」",
+        "「董卓已死」"
+      ]
+    },
+    {
+      "id": "char_li_ru",
+      "name": "李儒",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓謀士，勸董卓將貂蟬與呂布和解；董卓死後被指為助虐者並處斬。",
+      "evidence": [
+        "「正是李儒」",
+        "「助卓為虐者」"
+      ]
+    },
+    {
+      "id": "char_lv_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "呂佈",
+        "奉先",
+        "溫侯",
+        "將軍"
+      ],
+      "description": "董卓義子與猛將，被王允勸動後奉詔誅董，後與李傕等戰，長安失守後投袁術。",
+      "evidence": [
+        "「溫侯何不從太師去」",
+        "「有詔討賊」"
+      ]
+    },
+    {
+      "id": "char_diao_chan",
+      "name": "貂蟬",
+      "type": "character",
+      "aliases": [],
+      "description": "被董卓寵愛並牽動呂布怨恨的人物，後由呂布在郿塢取回。",
+      "evidence": [
+        "「喚貂蟬問曰」",
+        "「先取了貂蟬」"
+      ]
+    },
+    {
+      "id": "char_wang_yun",
+      "name": "王允",
+      "type": "character",
+      "aliases": [
+        "王司徒",
+        "司徒"
+      ],
+      "description": "司徒，設計聯結呂布誅董；後拒絕赦免李傕等，長安陷落後被殺。",
+      "evidence": [
+        "「司徒王允也」",
+        "「王允在此」"
+      ]
+    },
+    {
+      "id": "char_shi_sunrui",
+      "name": "士孫瑞",
+      "type": "character",
+      "aliases": [
+        "僕射"
+      ],
+      "description": "參與王允密議，提出以密詔與伏兵誘殺董卓的上策。",
+      "evidence": [
+        "「僕射士孫瑞」",
+        "「此上策也」"
+      ]
+    },
+    {
+      "id": "char_huang_wan",
+      "name": "黃琬",
+      "type": "character",
+      "aliases": [
+        "司隸校尉"
+      ],
+      "description": "與王允、士孫瑞共議誅董。",
+      "evidence": [
+        "「司隸校尉黃琬」",
+        "「商議」"
+      ]
+    },
+    {
+      "id": "char_li_su",
+      "name": "李肅",
+      "type": "character",
+      "aliases": [
+        "騎都尉"
+      ],
+      "description": "奉計往郿塢假傳禪位詔，參與殺董；後戰牛輔失利，被呂布斬首。",
+      "evidence": [
+        "「騎都尉李肅」",
+        "「遂斬李肅」"
+      ]
+    },
+    {
+      "id": "char_li_jue",
+      "name": "李傕",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓部將之一，先守郿塢，後聽賈詡之策聚兵攻入長安。",
+      "evidence": [
+        "「心腹將李傕」",
+        "「殺奔長安」"
+      ]
+    },
+    {
+      "id": "char_guo_si",
+      "name": "郭汜",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓部將之一，與李傕等犯長安，並在山下從後抄擊呂布。",
+      "evidence": [
+        "「郭汜、張濟、樊稠」",
+        "「郭將軍可領軍抄擊其後」"
+      ]
+    },
+    {
+      "id": "char_zhang_ji",
+      "name": "張濟",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓部將之一，後與樊稠分路進犯長安。",
+      "evidence": [
+        "「張濟、樊稠兩路軍馬」"
+      ]
+    },
+    {
+      "id": "char_fan_chou",
+      "name": "樊稠",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓部將之一，與張濟分路進犯長安。",
+      "evidence": [
+        "「張濟、樊稠兩路軍馬」"
+      ]
+    },
+    {
+      "id": "char_huangfu_song",
+      "name": "皇甫嵩",
+      "type": "character",
+      "aliases": [],
+      "description": "受王允命與呂布、李肅領兵抄籍郿塢，並釋放塢中良家子女。",
+      "evidence": [
+        "「同皇甫嵩、李肅」",
+        "「盡行釋放」"
+      ]
+    },
+    {
+      "id": "char_cai_yong",
+      "name": "蔡邕",
+      "type": "character",
+      "aliases": [
+        "伯喈",
+        "侍中"
+      ],
+      "description": "侍中，因伏董卓屍而哭，被王允下獄處死。",
+      "evidence": [
+        "「乃侍中蔡邕也」",
+        "「伏其屍而大哭」"
+      ]
+    },
+    {
+      "id": "char_ma_midi",
+      "name": "馬日磾",
+      "type": "character",
+      "aliases": [
+        "太傅"
+      ],
+      "description": "太傅，為蔡邕向王允求情。",
+      "evidence": [
+        "「太傅馬日磾」",
+        "「密謂允曰」"
+      ]
+    },
+    {
+      "id": "char_jia_xu",
+      "name": "賈詡",
+      "type": "character",
+      "aliases": [
+        "賈詬",
+        "謀士"
+      ],
+      "description": "李傕等謀士，勸其聚眾犯長安，勿棄軍單逃。",
+      "evidence": [
+        "章題「聽賈詡」",
+        "「謀士賈詬曰」"
+      ]
+    },
+    {
+      "id": "char_niu_fu",
+      "name": "牛輔",
+      "type": "character",
+      "aliases": [
+        "中郎將",
+        "董卓女婿"
+      ],
+      "description": "董卓女婿，率軍欲報仇，與李傕等合兵，後被胡赤兒殺死。",
+      "evidence": [
+        "「董卓女婿中郎將牛輔」",
+        "「殺死牛輔」"
+      ]
+    },
+    {
+      "id": "char_hu_chier",
+      "name": "胡赤兒",
+      "type": "character",
+      "aliases": [],
+      "description": "牛輔心腹，為奪金珠殺牛輔，後被呂布誅殺。",
+      "evidence": [
+        "「心腹人胡赤兒」",
+        "「即將赤兒誅殺」"
+      ]
+    },
+    {
+      "id": "char_li_meng",
+      "name": "李蒙",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓餘黨，在長安城中為李傕等作內應。",
+      "evidence": [
+        "「李蒙、王方在城中為賊內應」"
+      ]
+    },
+    {
+      "id": "char_wang_fang",
+      "name": "王方",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓餘黨，在長安城中為李傕等作內應。",
+      "evidence": [
+        "「李蒙、王方在城中為賊內應」"
+      ]
+    },
+    {
+      "id": "char_xiandi",
+      "name": "獻帝",
+      "type": "character",
+      "aliases": [
+        "天子",
+        "陛下",
+        "主上"
+      ],
+      "description": "漢帝，被王允等借名發密詔誅董；長安陷落後在宣平門質問李傕郭汜。",
+      "evidence": [
+        "「天子密詔」",
+        "「獻帝倚樓問曰」"
+      ]
+    },
+    {
+      "id": "char_dong_mother",
+      "name": "董卓母",
+      "type": "character",
+      "aliases": [
+        "卓母"
+      ],
+      "description": "董卓之母，在郿塢被殺。",
+      "evidence": [
+        "「母時年九十餘」",
+        "「卓母亦被殺」"
+      ]
+    },
+    {
+      "id": "char_dong_min",
+      "name": "董旻",
+      "type": "character",
+      "aliases": [
+        "卓弟"
+      ],
+      "description": "董卓之弟，在郿塢抄籍後被斬首號令。",
+      "evidence": [
+        "「卓弟董旻」",
+        "「皆斬首號令」"
+      ]
+    },
+    {
+      "id": "char_dong_huang",
+      "name": "董璜",
+      "type": "character",
+      "aliases": [
+        "董卓侄"
+      ],
+      "description": "董卓之侄，在郿塢抄籍後被斬首號令。",
+      "evidence": [
+        "「侄董璜」",
+        "「皆斬首號令」"
+      ]
+    },
+    {
+      "id": "char_yuan_shu",
+      "name": "袁術",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布逃出長安後投奔的人物。",
+      "evidence": [
+        "「投袁術去了」"
+      ]
+    },
+    {
+      "id": "char_zhong_fu",
+      "name": "種拂",
+      "type": "character",
+      "aliases": [
+        "太常卿"
+      ],
+      "description": "長安亂中死於國難的官員。",
+      "evidence": [
+        "「太常卿種拂」",
+        "「皆死於國難」"
+      ]
+    },
+    {
+      "id": "char_lu_kui",
+      "name": "魯馗",
+      "type": "character",
+      "aliases": [
+        "太僕"
+      ],
+      "description": "長安亂中死於國難的官員。",
+      "evidence": [
+        "「太僕魯馗」",
+        "「皆死於國難」"
+      ]
+    },
+    {
+      "id": "char_zhou_huan",
+      "name": "週奐",
+      "type": "character",
+      "aliases": [
+        "大鴻臚"
+      ],
+      "description": "長安亂中死於國難的官員。",
+      "evidence": [
+        "「大鴻臚週奐」",
+        "「皆死於國難」"
+      ]
+    },
+    {
+      "id": "char_cui_lie",
+      "name": "崔烈",
+      "type": "character",
+      "aliases": [
+        "城門校尉"
+      ],
+      "description": "長安亂中死於國難的官員。",
+      "evidence": [
+        "「城門校尉崔烈」",
+        "「皆死於國難」"
+      ]
+    },
+    {
+      "id": "char_wang_qi",
+      "name": "王頎",
+      "type": "character",
+      "aliases": [
+        "越騎校尉"
+      ],
+      "description": "長安亂中死於國難的官員。",
+      "evidence": [
+        "「越騎校尉王頎」",
+        "「皆死於國難」"
+      ]
+    },
+    {
+      "id": "faction_han",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [
+        "漢",
+        "漢祀",
+        "社稷"
+      ],
+      "description": "王允、呂布等以扶漢為名誅董；獻帝為其君主。",
+      "evidence": [
+        "「力扶漢室」",
+        "「漢祀不斬」"
+      ]
+    },
+    {
+      "id": "faction_dong_remnants",
+      "name": "董卓餘黨",
+      "type": "faction",
+      "aliases": [
+        "董卓勢力",
+        "從賊"
+      ],
+      "description": "董卓死後仍為其報仇的部眾，包含李傕、郭汜等。",
+      "evidence": [
+        "「董卓餘黨李蒙、王方」",
+        "「從賊縱橫」"
+      ]
+    },
+    {
+      "id": "faction_baiguan",
+      "name": "百官",
+      "type": "faction",
+      "aliases": [
+        "眾官",
+        "群臣"
+      ],
+      "description": "本章多次迎送董卓、參與朝會與慶賀。",
+      "evidence": [
+        "「百官俱拜送」",
+        "「召集眾官」"
+      ]
+    },
+    {
+      "id": "faction_shimin",
+      "name": "士民",
+      "type": "faction",
+      "aliases": [
+        "百姓"
+      ],
+      "description": "董卓死後稱賀，王允被殺後為之流淚。",
+      "evidence": [
+        "「百姓過者」",
+        "「士民無不下淚」"
+      ]
+    },
+    {
+      "id": "faction_dong_family",
+      "name": "董卓親屬",
+      "type": "faction",
+      "aliases": [
+        "董氏親族"
+      ],
+      "description": "郿塢抄籍時被不分老幼誅戮。",
+      "evidence": [
+        "「但係董卓親屬」",
+        "「悉皆誅戮」"
+      ]
+    },
+    {
+      "id": "faction_wang_clan",
+      "name": "王允宗族",
+      "type": "faction",
+      "aliases": [
+        "王宗族"
+      ],
+      "description": "王允死後被李傕郭汜差人殺害。",
+      "evidence": [
+        "「將王宗族老幼」",
+        "「盡行殺害」"
+      ]
+    },
+    {
+      "id": "army_feixiong",
+      "name": "飛熊軍",
+      "type": "army",
+      "aliases": [],
+      "description": "董卓命李傕、郭汜、張濟、樊稠領三千鎮守郿塢的軍隊。",
+      "evidence": [
+        "「領飛熊軍三千守郿塢」"
+      ]
+    },
+    {
+      "id": "army_xiliang",
+      "name": "西涼兵",
+      "type": "army",
+      "aliases": [
+        "四路賊軍",
+        "賊兵"
+      ],
+      "description": "李傕等聚集並用以進犯長安的軍隊。",
+      "evidence": [
+        "「西涼兵來」",
+        "「四路賊軍一齊擁入」"
+      ]
+    },
+    {
+      "id": "army_lv_bu",
+      "name": "呂布軍",
+      "type": "army",
+      "aliases": [
+        "布軍"
+      ],
+      "description": "呂布所率軍馬，與牛輔、李傕等交戰。",
+      "evidence": [
+        "「布軍不能進」",
+        "「布軍與戰不利」"
+      ]
+    },
+    {
+      "id": "army_niu_fu",
+      "name": "牛輔軍",
+      "type": "army",
+      "aliases": [],
+      "description": "牛輔所率五千軍，後與李傕等合兵。",
+      "evidence": [
+        "「引軍五千人」",
+        "「使為前驅」"
+      ]
+    },
+    {
+      "id": "title_taishi",
+      "name": "太師",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓在本章所稱官位。",
+      "evidence": [
+        "「董太師」"
+      ]
+    },
+    {
+      "id": "title_situ",
+      "name": "司徒",
+      "type": "title",
+      "aliases": [],
+      "description": "王允在本章官職。",
+      "evidence": [
+        "「司徒王允」"
+      ]
+    },
+    {
+      "id": "title_wenhou",
+      "name": "溫侯",
+      "type": "title",
+      "aliases": [],
+      "description": "呂布稱號。",
+      "evidence": [
+        "「溫侯何不從太師去」"
+      ]
+    },
+    {
+      "id": "title_pushe",
+      "name": "僕射",
+      "type": "title",
+      "aliases": [],
+      "description": "士孫瑞官職。",
+      "evidence": [
+        "「僕射士孫瑞」"
+      ]
+    },
+    {
+      "id": "title_sili_xiaowei",
+      "name": "司隸校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "黃琬官職。",
+      "evidence": [
+        "「司隸校尉黃琬」"
+      ]
+    },
+    {
+      "id": "title_qidu_wei",
+      "name": "騎都尉",
+      "type": "title",
+      "aliases": [],
+      "description": "李肅官職。",
+      "evidence": [
+        "「騎都尉李肅」"
+      ]
+    },
+    {
+      "id": "title_shizhong",
+      "name": "侍中",
+      "type": "title",
+      "aliases": [],
+      "description": "蔡邕官職。",
+      "evidence": [
+        "「侍中蔡邕」"
+      ]
+    },
+    {
+      "id": "title_taifu",
+      "name": "太傅",
+      "type": "title",
+      "aliases": [],
+      "description": "馬日磾官職。",
+      "evidence": [
+        "「太傅馬日磾」"
+      ]
+    },
+    {
+      "id": "title_zhonglangjiang",
+      "name": "中郎將",
+      "type": "title",
+      "aliases": [],
+      "description": "牛輔官職。",
+      "evidence": [
+        "「中郎將牛輔」"
+      ]
+    },
+    {
+      "id": "title_tianzi",
+      "name": "天子",
+      "type": "title",
+      "aliases": [
+        "陛下"
+      ],
+      "description": "獻帝身分稱號。",
+      "evidence": [
+        "「天子有詔」",
+        "「陛下社稷之臣」"
+      ]
+    },
+    {
+      "id": "loc_fengyi_ting",
+      "name": "鳳儀亭",
+      "type": "location",
+      "aliases": [],
+      "description": "呂布與貂蟬相遇之處，成為王允激發呂布怨恨的證據。",
+      "evidence": [
+        "「鳳儀亭相遇之事」"
+      ]
+    },
+    {
+      "id": "loc_meiwu",
+      "name": "郿塢",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓營築藏財之地，董卓死後被抄籍。",
+      "evidence": [
+        "「歸郿塢」",
+        "「至郿塢抄籍」"
+      ]
+    },
+    {
+      "id": "loc_changan",
+      "name": "長安",
+      "type": "location",
+      "aliases": [
+        "京城"
+      ],
+      "description": "董卓入朝與後來李傕等進犯、攻陷的都城。",
+      "evidence": [
+        "「望長安來」",
+        "「竟犯長安」"
+      ]
+    },
+    {
+      "id": "loc_weiyang_dian",
+      "name": "未央殿",
+      "type": "location",
+      "aliases": [],
+      "description": "李肅詐稱天子欲會文武議禪位之處。",
+      "evidence": [
+        "「於未央殿」"
+      ]
+    },
+    {
+      "id": "loc_beiye_men",
+      "name": "北掖門",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓入朝時軍兵被擋於外的門。",
+      "evidence": [
+        "「到北掖門」"
+      ]
+    },
+    {
+      "id": "loc_chaomen",
+      "name": "朝門",
+      "type": "location",
+      "aliases": [],
+      "description": "士孫瑞建議伏甲兵誅董之處。",
+      "evidence": [
+        "「伏甲兵於朝門之內」"
+      ]
+    },
+    {
+      "id": "loc_xuanping_men",
+      "name": "宣平門",
+      "type": "location",
+      "aliases": [],
+      "description": "長安陷落後獻帝登樓止亂、王允跳樓現身之處。",
+      "evidence": [
+        "「上宣平門止亂」"
+      ]
+    },
+    {
+      "id": "loc_qingsuo_men",
+      "name": "青瑣門",
+      "type": "location",
+      "aliases": [],
+      "description": "呂布急請王允出逃之處。",
+      "evidence": [
+        "「往青瑣門外」"
+      ]
+    },
+    {
+      "id": "loc_liangzhou",
+      "name": "涼州",
+      "type": "location",
+      "aliases": [],
+      "description": "李傕等聞董卓死後連夜逃往之地。",
+      "evidence": [
+        "「奔涼州去了」"
+      ]
+    },
+    {
+      "id": "loc_shanxi",
+      "name": "陝西",
+      "type": "location",
+      "aliases": [],
+      "description": "李傕等逃居並聚眾之地。",
+      "evidence": [
+        "「逃居陝西」"
+      ]
+    },
+    {
+      "id": "loc_xiangfu",
+      "name": "相府",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓回京後進入之處。",
+      "evidence": [
+        "「進至相府」"
+      ]
+    },
+    {
+      "id": "loc_du_tang",
+      "name": "都堂",
+      "type": "location",
+      "aliases": [],
+      "description": "王允大犒士卒、設宴稱慶之處。",
+      "evidence": [
+        "「設宴於都堂」"
+      ]
+    },
+    {
+      "id": "loc_gukou",
+      "name": "穀口",
+      "type": "location",
+      "aliases": [],
+      "description": "李傕設計守住以誘呂布廝殺之處。",
+      "evidence": [
+        "「守住穀口」"
+      ]
+    },
+    {
+      "id": "loc_shicao",
+      "name": "市曹",
+      "type": "location",
+      "aliases": [
+        "市"
+      ],
+      "description": "李儒被斬、董卓屍首暴露之處。",
+      "evidence": [
+        "「赴市曹斬之」",
+        "「暴屍於市」"
+      ]
+    },
+    {
+      "id": "obj_imperial_edict",
+      "name": "天子密詔",
+      "type": "object",
+      "aliases": [
+        "詔"
+      ],
+      "description": "王允等用以命呂布誅董、李肅誘董入朝的政治憑據。",
+      "evidence": [
+        "「天子密詔付呂布」",
+        "「奉詔討賊臣」"
+      ]
+    },
+    {
+      "id": "obj_sword",
+      "name": "寶劍",
+      "type": "object",
+      "aliases": [],
+      "description": "李肅扶車、王允等立於殿門時所持兵器。",
+      "evidence": [
+        "「手執寶劍」"
+      ]
+    },
+    {
+      "id": "obj_dong_body",
+      "name": "董卓屍首",
+      "type": "object",
+      "aliases": [
+        "卓屍"
+      ],
+      "description": "董卓死後被號令通衢並暴屍於市。",
+      "evidence": [
+        "「董卓屍首」",
+        "「暴屍於市」"
+      ]
+    },
+    {
+      "id": "obj_meiwu_property",
+      "name": "郿塢財產",
+      "type": "object",
+      "aliases": [
+        "黃金",
+        "白金",
+        "珠寶",
+        "糧食"
+      ],
+      "description": "董卓藏於郿塢的財物，抄籍後數量巨大。",
+      "evidence": [
+        "「黃金數十萬」",
+        "「珠寶、器皿、糧食」"
+      ]
+    },
+    {
+      "id": "obj_gold_pearls",
+      "name": "金珠",
+      "type": "object",
+      "aliases": [
+        "金寶"
+      ],
+      "description": "牛輔逃亡時暗藏之物，成為胡赤兒殺他的誘因。",
+      "evidence": [
+        "「暗藏金珠」",
+        "「奪其金寶」"
+      ]
+    },
+    {
+      "id": "strat_red_skirt",
+      "name": "紅裙離間之計",
+      "type": "strategy",
+      "aliases": [
+        "司徒妙算"
+      ],
+      "description": "王允借貂蟬離間董卓與呂布的計策。",
+      "evidence": [
+        "「司徒妙算托紅裙」"
+      ]
+    },
+    {
+      "id": "strat_ambush_gate",
+      "name": "伏兵朝門之計",
+      "type": "strategy",
+      "aliases": [
+        "上策"
+      ],
+      "description": "士孫瑞建議用密詔引董卓入朝，再伏甲兵誅殺。",
+      "evidence": [
+        "「伏甲兵於朝門之內」"
+      ]
+    },
+    {
+      "id": "strat_false_abdication",
+      "name": "詐稱禪位之計",
+      "type": "strategy",
+      "aliases": [],
+      "description": "李肅向董卓謊稱天子欲禪位，以誘其回京。",
+      "evidence": [
+        "「議將禪位於太師」"
+      ]
+    },
+    {
+      "id": "strat_jiaxu_attack",
+      "name": "賈詡聚眾犯長安之策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "賈詡勸李傕等誘集陝人與本部軍馬，殺入長安為董卓報仇。",
+      "evidence": [
+        "「誘集陝人並本部軍馬」"
+      ]
+    },
+    {
+      "id": "strat_lure_rear",
+      "name": "誘戰抄後之法",
+      "type": "strategy",
+      "aliases": [
+        "彭越撓楚之法"
+      ],
+      "description": "李傕、郭汜輪番誘戰、抄後，使呂布欲戰不得。",
+      "evidence": [
+        "「效彭越撓楚之法」"
+      ]
+    },
+    {
+      "id": "event_fengyi_aftermath",
+      "name": "鳳儀亭餘波",
+      "type": "event",
+      "aliases": [],
+      "description": "貂蟬與呂布之事激化董卓、呂布嫌隙，王允後續加以利用。",
+      "evidence": [
+        "「鳳儀亭相遇之事」"
+      ]
+    },
+    {
+      "id": "event_wang_lu_plot",
+      "name": "王允聯呂誅董",
+      "type": "event",
+      "aliases": [],
+      "description": "王允激怒呂布，並與士孫瑞、黃琬、李肅等部署誅董。",
+      "evidence": [
+        "「臨期有計」",
+        "「共作忠臣」"
+      ]
+    },
+    {
+      "id": "event_dong_assassination",
+      "name": "董卓被誅",
+      "type": "event",
+      "aliases": [
+        "奉詔討賊"
+      ],
+      "description": "董卓入朝時被伏兵攻擊，呂布刺殺，李肅割首。",
+      "evidence": [
+        "「有詔討賊」",
+        "「割頭在手」"
+      ]
+    },
+    {
+      "id": "event_meiwu_confiscation",
+      "name": "抄籍郿塢",
+      "type": "event",
+      "aliases": [],
+      "description": "王允命呂布、皇甫嵩、李肅領兵到郿塢，抄董卓家產並誅其親屬。",
+      "evidence": [
+        "「至郿塢抄籍」",
+        "「悉皆誅戮」"
+      ]
+    },
+    {
+      "id": "event_cai_yong_death",
+      "name": "蔡邕哭董卓被殺",
+      "type": "event",
+      "aliases": [],
+      "description": "蔡邕哭董卓，王允以其為漢臣反哭賊雖而處死。",
+      "evidence": [
+        "「伏其屍而大哭」",
+        "「獨敢哭耶」"
+      ]
+    },
+    {
+      "id": "event_changan_campaign",
+      "name": "李傕郭汜犯長安",
+      "type": "battle",
+      "aliases": [
+        "犯長安"
+      ],
+      "description": "李傕等聽賈詡之策，合牛輔軍，分路攻向長安。",
+      "evidence": [
+        "「殺奔長安來」",
+        "「四人陸續進發」"
+      ]
+    },
+    {
+      "id": "battle_niu_fu_li_su",
+      "name": "牛輔劫寨破李肅",
+      "type": "battle",
+      "aliases": [],
+      "description": "李肅先勝牛輔，夜間反被牛輔劫寨擊敗。",
+      "evidence": [
+        "「竟來劫寨」",
+        "「折軍大半」"
+      ]
+    },
+    {
+      "id": "event_niu_fu_death",
+      "name": "牛輔被胡赤兒殺",
+      "type": "event",
+      "aliases": [],
+      "description": "牛輔欲攜金珠逃走，胡赤兒為奪財殺之，後被呂布誅。",
+      "evidence": [
+        "「殺死牛輔」",
+        "「即將赤兒誅殺」"
+      ]
+    },
+    {
+      "id": "battle_lvbu_vs_lijue",
+      "name": "呂布與李傕郭汜山下交鋒",
+      "type": "battle",
+      "aliases": [],
+      "description": "李傕誘呂布至山下，郭汜抄後，輪番進退困擾呂布。",
+      "evidence": [
+        "「每日誘他廝殺」",
+        "「郭汜在陣後殺來」"
+      ]
+    },
+    {
+      "id": "event_changan_fall",
+      "name": "長安陷落",
+      "type": "event",
+      "aliases": [],
+      "description": "李蒙、王方為內應開門，四路賊軍入城，呂布敗走。",
+      "evidence": [
+        "「偷開城門」",
+        "「四路賊軍一齊擁入」"
+      ]
+    },
+    {
+      "id": "event_wang_yun_death",
+      "name": "王允遇害",
+      "type": "event",
+      "aliases": [],
+      "description": "王允拒絕逃走，長安陷落後現身，被李傕、郭汜等殺害。",
+      "evidence": [
+        "「王允在此」",
+        "「眾賊殺了王允」"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_dong_zhuo",
+      "target": "title_taishi",
+      "type": "擁有官位",
+      "description": "董卓被稱為太師。",
+      "evidence": [
+        "「董太師」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "title_situ",
+      "type": "擁有官位",
+      "description": "王允官為司徒。",
+      "evidence": [
+        "「司徒王允」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "title_wenhou",
+      "type": "擁有稱號",
+      "description": "呂布被稱為溫侯。",
+      "evidence": [
+        "「溫侯何不從太師去」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_shi_sunrui",
+      "target": "title_pushe",
+      "type": "擁有官位",
+      "description": "士孫瑞官為僕射。",
+      "evidence": [
+        "「僕射士孫瑞」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huang_wan",
+      "target": "title_sili_xiaowei",
+      "type": "擁有官位",
+      "description": "黃琬官為司隸校尉。",
+      "evidence": [
+        "「司隸校尉黃琬」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_su",
+      "target": "title_qidu_wei",
+      "type": "擁有官位",
+      "description": "李肅官為騎都尉。",
+      "evidence": [
+        "「騎都尉李肅」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cai_yong",
+      "target": "title_shizhong",
+      "type": "擁有官位",
+      "description": "蔡邕官為侍中。",
+      "evidence": [
+        "「侍中蔡邕」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_ma_midi",
+      "target": "title_taifu",
+      "type": "擁有官位",
+      "description": "馬日磾官為太傅。",
+      "evidence": [
+        "「太傅馬日磾」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_niu_fu",
+      "target": "title_zhonglangjiang",
+      "type": "擁有官位",
+      "description": "牛輔官為中郎將。",
+      "evidence": [
+        "「中郎將牛輔」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiandi",
+      "target": "title_tianzi",
+      "type": "擁有稱號",
+      "description": "獻帝為天子、陛下。",
+      "evidence": [
+        "「天子有詔」",
+        "「陛下」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_lv_bu",
+      "type": "父子名分",
+      "description": "董卓稱與呂布有父子之分。",
+      "evidence": [
+        "「布與我有父子之分」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_diao_chan",
+      "type": "寵愛控制",
+      "description": "董卓寵愛貂蟬，欲攜其歸郿塢並許立為貴妃。",
+      "evidence": [
+        "「歸郿塢去」",
+        "「立汝為貴妃」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_diao_chan",
+      "target": "char_lv_bu",
+      "type": "牽動怨恨",
+      "description": "貂蟬在車中作痛哭狀，使呂布嘆惜痛恨。",
+      "evidence": [
+        "「如痛哭之狀」",
+        "「嘆惜痛恨」"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "char_diao_chan",
+      "type": "名義父女",
+      "description": "王允稱貂蟬為自己的女兒。",
+      "evidence": [
+        "「淫吾之女」"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_li_ru",
+      "target": "char_dong_zhuo",
+      "type": "勸諫輔佐",
+      "description": "李儒扶起董卓並勸其顧全呂布。",
+      "evidence": [
+        "「李儒扶起董卓」",
+        "「勸解」"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "char_lv_bu",
+      "type": "說服結盟",
+      "description": "王允激呂布雪恥，令其同謀誅董。",
+      "evidence": [
+        "「誓當殺此老賊」",
+        "「臨期有計」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "strat_red_skirt",
+      "type": "使用策略",
+      "description": "王允借貂蟬離間董卓與呂布。",
+      "evidence": [
+        "「司徒妙算托紅裙」"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "char_shi_sunrui",
+      "type": "密議",
+      "description": "王允請士孫瑞商議誅董。",
+      "evidence": [
+        "「請僕射士孫瑞」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "char_huang_wan",
+      "type": "密議",
+      "description": "王允請黃琬商議誅董。",
+      "evidence": [
+        "「司隸校尉黃琬商議」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_shi_sunrui",
+      "target": "strat_ambush_gate",
+      "type": "提出策略",
+      "description": "士孫瑞提出以密詔與伏甲兵誅董。",
+      "evidence": [
+        "「此上策也」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "obj_imperial_edict",
+      "type": "運用",
+      "description": "王允陣營以天子密詔交付呂布行事。",
+      "evidence": [
+        "「天子密詔付呂布」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_li_su",
+      "type": "差遣威逼",
+      "description": "呂布召李肅辦理傳詔誘董之事，並稱不去便斬。",
+      "evidence": [
+        "「使人密請肅至」",
+        "「吾先斬之」"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_li_su",
+      "target": "strat_false_abdication",
+      "type": "執行策略",
+      "description": "李肅向董卓詐稱天子欲在未央殿禪位。",
+      "evidence": [
+        "「議將禪位於太師」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_su",
+      "target": "char_dong_zhuo",
+      "type": "誘騙",
+      "description": "李肅假傳詔意，誘董卓離郿塢回京。",
+      "evidence": [
+        "「天子有何詔」",
+        "「故有此詔」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_li_jue",
+      "type": "任命鎮守",
+      "description": "董卓命李傕領軍守郿塢。",
+      "evidence": [
+        "「領飛熊軍三千守郿塢」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_guo_si",
+      "type": "任命鎮守",
+      "description": "董卓命郭汜領軍守郿塢。",
+      "evidence": [
+        "「郭汜、張濟、樊稠四人」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_zhang_ji",
+      "type": "任命鎮守",
+      "description": "董卓命張濟領軍守郿塢。",
+      "evidence": [
+        "「張濟」",
+        "「守郿塢」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dong_zhuo",
+      "target": "char_fan_chou",
+      "type": "任命鎮守",
+      "description": "董卓命樊稠領軍守郿塢。",
+      "evidence": [
+        "「樊稠四人」",
+        "「守郿塢」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_jue",
+      "target": "army_feixiong",
+      "type": "統領",
+      "description": "李傕等四將領飛熊軍三千。",
+      "evidence": [
+        "「領飛熊軍三千」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "army_feixiong",
+      "type": "統領",
+      "description": "郭汜等四將領飛熊軍三千。",
+      "evidence": [
+        "「領飛熊軍三千」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "army_feixiong",
+      "type": "統領",
+      "description": "張濟等四將領飛熊軍三千。",
+      "evidence": [
+        "「領飛熊軍三千」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_fan_chou",
+      "target": "army_feixiong",
+      "type": "統領",
+      "description": "樊稠等四將領飛熊軍三千。",
+      "evidence": [
+        "「領飛熊軍三千」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_dong_zhuo",
+      "type": "刺殺",
+      "description": "呂布奉詔刺殺董卓。",
+      "evidence": [
+        "「有詔討賊」",
+        "「直刺喉」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_su",
+      "target": "char_dong_zhuo",
+      "type": "斬首",
+      "description": "李肅割下董卓首級。",
+      "evidence": [
+        "「割頭在手」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "event_dong_assassination",
+      "type": "主謀",
+      "description": "王允召武士伏殺董卓。",
+      "evidence": [
+        "「武士何在」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_ru",
+      "target": "faction_dong_remnants",
+      "type": "助卓為虐",
+      "description": "呂布指李儒為助董卓作虐者。",
+      "evidence": [
+        "「助卓為虐者，皆李儒也」"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "char_li_ru",
+      "type": "處決",
+      "description": "王允命將李儒赴市曹斬首。",
+      "evidence": [
+        "「縛赴市曹斬之」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "event_meiwu_confiscation",
+      "type": "下令",
+      "description": "王允命呂布、皇甫嵩、李肅領兵抄郿塢。",
+      "evidence": [
+        "「王允又命呂布」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_diao_chan",
+      "type": "取回",
+      "description": "呂布至郿塢後先取貂蟬。",
+      "evidence": [
+        "「先取了貂蟬」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huangfu_song",
+      "target": "faction_dong_family",
+      "type": "處置",
+      "description": "皇甫嵩釋放良家子女，董卓親屬則被誅。",
+      "evidence": [
+        "「盡行釋放」",
+        "「悉皆誅戮」"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "event_meiwu_confiscation",
+      "target": "obj_meiwu_property",
+      "type": "抄籍所得",
+      "description": "郿塢所藏黃金、白金、珠寶、糧食等被收籍。",
+      "evidence": [
+        "「收籍塢所蓄」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "char_cai_yong",
+      "type": "下令處死",
+      "description": "王允因蔡邕哭董卓而殺之。",
+      "evidence": [
+        "「獨敢哭耶」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ma_midi",
+      "target": "char_cai_yong",
+      "type": "求情",
+      "description": "馬日磾稱蔡邕有才，勸王允勿殺。",
+      "evidence": [
+        "「伯喈曠世逸才」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cai_yong",
+      "target": "obj_dong_body",
+      "type": "哭祭",
+      "description": "蔡邕伏董卓屍而哭。",
+      "evidence": [
+        "「伏其屍而大哭」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_wang_yun",
+      "type": "求赦遭拒",
+      "description": "李傕等上表求赦，王允不赦四人。",
+      "evidence": [
+        "「獨不赦此四人」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jia_xu",
+      "target": "strat_jiaxu_attack",
+      "type": "提出策略",
+      "description": "賈詡勸李傕等聚兵殺入長安。",
+      "evidence": [
+        "「不若誘集陝人」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_jiaxu_attack",
+      "target": "event_changan_campaign",
+      "type": "導致",
+      "description": "聚眾報仇之策導致李傕等犯長安。",
+      "evidence": [
+        "「殺奔長安來」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_niu_fu",
+      "type": "合兵",
+      "description": "李傕與牛輔合兵，令其為前驅。",
+      "evidence": [
+        "「便與合兵」",
+        "「使為前驅」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_niu_fu",
+      "target": "char_dong_zhuo",
+      "type": "女婿",
+      "description": "牛輔是董卓女婿。",
+      "evidence": [
+        "「董卓女婿中郎將牛輔」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_su",
+      "target": "char_niu_fu",
+      "type": "迎戰取勝",
+      "description": "李肅先與牛輔交戰並使其敗走。",
+      "evidence": [
+        "「牛輔抵敵不過」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_niu_fu",
+      "target": "char_li_su",
+      "type": "夜襲擊敗",
+      "description": "牛輔夜襲李肅營寨，使李肅軍折半。",
+      "evidence": [
+        "「竟來劫寨」",
+        "「折軍大半」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_li_su",
+      "type": "斬殺",
+      "description": "呂布因李肅挫銳而斬之。",
+      "evidence": [
+        "「遂斬李肅」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_niu_fu",
+      "type": "擊敗",
+      "description": "呂布進兵對牛輔，牛輔大敗。",
+      "evidence": [
+        "「仍復大敗而走」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_niu_fu",
+      "target": "char_hu_chier",
+      "type": "密謀逃亡",
+      "description": "牛輔與胡赤兒商議攜金珠棄軍逃走。",
+      "evidence": [
+        "「喚心腹人胡赤兒商議」"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_hu_chier",
+      "target": "char_niu_fu",
+      "type": "謀殺",
+      "description": "胡赤兒為取金珠殺死牛輔。",
+      "evidence": [
+        "「欲謀取金珠」",
+        "「殺死牛輔」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_hu_chier",
+      "target": "obj_gold_pearls",
+      "type": "奪取",
+      "description": "胡赤兒殺牛輔是為奪金寶。",
+      "evidence": [
+        "「奪其金寶」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_hu_chier",
+      "type": "誅殺",
+      "description": "呂布得知胡赤兒謀殺牛輔後殺之。",
+      "evidence": [
+        "「即將赤兒誅殺」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_jue",
+      "target": "strat_lure_rear",
+      "type": "制定策略",
+      "description": "李傕提出守穀口誘戰、郭汜抄後之法。",
+      "evidence": [
+        "「我引軍守住穀口」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guo_si",
+      "target": "strat_lure_rear",
+      "type": "執行抄後",
+      "description": "郭汜按計領軍抄擊呂布之後。",
+      "evidence": [
+        "「抄擊其後」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_lure_rear",
+      "target": "char_lv_bu",
+      "type": "困擾敵軍",
+      "description": "此法使呂布連日欲戰不得、欲止不得。",
+      "evidence": [
+        "「欲戰不得」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_ji",
+      "target": "loc_changan",
+      "type": "進犯",
+      "description": "張濟分路軍馬進犯長安。",
+      "evidence": [
+        "「竟犯長安」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_fan_chou",
+      "target": "loc_changan",
+      "type": "進犯",
+      "description": "樊稠分路軍馬進犯長安。",
+      "evidence": [
+        "「竟犯長安」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_meng",
+      "target": "army_xiliang",
+      "type": "內應",
+      "description": "李蒙在城中為賊軍內應。",
+      "evidence": [
+        "「為賊內應」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_fang",
+      "target": "army_xiliang",
+      "type": "內應",
+      "description": "王方在城中為賊軍內應。",
+      "evidence": [
+        "「為賊內應」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_meng",
+      "target": "loc_changan",
+      "type": "開門",
+      "description": "李蒙等偷開長安城門。",
+      "evidence": [
+        "「偷開城門」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_fang",
+      "target": "loc_changan",
+      "type": "開門",
+      "description": "王方等偷開長安城門。",
+      "evidence": [
+        "「偷開城門」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_xiliang",
+      "target": "loc_changan",
+      "type": "攻陷",
+      "description": "四路賊軍一齊入長安。",
+      "evidence": [
+        "「一齊擁入」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_wang_yun",
+      "type": "救援邀請",
+      "description": "呂布請王允上馬出關，另圖良策。",
+      "evidence": [
+        "「請司徒上馬」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_yun",
+      "target": "char_lv_bu",
+      "type": "拒絕出逃",
+      "description": "王允願以身死，不隨呂布逃走。",
+      "evidence": [
+        "「允奉身以死」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lv_bu",
+      "target": "char_yuan_shu",
+      "type": "投奔",
+      "description": "呂布棄家小出關後投奔袁術。",
+      "evidence": [
+        "「投袁術去了」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_wang_yun",
+      "type": "殺害",
+      "description": "李傕、郭汜等殺王允。",
+      "evidence": [
+        "「眾賊殺了王允」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guo_si",
+      "target": "char_wang_yun",
+      "type": "殺害",
+      "description": "郭汜與李傕等殺王允。",
+      "evidence": [
+        "「眾賊殺了王允」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_jue",
+      "target": "faction_wang_clan",
+      "type": "屠殺",
+      "description": "李傕等差人殺王允宗族老幼。",
+      "evidence": [
+        "「盡行殺害」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guo_si",
+      "target": "faction_wang_clan",
+      "type": "屠殺",
+      "description": "郭汜等差人殺王允宗族老幼。",
+      "evidence": [
+        "「盡行殺害」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xiandi",
+      "target": "char_li_jue",
+      "type": "質問",
+      "description": "獻帝在宣平門質問李傕入長安意圖。",
+      "evidence": [
+        "「意欲何為」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiandi",
+      "target": "char_guo_si",
+      "type": "質問",
+      "description": "獻帝在宣平門質問郭汜入長安意圖。",
+      "evidence": [
+        "「意欲何為」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_jue",
+      "target": "char_xiandi",
+      "type": "威脅",
+      "description": "李傕等入城後生出殺天子謀大事之意。",
+      "evidence": [
+        "「不殺天子謀大事」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_guo_si",
+      "target": "char_xiandi",
+      "type": "威脅",
+      "description": "郭汜等入城後生出殺天子謀大事之意。",
+      "evidence": [
+        "「不殺天子謀大事」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhong_fu",
+      "target": "event_changan_fall",
+      "type": "死於事件",
+      "description": "種拂死於長安國難。",
+      "evidence": [
+        "「皆死於國難」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_kui",
+      "target": "event_changan_fall",
+      "type": "死於事件",
+      "description": "魯馗死於長安國難。",
+      "evidence": [
+        "「皆死於國難」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_huan",
+      "target": "event_changan_fall",
+      "type": "死於事件",
+      "description": "週奐死於長安國難。",
+      "evidence": [
+        "「皆死於國難」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cui_lie",
+      "target": "event_changan_fall",
+      "type": "死於事件",
+      "description": "崔烈死於長安國難。",
+      "evidence": [
+        "「皆死於國難」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wang_qi",
+      "target": "event_changan_fall",
+      "type": "死於事件",
+      "description": "王頎死於長安國難。",
+      "evidence": [
+        "「皆死於國難」"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "event_fengyi_aftermath",
+      "name": "鳳儀亭餘波",
+      "summary": "李儒勸董卓顧全呂布，貂蟬又使董卓不願割愛，董卓與呂布嫌隙加深。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_li_ru",
+        "char_diao_chan",
+        "char_lv_bu"
+      ],
+      "locations": [
+        "loc_fengyi_ting",
+        "loc_meiwu"
+      ],
+      "evidence": [
+        "「鳳儀亭相遇之事」",
+        "「不便賜與」"
+      ]
+    },
+    {
+      "id": "event_wang_lu_plot",
+      "name": "王允聯呂誅董",
+      "summary": "王允邀呂布入密室，以貂蟬受辱激怒呂布，並與士孫瑞、黃琬定計，派李肅誘董卓入朝。",
+      "participants": [
+        "char_wang_yun",
+        "char_lv_bu",
+        "char_shi_sunrui",
+        "char_huang_wan",
+        "char_li_su"
+      ],
+      "locations": [
+        "loc_changan",
+        "loc_chaomen"
+      ],
+      "evidence": [
+        "「到寒舍商議」",
+        "「伏甲兵於朝門之內」"
+      ]
+    },
+    {
+      "id": "event_li_su_deceives_dong",
+      "name": "李肅詐詔誘董",
+      "summary": "李肅到郿塢，謊稱獻帝病癒並欲在未央殿禪位，使董卓回京。",
+      "participants": [
+        "char_li_su",
+        "char_dong_zhuo",
+        "char_xiandi"
+      ],
+      "locations": [
+        "loc_meiwu",
+        "loc_weiyang_dian",
+        "loc_changan"
+      ],
+      "evidence": [
+        "「議將禪位於太師」",
+        "「排駕回京」"
+      ]
+    },
+    {
+      "id": "event_dong_assassination",
+      "name": "董卓被誅",
+      "summary": "董卓入朝至殿門，王允呼武士出擊，呂布奉詔刺殺，李肅割其首級。",
+      "participants": [
+        "char_dong_zhuo",
+        "char_wang_yun",
+        "char_lv_bu",
+        "char_li_su"
+      ],
+      "locations": [
+        "loc_beiye_men",
+        "loc_chaomen",
+        "loc_changan"
+      ],
+      "evidence": [
+        "「反賊至此」",
+        "「奉詔討賊臣」"
+      ]
+    },
+    {
+      "id": "event_li_ru_executed",
+      "name": "李儒伏誅",
+      "summary": "董卓死後，呂布稱李儒助卓為虐；李儒被家奴綁來，王允命斬於市曹。",
+      "participants": [
+        "char_li_ru",
+        "char_lv_bu",
+        "char_li_su",
+        "char_wang_yun"
+      ],
+      "locations": [
+        "loc_shicao",
+        "loc_changan"
+      ],
+      "evidence": [
+        "「已將李儒綁縛來獻」",
+        "「赴市曹斬之」"
+      ]
+    },
+    {
+      "id": "event_meiwu_confiscation",
+      "name": "抄籍郿塢",
+      "summary": "王允命呂布、皇甫嵩、李肅領兵五萬往郿塢，李傕等逃涼州，貂蟬被呂布取回，董卓親屬被誅，財物被收籍。",
+      "participants": [
+        "char_wang_yun",
+        "char_lv_bu",
+        "char_huangfu_song",
+        "char_li_su",
+        "char_li_jue",
+        "char_guo_si",
+        "char_zhang_ji",
+        "char_fan_chou",
+        "char_diao_chan",
+        "char_dong_mother",
+        "char_dong_min",
+        "char_dong_huang"
+      ],
+      "locations": [
+        "loc_meiwu",
+        "loc_liangzhou"
+      ],
+      "evidence": [
+        "「領兵五萬」",
+        "「先取了貂蟬」",
+        "「收籍塢所蓄」"
+      ]
+    },
+    {
+      "id": "event_cai_yong_death",
+      "name": "蔡邕哭董卓被殺",
+      "summary": "蔡邕因哭董卓屍首被王允問罪，馬日磾為其才求情，但王允仍殺蔡邕。",
+      "participants": [
+        "char_cai_yong",
+        "char_wang_yun",
+        "char_ma_midi",
+        "char_dong_zhuo"
+      ],
+      "locations": [
+        "loc_shicao",
+        "loc_changan"
+      ],
+      "evidence": [
+        "「伏其屍而大哭」",
+        "「伯喈曠世逸才」"
+      ]
+    },
+    {
+      "id": "event_amnesty_refused",
+      "name": "李傕等求赦不成",
+      "summary": "李傕等逃居陝西後上表求赦，王允只不赦四人，遂引發後續反攻。",
+      "participants": [
+        "char_li_jue",
+        "char_guo_si",
+        "char_zhang_ji",
+        "char_fan_chou",
+        "char_wang_yun"
+      ],
+      "locations": [
+        "loc_shanxi",
+        "loc_changan"
+      ],
+      "evidence": [
+        "「上表赦」",
+        "「獨不赦此四人」"
+      ]
+    },
+    {
+      "id": "event_changan_campaign",
+      "name": "李傕郭汜犯長安",
+      "summary": "賈詡勸李傕等勿棄軍單逃，而聚陝人與本部軍馬為董卓報仇；四人聚眾十餘萬，合牛輔軍殺奔長安。",
+      "participants": [
+        "char_jia_xu",
+        "char_li_jue",
+        "char_guo_si",
+        "char_zhang_ji",
+        "char_fan_chou",
+        "char_niu_fu"
+      ],
+      "locations": [
+        "loc_shanxi",
+        "loc_changan"
+      ],
+      "evidence": [
+        "「誘集陝人」",
+        "「聚眾十餘萬」",
+        "「殺奔長安來」"
+      ]
+    },
+    {
+      "id": "battle_niu_fu_li_su",
+      "name": "牛輔劫寨破李肅",
+      "summary": "李肅初戰擊退牛輔，牛輔夜襲其寨，李肅敗走並折軍大半，後被呂布斬首。",
+      "participants": [
+        "char_li_su",
+        "char_niu_fu",
+        "char_lv_bu"
+      ],
+      "locations": [
+        "loc_changan"
+      ],
+      "evidence": [
+        "「牛輔抵敵不過」",
+        "「竟來劫寨」",
+        "「遂斬李肅」"
+      ]
+    },
+    {
+      "id": "event_niu_fu_death",
+      "name": "牛輔被胡赤兒殺",
+      "summary": "牛輔懼呂布，與胡赤兒商議攜金珠棄軍逃走；胡赤兒為奪金珠殺牛輔，隨後被呂布誅殺。",
+      "participants": [
+        "char_niu_fu",
+        "char_hu_chier",
+        "char_lv_bu"
+      ],
+      "locations": [],
+      "evidence": [
+        "「暗藏金珠」",
+        "「殺死牛輔」",
+        "「赤兒誅殺」"
+      ]
+    },
+    {
+      "id": "battle_lvbu_vs_lijue",
+      "name": "呂布與李傕郭汜山下交鋒",
+      "summary": "李傕守穀口誘呂布上山，郭汜抄擊其後，輪番進退，使呂布軍受困；張濟、樊稠又分路犯長安。",
+      "participants": [
+        "char_lv_bu",
+        "char_li_jue",
+        "char_guo_si",
+        "char_zhang_ji",
+        "char_fan_chou"
+      ],
+      "locations": [
+        "loc_gukou",
+        "loc_changan"
+      ],
+      "evidence": [
+        "「守住穀口」",
+        "「抄擊其後」",
+        "「竟犯長安」"
+      ]
+    },
+    {
+      "id": "event_changan_fall",
+      "name": "長安陷落",
+      "summary": "李蒙、王方為內應偷開城門，四路賊軍入城；呂布請王允同逃不成，棄家小投袁術。",
+      "participants": [
+        "char_li_meng",
+        "char_wang_fang",
+        "army_xiliang",
+        "char_lv_bu",
+        "char_wang_yun",
+        "char_yuan_shu"
+      ],
+      "locations": [
+        "loc_changan",
+        "loc_qingsuo_men"
+      ],
+      "evidence": [
+        "「偷開城門」",
+        "「一齊擁入」",
+        "「投袁術去了」"
+      ]
+    },
+    {
+      "id": "event_wang_yun_death",
+      "name": "王允遇害",
+      "summary": "李傕、郭汜縱兵劫掠並逼近內庭，獻帝宣平門止亂；王允現身答辯董卓之罪，終被眾賊殺害，宗族也遭屠戮。",
+      "participants": [
+        "char_wang_yun",
+        "char_li_jue",
+        "char_guo_si",
+        "char_xiandi",
+        "faction_wang_clan"
+      ],
+      "locations": [
+        "loc_xuanping_men",
+        "loc_changan"
+      ],
+      "evidence": [
+        "「王允在此」",
+        "「眾賊殺了王允」",
+        "「盡行殺害」"
+      ]
+    }
+  ],
+  "notes": [
+    "抽取僅依據 c009.md 本章內容。",
+    "正文將賈詡處寫作「賈詬」，章題作「賈詡」，已以「賈詡」為主名並列「賈詬」為別名。"
+  ]
+}

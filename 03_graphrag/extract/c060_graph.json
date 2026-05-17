@@ -1,0 +1,1934 @@
+{
+  "book": "三國演義",
+  "chapter_no": 60,
+  "chapter_title": "張永年反難楊修　龐士元議取西蜀",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_zhang_song",
+      "name": "張松",
+      "type": "character",
+      "aliases": [
+        "張永年",
+        "永年",
+        "張別駕"
+      ],
+      "description": "益州別駕，先為劉璋出使許都，後轉向劉備獻西川圖，與法正、孟達密議獻益州。",
+      "evidence": [
+        "益州別駕，姓張，名松，字永年",
+        "暗畫西川地理圖本",
+        "吾已將益州許劉皇叔矣"
+      ]
+    },
+    {
+      "id": "char_liu_zhang",
+      "name": "劉璋",
+      "type": "character",
+      "aliases": [
+        "劉季玉",
+        "劉益州",
+        "季玉"
+      ],
+      "description": "益州之主，因懼張魯、曹操而派使結好劉備，並親往涪城迎接。",
+      "evidence": [
+        "劉季玉雖有益州之地",
+        "劉益州令某領兵五千遠來迎接",
+        "璋欲自出涪城親接玄德"
+      ]
+    },
+    {
+      "id": "char_zhang_lu",
+      "name": "張魯",
+      "type": "character",
+      "aliases": [],
+      "description": "漢中勢力之主，被劉璋視為北方威脅。",
+      "evidence": [
+        "可解張魯之危",
+        "加之張魯在北，時思侵犯"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹丞相",
+        "丞相"
+      ],
+      "description": "據許都的權臣，慢待張松並展示軍威，成為張松改投劉備的重要原因。",
+      "evidence": [
+        "許都曹操，掃蕩中原",
+        "操先見張松人物猥瑣",
+        "令亂棒打出"
+      ]
+    },
+    {
+      "id": "char_yang_xiu",
+      "name": "楊修",
+      "type": "character",
+      "aliases": [
+        "楊德祖",
+        "德祖"
+      ],
+      "description": "曹操門下掌庫主簿，與張松辯論《孟德新書》，又向曹操薦張松。",
+      "evidence": [
+        "楊修，字德祖",
+        "丞相門下掌庫主簿",
+        "公過目不忘"
+      ]
+    },
+    {
+      "id": "char_yang_biao",
+      "name": "楊彪",
+      "type": "character",
+      "aliases": [],
+      "description": "太尉，楊修之父。",
+      "evidence": [
+        "太尉楊彪之子楊修"
+      ]
+    },
+    {
+      "id": "char_xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操臣僚，與楊修一同諫阻曹操殺張松。",
+      "evidence": [
+        "荀彧亦諫"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳之主，被張松、龐統等視為荊州東面的威脅。",
+      "evidence": [
+        "南有孫權",
+        "荊州東有孫權"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "劉皇叔",
+        "宗兄將軍"
+      ],
+      "description": "駐荊州的漢室宗親，禮遇張松，接受劉璋邀請，引軍入川。",
+      "evidence": [
+        "荊州劉玄德仁義",
+        "玄德引著伏龍、鳳雛",
+        "馬步兵五萬，起程西行"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "伏龍"
+      ],
+      "description": "劉備軍師，先探張松消息，後受命總守荊州。",
+      "evidence": [
+        "孔明便使人入許都打探消息",
+        "玄德引著伏龍、鳳雛",
+        "孔明總守荊"
+      ]
+    },
+    {
+      "id": "char_pang_tong",
+      "name": "龐統",
+      "type": "character",
+      "aliases": [
+        "龐士元",
+        "士元",
+        "鳳雛"
+      ],
+      "description": "劉備謀士，力主取益州，隨軍入川並提出圖取劉璋之計。",
+      "evidence": [
+        "玄德引著伏龍、鳳雛",
+        "龐統進曰",
+        "龐統為軍師"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "趙子龍",
+        "子龍"
+      ],
+      "description": "劉備大將，迎接張松，後屯江陵、鎮公安。",
+      "evidence": [
+        "趙雲等候多時",
+        "趙雲屯江陵，鎮公安"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "關雲長",
+        "雲長",
+        "關公"
+      ],
+      "description": "劉備大將，奉命接待張松，後守襄陽要路、青泥隘口。",
+      "evidence": [
+        "令關某灑掃驛庭",
+        "關公拒襄陽要路，當青泥隘口"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張翼德",
+        "翼德"
+      ],
+      "description": "劉備大將，受命領四郡巡江。",
+      "evidence": [
+        "張飛領四郡巡江"
+      ]
+    },
+    {
+      "id": "char_fa_zheng",
+      "name": "法正",
+      "type": "character",
+      "aliases": [
+        "法孝直",
+        "孝直"
+      ],
+      "description": "張松心腹契友，支持獻益州，受劉璋命出使荊州。",
+      "evidence": [
+        "法正、孟達。此二人必能相助",
+        "法正曰：吾料劉璋無能",
+        "令法正為使"
+      ]
+    },
+    {
+      "id": "char_meng_da",
+      "name": "孟達",
+      "type": "character",
+      "aliases": [
+        "孟子慶",
+        "子慶"
+      ],
+      "description": "張松、法正同謀者，受命領五千兵迎劉備入川。",
+      "evidence": [
+        "孟達至",
+        "非劉玄德不可",
+        "孟達領精兵五千"
+      ]
+    },
+    {
+      "id": "char_huang_quan",
+      "name": "黃權",
+      "type": "character",
+      "aliases": [
+        "黃公衡",
+        "公衡"
+      ],
+      "description": "劉璋府下主簿，多次諫阻迎劉備入川。",
+      "evidence": [
+        "姓黃，名權，字公衡",
+        "現為劉璋府下主簿",
+        "可先斬張松，後絕劉備"
+      ]
+    },
+    {
+      "id": "char_wang_lei",
+      "name": "王累",
+      "type": "character",
+      "aliases": [],
+      "description": "劉璋帳前從事官，諫阻迎劉備，後倒吊城門死諫。",
+      "evidence": [
+        "帳前從事官王累",
+        "自用繩索倒吊於城門之上"
+      ]
+    },
+    {
+      "id": "char_li_hui",
+      "name": "李恢",
+      "type": "character",
+      "aliases": [],
+      "description": "建寧俞元人，伏階諫劉璋勿迎劉備入川。",
+      "evidence": [
+        "姓李，名恢",
+        "若容劉備入川，是猶迎虎於門也"
+      ]
+    },
+    {
+      "id": "char_huang_zhong",
+      "name": "黃忠",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備入川軍中前部將領。",
+      "evidence": [
+        "玄德令黃忠為前部"
+      ]
+    },
+    {
+      "id": "char_wei_yan",
+      "name": "魏延",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備入川軍中後軍將領。",
+      "evidence": [
+        "魏延為後軍"
+      ]
+    },
+    {
+      "id": "char_liu_feng",
+      "name": "劉封",
+      "type": "character",
+      "aliases": [],
+      "description": "隨劉備居中軍入川。",
+      "evidence": [
+        "玄德自與劉封、關平在中軍"
+      ]
+    },
+    {
+      "id": "char_guan_ping",
+      "name": "關平",
+      "type": "character",
+      "aliases": [],
+      "description": "隨劉備居中軍入川。",
+      "evidence": [
+        "玄德自與劉封、關平在中軍"
+      ]
+    },
+    {
+      "id": "char_liao_hua",
+      "name": "廖化",
+      "type": "character",
+      "aliases": [],
+      "description": "臨劉備入川時引一軍來降，後被命輔佐關羽。",
+      "evidence": [
+        "廖化引一軍來降",
+        "教廖化輔佐雲長"
+      ]
+    },
+    {
+      "id": "char_liu_gui",
+      "name": "劉璝",
+      "type": "character",
+      "aliases": [],
+      "description": "劉璋部下將佐，提醒劉璋防備劉備。",
+      "evidence": [
+        "部下將佐劉璝",
+        "劉備柔中有剛，其心未可測"
+      ]
+    },
+    {
+      "id": "char_ling_bao",
+      "name": "泠苞",
+      "type": "character",
+      "aliases": [],
+      "description": "劉璋部下將佐，與眾官同勸防備劉備。",
+      "evidence": [
+        "劉璝、泠苞、張任、鄧賢等"
+      ]
+    },
+    {
+      "id": "char_zhang_ren",
+      "name": "張任",
+      "type": "character",
+      "aliases": [],
+      "description": "劉璋部下將佐，與眾官同勸防備劉備。",
+      "evidence": [
+        "劉璝、泠苞、張任、鄧賢等"
+      ]
+    },
+    {
+      "id": "char_deng_xian",
+      "name": "鄧賢",
+      "type": "character",
+      "aliases": [],
+      "description": "劉璋部下將佐，與眾官同勸防備劉備。",
+      "evidence": [
+        "劉璝、泠苞、張任、鄧賢等"
+      ]
+    },
+    {
+      "id": "fac_liu_zhang",
+      "name": "劉璋勢力",
+      "type": "faction",
+      "aliases": [
+        "益州勢力",
+        "西川文武"
+      ],
+      "description": "以劉璋為主的益州政權，內部有人主張迎劉備，有人堅決反對。",
+      "evidence": [
+        "劉季玉雖有益州之地",
+        "蜀中文官各顧妻子"
+      ]
+    },
+    {
+      "id": "fac_liu_bei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州劉備軍"
+      ],
+      "description": "以劉備為主，據荊州並準備西取益州。",
+      "evidence": [
+        "皇叔守荊州",
+        "馬步兵五萬，起程西行"
+      ]
+    },
+    {
+      "id": "fac_cao_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "許都曹操"
+      ],
+      "description": "據許都、相府議政，軍威強盛。",
+      "evidence": [
+        "許都曹操",
+        "國政皆在相府商議"
+      ]
+    },
+    {
+      "id": "fac_zhang_lu",
+      "name": "張魯勢力",
+      "type": "faction",
+      "aliases": [
+        "漢中張魯"
+      ],
+      "description": "盤踞漢中，威脅益州。",
+      "evidence": [
+        "曹操興兵取漢中，以圖張魯"
+      ]
+    },
+    {
+      "id": "fac_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "孫權勢力"
+      ],
+      "description": "孫權所據勢力，向劉備討荊州。",
+      "evidence": [
+        "荊州乃暫借東吳的",
+        "東有孫權，常懷虎踞"
+      ]
+    },
+    {
+      "id": "loc_yizhou",
+      "name": "益州",
+      "type": "location",
+      "aliases": [
+        "西川",
+        "蜀中"
+      ],
+      "description": "劉璋所據之地，也是張松、法正、孟達欲獻給劉備的目標。",
+      "evidence": [
+        "劉季玉雖有益州之地",
+        "吾已將益州許劉皇叔矣"
+      ]
+    },
+    {
+      "id": "loc_hanzhong",
+      "name": "漢中",
+      "type": "location",
+      "aliases": [],
+      "description": "張魯據地，張松初議請曹操攻取此處以解益州之危。",
+      "evidence": [
+        "曹操興兵取漢中，以圖張魯"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操所在之地，張松奉使到此。",
+      "evidence": [
+        "取路赴許都",
+        "張松到了許都館驛"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備當時駐地，張松回益州時繞道至此，劉備也由此起兵入川。",
+      "evidence": [
+        "早有人報入荊州",
+        "劉玄德仁義",
+        "皇叔守荊州"
+      ]
+    },
+    {
+      "id": "loc_xijiaochang",
+      "name": "西教場",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操點軍展示虎衛雄兵之處。",
+      "evidence": [
+        "我於西教場點軍",
+        "同至西教場"
+      ]
+    },
+    {
+      "id": "loc_shili_changting",
+      "name": "十里長亭",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備為張松設宴送行，張松於此吐露獻西川之意。",
+      "evidence": [
+        "玄德於十里長亭設宴送行"
+      ]
+    },
+    {
+      "id": "loc_chengdu",
+      "name": "成都",
+      "type": "location",
+      "aliases": [],
+      "description": "益州中心，龐統主張可一擁入成都而定。",
+      "evidence": [
+        "一擁入成都"
+      ]
+    },
+    {
+      "id": "loc_fucheng",
+      "name": "涪城",
+      "type": "location",
+      "aliases": [],
+      "description": "劉璋準備迎接劉備並與之相見的地方。",
+      "evidence": [
+        "璋欲自出涪城親接玄德",
+        "涪城離成都三百六十里"
+      ]
+    },
+    {
+      "id": "loc_dianjiang",
+      "name": "墊江",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備前軍入川途中到達之地。",
+      "evidence": [
+        "玄德前軍已到墊江"
+      ]
+    },
+    {
+      "id": "loc_fujiang",
+      "name": "涪江",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備、劉璋兩軍屯駐相會之處。",
+      "evidence": [
+        "兩軍皆屯於涪江之上"
+      ]
+    },
+    {
+      "id": "loc_qingni_aikou",
+      "name": "青泥隘口",
+      "type": "location",
+      "aliases": [
+        "襄陽要路"
+      ],
+      "description": "關羽受命拒守的荊州要地。",
+      "evidence": [
+        "關公拒襄陽要路，當青泥隘口"
+      ]
+    },
+    {
+      "id": "loc_jiangling",
+      "name": "江陵",
+      "type": "location",
+      "aliases": [],
+      "description": "趙雲屯駐之地。",
+      "evidence": [
+        "趙雲屯江陵"
+      ]
+    },
+    {
+      "id": "loc_gongan",
+      "name": "公安",
+      "type": "location",
+      "aliases": [],
+      "description": "趙雲受命鎮守之地。",
+      "evidence": [
+        "鎮公安"
+      ]
+    },
+    {
+      "id": "obj_xichuan_map",
+      "name": "西川地理圖本",
+      "type": "object",
+      "aliases": [
+        "西川圖",
+        "此圖"
+      ],
+      "description": "張松暗畫並獻給劉備的益州地理軍政圖。",
+      "evidence": [
+        "暗畫西川地理圖本藏之",
+        "山川險要，府庫錢糧，一一俱載"
+      ]
+    },
+    {
+      "id": "obj_gifts",
+      "name": "進獻之物",
+      "type": "object",
+      "aliases": [
+        "金珠錦綹"
+      ],
+      "description": "劉璋派張松入許都時準備給曹操的貢物。",
+      "evidence": [
+        "收拾金珠錦綹，為進獻之物"
+      ]
+    },
+    {
+      "id": "obj_mengde_xinshu",
+      "name": "《孟德新書》",
+      "type": "object",
+      "aliases": [
+        "孟德新書"
+      ],
+      "description": "楊修展示給張松看的兵書，成為張松反難楊修的核心物件。",
+      "evidence": [
+        "其題曰《孟德新書》",
+        "共一十三篇"
+      ]
+    },
+    {
+      "id": "obj_liu_zhang_letter",
+      "name": "劉璋書信",
+      "type": "object",
+      "aliases": [
+        "書信"
+      ],
+      "description": "劉璋遣法正帶往荊州，請劉備為援的書信。",
+      "evidence": [
+        "呈上書信",
+        "族弟劉璋，再拜致書"
+      ]
+    },
+    {
+      "id": "obj_wang_lei_memorial",
+      "name": "王累諫章",
+      "type": "object",
+      "aliases": [
+        "諫章"
+      ],
+      "description": "王累倒吊城門時所持，勸劉璋勿迎劉備。",
+      "evidence": [
+        "一手執諫章",
+        "取所執諫章觀之"
+      ]
+    },
+    {
+      "id": "title_yizhou_biejia",
+      "name": "益州別駕",
+      "type": "title",
+      "aliases": [
+        "別駕"
+      ],
+      "description": "張松在劉璋幕下的官職。",
+      "evidence": [
+        "乃益州別駕"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在章中所居官位。",
+      "evidence": [
+        "曹丞相",
+        "丞相大才"
+      ]
+    },
+    {
+      "id": "title_zhangku_zhubu",
+      "name": "掌庫主簿",
+      "type": "title",
+      "aliases": [
+        "丞相門下掌庫主簿"
+      ],
+      "description": "楊修在曹操門下的職位。",
+      "evidence": [
+        "現為丞相門下掌庫主簿"
+      ]
+    },
+    {
+      "id": "title_zhubu",
+      "name": "主簿",
+      "type": "title",
+      "aliases": [
+        "劉璋府下主簿"
+      ],
+      "description": "黃權在劉璋府下的職位。",
+      "evidence": [
+        "現為劉璋府下主簿"
+      ]
+    },
+    {
+      "id": "title_congshi",
+      "name": "帳前從事官",
+      "type": "title",
+      "aliases": [
+        "從事"
+      ],
+      "description": "王累在劉璋帳前的職位。",
+      "evidence": [
+        "乃帳前從事官王累"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備軍中謀主職責，本章中龐統隨軍任軍師。",
+      "evidence": [
+        "龐統為軍師"
+      ]
+    },
+    {
+      "id": "title_qianbu",
+      "name": "前部",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備入川軍前鋒職務，由黃忠擔任。",
+      "evidence": [
+        "黃忠為前部"
+      ]
+    },
+    {
+      "id": "title_houjun",
+      "name": "後軍",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備入川軍後軍職務，由魏延擔任。",
+      "evidence": [
+        "魏延為後軍"
+      ]
+    },
+    {
+      "id": "strat_cao_hanzhong",
+      "name": "說曹操取漢中之策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "張松建議劉璋遣使許都，請曹操攻張魯以解益州壓力。",
+      "evidence": [
+        "說曹操興兵取漢中，以圖張魯"
+      ]
+    },
+    {
+      "id": "strat_ally_liu_bei",
+      "name": "結好劉備外援之策",
+      "type": "strategy",
+      "aliases": [
+        "迎玄德入川為援"
+      ],
+      "description": "張松在劉璋前主張遣法正、孟達結好劉備以拒曹操、張魯。",
+      "evidence": [
+        "使為外援，可以拒絕操、張魯",
+        "迎玄德入川為援"
+      ]
+    },
+    {
+      "id": "strat_offer_yizhou",
+      "name": "獻益州於劉備之謀",
+      "type": "strategy",
+      "aliases": [
+        "取西川",
+        "獻西川"
+      ],
+      "description": "張松、法正、孟達暗中策劃將益州交給劉備。",
+      "evidence": [
+        "吾已將益州許劉皇叔矣",
+        "將欲獻益州耶"
+      ]
+    },
+    {
+      "id": "strat_close_borders",
+      "name": "閉境絕塞之策",
+      "type": "strategy",
+      "aliases": [],
+      "description": "黃權提出不迎外援，閉守邊境以待時機。",
+      "evidence": [
+        "不如閉境絕塞，深溝高壘"
+      ]
+    },
+    {
+      "id": "strat_banquet_kill",
+      "name": "筵上殺劉璋之計",
+      "type": "strategy",
+      "aliases": [
+        "擲杯為號",
+        "乘便圖之"
+      ],
+      "description": "龐統、法正依張松密書，主張趁涪城相會設宴圖劉璋。",
+      "evidence": [
+        "擲杯為號，就筵上殺之",
+        "便可圖之"
+      ]
+    },
+    {
+      "id": "strat_defend_jingzhou",
+      "name": "分兵守荊州",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備入川前安排諸葛亮、關羽、張飛、趙雲等守荊州要地。",
+      "evidence": [
+        "荊州重地，必須分兵守之",
+        "孔明總守荊"
+      ]
+    },
+    {
+      "id": "strat_strict_discipline",
+      "name": "秋毫無犯號令",
+      "type": "strategy",
+      "aliases": [],
+      "description": "劉備入川軍號令嚴明，禁止妄取百姓一物。",
+      "evidence": [
+        "如有妄取百姓一物者斬",
+        "秋毫無犯"
+      ]
+    },
+    {
+      "id": "army_tiger_guard",
+      "name": "虎衛雄兵五萬",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操在西教場點閱展示的軍隊。",
+      "evidence": [
+        "操點虎衛雄兵五萬"
+      ]
+    },
+    {
+      "id": "army_meng_da_5000",
+      "name": "精兵五千",
+      "type": "army",
+      "aliases": [
+        "孟達五千兵"
+      ],
+      "description": "劉璋派孟達率領以迎劉備入川的兵馬。",
+      "evidence": [
+        "孟達領精兵五千"
+      ]
+    },
+    {
+      "id": "army_liu_bei_50000",
+      "name": "馬步兵五萬",
+      "type": "army",
+      "aliases": [
+        "劉備入川軍"
+      ],
+      "description": "劉備西行入川所率主力。",
+      "evidence": [
+        "馬步兵五萬，起程西行"
+      ]
+    },
+    {
+      "id": "army_liu_zhang_30000",
+      "name": "三萬人馬",
+      "type": "army",
+      "aliases": [
+        "劉璋迎接軍"
+      ],
+      "description": "劉璋往涪城迎劉備時所帶兵馬。",
+      "evidence": [
+        "劉璋將三萬人馬往澇城來"
+      ]
+    },
+    {
+      "id": "army_liao_hua",
+      "name": "廖化一軍",
+      "type": "army",
+      "aliases": [],
+      "description": "廖化率來歸降劉備的部隊。",
+      "evidence": [
+        "廖化引一軍來降"
+      ]
+    },
+    {
+      "id": "battle_chibi",
+      "name": "赤壁鏖兵",
+      "type": "battle",
+      "aliases": [
+        "赤壁"
+      ],
+      "description": "本章中被張松、劉璋等引用，用以說明曹操曾敗於孫劉一方。",
+      "evidence": [
+        "赤壁遇周郎",
+        "赤壁鏖兵之後"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_zhang_song",
+      "target": "title_yizhou_biejia",
+      "type": "擔任官職",
+      "description": "張松是劉璋幕下益州別駕。",
+      "evidence": [
+        "乃益州別駕"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "loc_yizhou",
+      "type": "據有",
+      "description": "劉璋據有益州。",
+      "evidence": [
+        "劉季玉雖有益州之地"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "fac_liu_zhang",
+      "type": "統領",
+      "description": "劉璋為益州勢力之主。",
+      "evidence": [
+        "主公可備進獻之物"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_lu",
+      "target": "loc_hanzhong",
+      "type": "據守",
+      "description": "張魯被視為漢中威脅。",
+      "evidence": [
+        "取漢中，以圖張魯"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhang_lu",
+      "target": "char_liu_zhang",
+      "type": "威脅",
+      "description": "張魯屢思侵犯劉璋境界。",
+      "evidence": [
+        "張魯在北，時思侵犯"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "strat_cao_hanzhong",
+      "type": "提出計策",
+      "description": "張松建議請曹操攻漢中以制張魯。",
+      "evidence": [
+        "說曹操興兵取漢中"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "char_zhang_song",
+      "type": "派遣",
+      "description": "劉璋派張松帶進獻之物出使許都。",
+      "evidence": [
+        "遣張松為使"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "obj_gifts",
+      "type": "備辦",
+      "description": "劉璋準備金珠錦綹作為貢物。",
+      "evidence": [
+        "收拾金珠錦綹"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "obj_xichuan_map",
+      "type": "暗藏攜帶",
+      "description": "張松暗畫西川圖並帶往許都。",
+      "evidence": [
+        "暗畫西川地理圖本藏之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "title_chengxiang",
+      "type": "擔任官職",
+      "description": "曹操在章中稱丞相。",
+      "evidence": [
+        "丞相大才"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yang_xiu",
+      "target": "title_zhangku_zhubu",
+      "type": "擔任官職",
+      "description": "楊修為曹操門下掌庫主簿。",
+      "evidence": [
+        "丞相門下掌庫主簿"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yang_biao",
+      "target": "char_yang_xiu",
+      "type": "父子",
+      "description": "楊彪是楊修之父。",
+      "evidence": [
+        "太尉楊彪之子楊修"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "char_yang_xiu",
+      "type": "反難辯論",
+      "description": "張松與楊修圍繞《孟德新書》辯論，展示過目不忘。",
+      "evidence": [
+        "公過目不忘"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yang_xiu",
+      "target": "obj_mengde_xinshu",
+      "type": "展示",
+      "description": "楊修令張松觀看《孟德新書》。",
+      "evidence": [
+        "觀其題曰《孟德新書》"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_song",
+      "type": "慢待逐出",
+      "description": "曹操因張松言語衝撞而怒，命亂棒打出。",
+      "evidence": [
+        "令亂棒打出"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_yang_xiu",
+      "target": "char_zhang_song",
+      "type": "諫救",
+      "description": "楊修諫曹操勿殺張松。",
+      "evidence": [
+        "松雖可斬，奈從蜀道而來入貢"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "char_zhang_song",
+      "type": "諫救",
+      "description": "荀彧也為張松諫免死罪。",
+      "evidence": [
+        "荀彧亦諫"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_tiger_guard",
+      "type": "點閱",
+      "description": "曹操在西教場點閱虎衛雄兵五萬。",
+      "evidence": [
+        "操點虎衛雄兵五萬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_tiger_guard",
+      "target": "loc_xijiaochang",
+      "type": "駐列",
+      "description": "虎衛雄兵列於西教場。",
+      "evidence": [
+        "佈於教場中"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_zhang_song",
+      "type": "迎接",
+      "description": "趙雲奉劉備安排在路上迎張松。",
+      "evidence": [
+        "趙雲等候多時"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_zhang_song",
+      "type": "接待",
+      "description": "關羽奉命在館驛接待張松。",
+      "evidence": [
+        "令關某灑掃驛庭"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_song",
+      "type": "禮遇",
+      "description": "劉備親自迎接並設宴款待張松。",
+      "evidence": [
+        "親自來接",
+        "設宴款待"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "char_liu_bei",
+      "type": "獻圖",
+      "description": "張松將西川地理圖獻給劉備。",
+      "evidence": [
+        "敢獻此圖"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "strat_offer_yizhou",
+      "type": "提出密謀",
+      "description": "張松主動勸劉備速取西川。",
+      "evidence": [
+        "明公可速圖之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "strat_offer_yizhou",
+      "target": "char_liu_bei",
+      "type": "受益目標",
+      "description": "獻益州之謀以劉備為承受者。",
+      "evidence": [
+        "吾已將益州許劉皇叔矣"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "char_fa_zheng",
+      "type": "心腹契友",
+      "description": "張松稱法正為可助取蜀的心腹契友。",
+      "evidence": [
+        "心腹契友二人：法正、孟達"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "char_meng_da",
+      "type": "心腹契友",
+      "description": "張松稱孟達為可助取蜀的心腹契友。",
+      "evidence": [
+        "心腹契友二人：法正、孟達"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_fa_zheng",
+      "target": "strat_offer_yizhou",
+      "type": "支持",
+      "description": "法正認同張松獻益州之謀。",
+      "evidence": [
+        "此心相同，又何疑焉"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_meng_da",
+      "target": "strat_offer_yizhou",
+      "type": "支持",
+      "description": "孟達判定益州非獻劉玄德不可。",
+      "evidence": [
+        "非劉玄德不可"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "char_fa_zheng",
+      "type": "推薦出使",
+      "description": "張松向劉璋推薦法正為使。",
+      "evidence": [
+        "非法正、孟達，不可往也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "char_meng_da",
+      "type": "推薦出使",
+      "description": "張松向劉璋推薦孟達同行。",
+      "evidence": [
+        "非法正、孟達，不可往也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "char_fa_zheng",
+      "type": "遣使",
+      "description": "劉璋命法正先往荊州通好。",
+      "evidence": [
+        "令法正為使，先通情好"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "char_meng_da",
+      "type": "派兵迎接",
+      "description": "劉璋命孟達率五千精兵迎劉備入川。",
+      "evidence": [
+        "孟達領精兵五千，迎玄德入川"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_meng_da",
+      "target": "army_meng_da_5000",
+      "type": "統領",
+      "description": "孟達統領五千精兵。",
+      "evidence": [
+        "孟達領精兵五千"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_quan",
+      "target": "title_zhubu",
+      "type": "擔任官職",
+      "description": "黃權為劉璋府下主簿。",
+      "evidence": [
+        "劉璋府下主簿"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_quan",
+      "target": "strat_ally_liu_bei",
+      "type": "反對",
+      "description": "黃權認為召劉備入蜀會危及西川。",
+      "evidence": [
+        "可先斬張松，後絕劉備"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_quan",
+      "target": "strat_close_borders",
+      "type": "提出計策",
+      "description": "黃權主張閉境絕塞、深溝高壘。",
+      "evidence": [
+        "閉境絕塞，深溝高壘"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wang_lei",
+      "target": "title_congshi",
+      "type": "擔任官職",
+      "description": "王累為帳前從事官。",
+      "evidence": [
+        "帳前從事官王累"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wang_lei",
+      "target": "strat_ally_liu_bei",
+      "type": "反對",
+      "description": "王累認為聽張松之說會自取其禍。",
+      "evidence": [
+        "自取其禍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "char_huang_quan",
+      "type": "不納諫",
+      "description": "劉璋不聽黃權反對迎劉備之言。",
+      "evidence": [
+        "遂不從其言"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "char_wang_lei",
+      "type": "不納諫",
+      "description": "劉璋叱退王累。",
+      "evidence": [
+        "再休亂道"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_fa_zheng",
+      "target": "obj_liu_zhang_letter",
+      "type": "呈遞",
+      "description": "法正到荊州後向劉備呈上劉璋書信。",
+      "evidence": [
+        "呈上書信"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "obj_liu_zhang_letter",
+      "target": "char_liu_bei",
+      "type": "請援",
+      "description": "劉璋書信以宗族患難相扶為由請劉備相助。",
+      "evidence": [
+        "族弟劉璋，再拜致書"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_pang_tong",
+      "target": "strat_offer_yizhou",
+      "type": "主張",
+      "description": "龐統勸劉備取益州以資大業。",
+      "evidence": [
+        "益州戶口百萬，土廣財富，可資大業"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strat_defend_jingzhou",
+      "type": "主張",
+      "description": "諸葛亮指出荊州重地，須分兵守之。",
+      "evidence": [
+        "荊州重地，必須分兵守之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhuge_liang",
+      "type": "委任鎮守",
+      "description": "劉備命諸葛亮總守荊州。",
+      "evidence": [
+        "孔明總守荊"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guan_yu",
+      "type": "委任拒守",
+      "description": "劉備安排關羽拒守襄陽要路、青泥隘口。",
+      "evidence": [
+        "關公拒襄陽要路，當青泥隘口"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhang_fei",
+      "type": "委任巡守",
+      "description": "劉備安排張飛領四郡巡江。",
+      "evidence": [
+        "張飛領四郡巡江"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_zhao_yun",
+      "type": "委任屯鎮",
+      "description": "劉備安排趙雲屯江陵、鎮公安。",
+      "evidence": [
+        "趙雲屯江陵，鎮公安"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_zhong",
+      "target": "title_qianbu",
+      "type": "擔任軍職",
+      "description": "黃忠為劉備入川軍前部。",
+      "evidence": [
+        "黃忠為前部"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wei_yan",
+      "target": "title_houjun",
+      "type": "擔任軍職",
+      "description": "魏延為劉備入川軍後軍。",
+      "evidence": [
+        "魏延為後軍"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pang_tong",
+      "target": "title_junshi",
+      "type": "擔任軍職",
+      "description": "龐統隨劉備入川任軍師。",
+      "evidence": [
+        "龐統為軍師"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_liu_bei_50000",
+      "type": "統領",
+      "description": "劉備率馬步兵五萬西行。",
+      "evidence": [
+        "馬步兵五萬，起程西行"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liao_hua",
+      "target": "char_liu_bei",
+      "type": "歸降",
+      "description": "廖化引一軍來降劉備。",
+      "evidence": [
+        "廖化引一軍來降"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liao_hua",
+      "target": "char_guan_yu",
+      "type": "輔佐",
+      "description": "劉備命廖化輔佐關羽拒曹操。",
+      "evidence": [
+        "輔佐雲長以拒曹操"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_meng_da",
+      "target": "char_liu_bei",
+      "type": "迎接",
+      "description": "孟達按劉璋之命迎接劉備入川。",
+      "evidence": [
+        "領兵五千遠來迎接"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "char_liu_bei",
+      "type": "供給迎接",
+      "description": "劉璋告報沿途州郡供給劉備軍錢糧。",
+      "evidence": [
+        "告報沿途州郡，供給錢糧"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_liu_zhang",
+      "target": "army_liu_zhang_30000",
+      "type": "統領",
+      "description": "劉璋率三萬人馬前往涪城迎劉備。",
+      "evidence": [
+        "劉璋將三萬人馬"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_huang_quan",
+      "target": "char_liu_zhang",
+      "type": "諫阻",
+      "description": "黃權再次勸劉璋勿親迎劉備。",
+      "evidence": [
+        "主公此去，必被劉備之害"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_li_hui",
+      "target": "char_liu_zhang",
+      "type": "諫阻",
+      "description": "李恢伏階勸劉璋勿容劉備入川。",
+      "evidence": [
+        "若容劉備入川，是猶迎虎於門也"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wang_lei",
+      "target": "obj_wang_lei_memorial",
+      "type": "執持",
+      "description": "王累倒吊城門時手持諫章。",
+      "evidence": [
+        "一手執諫章"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wang_lei",
+      "target": "char_liu_zhang",
+      "type": "死諫",
+      "description": "王累以倒吊城門相逼，諫劉璋勿往迎劉備。",
+      "evidence": [
+        "自割斷其繩索，撞死於此地"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "army_liu_bei_50000",
+      "target": "strat_strict_discipline",
+      "type": "執行軍令",
+      "description": "劉備入川軍嚴令不得取百姓一物。",
+      "evidence": [
+        "秋毫無犯"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_zhang_song",
+      "target": "char_fa_zheng",
+      "type": "寄密書",
+      "description": "張松密書法正，稱涪城相會可圖劉璋。",
+      "evidence": [
+        "近張鬆有密書到此"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_fa_zheng",
+      "target": "char_pang_tong",
+      "type": "告知密謀",
+      "description": "法正將張松密書內容告訴龐統。",
+      "evidence": [
+        "法正密謂龐統曰"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_pang_tong",
+      "target": "strat_banquet_kill",
+      "type": "提出計策",
+      "description": "龐統建議宴上擲杯為號殺劉璋。",
+      "evidence": [
+        "擲杯為號，就筵上殺之"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_fa_zheng",
+      "target": "strat_banquet_kill",
+      "type": "支持",
+      "description": "法正支持趁機圖劉璋，稱非為自己。",
+      "evidence": [
+        "某等非為自己，乃順天命也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strat_banquet_kill",
+      "type": "遲疑未決",
+      "description": "劉備對宴殺劉璋之計尚未明確採納。",
+      "evidence": [
+        "未知玄德心下如何"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "source": "char_liu_gui",
+      "target": "char_liu_zhang",
+      "type": "勸防劉備",
+      "description": "劉璝等勸劉璋勿因相見而輕信劉備。",
+      "evidence": [
+        "劉備柔中有剛，其心未可測"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_ren",
+      "target": "char_liu_zhang",
+      "type": "勸防劉備",
+      "description": "張任等與劉璝同勸劉璋防備劉備。",
+      "evidence": [
+        "劉璝、泠苞、張任、鄧賢等"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "loc_jingzhou",
+      "type": "外部威脅",
+      "description": "孫權在東面對荊州構成壓力。",
+      "evidence": [
+        "東有孫權，常懷虎踞"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_jingzhou",
+      "type": "外部威脅",
+      "description": "曹操在北面威脅劉備荊州。",
+      "evidence": [
+        "北有操曹，每欲鯨吞"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhang_song_mission",
+      "name": "張松獻策出使許都",
+      "summary": "張松向劉璋建議攜貢物赴許都，說曹操攻漢中以制張魯，並暗藏西川地理圖出行。",
+      "participants": [
+        "char_zhang_song",
+        "char_liu_zhang",
+        "char_cao_cao",
+        "char_zhang_lu"
+      ],
+      "locations": [
+        "loc_yizhou",
+        "loc_xudu",
+        "loc_hanzhong"
+      ],
+      "evidence": [
+        "說曹操興兵取漢中",
+        "遣張松為使",
+        "暗畫西川地理圖本"
+      ]
+    },
+    {
+      "id": "event_cao_cao_slights_zhang_song",
+      "name": "曹操慢待張松",
+      "summary": "張松到許都求見曹操，因言語衝撞及曹操輕賢傲士而遭冷遇。",
+      "participants": [
+        "char_zhang_song",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "候了三日",
+        "言語衝撞",
+        "拂袖而起"
+      ]
+    },
+    {
+      "id": "event_zhang_song_yang_xiu_debate",
+      "name": "張松反難楊修",
+      "summary": "楊修以《孟德新書》示張松，張松過目成誦並反難其書，令楊修驚服。",
+      "participants": [
+        "char_zhang_song",
+        "char_yang_xiu"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "其題曰《孟德新書》",
+        "公過目不忘"
+      ]
+    },
+    {
+      "id": "event_west_drill_ground",
+      "name": "西教場點軍逐張松",
+      "summary": "曹操在西教場展示虎衛五萬軍威，張松反揭曹操短處，曹操怒而欲斬，後被諫止並亂棒逐出。",
+      "participants": [
+        "char_cao_cao",
+        "char_zhang_song",
+        "char_yang_xiu",
+        "char_xun_yu"
+      ],
+      "locations": [
+        "loc_xijiaochang",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "操點虎衛雄兵五萬",
+        "豎儒敢揭吾短處",
+        "令亂棒打出"
+      ]
+    },
+    {
+      "id": "event_jingzhou_reception",
+      "name": "荊州禮迎張松",
+      "summary": "張松離許都後繞道荊州，趙雲、關羽、劉備先後迎接並厚待。",
+      "participants": [
+        "char_zhang_song",
+        "char_zhao_yun",
+        "char_guan_yu",
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_pang_tong"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "趙雲等候多時",
+        "令關某灑掃驛庭",
+        "親自來接"
+      ]
+    },
+    {
+      "id": "event_map_offered_to_liu_bei",
+      "name": "張松獻西川圖",
+      "summary": "劉備在十里長亭送別張松，張松感其仁義，獻出西川圖並勸其速取益州。",
+      "participants": [
+        "char_zhang_song",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_shili_changting",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "玄德如此寬仁愛士",
+        "敢獻此圖",
+        "明公可速圖之"
+      ]
+    },
+    {
+      "id": "event_three_men_plot_yizhou",
+      "name": "張松法正孟達密議獻益州",
+      "summary": "張松回益州後先後與法正、孟達密議，三人皆同意將益州獻予劉備。",
+      "participants": [
+        "char_zhang_song",
+        "char_fa_zheng",
+        "char_meng_da",
+        "char_liu_bei",
+        "char_liu_zhang"
+      ],
+      "locations": [
+        "loc_yizhou"
+      ],
+      "evidence": [
+        "吾已將益州許劉皇叔矣",
+        "非劉玄德不可",
+        "三人撫掌大笑"
+      ]
+    },
+    {
+      "id": "event_fa_zheng_meng_da_sent",
+      "name": "法正孟達奉命往荊州",
+      "summary": "張松向劉璋推薦法正、孟達，劉璋命法正通好，孟達領五千精兵迎劉備入川。",
+      "participants": [
+        "char_zhang_song",
+        "char_liu_zhang",
+        "char_fa_zheng",
+        "char_meng_da",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_yizhou",
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "非法正、孟達，不可往也",
+        "令法正為使",
+        "孟達領精兵五千"
+      ]
+    },
+    {
+      "id": "event_huang_quan_wang_lei_warn",
+      "name": "黃權王累諫阻迎劉備",
+      "summary": "黃權與王累先後指出劉備入川將成大患，勸劉璋先斬張松、斷絕劉備，劉璋不從。",
+      "participants": [
+        "char_huang_quan",
+        "char_wang_lei",
+        "char_liu_zhang",
+        "char_zhang_song",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_yizhou"
+      ],
+      "evidence": [
+        "一國不容二主",
+        "先斬張松，後絕劉備",
+        "自取其禍"
+      ]
+    },
+    {
+      "id": "event_liu_bei_decides_west",
+      "name": "劉備議取益州並分守荊州",
+      "summary": "法正到荊州後，龐統勸劉備取益州；劉備安排諸葛亮、關羽、張飛、趙雲守荊州，親率軍西行。",
+      "participants": [
+        "char_liu_bei",
+        "char_fa_zheng",
+        "char_pang_tong",
+        "char_zhuge_liang",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_zhao_yun",
+        "char_huang_zhong",
+        "char_wei_yan",
+        "char_liu_feng",
+        "char_guan_ping"
+      ],
+      "locations": [
+        "loc_jingzhou",
+        "loc_yizhou",
+        "loc_qingni_aikou",
+        "loc_jiangling",
+        "loc_gongan"
+      ],
+      "evidence": [
+        "益州戶口百萬，土廣財富",
+        "孔明總守荊",
+        "馬步兵五萬，起程西行"
+      ]
+    },
+    {
+      "id": "event_liao_hua_surrenders",
+      "name": "廖化來降",
+      "summary": "劉備臨行時，廖化引一軍來降，劉備命其輔佐關羽拒曹操。",
+      "participants": [
+        "char_liao_hua",
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_jingzhou"
+      ],
+      "evidence": [
+        "廖化引一軍來降",
+        "輔佐雲長以拒曹操"
+      ]
+    },
+    {
+      "id": "event_meng_da_meets_liu_bei",
+      "name": "孟達迎接劉備入川",
+      "summary": "劉備引軍望西川進發，孟達率劉璋所命五千兵前來迎接。",
+      "participants": [
+        "char_liu_bei",
+        "char_meng_da",
+        "char_liu_zhang"
+      ],
+      "locations": [
+        "loc_yizhou"
+      ],
+      "evidence": [
+        "孟達接著",
+        "領兵五千遠來迎接"
+      ]
+    },
+    {
+      "id": "event_liu_zhang_to_fucheng",
+      "name": "劉璋赴涪城親迎",
+      "summary": "劉璋告令沿途州郡供給錢糧，親率三萬人馬往涪城迎劉備，黃權、李恢等再諫不從。",
+      "participants": [
+        "char_liu_zhang",
+        "char_liu_bei",
+        "char_huang_quan",
+        "char_li_hui",
+        "char_zhang_song"
+      ],
+      "locations": [
+        "loc_fucheng",
+        "loc_yizhou"
+      ],
+      "evidence": [
+        "供給錢糧",
+        "自出涪城親接玄德",
+        "主公此去，必被劉備之害"
+      ]
+    },
+    {
+      "id": "event_wang_lei_death_remonstrance",
+      "name": "王累倒吊城門死諫",
+      "summary": "王累倒吊城門，手執諫章與劍，表示若諫不從即割繩撞死，以死勸劉璋。",
+      "participants": [
+        "char_wang_lei",
+        "char_liu_zhang"
+      ],
+      "locations": [
+        "loc_yizhou"
+      ],
+      "evidence": [
+        "倒吊於城門之上",
+        "一手執諫章",
+        "撞死於此地"
+      ]
+    },
+    {
+      "id": "event_liu_bei_disciplined_advance",
+      "name": "劉備軍秋毫無犯",
+      "summary": "劉備前軍至墊江，因西川供給與軍令嚴明，沿途百姓焚香禮拜，劉備撫慰民眾。",
+      "participants": [
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_dianjiang",
+        "loc_yizhou"
+      ],
+      "evidence": [
+        "玄德前軍已到墊江",
+        "秋毫無犯",
+        "百姓扶老攜幼"
+      ]
+    },
+    {
+      "id": "event_fujiang_meeting",
+      "name": "劉備劉璋涪江相會",
+      "summary": "劉備入涪城與劉璋相見，兩軍屯於涪江之上，席後各回寨中。",
+      "participants": [
+        "char_liu_bei",
+        "char_liu_zhang"
+      ],
+      "locations": [
+        "loc_fucheng",
+        "loc_fujiang"
+      ],
+      "evidence": [
+        "兩軍皆屯於涪江之上",
+        "玄德入城，與劉璋相見"
+      ]
+    },
+    {
+      "id": "event_banquet_plot",
+      "name": "法正龐統謀筵上圖劉璋",
+      "summary": "法正據張松密書告龐統涪城相會可圖劉璋，龐統進而建議設宴擲杯為號殺劉璋，劉備尚未明決。",
+      "participants": [
+        "char_fa_zheng",
+        "char_pang_tong",
+        "char_zhang_song",
+        "char_liu_bei",
+        "char_liu_zhang"
+      ],
+      "locations": [
+        "loc_fucheng",
+        "loc_fujiang"
+      ],
+      "evidence": [
+        "張鬆有密書到此",
+        "便可圖之",
+        "擲杯為號，就筵上殺之"
+      ]
+    }
+  ],
+  "notes": [
+    "正文有若干重複、脫漏或異字，抽取以本檔可辨識情節為準。",
+    "未將僅作遠事舉例的人物與戰事全部展開，只保留對本章決策或論辯有作用者。"
+  ]
+}

@@ -1,0 +1,1384 @@
+{
+  "book": "三國演義",
+  "chapter_no": 8,
+  "chapter_title": "王司徒巧使連環計　董太師大鬧鳳儀亭",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_kuailiang",
+      "name": "蒯良",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表部下謀士，主張趁孫堅已死進取江東。",
+      "evidence": [
+        "「今孫堅已喪」",
+        "「火速進軍」"
+      ]
+    },
+    {
+      "id": "char_liubiao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "表"
+      ],
+      "description": "荊州之主，因黃祖在孫氏營中而不忍棄之。",
+      "evidence": [
+        "「吾有黃祖在彼營中」",
+        "「捨之不義」"
+      ]
+    },
+    {
+      "id": "char_huangzu",
+      "name": "黃祖",
+      "type": "character",
+      "aliases": [],
+      "description": "劉表心腹，在孫氏營中，後由孫策換回。",
+      "evidence": [
+        "「黃祖在彼營中」",
+        "「孫策換回黃祖」"
+      ]
+    },
+    {
+      "id": "char_sunce",
+      "name": "孫策",
+      "type": "character",
+      "aliases": [],
+      "description": "孫堅之子，換回黃祖後迎靈柩、罷戰回江東，居江都招賢納士。",
+      "evidence": [
+        "「孫策換回黃祖」",
+        "「引軍居江都」"
+      ]
+    },
+    {
+      "id": "char_sunjian",
+      "name": "孫堅",
+      "type": "character",
+      "aliases": [],
+      "description": "已喪之江東將領，其靈柩由孫策迎回並葬於曲阿之原。",
+      "evidence": [
+        "「孫堅已喪」",
+        "「葬父於曲阿之原」"
+      ]
+    },
+    {
+      "id": "char_dongzhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [
+        "董太師",
+        "太師",
+        "卓"
+      ],
+      "description": "權臣，居長安，自號尚父，築郿塢，殘虐百官降卒，納貂蟬後與呂布生隙。",
+      "evidence": [
+        "「自號為尚父」",
+        "「為色所迷」"
+      ]
+    },
+    {
+      "id": "char_donghuang_brother",
+      "name": "董晃",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓之弟，被封左將軍、鄠侯。",
+      "evidence": [
+        "「封弟董晃為左將軍、鄠侯」"
+      ]
+    },
+    {
+      "id": "char_donghuang_nephew",
+      "name": "董璜",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓之侄，被封侍中並總領禁軍。",
+      "evidence": [
+        "「侄董璜為侍中」",
+        "「總領禁軍」"
+      ]
+    },
+    {
+      "id": "char_lvbu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [
+        "呂佈",
+        "奉先",
+        "溫侯"
+      ],
+      "description": "董卓義子與部將，受王允設宴引誘，戀貂蟬，後在鳳儀亭被董卓撞破。",
+      "evidence": [
+        "「吾兒奉先」",
+        "「溫侯入後堂」"
+      ]
+    },
+    {
+      "id": "char_zhangwen",
+      "name": "張溫",
+      "type": "character",
+      "aliases": [],
+      "description": "司空，被董卓以結連袁術欲害己為由斬首。",
+      "evidence": [
+        "「司空張溫」",
+        "「托張溫頭入獻」"
+      ]
+    },
+    {
+      "id": "char_yuanshu",
+      "name": "袁術",
+      "type": "character",
+      "aliases": [],
+      "description": "董卓口中被指與張溫結連之人。",
+      "evidence": [
+        "「張溫結連袁術」"
+      ]
+    },
+    {
+      "id": "char_wangyun",
+      "name": "王允",
+      "type": "character",
+      "aliases": [
+        "王司徒",
+        "司徒",
+        "允"
+      ],
+      "description": "朝廷司徒，設連環計，先許貂蟬於呂布，後獻於董卓，以離間二人。",
+      "evidence": [
+        "「司徒王允」",
+        "「巧使連環計」"
+      ]
+    },
+    {
+      "id": "char_diaochan",
+      "name": "貂蟬",
+      "type": "character",
+      "aliases": [
+        "蟬"
+      ],
+      "description": "王允府中歌伎，被王允以親女待之，奉命周旋於董卓、呂布之間。",
+      "evidence": [
+        "「府中歌伎貂蟬」",
+        "「以親女待之」"
+      ]
+    },
+    {
+      "id": "char_liru",
+      "name": "李儒",
+      "type": "character",
+      "aliases": [
+        "儒"
+      ],
+      "description": "董卓謀士，勸董卓勿因貂蟬責罰呂布，應以金帛安撫。",
+      "evidence": [
+        "「路遇李儒」",
+        "「賜以金帛」"
+      ]
+    },
+    {
+      "id": "char_xiandi",
+      "name": "獻帝",
+      "type": "character",
+      "aliases": [],
+      "description": "漢帝，董卓入朝時與之共談。",
+      "evidence": [
+        "「卓與獻帝共談」"
+      ]
+    },
+    {
+      "id": "faction_liubiao",
+      "name": "荊州劉表勢力",
+      "type": "faction",
+      "aliases": [
+        "荊州"
+      ],
+      "description": "劉表所屬勢力，關心黃祖安危並與江東戰事相關。",
+      "evidence": [
+        "「荊州之患也」",
+        "「吾與黃祖心腹之交」"
+      ]
+    },
+    {
+      "id": "faction_sunce",
+      "name": "孫策軍",
+      "type": "army",
+      "aliases": [
+        "江東軍"
+      ],
+      "description": "孫策率領的江東軍隊，罷戰後回江東並駐江都。",
+      "evidence": [
+        "「罷戰回江東」",
+        "「引軍居江都」"
+      ]
+    },
+    {
+      "id": "faction_dongzhuo",
+      "name": "董卓勢力",
+      "type": "faction",
+      "aliases": [
+        "董氏宗族"
+      ],
+      "description": "董卓及其宗族、相府部屬所構成的權力集團。",
+      "evidence": [
+        "「董氏宗族」",
+        "「皆封列侯」"
+      ]
+    },
+    {
+      "id": "faction_hanshi",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [
+        "漢天下",
+        "社稷"
+      ],
+      "description": "王允欲重扶的朝廷秩序，也是董卓篡位威脅所指向的對象。",
+      "evidence": [
+        "「漢天下生靈」",
+        "「重扶社稷」"
+      ]
+    },
+    {
+      "id": "faction_baiguan",
+      "name": "百官公卿",
+      "type": "faction",
+      "aliases": [
+        "百官",
+        "公卿"
+      ],
+      "description": "朝中官員，多次被迫迎送董卓並目睹其暴虐。",
+      "evidence": [
+        "「百官皆送」",
+        "「百官魂不附體」"
+      ]
+    },
+    {
+      "id": "army_jinjun",
+      "name": "禁軍",
+      "type": "army",
+      "aliases": [],
+      "description": "京中禁軍，由董璜總領。",
+      "evidence": [
+        "「總領禁軍」"
+      ]
+    },
+    {
+      "id": "army_beidi_surrendered",
+      "name": "北地招安降卒",
+      "type": "army",
+      "aliases": [
+        "降卒"
+      ],
+      "description": "被招安的北地降卒數百人，在董卓宴前遭殘殺。",
+      "evidence": [
+        "「北地招安降卒數百人」"
+      ]
+    },
+    {
+      "id": "army_dong_guards",
+      "name": "持戟甲士",
+      "type": "army",
+      "aliases": [
+        "甲士百餘"
+      ],
+      "description": "董卓赴王允宴時隨行的武裝護衛。",
+      "evidence": [
+        "「持戟甲士百餘」"
+      ]
+    },
+    {
+      "id": "loc_changan",
+      "name": "長安",
+      "type": "location",
+      "aliases": [
+        "長安城"
+      ],
+      "description": "董卓所在都城，郿塢仿其規模修築。",
+      "evidence": [
+        "「董卓在長安」"
+      ]
+    },
+    {
+      "id": "loc_jiangdong",
+      "name": "江東",
+      "type": "location",
+      "aliases": [],
+      "description": "孫策罷戰後回歸之地，也是蒯良建議趁虛攻取的目標。",
+      "evidence": [
+        "「江東一鼓可得」",
+        "「回江東」"
+      ]
+    },
+    {
+      "id": "loc_qua_plain",
+      "name": "曲阿之原",
+      "type": "location",
+      "aliases": [],
+      "description": "孫策安葬孫堅之地。",
+      "evidence": [
+        "「葬父於曲阿之原」"
+      ]
+    },
+    {
+      "id": "loc_jiangdu",
+      "name": "江都",
+      "type": "location",
+      "aliases": [],
+      "description": "孫策引軍居住並招賢納士之地。",
+      "evidence": [
+        "「引軍居江都」"
+      ]
+    },
+    {
+      "id": "loc_meiwu",
+      "name": "郿塢",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓在長安外別築的堡壘，內有宮室、倉庫、糧食與財物。",
+      "evidence": [
+        "「別築郿塢」",
+        "「倉庫屯積二十年糧食」"
+      ]
+    },
+    {
+      "id": "loc_hengmen",
+      "name": "橫門",
+      "type": "location",
+      "aliases": [
+        "橫門外"
+      ],
+      "description": "公卿送董卓出入長安之處。",
+      "evidence": [
+        "「候送於橫門外」"
+      ]
+    },
+    {
+      "id": "loc_shengtai",
+      "name": "省台",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓大會百官並斬張溫之處。",
+      "evidence": [
+        "「卓於省台大會百官」"
+      ]
+    },
+    {
+      "id": "loc_wangyun_house",
+      "name": "王允府",
+      "type": "location",
+      "aliases": [
+        "上府",
+        "草舍",
+        "王允宅"
+      ],
+      "description": "王允住所，貂蟬居於此，王允在此先後宴請呂布與董卓。",
+      "evidence": [
+        "「王允宅」",
+        "「到草舍赴宴」"
+      ]
+    },
+    {
+      "id": "loc_garden",
+      "name": "後園",
+      "type": "location",
+      "aliases": [],
+      "description": "王允夜遇貂蟬之處，也是鳳儀亭所在園地。",
+      "evidence": [
+        "「步入後園」",
+        "「後園中鳳儀亭」"
+      ]
+    },
+    {
+      "id": "loc_mudan_ting",
+      "name": "牡丹亭",
+      "type": "location",
+      "aliases": [
+        "牡丹亭畔"
+      ],
+      "description": "貂蟬夜間歎息，被王允窺見之處。",
+      "evidence": [
+        "「牡丹亭畔」"
+      ]
+    },
+    {
+      "id": "loc_xiangfu",
+      "name": "相府",
+      "type": "location",
+      "aliases": [],
+      "description": "董卓府邸，貂蟬被送入後成為董卓新人，呂布多次入內尋她。",
+      "evidence": [
+        "「送到相府」",
+        "「徑投相府」"
+      ]
+    },
+    {
+      "id": "loc_fengyi_ting",
+      "name": "鳳儀亭",
+      "type": "location",
+      "aliases": [
+        "亭下"
+      ],
+      "description": "貂蟬約呂布私會之處，董卓在此撞見二人。",
+      "evidence": [
+        "「鳳儀亭邊等我」",
+        "「鳳儀亭下共語」"
+      ]
+    },
+    {
+      "id": "loc_chaotang",
+      "name": "朝堂",
+      "type": "location",
+      "aliases": [
+        "朝"
+      ],
+      "description": "王允邀董卓赴宴前見董卓之處；董卓病癒後亦入朝議事。",
+      "evidence": [
+        "「允在朝堂」",
+        "「入朝議事」"
+      ]
+    },
+    {
+      "id": "title_shangfu",
+      "name": "尚父",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓自號之尊稱。",
+      "evidence": [
+        "「自號為尚父」"
+      ]
+    },
+    {
+      "id": "title_zuojiangjun",
+      "name": "左將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "董晃被董卓封授的官職。",
+      "evidence": [
+        "「董晃為左將軍」"
+      ]
+    },
+    {
+      "id": "title_huhou",
+      "name": "鄠侯",
+      "type": "title",
+      "aliases": [],
+      "description": "董晃被董卓封授的侯爵。",
+      "evidence": [
+        "「鄠侯」"
+      ]
+    },
+    {
+      "id": "title_shizhong",
+      "name": "侍中",
+      "type": "title",
+      "aliases": [],
+      "description": "董璜被董卓封授的官職。",
+      "evidence": [
+        "「董璜為侍中」"
+      ]
+    },
+    {
+      "id": "title_sikong",
+      "name": "司空",
+      "type": "title",
+      "aliases": [],
+      "description": "張溫所任官職。",
+      "evidence": [
+        "「司空張溫」"
+      ]
+    },
+    {
+      "id": "title_situ",
+      "name": "司徒",
+      "type": "title",
+      "aliases": [],
+      "description": "王允所任官職。",
+      "evidence": [
+        "「司徒王允」"
+      ]
+    },
+    {
+      "id": "title_taishi",
+      "name": "太師",
+      "type": "title",
+      "aliases": [],
+      "description": "董卓在朝中的稱號。",
+      "evidence": [
+        "「董太師」",
+        "「太師盛德」"
+      ]
+    },
+    {
+      "id": "title_wenhou",
+      "name": "溫侯",
+      "type": "title",
+      "aliases": [],
+      "description": "呂布被李儒稱呼的爵號。",
+      "evidence": [
+        "「見責溫侯」"
+      ]
+    },
+    {
+      "id": "object_lingjiu",
+      "name": "靈柩",
+      "type": "object",
+      "aliases": [],
+      "description": "孫堅遺體之柩，由孫策迎回。",
+      "evidence": [
+        "「迎接靈柩」"
+      ]
+    },
+    {
+      "id": "object_mingzhu",
+      "name": "明珠",
+      "type": "object",
+      "aliases": [],
+      "description": "王允家藏明珠，被用來嵌造金冠送給呂布。",
+      "evidence": [
+        "「家藏明珠數顆」"
+      ]
+    },
+    {
+      "id": "object_jinguan",
+      "name": "金冠",
+      "type": "object",
+      "aliases": [],
+      "description": "王允命良匠以明珠嵌造，密送呂布的禮物。",
+      "evidence": [
+        "「嵌造金冠一頂」"
+      ]
+    },
+    {
+      "id": "object_zhanche",
+      "name": "氈車",
+      "type": "object",
+      "aliases": [],
+      "description": "王允用來先送貂蟬入相府的車。",
+      "evidence": [
+        "「備氈車」"
+      ]
+    },
+    {
+      "id": "object_huaji",
+      "name": "畫戟",
+      "type": "object",
+      "aliases": [
+        "戟"
+      ],
+      "description": "呂布所持兵器，鳳儀亭中被董卓搶起並擲向呂布。",
+      "evidence": [
+        "「畫戟倚在一邊」",
+        "「擲戟刺布」"
+      ]
+    },
+    {
+      "id": "object_jinbo",
+      "name": "金帛",
+      "type": "object",
+      "aliases": [
+        "金十斤",
+        "錦二十匹"
+      ],
+      "description": "李儒建議董卓用以安撫呂布的賞賜。",
+      "evidence": [
+        "「賜以金帛」",
+        "「金十斤，錦二十匹」"
+      ]
+    },
+    {
+      "id": "strategy_lianhuan",
+      "name": "連環計",
+      "type": "strategy",
+      "aliases": [
+        "離間父子"
+      ],
+      "description": "王允利用貂蟬離間董卓與呂布，使呂布殺董卓的計策。",
+      "evidence": [
+        "「諜間他父子反顏」",
+        "「令布殺卓」"
+      ]
+    },
+    {
+      "id": "battle_jingzhou_jiangdong",
+      "name": "荊州江東戰事",
+      "type": "battle",
+      "aliases": [
+        "江東戰事"
+      ],
+      "description": "孫堅死後劉表一方與孫策一方仍在對峙，後孫策換回黃祖、罷戰回江東。",
+      "evidence": [
+        "「還屍罷兵」",
+        "「罷戰回江東」"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_kuailiang",
+      "target": "char_liubiao",
+      "type": "建議",
+      "description": "蒯良勸劉表趁孫堅已死進軍江東。",
+      "evidence": [
+        "「火速進軍」"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liubiao",
+      "target": "char_huangzu",
+      "type": "心腹",
+      "description": "劉表稱黃祖為心腹之交，不忍捨棄。",
+      "evidence": [
+        "「心腹之交」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sunce",
+      "target": "char_huangzu",
+      "type": "交換釋回",
+      "description": "孫策換回黃祖以迎孫堅靈柩。",
+      "evidence": [
+        "「孫策換回黃祖」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sunce",
+      "target": "object_lingjiu",
+      "type": "迎接",
+      "description": "孫策迎接孫堅靈柩。",
+      "evidence": [
+        "「迎接靈柩」"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_sunce",
+      "target": "char_sunjian",
+      "type": "父子",
+      "description": "孫策為孫堅之子，葬父於曲阿。",
+      "evidence": [
+        "「葬父」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sunce",
+      "target": "loc_qua_plain",
+      "type": "安葬地",
+      "description": "孫策將孫堅葬於曲阿之原。",
+      "evidence": [
+        "「葬父於曲阿之原」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sunce",
+      "target": "loc_jiangdu",
+      "type": "駐軍",
+      "description": "孫策罷戰後引軍居江都。",
+      "evidence": [
+        "「引軍居江都」"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "title_shangfu",
+      "type": "自號",
+      "description": "董卓自稱尚父。",
+      "evidence": [
+        "「自號為尚父」"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_donghuang_brother",
+      "type": "封授",
+      "description": "董卓封弟董晃為左將軍、鄠侯。",
+      "evidence": [
+        "「封弟董晃」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_donghuang_brother",
+      "target": "title_zuojiangjun",
+      "type": "擔任",
+      "description": "董晃任左將軍。",
+      "evidence": [
+        "「左將軍」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_donghuang_brother",
+      "target": "title_huhou",
+      "type": "受封",
+      "description": "董晃受封鄠侯。",
+      "evidence": [
+        "「鄠侯」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_donghuang_nephew",
+      "type": "封授",
+      "description": "董卓封侄董璜為侍中。",
+      "evidence": [
+        "「侄董璜為侍中」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_donghuang_nephew",
+      "target": "army_jinjun",
+      "type": "統領",
+      "description": "董璜總領禁軍。",
+      "evidence": [
+        "「總領禁軍」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "loc_meiwu",
+      "type": "築造",
+      "description": "董卓在長安外別築郿塢。",
+      "evidence": [
+        "「別築郿塢」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "army_beidi_surrendered",
+      "type": "殘殺",
+      "description": "董卓命人在宴前虐殺北地降卒。",
+      "evidence": [
+        "「大鍋煮之」"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_lvbu",
+      "target": "char_dongzhuo",
+      "type": "義父子/部屬",
+      "description": "呂布被董卓稱為奉先吾兒，並侍立卓側。",
+      "evidence": [
+        "「吾兒奉先」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_zhangwen",
+      "type": "處決",
+      "description": "董卓命呂布將張溫揪下堂，隨後斬首。",
+      "evidence": [
+        "「托張溫頭入獻」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhangwen",
+      "target": "title_sikong",
+      "type": "擔任",
+      "description": "張溫為司空。",
+      "evidence": [
+        "「司空張溫」"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_yuanshu",
+      "type": "指控相關",
+      "description": "董卓稱張溫結連袁術欲害自己。",
+      "evidence": [
+        "「結連袁術」"
+      ],
+      "confidence": 0.66
+    },
+    {
+      "source": "char_wangyun",
+      "target": "title_situ",
+      "type": "擔任",
+      "description": "王允為司徒。",
+      "evidence": [
+        "「司徒王允」"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "source": "char_wangyun",
+      "target": "char_diaochan",
+      "type": "恩養",
+      "description": "王允自幼收養並教貂蟬歌舞，以親女待之。",
+      "evidence": [
+        "「以親女待之」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wangyun",
+      "target": "strategy_lianhuan",
+      "type": "設計",
+      "description": "王允設計以貂蟬離間董卓與呂布。",
+      "evidence": [
+        "「非汝不能救也」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_lianhuan",
+      "target": "char_dongzhuo",
+      "type": "目標",
+      "description": "連環計以董卓為主要清除目標。",
+      "evidence": [
+        "「令布殺卓」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_lianhuan",
+      "target": "char_lvbu",
+      "type": "利用",
+      "description": "連環計要使呂布反目並殺董卓。",
+      "evidence": [
+        "「令布殺卓」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_lianhuan",
+      "target": "char_diaochan",
+      "type": "執行者",
+      "description": "王允請貂蟬於中取便離間董卓父子。",
+      "evidence": [
+        "「汝於中取便」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wangyun",
+      "target": "object_jinguan",
+      "type": "贈與",
+      "description": "王允命人將金冠密送呂布。",
+      "evidence": [
+        "「密送呂布」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "object_jinguan",
+      "target": "char_lvbu",
+      "type": "受贈者",
+      "description": "呂布收到金冠後大喜並到王允宅致謝。",
+      "evidence": [
+        "「布大喜」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wangyun",
+      "target": "char_lvbu",
+      "type": "宴請",
+      "description": "王允設宴款待呂布，稱敬其才。",
+      "evidence": [
+        "「預備嘉美饌」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wangyun",
+      "target": "char_diaochan",
+      "type": "許配",
+      "description": "王允向呂布表示欲將貂蟬送與其為妾。",
+      "evidence": [
+        "「送與將軍為妾」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lvbu",
+      "target": "char_diaochan",
+      "type": "愛慕",
+      "description": "呂布見貂蟬後目不轉睛，二人眉目傳情。",
+      "evidence": [
+        "「眉來眼去」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_wangyun",
+      "target": "char_dongzhuo",
+      "type": "宴請",
+      "description": "王允在朝堂請董卓到府赴宴。",
+      "evidence": [
+        "「到草舍赴宴」"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_wangyun",
+      "target": "char_dongzhuo",
+      "type": "逢迎",
+      "description": "王允稱董卓功德合天命，暗助其篡位之念。",
+      "evidence": [
+        "「正合天心人意」"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_wangyun",
+      "target": "char_diaochan",
+      "type": "獻與",
+      "description": "王允將貂蟬獻給董卓。",
+      "evidence": [
+        "「獻上太師」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_diaochan",
+      "type": "納為愛姬",
+      "description": "董卓納貂蟬後為色所迷。",
+      "evidence": [
+        "「自納貂蟬後」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wangyun",
+      "target": "object_zhanche",
+      "type": "使用",
+      "description": "王允備氈車送貂蟬入相府。",
+      "evidence": [
+        "「備氈車」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "object_zhanche",
+      "target": "loc_xiangfu",
+      "type": "運送至",
+      "description": "氈車將貂蟬送到相府。",
+      "evidence": [
+        "「送到相府」"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_lvbu",
+      "target": "char_wangyun",
+      "type": "質問",
+      "description": "呂布質問王允何以已許貂蟬又送董卓。",
+      "evidence": [
+        "「何故怪老夫」"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_wangyun",
+      "target": "char_lvbu",
+      "type": "欺瞞安撫",
+      "description": "王允以董卓要求見貂蟬為由搪塞呂布。",
+      "evidence": [
+        "「老夫不敢有違」"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_diaochan",
+      "target": "char_lvbu",
+      "type": "示情離間",
+      "description": "貂蟬在相府對呂布蹙眉拭淚、以目送情。",
+      "evidence": [
+        "「以目送情」"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_lvbu",
+      "type": "猜忌",
+      "description": "董卓見呂布注視貂蟬而疑忌，後逐出不許入堂。",
+      "evidence": [
+        "「心中疑忌」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lvbu",
+      "target": "char_liru",
+      "type": "告知",
+      "description": "呂布被逐後路遇李儒，告知其故。",
+      "evidence": [
+        "「告知其故」"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liru",
+      "target": "char_dongzhuo",
+      "type": "諫言",
+      "description": "李儒勸董卓勿以小過責溫侯，應賜金帛安撫。",
+      "evidence": [
+        "「何故以小過見責溫侯」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_lvbu",
+      "type": "賞賜安撫",
+      "description": "董卓向呂布道歉並賜金與錦。",
+      "evidence": [
+        "「賜金十斤」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "object_jinbo",
+      "target": "char_lvbu",
+      "type": "受贈者",
+      "description": "金帛為董卓安撫呂布之物。",
+      "evidence": [
+        "「錦二十匹」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lvbu",
+      "target": "loc_fengyi_ting",
+      "type": "赴約",
+      "description": "呂布按貂蟬所言到後園鳳儀亭等候。",
+      "evidence": [
+        "「鳳儀亭邊等我」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_diaochan",
+      "target": "loc_fengyi_ting",
+      "type": "私會",
+      "description": "貂蟬到鳳儀亭與呂布共語。",
+      "evidence": [
+        "「分花拂柳而來」"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_xiandi",
+      "type": "朝談",
+      "description": "董卓在殿上與獻帝共談。",
+      "evidence": [
+        "「與獻帝共談」"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "char_lvbu",
+      "type": "追擊",
+      "description": "董卓在鳳儀亭撞見呂布與貂蟬，搶畫戟追趕並擲戟刺呂布。",
+      "evidence": [
+        "「擲戟刺布」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "object_huaji",
+      "target": "char_lvbu",
+      "type": "持有",
+      "description": "畫戟原為呂布所持，私會時倚在一邊。",
+      "evidence": [
+        "「畫戟倚在一邊」"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_dongzhuo",
+      "target": "object_huaji",
+      "type": "奪取使用",
+      "description": "董卓搶起呂布畫戟追刺呂布。",
+      "evidence": [
+        "「卓搶了畫戟」"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_jingzhou_jiangdong",
+      "target": "char_sunce",
+      "type": "參與方",
+      "description": "孫策方在此戰事後罷戰回江東。",
+      "evidence": [
+        "「罷戰回江東」"
+      ],
+      "confidence": 0.83
+    },
+    {
+      "source": "battle_jingzhou_jiangdong",
+      "target": "char_liubiao",
+      "type": "參與方",
+      "description": "劉表方因黃祖被留在彼營而面臨是否進軍。",
+      "evidence": [
+        "「黃祖在彼營中」"
+      ],
+      "confidence": 0.81
+    }
+  ],
+  "events": [
+    {
+      "id": "event_huangzu_exchange",
+      "name": "孫策換回黃祖罷戰",
+      "summary": "孫策換回黃祖，迎孫堅靈柩，罷戰回江東。",
+      "participants": [
+        "char_sunce",
+        "char_huangzu",
+        "char_sunjian",
+        "char_liubiao"
+      ],
+      "locations": [
+        "loc_jiangdong"
+      ],
+      "evidence": [
+        "「孫策換回黃祖」",
+        "「罷戰回江東」"
+      ]
+    },
+    {
+      "id": "event_sunjian_burial",
+      "name": "孫堅葬於曲阿",
+      "summary": "孫策將父親孫堅葬於曲阿之原。",
+      "participants": [
+        "char_sunce",
+        "char_sunjian"
+      ],
+      "locations": [
+        "loc_qua_plain"
+      ],
+      "evidence": [
+        "「葬父於曲阿之原」"
+      ]
+    },
+    {
+      "id": "event_sunce_recruits",
+      "name": "孫策江都招賢",
+      "summary": "孫策居江都後招賢納士，四方豪傑漸投之。",
+      "participants": [
+        "char_sunce",
+        "faction_sunce"
+      ],
+      "locations": [
+        "loc_jiangdu"
+      ],
+      "evidence": [
+        "「招賢納士」"
+      ]
+    },
+    {
+      "id": "event_meiwu_building",
+      "name": "董卓築郿塢封宗族",
+      "summary": "董卓在長安外築郿塢，封董氏宗族，又使董璜總領禁軍。",
+      "participants": [
+        "char_dongzhuo",
+        "char_donghuang_brother",
+        "char_donghuang_nephew",
+        "faction_dongzhuo"
+      ],
+      "locations": [
+        "loc_changan",
+        "loc_meiwu"
+      ],
+      "evidence": [
+        "「別築郿塢」",
+        "「皆封列侯」"
+      ]
+    },
+    {
+      "id": "event_dong_atrocity",
+      "name": "董卓殘殺降卒",
+      "summary": "董卓在橫門宴飲時命人虐殺北地招安降卒，百官震懼。",
+      "participants": [
+        "char_dongzhuo",
+        "army_beidi_surrendered",
+        "faction_baiguan"
+      ],
+      "locations": [
+        "loc_hengmen"
+      ],
+      "evidence": [
+        "「哀號之聲震天」"
+      ]
+    },
+    {
+      "id": "event_zhangwen_execution",
+      "name": "張溫被斬",
+      "summary": "董卓在省台大會百官時，命呂布將張溫揪下堂並斬首。",
+      "participants": [
+        "char_dongzhuo",
+        "char_lvbu",
+        "char_zhangwen",
+        "char_yuanshu",
+        "faction_baiguan"
+      ],
+      "locations": [
+        "loc_shengtai"
+      ],
+      "evidence": [
+        "「托張溫頭入獻」"
+      ]
+    },
+    {
+      "id": "event_lianhuan_plan",
+      "name": "王允託貂蟬行連環計",
+      "summary": "王允夜見貂蟬，請她以身周旋，離間董卓與呂布以救漢室。",
+      "participants": [
+        "char_wangyun",
+        "char_diaochan",
+        "char_dongzhuo",
+        "char_lvbu",
+        "faction_hanshi"
+      ],
+      "locations": [
+        "loc_wangyun_house",
+        "loc_garden",
+        "loc_mudan_ting"
+      ],
+      "evidence": [
+        "「非汝不能救也」",
+        "「諜間他父子反顏」"
+      ]
+    },
+    {
+      "id": "event_lubu_banquet",
+      "name": "王允宴呂布許貂蟬",
+      "summary": "王允先以金冠贈呂布，再設宴引出貂蟬，假意許給呂布為妾。",
+      "participants": [
+        "char_wangyun",
+        "char_lvbu",
+        "char_diaochan"
+      ],
+      "locations": [
+        "loc_wangyun_house"
+      ],
+      "evidence": [
+        "「送與將軍為妾」"
+      ]
+    },
+    {
+      "id": "event_dong_banquet",
+      "name": "王允宴董卓獻貂蟬",
+      "summary": "王允請董卓赴宴，稱其合天命，隨後獻貂蟬並送入相府。",
+      "participants": [
+        "char_wangyun",
+        "char_dongzhuo",
+        "char_diaochan",
+        "army_dong_guards"
+      ],
+      "locations": [
+        "loc_wangyun_house",
+        "loc_xiangfu"
+      ],
+      "evidence": [
+        "「獻上太師」",
+        "「送到相府」"
+      ]
+    },
+    {
+      "id": "event_lubu_confronts_wangyun",
+      "name": "呂布質問王允",
+      "summary": "呂布得知貂蟬入相府後攔住王允質問，王允以董卓求見為辭搪塞。",
+      "participants": [
+        "char_lvbu",
+        "char_wangyun",
+        "char_diaochan",
+        "char_dongzhuo"
+      ],
+      "locations": [
+        "loc_xiangfu"
+      ],
+      "evidence": [
+        "「今又送與太師」"
+      ]
+    },
+    {
+      "id": "event_xiangfu_suspicion",
+      "name": "相府中董卓疑呂布",
+      "summary": "貂蟬在相府對呂布作憂愁示情之態，董卓見呂布注視貂蟬而生疑。",
+      "participants": [
+        "char_diaochan",
+        "char_lvbu",
+        "char_dongzhuo"
+      ],
+      "locations": [
+        "loc_xiangfu"
+      ],
+      "evidence": [
+        "「以目送情」",
+        "「心中疑忌」"
+      ]
+    },
+    {
+      "id": "event_liru_advice",
+      "name": "李儒勸卓安撫呂布",
+      "summary": "呂布被董卓逐出後告知李儒，李儒勸董卓賜金帛好言安撫。",
+      "participants": [
+        "char_liru",
+        "char_dongzhuo",
+        "char_lvbu"
+      ],
+      "locations": [
+        "loc_xiangfu"
+      ],
+      "evidence": [
+        "「賜以金帛」"
+      ]
+    },
+    {
+      "id": "event_fengyi_meeting",
+      "name": "呂布貂蟬鳳儀亭私會",
+      "summary": "董卓入朝時，呂布乘間到相府，按貂蟬之約在鳳儀亭相會。",
+      "participants": [
+        "char_lvbu",
+        "char_diaochan"
+      ],
+      "locations": [
+        "loc_xiangfu",
+        "loc_fengyi_ting"
+      ],
+      "evidence": [
+        "「鳳儀亭邊等我」",
+        "「不忍相離」"
+      ]
+    },
+    {
+      "id": "event_fengyi_rage",
+      "name": "董卓大鬧鳳儀亭",
+      "summary": "董卓發覺呂布不在身邊，回府撞見呂布與貂蟬在鳳儀亭共語，遂搶戟追刺呂布。",
+      "participants": [
+        "char_dongzhuo",
+        "char_lvbu",
+        "char_diaochan"
+      ],
+      "locations": [
+        "loc_xiangfu",
+        "loc_fengyi_ting"
+      ],
+      "evidence": [
+        "「正見呂布和貂蟬」",
+        "「擲戟刺布」"
+      ]
+    }
+  ],
+  "notes": [
+    "本章未提供撞倒董卓之人的身份，故未抽取該人物。",
+    "張溫結連袁術僅為董卓席間說法，關係標為指控而非既定事實。"
+  ]
+}

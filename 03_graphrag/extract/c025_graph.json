@@ -1,0 +1,1679 @@
+{
+  "book": "三國演義",
+  "chapter_no": 25,
+  "chapter_title": "屯土山關公約三事　救白馬曹操解重圍",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_guangong",
+      "name": "關公",
+      "type": "character",
+      "aliases": [
+        "關羽",
+        "雲長",
+        "關雲長",
+        "關某"
+      ],
+      "description": "劉備義弟，守下邳，被困土山後以三事暫降曹操；後在白馬斬顏良。",
+      "evidence": [
+        "關公出城",
+        "雲長破袁紹之兵",
+        "斬顏良而去"
+      ]
+    },
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹公",
+        "操",
+        "丞相",
+        "曹賊"
+      ],
+      "description": "統領曹軍攻下邳、厚待關公，後在白馬請關公迎戰顏良。",
+      "evidence": [
+        "曹操自提大軍殺入",
+        "操待之甚厚",
+        "特請雲長商議"
+      ]
+    },
+    {
+      "id": "char_liubei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "劉皇叔",
+        "皇叔",
+        "使君"
+      ],
+      "description": "關公所忠之主，章中寄身袁紹處，因顏良被斬遭袁紹猜疑。",
+      "evidence": [
+        "玄德在袁紹處",
+        "心念皇叔",
+        "汝弟斬吾愛將"
+      ]
+    },
+    {
+      "id": "char_zhangfei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德",
+        "張翼德"
+      ],
+      "description": "劉備、關公之弟，未直接出戰，但被關公稱讚勇武。",
+      "evidence": [
+        "翼德未知生死",
+        "吾弟張翼德"
+      ]
+    },
+    {
+      "id": "char_chengyu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [
+        "昱"
+      ],
+      "description": "曹操謀士，兩次獻計：誘取關公、薦關公破顏良。",
+      "evidence": [
+        "程昱獻計曰",
+        "非關公不可"
+      ]
+    },
+    {
+      "id": "char_xiahoudun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [
+        "惇"
+      ],
+      "description": "曹將，為先鋒搦戰誘出關公。",
+      "evidence": [
+        "夏侯惇為先鋒",
+        "領兵五千來搦戰"
+      ]
+    },
+    {
+      "id": "char_xuhuang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，土山一戰截關公歸路；白馬一戰被顏良擊敗。",
+      "evidence": [
+        "左有徐晃",
+        "敗歸本陣"
+      ]
+    },
+    {
+      "id": "char_xuchu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，與徐晃伏擊關公。",
+      "evidence": [
+        "右有許褚",
+        "接住交戰"
+      ]
+    },
+    {
+      "id": "char_zhangliao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [
+        "文遠",
+        "遼"
+      ],
+      "description": "曹將，登土山勸關公暫降，並代傳三事。",
+      "evidence": [
+        "視之乃張遼也",
+        "文遠代禀三事"
+      ]
+    },
+    {
+      "id": "char_gan_furen",
+      "name": "甘夫人",
+      "type": "character",
+      "aliases": [
+        "二夫人",
+        "二嫂"
+      ],
+      "description": "劉備夫人之一，關公奉護至許昌。",
+      "evidence": [
+        "甘、糜二夫人",
+        "甘夫人曰"
+      ]
+    },
+    {
+      "id": "char_mi_furen",
+      "name": "糜夫人",
+      "type": "character",
+      "aliases": [
+        "二夫人",
+        "二嫂"
+      ],
+      "description": "劉備夫人之一，關公奉護至許昌。",
+      "evidence": [
+        "甘、糜二夫人",
+        "與糜夫人論之"
+      ]
+    },
+    {
+      "id": "char_xunyu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，曾疑關公入城有詐，又建議不使關公立功離去。",
+      "evidence": [
+        "荀彧曰：不可",
+        "若不教彼立功"
+      ]
+    },
+    {
+      "id": "char_xiandi",
+      "name": "獻帝",
+      "type": "character",
+      "aliases": [
+        "帝"
+      ],
+      "description": "漢帝，命關公為偏將軍，稱其為美髯公。",
+      "evidence": [
+        "朝見獻帝",
+        "帝命為偏將軍",
+        "真美髯公也"
+      ]
+    },
+    {
+      "id": "char_yuanshao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "紹"
+      ],
+      "description": "河北勢力之主，收留劉備，遣顏良攻白馬，後疑劉備通謀。",
+      "evidence": [
+        "玄德在袁紹處",
+        "紹遣大將顏良",
+        "紹大怒"
+      ]
+    },
+    {
+      "id": "char_tianfeng",
+      "name": "田豐",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀士，諫阻出兵，被袁紹囚禁。",
+      "evidence": [
+        "田豐諫",
+        "乃囚於獄中"
+      ]
+    },
+    {
+      "id": "char_yanliang",
+      "name": "顏良",
+      "type": "character",
+      "aliases": [
+        "良"
+      ],
+      "description": "袁紹大將，攻白馬，連斬宋憲、魏續，後被關公斬殺。",
+      "evidence": [
+        "顏良作先鋒",
+        "斬宋憲",
+        "被雲長手起一刀"
+      ]
+    },
+    {
+      "id": "char_liuyan",
+      "name": "劉延",
+      "type": "character",
+      "aliases": [],
+      "description": "東郡太守，白馬告急許昌。",
+      "evidence": [
+        "東郡太守劉延",
+        "告急許昌"
+      ]
+    },
+    {
+      "id": "char_songxian",
+      "name": "宋憲",
+      "type": "character",
+      "aliases": [],
+      "description": "呂布舊將，奉曹操命迎戰顏良，被顏良斬殺。",
+      "evidence": [
+        "呂布舊將宋憲",
+        "斬宋憲於陣前"
+      ]
+    },
+    {
+      "id": "char_weixu",
+      "name": "魏續",
+      "type": "character",
+      "aliases": [
+        "續"
+      ],
+      "description": "曹操陣中將領，為宋憲報仇出戰顏良，被顏良斬殺。",
+      "evidence": [
+        "魏續曰",
+        "劈魏續於馬下"
+      ]
+    },
+    {
+      "id": "char_lvbu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [],
+      "description": "已故猛將，被提及為宋憲舊主及赤兔馬舊主人。",
+      "evidence": [
+        "呂布部下猛將",
+        "呂布所騎赤兔馬"
+      ]
+    },
+    {
+      "id": "faction_han",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [
+        "漢"
+      ],
+      "description": "關公、劉備所稱欲匡扶之正統，曹操以漢相自居。",
+      "evidence": [
+        "匡扶漢室",
+        "吾為漢相"
+      ]
+    },
+    {
+      "id": "faction_liubei",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "劉備手下"
+      ],
+      "description": "劉備、關公、張飛及其部屬所屬陣營。",
+      "evidence": [
+        "劉備手下投降之兵",
+        "二弟不知音耗"
+      ]
+    },
+    {
+      "id": "faction_caocao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹兵"
+      ],
+      "description": "曹操統領的政治軍事勢力。",
+      "evidence": [
+        "曹兵團團將土山圍住",
+        "曹軍乘勢攻擊"
+      ]
+    },
+    {
+      "id": "faction_yuanshao",
+      "name": "袁紹勢力",
+      "type": "faction",
+      "aliases": [
+        "河北"
+      ],
+      "description": "袁紹統領的河北勢力。",
+      "evidence": [
+        "河北人馬",
+        "河北兵將",
+        "袁紹處"
+      ]
+    },
+    {
+      "id": "loc_xiapi",
+      "name": "下邳",
+      "type": "location",
+      "aliases": [
+        "下邳城"
+      ],
+      "description": "關公守城之地，後被曹操攻入。",
+      "evidence": [
+        "入下邳",
+        "曹操自提大軍殺入城中"
+      ]
+    },
+    {
+      "id": "loc_tushan",
+      "name": "土山",
+      "type": "location",
+      "aliases": [],
+      "description": "關公被圍屯兵之處；白馬戰場旁曹操亦靠土山紮住。",
+      "evidence": [
+        "屯於山頭",
+        "靠土山紮住"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [
+        "許都"
+      ],
+      "description": "曹操班師所歸之地，也是劉延告急與袁紹欲攻之目標。",
+      "evidence": [
+        "班師還許昌",
+        "告急許昌",
+        "進兵赴許都"
+      ]
+    },
+    {
+      "id": "loc_baima",
+      "name": "白馬",
+      "type": "location",
+      "aliases": [],
+      "description": "顏良攻擊、曹操救援、關公斬顏良的戰地。",
+      "evidence": [
+        "進攻白馬",
+        "親臨白馬"
+      ]
+    },
+    {
+      "id": "loc_liyang",
+      "name": "黎陽",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹大軍進發至此。",
+      "evidence": [
+        "大軍進發至黎陽"
+      ]
+    },
+    {
+      "id": "loc_dongjun",
+      "name": "東郡",
+      "type": "location",
+      "aliases": [],
+      "description": "劉延任太守之地。",
+      "evidence": [
+        "東郡太守劉延"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "前文曹操攻取之地，田豐以此判斷曹軍方銳。",
+      "evidence": [
+        "前操攻徐州",
+        "今徐州已破"
+      ]
+    },
+    {
+      "id": "battle_tushan",
+      "name": "土山之圍",
+      "type": "battle",
+      "aliases": [
+        "屯土山"
+      ],
+      "description": "夏侯惇誘關公出城，徐晃、許褚截路，曹兵圍困土山。",
+      "evidence": [
+        "無路可歸",
+        "曹兵團團將土山圍住"
+      ]
+    },
+    {
+      "id": "battle_baima",
+      "name": "白馬之戰",
+      "type": "battle",
+      "aliases": [
+        "救白馬",
+        "白馬解圍"
+      ],
+      "description": "袁紹遣顏良攻白馬，曹操救援，關公斬顏良解圍。",
+      "evidence": [
+        "進攻白馬",
+        "關公徑奔顏良"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [
+        "漢相"
+      ],
+      "description": "曹操在章中使用的官稱。",
+      "evidence": [
+        "丞相更施厚恩",
+        "吾為漢相"
+      ]
+    },
+    {
+      "id": "title_huangshu",
+      "name": "皇叔",
+      "type": "title",
+      "aliases": [
+        "劉皇叔"
+      ],
+      "description": "劉備在章中被稱之稱號。",
+      "evidence": [
+        "皇叔今在何處",
+        "劉皇叔所賜"
+      ]
+    },
+    {
+      "id": "title_pianjiangjun",
+      "name": "偏將軍",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝授予關公的官職。",
+      "evidence": [
+        "帝命為偏將軍"
+      ]
+    },
+    {
+      "id": "title_meirangong",
+      "name": "美髯公",
+      "type": "title",
+      "aliases": [],
+      "description": "獻帝見關公長髯後稱之稱號。",
+      "evidence": [
+        "真美髯公也"
+      ]
+    },
+    {
+      "id": "title_dongjun_taishou",
+      "name": "東郡太守",
+      "type": "title",
+      "aliases": [],
+      "description": "劉延的官職。",
+      "evidence": [
+        "東郡太守劉延"
+      ]
+    },
+    {
+      "id": "title_xianfeng",
+      "name": "先鋒",
+      "type": "title",
+      "aliases": [
+        "前部"
+      ],
+      "description": "夏侯惇、顏良在戰事中擔任的前鋒角色。",
+      "evidence": [
+        "夏侯惇為先鋒",
+        "顏良作先鋒"
+      ]
+    },
+    {
+      "id": "obj_qinglongdao",
+      "name": "青龍刀",
+      "type": "object",
+      "aliases": [],
+      "description": "關公赴白馬迎戰顏良時所持兵器。",
+      "evidence": [
+        "提青龍刀"
+      ]
+    },
+    {
+      "id": "obj_chituma",
+      "name": "赤兔馬",
+      "type": "object",
+      "aliases": [
+        "赤兔"
+      ],
+      "description": "原為呂布所騎，曹操贈與關公，關公騎之斬顏良。",
+      "evidence": [
+        "呂布所騎赤兔馬",
+        "送與關公",
+        "赤兔馬快"
+      ]
+    },
+    {
+      "id": "obj_old_robe",
+      "name": "舊袍",
+      "type": "object",
+      "aliases": [
+        "綠錦戰袍",
+        "劉皇叔所賜舊袍"
+      ],
+      "description": "劉備所賜舊袍，關公罩於曹操新袍之外以示不忘劉備。",
+      "evidence": [
+        "舊袍乃劉皇叔所賜"
+      ]
+    },
+    {
+      "id": "obj_new_robe",
+      "name": "異錦戰袍",
+      "type": "object",
+      "aliases": [
+        "新賜戰袍"
+      ],
+      "description": "曹操見關公舊袍已舊而新贈的戰袍。",
+      "evidence": [
+        "取異錦作戰袍一領相贈"
+      ]
+    },
+    {
+      "id": "obj_jinnang",
+      "name": "紗錦囊",
+      "type": "object",
+      "aliases": [
+        "貯髯錦囊"
+      ],
+      "description": "曹操賜給關公盛放長髯的囊。",
+      "evidence": [
+        "丞相賜囊貯之"
+      ]
+    },
+    {
+      "id": "obj_rewards",
+      "name": "綾錦及金銀器皿",
+      "type": "object",
+      "aliases": [
+        "美女金帛"
+      ],
+      "description": "曹操厚待關公時所贈財物。",
+      "evidence": [
+        "綾錦及金銀器皿相送",
+        "美女金帛"
+      ]
+    },
+    {
+      "id": "obj_yanliang_head",
+      "name": "顏良首級",
+      "type": "object",
+      "aliases": [
+        "首級"
+      ],
+      "description": "關公斬顏良後割取並獻給曹操的戰利品。",
+      "evidence": [
+        "割了顏良首級",
+        "獻首級於操前"
+      ]
+    },
+    {
+      "id": "strat_chengyu_lure",
+      "name": "程昱誘降關公之計",
+      "type": "strategy",
+      "aliases": [
+        "詐敗誘關公",
+        "下邳內應計"
+      ],
+      "description": "以劉備降兵入下邳為內應，誘關公出戰並截其歸路。",
+      "evidence": [
+        "伏於城中為內應",
+        "詐敗佯輸",
+        "截其歸路"
+      ]
+    },
+    {
+      "id": "strat_three_terms",
+      "name": "關公三事",
+      "type": "strategy",
+      "aliases": [
+        "三事相約",
+        "約三事"
+      ],
+      "description": "關公暫降前所定條件：奉漢、養贍二夫人、得知劉備去向即辭去。",
+      "evidence": [
+        "我以三事相約",
+        "三者缺一，斷不肯降"
+      ]
+    },
+    {
+      "id": "strat_chengyu_suspicion",
+      "name": "程昱借關公疑劉備之計",
+      "type": "strategy",
+      "aliases": [
+        "破袁疑劉計"
+      ],
+      "description": "程昱建議讓關公破袁紹兵，使袁紹猜疑劉備。",
+      "evidence": [
+        "紹必疑劉備而殺之"
+      ]
+    },
+    {
+      "id": "army_caobing",
+      "name": "曹軍",
+      "type": "army",
+      "aliases": [
+        "曹兵",
+        "曹操大軍"
+      ],
+      "description": "曹操所統軍隊，攻下邳、圍土山、救白馬。",
+      "evidence": [
+        "曹兵團團",
+        "曹軍乘勢攻擊"
+      ]
+    },
+    {
+      "id": "army_hebei",
+      "name": "河北軍",
+      "type": "army",
+      "aliases": [
+        "河北人馬",
+        "河北兵將",
+        "袁紹軍"
+      ],
+      "description": "袁紹麾下軍隊，顏良部屬為其前鋒。",
+      "evidence": [
+        "河北人馬",
+        "河北兵將大驚"
+      ]
+    },
+    {
+      "id": "army_liubei_surrendered",
+      "name": "劉備手下投降之兵",
+      "type": "army",
+      "aliases": [
+        "詐降兵卒",
+        "舊兵"
+      ],
+      "description": "原屬劉備而投降之兵，被程昱用作下邳內應。",
+      "evidence": [
+        "劉備手下投降之兵",
+        "詐降兵卒偷開城門"
+      ]
+    },
+    {
+      "id": "army_guangong",
+      "name": "關公三千人馬",
+      "type": "army",
+      "aliases": [
+        "關公軍"
+      ],
+      "description": "關公出下邳迎戰夏侯惇時統率的人馬。",
+      "evidence": [
+        "引三千人馬出城"
+      ]
+    },
+    {
+      "id": "army_yanliang_vanguard",
+      "name": "顏良前部精兵",
+      "type": "army",
+      "aliases": [
+        "前部精兵十萬"
+      ],
+      "description": "顏良在白馬列陣的前鋒精兵。",
+      "evidence": [
+        "顏良前部精兵十萬"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_caocao",
+      "target": "title_chengxiang",
+      "type": "擔任",
+      "description": "曹操以丞相、漢相身份與關公交涉。",
+      "evidence": [
+        "蒙丞相應允",
+        "吾為漢相"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_liubei",
+      "target": "title_huangshu",
+      "type": "被稱為",
+      "description": "劉備在章中被稱為皇叔、劉皇叔。",
+      "evidence": [
+        "皇叔今在何處",
+        "劉皇叔所賜"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liuyan",
+      "target": "title_dongjun_taishou",
+      "type": "擔任",
+      "description": "劉延官職為東郡太守。",
+      "evidence": [
+        "東郡太守劉延"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guangong",
+      "target": "char_liubei",
+      "type": "義兄弟與忠誠",
+      "description": "關公以盟誓與兄長稱劉備，雖在曹營仍心念劉備。",
+      "evidence": [
+        "當年之盟誓",
+        "心念皇叔"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_guangong",
+      "target": "char_zhangfei",
+      "type": "兄弟",
+      "description": "關公稱張飛為吾弟。",
+      "evidence": [
+        "吾弟張翼德"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liubei",
+      "target": "char_gan_furen",
+      "type": "夫妻",
+      "description": "甘夫人為劉備夫人之一。",
+      "evidence": [
+        "二嫂",
+        "皇叔今在何處"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_liubei",
+      "target": "char_mi_furen",
+      "type": "夫妻",
+      "description": "糜夫人為劉備夫人之一。",
+      "evidence": [
+        "甘、糜二夫人",
+        "妻小陷於曹賊"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_chengyu",
+      "target": "strat_chengyu_lure",
+      "type": "獻計",
+      "description": "程昱向曹操獻誘取關公之計。",
+      "evidence": [
+        "程昱獻計曰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strat_chengyu_lure",
+      "target": "army_liubei_surrendered",
+      "type": "使用",
+      "description": "此計使用劉備降兵詐作逃回舊部。",
+      "evidence": [
+        "差劉備手下投降之兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_liubei_surrendered",
+      "target": "loc_xiapi",
+      "type": "潛入內應",
+      "description": "劉備降兵進入下邳，伏為內應並開城門。",
+      "evidence": [
+        "入下邳",
+        "伏於城中為內應",
+        "偷開城門"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xiahoudun",
+      "target": "char_guangong",
+      "type": "搦戰誘出",
+      "description": "夏侯惇領兵辱罵搦戰，誘關公出城。",
+      "evidence": [
+        "領兵五千來搦戰",
+        "關公大怒"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guangong",
+      "target": "army_guangong",
+      "type": "統領",
+      "description": "關公引三千人馬出下邳迎戰。",
+      "evidence": [
+        "引三千人馬出城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xuhuang",
+      "target": "char_guangong",
+      "type": "截擊",
+      "description": "徐晃截住關公歸路。",
+      "evidence": [
+        "左有徐晃",
+        "截住去路"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xuchu",
+      "target": "char_guangong",
+      "type": "截擊",
+      "description": "許褚與徐晃一同截住關公。",
+      "evidence": [
+        "右有許褚",
+        "截住去路"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_caobing",
+      "target": "battle_tushan",
+      "type": "包圍",
+      "description": "曹兵將屯於土山的關公包圍。",
+      "evidence": [
+        "曹兵團團將土山圍住"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "loc_xiapi",
+      "type": "攻入",
+      "description": "曹操親率大軍攻入下邳。",
+      "evidence": [
+        "曹操自提大軍殺入城中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhangliao",
+      "target": "char_guangong",
+      "type": "勸降救助",
+      "description": "張遼上土山勸關公勿死，暫降曹操以尋劉備。",
+      "evidence": [
+        "今日弟安得不救兄",
+        "不若且降曹公"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_guangong",
+      "target": "strat_three_terms",
+      "type": "提出條件",
+      "description": "關公以三事為暫降條件。",
+      "evidence": [
+        "我以三事相約"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strat_three_terms",
+      "target": "faction_han",
+      "type": "奉漢條件",
+      "description": "三事含奉漢之條件，曹操以漢相身份答允。",
+      "evidence": [
+        "吾為漢相，漢即吾也"
+      ],
+      "confidence": 0.82
+    },
+    {
+      "source": "strat_three_terms",
+      "target": "char_gan_furen",
+      "type": "養贍保護",
+      "description": "三事要求以皇叔俸祿養贍二夫人，並禁人到門。",
+      "evidence": [
+        "請給皇叔俸祿養贍",
+        "上下人等不許到門"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "strat_three_terms",
+      "target": "char_mi_furen",
+      "type": "養贍保護",
+      "description": "三事同樣保護糜夫人。",
+      "evidence": [
+        "請給皇叔俸祿養贍",
+        "二夫人"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "strat_three_terms",
+      "target": "char_liubei",
+      "type": "尋主辭去",
+      "description": "三事約定一知劉備去向，關公即辭去投奔。",
+      "evidence": [
+        "但知劉皇叔去向",
+        "便當辭去"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "strat_three_terms",
+      "type": "允諾",
+      "description": "曹操接受張遼代傳的三事。",
+      "evidence": [
+        "丞相應允",
+        "諒不食言"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_caocao",
+      "target": "army_caobing",
+      "type": "下令退軍",
+      "description": "曹操為使關公入城見二嫂，命曹軍退三十里。",
+      "evidence": [
+        "操即傳令，退軍三十里"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xunyu",
+      "target": "char_caocao",
+      "type": "諫阻",
+      "description": "荀彧擔心有詐，反對曹操退軍。",
+      "evidence": [
+        "不可，恐有詐"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_guangong",
+      "target": "char_caocao",
+      "type": "暫降",
+      "description": "關公在三事獲允後暫時投降曹操。",
+      "evidence": [
+        "然後投降",
+        "敗兵之將"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_guangong",
+      "target": "char_gan_furen",
+      "type": "護送尊奉",
+      "description": "關公護送甘夫人至許昌並守禮問安。",
+      "evidence": [
+        "親自護車而行",
+        "動問二嫂安否"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_guangong",
+      "target": "char_mi_furen",
+      "type": "護送尊奉",
+      "description": "關公護送糜夫人至許昌並守禮問安。",
+      "evidence": [
+        "請二嫂上車",
+        "秉燭立於戶外"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_xiandi",
+      "target": "char_guangong",
+      "type": "任命",
+      "description": "獻帝任命關公為偏將軍。",
+      "evidence": [
+        "帝命為偏將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guangong",
+      "target": "title_pianjiangjun",
+      "type": "擔任",
+      "description": "關公受封偏將軍。",
+      "evidence": [
+        "帝命為偏將軍"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "obj_rewards",
+      "type": "贈與",
+      "description": "曹操贈關公綾錦、金銀器皿等物。",
+      "evidence": [
+        "綾錦及金銀器皿相送"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guangong",
+      "target": "obj_rewards",
+      "type": "轉交",
+      "description": "關公將曹操贈物交二嫂收貯。",
+      "evidence": [
+        "都送與二嫂收貯"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_caocao",
+      "target": "obj_new_robe",
+      "type": "贈與",
+      "description": "曹操以異錦為關公作新戰袍。",
+      "evidence": [
+        "作戰袍一領相贈"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liubei",
+      "target": "obj_old_robe",
+      "type": "贈與",
+      "description": "舊袍為劉備昔日所賜。",
+      "evidence": [
+        "舊袍乃劉皇叔所賜"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guangong",
+      "target": "obj_old_robe",
+      "type": "珍視",
+      "description": "關公以舊袍罩新袍，不忘劉備。",
+      "evidence": [
+        "不敢以丞相之新賜而忘兄長"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "obj_jinnang",
+      "type": "贈與",
+      "description": "曹操賜錦囊給關公貯髯。",
+      "evidence": [
+        "丞相賜囊貯之"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guangong",
+      "target": "title_meirangong",
+      "type": "被稱為",
+      "description": "獻帝稱關公為美髯公，此後眾人沿稱。",
+      "evidence": [
+        "真美髯公也",
+        "皆呼為美髯公"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "obj_chituma",
+      "type": "贈與",
+      "description": "曹操將赤兔馬連鞍轡贈給關公。",
+      "evidence": [
+        "遂並鞍轡送與關公"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lvbu",
+      "target": "obj_chituma",
+      "type": "曾騎",
+      "description": "赤兔馬原為呂布所騎。",
+      "evidence": [
+        "呂布所騎赤兔馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guangong",
+      "target": "obj_chituma",
+      "type": "騎乘",
+      "description": "關公騎赤兔馬赴白馬並衝殺顏良。",
+      "evidence": [
+        "上赤兔馬",
+        "赤兔馬快"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xunyu",
+      "target": "char_caocao",
+      "type": "建議",
+      "description": "荀彧建議不使關公立功，免其離去。",
+      "evidence": [
+        "若不教彼立功，未必便去"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "source": "char_liubei",
+      "target": "char_yuanshao",
+      "type": "客居依附",
+      "description": "劉備此時在袁紹處。",
+      "evidence": [
+        "玄德在袁紹處"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuanshao",
+      "target": "loc_xuchang",
+      "type": "欲攻",
+      "description": "袁紹表示欲進兵赴許都。",
+      "evidence": [
+        "吾欲進兵赴許都"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_tianfeng",
+      "target": "char_yuanshao",
+      "type": "諫阻出兵",
+      "description": "田豐勸袁紹勿輕敵，應久持待隙。",
+      "evidence": [
+        "田豐諫",
+        "未可輕敵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuanshao",
+      "target": "char_tianfeng",
+      "type": "囚禁",
+      "description": "袁紹怒田豐屢諫，將其囚於獄中。",
+      "evidence": [
+        "紹大怒",
+        "乃囚於獄中"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liubei",
+      "target": "char_tianfeng",
+      "type": "力勸免死",
+      "description": "劉備勸阻袁紹斬田豐，使其改為下獄。",
+      "evidence": [
+        "玄德力勸，乃囚於獄中"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_yuanshao",
+      "target": "char_yanliang",
+      "type": "任命先鋒",
+      "description": "袁紹遣顏良為先鋒攻白馬。",
+      "evidence": [
+        "紹遣大將顏良作先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yanliang",
+      "target": "title_xianfeng",
+      "type": "擔任",
+      "description": "顏良擔任袁紹軍先鋒。",
+      "evidence": [
+        "顏良作先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yanliang",
+      "target": "loc_baima",
+      "type": "攻打",
+      "description": "顏良奉袁紹命進攻白馬。",
+      "evidence": [
+        "進攻白馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liuyan",
+      "target": "char_caocao",
+      "type": "告急求援",
+      "description": "劉延向許昌告急，引曹操出兵抵敵。",
+      "evidence": [
+        "劉延告急許昌"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_caocao",
+      "target": "loc_baima",
+      "type": "救援行軍",
+      "description": "曹操親率五萬軍至白馬抵敵。",
+      "evidence": [
+        "提五萬軍親臨白馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "army_caobing",
+      "type": "統領",
+      "description": "曹操統率曹軍十五萬分三隊而行。",
+      "evidence": [
+        "操引兵十五萬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yuanshao",
+      "target": "army_hebei",
+      "type": "統領",
+      "description": "河北軍為袁紹所率大軍。",
+      "evidence": [
+        "大軍進發至黎陽",
+        "河北人馬"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yanliang",
+      "target": "army_yanliang_vanguard",
+      "type": "統領",
+      "description": "顏良統領前部精兵十萬列陣。",
+      "evidence": [
+        "顏良前部精兵十萬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_songxian",
+      "target": "char_lvbu",
+      "type": "舊屬",
+      "description": "宋憲被稱為呂布舊將。",
+      "evidence": [
+        "呂布舊將宋憲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yanliang",
+      "target": "char_songxian",
+      "type": "斬殺",
+      "description": "顏良三合不到斬宋憲。",
+      "evidence": [
+        "斬宋憲於陣前"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yanliang",
+      "target": "char_weixu",
+      "type": "斬殺",
+      "description": "顏良一合劈魏續於馬下。",
+      "evidence": [
+        "劈魏續於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yanliang",
+      "target": "char_xuhuang",
+      "type": "擊敗",
+      "description": "徐晃與顏良戰二十合後敗歸。",
+      "evidence": [
+        "戰二十合，敗歸本陣"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_chengyu",
+      "target": "strat_chengyu_suspicion",
+      "type": "獻計",
+      "description": "程昱建議用關公破袁紹兵以使袁紹疑劉備。",
+      "evidence": [
+        "紹必疑劉備而殺之"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strat_chengyu_suspicion",
+      "target": "char_guangong",
+      "type": "利用出戰",
+      "description": "此計以關公迎戰顏良為核心。",
+      "evidence": [
+        "非關公不可"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strat_chengyu_suspicion",
+      "target": "char_liubei",
+      "type": "使被猜疑",
+      "description": "程昱預料關公破袁軍後袁紹會疑劉備。",
+      "evidence": [
+        "紹必疑劉備"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_guangong",
+      "target": "obj_qinglongdao",
+      "type": "使用",
+      "description": "關公赴白馬時提青龍刀。",
+      "evidence": [
+        "提青龍刀"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guangong",
+      "target": "char_yanliang",
+      "type": "斬殺",
+      "description": "關公乘赤兔馬衝入陣中，一刀刺落顏良。",
+      "evidence": [
+        "顏良措手不及",
+        "刺於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guangong",
+      "target": "obj_yanliang_head",
+      "type": "獲取",
+      "description": "關公斬顏良後割其首級。",
+      "evidence": [
+        "割了顏良首級"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guangong",
+      "target": "char_caocao",
+      "type": "獻首",
+      "description": "關公將顏良首級獻給曹操。",
+      "evidence": [
+        "獻首級於操前"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_caobing",
+      "target": "army_hebei",
+      "type": "乘勢攻擊",
+      "description": "顏良死後，曹軍乘勢攻擊河北軍。",
+      "evidence": [
+        "曹軍乘勢攻擊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guangong",
+      "target": "char_zhangfei",
+      "type": "稱讚勇武",
+      "description": "關公稱張飛可於百萬軍中取上將首級。",
+      "evidence": [
+        "張翼德於百萬軍中取上將之頭"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yuanshao",
+      "target": "char_liubei",
+      "type": "疑罪欲斬",
+      "description": "袁紹因關公斬顏良，疑劉備通謀並命推出斬之。",
+      "evidence": [
+        "汝弟斬吾愛將",
+        "喚刀斧手推出玄德"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_025_01",
+      "name": "程昱獻誘取關公之計",
+      "summary": "程昱建議曹操用劉備降兵入下邳作內應，詐敗誘關公出城，再截其歸路。",
+      "participants": [
+        "char_chengyu",
+        "char_caocao",
+        "char_guangong",
+        "army_liubei_surrendered"
+      ],
+      "locations": [
+        "loc_xiapi"
+      ],
+      "evidence": [
+        "程昱獻計曰",
+        "伏於城中為內應",
+        "截其歸路"
+      ]
+    },
+    {
+      "id": "evt_025_02",
+      "name": "關公被誘出城並困土山",
+      "summary": "夏侯惇搦戰誘出關公，徐晃、許褚伏兵截擊，關公無路歸下邳而屯土山。",
+      "participants": [
+        "char_guangong",
+        "char_xiahoudun",
+        "char_xuhuang",
+        "char_xuchu",
+        "army_guangong",
+        "army_caobing"
+      ],
+      "locations": [
+        "loc_xiapi",
+        "loc_tushan"
+      ],
+      "evidence": [
+        "引三千人馬出城",
+        "截住去路",
+        "屯於山頭"
+      ]
+    },
+    {
+      "id": "evt_025_03",
+      "name": "下邳失守",
+      "summary": "劉備降兵偷開下邳城門，曹操親率大軍入城，舉火惑亂關公。",
+      "participants": [
+        "char_caocao",
+        "char_guangong",
+        "army_liubei_surrendered",
+        "army_caobing"
+      ],
+      "locations": [
+        "loc_xiapi",
+        "loc_tushan"
+      ],
+      "evidence": [
+        "詐降兵卒偷開城門",
+        "曹操自提大軍殺入"
+      ]
+    },
+    {
+      "id": "evt_025_04",
+      "name": "張遼說降與關公約三事",
+      "summary": "張遼登土山勸關公暫降，關公提出三事；曹操答允並退軍三十里。",
+      "participants": [
+        "char_zhangliao",
+        "char_guangong",
+        "char_caocao",
+        "char_xunyu"
+      ],
+      "locations": [
+        "loc_tushan",
+        "loc_xiapi"
+      ],
+      "evidence": [
+        "張遼勸我投降",
+        "我以三事相約",
+        "退軍三十里"
+      ]
+    },
+    {
+      "id": "evt_025_05",
+      "name": "關公護送二嫂至許昌",
+      "summary": "關公入下邳見甘、糜二夫人，暫降曹操後護送二嫂隨軍回許昌，途中秉燭守禮。",
+      "participants": [
+        "char_guangong",
+        "char_caocao",
+        "char_gan_furen",
+        "char_mi_furen"
+      ],
+      "locations": [
+        "loc_xiapi",
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "請二嫂上車",
+        "親自護車而行",
+        "秉燭立於戶外"
+      ]
+    },
+    {
+      "id": "evt_025_06",
+      "name": "許昌厚待關公",
+      "summary": "曹操引關公朝見獻帝，關公受偏將軍；曹操宴待贈物，關公多轉給二嫂。",
+      "participants": [
+        "char_caocao",
+        "char_guangong",
+        "char_xiandi",
+        "char_gan_furen",
+        "char_mi_furen"
+      ],
+      "locations": [
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "帝命為偏將軍",
+        "以客禮待關公",
+        "送與二嫂收貯"
+      ]
+    },
+    {
+      "id": "evt_025_07",
+      "name": "舊袍與美髯公稱號",
+      "summary": "曹操贈新袍，關公仍以劉備舊袍罩上；後因長髯得獻帝稱為美髯公。",
+      "participants": [
+        "char_caocao",
+        "char_guangong",
+        "char_liubei",
+        "char_xiandi"
+      ],
+      "locations": [
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "舊袍乃劉皇叔所賜",
+        "丞相賜囊貯之",
+        "真美髯公也"
+      ]
+    },
+    {
+      "id": "evt_025_08",
+      "name": "曹操贈赤兔馬",
+      "summary": "曹操見關公馬瘦，將呂布舊騎赤兔馬贈與關公；關公言得馬可速尋劉備。",
+      "participants": [
+        "char_caocao",
+        "char_guangong",
+        "char_lvbu"
+      ],
+      "locations": [
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "呂布所騎赤兔馬",
+        "送與關公",
+        "可一日而矣"
+      ]
+    },
+    {
+      "id": "evt_025_09",
+      "name": "袁紹欲攻許都與田豐被囚",
+      "summary": "劉備在袁紹處憂心兄弟妻小，袁紹欲攻許都；田豐諫阻，遭袁紹囚禁。",
+      "participants": [
+        "char_liubei",
+        "char_yuanshao",
+        "char_tianfeng"
+      ],
+      "locations": [
+        "loc_xuchang",
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "玄德在袁紹處",
+        "進兵赴許都",
+        "田豐又諫",
+        "乃囚於獄中"
+      ]
+    },
+    {
+      "id": "evt_025_10",
+      "name": "顏良攻白馬並連勝曹將",
+      "summary": "袁紹遣顏良為先鋒攻白馬，劉延告急；曹操出兵，宋憲、魏續被斬，徐晃敗歸。",
+      "participants": [
+        "char_yuanshao",
+        "char_yanliang",
+        "char_liuyan",
+        "char_caocao",
+        "char_songxian",
+        "char_weixu",
+        "char_xuhuang",
+        "army_hebei",
+        "army_caobing"
+      ],
+      "locations": [
+        "loc_baima",
+        "loc_liyang",
+        "loc_dongjun",
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "顏良作先鋒",
+        "告急許昌",
+        "斬宋憲",
+        "劈魏續",
+        "敗歸本陣"
+      ]
+    },
+    {
+      "id": "evt_025_11",
+      "name": "程昱薦關公破顏良",
+      "summary": "曹操憂顏良勇猛，程昱薦關公出戰，並指出此舉可使袁紹疑劉備。",
+      "participants": [
+        "char_caocao",
+        "char_chengyu",
+        "char_guangong",
+        "char_yanliang",
+        "char_liubei"
+      ],
+      "locations": [
+        "loc_baima",
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "非關公不可",
+        "紹必疑劉備"
+      ]
+    },
+    {
+      "id": "evt_025_12",
+      "name": "關公白馬斬顏良",
+      "summary": "關公提青龍刀、騎赤兔馬衝入河北軍陣，斬顏良取首級，曹軍乘勢攻擊。",
+      "participants": [
+        "char_guangong",
+        "char_yanliang",
+        "char_caocao",
+        "army_hebei",
+        "army_caobing",
+        "obj_qinglongdao",
+        "obj_chituma"
+      ],
+      "locations": [
+        "loc_baima",
+        "loc_tushan"
+      ],
+      "evidence": [
+        "提青龍刀，上赤兔馬",
+        "刺於馬下",
+        "割了顏良首級",
+        "曹軍乘勢攻擊"
+      ]
+    },
+    {
+      "id": "evt_025_13",
+      "name": "袁紹疑劉備通謀",
+      "summary": "顏良敗軍回報斬將者似劉備之弟關雲長，袁紹怒疑劉備通謀，命刀斧手推出欲斬。",
+      "participants": [
+        "char_yuanshao",
+        "char_liubei",
+        "char_guangong",
+        "army_hebei"
+      ],
+      "locations": [],
+      "evidence": [
+        "此必是劉玄德之弟關雲長",
+        "汝必通謀",
+        "推出玄德"
+      ]
+    }
+  ],
+  "notes": [
+    "原檔局部有重複、脫漏與疑似訛字；本結果只抽取上下文可辨識支持的內容。",
+    "源文中「教諫／教授」疑似人物名訛字，未作確定人物實體抽取。"
+  ]
+}

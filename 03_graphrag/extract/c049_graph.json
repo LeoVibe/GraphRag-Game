@@ -1,0 +1,2609 @@
+{
+  "book": "三國演義",
+  "chapter_no": 49,
+  "chapter_title": "七星壇諸葛祭風　三江口周瑜縱火",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_zhouyu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "公瑾",
+        "瑜",
+        "都督",
+        "周郎"
+      ],
+      "description": "東吳都督，本章主持赤壁火攻部署，曾因欠東風而病倒，後欲殺諸葛亮。",
+      "evidence": [
+        "周瑜臥病",
+        "喚集諸將聽令"
+      ]
+    },
+    {
+      "id": "char_lusu",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "子敬",
+        "肅"
+      ],
+      "description": "東吳謀士，向孔明告知周瑜病情，並參與軍中調度與守寨。",
+      "evidence": [
+        "魯肅見周瑜臥病",
+        "子敬自往軍中"
+      ]
+    },
+    {
+      "id": "char_zhugeliang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "亮",
+        "軍師"
+      ],
+      "description": "劉備軍師，識破周瑜病源，築七星壇祭風，後由趙雲接回夏口。",
+      "evidence": [
+        "孔明曰",
+        "拿住諸葛亮"
+      ]
+    },
+    {
+      "id": "char_sunquan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "吳侯"
+      ],
+      "description": "東吳之主，接應周瑜行動，遣陸遜為先鋒並自為後應。",
+      "evidence": [
+        "關報孫權接應",
+        "吳侯自為後應"
+      ]
+    },
+    {
+      "id": "char_caocao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "曹公",
+        "操",
+        "丞相",
+        "曹賊"
+      ],
+      "description": "曹軍統帥，屯兵江北與水寨，受黃蓋詐降所誘，火攻中敗走。",
+      "evidence": [
+        "欲破曹公",
+        "曹操在大寨中"
+      ]
+    },
+    {
+      "id": "char_huanggai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [
+        "公覆",
+        "蓋",
+        "先鋒黃蓋"
+      ],
+      "description": "東吳將領，執行火船詐降與縱火進攻，後追曹操時被張遼射中落水。",
+      "evidence": [
+        "黃蓋已自準備火船",
+        "黃蓋在此"
+      ]
+    },
+    {
+      "id": "char_chengpu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，與周瑜在大艨艟上督戰。",
+      "evidence": [
+        "周瑜自與程普...督戰"
+      ]
+    },
+    {
+      "id": "char_ganning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，受命帶蔡中與降卒走南岸，取烏林並舉火為號。",
+      "evidence": [
+        "先教甘寧",
+        "直取烏林"
+      ]
+    },
+    {
+      "id": "char_minze",
+      "name": "閔澤",
+      "type": "character",
+      "aliases": [
+        "閻澤"
+      ],
+      "description": "東吳方面人物，文本中與甘寧監視蔡和、蔡中，後又作守寨人員。",
+      "evidence": [
+        "甘寧、閔澤",
+        "魯肅共閻澤"
+      ]
+    },
+    {
+      "id": "char_caihe",
+      "name": "蔡和",
+      "type": "character",
+      "aliases": [
+        "和"
+      ],
+      "description": "降曹相關人物，被周瑜指為詐降並斬首祭旗。",
+      "evidence": [
+        "只留下蔡和",
+        "斬了蔡和"
+      ]
+    },
+    {
+      "id": "char_caizhong",
+      "name": "蔡中",
+      "type": "character",
+      "aliases": [],
+      "description": "與蔡和同在水寨，後被甘寧帶往南岸行動。",
+      "evidence": [
+        "蔡和、蔡中",
+        "帶了蔡中"
+      ]
+    },
+    {
+      "id": "char_dingfeng",
+      "name": "丁奉",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳護軍校尉，受周瑜命率人追殺諸葛亮，後為周瑜左右護衛。",
+      "evidence": [
+        "護軍校尉丁奉",
+        "丁奉從旱路去"
+      ]
+    },
+    {
+      "id": "char_xusheng",
+      "name": "徐盛",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳護軍校尉，受命水路追諸葛亮，被趙雲射斷船篷阻住。",
+      "evidence": [
+        "徐盛從江內去",
+        "射斷徐篷"
+      ]
+    },
+    {
+      "id": "char_zhaoyun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "子龍",
+        "常山趙子龍"
+      ],
+      "description": "劉備部將，奉令接應孔明，阻止徐盛追趕。",
+      "evidence": [
+        "吾乃常山趙子龍",
+        "奉令特來接軍師"
+      ]
+    },
+    {
+      "id": "char_taishici",
+      "name": "太史慈",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，受命率三千兵往黃州，斷合淝接應兵。",
+      "evidence": [
+        "太史慈...領三千兵",
+        "斷曹操合淝接應"
+      ]
+    },
+    {
+      "id": "char_lvmeng",
+      "name": "呂蒙",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，受命率三千兵到烏林接應甘寧並焚曹操寨柵。",
+      "evidence": [
+        "呂蒙領三千兵到烏林"
+      ]
+    },
+    {
+      "id": "char_lingtong",
+      "name": "凌統",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，受命率三千兵至彥陵界首接應火起。",
+      "evidence": [
+        "凌統領三千兵",
+        "彥陵界首"
+      ]
+    },
+    {
+      "id": "char_dongxi",
+      "name": "董襲",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，受命率三千兵取漢陽，從漢川殺奔曹操營中。",
+      "evidence": [
+        "董襲領三千兵",
+        "直取漢陽"
+      ]
+    },
+    {
+      "id": "char_panzhang",
+      "name": "潘璋",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，受命率三千兵打白旗往漢陽接應董襲。",
+      "evidence": [
+        "潘璋領三千兵",
+        "接應董襲"
+      ]
+    },
+    {
+      "id": "char_handang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳軍官，率第一隊戰船接應黃蓋。",
+      "evidence": [
+        "第一隊...韓當"
+      ]
+    },
+    {
+      "id": "char_zhoutai",
+      "name": "周泰",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳軍官，率第二隊戰船接應黃蓋。",
+      "evidence": [
+        "第二隊...周泰"
+      ]
+    },
+    {
+      "id": "char_jiangqin",
+      "name": "蔣欽",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳軍官，率第三隊戰船接應黃蓋。",
+      "evidence": [
+        "第三隊...蔣欽"
+      ]
+    },
+    {
+      "id": "char_chenwu",
+      "name": "陳武",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳軍官，率第四隊戰船接應黃蓋。",
+      "evidence": [
+        "第四隊...陳武"
+      ]
+    },
+    {
+      "id": "char_luxun",
+      "name": "陸遜",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權所差先鋒，直抵蘄、黃地面進兵。",
+      "evidence": [
+        "差陸遜為先鋒"
+      ]
+    },
+    {
+      "id": "char_liuxuande",
+      "name": "劉玄德",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉備",
+        "主公"
+      ],
+      "description": "駐夏口等待孔明，備妥軍馬戰船，後受孔明安排屯兵樊口。",
+      "evidence": [
+        "劉玄德在夏口",
+        "主公可於樊口屯兵"
+      ]
+    },
+    {
+      "id": "char_liuqi",
+      "name": "劉琦",
+      "type": "character",
+      "aliases": [
+        "公子劉琦",
+        "公子"
+      ],
+      "description": "到夏口探聽消息，後奉孔明指示回武昌陳兵岸口。",
+      "evidence": [
+        "公子劉琦",
+        "率領所部之兵"
+      ]
+    },
+    {
+      "id": "char_zhangfei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德"
+      ],
+      "description": "劉備部將，受孔明命率三千兵渡江，於葫蘆谷口埋伏。",
+      "evidence": [
+        "喚張飛曰",
+        "葫蘆谷口埋伏"
+      ]
+    },
+    {
+      "id": "char_mizhu",
+      "name": "糜竺",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備方面人物，奉孔明命駕船繞江剿擒敗軍。",
+      "evidence": [
+        "糜竺、糜芳、劉封"
+      ]
+    },
+    {
+      "id": "char_mifang",
+      "name": "糜芳",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備方面人物，奉孔明命駕船繞江剿擒敗軍。",
+      "evidence": [
+        "糜竺、糜芳、劉封"
+      ]
+    },
+    {
+      "id": "char_liufeng",
+      "name": "劉封",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備方面人物，奉孔明命駕船繞江剿擒敗軍。",
+      "evidence": [
+        "劉封三人各駕船隻"
+      ]
+    },
+    {
+      "id": "char_yunchang",
+      "name": "雲長",
+      "type": "character",
+      "aliases": [
+        "關某",
+        "關羽"
+      ],
+      "description": "劉備部將，主動請戰後受孔明安排守華容小路。",
+      "evidence": [
+        "時雲長在側",
+        "關某自隨兄長"
+      ]
+    },
+    {
+      "id": "char_chengyu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，提醒東南風可疑，並識破來船可能有詐。",
+      "evidence": [
+        "程昱入告曹操",
+        "來船必詐"
+      ]
+    },
+    {
+      "id": "char_wenpin",
+      "name": "文聘",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，自請水上攔阻黃蓋船隊，左臂中箭。",
+      "evidence": [
+        "文聘曰",
+        "射中左臂"
+      ]
+    },
+    {
+      "id": "char_zhangliao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [],
+      "description": "曹將，火攻時保護曹操逃岸，並射中黃蓋肩窩。",
+      "evidence": [
+        "張遼...扶操",
+        "一箭射去"
+      ]
+    },
+    {
+      "id": "fac_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "吳",
+        "東吳軍馬"
+      ],
+      "description": "周瑜、孫權所屬勢力，本章主導火攻曹軍。",
+      "evidence": [
+        "東吳軍馬",
+        "吳侯接應兵"
+      ]
+    },
+    {
+      "id": "fac_jiangdong",
+      "name": "江東",
+      "type": "faction",
+      "aliases": [],
+      "description": "東吳一方的地域與勢力稱呼。",
+      "evidence": [
+        "江東之禍",
+        "江東名將"
+      ]
+    },
+    {
+      "id": "fac_caojun",
+      "name": "曹軍",
+      "type": "faction",
+      "aliases": [
+        "曹兵",
+        "北軍",
+        "江北百萬之眾"
+      ],
+      "description": "曹操統率的軍隊，屯於江北與水寨，為火攻目標。",
+      "evidence": [
+        "曹兵一至",
+        "只打北軍旗號"
+      ]
+    },
+    {
+      "id": "fac_liubeijun",
+      "name": "玄德軍",
+      "type": "faction",
+      "aliases": [
+        "劉備軍"
+      ],
+      "description": "劉玄德一方軍隊，與孔明部署伏兵接應赤壁敗局。",
+      "evidence": [
+        "所約軍馬戰船",
+        "主公可於樊口屯兵"
+      ]
+    },
+    {
+      "id": "loc_nanpingshan",
+      "name": "南屏山",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明相度地勢並築七星壇之處。",
+      "evidence": [
+        "來南屏山相度地勢"
+      ]
+    },
+    {
+      "id": "loc_qixingtan",
+      "name": "七星壇",
+      "type": "location",
+      "aliases": [
+        "壇"
+      ],
+      "description": "孔明祭風的壇場，周瑜派軍築守。",
+      "evidence": [
+        "七星壇前",
+        "登壇"
+      ]
+    },
+    {
+      "id": "loc_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "劉玄德等候孔明返回之地。",
+      "evidence": [
+        "在夏口專候孔明"
+      ]
+    },
+    {
+      "id": "loc_wulin",
+      "name": "烏林",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操屯糧地面，甘寧、呂蒙等東吳軍行動目標。",
+      "evidence": [
+        "直取烏林地面"
+      ]
+    },
+    {
+      "id": "loc_huangzhou",
+      "name": "黃州",
+      "type": "location",
+      "aliases": [],
+      "description": "太史慈奉命奔赴以截斷曹操合淝接應兵。",
+      "evidence": [
+        "直奔黃州地界"
+      ]
+    },
+    {
+      "id": "loc_hefei",
+      "name": "合淝",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操接應兵來源方向，被太史慈截斷。",
+      "evidence": [
+        "合淝接應之兵"
+      ]
+    },
+    {
+      "id": "loc_yanling",
+      "name": "彥陵",
+      "type": "location",
+      "aliases": [
+        "南彥陵",
+        "北彥陵"
+      ],
+      "description": "凌統與孔明部署中提及的路線地界。",
+      "evidence": [
+        "彥陵界首",
+        "北彥陵"
+      ]
+    },
+    {
+      "id": "loc_hanyang",
+      "name": "漢陽",
+      "type": "location",
+      "aliases": [],
+      "description": "董襲、潘璋受命進攻與接應之地。",
+      "evidence": [
+        "直取漢陽"
+      ]
+    },
+    {
+      "id": "loc_hanchuan",
+      "name": "漢川",
+      "type": "location",
+      "aliases": [],
+      "description": "董襲受命由此殺奔曹操營中。",
+      "evidence": [
+        "從漢川殺奔"
+      ]
+    },
+    {
+      "id": "loc_xishan",
+      "name": "西山",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜差人放火砲之處。",
+      "evidence": [
+        "西山放火砲"
+      ]
+    },
+    {
+      "id": "loc_fankou",
+      "name": "樊口",
+      "type": "location",
+      "aliases": [
+        "樊口港"
+      ],
+      "description": "孔明回夏口時船從樊口港來，劉備後受命屯兵。",
+      "evidence": [
+        "樊口港上",
+        "樊口屯兵"
+      ]
+    },
+    {
+      "id": "loc_wuchang",
+      "name": "武昌",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明令劉琦返回駐守的要地。",
+      "evidence": [
+        "武昌一望之地"
+      ]
+    },
+    {
+      "id": "loc_huarongdao",
+      "name": "華容道",
+      "type": "location",
+      "aliases": [
+        "華容小路"
+      ],
+      "description": "孔明預判曹操敗後將走的路，令雲長設伏。",
+      "evidence": [
+        "必走華容道",
+        "華容小路"
+      ]
+    },
+    {
+      "id": "loc_hulugu",
+      "name": "葫蘆谷口",
+      "type": "location",
+      "aliases": [],
+      "description": "張飛奉命埋伏之地。",
+      "evidence": [
+        "葫蘆谷口埋伏"
+      ]
+    },
+    {
+      "id": "loc_poyanghu",
+      "name": "鄱陽湖",
+      "type": "location",
+      "aliases": [],
+      "description": "黃蓋密書中假稱新運糧來源。",
+      "evidence": [
+        "鄱陽湖新運到糧"
+      ]
+    },
+    {
+      "id": "loc_chibi",
+      "name": "赤壁",
+      "type": "location",
+      "aliases": [],
+      "description": "黃蓋火船進發之處，曹軍水寨火攻戰場。",
+      "evidence": [
+        "望赤壁進發"
+      ]
+    },
+    {
+      "id": "loc_sanjiangkou",
+      "name": "三江口",
+      "type": "location",
+      "aliases": [
+        "三江面"
+      ],
+      "description": "章題所稱周瑜縱火處，火攻時江面通紅。",
+      "evidence": [
+        "三江口周瑜縱火",
+        "三江面上"
+      ]
+    },
+    {
+      "id": "loc_caozhai",
+      "name": "曹寨",
+      "type": "location",
+      "aliases": [
+        "水寨",
+        "曹操大寨",
+        "岸上營寨"
+      ],
+      "description": "曹操船寨與營寨，火攻中被焚。",
+      "evidence": [
+        "曹操在大寨中",
+        "曹寨中船隻"
+      ]
+    },
+    {
+      "id": "loc_qihuang",
+      "name": "蘄、黃地面",
+      "type": "location",
+      "aliases": [],
+      "description": "陸遜奉孫權命為先鋒進兵之地。",
+      "evidence": [
+        "直抵蘄、黃地面"
+      ]
+    },
+    {
+      "id": "loc_ankou",
+      "name": "岸口",
+      "type": "location",
+      "aliases": [],
+      "description": "劉琦受命陳兵擒曹操敗軍之處。",
+      "evidence": [
+        "陳於岸口"
+      ]
+    },
+    {
+      "id": "title_dudu",
+      "name": "都督",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜在東吳軍中的職稱。",
+      "evidence": [
+        "都督病勢"
+      ]
+    },
+    {
+      "id": "title_wuhou",
+      "name": "吳侯",
+      "type": "title",
+      "aliases": [],
+      "description": "孫權稱號。",
+      "evidence": [
+        "申報吳侯"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操部下對曹操的稱呼。",
+      "evidence": [
+        "丞相鈞旨"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "孔明在劉備軍中的職稱。",
+      "evidence": [
+        "軍師休去"
+      ]
+    },
+    {
+      "id": "title_hujunxiaowei",
+      "name": "護軍校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "丁奉、徐盛在周瑜帳前的官職。",
+      "evidence": [
+        "護軍校尉丁奉、徐盛"
+      ]
+    },
+    {
+      "id": "title_xianfeng",
+      "name": "先鋒",
+      "type": "title",
+      "aliases": [],
+      "description": "黃蓋旗號與陸遜職任皆稱先鋒。",
+      "evidence": [
+        "先鋒黃蓋",
+        "陸遜為先鋒"
+      ]
+    },
+    {
+      "id": "obj_shiliuzi",
+      "name": "十六字方",
+      "type": "object",
+      "aliases": [
+        "密書十六字"
+      ],
+      "description": "孔明寫給周瑜的破曹關鍵，指出火攻與東風。",
+      "evidence": [
+        "密書十六字"
+      ]
+    },
+    {
+      "id": "obj_fireboats",
+      "name": "火船二十隻",
+      "type": "object",
+      "aliases": [
+        "火船"
+      ],
+      "description": "黃蓋準備並用以撞入曹操水寨的火攻船隻。",
+      "evidence": [
+        "火船二十隻",
+        "前船一齊發火"
+      ]
+    },
+    {
+      "id": "obj_qinglongyaqi",
+      "name": "青龍牙旗",
+      "type": "object",
+      "aliases": [],
+      "description": "插在黃蓋火船上的旗號，也是詐降識別。",
+      "evidence": [
+        "插青龍牙旗"
+      ]
+    },
+    {
+      "id": "obj_warships",
+      "name": "戰船",
+      "type": "object",
+      "aliases": [
+        "船隻"
+      ],
+      "description": "周瑜撥給各隊接應黃蓋火船的船隊。",
+      "evidence": [
+        "各引戰船三百隻"
+      ]
+    },
+    {
+      "id": "obj_bingfu",
+      "name": "兵符",
+      "type": "object",
+      "aliases": [],
+      "description": "孫權差使命持來的軍令信物。",
+      "evidence": [
+        "使命持兵符至"
+      ]
+    },
+    {
+      "id": "obj_huanggai_letter",
+      "name": "黃蓋密書",
+      "type": "object",
+      "aliases": [
+        "密書"
+      ],
+      "description": "送給曹操的詐降書信，約定今夜二更來降。",
+      "evidence": [
+        "有黃蓋密書"
+      ]
+    },
+    {
+      "id": "obj_liren",
+      "name": "利刃",
+      "type": "object",
+      "aliases": [],
+      "description": "黃蓋火船上手提之兵器。",
+      "evidence": [
+        "手提利刃"
+      ]
+    },
+    {
+      "id": "obj_tiehuan",
+      "name": "鐵環",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操船隻被鐵環鎖住，火起後無處逃避。",
+      "evidence": [
+        "被鐵環鎖住"
+      ]
+    },
+    {
+      "id": "obj_huopao",
+      "name": "火砲",
+      "type": "object",
+      "aliases": [],
+      "description": "周瑜命人在西山施放的信號器物。",
+      "evidence": [
+        "西山放火砲"
+      ]
+    },
+    {
+      "id": "obj_haoqi",
+      "name": "號旗",
+      "type": "object",
+      "aliases": [],
+      "description": "周瑜命人在南屏山舉起的號令旗。",
+      "evidence": [
+        "南屏山舉號旗"
+      ]
+    },
+    {
+      "id": "obj_redflag",
+      "name": "紅旗",
+      "type": "object",
+      "aliases": [],
+      "description": "太史慈一路用以識別吳侯接應兵的旗號。",
+      "evidence": [
+        "只看紅旗"
+      ]
+    },
+    {
+      "id": "obj_whiteflag",
+      "name": "白旗",
+      "type": "object",
+      "aliases": [],
+      "description": "董襲、潘璋一路接應用旗號。",
+      "evidence": [
+        "看白旗接應",
+        "盡打白旗"
+      ]
+    },
+    {
+      "id": "strat_huogong",
+      "name": "火攻",
+      "type": "strategy",
+      "aliases": [],
+      "description": "破曹核心策略，以火船乘東南風燒曹操水寨。",
+      "evidence": [
+        "宜用火攻"
+      ]
+    },
+    {
+      "id": "strat_jiefeng",
+      "name": "祭風借東風",
+      "type": "strategy",
+      "aliases": [
+        "借東風"
+      ],
+      "description": "孔明於七星壇祭祈東南風，使火攻得以實施。",
+      "evidence": [
+        "只欠東風",
+        "東南風大起"
+      ]
+    },
+    {
+      "id": "strat_zhaxiang",
+      "name": "詐降",
+      "type": "strategy",
+      "aliases": [],
+      "description": "黃蓋以密書與青龍牙旗偽裝來降，誘曹操放近火船。",
+      "evidence": [
+        "獻首來降",
+        "來船必詐"
+      ]
+    },
+    {
+      "id": "strat_fenlu",
+      "name": "分路接應",
+      "type": "strategy",
+      "aliases": [],
+      "description": "周瑜分派多隊兵船取烏林、黃州、漢陽等處接應火攻。",
+      "evidence": [
+        "六隊船隻各自分路"
+      ]
+    },
+    {
+      "id": "strat_beijunqihao",
+      "name": "北軍旗號偽裝",
+      "type": "strategy",
+      "aliases": [
+        "北軍旗號"
+      ],
+      "description": "甘寧一路打北軍旗號以深入曹軍。",
+      "evidence": [
+        "只打北軍旗號"
+      ]
+    },
+    {
+      "id": "strat_jieyuan",
+      "name": "截斷合淝接應",
+      "type": "strategy",
+      "aliases": [
+        "斷援"
+      ],
+      "description": "太史慈奉命斷曹操合淝方向接應之兵。",
+      "evidence": [
+        "斷曹操合淝接應"
+      ]
+    },
+    {
+      "id": "strat_huarong_yanhuo",
+      "name": "華容煙火誘敵",
+      "type": "strategy",
+      "aliases": [
+        "虛實之論"
+      ],
+      "description": "孔明令雲長於華容小路堆柴放煙，引曹操入路。",
+      "evidence": [
+        "堆積柴草",
+        "虛實之論"
+      ]
+    },
+    {
+      "id": "army_tan_guards",
+      "name": "守壇將士",
+      "type": "army",
+      "aliases": [
+        "一百二十人",
+        "五百精壯軍士"
+      ],
+      "description": "周瑜調派築壇與守壇的軍士。",
+      "evidence": [
+        "五百精壯軍士",
+        "一百二十人"
+      ]
+    },
+    {
+      "id": "army_dingfeng",
+      "name": "丁奉弓弩手",
+      "type": "army",
+      "aliases": [
+        "一百弓弩手",
+        "丁奉馬軍"
+      ],
+      "description": "丁奉率領從旱路追諸葛亮的人馬。",
+      "evidence": [
+        "一百弓弩手"
+      ]
+    },
+    {
+      "id": "army_xusheng",
+      "name": "徐盛刀斧手",
+      "type": "army",
+      "aliases": [
+        "一百刀斧手"
+      ],
+      "description": "徐盛率領從江內追諸葛亮的船隊。",
+      "evidence": [
+        "一百刀斧手"
+      ]
+    },
+    {
+      "id": "army_ganning",
+      "name": "甘寧南岸隊",
+      "type": "army",
+      "aliases": [],
+      "description": "甘寧率蔡中與降卒沿南岸取烏林。",
+      "evidence": [
+        "帶了蔡中並降卒"
+      ]
+    },
+    {
+      "id": "army_taishici",
+      "name": "太史慈三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "太史慈率往黃州斷合淝接應的兵力。",
+      "evidence": [
+        "領三千兵"
+      ]
+    },
+    {
+      "id": "army_lvmeng",
+      "name": "呂蒙三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "呂蒙率往烏林接應甘寧的兵力。",
+      "evidence": [
+        "呂蒙領三千兵"
+      ]
+    },
+    {
+      "id": "army_lingtong",
+      "name": "凌統三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "凌統率往彥陵界首的兵力。",
+      "evidence": [
+        "凌統領三千兵"
+      ]
+    },
+    {
+      "id": "army_dongxi",
+      "name": "董襲三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "董襲率取漢陽、漢川方向進攻的兵力。",
+      "evidence": [
+        "董襲領三千兵"
+      ]
+    },
+    {
+      "id": "army_panzhang",
+      "name": "潘璋三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "潘璋率打白旗接應董襲的兵力。",
+      "evidence": [
+        "潘璋領三千兵"
+      ]
+    },
+    {
+      "id": "army_huanggai",
+      "name": "黃蓋火船隊",
+      "type": "army",
+      "aliases": [],
+      "description": "黃蓋率領插青龍牙旗的火船隊進攻曹寨。",
+      "evidence": [
+        "黃蓋在第三隻火船"
+      ]
+    },
+    {
+      "id": "army_handang",
+      "name": "韓當戰船隊",
+      "type": "army",
+      "aliases": [
+        "第一隊"
+      ],
+      "description": "韓當所領接應黃蓋的戰船隊。",
+      "evidence": [
+        "第一隊...韓當"
+      ]
+    },
+    {
+      "id": "army_zhoutai",
+      "name": "周泰戰船隊",
+      "type": "army",
+      "aliases": [
+        "第二隊"
+      ],
+      "description": "周泰所領接應黃蓋的戰船隊。",
+      "evidence": [
+        "第二隊...周泰"
+      ]
+    },
+    {
+      "id": "army_jiangqin",
+      "name": "蔣欽戰船隊",
+      "type": "army",
+      "aliases": [
+        "第三隊"
+      ],
+      "description": "蔣欽所領接應黃蓋的戰船隊。",
+      "evidence": [
+        "第三隊...蔣欽"
+      ]
+    },
+    {
+      "id": "army_chenwu",
+      "name": "陳武戰船隊",
+      "type": "army",
+      "aliases": [
+        "第四隊"
+      ],
+      "description": "陳武所領接應黃蓋的戰船隊。",
+      "evidence": [
+        "第四隊...陳武"
+      ]
+    },
+    {
+      "id": "army_luxun",
+      "name": "陸遜先鋒軍",
+      "type": "army",
+      "aliases": [],
+      "description": "陸遜率領的孫權先鋒兵。",
+      "evidence": [
+        "陸遜為先鋒"
+      ]
+    },
+    {
+      "id": "army_sunquan",
+      "name": "吳侯後應兵",
+      "type": "army",
+      "aliases": [
+        "孫權接應兵"
+      ],
+      "description": "孫權親自作後應的接應兵。",
+      "evidence": [
+        "吳侯自為後應"
+      ]
+    },
+    {
+      "id": "army_zhangfei",
+      "name": "張飛三千兵",
+      "type": "army",
+      "aliases": [],
+      "description": "張飛奉孔明命率渡江埋伏的兵力。",
+      "evidence": [
+        "翼德可領三千兵"
+      ]
+    },
+    {
+      "id": "army_mizhu",
+      "name": "糜竺等船隊",
+      "type": "army",
+      "aliases": [
+        "糜竺、糜芳、劉封船隊"
+      ],
+      "description": "糜竺、糜芳、劉封各駕船繞江擒敗軍。",
+      "evidence": [
+        "各駕船隻"
+      ]
+    },
+    {
+      "id": "army_liuqi",
+      "name": "劉琦所部兵",
+      "type": "army",
+      "aliases": [],
+      "description": "劉琦率回武昌並陳於岸口的兵力。",
+      "evidence": [
+        "所部之兵"
+      ]
+    },
+    {
+      "id": "army_yunchang",
+      "name": "雲長華容伏兵",
+      "type": "army",
+      "aliases": [],
+      "description": "雲長受命在華容小路設伏的兵力。",
+      "evidence": [
+        "華容小路高山之處"
+      ]
+    },
+    {
+      "id": "battle_chibi_fire",
+      "name": "赤壁火攻",
+      "type": "battle",
+      "aliases": [
+        "三江口縱火"
+      ],
+      "description": "黃蓋火船乘東南風撞入曹操水寨，引發曹軍大敗的火攻。",
+      "evidence": [
+        "望赤壁進發",
+        "三江面上"
+      ]
+    },
+    {
+      "id": "event_qixing_jifeng",
+      "name": "七星壇祭風",
+      "type": "event",
+      "aliases": [],
+      "description": "孔明於南屏山七星壇祭祈東南風。",
+      "evidence": [
+        "孔明緩步登壇",
+        "東南風大起"
+      ]
+    },
+    {
+      "id": "event_zhouyu_deploy",
+      "name": "周瑜調軍",
+      "type": "event",
+      "aliases": [],
+      "description": "周瑜在東南風起後分派各路東吳軍進行火攻與接應。",
+      "evidence": [
+        "喚集諸將聽令"
+      ]
+    },
+    {
+      "id": "event_liubei_deploy",
+      "name": "孔明部署玄德軍",
+      "type": "event",
+      "aliases": [],
+      "description": "孔明回夏口後安排劉備、張飛、雲長、劉琦等攔截曹操敗軍。",
+      "evidence": [
+        "玄德曰：收拾久矣",
+        "主公可於樊口屯兵"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_zhouyu",
+      "target": "title_dudu",
+      "type": "擔任稱號",
+      "description": "周瑜在軍中被稱為都督。",
+      "evidence": [
+        "都督病勢若何"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sunquan",
+      "target": "title_wuhou",
+      "type": "擁有稱號",
+      "description": "孫權以吳侯稱。",
+      "evidence": [
+        "申報吳侯"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_caocao",
+      "target": "title_chengxiang",
+      "type": "擁有稱號",
+      "description": "曹操被部下稱為丞相。",
+      "evidence": [
+        "丞相鈞旨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "title_junshi",
+      "type": "擔任稱號",
+      "description": "孔明被稱為軍師。",
+      "evidence": [
+        "軍師休去"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_dingfeng",
+      "target": "title_hujunxiaowei",
+      "type": "擔任官職",
+      "description": "丁奉為帳前護軍校尉。",
+      "evidence": [
+        "護軍校尉丁奉"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xusheng",
+      "target": "title_hujunxiaowei",
+      "type": "擔任官職",
+      "description": "徐盛為帳前護軍校尉。",
+      "evidence": [
+        "徐盛二將"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_huanggai",
+      "target": "title_xianfeng",
+      "type": "旗號稱號",
+      "description": "黃蓋火船旗上寫有先鋒黃蓋。",
+      "evidence": [
+        "先鋒黃蓋"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_luxun",
+      "target": "title_xianfeng",
+      "type": "受任官職",
+      "description": "孫權差陸遜為先鋒。",
+      "evidence": [
+        "陸遜為先鋒"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lusu",
+      "target": "char_zhugeliang",
+      "type": "求助告知",
+      "description": "魯肅將周瑜臥病之事告知孔明。",
+      "evidence": [
+        "來見孔明"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "char_zhouyu",
+      "type": "診斷病源",
+      "description": "孔明以火攻欠東風指出周瑜病源。",
+      "evidence": [
+        "知道我病源"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "obj_shiliuzi",
+      "type": "書寫",
+      "description": "孔明屏退左右，密書十六字給周瑜。",
+      "evidence": [
+        "密書十六字"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_shiliuzi",
+      "target": "strat_huogong",
+      "type": "提出策略",
+      "description": "十六字指出破曹宜用火攻。",
+      "evidence": [
+        "宜用火攻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_shiliuzi",
+      "target": "strat_jiefeng",
+      "type": "指出條件",
+      "description": "十六字指出火攻只欠東風。",
+      "evidence": [
+        "只欠東風"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_tan_guards",
+      "type": "調撥",
+      "description": "周瑜調軍築壇並守壇。",
+      "evidence": [
+        "差五百精壯軍士"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "army_tan_guards",
+      "target": "loc_qixingtan",
+      "type": "守衛",
+      "description": "守壇軍士執旗守七星壇。",
+      "evidence": [
+        "執旗守壇"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "loc_qixingtan",
+      "target": "loc_nanpingshan",
+      "type": "位於",
+      "description": "七星壇築於南屏山。",
+      "evidence": [
+        "往南屏山築壇"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "event_qixing_jifeng",
+      "type": "主持事件",
+      "description": "孔明沐浴齋戒後登壇祭風。",
+      "evidence": [
+        "孔明緩步登壇"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_qixing_jifeng",
+      "target": "strat_jiefeng",
+      "type": "實施策略",
+      "description": "七星壇祭風是借東風的具體行動。",
+      "evidence": [
+        "仰天暗祝"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strat_jiefeng",
+      "target": "strat_huogong",
+      "type": "促成",
+      "description": "東南風起使火攻條件成立。",
+      "evidence": [
+        "東南風大起"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_huanggai",
+      "target": "obj_fireboats",
+      "type": "準備",
+      "description": "黃蓋準備二十隻火船。",
+      "evidence": [
+        "準備火船二十隻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_fireboats",
+      "target": "obj_qinglongyaqi",
+      "type": "裝備旗號",
+      "description": "火船船頭插青龍牙旗。",
+      "evidence": [
+        "船頭上插青龍牙旗"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ganning",
+      "target": "char_caihe",
+      "type": "監視控制",
+      "description": "甘寧與閔澤將蔡和、蔡中留在水寨控制。",
+      "evidence": [
+        "窩盤蔡和、蔡中"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "source": "char_ganning",
+      "target": "char_caizhong",
+      "type": "監視控制",
+      "description": "甘寧與閔澤控制蔡中，不放士卒登岸。",
+      "evidence": [
+        "不放一卒登岸"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "source": "char_minze",
+      "target": "char_caihe",
+      "type": "監視控制",
+      "description": "閔澤與甘寧共同監視蔡和。",
+      "evidence": [
+        "甘寧、閔澤"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_zhugeliang",
+      "type": "意圖斬殺",
+      "description": "東南風起後，周瑜命丁奉、徐盛拿住諸葛亮斬首。",
+      "evidence": [
+        "拿住諸葛亮便行斬首"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_dingfeng",
+      "type": "下令",
+      "description": "周瑜命丁奉從旱路往南屏山追孔明。",
+      "evidence": [
+        "丁奉從旱路去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_xusheng",
+      "type": "下令",
+      "description": "周瑜命徐盛從江內往南屏山追孔明。",
+      "evidence": [
+        "徐盛從江內去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dingfeng",
+      "target": "army_dingfeng",
+      "type": "統領",
+      "description": "丁奉率一百弓弩手追孔明。",
+      "evidence": [
+        "一百弓弩手"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xusheng",
+      "target": "army_xusheng",
+      "type": "統領",
+      "description": "徐盛率一百刀斧手水路追孔明。",
+      "evidence": [
+        "一百刀斧手"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "char_zhugeliang",
+      "type": "接應救援",
+      "description": "趙雲奉令特來接應軍師孔明。",
+      "evidence": [
+        "奉令特來接軍師"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhaoyun",
+      "target": "char_xusheng",
+      "type": "阻止追趕",
+      "description": "趙雲射斷徐盛船篷，使其追趕不及。",
+      "evidence": [
+        "射斷徐篷"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "loc_xiakou",
+      "type": "返回",
+      "description": "孔明告知徐盛自己暫回夏口。",
+      "evidence": [
+        "暫回夏口"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "event_zhouyu_deploy",
+      "type": "主持事件",
+      "description": "周瑜召集諸將分派火攻行動。",
+      "evidence": [
+        "喚集諸將聽令"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_zhouyu_deploy",
+      "target": "strat_fenlu",
+      "type": "採用策略",
+      "description": "周瑜調度六隊船隻分路行動。",
+      "evidence": [
+        "各自分路去了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_ganning",
+      "type": "派遣",
+      "description": "周瑜先派甘寧帶蔡中與降卒取烏林。",
+      "evidence": [
+        "先教甘寧"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_ganning",
+      "target": "loc_wulin",
+      "type": "行軍攻取",
+      "description": "甘寧南岸隊直取烏林地面。",
+      "evidence": [
+        "直取烏林地面"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_ganning",
+      "target": "strat_beijunqihao",
+      "type": "使用策略",
+      "description": "甘寧一路打北軍旗號深入曹軍。",
+      "evidence": [
+        "只打北軍旗號"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_ganning",
+      "target": "char_caizhong",
+      "type": "攜帶",
+      "description": "甘寧帶蔡中與降卒同行。",
+      "evidence": [
+        "帶了蔡中並降卒"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_caihe",
+      "type": "留置",
+      "description": "周瑜命只留下蔡和在帳下，後用於祭旗。",
+      "evidence": [
+        "只留下蔡和"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_taishici",
+      "type": "派遣",
+      "description": "周瑜命太史慈領三千兵赴黃州。",
+      "evidence": [
+        "太史慈...領三千兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_taishici",
+      "target": "loc_huangzhou",
+      "type": "行軍",
+      "description": "太史慈三千兵直奔黃州地界。",
+      "evidence": [
+        "直奔黃州地界"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_taishici",
+      "target": "strat_jieyuan",
+      "type": "執行策略",
+      "description": "太史慈負責斷曹操合淝接應兵。",
+      "evidence": [
+        "斷曹操合淝接應"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_lvmeng",
+      "type": "派遣",
+      "description": "周瑜命呂蒙領三千兵到烏林。",
+      "evidence": [
+        "呂蒙領三千兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_lvmeng",
+      "target": "army_ganning",
+      "type": "接應",
+      "description": "呂蒙三千兵到烏林接應甘寧。",
+      "evidence": [
+        "接應甘寧"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_lvmeng",
+      "target": "loc_caozhai",
+      "type": "焚燒",
+      "description": "呂蒙受命焚燒曹操寨柵。",
+      "evidence": [
+        "焚燒曹操寨柵"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_lingtong",
+      "type": "派遣",
+      "description": "周瑜命凌統領三千兵到彥陵界首。",
+      "evidence": [
+        "凌統領三千兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_lingtong",
+      "target": "loc_yanling",
+      "type": "行軍",
+      "description": "凌統三千兵直截彥陵界首。",
+      "evidence": [
+        "彥陵界首"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_dongxi",
+      "type": "派遣",
+      "description": "周瑜命董襲領三千兵直取漢陽。",
+      "evidence": [
+        "董襲領三千兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_dongxi",
+      "target": "loc_hanyang",
+      "type": "攻取",
+      "description": "董襲三千兵直取漢陽。",
+      "evidence": [
+        "直取漢陽"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_dongxi",
+      "target": "loc_hanchuan",
+      "type": "進軍路線",
+      "description": "董襲受命從漢川殺奔曹操營中。",
+      "evidence": [
+        "從漢川殺奔"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "army_panzhang",
+      "type": "派遣",
+      "description": "周瑜命潘璋領三千兵往漢陽接應董襲。",
+      "evidence": [
+        "潘璋領三千兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_panzhang",
+      "target": "army_dongxi",
+      "type": "接應",
+      "description": "潘璋一路接應董襲。",
+      "evidence": [
+        "接應董襲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_panzhang",
+      "target": "obj_whiteflag",
+      "type": "使用旗號",
+      "description": "潘璋一路盡打白旗。",
+      "evidence": [
+        "盡打白旗"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_huanggai",
+      "type": "下令",
+      "description": "周瑜命黃蓋安排火船並馳書約曹操。",
+      "evidence": [
+        "令黃蓋安排火船"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_huanggai",
+      "target": "obj_huanggai_letter",
+      "type": "發送詐書",
+      "description": "黃蓋以密書約曹操今夜來降。",
+      "evidence": [
+        "馳書約曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "obj_huanggai_letter",
+      "target": "char_caocao",
+      "type": "欺詐誘敵",
+      "description": "黃蓋密書誘曹操相信其將來降。",
+      "evidence": [
+        "好歹殺江東名將"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "obj_huanggai_letter",
+      "target": "strat_zhaxiang",
+      "type": "承載策略",
+      "description": "密書是黃蓋詐降策略的媒介。",
+      "evidence": [
+        "獻首來降"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_handang",
+      "target": "army_handang",
+      "type": "統領",
+      "description": "韓當統領第一隊戰船。",
+      "evidence": [
+        "第一隊...韓當"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhoutai",
+      "target": "army_zhoutai",
+      "type": "統領",
+      "description": "周泰統領第二隊戰船。",
+      "evidence": [
+        "第二隊...周泰"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_jiangqin",
+      "target": "army_jiangqin",
+      "type": "統領",
+      "description": "蔣欽統領第三隊戰船。",
+      "evidence": [
+        "第三隊...蔣欽"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_chenwu",
+      "target": "army_chenwu",
+      "type": "統領",
+      "description": "陳武統領第四隊戰船。",
+      "evidence": [
+        "第四隊...陳武"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_handang",
+      "target": "army_huanggai",
+      "type": "接應",
+      "description": "韓當戰船隊在黃蓋船後接應。",
+      "evidence": [
+        "隨於黃蓋船後接應"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "army_zhoutai",
+      "target": "army_huanggai",
+      "type": "接應",
+      "description": "周泰戰船隊接應黃蓋火船。",
+      "evidence": [
+        "四隊各引戰船"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "army_jiangqin",
+      "target": "army_huanggai",
+      "type": "接應",
+      "description": "蔣欽戰船隊接應黃蓋火船。",
+      "evidence": [
+        "四隊各引戰船"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "army_chenwu",
+      "target": "army_huanggai",
+      "type": "接應",
+      "description": "陳武戰船隊接應黃蓋火船。",
+      "evidence": [
+        "四隊各引戰船"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_chengpu",
+      "type": "共同督戰",
+      "description": "周瑜與程普在大艨艟上督戰。",
+      "evidence": [
+        "自與程普...督戰"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dingfeng",
+      "target": "char_zhouyu",
+      "type": "護衛",
+      "description": "丁奉為周瑜左右護衛之一。",
+      "evidence": [
+        "徐盛、丁奉為左右護衛"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xusheng",
+      "target": "char_zhouyu",
+      "type": "護衛",
+      "description": "徐盛為周瑜左右護衛之一。",
+      "evidence": [
+        "徐盛、丁奉為左右護衛"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sunquan",
+      "target": "obj_bingfu",
+      "type": "派送",
+      "description": "孫權差使命持兵符至周瑜軍中。",
+      "evidence": [
+        "使命持兵符至"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_sunquan",
+      "target": "char_luxun",
+      "type": "任命派遣",
+      "description": "孫權差陸遜為先鋒進兵。",
+      "evidence": [
+        "差陸遜為先鋒"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_luxun",
+      "target": "loc_qihuang",
+      "type": "進兵",
+      "description": "陸遜先鋒軍直抵蘄、黃地面。",
+      "evidence": [
+        "直抵蘄、黃地面"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sunquan",
+      "target": "army_sunquan",
+      "type": "統領",
+      "description": "孫權自為後應。",
+      "evidence": [
+        "吳侯自為後應"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liuxuande",
+      "target": "loc_xiakou",
+      "type": "駐守等待",
+      "description": "劉玄德在夏口等候孔明返回。",
+      "evidence": [
+        "在夏口專候孔明"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liuqi",
+      "target": "char_liuxuande",
+      "type": "探聽消息",
+      "description": "劉琦來見劉玄德探聽消息。",
+      "evidence": [
+        "自來探聽消息"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "event_liubei_deploy",
+      "type": "主持事件",
+      "description": "孔明回夏口後部署玄德軍攔截敗軍。",
+      "evidence": [
+        "軍馬戰船...調用"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "army_zhangfei",
+      "type": "派遣",
+      "description": "孔明命張飛領三千兵渡江埋伏。",
+      "evidence": [
+        "翼德可領三千兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_zhangfei",
+      "target": "loc_hulugu",
+      "type": "埋伏",
+      "description": "張飛三千兵往葫蘆谷口埋伏。",
+      "evidence": [
+        "葫蘆谷口埋伏"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_zhangfei",
+      "target": "loc_yanling",
+      "type": "截斷路線",
+      "description": "張飛受命截斷彝陵或彥陵相關路線。",
+      "evidence": [
+        "截斷彝陵這條路"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "army_mizhu",
+      "type": "派遣",
+      "description": "孔明命糜竺、糜芳、劉封各駕船剿擒敗軍。",
+      "evidence": [
+        "各駕船隻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_mizhu",
+      "target": "fac_caojun",
+      "type": "剿擒敗軍",
+      "description": "糜竺等船隊負責繞江擒曹軍敗卒並奪器械。",
+      "evidence": [
+        "剿擒敗軍"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "char_liuqi",
+      "type": "派遣指示",
+      "description": "孔明請劉琦回武昌率兵陳於岸口。",
+      "evidence": [
+        "公子便請回"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_liuqi",
+      "target": "loc_wuchang",
+      "type": "駐守",
+      "description": "劉琦所部兵回守武昌。",
+      "evidence": [
+        "武昌...最為緊要"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "army_liuqi",
+      "target": "loc_ankou",
+      "type": "布陣",
+      "description": "劉琦所部兵陳於岸口擒逃兵。",
+      "evidence": [
+        "陳於岸口"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "char_liuxuande",
+      "type": "建議屯兵",
+      "description": "孔明令主公劉玄德在樊口屯兵。",
+      "evidence": [
+        "主公可於樊口屯兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liuxuande",
+      "target": "loc_fankou",
+      "type": "屯兵",
+      "description": "劉玄德受命於樊口屯兵。",
+      "evidence": [
+        "樊口屯兵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yunchang",
+      "target": "char_zhugeliang",
+      "type": "請求委用",
+      "description": "雲長抱怨未被委用，向孔明請戰。",
+      "evidence": [
+        "軍師卻不委用"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "army_yunchang",
+      "type": "派遣設伏",
+      "description": "孔明命雲長於華容小路高山處設火煙。",
+      "evidence": [
+        "華容小路高山之處"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_yunchang",
+      "target": "loc_huarongdao",
+      "type": "埋伏",
+      "description": "雲長伏兵守華容道。",
+      "evidence": [
+        "必走華容道"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "army_yunchang",
+      "target": "strat_huarong_yanhuo",
+      "type": "使用策略",
+      "description": "雲長受命堆柴放煙引曹操來。",
+      "evidence": [
+        "放起一把火煙"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhugeliang",
+      "target": "char_caocao",
+      "type": "預判逃路",
+      "description": "孔明預判曹操敗後會走華容道且未合身亡。",
+      "evidence": [
+        "兵敗，必走華容道"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_huanggai",
+      "type": "等待消息",
+      "description": "曹操在大寨中等候黃蓋來降消息。",
+      "evidence": [
+        "只等黃蓋消息"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "obj_huanggai_letter",
+      "type": "接收",
+      "description": "曹操接收黃蓋密書並大喜。",
+      "evidence": [
+        "呈上書",
+        "操大喜"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chengyu",
+      "target": "char_caocao",
+      "type": "進諫警戒",
+      "description": "程昱提醒曹操東南風起應預提防。",
+      "evidence": [
+        "宜預提防"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_chengyu",
+      "target": "strat_zhaxiang",
+      "type": "識破",
+      "description": "程昱觀船輕浮，判斷來船必詐。",
+      "evidence": [
+        "來船必詐"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caocao",
+      "target": "char_chengyu",
+      "type": "未即採納",
+      "description": "曹操先以冬至東南風為常理，未立即警戒。",
+      "evidence": [
+        "何足為怪"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhouyu",
+      "target": "char_caihe",
+      "type": "斬首祭旗",
+      "description": "周瑜指蔡和詐降，斬其首級祭旗。",
+      "evidence": [
+        "斬了蔡和"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_caihe",
+      "target": "strat_zhaxiang",
+      "type": "被指涉",
+      "description": "蔡和被周瑜指為詐降者。",
+      "evidence": [
+        "敢來詐降"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_huanggai",
+      "target": "battle_chibi_fire",
+      "type": "執行主攻",
+      "description": "黃蓋率火船乘東風進發赤壁。",
+      "evidence": [
+        "望赤壁進發"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_chibi_fire",
+      "target": "strat_huogong",
+      "type": "使用策略",
+      "description": "赤壁火攻以火船縱火為核心。",
+      "evidence": [
+        "前船一齊發火"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_chibi_fire",
+      "target": "loc_chibi",
+      "type": "發生於",
+      "description": "黃蓋火船望赤壁進發後發動火攻。",
+      "evidence": [
+        "望赤壁進發"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "battle_chibi_fire",
+      "target": "loc_sanjiangkou",
+      "type": "波及地點",
+      "description": "火攻使三江面上火光通紅。",
+      "evidence": [
+        "三江面上"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "obj_fireboats",
+      "target": "loc_caozhai",
+      "type": "攻入焚燒",
+      "description": "二十隻火船撞入曹操水寨，曹寨船隻盡著。",
+      "evidence": [
+        "撞入水寨"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_tiehuan",
+      "target": "fac_caojun",
+      "type": "限制逃避",
+      "description": "曹軍船隻被鐵環鎖住，火起後難逃。",
+      "evidence": [
+        "無處逃避"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_wenpin",
+      "target": "char_caocao",
+      "type": "請命攔截",
+      "description": "文聘向曹操請命往水上止住南船。",
+      "evidence": [
+        "願請一往"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_wenpin",
+      "target": "army_huanggai",
+      "type": "攔截受傷",
+      "description": "文聘攔阻南船時左臂中箭。",
+      "evidence": [
+        "射中左臂"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_huanggai",
+      "target": "char_caocao",
+      "type": "追擊",
+      "description": "黃蓋在火攻中尋找並追趕曹操。",
+      "evidence": [
+        "來尋曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhangliao",
+      "target": "char_caocao",
+      "type": "救援保護",
+      "description": "張遼扶曹操下船並保護其奔岸。",
+      "evidence": [
+        "保護曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhangliao",
+      "target": "char_huanggai",
+      "type": "射傷",
+      "description": "張遼一箭射中黃蓋肩窩，使其落水。",
+      "evidence": [
+        "正中肩窩"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_dongwu",
+      "target": "fac_caojun",
+      "type": "敵對交戰",
+      "description": "東吳火攻曹操水寨，與曹軍交戰。",
+      "evidence": [
+        "破曹公",
+        "曹寨中船隻"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "fac_liubeijun",
+      "target": "fac_caojun",
+      "type": "敵對攔截",
+      "description": "玄德軍受孔明部署攔截曹操敗軍。",
+      "evidence": [
+        "剿擒敗軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "fac_liubeijun",
+      "target": "fac_dongwu",
+      "type": "協同抗曹",
+      "description": "孔明接應周瑜火攻，趙雲稱避免兩家失和。",
+      "evidence": [
+        "兩家失了和氣"
+      ],
+      "confidence": 0.78
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_zhouyu_ill",
+      "name": "周瑜病倒",
+      "summary": "周瑜觀望江北曹軍後吐血昏迷，諸將憂慮並申報吳侯。",
+      "participants": [
+        "char_zhouyu",
+        "char_sunquan",
+        "fac_caojun"
+      ],
+      "locations": [],
+      "evidence": [
+        "望後而倒",
+        "口吐鮮血"
+      ]
+    },
+    {
+      "id": "evt_kongming_shiliuzi",
+      "name": "孔明寫十六字方",
+      "summary": "魯肅請孔明看周瑜病，孔明密書十六字，指出破曹用火攻但欠東風。",
+      "participants": [
+        "char_lusu",
+        "char_zhugeliang",
+        "char_zhouyu"
+      ],
+      "locations": [],
+      "evidence": [
+        "宜用火攻",
+        "只欠東風"
+      ]
+    },
+    {
+      "id": "evt_build_qixingtan",
+      "name": "南屏山築七星壇",
+      "summary": "周瑜調軍，孔明與魯肅往南屏山相度地勢，軍士築壇並插旗守壇。",
+      "participants": [
+        "char_zhugeliang",
+        "char_lusu",
+        "char_zhouyu",
+        "army_tan_guards"
+      ],
+      "locations": [
+        "loc_nanpingshan",
+        "loc_qixingtan"
+      ],
+      "evidence": [
+        "往南屏山築壇",
+        "執旗守壇"
+      ]
+    },
+    {
+      "id": "evt_qixing_jifeng",
+      "name": "七星壇祭風",
+      "summary": "孔明沐浴齋戒，登壇焚香暗祝，一日三次上下壇，等待東南風。",
+      "participants": [
+        "char_zhugeliang",
+        "army_tan_guards"
+      ],
+      "locations": [
+        "loc_qixingtan",
+        "loc_nanpingshan"
+      ],
+      "evidence": [
+        "沐浴齋戒",
+        "仰天暗祝"
+      ]
+    },
+    {
+      "id": "evt_east_wind_rises",
+      "name": "東南風大起",
+      "summary": "三更時分旗幡轉動，東南風起，周瑜既驚孔明之能，又生殺意。",
+      "participants": [
+        "char_zhouyu",
+        "char_zhugeliang"
+      ],
+      "locations": [
+        "loc_qixingtan"
+      ],
+      "evidence": [
+        "東南風大起",
+        "乃東吳禍根"
+      ]
+    },
+    {
+      "id": "evt_chase_kongming",
+      "name": "丁奉徐盛追殺孔明",
+      "summary": "周瑜命丁奉、徐盛水陸兩路至七星壇拿斬孔明，但孔明已乘船離去。",
+      "participants": [
+        "char_zhouyu",
+        "char_dingfeng",
+        "char_xusheng",
+        "char_zhugeliang"
+      ],
+      "locations": [
+        "loc_qixingtan",
+        "loc_nanpingshan"
+      ],
+      "evidence": [
+        "拿住諸葛亮",
+        "分水陸兩路追襲"
+      ]
+    },
+    {
+      "id": "evt_zhaoyun_rescue",
+      "name": "趙雲接回孔明",
+      "summary": "趙雲奉令接軍師，射斷徐盛船篷，孔明乘順風回夏口。",
+      "participants": [
+        "char_zhaoyun",
+        "char_zhugeliang",
+        "char_xusheng",
+        "char_dingfeng"
+      ],
+      "locations": [
+        "loc_xiakou"
+      ],
+      "evidence": [
+        "奉令特來接軍師",
+        "暫回夏口"
+      ]
+    },
+    {
+      "id": "evt_zhouyu_deploy",
+      "name": "周瑜分派火攻軍勢",
+      "summary": "周瑜喚集諸將，分派甘寧、太史慈、呂蒙、凌統、董襲、潘璋等六路兵船，並安排黃蓋火船與各戰船接應。",
+      "participants": [
+        "char_zhouyu",
+        "char_ganning",
+        "char_taishici",
+        "char_lvmeng",
+        "char_lingtong",
+        "char_dongxi",
+        "char_panzhang",
+        "char_huanggai",
+        "char_handang",
+        "char_zhoutai",
+        "char_jiangqin",
+        "char_chenwu"
+      ],
+      "locations": [
+        "loc_wulin",
+        "loc_huangzhou",
+        "loc_hanyang",
+        "loc_yanling"
+      ],
+      "evidence": [
+        "六隊船隻",
+        "安排火船"
+      ]
+    },
+    {
+      "id": "evt_sunquan_support",
+      "name": "孫權遣陸遜接應",
+      "summary": "孫權遣使命持兵符至，差陸遜為先鋒進兵蘄、黃，自己作後應。",
+      "participants": [
+        "char_sunquan",
+        "char_luxun",
+        "army_luxun",
+        "army_sunquan"
+      ],
+      "locations": [
+        "loc_qihuang"
+      ],
+      "evidence": [
+        "持兵符至",
+        "吳侯自為後應"
+      ]
+    },
+    {
+      "id": "evt_liubei_deploy",
+      "name": "孔明部署玄德軍攔敗兵",
+      "summary": "孔明回夏口後，安排張飛、糜竺等、劉琦、劉玄德與雲長分守要路，準備擒曹操敗軍。",
+      "participants": [
+        "char_zhugeliang",
+        "char_liuxuande",
+        "char_liuqi",
+        "char_zhangfei",
+        "char_mizhu",
+        "char_mifang",
+        "char_liufeng",
+        "char_yunchang"
+      ],
+      "locations": [
+        "loc_xiakou",
+        "loc_hulugu",
+        "loc_wuchang",
+        "loc_fankou",
+        "loc_huarongdao"
+      ],
+      "evidence": [
+        "收拾久矣",
+        "剿擒敗軍"
+      ]
+    },
+    {
+      "id": "evt_caocao_receives_letter",
+      "name": "曹操收到黃蓋密書",
+      "summary": "曹操在大寨等黃蓋消息，收到密書後相信黃蓋將以青龍牙旗船來降。",
+      "participants": [
+        "char_caocao",
+        "char_huanggai",
+        "char_chengyu"
+      ],
+      "locations": [
+        "loc_caozhai",
+        "loc_poyanghu"
+      ],
+      "evidence": [
+        "有黃蓋密書",
+        "操大喜"
+      ]
+    },
+    {
+      "id": "evt_caihe_sacrifice",
+      "name": "蔡和祭旗",
+      "summary": "周瑜指蔡和詐降，將其斬於江邊皂纛旗下，用血祭旗後開船。",
+      "participants": [
+        "char_zhouyu",
+        "char_caihe"
+      ],
+      "locations": [],
+      "evidence": [
+        "斬了蔡和",
+        "用血祭旗"
+      ]
+    },
+    {
+      "id": "evt_chibi_fire_attack",
+      "name": "赤壁火攻爆發",
+      "summary": "黃蓋火船乘東南風逼近曹寨，程昱識破來船有詐，文聘攔截中箭；黃蓋一招，火船撞入水寨，曹軍船寨大燃。",
+      "participants": [
+        "char_huanggai",
+        "char_caocao",
+        "char_chengyu",
+        "char_wenpin",
+        "fac_dongwu",
+        "fac_caojun"
+      ],
+      "locations": [
+        "loc_chibi",
+        "loc_caozhai",
+        "loc_sanjiangkou"
+      ],
+      "evidence": [
+        "前船一齊發火",
+        "曹寨中船隻一時盡著"
+      ]
+    },
+    {
+      "id": "evt_zhangliao_saves_caocao",
+      "name": "張遼救曹操射黃蓋",
+      "summary": "火攻中張遼扶曹操下船逃岸，又射中追擊的黃蓋肩窩，黃蓋落水。",
+      "participants": [
+        "char_zhangliao",
+        "char_caocao",
+        "char_huanggai"
+      ],
+      "locations": [
+        "loc_caozhai"
+      ],
+      "evidence": [
+        "保護曹操",
+        "正中肩窩"
+      ]
+    }
+  ],
+  "notes": [
+    "依本檔正文抽取；未補入正文未明示的前後回情節。",
+    "底本文字有殘缺或異寫，如「閔澤/閻澤」「彥陵」等，名稱依原文保留。"
+  ]
+}

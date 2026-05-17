@@ -1,0 +1,2155 @@
+{
+  "book": "三國演義",
+  "chapter_no": 36,
+  "chapter_title": "玄德用計襲樊城　元直走馬薦諸葛",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉豫州",
+        "使君",
+        "皇叔"
+      ],
+      "description": "新野一方首領，採納單福之計擊敗曹仁，後送別徐庶並準備求諸葛亮。",
+      "evidence": [
+        "玄德用計襲樊城",
+        "劉豫州在此"
+      ]
+    },
+    {
+      "id": "char_xu_shu",
+      "name": "徐庶",
+      "type": "character",
+      "aliases": [
+        "單福",
+        "元直",
+        "字符直"
+      ],
+      "description": "潁川人，化名單福輔佐劉備破曹仁；因母被曹操設計而離去，臨別推薦諸葛亮。",
+      "evidence": [
+        "某本潁川徐庶",
+        "更名單福",
+        "元直走馬薦諸葛"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [
+        "仁"
+      ],
+      "description": "曹操部將，屯樊城，率軍攻新野，連敗後逃回許昌。",
+      "evidence": [
+        "曹仁屯兵樊城",
+        "星夜投許昌"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [
+        "典"
+      ],
+      "description": "曹仁部將，與趙雲交戰，後保護曹仁渡河逃走。",
+      "evidence": [
+        "曹仁命李典出陣",
+        "李典保護曹仁"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "雲"
+      ],
+      "description": "劉備部將，破八門金鎖陣，又奉命守樊城。",
+      "evidence": [
+        "趙雲出馬",
+        "引一千軍守樊城"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "翼德"
+      ],
+      "description": "劉備部將，在河邊伏兵截擊曹仁。",
+      "evidence": [
+        "為首大將，乃張飛也"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "關雲長",
+        "雲長"
+      ],
+      "description": "劉備部將，趁曹仁外出時取樊城，後對收劉封為義子表示疑慮。",
+      "evidence": [
+        "吾已取樊城多時矣",
+        "雲長不悅"
+      ]
+    },
+    {
+      "id": "char_liu_mi",
+      "name": "劉泌",
+      "type": "character",
+      "aliases": [],
+      "description": "樊城縣令，長沙人，漢室宗親，迎接劉備並介紹甥寇封。",
+      "evidence": [
+        "縣令劉泌出迎",
+        "亦漢室宗親"
+      ]
+    },
+    {
+      "id": "char_liu_feng",
+      "name": "劉封",
+      "type": "character",
+      "aliases": [
+        "寇封"
+      ],
+      "description": "劉泌之甥，本姓寇，被劉備收為義子並改名劉封。",
+      "evidence": [
+        "此吾之甥寇封",
+        "改名劉封"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹丞相",
+        "丞相",
+        "漢相"
+      ],
+      "description": "許昌一方首領，得知單福即徐庶後，設法利用徐母召回徐庶。",
+      "evidence": [
+        "見曹操",
+        "曹丞相使人賺至許昌"
+      ]
+    },
+    {
+      "id": "char_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [
+        "昱"
+      ],
+      "description": "曹操謀士，識破單福身份，勸曹操不殺徐母，並用家書計賺徐庶。",
+      "evidence": [
+        "程昱笑曰",
+        "自有計賺徐庶"
+      ]
+    },
+    {
+      "id": "char_xu_mu",
+      "name": "徐母",
+      "type": "character",
+      "aliases": [
+        "老母",
+        "老夫人"
+      ],
+      "description": "徐庶之母，被曹操誘至許昌；斥責曹操，後被程昱利用筆跡偽書。",
+      "evidence": [
+        "徐母厲聲曰",
+        "老母今被曹操姦計"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備部下，建議苦留徐庶以使其助攻曹操，但被劉備拒絕。",
+      "evidence": [
+        "孫乾密謂玄德",
+        "主公宜苦留之"
+      ]
+    },
+    {
+      "id": "char_sima_hui",
+      "name": "司馬水鏡",
+      "type": "character",
+      "aliases": [
+        "水鏡先生",
+        "司馬德操"
+      ],
+      "description": "曾指點徐庶投劉備，也曾向劉備提及伏龍、鳳雛。",
+      "evidence": [
+        "司馬水鏡莊",
+        "水鏡先生曾為備言"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "伏龍",
+        "臥龍先生"
+      ],
+      "description": "瑯琊陽都人，居隆中、躬耕南陽，被徐庶推薦給劉備。",
+      "evidence": [
+        "覆姓諸葛，名亮",
+        "伏龍正是諸葛孔明"
+      ]
+    },
+    {
+      "id": "char_pang_tong",
+      "name": "龐統",
+      "type": "character",
+      "aliases": [
+        "鳳雛"
+      ],
+      "description": "襄陽人，被稱為鳳雛。",
+      "evidence": [
+        "鳳雛乃襄陽龐統也"
+      ]
+    },
+    {
+      "id": "char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [
+        "劉景升"
+      ],
+      "description": "荊州人物，曾招賢納士，與諸葛玄有舊。",
+      "evidence": [
+        "劉景升招賢納士",
+        "與荊州劉景升有舊"
+      ]
+    },
+    {
+      "id": "char_zhuge_xuan",
+      "name": "諸葛玄",
+      "type": "character",
+      "aliases": [
+        "玄"
+      ],
+      "description": "諸葛亮之叔，因與劉景升有舊而往依荊州。",
+      "evidence": [
+        "亮從其叔玄",
+        "玄與荊州劉景升有舊"
+      ]
+    },
+    {
+      "id": "char_zhuge_jun",
+      "name": "諸葛均",
+      "type": "character",
+      "aliases": [],
+      "description": "諸葛亮之弟，與諸葛亮躬耕南陽。",
+      "evidence": [
+        "亮與弟諸葛均躬耕於南陽"
+      ]
+    },
+    {
+      "id": "char_zhuge_gui",
+      "name": "諸葛珪",
+      "type": "character",
+      "aliases": [
+        "子貢"
+      ],
+      "description": "諸葛亮之父，曾為泰山郡丞。",
+      "evidence": [
+        "其父名珪，字子貢",
+        "為泰山郡丞"
+      ]
+    },
+    {
+      "id": "char_zhuge_feng",
+      "name": "諸葛豐",
+      "type": "character",
+      "aliases": [],
+      "description": "諸葛亮祖上，曾任漢司隸校尉。",
+      "evidence": [
+        "漢司隸校尉諸葛豐之後"
+      ]
+    },
+    {
+      "id": "char_guan_zhong",
+      "name": "管仲",
+      "type": "character",
+      "aliases": [
+        "管"
+      ],
+      "description": "諸葛亮自比的古代人物。",
+      "evidence": [
+        "自比管仲，樂毅"
+      ]
+    },
+    {
+      "id": "char_yue_yi",
+      "name": "樂毅",
+      "type": "character",
+      "aliases": [
+        "樂"
+      ],
+      "description": "諸葛亮自比的古代人物。",
+      "evidence": [
+        "自比管仲，樂毅"
+      ]
+    },
+    {
+      "id": "faction_liu_bei",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備所屬勢力，本章在新野、樊城一帶作戰。",
+      "evidence": [
+        "彼軍精銳",
+        "玄德麾軍衝擊"
+      ]
+    },
+    {
+      "id": "faction_cao_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹兵"
+      ],
+      "description": "曹操一方勢力，由曹仁、李典等參戰。",
+      "evidence": [
+        "曹兵大敗而退",
+        "曹軍大半淹死"
+      ]
+    },
+    {
+      "id": "faction_han",
+      "name": "漢室",
+      "type": "faction",
+      "aliases": [
+        "朝廷"
+      ],
+      "description": "被多次作為宗親、正統與官職名義的依據。",
+      "evidence": [
+        "漢室宗親",
+        "天子之前保奏"
+      ]
+    },
+    {
+      "id": "faction_jingzhou",
+      "name": "荊州勢力",
+      "type": "faction",
+      "aliases": [
+        "劉景升勢力"
+      ],
+      "description": "劉表所在勢力，與諸葛玄、徐庶背景相關。",
+      "evidence": [
+        "荊州劉景升",
+        "招賢納士"
+      ]
+    },
+    {
+      "id": "loc_xinye",
+      "name": "新野",
+      "type": "location",
+      "aliases": [
+        "新野縣"
+      ],
+      "description": "劉備屯駐之地，曹仁意欲攻打，徐庶在此告別。",
+      "evidence": [
+        "踏平新野",
+        "持書徑奔新野縣"
+      ]
+    },
+    {
+      "id": "loc_fancheng",
+      "name": "樊城",
+      "type": "location",
+      "aliases": [],
+      "description": "曹仁屯兵之城，後被關羽襲取，劉備入城安民。",
+      "evidence": [
+        "曹仁屯兵樊城",
+        "吾已取樊城多時矣"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [
+        "許都"
+      ],
+      "description": "曹操所在之地，曹仁敗回，徐母被誘至此。",
+      "evidence": [
+        "星夜投許昌",
+        "回許都，見曹操"
+      ]
+    },
+    {
+      "id": "loc_changsha",
+      "name": "長沙",
+      "type": "location",
+      "aliases": [],
+      "description": "劉泌籍貫。",
+      "evidence": [
+        "劉泌乃長沙人"
+      ]
+    },
+    {
+      "id": "loc_yingchuan",
+      "name": "潁川",
+      "type": "location",
+      "aliases": [],
+      "description": "徐庶籍貫。",
+      "evidence": [
+        "某本潁川徐庶"
+      ]
+    },
+    {
+      "id": "loc_shuijing_zhuang",
+      "name": "司馬水鏡莊",
+      "type": "location",
+      "aliases": [
+        "水鏡莊"
+      ],
+      "description": "徐庶投劉備前曾夜至訴事之處。",
+      "evidence": [
+        "夤夜至司馬水鏡莊上"
+      ]
+    },
+    {
+      "id": "loc_changting",
+      "name": "長亭",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備與徐庶餞別之處。",
+      "evidence": [
+        "至長亭，下馬相辭"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "隆中所在附近，龐統亦為襄陽人。",
+      "evidence": [
+        "襄陽城外二十里隆中",
+        "襄陽龐統"
+      ]
+    },
+    {
+      "id": "loc_longzhong",
+      "name": "隆中",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛亮所在之地，位於襄陽城外二十里。",
+      "evidence": [
+        "襄陽城外二十里隆中"
+      ]
+    },
+    {
+      "id": "loc_nanyang",
+      "name": "南陽",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛亮與諸葛均躬耕之地，劉備準備前往請孔明。",
+      "evidence": [
+        "躬耕於南陽",
+        "前去南陽請孔明"
+      ]
+    },
+    {
+      "id": "loc_wolonggang",
+      "name": "臥龍岡",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛亮草廬所在之岡。",
+      "evidence": [
+        "名臥龍岡",
+        "臥龍岡下"
+      ]
+    },
+    {
+      "id": "loc_langya_yangdu",
+      "name": "瑯琊陽都",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛亮籍貫。",
+      "evidence": [
+        "瑯琊陽都人"
+      ]
+    },
+    {
+      "id": "loc_taishan",
+      "name": "泰山",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛珪曾任郡丞之地。",
+      "evidence": [
+        "為泰山郡丞"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉景升所在地域，諸葛玄往依之處。",
+      "evidence": [
+        "荊州劉景升"
+      ]
+    },
+    {
+      "id": "battle_bamen",
+      "name": "破八門金鎖陣之戰",
+      "type": "battle",
+      "aliases": [
+        "八門金鎖陣之戰"
+      ],
+      "description": "曹仁布八門金鎖陣，單福識破，趙雲殺入使曹兵大敗。",
+      "evidence": [
+        "此八門金鎖陣也",
+        "曹兵大敗而退"
+      ]
+    },
+    {
+      "id": "battle_night_raid",
+      "name": "曹仁夜劫寨敗退",
+      "type": "battle",
+      "aliases": [
+        "二更劫寨"
+      ],
+      "description": "曹仁夜襲劉備寨，被單福預料，遭趙雲、張飛截擊。",
+      "evidence": [
+        "當夜二更劫寨",
+        "曹軍大半淹死"
+      ]
+    },
+    {
+      "id": "battle_fancheng",
+      "name": "襲取樊城",
+      "type": "battle",
+      "aliases": [
+        "玄德用計襲樊城"
+      ],
+      "description": "劉備用計牽制曹仁，關羽趁機奪取樊城。",
+      "evidence": [
+        "吾已取樊城多時矣"
+      ]
+    },
+    {
+      "id": "event_cao_ren_attacks_xinye",
+      "name": "曹仁起兵攻新野",
+      "type": "event",
+      "aliases": [],
+      "description": "曹仁因二將被誅而大起兵馬，渡河攻向新野。",
+      "evidence": [
+        "大起本部之兵",
+        "意欲踏平新野"
+      ]
+    },
+    {
+      "id": "event_liu_bei_adopts_liu_feng",
+      "name": "劉備收劉封為義子",
+      "type": "event",
+      "aliases": [
+        "寇封改名劉封"
+      ],
+      "description": "劉備喜愛寇封，收為義子，改名劉封。",
+      "evidence": [
+        "欲嗣為義子",
+        "改名劉封"
+      ]
+    },
+    {
+      "id": "event_cao_report_xuchang",
+      "name": "曹仁李典敗回許昌請罪",
+      "type": "event",
+      "aliases": [],
+      "description": "曹仁與李典敗回許都，向曹操請罪並說明單福用計。",
+      "evidence": [
+        "回許都，見曹操",
+        "具言損將折兵"
+      ]
+    },
+    {
+      "id": "event_cao_cao_tricks_xu_mu",
+      "name": "曹操賺徐母至許昌",
+      "type": "event",
+      "aliases": [],
+      "description": "曹操得知徐庶身份後，使人取徐母至許昌，欲借母召子。",
+      "evidence": [
+        "賺至許昌",
+        "煩老母作書"
+      ]
+    },
+    {
+      "id": "event_cheng_yu_forges_letter",
+      "name": "程昱偽造家書",
+      "type": "event",
+      "aliases": [
+        "詐修家書"
+      ],
+      "description": "程昱取得徐母手啟筆跡，偽造家書派人送往新野。",
+      "evidence": [
+        "詐修家書一封",
+        "持書徑奔新野縣"
+      ]
+    },
+    {
+      "id": "event_xu_shu_departure",
+      "name": "徐庶別劉備歸許昌",
+      "type": "event",
+      "aliases": [
+        "元直告歸"
+      ],
+      "description": "徐庶因母被囚而向劉備告辭，劉備在長亭餞行。",
+      "evidence": [
+        "今當告歸",
+        "至長亭，下馬相辭"
+      ]
+    },
+    {
+      "id": "event_xu_shu_recommends_zhuge",
+      "name": "徐庶走馬薦諸葛",
+      "type": "event",
+      "aliases": [
+        "元直薦孔明"
+      ],
+      "description": "徐庶臨別回馬，向劉備推薦隆中諸葛亮。",
+      "evidence": [
+        "忘卻一語",
+        "此間有一奇士"
+      ]
+    },
+    {
+      "id": "event_liu_bei_seeks_zhuge",
+      "name": "劉備備禮請孔明",
+      "type": "event",
+      "aliases": [
+        "南陽請孔明"
+      ],
+      "description": "劉備聽徐庶之言，備厚幣，與關羽、張飛前去請諸葛亮。",
+      "evidence": [
+        "便具厚幣",
+        "前去南陽請孔明"
+      ]
+    },
+    {
+      "id": "event_xu_shu_visits_zhuge",
+      "name": "徐庶訪臥龍岡",
+      "type": "event",
+      "aliases": [
+        "徐庶入草廬見孔明"
+      ],
+      "description": "徐庶離開劉備後到臥龍岡見孔明，請其勿拒劉備。",
+      "evidence": [
+        "直至臥龍岡下",
+        "入草廬見孔明"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "徐庶在劉備軍中的職責稱呼。",
+      "evidence": [
+        "有單福為軍師"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [
+        "曹丞相",
+        "漢相"
+      ],
+      "description": "曹操在章中被稱呼的職位名義。",
+      "evidence": [
+        "曹丞相使人",
+        "託名漢相"
+      ]
+    },
+    {
+      "id": "title_xianling",
+      "name": "縣令",
+      "type": "title",
+      "aliases": [],
+      "description": "劉泌在樊城的官職。",
+      "evidence": [
+        "縣令劉泌出迎"
+      ]
+    },
+    {
+      "id": "title_yizi",
+      "name": "義子",
+      "type": "title",
+      "aliases": [
+        "螟蛉"
+      ],
+      "description": "劉備收寇封後形成的父子名分。",
+      "evidence": [
+        "欲嗣為義子",
+        "何必用螟蛉"
+      ]
+    },
+    {
+      "id": "title_huangshu",
+      "name": "皇叔",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備被曹操提及的稱號。",
+      "evidence": [
+        "妄稱皇叔"
+      ]
+    },
+    {
+      "id": "title_fulong",
+      "name": "伏龍",
+      "type": "title",
+      "aliases": [
+        "伏龍先生"
+      ],
+      "description": "諸葛亮的稱號。",
+      "evidence": [
+        "伏龍正是諸葛孔明"
+      ]
+    },
+    {
+      "id": "title_fengchu",
+      "name": "鳳雛",
+      "type": "title",
+      "aliases": [],
+      "description": "龐統的稱號。",
+      "evidence": [
+        "鳳雛乃襄陽龐統也"
+      ]
+    },
+    {
+      "id": "title_wolong",
+      "name": "臥龍先生",
+      "type": "title",
+      "aliases": [
+        "臥龍"
+      ],
+      "description": "諸葛亮因臥龍岡而自號。",
+      "evidence": [
+        "自號為臥龍先生"
+      ]
+    },
+    {
+      "id": "title_sili_xiaowei",
+      "name": "司隸校尉",
+      "type": "title",
+      "aliases": [],
+      "description": "諸葛豐曾任官職。",
+      "evidence": [
+        "漢司隸校尉諸葛豐"
+      ]
+    },
+    {
+      "id": "title_taishan_juncheng",
+      "name": "泰山郡丞",
+      "type": "title",
+      "aliases": [],
+      "description": "諸葛珪曾任官職。",
+      "evidence": [
+        "為泰山郡丞"
+      ]
+    },
+    {
+      "id": "object_fake_letter",
+      "name": "家書",
+      "type": "object",
+      "aliases": [
+        "詐修家書",
+        "老母書"
+      ],
+      "description": "程昱偽造的徐母家書，用來召徐庶離開劉備。",
+      "evidence": [
+        "詐修家書一封",
+        "老母書來喚"
+      ]
+    },
+    {
+      "id": "object_hand_notes",
+      "name": "手啟",
+      "type": "object",
+      "aliases": [],
+      "description": "徐母回覆程昱的手書，被用來仿造筆跡。",
+      "evidence": [
+        "必具手啟",
+        "作手啟答之"
+      ]
+    },
+    {
+      "id": "object_shiyan",
+      "name": "石硯",
+      "type": "object",
+      "aliases": [],
+      "description": "徐母怒斥曹操時拿來擊打曹操的物件。",
+      "evidence": [
+        "取石硯便打曹操"
+      ]
+    },
+    {
+      "id": "object_houbi",
+      "name": "厚幣",
+      "type": "object",
+      "aliases": [],
+      "description": "劉備準備帶去請諸葛亮的禮物。",
+      "evidence": [
+        "便具厚幣"
+      ]
+    },
+    {
+      "id": "object_liangfu_yin",
+      "name": "《梁父吟》",
+      "type": "object",
+      "aliases": [
+        "梁父吟"
+      ],
+      "description": "諸葛亮平日喜吟之作。",
+      "evidence": [
+        "嘗好為《梁父吟》"
+      ]
+    },
+    {
+      "id": "strategy_fancheng",
+      "name": "乘虛襲樊城",
+      "type": "strategy",
+      "aliases": [
+        "襲樊城計"
+      ],
+      "description": "單福判斷曹仁出兵後樊城可乘虛而取的計策。",
+      "evidence": [
+        "櫟城奪空",
+        "預先準備已定"
+      ]
+    },
+    {
+      "id": "strategy_bamen",
+      "name": "八門金鎖陣",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹仁所布陣勢，分休、生、傷、杜、景、死、驚、開八門。",
+      "evidence": [
+        "此八門金鎖陣也"
+      ]
+    },
+    {
+      "id": "strategy_night_raid",
+      "name": "劫寨",
+      "type": "strategy",
+      "aliases": [
+        "二更劫寨"
+      ],
+      "description": "曹仁夜間襲擊劉備營寨的計策。",
+      "evidence": [
+        "當夜二更劫寨"
+      ]
+    },
+    {
+      "id": "strategy_fake_letter",
+      "name": "詐修家書賺徐庶",
+      "type": "strategy",
+      "aliases": [
+        "家書計"
+      ],
+      "description": "程昱利用徐母筆跡偽造家書，使徐庶離開劉備。",
+      "evidence": [
+        "自有計賺徐庶",
+        "詐修家書一封"
+      ]
+    },
+    {
+      "id": "strategy_detain_xu_shu",
+      "name": "苦留徐庶",
+      "type": "strategy",
+      "aliases": [
+        "苦留元直"
+      ],
+      "description": "孫乾建議劉備扣留徐庶，使曹操殺徐母而激發徐庶報仇。",
+      "evidence": [
+        "主公宜苦留之"
+      ]
+    },
+    {
+      "id": "strategy_seek_zhuge",
+      "name": "親往求賢",
+      "type": "strategy",
+      "aliases": [
+        "枉駕見之"
+      ],
+      "description": "徐庶告訴劉備諸葛亮不可屈致，須親自前往求見。",
+      "evidence": [
+        "使君可親往求之"
+      ]
+    },
+    {
+      "id": "army_liu_bei",
+      "name": "劉備軍",
+      "type": "army",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備率領的軍隊，參與迎戰曹仁與入樊城。",
+      "evidence": [
+        "玄德麾軍衝擊",
+        "引軍入樊城"
+      ]
+    },
+    {
+      "id": "army_cao_ren",
+      "name": "曹仁本部之兵",
+      "type": "army",
+      "aliases": [
+        "曹仁軍",
+        "曹兵"
+      ],
+      "description": "曹仁率領攻新野、劫寨的兵馬。",
+      "evidence": [
+        "大起本部之兵",
+        "曹兵大敗而退"
+      ]
+    },
+    {
+      "id": "army_zhaoyun_1000",
+      "name": "趙雲一千軍",
+      "type": "army",
+      "aliases": [],
+      "description": "趙雲奉劉備之命守樊城的部隊。",
+      "evidence": [
+        "趙雲引一千軍守樊城"
+      ]
+    },
+    {
+      "id": "army_zhangfei",
+      "name": "張飛一彪軍",
+      "type": "army",
+      "aliases": [],
+      "description": "張飛率領在河邊截擊曹仁的伏兵。",
+      "evidence": [
+        "岸上一彪軍殺到"
+      ]
+    },
+    {
+      "id": "army_guanyu",
+      "name": "關雲長軍",
+      "type": "army",
+      "aliases": [],
+      "description": "關羽率領奪取樊城並出城追擊曹仁的部隊。",
+      "evidence": [
+        "一將引軍而出",
+        "雲長追殺過來"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_cao_ren",
+      "target": "faction_cao_cao",
+      "type": "隸屬",
+      "description": "曹仁為曹操勢力部將。",
+      "evidence": [
+        "見曹操",
+        "請罪"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_cao_ren",
+      "type": "受命於",
+      "description": "李典受曹仁命令出陣，並被調領後軍。",
+      "evidence": [
+        "曹仁命李典出陣",
+        "調李典領後軍"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "army_cao_ren",
+      "type": "統領",
+      "description": "曹仁大起本部之兵攻向新野。",
+      "evidence": [
+        "大起本部之兵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "loc_fancheng",
+      "type": "屯兵於",
+      "description": "曹仁原屯樊城。",
+      "evidence": [
+        "曹仁屯兵樊城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "event_cao_ren_attacks_xinye",
+      "type": "發動",
+      "description": "曹仁率軍渡河，意欲踏平新野。",
+      "evidence": [
+        "渡河",
+        "踏平新野"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "event_cao_ren_attacks_xinye",
+      "target": "loc_xinye",
+      "type": "攻向",
+      "description": "曹仁攻擊目標為新野。",
+      "evidence": [
+        "意欲踏平新野"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "title_junshi",
+      "type": "擔任",
+      "description": "徐庶化名單福，在劉備軍中為軍師。",
+      "evidence": [
+        "有單福為軍師"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "char_liu_bei",
+      "type": "輔佐",
+      "description": "徐庶以單福身份輔佐劉備。",
+      "evidence": [
+        "幸蒙不棄，即賜重用"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "strategy_fancheng",
+      "type": "設計",
+      "description": "徐庶預判曹仁出兵，為劉備安排襲樊城之計。",
+      "evidence": [
+        "果不出吾之料",
+        "預先準備已定"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strategy_fancheng",
+      "type": "採納",
+      "description": "劉備聽單福耳語後大喜並預先準備。",
+      "evidence": [
+        "玄德大喜",
+        "準備已定"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "faction_liu_bei",
+      "target": "faction_cao_cao",
+      "type": "敵對",
+      "description": "劉備軍與曹軍在新野、樊城交戰。",
+      "evidence": [
+        "曹兵大敗而退"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_zhao_yun",
+      "type": "交鋒",
+      "description": "李典奉曹仁命出陣，與趙雲交戰後退回。",
+      "evidence": [
+        "與趙雲交鋒",
+        "撥馬回陣"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_cao_ren",
+      "type": "勸諫",
+      "description": "李典認為劉備軍精銳，勸曹仁回樊城。",
+      "evidence": [
+        "不可輕敵",
+        "不如回樊城"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "strategy_bamen",
+      "type": "布陣",
+      "description": "曹仁進軍時布成八門金鎖陣。",
+      "evidence": [
+        "佈成一個陣勢",
+        "八門金鎖陣"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "strategy_bamen",
+      "type": "識破",
+      "description": "單福登高觀看後識出八門金鎖陣。",
+      "evidence": [
+        "此八門金鎖陣也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "battle_bamen",
+      "type": "破陣",
+      "description": "趙雲奉令殺入中軍，突出西門再轉東南，使曹仁軍大亂。",
+      "evidence": [
+        "殺入中軍",
+        "曹仁軍大亂"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "battle_bamen",
+      "type": "參戰",
+      "description": "劉備麾軍衝擊，曹兵大敗。",
+      "evidence": [
+        "玄德麾軍衝擊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "battle_bamen",
+      "target": "faction_cao_cao",
+      "type": "擊敗",
+      "description": "八門金鎖陣被破後曹兵敗退。",
+      "evidence": [
+        "曹兵大敗而退"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "strategy_night_raid",
+      "type": "採用",
+      "description": "曹仁定於二更劫寨。",
+      "evidence": [
+        "當夜二更劫寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "strategy_night_raid",
+      "type": "預判",
+      "description": "單福見信風驟起，判定曹仁夜間必來劫寨。",
+      "evidence": [
+        "今夜曹仁必來劫寨"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "battle_night_raid",
+      "type": "追擊",
+      "description": "曹仁退軍時，趙雲掩殺而來。",
+      "evidence": [
+        "趙雲掩殺將來"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "battle_night_raid",
+      "type": "伏擊",
+      "description": "張飛率一彪軍在河邊截住曹仁。",
+      "evidence": [
+        "岸上一彪軍殺到"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_dian",
+      "target": "char_cao_ren",
+      "type": "救護",
+      "description": "李典保護曹仁下船渡河。",
+      "evidence": [
+        "李典保護曹仁下船"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_night_raid",
+      "target": "army_cao_ren",
+      "type": "重創",
+      "description": "曹軍夜襲敗退，大半淹死水中。",
+      "evidence": [
+        "曹軍大半淹死"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "battle_fancheng",
+      "type": "襲取",
+      "description": "關羽趁曹仁在外，已取樊城。",
+      "evidence": [
+        "吾已取樊城多時矣"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_fancheng",
+      "target": "loc_fancheng",
+      "type": "發生於",
+      "description": "襲取目標為樊城。",
+      "evidence": [
+        "已取樊城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "loc_xuchang",
+      "type": "逃往",
+      "description": "曹仁被擊敗後星夜投許昌。",
+      "evidence": [
+        "星夜投許昌"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_fancheng",
+      "type": "入城安民",
+      "description": "劉備大勝後引軍入樊城，安撫百姓。",
+      "evidence": [
+        "引軍入樊城",
+        "安民已定"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_mi",
+      "target": "title_xianling",
+      "type": "擔任",
+      "description": "劉泌為樊城縣令。",
+      "evidence": [
+        "縣令劉泌出迎"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_mi",
+      "target": "loc_fancheng",
+      "type": "治理",
+      "description": "劉泌以縣令身份在樊城迎接劉備。",
+      "evidence": [
+        "縣令劉泌出迎"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_liu_mi",
+      "target": "faction_han",
+      "type": "宗親",
+      "description": "劉泌也是漢室宗親。",
+      "evidence": [
+        "亦漢室宗親"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_feng",
+      "target": "char_liu_mi",
+      "type": "甥舅",
+      "description": "寇封是劉泌的甥。",
+      "evidence": [
+        "此吾之甥寇封"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_liu_feng",
+      "type": "收為義子",
+      "description": "劉備愛寇封，收為義子。",
+      "evidence": [
+        "欲嗣為義子"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_feng",
+      "target": "title_yizi",
+      "type": "取得名分",
+      "description": "寇封拜劉備為父，成為義子。",
+      "evidence": [
+        "拜玄德為父"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_feng",
+      "target": "char_guan_yu",
+      "type": "拜為叔",
+      "description": "劉備令劉封拜關羽為叔。",
+      "evidence": [
+        "令拜雲長、翼德為叔"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_feng",
+      "target": "char_zhang_fei",
+      "type": "拜為叔",
+      "description": "劉備令劉封拜張飛為叔。",
+      "evidence": [
+        "令拜雲長、翼德為叔"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "event_liu_bei_adopts_liu_feng",
+      "type": "反對",
+      "description": "關羽認為劉備已有子，不必收義子，恐後生亂。",
+      "evidence": [
+        "何必用螟蛉",
+        "後必生亂"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "army_zhaoyun_1000",
+      "type": "統領",
+      "description": "趙雲奉命率一千軍守樊城。",
+      "evidence": [
+        "引一千軍守樊城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "army_zhaoyun_1000",
+      "target": "loc_fancheng",
+      "type": "駐守",
+      "description": "趙雲一千軍駐守樊城。",
+      "evidence": [
+        "守樊城"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "loc_xinye",
+      "type": "返回",
+      "description": "劉備安排趙雲守樊城後，自回新野。",
+      "evidence": [
+        "領眾自回新野"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "event_cao_report_xuchang",
+      "type": "參與",
+      "description": "曹仁敗回許都向曹操請罪。",
+      "evidence": [
+        "泣拜於地請罪"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_li_dian",
+      "target": "event_cao_report_xuchang",
+      "type": "參與",
+      "description": "李典與曹仁一同回許都。",
+      "evidence": [
+        "曹仁與李典回許都"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "char_xu_shu",
+      "type": "識破身份",
+      "description": "程昱指出單福其實是徐庶。",
+      "evidence": [
+        "此非單福也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "loc_yingchuan",
+      "type": "籍貫",
+      "description": "徐庶自稱本潁川人。",
+      "evidence": [
+        "某本潁川徐庶"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "char_xu_mu",
+      "type": "母子",
+      "description": "徐母為徐庶之母。",
+      "evidence": [
+        "老母今被曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "event_cao_cao_tricks_xu_mu",
+      "type": "主使",
+      "description": "曹操使人將徐母賺至許昌。",
+      "evidence": [
+        "曹丞相使人賺至許昌"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "event_cao_cao_tricks_xu_mu",
+      "target": "loc_xuchang",
+      "type": "發生於",
+      "description": "徐母被誘至許昌。",
+      "evidence": [
+        "賺至許昌"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xu_mu",
+      "type": "逼寫書信",
+      "description": "曹操請徐母作書召徐庶回許都。",
+      "evidence": [
+        "煩老母作書"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_xu_mu",
+      "target": "char_liu_bei",
+      "type": "稱許",
+      "description": "徐母稱劉備仁聲素著、當世英雄。",
+      "evidence": [
+        "真當世之英雄"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_mu",
+      "target": "char_cao_cao",
+      "type": "斥責",
+      "description": "徐母斥曹操為漢賊，並以石硯打曹操。",
+      "evidence": [
+        "實為漢賊",
+        "石硯便打"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "object_shiyan",
+      "target": "char_cao_cao",
+      "type": "攻擊物",
+      "description": "石硯被徐母拿來打曹操。",
+      "evidence": [
+        "取石硯便打曹操"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "char_cao_cao",
+      "type": "進諫",
+      "description": "程昱勸曹操不要殺徐母，以免成徐母之德。",
+      "evidence": [
+        "程昱急止之",
+        "不如留之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "char_xu_mu",
+      "type": "籠絡",
+      "description": "程昱日往問候徐母，待之如親母。",
+      "evidence": [
+        "日往問候",
+        "如親母"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "object_hand_notes",
+      "type": "取得",
+      "description": "程昱以手啟往來取得徐母字體。",
+      "evidence": [
+        "必具手啟",
+        "字體"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "strategy_fake_letter",
+      "type": "設計",
+      "description": "程昱自稱有計賺徐庶，後偽造家書。",
+      "evidence": [
+        "自有計賺徐庶",
+        "詐修家書"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_fake_letter",
+      "target": "object_fake_letter",
+      "type": "使用",
+      "description": "家書計的核心物件是偽造家書。",
+      "evidence": [
+        "詐修家書一封"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "object_fake_letter",
+      "target": "char_xu_shu",
+      "type": "誘召",
+      "description": "偽家書稱徐母命若懸絲，催徐庶星夜前來。",
+      "evidence": [
+        "星夜前來",
+        "專望救援"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "event_xu_shu_departure",
+      "type": "發起",
+      "description": "徐庶讀信後向劉備告歸。",
+      "evidence": [
+        "今當告歸"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "event_xu_shu_departure",
+      "type": "放行",
+      "description": "劉備認為不可斷絕母子之道，允徐庶離去。",
+      "evidence": [
+        "不為不仁不義之事"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "strategy_detain_xu_shu",
+      "type": "建議",
+      "description": "孫乾勸劉備苦留徐庶。",
+      "evidence": [
+        "宜苦留之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strategy_detain_xu_shu",
+      "type": "拒絕",
+      "description": "劉備拒絕孫乾扣留徐庶之策。",
+      "evidence": [
+        "不可",
+        "吾寧死"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "char_cao_cao",
+      "type": "拒為設謀",
+      "description": "徐庶表示即使曹操相逼，也終身不為曹操設一謀。",
+      "evidence": [
+        "終身不設一謀"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_xu_shu_departure",
+      "target": "loc_changting",
+      "type": "餞別於",
+      "description": "劉備與徐庶在長亭相辭。",
+      "evidence": [
+        "至長亭，下馬相辭"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "event_xu_shu_recommends_zhuge",
+      "type": "薦舉",
+      "description": "徐庶回馬推薦諸葛亮。",
+      "evidence": [
+        "此間有一奇士"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "event_xu_shu_recommends_zhuge",
+      "target": "char_zhuge_liang",
+      "type": "推薦對象",
+      "description": "徐庶推薦的奇士是諸葛亮。",
+      "evidence": [
+        "覆姓諸葛，名亮"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "strategy_seek_zhuge",
+      "type": "提出",
+      "description": "徐庶說諸葛亮不可屈致，劉備應親往求之。",
+      "evidence": [
+        "不可屈致",
+        "親往求之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "event_liu_bei_seeks_zhuge",
+      "type": "準備",
+      "description": "劉備聽徐庶推薦後，備厚幣往南陽請孔明。",
+      "evidence": [
+        "便具厚幣"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "event_liu_bei_seeks_zhuge",
+      "type": "同行",
+      "description": "關羽與劉備、張飛同去請孔明。",
+      "evidence": [
+        "同關、張前去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "event_liu_bei_seeks_zhuge",
+      "type": "同行",
+      "description": "張飛與劉備、關羽同去請孔明。",
+      "evidence": [
+        "同關、張前去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sima_hui",
+      "target": "char_liu_bei",
+      "type": "曾薦賢語",
+      "description": "水鏡先生曾對劉備說伏龍、鳳雛得一可安天下。",
+      "evidence": [
+        "兩人得一，可安天下"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "title_fulong",
+      "target": "char_zhuge_liang",
+      "type": "稱號屬於",
+      "description": "伏龍即諸葛孔明。",
+      "evidence": [
+        "伏龍正是諸葛孔明"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "title_fengchu",
+      "target": "char_pang_tong",
+      "type": "稱號屬於",
+      "description": "鳳雛即襄陽龐統。",
+      "evidence": [
+        "鳳雛乃襄陽龐統也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "title_wolong",
+      "target": "char_zhuge_liang",
+      "type": "稱號屬於",
+      "description": "諸葛亮因臥龍岡自號臥龍先生。",
+      "evidence": [
+        "自號為臥龍先生"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_langya_yangdu",
+      "type": "籍貫",
+      "description": "諸葛亮為瑯琊陽都人。",
+      "evidence": [
+        "瑯琊陽都人"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_longzhong",
+      "type": "所在",
+      "description": "徐庶說諸葛亮在襄陽城外二十里隆中。",
+      "evidence": [
+        "二十里隆中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "loc_longzhong",
+      "target": "loc_xiangyang",
+      "type": "鄰近",
+      "description": "隆中在襄陽城外二十里。",
+      "evidence": [
+        "襄陽城外二十里"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_nanyang",
+      "type": "躬耕於",
+      "description": "諸葛亮與弟諸葛均躬耕南陽。",
+      "evidence": [
+        "躬耕於南陽"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_zhuge_jun",
+      "type": "兄弟",
+      "description": "諸葛均為諸葛亮之弟。",
+      "evidence": [
+        "亮與弟諸葛均"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_zhuge_xuan",
+      "type": "叔侄",
+      "description": "諸葛亮早年從其叔諸葛玄。",
+      "evidence": [
+        "亮從其叔玄"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_xuan",
+      "target": "char_liu_biao",
+      "type": "舊交",
+      "description": "諸葛玄與劉景升有舊。",
+      "evidence": [
+        "與荊州劉景升有舊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_xuan",
+      "target": "loc_jingzhou",
+      "type": "往依",
+      "description": "諸葛玄因與劉景升有舊而往依荊州。",
+      "evidence": [
+        "因往依之"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_zhuge_gui",
+      "type": "父子",
+      "description": "諸葛珪為諸葛亮之父。",
+      "evidence": [
+        "其父名珪"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_gui",
+      "target": "title_taishan_juncheng",
+      "type": "任職",
+      "description": "諸葛珪曾為泰山郡丞。",
+      "evidence": [
+        "為泰山郡丞"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "title_taishan_juncheng",
+      "target": "loc_taishan",
+      "type": "所屬地",
+      "description": "泰山郡丞職位屬於泰山。",
+      "evidence": [
+        "泰山郡丞"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_zhuge_feng",
+      "type": "後裔",
+      "description": "諸葛亮為諸葛豐之後。",
+      "evidence": [
+        "諸葛豐之後"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_feng",
+      "target": "title_sili_xiaowei",
+      "type": "任職",
+      "description": "諸葛豐曾任漢司隸校尉。",
+      "evidence": [
+        "漢司隸校尉諸葛豐"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "object_liangfu_yin",
+      "type": "喜好",
+      "description": "諸葛亮常好為《梁父吟》。",
+      "evidence": [
+        "嘗好為《梁父吟》"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "loc_wolonggang",
+      "type": "居於",
+      "description": "諸葛亮所居之地名臥龍岡。",
+      "evidence": [
+        "所居之地有一岡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_guan_zhong",
+      "type": "自比",
+      "description": "諸葛亮常自比管仲。",
+      "evidence": [
+        "自比管仲"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_yue_yi",
+      "type": "自比",
+      "description": "諸葛亮常自比樂毅。",
+      "evidence": [
+        "自比管仲，樂毅"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "event_xu_shu_visits_zhuge",
+      "type": "發起",
+      "description": "徐庶離開劉備後到臥龍岡見孔明。",
+      "evidence": [
+        "直至臥龍岡下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xu_shu",
+      "target": "char_zhuge_liang",
+      "type": "請求出山",
+      "description": "徐庶請諸葛亮勿推阻劉備，展才輔之。",
+      "evidence": [
+        "勿推阻",
+        "以輔之"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_xu_shu",
+      "type": "拒斥",
+      "description": "諸葛亮聽徐庶請託後作色，拂袖而入。",
+      "evidence": [
+        "孔明聞言作色",
+        "拂袖而入"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "events": [
+    {
+      "id": "event_cao_ren_attacks_xinye",
+      "name": "曹仁起兵攻新野",
+      "summary": "曹仁因前敗怒起本部之兵，星夜渡河攻向新野；單福預判其行動，請劉備出軍迎敵。",
+      "participants": [
+        "char_cao_ren",
+        "char_liu_bei",
+        "char_xu_shu",
+        "army_cao_ren",
+        "army_liu_bei"
+      ],
+      "locations": [
+        "loc_fancheng",
+        "loc_xinye"
+      ],
+      "evidence": [
+        "大起本部之兵",
+        "踏平新野"
+      ]
+    },
+    {
+      "id": "battle_bamen",
+      "name": "破八門金鎖陣之戰",
+      "summary": "曹仁布八門金鎖陣，單福識破後令趙雲突入；劉備麾軍衝擊，曹兵大敗。",
+      "participants": [
+        "char_cao_ren",
+        "char_li_dian",
+        "char_zhao_yun",
+        "char_liu_bei",
+        "char_xu_shu",
+        "army_cao_ren",
+        "army_liu_bei"
+      ],
+      "locations": [
+        "loc_xinye"
+      ],
+      "evidence": [
+        "此八門金鎖陣也",
+        "曹兵大敗而退"
+      ]
+    },
+    {
+      "id": "battle_night_raid",
+      "name": "曹仁夜劫寨敗退",
+      "summary": "曹仁二更劫寨，被單福預先分撥應對；趙雲追殺，張飛河邊截擊，李典護曹仁渡河。",
+      "participants": [
+        "char_cao_ren",
+        "char_li_dian",
+        "char_xu_shu",
+        "char_zhao_yun",
+        "char_zhang_fei",
+        "army_cao_ren",
+        "army_zhangfei"
+      ],
+      "locations": [
+        "loc_xinye",
+        "loc_fancheng"
+      ],
+      "evidence": [
+        "今夜曹仁必來劫寨",
+        "曹軍大半淹死"
+      ]
+    },
+    {
+      "id": "battle_fancheng",
+      "name": "襲取樊城",
+      "summary": "曹仁敗退回樊城時，關羽已率軍奪城；曹仁驚走，劉備大獲全勝並入城安民。",
+      "participants": [
+        "char_guan_yu",
+        "char_cao_ren",
+        "char_liu_bei",
+        "char_liu_mi",
+        "army_guanyu"
+      ],
+      "locations": [
+        "loc_fancheng"
+      ],
+      "evidence": [
+        "吾已取樊城多時矣",
+        "引軍入樊城"
+      ]
+    },
+    {
+      "id": "event_liu_bei_adopts_liu_feng",
+      "name": "劉備收劉封為義子",
+      "summary": "劉泌設宴時引見甥寇封；劉備愛其器宇，收為義子，改名劉封，令拜關羽、張飛為叔。",
+      "participants": [
+        "char_liu_bei",
+        "char_liu_mi",
+        "char_liu_feng",
+        "char_guan_yu",
+        "char_zhang_fei"
+      ],
+      "locations": [
+        "loc_fancheng"
+      ],
+      "evidence": [
+        "欲嗣為義子",
+        "改名劉封"
+      ]
+    },
+    {
+      "id": "event_cao_report_xuchang",
+      "name": "曹仁李典敗回許昌請罪",
+      "summary": "曹仁、李典敗回許都向曹操請罪，曹操詢問劉備軍中誰畫策，程昱指出單福即徐庶。",
+      "participants": [
+        "char_cao_ren",
+        "char_li_dian",
+        "char_cao_cao",
+        "char_cheng_yu",
+        "char_xu_shu"
+      ],
+      "locations": [
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "回許都，見曹操",
+        "此非單福也"
+      ]
+    },
+    {
+      "id": "event_cao_cao_tricks_xu_mu",
+      "name": "曹操賺徐母至許昌",
+      "summary": "曹操欲借徐母召回徐庶；徐母怒斥曹操，程昱勸曹操留其性命以離間徐庶。",
+      "participants": [
+        "char_cao_cao",
+        "char_xu_mu",
+        "char_cheng_yu",
+        "char_xu_shu"
+      ],
+      "locations": [
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "賺至許昌",
+        "不如留之"
+      ]
+    },
+    {
+      "id": "event_cheng_yu_forges_letter",
+      "name": "程昱偽造家書",
+      "summary": "程昱以問候與手啟取得徐母筆跡，偽造家書派人送往新野，使徐庶以為母危而告別劉備。",
+      "participants": [
+        "char_cheng_yu",
+        "char_xu_mu",
+        "char_xu_shu",
+        "object_fake_letter",
+        "object_hand_notes"
+      ],
+      "locations": [
+        "loc_xuchang",
+        "loc_xinye"
+      ],
+      "evidence": [
+        "詐修家書一封",
+        "持書徑奔新野縣"
+      ]
+    },
+    {
+      "id": "event_xu_shu_departure",
+      "name": "徐庶別劉備歸許昌",
+      "summary": "徐庶因母被囚而辭劉備；孫乾勸留，劉備以仁義拒絕，在長亭餞行。",
+      "participants": [
+        "char_xu_shu",
+        "char_liu_bei",
+        "char_sun_qian",
+        "char_xu_mu",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_xinye",
+        "loc_changting",
+        "loc_xuchang"
+      ],
+      "evidence": [
+        "今當告歸",
+        "至長亭，下馬相辭"
+      ]
+    },
+    {
+      "id": "event_xu_shu_recommends_zhuge",
+      "name": "徐庶走馬薦諸葛",
+      "summary": "徐庶臨別回馬，向劉備推薦襄陽城外隆中的諸葛亮，並解釋伏龍、鳳雛之說。",
+      "participants": [
+        "char_xu_shu",
+        "char_liu_bei",
+        "char_zhuge_liang",
+        "char_sima_hui",
+        "char_pang_tong"
+      ],
+      "locations": [
+        "loc_changting",
+        "loc_longzhong",
+        "loc_xiangyang"
+      ],
+      "evidence": [
+        "此間有一奇士",
+        "伏龍正是諸葛孔明"
+      ]
+    },
+    {
+      "id": "event_liu_bei_seeks_zhuge",
+      "name": "劉備備禮請孔明",
+      "summary": "劉備聽徐庶推薦後醒悟水鏡之言，帶厚幣與關羽、張飛前往南陽請孔明。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu",
+        "char_zhang_fei",
+        "char_zhuge_liang",
+        "object_houbi"
+      ],
+      "locations": [
+        "loc_xinye",
+        "loc_nanyang"
+      ],
+      "evidence": [
+        "便具厚幣",
+        "前去南陽請孔明"
+      ]
+    },
+    {
+      "id": "event_xu_shu_visits_zhuge",
+      "name": "徐庶訪臥龍岡",
+      "summary": "徐庶恐孔明不肯輔劉備，先到臥龍岡草廬請孔明勿拒；孔明聞言不悅，拂袖入內。",
+      "participants": [
+        "char_xu_shu",
+        "char_zhuge_liang",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_wolonggang"
+      ],
+      "evidence": [
+        "入草廬見孔明",
+        "拂袖而入"
+      ]
+    }
+  ],
+  "notes": [
+    "本章文本含若干重複與錯字，抽取依可辨識情節與原文片段。",
+    "「單福」在本章由人物自述確認為徐庶化名。"
+  ]
+}

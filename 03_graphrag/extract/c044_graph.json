@@ -1,0 +1,1882 @@
+{
+  "book": "三國演義",
+  "chapter_no": 44,
+  "chapter_title": "孔明用智激周瑜　孫權決計破曹操",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [
+        "權",
+        "主公",
+        "吳侯",
+        "孫將軍",
+        "孤"
+      ],
+      "description": "江東之主，起初疑惑不決，後採納周瑜主戰之議，決意破曹。",
+      "evidence": [
+        "孫權疑惑不決",
+        "卿言當伐",
+        "親與操賊決戰"
+      ]
+    },
+    {
+      "id": "char_wu_guotai",
+      "name": "吳國太",
+      "type": "character",
+      "aliases": [],
+      "description": "勸孫權遵從孫策遺言，請周瑜決外事。",
+      "evidence": [
+        "吳國太見孫權疑惑不決",
+        "何不請公瑾"
+      ]
+    },
+    {
+      "id": "char_sun_ce",
+      "name": "孫策",
+      "type": "character",
+      "aliases": [
+        "伯符",
+        "孫伯符"
+      ],
+      "description": "已故江東前主，其臨終遺言成為孫權問政依據。",
+      "evidence": [
+        "伯符臨終有言",
+        "外事不決問周瑜"
+      ]
+    },
+    {
+      "id": "char_zhang_zhao",
+      "name": "張昭",
+      "type": "character",
+      "aliases": [],
+      "description": "江東文官，依孫策遺言可決內事，本章與顧雍等向周瑜陳說曹操威勢。",
+      "evidence": [
+        "內事不決問張昭",
+        "張昭、顧雍、張纮、步騖"
+      ]
+    },
+    {
+      "id": "char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "公瑾",
+        "瑜",
+        "都督",
+        "周郎",
+        "週郎"
+      ],
+      "description": "江東都督，在鄱陽湖訓練水師，受命統兵破曹，並被孔明以二喬之說激怒主戰。",
+      "evidence": [
+        "周瑜在鄱陽湖訓練水師",
+        "瑜受了劍",
+        "率眾破曹"
+      ]
+    },
+    {
+      "id": "char_lu_su",
+      "name": "魯肅",
+      "type": "character",
+      "aliases": [
+        "子敬",
+        "魯子敬"
+      ],
+      "description": "與周瑜交厚，向周瑜轉述前事，並引孔明來見。",
+      "evidence": [
+        "魯肅與瑜最厚",
+        "引孔明來拜"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "老賊",
+        "操賊"
+      ],
+      "description": "率大軍屯漢上，傳檄江東，被孫權與周瑜視為當伐之敵。",
+      "evidence": [
+        "曹操擁眾百萬",
+        "曹操引兵屯漢上",
+        "操賊決戰"
+      ]
+    },
+    {
+      "id": "char_gu_yong",
+      "name": "顧雍",
+      "type": "character",
+      "aliases": [],
+      "description": "江東文官，與張昭等來見周瑜商議曹操之事。",
+      "evidence": [
+        "張昭、顧雍、張纮、步騖"
+      ]
+    },
+    {
+      "id": "char_zhang_hong",
+      "name": "張纮",
+      "type": "character",
+      "aliases": [],
+      "description": "江東文官，與張昭、顧雍、步騖同來探周瑜。",
+      "evidence": [
+        "張昭、顧雍、張纮、步騖"
+      ]
+    },
+    {
+      "id": "char_bu_wu",
+      "name": "步騖",
+      "type": "character",
+      "aliases": [],
+      "description": "江東文官，與張昭等同來見周瑜。",
+      "evidence": [
+        "張昭、顧雍、張纮、步騖"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [],
+      "description": "江東老將，主張死戰；初因周瑜爵居其上而不樂，後服周瑜將才並謝罪。",
+      "evidence": [
+        "程普、黃蓋、韓當",
+        "願效死戰",
+        "真將才也"
+      ]
+    },
+    {
+      "id": "char_huang_gai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [],
+      "description": "江東戰將，與程普、韓當等來見周瑜，表明願戰。",
+      "evidence": [
+        "程普、黃蓋、韓當",
+        "願效死戰"
+      ]
+    },
+    {
+      "id": "char_han_dang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [],
+      "description": "江東戰將，與程普、黃蓋同列主戰將領。",
+      "evidence": [
+        "程普、黃蓋、韓當"
+      ]
+    },
+    {
+      "id": "char_zhuge_jin",
+      "name": "諸葛瑾",
+      "type": "character",
+      "aliases": [
+        "瑾"
+      ],
+      "description": "諸葛亮之兄，受周瑜所請勸孔明事東吳，但孔明未從。",
+      "evidence": [
+        "舍弟諸葛亮",
+        "瑜請諸葛瑾",
+        "使令弟棄劉備而事東吳"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "亮",
+        "軍師諸葛亮",
+        "舍弟"
+      ],
+      "description": "劉備使者，到江東聯吳抗曹；用二喬之說激怒周瑜，並料中孫權心疑。",
+      "evidence": [
+        "軍師諸葛亮至此",
+        "孔明只袖手冷笑",
+        "早已料著吳侯之心"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "劉豫州"
+      ],
+      "description": "欲結東吳共伐曹操，孔明為其使者；周瑜認為孔明助劉備將成江東之患。",
+      "evidence": [
+        "劉豫州欲結東吳",
+        "此人助劉備"
+      ]
+    },
+    {
+      "id": "char_lu_fan",
+      "name": "呂範",
+      "type": "character",
+      "aliases": [],
+      "description": "江東文官，參與議事；後與朱治任四方巡警使。",
+      "evidence": [
+        "諸葛瑾、呂範",
+        "呂範、朱治為四方巡警使"
+      ]
+    },
+    {
+      "id": "char_lu_meng",
+      "name": "呂蒙",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，參與見周瑜議事，後與太史慈列第四隊。",
+      "evidence": [
+        "呂蒙、甘寧等",
+        "太史慈、呂蒙為第四隊"
+      ]
+    },
+    {
+      "id": "char_gan_ning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，與呂蒙等來見周瑜議曹操事。",
+      "evidence": [
+        "呂蒙、甘寧等一班兒來見"
+      ]
+    },
+    {
+      "id": "char_da_qiao",
+      "name": "大喬",
+      "type": "character",
+      "aliases": [],
+      "description": "二喬之一，正文稱為孫伯符主婦。",
+      "evidence": [
+        "大喬是孫伯符將軍主婦"
+      ]
+    },
+    {
+      "id": "char_xiao_qiao",
+      "name": "小喬",
+      "type": "character",
+      "aliases": [],
+      "description": "二喬之一，正文稱為周瑜之妻。",
+      "evidence": [
+        "小喬乃之妻也"
+      ]
+    },
+    {
+      "id": "char_er_qiao",
+      "name": "二喬",
+      "type": "character",
+      "aliases": [
+        "江東二喬",
+        "二女"
+      ],
+      "description": "孔明激周瑜時提出的關鍵人物集合，稱送二喬可退曹兵。",
+      "evidence": [
+        "願得江東二喬",
+        "送兩個人到江上"
+      ]
+    },
+    {
+      "id": "char_cheng_zi",
+      "name": "程諮",
+      "type": "character",
+      "aliases": [],
+      "description": "程普長子，代父至周瑜行營，後向父親回報周瑜調兵有法。",
+      "evidence": [
+        "令長子程諮自代",
+        "說周瑜調兵"
+      ]
+    },
+    {
+      "id": "char_jiang_qin",
+      "name": "蔣欽",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，被周瑜編為第二隊。",
+      "evidence": [
+        "蔣欽、周泰為第二隊"
+      ]
+    },
+    {
+      "id": "char_zhou_tai",
+      "name": "周泰",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，被周瑜編為第二隊。",
+      "evidence": [
+        "蔣欽、周泰為第二隊"
+      ]
+    },
+    {
+      "id": "char_ling_tong",
+      "name": "凌統",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，被周瑜編為第三隊。",
+      "evidence": [
+        "凌統、潘璋為第三隊"
+      ]
+    },
+    {
+      "id": "char_pan_zhang",
+      "name": "潘璋",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，被周瑜編為第三隊。",
+      "evidence": [
+        "凌統、潘璋為第三隊"
+      ]
+    },
+    {
+      "id": "char_taishi_ci",
+      "name": "太史慈",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，被周瑜編為第四隊。",
+      "evidence": [
+        "太史慈、呂蒙為第四隊"
+      ]
+    },
+    {
+      "id": "char_lu_xun",
+      "name": "陸遜",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，被周瑜編為第五隊。",
+      "evidence": [
+        "陸遜、董襲為第五隊"
+      ]
+    },
+    {
+      "id": "char_dong_xi",
+      "name": "董襲",
+      "type": "character",
+      "aliases": [],
+      "description": "江東將領，被周瑜編為第五隊。",
+      "evidence": [
+        "陸遜、董襲為第五隊"
+      ]
+    },
+    {
+      "id": "char_zhu_zhi",
+      "name": "朱治",
+      "type": "character",
+      "aliases": [],
+      "description": "江東官將，與呂範任四方巡警使。",
+      "evidence": [
+        "呂範、朱治為四方巡警使"
+      ]
+    },
+    {
+      "id": "char_han_emperor",
+      "name": "漢天子",
+      "type": "character",
+      "aliases": [
+        "天子"
+      ],
+      "description": "被曹操挾持作名義，周瑜稱曹操囚天子於許昌。",
+      "evidence": [
+        "以天子為名",
+        "囚天子於許昌"
+      ]
+    },
+    {
+      "id": "char_dong_zhuo",
+      "name": "董卓",
+      "type": "character",
+      "aliases": [],
+      "description": "周瑜以董卓比曹操弄權之甚。",
+      "evidence": [
+        "曹操弄權，甚於董卓"
+      ]
+    },
+    {
+      "id": "char_lv_bu",
+      "name": "呂布",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權談曹操所懼已滅諸雄時提及。",
+      "evidence": [
+        "二袁、呂布、劉表"
+      ]
+    },
+    {
+      "id": "char_liu_biao",
+      "name": "劉表",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權談曹操所懼已滅諸雄時提及。",
+      "evidence": [
+        "二袁、呂布、劉表"
+      ]
+    },
+    {
+      "id": "char_er_yuan",
+      "name": "二袁",
+      "type": "character",
+      "aliases": [],
+      "description": "孫權談曹操昔日所懼群雄時提及。",
+      "evidence": [
+        "所懼二袁"
+      ]
+    },
+    {
+      "id": "char_boyi",
+      "name": "伯夷",
+      "type": "character",
+      "aliases": [
+        "夷"
+      ],
+      "description": "諸葛瑾勸孔明時引用的古人。",
+      "evidence": [
+        "弟知伯夷、叔齊乎"
+      ]
+    },
+    {
+      "id": "char_shuqi",
+      "name": "叔齊",
+      "type": "character",
+      "aliases": [
+        "齊"
+      ],
+      "description": "諸葛瑾勸孔明時引用的古人。",
+      "evidence": [
+        "伯夷、叔齊",
+        "夷、齊古之聖賢"
+      ]
+    },
+    {
+      "id": "faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "江東",
+        "吳"
+      ],
+      "description": "孫權所領江東政權，是劉備欲結盟、曹操欲威逼的對象。",
+      "evidence": [
+        "欲結東吳",
+        "江東之利害",
+        "主公聽謀士之言"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹方"
+      ],
+      "description": "曹操所統勢力，與東吳、劉備勢力對立。",
+      "evidence": [
+        "曹操擁眾百萬",
+        "共伐曹操"
+      ]
+    },
+    {
+      "id": "faction_liu",
+      "name": "劉備勢力",
+      "type": "faction",
+      "aliases": [
+        "劉豫州一方"
+      ],
+      "description": "以劉備為主，遣孔明至江東求結盟伐曹。",
+      "evidence": [
+        "劉豫州欲結東吳",
+        "舍弟為使"
+      ]
+    },
+    {
+      "id": "faction_wu_civil",
+      "name": "江東文官",
+      "type": "faction",
+      "aliases": [
+        "文官"
+      ],
+      "description": "張昭、顧雍等文臣群體，在堂上與武官分班侍立，議論和戰。",
+      "evidence": [
+        "左邊文官張昭、顧雍等三十餘人"
+      ]
+    },
+    {
+      "id": "faction_wu_generals",
+      "name": "江東武將",
+      "type": "faction",
+      "aliases": [
+        "戰將",
+        "武官"
+      ],
+      "description": "程普、黃蓋等將領群體，多主張效死抗曹。",
+      "evidence": [
+        "右邊武官程普、黃蓋等",
+        "願效死戰"
+      ]
+    },
+    {
+      "id": "army_cao",
+      "name": "曹操大軍",
+      "type": "army",
+      "aliases": [
+        "曹兵",
+        "操兵",
+        "百萬之眾"
+      ],
+      "description": "曹操南侵軍隊，屯於漢上，號稱百萬。",
+      "evidence": [
+        "曹操擁眾百萬",
+        "屯於漢上",
+        "曹操兵多"
+      ]
+    },
+    {
+      "id": "army_wu_navy",
+      "name": "江東水師",
+      "type": "army",
+      "aliases": [
+        "水師",
+        "戰船",
+        "本部戰船"
+      ],
+      "description": "周瑜在鄱陽湖訓練並用以抗曹的水軍。",
+      "evidence": [
+        "鄱陽湖訓練水師",
+        "本部戰船"
+      ]
+    },
+    {
+      "id": "army_second_team",
+      "name": "第二隊",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜行營調撥的江東軍隊之一，由蔣欽、周泰相關。",
+      "evidence": [
+        "蔣欽、周泰為第二隊"
+      ]
+    },
+    {
+      "id": "army_third_team",
+      "name": "第三隊",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜行營調撥的江東軍隊之一，由凌統、潘璋相關。",
+      "evidence": [
+        "凌統、潘璋為第三隊"
+      ]
+    },
+    {
+      "id": "army_fourth_team",
+      "name": "第四隊",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜行營調撥的江東軍隊之一，由太史慈、呂蒙相關。",
+      "evidence": [
+        "太史慈、呂蒙為第四隊"
+      ]
+    },
+    {
+      "id": "army_fifth_team",
+      "name": "第五隊",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜行營調撥的江東軍隊之一，由陸遜、董襲相關。",
+      "evidence": [
+        "陸遜、董襲為第五隊"
+      ]
+    },
+    {
+      "id": "loc_poyang_lake",
+      "name": "鄱陽湖",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜訓練水師之處。",
+      "evidence": [
+        "周瑜在鄱陽湖訓練水師"
+      ]
+    },
+    {
+      "id": "loc_hanshang",
+      "name": "漢上",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操大軍屯兵之地。",
+      "evidence": [
+        "大軍至漢上",
+        "屯於漢上"
+      ]
+    },
+    {
+      "id": "loc_chaisang",
+      "name": "柴桑郡",
+      "type": "location",
+      "aliases": [
+        "柴桑"
+      ],
+      "description": "周瑜星夜返回議軍機的地點。",
+      "evidence": [
+        "星夜回柴桑郡議軍機事"
+      ]
+    },
+    {
+      "id": "loc_jiangxia",
+      "name": "江夏",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操檄文稱欲會獵之地，也是劉備當時孤身所在。",
+      "evidence": [
+        "會獵於江夏",
+        "孤身江夏"
+      ]
+    },
+    {
+      "id": "loc_jiangnan",
+      "name": "江南",
+      "type": "location",
+      "aliases": [],
+      "description": "孔明稱曹操虎視之地。",
+      "evidence": [
+        "虎視江南"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜稱曹操囚天子之地。",
+      "evidence": [
+        "囚天子於許昌"
+      ]
+    },
+    {
+      "id": "loc_sanjiangkou",
+      "name": "三江口",
+      "type": "location",
+      "aliases": [],
+      "description": "周瑜命江東戰船前往下寨之處。",
+      "evidence": [
+        "前至三江口下寨"
+      ]
+    },
+    {
+      "id": "loc_riverside_camp",
+      "name": "江畔行營",
+      "type": "location",
+      "aliases": [
+        "行營",
+        "中軍帳"
+      ],
+      "description": "周瑜受命後聚集文官武將聽令、調撥軍馬之處。",
+      "evidence": [
+        "江畔行營聽令",
+        "升中軍帳"
+      ]
+    },
+    {
+      "id": "loc_shouyangshan",
+      "name": "首陽山",
+      "type": "location",
+      "aliases": [],
+      "description": "諸葛瑾引用伯夷、叔齊故事時提及的地點。",
+      "evidence": [
+        "首陽山下"
+      ]
+    },
+    {
+      "id": "obj_manifesto",
+      "name": "檄文",
+      "type": "object",
+      "aliases": [
+        "馳書"
+      ],
+      "description": "曹操傳至江東的文書，孫權交周瑜觀看。",
+      "evidence": [
+        "昨傳檄文至此",
+        "取檄文與周瑜看"
+      ]
+    },
+    {
+      "id": "obj_sword",
+      "name": "劍",
+      "type": "object",
+      "aliases": [],
+      "description": "孫權授予周瑜執行軍令之物，可斬不聽號令者。",
+      "evidence": [
+        "即以此劍誅之",
+        "瑜受了劍"
+      ]
+    },
+    {
+      "id": "obj_tongque_tai",
+      "name": "銅雀台",
+      "type": "object",
+      "aliases": [],
+      "description": "孔明激周瑜時所稱曹操欲置二喬之台。",
+      "evidence": [
+        "置之銅雀台"
+      ]
+    },
+    {
+      "id": "title_dudu",
+      "name": "都督",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜在江東軍中被稱呼的軍職。",
+      "evidence": [
+        "都督知江東之利害否"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "諸葛亮被江東議論時稱為軍師。",
+      "evidence": [
+        "軍師諸葛亮至此"
+      ]
+    },
+    {
+      "id": "title_liuyuzhou",
+      "name": "劉豫州",
+      "type": "title",
+      "aliases": [],
+      "description": "劉備在本章中的稱呼。",
+      "evidence": [
+        "劉豫州欲結東吳"
+      ]
+    },
+    {
+      "id": "title_patrol_commissioner",
+      "name": "四方巡警使",
+      "type": "title",
+      "aliases": [],
+      "description": "周瑜分派呂範、朱治所任職事。",
+      "evidence": [
+        "呂範、朱治為四方巡警使"
+      ]
+    },
+    {
+      "id": "strategy_ask_zhouyu",
+      "name": "外事不決問周瑜",
+      "type": "strategy",
+      "aliases": [
+        "內事不決問張昭，外事不決問周瑜"
+      ],
+      "description": "孫策遺言中的決策原則，吳國太以此勸孫權召周瑜。",
+      "evidence": [
+        "內事不決問張昭",
+        "外事不決問周瑜"
+      ]
+    },
+    {
+      "id": "strategy_alliance_against_cao",
+      "name": "結東吳共伐曹操",
+      "type": "strategy",
+      "aliases": [
+        "聯吳抗曹"
+      ],
+      "description": "劉備一方透過孔明提出的聯盟抗曹方向。",
+      "evidence": [
+        "劉豫州欲結東吳，共伐曹操"
+      ]
+    },
+    {
+      "id": "strategy_erqiao_provocation",
+      "name": "二喬激將計",
+      "type": "strategy",
+      "aliases": [
+        "孔明激周瑜",
+        "送二喬退兵"
+      ],
+      "description": "孔明假稱送二喬可使曹操退兵，以激怒周瑜堅決抗曹。",
+      "evidence": [
+        "送兩個人到江上",
+        "願得江東二喬",
+        "斧頭加頭，不易其志"
+      ]
+    },
+    {
+      "id": "strategy_cao_weaknesses",
+      "name": "乘曹軍數忌破曹",
+      "type": "strategy",
+      "aliases": [
+        "操兵犯此數忌"
+      ],
+      "description": "周瑜分析曹軍有多項忌患，雖眾亦可敗。",
+      "evidence": [
+        "操兵犯此數忌",
+        "雖多必敗"
+      ]
+    },
+    {
+      "id": "strategy_strict_discipline",
+      "name": "七禁令五十四斬",
+      "type": "strategy",
+      "aliases": [
+        "軍令"
+      ],
+      "description": "周瑜受命後宣示的嚴格軍法，用以約束官將。",
+      "evidence": [
+        "依七禁令五十四斬施行"
+      ]
+    },
+    {
+      "id": "strategy_recruit_kongming",
+      "name": "招孔明事東吳",
+      "type": "strategy",
+      "aliases": [
+        "使令弟棄劉備而事東吳"
+      ],
+      "description": "周瑜採魯肅建議，請諸葛瑾勸孔明轉事東吳。",
+      "evidence": [
+        "可令招此人同事東吳",
+        "棄劉備而事東吳"
+      ]
+    },
+    {
+      "id": "battle_break_cao",
+      "name": "破曹決戰",
+      "type": "battle",
+      "aliases": [
+        "決一血戰",
+        "破曹"
+      ],
+      "description": "孫權與周瑜在本章決意進行的對曹作戰，正文尚處決策與調兵階段。",
+      "evidence": [
+        "臣為決一血戰",
+        "率眾破曹",
+        "親與操賊決戰"
+      ]
+    },
+    {
+      "id": "event_wu_decision_council",
+      "name": "江東和戰之議",
+      "type": "event",
+      "aliases": [
+        "公議",
+        "議軍機"
+      ],
+      "description": "江東文武圍繞降曹或戰曹展開爭論，最後由周瑜促成主戰。",
+      "evidence": [
+        "和與戰二策",
+        "有勸我降者，有勸我戰者"
+      ]
+    },
+    {
+      "id": "event_zhou_yu_returns",
+      "name": "周瑜回柴桑議軍機",
+      "type": "event",
+      "aliases": [],
+      "description": "周瑜聞曹軍至漢上，從鄱陽湖星夜回柴桑郡。",
+      "evidence": [
+        "星夜回柴桑郡議軍機事"
+      ]
+    },
+    {
+      "id": "event_sunquan_resolves",
+      "name": "孫權決計破曹操",
+      "type": "event",
+      "aliases": [],
+      "description": "孫權採納周瑜主戰意見，表示親與曹操決戰。",
+      "evidence": [
+        "卿言當伐",
+        "親與操賊決戰"
+      ]
+    },
+    {
+      "id": "event_zhouyu_receives_command",
+      "name": "周瑜受命統軍",
+      "type": "event",
+      "aliases": [
+        "周瑜受劍"
+      ],
+      "description": "孫權授權周瑜率眾破曹，並以劍授其軍法權。",
+      "evidence": [
+        "瑜受了劍",
+        "率眾破曹"
+      ]
+    },
+    {
+      "id": "event_camp_deployment",
+      "name": "行營調撥軍馬",
+      "type": "event",
+      "aliases": [
+        "周瑜調兵"
+      ],
+      "description": "周瑜在江畔行營升中軍帳，分派各隊與巡警使。",
+      "evidence": [
+        "聚集文官武將聽令",
+        "諸將各自收拾船隻軍器起行"
+      ]
+    },
+    {
+      "id": "event_zhugejin_persuasion",
+      "name": "諸葛瑾勸孔明",
+      "type": "event",
+      "aliases": [],
+      "description": "諸葛瑾奉周瑜意勸孔明離劉備事東吳，孔明以義不從。",
+      "evidence": [
+        "此必周郎教來說我",
+        "弟所守者，義也"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_wu_guotai",
+      "target": "char_sun_quan",
+      "type": "勸諫",
+      "description": "吳國太勸孫權依孫策遺言請周瑜決外事。",
+      "evidence": [
+        "何不請公瑾問之"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_ce",
+      "target": "strategy_ask_zhouyu",
+      "type": "遺言",
+      "description": "孫策臨終留下內問張昭、外問周瑜的決策原則。",
+      "evidence": [
+        "伯符臨終有言"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_ask_zhouyu",
+      "target": "char_zhang_zhao",
+      "type": "內事諮詢",
+      "description": "遺言指定內事不決問張昭。",
+      "evidence": [
+        "內事不決問張昭"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_ask_zhouyu",
+      "target": "char_zhou_yu",
+      "type": "外事諮詢",
+      "description": "遺言指定外事不決問周瑜。",
+      "evidence": [
+        "外事不決問周瑜"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "army_wu_navy",
+      "type": "訓練",
+      "description": "周瑜在鄱陽湖訓練江東水師。",
+      "evidence": [
+        "鄱陽湖訓練水師"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "loc_poyang_lake",
+      "type": "駐在",
+      "description": "周瑜原在鄱陽湖訓練水師。",
+      "evidence": [
+        "周瑜在鄱陽湖"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "loc_chaisang",
+      "type": "行軍",
+      "description": "周瑜聞曹軍至漢上後星夜回柴桑議軍機。",
+      "evidence": [
+        "星夜回柴桑郡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "army_cao",
+      "target": "loc_hanshang",
+      "type": "屯兵",
+      "description": "曹操大軍屯於漢上。",
+      "evidence": [
+        "屯於漢上"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_manifesto",
+      "type": "傳送",
+      "description": "曹操向江東傳檄文。",
+      "evidence": [
+        "昨傳檄文至此"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "obj_manifesto",
+      "target": "loc_jiangxia",
+      "type": "提及",
+      "description": "檄文稱欲請孫權會獵於江夏。",
+      "evidence": [
+        "會獵於江夏"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_lu_su",
+      "target": "char_zhou_yu",
+      "type": "交厚",
+      "description": "魯肅與周瑜關係最厚，先來迎接並轉述前事。",
+      "evidence": [
+        "魯肅與瑜最厚"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_su",
+      "target": "char_zhuge_liang",
+      "type": "引見",
+      "description": "魯肅引孔明來拜見周瑜。",
+      "evidence": [
+        "引孔明來拜"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_zhao",
+      "target": "faction_wu_civil",
+      "type": "成員",
+      "description": "張昭屬江東文官之列。",
+      "evidence": [
+        "文官張昭"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_gu_yong",
+      "target": "faction_wu_civil",
+      "type": "成員",
+      "description": "顧雍屬江東文官之列。",
+      "evidence": [
+        "張昭、顧雍等"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_zhang_hong",
+      "target": "faction_wu_civil",
+      "type": "成員",
+      "description": "張纮與張昭等文官同來見周瑜。",
+      "evidence": [
+        "張昭、顧雍、張纮"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_bu_wu",
+      "target": "faction_wu_civil",
+      "type": "成員",
+      "description": "步騖與張昭等文官同來見周瑜。",
+      "evidence": [
+        "步騖四人來相探"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "faction_wu_generals",
+      "type": "成員",
+      "description": "程普屬江東戰將、武官之列。",
+      "evidence": [
+        "程普、黃蓋、韓當"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_huang_gai",
+      "target": "faction_wu_generals",
+      "type": "成員",
+      "description": "黃蓋屬江東戰將之列。",
+      "evidence": [
+        "程普、黃蓋、韓當"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_han_dang",
+      "target": "faction_wu_generals",
+      "type": "成員",
+      "description": "韓當屬江東戰將之列。",
+      "evidence": [
+        "程普、黃蓋、韓當"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "faction_wu_generals",
+      "target": "char_cao_cao",
+      "type": "主戰敵對",
+      "description": "程普等戰將反對降曹，願效死戰。",
+      "evidence": [
+        "欲降曹，此真嗆到死",
+        "願效死戰"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "faction_wu_civil",
+      "target": "char_cao_cao",
+      "type": "議和傾向",
+      "description": "張昭等文官強調曹操百萬屯漢上，傾向不可拒曹。",
+      "evidence": [
+        "曹操擁眾百萬",
+        "其師不可拒"
+      ],
+      "confidence": 0.82
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_liu_bei",
+      "type": "出使代表",
+      "description": "諸葛亮作為劉備一方使者來到江東。",
+      "evidence": [
+        "軍師諸葛亮至此",
+        "舍弟為使"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "strategy_alliance_against_cao",
+      "type": "提出",
+      "description": "劉備欲結東吳共同伐曹。",
+      "evidence": [
+        "劉豫州欲結東吳，共伐曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_alliance_against_cao",
+      "target": "faction_dongwu",
+      "type": "結盟對象",
+      "description": "聯吳抗曹策略以東吳為結盟對象。",
+      "evidence": [
+        "欲結東吳"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_alliance_against_cao",
+      "target": "char_cao_cao",
+      "type": "攻伐目標",
+      "description": "聯盟策略的目標是共伐曹操。",
+      "evidence": [
+        "共伐曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_jin",
+      "target": "char_zhuge_liang",
+      "type": "兄弟",
+      "description": "諸葛瑾稱諸葛亮為舍弟。",
+      "evidence": [
+        "舍弟諸葛亮"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strategy_erqiao_provocation",
+      "type": "施計",
+      "description": "孔明以送二喬退曹之說激周瑜。",
+      "evidence": [
+        "愚有一計",
+        "願得江東二喬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_erqiao_provocation",
+      "target": "char_zhou_yu",
+      "type": "激怒對象",
+      "description": "二喬之說使周瑜表明決不屈服曹操。",
+      "evidence": [
+        "斧頭加頭，不易其志"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_erqiao_provocation",
+      "target": "char_er_qiao",
+      "type": "計策內容",
+      "description": "孔明稱只需送二喬到江上即可退曹兵。",
+      "evidence": [
+        "送兩個人到江上"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_da_qiao",
+      "target": "char_er_qiao",
+      "type": "成員",
+      "description": "大喬是二喬之一。",
+      "evidence": [
+        "江東二喬"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_xiao_qiao",
+      "target": "char_er_qiao",
+      "type": "成員",
+      "description": "小喬是二喬之一。",
+      "evidence": [
+        "江東二喬"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_da_qiao",
+      "target": "char_sun_ce",
+      "type": "配偶",
+      "description": "正文稱大喬是孫伯符將軍主婦。",
+      "evidence": [
+        "大喬是孫伯符將軍主婦"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xiao_qiao",
+      "target": "char_zhou_yu",
+      "type": "配偶",
+      "description": "正文稱小喬是周瑜之妻。",
+      "evidence": [
+        "小喬乃之妻也"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "strategy_erqiao_provocation",
+      "target": "obj_tongque_tai",
+      "type": "話術場景",
+      "description": "孔明稱曹操欲置二喬於銅雀台。",
+      "evidence": [
+        "置之銅雀台"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_cao_cao",
+      "type": "敵對",
+      "description": "周瑜被激後堅定抗曹，後受命破曹。",
+      "evidence": [
+        "率眾破曹",
+        "不易其志"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_cao_cao",
+      "type": "敵對",
+      "description": "孫權決意親與曹操決戰。",
+      "evidence": [
+        "親與操賊決戰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strategy_cao_weaknesses",
+      "type": "提出",
+      "description": "周瑜向孫權分析曹兵多忌，雖多必敗。",
+      "evidence": [
+        "操兵犯此數忌，雖多必敗"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "strategy_cao_weaknesses",
+      "target": "army_cao",
+      "type": "分析對象",
+      "description": "策略針對曹操南侵軍隊的弱點。",
+      "evidence": [
+        "操兵犯此數忌"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_zhou_yu",
+      "type": "任命統軍",
+      "description": "孫權採周瑜意見，命其率眾破曹。",
+      "evidence": [
+        "卿言當伐",
+        "率眾破曹"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "obj_sword",
+      "type": "授予",
+      "description": "孫權以劍授周瑜執行軍令。",
+      "evidence": [
+        "即以此劍誅之",
+        "瑜受了劍"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "obj_sword",
+      "target": "char_zhou_yu",
+      "type": "軍法授權",
+      "description": "周瑜受劍，可誅不聽號令者。",
+      "evidence": [
+        "瑜受了劍",
+        "不聽號令者"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strategy_strict_discipline",
+      "type": "宣示",
+      "description": "周瑜命諸將次日到行營聽令，遲誤依軍法處置。",
+      "evidence": [
+        "依七禁令五十四斬施行"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "battle_break_cao",
+      "type": "統率參戰",
+      "description": "周瑜奉命率眾破曹。",
+      "evidence": [
+        "率眾破曹"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "battle_break_cao",
+      "type": "決策主戰",
+      "description": "孫權表示親與曹操決戰。",
+      "evidence": [
+        "親與操賊決戰"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "battle_break_cao",
+      "target": "army_cao",
+      "type": "攻擊目標",
+      "description": "破曹決戰以曹操大軍為敵。",
+      "evidence": [
+        "破曹",
+        "操賊決戰"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_sun_quan",
+      "type": "料中心事",
+      "description": "孔明指出孫權心怯曹兵多，周瑜夜見後證實。",
+      "evidence": [
+        "孫將軍心尚未穩",
+        "但憂曹操兵多"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_sun_quan",
+      "type": "開解疑懼",
+      "description": "周瑜夜見孫權，為其開解兵多之疑。",
+      "evidence": [
+        "特為此來開解主公",
+        "更無他疑"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "loc_riverside_camp",
+      "type": "設營聽令",
+      "description": "周瑜命諸將官吏至江畔行營聽令。",
+      "evidence": [
+        "江畔行營聽令"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "loc_riverside_camp",
+      "target": "event_camp_deployment",
+      "type": "事件地點",
+      "description": "行營是周瑜調撥軍馬之地。",
+      "evidence": [
+        "升中軍帳高坐"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_jiang_qin",
+      "target": "army_second_team",
+      "type": "編入",
+      "description": "蔣欽被安排為第二隊。",
+      "evidence": [
+        "蔣欽、周泰為第二隊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_tai",
+      "target": "army_second_team",
+      "type": "編入",
+      "description": "周泰被安排為第二隊。",
+      "evidence": [
+        "蔣欽、周泰為第二隊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_ling_tong",
+      "target": "army_third_team",
+      "type": "編入",
+      "description": "凌統被安排為第三隊。",
+      "evidence": [
+        "凌統、潘璋為第三隊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_pan_zhang",
+      "target": "army_third_team",
+      "type": "編入",
+      "description": "潘璋被安排為第三隊。",
+      "evidence": [
+        "凌統、潘璋為第三隊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "army_fourth_team",
+      "type": "編入",
+      "description": "太史慈被安排為第四隊。",
+      "evidence": [
+        "太史慈、呂蒙為第四隊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_meng",
+      "target": "army_fourth_team",
+      "type": "編入",
+      "description": "呂蒙被安排為第四隊。",
+      "evidence": [
+        "太史慈、呂蒙為第四隊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_xun",
+      "target": "army_fifth_team",
+      "type": "編入",
+      "description": "陸遜被安排為第五隊。",
+      "evidence": [
+        "陸遜、董襲為第五隊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_dong_xi",
+      "target": "army_fifth_team",
+      "type": "編入",
+      "description": "董襲被安排為第五隊。",
+      "evidence": [
+        "陸遜、董襲為第五隊"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_lu_fan",
+      "target": "title_patrol_commissioner",
+      "type": "任命",
+      "description": "呂範被任為四方巡警使。",
+      "evidence": [
+        "呂範、朱治為四方巡警使"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhu_zhi",
+      "target": "title_patrol_commissioner",
+      "type": "任命",
+      "description": "朱治被任為四方巡警使。",
+      "evidence": [
+        "呂範、朱治為四方巡警使"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "loc_sanjiangkou",
+      "type": "行軍命令",
+      "description": "周瑜命戰船前至三江口下寨。",
+      "evidence": [
+        "前至三江口下寨"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "char_zhou_yu",
+      "type": "由不服到謝罪",
+      "description": "程普初因周瑜爵居其上不樂，見其調兵有法後親往謝罪。",
+      "evidence": [
+        "心中不樂",
+        "親詣行營謝罪"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cheng_zi",
+      "target": "char_cheng_pu",
+      "type": "父子",
+      "description": "程諮是程普長子。",
+      "evidence": [
+        "令長子程諮自代"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cheng_zi",
+      "target": "event_camp_deployment",
+      "type": "代父參與",
+      "description": "程諮代程普到行營聽令並回報調兵情形。",
+      "evidence": [
+        "程諮自代",
+        "說周瑜調兵"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "strategy_recruit_kongming",
+      "type": "採用",
+      "description": "周瑜採納魯肅建議，請諸葛瑾勸孔明事東吳。",
+      "evidence": [
+        "瑜善其言",
+        "欲煩先生"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_lu_su",
+      "target": "strategy_recruit_kongming",
+      "type": "建議",
+      "description": "魯肅建議用諸葛瑾招孔明同事東吳。",
+      "evidence": [
+        "可令招此人同事東吳"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_jin",
+      "target": "strategy_recruit_kongming",
+      "type": "執行",
+      "description": "諸葛瑾奉周瑜意去勸孔明。",
+      "evidence": [
+        "此必周郎教來說我"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "strategy_recruit_kongming",
+      "type": "拒絕",
+      "description": "孔明以所守為義，未棄劉備事東吳。",
+      "evidence": [
+        "弟所守者，義也"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_liu_bei",
+      "type": "效力",
+      "description": "孔明仍守義事劉備。",
+      "evidence": [
+        "屈身事劉備",
+        "弟所守者，義也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "char_zhuge_liang",
+      "type": "戒懼",
+      "description": "周瑜認為孔明助劉備，將為江東之患。",
+      "evidence": [
+        "必為江東之患"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_han_emperor",
+      "type": "挾制",
+      "description": "周瑜稱曹操以天子為名並囚天子於許昌。",
+      "evidence": [
+        "以天子為名",
+        "囚天子於許昌"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_han_emperor",
+      "target": "loc_xuchang",
+      "type": "被囚地",
+      "description": "天子被周瑜稱囚於許昌。",
+      "evidence": [
+        "囚天子於許昌"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_dong_zhuo",
+      "type": "類比",
+      "description": "周瑜稱曹操弄權甚於董卓。",
+      "evidence": [
+        "曹操弄權，甚於董卓"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhuge_jin",
+      "target": "char_boyi",
+      "type": "引用典故",
+      "description": "諸葛瑾以伯夷故事勸孔明重兄弟同處之情。",
+      "evidence": [
+        "弟知伯夷、叔齊乎"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_zhuge_jin",
+      "target": "char_shuqi",
+      "type": "引用典故",
+      "description": "諸葛瑾以叔齊故事勸孔明。",
+      "evidence": [
+        "伯夷、叔齊"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_boyi",
+      "target": "loc_shouyangshan",
+      "type": "典故地點",
+      "description": "諸葛瑾稱伯夷、叔齊餓死於首陽山下。",
+      "evidence": [
+        "餓死首陽山下"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "source": "char_shuqi",
+      "target": "loc_shouyangshan",
+      "type": "典故地點",
+      "description": "諸葛瑾稱伯夷、叔齊餓死於首陽山下。",
+      "evidence": [
+        "餓死首陽山下"
+      ],
+      "confidence": 0.88
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhou_yu_returns",
+      "name": "周瑜回柴桑議軍機",
+      "summary": "周瑜在鄱陽湖訓練水師，聞曹操大軍到漢上，星夜回柴桑郡議軍機。",
+      "participants": [
+        "char_zhou_yu",
+        "army_wu_navy",
+        "army_cao"
+      ],
+      "locations": [
+        "loc_poyang_lake",
+        "loc_hanshang",
+        "loc_chaisang"
+      ],
+      "evidence": [
+        "鄱陽湖訓練水師",
+        "大軍至漢上",
+        "星夜回柴桑郡"
+      ]
+    },
+    {
+      "id": "event_wu_decision_council",
+      "name": "江東和戰之議",
+      "summary": "江東文武分別向周瑜陳說降曹或戰曹之議，周瑜令眾人次日府下公議。",
+      "participants": [
+        "char_zhou_yu",
+        "char_zhang_zhao",
+        "char_gu_yong",
+        "char_zhang_hong",
+        "char_bu_wu",
+        "char_cheng_pu",
+        "char_huang_gai",
+        "char_han_dang",
+        "char_zhuge_jin",
+        "char_lu_fan",
+        "char_lu_meng",
+        "char_gan_ning",
+        "faction_wu_civil",
+        "faction_wu_generals"
+      ],
+      "locations": [
+        "loc_chaisang"
+      ],
+      "evidence": [
+        "有要戰者，有要降者",
+        "來日都到府下公議"
+      ]
+    },
+    {
+      "id": "event_kongming_provokes_zhouyu",
+      "name": "孔明用二喬激周瑜",
+      "summary": "孔明故稱送二喬即可退曹兵，周瑜因大喬、小喬之關係大怒，表明決不屈志。",
+      "participants": [
+        "char_zhuge_liang",
+        "char_zhou_yu",
+        "char_lu_su",
+        "char_er_qiao",
+        "char_da_qiao",
+        "char_xiao_qiao",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_jiangnan"
+      ],
+      "evidence": [
+        "送兩個人到江上",
+        "願得江東二喬",
+        "不易其志"
+      ]
+    },
+    {
+      "id": "event_sunquan_resolves",
+      "name": "孫權決計破曹操",
+      "summary": "周瑜向孫權分析曹軍可敗，孫權認同當伐，決意親與曹操決戰。",
+      "participants": [
+        "char_sun_quan",
+        "char_zhou_yu",
+        "char_cao_cao",
+        "army_cao"
+      ],
+      "locations": [],
+      "evidence": [
+        "卿言當伐",
+        "甚合孤意",
+        "親與操賊決戰"
+      ]
+    },
+    {
+      "id": "event_zhouyu_receives_command",
+      "name": "周瑜受命統軍",
+      "summary": "孫權授劍給周瑜，命其率眾破曹；周瑜宣布諸將官吏至江畔行營聽令。",
+      "participants": [
+        "char_sun_quan",
+        "char_zhou_yu",
+        "obj_sword",
+        "battle_break_cao"
+      ],
+      "locations": [
+        "loc_riverside_camp"
+      ],
+      "evidence": [
+        "瑜受了劍",
+        "率眾破曹",
+        "行營聽令"
+      ]
+    },
+    {
+      "id": "event_camp_deployment",
+      "name": "行營調撥軍馬",
+      "summary": "周瑜升中軍帳申明軍紀，編派第二至第五隊及四方巡警使，諸將收拾船隻軍器起行。",
+      "participants": [
+        "char_zhou_yu",
+        "char_cheng_zi",
+        "char_jiang_qin",
+        "char_zhou_tai",
+        "char_ling_tong",
+        "char_pan_zhang",
+        "char_taishi_ci",
+        "char_lu_meng",
+        "char_lu_xun",
+        "char_dong_xi",
+        "char_lu_fan",
+        "char_zhu_zhi"
+      ],
+      "locations": [
+        "loc_riverside_camp",
+        "loc_sanjiangkou"
+      ],
+      "evidence": [
+        "升中軍帳",
+        "不得擾民",
+        "第二隊",
+        "四方巡警使"
+      ]
+    },
+    {
+      "id": "event_chengpu_submits",
+      "name": "程普服周瑜將才",
+      "summary": "程普原因周瑜爵居其上而不樂，聽程諮述周瑜調兵有法後，自認周瑜真有將才並到行營謝罪。",
+      "participants": [
+        "char_cheng_pu",
+        "char_cheng_zi",
+        "char_zhou_yu"
+      ],
+      "locations": [
+        "loc_riverside_camp"
+      ],
+      "evidence": [
+        "心中不樂",
+        "真將才也",
+        "親詣行營謝罪"
+      ]
+    },
+    {
+      "id": "event_zhugejin_persuasion",
+      "name": "諸葛瑾勸孔明",
+      "summary": "周瑜請諸葛瑾勸孔明棄劉備事東吳；孔明看出周瑜授意，以義為由不從。",
+      "participants": [
+        "char_zhou_yu",
+        "char_zhuge_jin",
+        "char_zhuge_liang",
+        "char_liu_bei",
+        "faction_dongwu"
+      ],
+      "locations": [],
+      "evidence": [
+        "棄劉備而事東吳",
+        "此必周郎教來說我",
+        "弟所守者，義也"
+      ]
+    }
+  ],
+  "notes": [
+    "章節檔案文字有若干殘缺與訛字；本結果只根據可讀正文片段抽取。",
+    "未將正文中僅作背景列名而無行動的關係擴展為未受支持的事件。"
+  ]
+}

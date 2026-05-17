@@ -1,0 +1,2153 @@
+{
+  "book": "三國演義",
+  "chapter_no": 50,
+  "chapter_title": "諸葛亮智算華容　關雲長義釋曹操",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹公",
+        "曹瞞",
+        "丞相"
+      ],
+      "description": "曹軍主帥，赤壁敗後率殘部經烏林、彝陵、華容道逃至南郡。",
+      "evidence": [
+        "操徑奔烏林",
+        "曹操既脫華容之難"
+      ]
+    },
+    {
+      "id": "char_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，射傷黃蓋，並多次為曹操斷後。",
+      "evidence": [
+        "張遼一箭射黃蓋下水",
+        "留張遼斷後"
+      ]
+    },
+    {
+      "id": "char_huang_gai",
+      "name": "黃蓋",
+      "type": "character",
+      "aliases": [
+        "黃公覆",
+        "公覆"
+      ],
+      "description": "東吳將領，負箭落水後被韓當救起。",
+      "evidence": [
+        "此黃公覆也",
+        "見黃蓋負箭著傷"
+      ]
+    },
+    {
+      "id": "char_han_dang",
+      "name": "韓當",
+      "type": "character",
+      "aliases": [
+        "義公"
+      ],
+      "description": "東吳將領，救起黃蓋，並率軍自赤壁西邊進攻。",
+      "evidence": [
+        "義公救我",
+        "韓當、蔣欽兩軍從赤壁西邊殺來"
+      ]
+    },
+    {
+      "id": "char_jiang_qin",
+      "name": "蔣欽",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，與韓當軍自赤壁西邊殺來。",
+      "evidence": [
+        "韓當、蔣欽兩軍從赤壁西邊殺來"
+      ]
+    },
+    {
+      "id": "char_zhou_tai",
+      "name": "周泰",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，與陳武軍自赤壁東邊殺來。",
+      "evidence": [
+        "周泰、陳武兩軍從赤壁東邊殺來"
+      ]
+    },
+    {
+      "id": "char_chen_wu",
+      "name": "陳武",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，與周泰軍自赤壁東邊殺來。",
+      "evidence": [
+        "周泰、陳武兩軍從赤壁東邊殺來"
+      ]
+    },
+    {
+      "id": "char_zhou_yu",
+      "name": "周瑜",
+      "type": "character",
+      "aliases": [
+        "週郎"
+      ],
+      "description": "東吳主將，率大隊船隻參與赤壁追擊曹軍。",
+      "evidence": [
+        "周瑜、程普、徐盛、丁奉大隊船隻都到",
+        "週郎曾此破曹公"
+      ]
+    },
+    {
+      "id": "char_cheng_pu",
+      "name": "程普",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，隨周瑜大隊船隻參戰。",
+      "evidence": [
+        "周瑜、程普、徐盛、丁奉大隊船隻都到"
+      ]
+    },
+    {
+      "id": "char_xu_sheng",
+      "name": "徐盛",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，隨周瑜大隊船隻參戰。",
+      "evidence": [
+        "周瑜、程普、徐盛、丁奉大隊船隻都到"
+      ]
+    },
+    {
+      "id": "char_ding_feng",
+      "name": "丁奉",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，隨周瑜大隊船隻參戰。",
+      "evidence": [
+        "周瑜、程普、徐盛、丁奉大隊船隻都到"
+      ]
+    },
+    {
+      "id": "char_gan_ning",
+      "name": "甘寧",
+      "type": "character",
+      "aliases": [
+        "甘興霸",
+        "興霸"
+      ],
+      "description": "東吳將領，殺蔡中、放火曹寨，後又斬馬延、張顗。",
+      "evidence": [
+        "吾乃東吳甘興霸也",
+        "寧將蔡中一刀砍於馬下"
+      ]
+    },
+    {
+      "id": "char_cai_zhong",
+      "name": "蔡中",
+      "type": "character",
+      "aliases": [],
+      "description": "引甘寧入曹寨深處，隨後被甘寧殺死。",
+      "evidence": [
+        "甘寧令蔡中引入曹寨深處",
+        "蔡中一刀砍於馬下"
+      ]
+    },
+    {
+      "id": "char_lu_meng",
+      "name": "呂蒙",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，見中軍火起後放火接應甘寧，並追擊曹操。",
+      "evidence": [
+        "呂蒙遙望中軍火起",
+        "火光中現出呂蒙旗號"
+      ]
+    },
+    {
+      "id": "char_pan_zhang",
+      "name": "潘璋",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，分頭放火吶喊。",
+      "evidence": [
+        "潘璋、董襲分頭放火吶喊"
+      ]
+    },
+    {
+      "id": "char_dong_xi",
+      "name": "董襲",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，與潘璋分頭放火吶喊。",
+      "evidence": [
+        "潘璋、董襲分頭放火吶喊"
+      ]
+    },
+    {
+      "id": "char_mao_jie",
+      "name": "毛玠",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部下，救得文聘後會合曹操。",
+      "evidence": [
+        "毛玠救得文聘"
+      ]
+    },
+    {
+      "id": "char_wen_ping",
+      "name": "文聘",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，被毛玠救出。",
+      "evidence": [
+        "毛玠救得文聘"
+      ]
+    },
+    {
+      "id": "char_ling_tong",
+      "name": "凌統",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，於曹操北逃途中自山谷殺出。",
+      "evidence": [
+        "凌統在此"
+      ]
+    },
+    {
+      "id": "char_xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，救援曹操，並與張郃、張遼等多次斷後交戰。",
+      "evidence": [
+        "丞相休慌！徐晃在此",
+        "徐晃、張郃雙敵趙雲"
+      ]
+    },
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [],
+      "description": "馬延、張顗原為其手下，於本章被追述。",
+      "evidence": [
+        "袁紹手下降將馬延、張顗"
+      ]
+    },
+    {
+      "id": "char_ma_yan",
+      "name": "馬延",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹舊降將，率北地軍馬接應曹操，後被甘寧斬殺。",
+      "evidence": [
+        "降將馬延、張顗",
+        "早被甘寧一刀斬於馬下"
+      ]
+    },
+    {
+      "id": "char_zhang_yi",
+      "name": "張顗",
+      "type": "character",
+      "aliases": [
+        "張鋇"
+      ],
+      "description": "袁紹舊降將，與馬延同率北地軍馬，後被甘寧斬殺。",
+      "evidence": [
+        "降將馬延、張顗",
+        "顗措手不及，被寧手起一刀"
+      ]
+    },
+    {
+      "id": "char_sun_quan",
+      "name": "孫權",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳之主，在合淝路口令陸遜舉火為號。",
+      "evidence": [
+        "孫權在合淝路口",
+        "便教陸遜舉火為號"
+      ]
+    },
+    {
+      "id": "char_lu_xun",
+      "name": "陸遜",
+      "type": "character",
+      "aliases": [],
+      "description": "奉孫權命舉火為號，並與太史慈合兵衝殺。",
+      "evidence": [
+        "教陸遜舉火為號",
+        "與陸遜合兵一處"
+      ]
+    },
+    {
+      "id": "char_taishi_ci",
+      "name": "太史慈",
+      "type": "character",
+      "aliases": [],
+      "description": "東吳將領，見陸遜火號後合兵衝殺曹操。",
+      "evidence": [
+        "太史慈見了，與陸遜合兵一處"
+      ]
+    },
+    {
+      "id": "char_zhang_he",
+      "name": "張郃",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，於逃亡途中被曹操令為斷後，後與徐晃敵趙雲。",
+      "evidence": [
+        "路上撞見張郃，操令斷後",
+        "徐晃、張郃雙敵趙雲"
+      ]
+    },
+    {
+      "id": "char_zhao_yun",
+      "name": "趙雲",
+      "type": "character",
+      "aliases": [
+        "趙子龍",
+        "子龍"
+      ],
+      "description": "奉軍師將令伏擊曹操，主要搶奪旗幟而未追趕。",
+      "evidence": [
+        "我趙子龍奉軍師將令",
+        "子龍不來追趕，只顧搶奪旗幟"
+      ]
+    },
+    {
+      "id": "char_li_dian",
+      "name": "李典",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，與許褚保護眾謀士來到。",
+      "evidence": [
+        "李典、許褚保護眾謀士來到"
+      ]
+    },
+    {
+      "id": "char_xu_chu",
+      "name": "許褚",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，保護眾謀士，並與張飛交戰、執刀督促軍行。",
+      "evidence": [
+        "李典、許褚保護眾謀士",
+        "許褚騎無鞍馬來戰張飛"
+      ]
+    },
+    {
+      "id": "char_zhang_fei",
+      "name": "張飛",
+      "type": "character",
+      "aliases": [
+        "張翼德",
+        "燕人張翼德"
+      ],
+      "description": "劉備部將，於葫蘆口一帶伏擊曹操。",
+      "evidence": [
+        "燕人張翼德",
+        "操賊走那裡去"
+      ]
+    },
+    {
+      "id": "char_cheng_yu",
+      "name": "程昱",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操謀士，建議曹操以昔日恩情求關雲長放行。",
+      "evidence": [
+        "程昱曰",
+        "恩於彼，今隻親自告之"
+      ]
+    },
+    {
+      "id": "char_guan_yunchang",
+      "name": "關雲長",
+      "type": "character",
+      "aliases": [
+        "雲長",
+        "關公"
+      ],
+      "description": "劉備部將，在華容道念舊義放走曹操。",
+      "evidence": [
+        "關雲長義釋曹操",
+        "雲長回馬"
+      ]
+    },
+    {
+      "id": "char_cao_ren",
+      "name": "曹仁",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，於南郡附近迎接曹操，受命保全南郡。",
+      "evidence": [
+        "方認得是曹仁軍馬",
+        "汝可保全南郡"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操部將，被曹仁遣守彝陵、南郡以防周瑜。",
+      "evidence": [
+        "曹仁自遣曹洪據守彝陵、南郡"
+      ]
+    },
+    {
+      "id": "char_guo_fengxiao",
+      "name": "郭奉孝",
+      "type": "character",
+      "aliases": [
+        "奉孝"
+      ],
+      "description": "曹操所哭念之人。",
+      "evidence": [
+        "吾哭郭奉孝耳"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德"
+      ],
+      "description": "關雲長回夏口後所見之主。",
+      "evidence": [
+        "空身迴見玄德"
+      ]
+    },
+    {
+      "id": "char_zhuge_liang",
+      "name": "諸葛亮",
+      "type": "character",
+      "aliases": [
+        "孔明",
+        "軍師"
+      ],
+      "description": "智算華容，先有將令使趙雲伏擊，後在夏口迎問關雲長。",
+      "evidence": [
+        "諸葛亮智算華容",
+        "孔明正與玄德作賀"
+      ]
+    },
+    {
+      "id": "faction_cao_jun",
+      "name": "曹軍",
+      "type": "faction",
+      "aliases": [
+        "曹操軍"
+      ],
+      "description": "曹操所統軍隊，在赤壁遭火攻大敗，逃亡中死傷甚多。",
+      "evidence": [
+        "曹軍著槍中箭、焚燒水溺者",
+        "操回顧止有三百餘騎"
+      ]
+    },
+    {
+      "id": "faction_dongwu",
+      "name": "東吳",
+      "type": "faction",
+      "aliases": [
+        "吳"
+      ],
+      "description": "周瑜、孫權一方勢力，於赤壁及追擊中多路攻曹。",
+      "evidence": [
+        "吾乃東吳甘興霸也",
+        "東吳不敢正視南郡"
+      ]
+    },
+    {
+      "id": "faction_liu_bei_jun",
+      "name": "劉備軍",
+      "type": "faction",
+      "aliases": [
+        "玄德軍"
+      ],
+      "description": "劉備一方，趙雲、張飛、關雲長等在曹操敗走途中設伏。",
+      "evidence": [
+        "奉軍師將令",
+        "回夏口"
+      ]
+    },
+    {
+      "id": "faction_cao_counselors",
+      "name": "眾謀士",
+      "type": "faction",
+      "aliases": [],
+      "description": "曹操謀士群，由李典、許褚保護來到。",
+      "evidence": [
+        "保護眾謀士來到"
+      ]
+    },
+    {
+      "id": "faction_jingzhou_surrendered_officials",
+      "name": "荊州原降文武各官",
+      "type": "faction",
+      "aliases": [],
+      "description": "荊州原降曹操的文武官員，被帶回許昌調用。",
+      "evidence": [
+        "荊州原降文武各官，依舊帶回許昌調用"
+      ]
+    },
+    {
+      "id": "loc_chibi",
+      "name": "赤壁",
+      "type": "location",
+      "aliases": [],
+      "description": "水戰主戰場，東吳多路軍自東西兩邊殺來。",
+      "evidence": [
+        "赤壁鏖兵",
+        "從赤壁西邊殺來"
+      ]
+    },
+    {
+      "id": "loc_caozhai",
+      "name": "曹寨",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操營寨，甘寧、呂蒙等在此放火。",
+      "evidence": [
+        "引入曹寨深處",
+        "就草上放起火來"
+      ]
+    },
+    {
+      "id": "loc_shuizhai",
+      "name": "水寨",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操水寨，韓當冒煙突火來攻。",
+      "evidence": [
+        "韓當冒煙突火來攻水寨"
+      ]
+    },
+    {
+      "id": "loc_wulin",
+      "name": "烏林",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操敗走路線中的地面。",
+      "evidence": [
+        "只有烏林地面",
+        "操徑奔烏林"
+      ]
+    },
+    {
+      "id": "loc_hefei",
+      "name": "合淝",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操原指望有兵救應之處。",
+      "evidence": [
+        "指望合淝有兵救應"
+      ]
+    },
+    {
+      "id": "loc_hefei_lukou",
+      "name": "合淝路口",
+      "type": "location",
+      "aliases": [],
+      "description": "孫權所在位置，命陸遜舉火為號。",
+      "evidence": [
+        "孫權在合淝路口"
+      ]
+    },
+    {
+      "id": "loc_yiling",
+      "name": "彝陵",
+      "type": "location",
+      "aliases": [
+        "夷陵"
+      ],
+      "description": "曹操轉逃方向，後由曹洪據守。",
+      "evidence": [
+        "只得望彝陵而走",
+        "曹洪據守彝陵"
+      ]
+    },
+    {
+      "id": "loc_yidu",
+      "name": "宜都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操逃至烏林以西、宜都以北一帶。",
+      "evidence": [
+        "烏林之西，宜都之北"
+      ]
+    },
+    {
+      "id": "loc_nan_yiling_road",
+      "name": "南彝陵大路",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操逃亡途中面臨選擇的一條大路。",
+      "evidence": [
+        "一邊是南彝陵大路"
+      ]
+    },
+    {
+      "id": "loc_bei_yiling_mountain_road",
+      "name": "北彝陵山路",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操逃亡途中面臨選擇的一條山路。",
+      "evidence": [
+        "一邊是北彝陵山路"
+      ]
+    },
+    {
+      "id": "loc_hulukou",
+      "name": "葫蘆口",
+      "type": "location",
+      "aliases": [],
+      "description": "曹軍飢疲造飯處，張飛伏兵殺出。",
+      "evidence": [
+        "行至葫蘆口",
+        "山口一軍擺開"
+      ]
+    },
+    {
+      "id": "loc_huarongdao",
+      "name": "華容道",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操選走的小路，關雲長在此放曹操。",
+      "evidence": [
+        "小路投華容道",
+        "曹操既脫華容之難"
+      ]
+    },
+    {
+      "id": "loc_huarong",
+      "name": "華容",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操狹路逢關公之地名。",
+      "evidence": [
+        "兵敗走華容"
+      ]
+    },
+    {
+      "id": "loc_gukou",
+      "name": "谷口",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操脫華容後行至之處。",
+      "evidence": [
+        "行至谷口"
+      ]
+    },
+    {
+      "id": "loc_nanjun",
+      "name": "南郡",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操逃至安歇之地，曹仁受命保全。",
+      "evidence": [
+        "已近南郡",
+        "引眾入南郡安歇"
+      ]
+    },
+    {
+      "id": "loc_jiangling",
+      "name": "江陵",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操逃亡時詢問投南郡江陵的近路。",
+      "evidence": [
+        "投南郡江陵到近"
+      ]
+    },
+    {
+      "id": "loc_jingzhou",
+      "name": "荊州",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操催促逃至荊州將息。",
+      "evidence": [
+        "趕到荊州將息未遲"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操暫回之地。",
+      "evidence": [
+        "吾今暫回許都"
+      ]
+    },
+    {
+      "id": "loc_xuchang",
+      "name": "許昌",
+      "type": "location",
+      "aliases": [],
+      "description": "荊州原降文武官被帶回調用之地。",
+      "evidence": [
+        "帶回許昌調用"
+      ]
+    },
+    {
+      "id": "loc_xiangyang",
+      "name": "襄陽",
+      "type": "location",
+      "aliases": [],
+      "description": "曹仁詢問與合淝並列需守之地。",
+      "evidence": [
+        "合淝、襄陽，誰可保蟄守"
+      ]
+    },
+    {
+      "id": "loc_xiakou",
+      "name": "夏口",
+      "type": "location",
+      "aliases": [],
+      "description": "諸路軍馬回集之地，關雲長回見玄德。",
+      "evidence": [
+        "已回夏口",
+        "空身迴見玄德"
+      ]
+    },
+    {
+      "id": "battle_chibi_aobing",
+      "name": "赤壁鏖兵",
+      "type": "battle",
+      "aliases": [
+        "三江水戰"
+      ],
+      "description": "東吳火攻與水戰擊破曹軍的戰役。",
+      "evidence": [
+        "三江水戰，赤壁鏖兵"
+      ]
+    },
+    {
+      "id": "battle_huarong_disaster",
+      "name": "華容之難",
+      "type": "battle",
+      "aliases": [],
+      "description": "曹操敗走華容道時遭關雲長攔截的危局。",
+      "evidence": [
+        "曹操既脫華容之難"
+      ]
+    },
+    {
+      "id": "title_chengxiang",
+      "name": "丞相",
+      "type": "title",
+      "aliases": [],
+      "description": "曹操在本章被眾將稱呼的官職。",
+      "evidence": [
+        "丞相何故笑"
+      ]
+    },
+    {
+      "id": "title_junshi",
+      "name": "軍師",
+      "type": "title",
+      "aliases": [],
+      "description": "諸葛亮在劉備軍中的職稱。",
+      "evidence": [
+        "奉軍師將令"
+      ]
+    },
+    {
+      "id": "obj_arrow",
+      "name": "箭",
+      "type": "object",
+      "aliases": [
+        "箭桿",
+        "箭頭"
+      ],
+      "description": "張遼射傷黃蓋的兵器，箭頭陷入肉內。",
+      "evidence": [
+        "一箭射黃蓋下水",
+        "箭頭陷在肉內"
+      ]
+    },
+    {
+      "id": "obj_war_robe",
+      "name": "戰袍",
+      "type": "object",
+      "aliases": [],
+      "description": "韓當脫下給黃蓋穿的衣物。",
+      "evidence": [
+        "脫自己戰袍與黃蓋穿了"
+      ]
+    },
+    {
+      "id": "obj_flags",
+      "name": "旗幟",
+      "type": "object",
+      "aliases": [
+        "旗號"
+      ],
+      "description": "戰場標識，呂蒙旗號現於火光中，趙雲搶奪旗幟。",
+      "evidence": [
+        "呂蒙旗號",
+        "搶奪旗幟"
+      ]
+    },
+    {
+      "id": "obj_fire_signal",
+      "name": "火號",
+      "type": "object",
+      "aliases": [
+        "火把",
+        "舉火為號"
+      ],
+      "description": "陸遜奉命舉火作為太史慈合兵信號。",
+      "evidence": [
+        "教陸遜舉火為號"
+      ]
+    },
+    {
+      "id": "obj_secret_plan",
+      "name": "密計",
+      "type": "object",
+      "aliases": [
+        "一計"
+      ],
+      "description": "曹操留給曹仁守南郡的秘密計策。",
+      "evidence": [
+        "吾有一計，密留在此"
+      ]
+    },
+    {
+      "id": "strategy_fire_attack",
+      "name": "火攻",
+      "type": "strategy",
+      "aliases": [
+        "放火"
+      ],
+      "description": "東吳諸將在赤壁及曹寨多處放火攻曹。",
+      "evidence": [
+        "滿江火滾",
+        "放十數處火"
+      ]
+    },
+    {
+      "id": "strategy_ambush",
+      "name": "伏兵",
+      "type": "strategy",
+      "aliases": [
+        "埋伏"
+      ],
+      "description": "曹操多次笑周瑜、諸葛亮不伏兵，隨後遭趙雲、張飛、關雲長攔截。",
+      "evidence": [
+        "伏下一軍",
+        "埋伏一彪軍馬"
+      ]
+    },
+    {
+      "id": "strategy_rearguard",
+      "name": "斷後",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操逃亡中命部將留後抵敵追兵。",
+      "evidence": [
+        "留張遼斷後",
+        "操令斷後"
+      ]
+    },
+    {
+      "id": "strategy_false_true",
+      "name": "虛則實之，實則虛之",
+      "type": "strategy",
+      "aliases": [
+        "虛實之計"
+      ],
+      "description": "曹操據兵書判斷烽煙與伏兵，決定走華容道。",
+      "evidence": [
+        "虛則實之，實則虛之"
+      ]
+    },
+    {
+      "id": "strategy_open_road_bridge",
+      "name": "逢山開路，遇水疊橋",
+      "type": "strategy",
+      "aliases": [],
+      "description": "曹操命軍士砍竹木填塞山路以通行。",
+      "evidence": [
+        "逢山開路，遇水疊橋"
+      ]
+    },
+    {
+      "id": "strategy_old_kindness",
+      "name": "昔日之情",
+      "type": "strategy",
+      "aliases": [
+        "恩義求脫"
+      ],
+      "description": "程昱建議曹操親自以舊恩與信義求關雲長放行。",
+      "evidence": [
+        "望將軍以昔日之情為重"
+      ]
+    },
+    {
+      "id": "strategy_secure_nanjun",
+      "name": "保全南郡之計",
+      "type": "strategy",
+      "aliases": [
+        "密留之計"
+      ],
+      "description": "曹操留計於曹仁，使東吳不敢正視南郡。",
+      "evidence": [
+        "使東吳不敢正視南郡"
+      ]
+    },
+    {
+      "id": "army_han_dang_jun",
+      "name": "韓當軍",
+      "type": "army",
+      "aliases": [],
+      "description": "韓當所率東吳軍，從赤壁西邊殺來。",
+      "evidence": [
+        "韓當、蔣欽兩軍從赤壁西邊殺來"
+      ]
+    },
+    {
+      "id": "army_jiang_qin_jun",
+      "name": "蔣欽軍",
+      "type": "army",
+      "aliases": [],
+      "description": "蔣欽所率東吳軍，與韓當軍同行攻擊。",
+      "evidence": [
+        "韓當、蔣欽兩軍從赤壁西邊殺來"
+      ]
+    },
+    {
+      "id": "army_zhou_tai_jun",
+      "name": "周泰軍",
+      "type": "army",
+      "aliases": [],
+      "description": "周泰所率東吳軍，從赤壁東邊殺來。",
+      "evidence": [
+        "周泰、陳武兩軍從赤壁東邊殺來"
+      ]
+    },
+    {
+      "id": "army_chen_wu_jun",
+      "name": "陳武軍",
+      "type": "army",
+      "aliases": [],
+      "description": "陳武所率東吳軍，與周泰軍同行攻擊。",
+      "evidence": [
+        "周泰、陳武兩軍從赤壁東邊殺來"
+      ]
+    },
+    {
+      "id": "army_zhou_yu_fleet",
+      "name": "周瑜大隊船隻",
+      "type": "army",
+      "aliases": [],
+      "description": "周瑜、程普、徐盛、丁奉率領的中路船隊。",
+      "evidence": [
+        "大隊船隻都到"
+      ]
+    },
+    {
+      "id": "army_baiyuqi",
+      "name": "百餘騎",
+      "type": "army",
+      "aliases": [],
+      "description": "曹操與張遼逃離火場時所率殘騎。",
+      "evidence": [
+        "曹操與張遼引百餘騎"
+      ]
+    },
+    {
+      "id": "army_beidi_junma",
+      "name": "北地軍馬",
+      "type": "army",
+      "aliases": [
+        "三千北地軍馬"
+      ],
+      "description": "馬延、張顗所部，曹操逃亡途中臨時接得的生力軍。",
+      "evidence": [
+        "有三千北地軍馬",
+        "這枝生力軍馬"
+      ]
+    },
+    {
+      "id": "army_wubai_xiaodaoshou",
+      "name": "五百校刀手",
+      "type": "army",
+      "aliases": [],
+      "description": "華容道兩邊擺開的兵士。",
+      "evidence": [
+        "兩邊五百校刀手擺開"
+      ]
+    },
+    {
+      "id": "army_cao_ren_junma",
+      "name": "曹仁軍馬",
+      "type": "army",
+      "aliases": [],
+      "description": "南郡附近接應曹操的人馬。",
+      "evidence": [
+        "方認得是曹仁軍馬"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_cao_cao",
+      "target": "title_chengxiang",
+      "type": "擔任/被稱",
+      "description": "曹操被眾將稱為丞相。",
+      "evidence": [
+        "丞相何故笑"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "title_junshi",
+      "type": "擔任/被稱",
+      "description": "諸葛亮以軍師身份發令。",
+      "evidence": [
+        "奉軍師將令"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_huang_gai",
+      "type": "射傷",
+      "description": "張遼一箭射黃蓋落水。",
+      "evidence": [
+        "一箭射黃蓋下水"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_cao_cao",
+      "type": "救援",
+      "description": "張遼射黃蓋後救曹操登岸。",
+      "evidence": [
+        "救得曹操登岸"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "source": "char_han_dang",
+      "target": "char_huang_gai",
+      "type": "救援",
+      "description": "韓當聽見黃蓋呼救後救起治傷。",
+      "evidence": [
+        "急教救起",
+        "急為脫去濕衣"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_dang",
+      "target": "obj_war_robe",
+      "type": "贈與",
+      "description": "韓當把自己的戰袍給黃蓋穿。",
+      "evidence": [
+        "戰袍與黃蓋穿了"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_han_dang",
+      "target": "army_han_dang_jun",
+      "type": "統領",
+      "description": "韓當統率一路東吳軍。",
+      "evidence": [
+        "韓當、蔣欽兩軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "army_han_dang_jun",
+      "target": "loc_chibi",
+      "type": "攻打",
+      "description": "韓當軍從赤壁西邊殺來。",
+      "evidence": [
+        "從赤壁西邊殺來"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_jiang_qin",
+      "target": "army_jiang_qin_jun",
+      "type": "統領",
+      "description": "蔣欽統率一路東吳軍。",
+      "evidence": [
+        "韓當、蔣欽兩軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "army_jiang_qin_jun",
+      "target": "loc_chibi",
+      "type": "攻打",
+      "description": "蔣欽軍從赤壁西邊殺來。",
+      "evidence": [
+        "赤壁西邊殺來"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_tai",
+      "target": "army_zhou_tai_jun",
+      "type": "統領",
+      "description": "周泰統率一路東吳軍。",
+      "evidence": [
+        "周泰、陳武兩軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "army_zhou_tai_jun",
+      "target": "loc_chibi",
+      "type": "攻打",
+      "description": "周泰軍從赤壁東邊殺來。",
+      "evidence": [
+        "赤壁東邊殺來"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_chen_wu",
+      "target": "army_chen_wu_jun",
+      "type": "統領",
+      "description": "陳武統率一路東吳軍。",
+      "evidence": [
+        "周泰、陳武兩軍"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "army_chen_wu_jun",
+      "target": "loc_chibi",
+      "type": "攻打",
+      "description": "陳武軍從赤壁東邊殺來。",
+      "evidence": [
+        "赤壁東邊殺來"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhou_yu",
+      "target": "army_zhou_yu_fleet",
+      "type": "統領",
+      "description": "周瑜率大隊船隻到赤壁戰場。",
+      "evidence": [
+        "周瑜、程普、徐盛、丁奉大隊船隻都到"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_cheng_pu",
+      "target": "army_zhou_yu_fleet",
+      "type": "參與統領",
+      "description": "程普在周瑜大隊船隻之列。",
+      "evidence": [
+        "周瑜、程普、徐盛、丁奉"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_xu_sheng",
+      "target": "army_zhou_yu_fleet",
+      "type": "參與統領",
+      "description": "徐盛在周瑜大隊船隻之列。",
+      "evidence": [
+        "周瑜、程普、徐盛、丁奉"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_ding_feng",
+      "target": "army_zhou_yu_fleet",
+      "type": "參與統領",
+      "description": "丁奉在周瑜大隊船隻之列。",
+      "evidence": [
+        "周瑜、程普、徐盛、丁奉"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "army_zhou_yu_fleet",
+      "target": "battle_chibi_aobing",
+      "type": "參戰",
+      "description": "周瑜大隊船隻參與赤壁鏖兵。",
+      "evidence": [
+        "赤壁鏖兵",
+        "大隊船隻都到"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "faction_dongwu",
+      "target": "faction_cao_jun",
+      "type": "敵對/攻打",
+      "description": "東吳諸軍以火攻與水戰擊破曹軍。",
+      "evidence": [
+        "曹軍著槍中箭、焚燒水溺者"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "char_cai_zhong",
+      "type": "殺死",
+      "description": "甘寧讓蔡中引入曹寨深處後將其斬殺。",
+      "evidence": [
+        "蔡中一刀砍於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "loc_caozhai",
+      "type": "放火",
+      "description": "甘寧在曹寨深處放火。",
+      "evidence": [
+        "就草上放起火來"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "strategy_fire_attack",
+      "type": "使用策略",
+      "description": "甘寧以放火配合赤壁攻勢。",
+      "evidence": [
+        "放起火來"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_lu_meng",
+      "target": "char_gan_ning",
+      "type": "接應",
+      "description": "呂蒙見中軍火起後放火接應甘寧。",
+      "evidence": [
+        "接應甘寧"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_meng",
+      "target": "strategy_fire_attack",
+      "type": "使用策略",
+      "description": "呂蒙放十數處火。",
+      "evidence": [
+        "放十數處火"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_pan_zhang",
+      "target": "strategy_fire_attack",
+      "type": "使用策略",
+      "description": "潘璋分頭放火吶喊。",
+      "evidence": [
+        "分頭放火吶喊"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_dong_xi",
+      "target": "strategy_fire_attack",
+      "type": "使用策略",
+      "description": "董襲分頭放火吶喊。",
+      "evidence": [
+        "分頭放火吶喊"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_baiyuqi",
+      "type": "統領",
+      "description": "曹操與張遼率百餘騎逃出火場。",
+      "evidence": [
+        "引百餘騎"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_lu_meng",
+      "target": "char_cao_cao",
+      "type": "追擊",
+      "description": "呂蒙軍在曹操逃亡途中趕到。",
+      "evidence": [
+        "呂蒙旗號"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_lu_meng",
+      "type": "斷後抵敵",
+      "description": "曹操留張遼斷後抵擋呂蒙。",
+      "evidence": [
+        "留張遼斷後，抵敵呂蒙"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_mao_jie",
+      "target": "char_wen_ping",
+      "type": "救援",
+      "description": "毛玠救出文聘後會合曹操。",
+      "evidence": [
+        "毛玠救得文聘"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_wulin",
+      "type": "行軍/逃往",
+      "description": "曹操聽張遼指路後奔向烏林。",
+      "evidence": [
+        "操徑奔烏林"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_ling_tong",
+      "target": "char_cao_cao",
+      "type": "攔截",
+      "description": "凌統軍從山谷殺出攔截曹操。",
+      "evidence": [
+        "凌統在此"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_cao_cao",
+      "type": "救援",
+      "description": "徐晃斜刺裡殺到，使曹操得以奪路北走。",
+      "evidence": [
+        "丞相休慌！徐晃在此"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_ma_yan",
+      "target": "char_yuan_shao",
+      "type": "舊隸屬",
+      "description": "馬延原為袁紹手下降將。",
+      "evidence": [
+        "袁紹手下降將馬延"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_yi",
+      "target": "char_yuan_shao",
+      "type": "舊隸屬",
+      "description": "張顗原為袁紹手下降將。",
+      "evidence": [
+        "袁紹手下降將馬延、張顗"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_ma_yan",
+      "target": "army_beidi_junma",
+      "type": "統領",
+      "description": "馬延與張顗帶三千北地軍馬列寨。",
+      "evidence": [
+        "有三千北地軍馬"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_zhang_yi",
+      "target": "army_beidi_junma",
+      "type": "統領",
+      "description": "張顗與馬延帶北地軍馬。",
+      "evidence": [
+        "馬延、張顗，有三千北地軍馬"
+      ],
+      "confidence": 0.93
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_ma_yan",
+      "type": "命令開路",
+      "description": "曹操命馬延引一千軍馬開路。",
+      "evidence": [
+        "教二將引一千軍馬開路"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_yi",
+      "type": "命令開路",
+      "description": "曹操命張顗與馬延開路。",
+      "evidence": [
+        "教二將引一千軍馬開路"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "char_ma_yan",
+      "type": "殺死",
+      "description": "甘寧一刀斬馬延於馬下。",
+      "evidence": [
+        "馬延...被甘寧一刀斬於馬下"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gan_ning",
+      "target": "char_zhang_yi",
+      "type": "殺死",
+      "description": "甘寧手起一刀斬張顗落馬。",
+      "evidence": [
+        "顗措手不及，被寧手起一刀"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_sun_quan",
+      "target": "char_lu_xun",
+      "type": "命令",
+      "description": "孫權命陸遜舉火為號。",
+      "evidence": [
+        "教陸遜舉火為號"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_xun",
+      "target": "obj_fire_signal",
+      "type": "使用",
+      "description": "陸遜舉火作為軍事信號。",
+      "evidence": [
+        "舉火為號"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "char_lu_xun",
+      "type": "合兵",
+      "description": "太史慈見火號後與陸遜合兵。",
+      "evidence": [
+        "與陸遜合兵一處"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_lu_xun",
+      "target": "char_cao_cao",
+      "type": "攻擊",
+      "description": "陸遜與太史慈合兵衝殺曹操。",
+      "evidence": [
+        "衝殺將來"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_taishi_ci",
+      "target": "char_cao_cao",
+      "type": "攻擊",
+      "description": "太史慈與陸遜合兵衝殺曹操。",
+      "evidence": [
+        "衝殺將來"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_yiling",
+      "type": "行軍/逃往",
+      "description": "曹操因合淝救應無望，轉向彝陵逃走。",
+      "evidence": [
+        "只得望彝陵而走"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_he",
+      "type": "命令斷後",
+      "description": "曹操在路上遇張郃後令其斷後。",
+      "evidence": [
+        "撞見張郃，操令斷後"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_zhuge_liang",
+      "type": "受命於",
+      "description": "趙雲稱自己奉軍師將令等候曹操。",
+      "evidence": [
+        "奉軍師將令"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "char_cao_cao",
+      "type": "伏擊",
+      "description": "趙雲伏兵殺出，使曹操冒煙突火逃脫。",
+      "evidence": [
+        "在此等候多時了"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "strategy_ambush",
+      "type": "執行策略",
+      "description": "趙雲依將令設伏。",
+      "evidence": [
+        "在此等候多時"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_zhao_yun",
+      "type": "交戰",
+      "description": "徐晃與張郃雙敵趙雲。",
+      "evidence": [
+        "徐晃、張郃雙敵趙雲"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhang_he",
+      "target": "char_zhao_yun",
+      "type": "交戰",
+      "description": "張郃與徐晃雙敵趙雲。",
+      "evidence": [
+        "徐晃、張郃雙敵趙雲"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhao_yun",
+      "target": "obj_flags",
+      "type": "搶奪",
+      "description": "趙雲未追趕曹操，只顧搶奪旗幟。",
+      "evidence": [
+        "只顧搶奪旗幟"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_li_dian",
+      "target": "faction_cao_counselors",
+      "type": "保護",
+      "description": "李典保護曹操眾謀士來到。",
+      "evidence": [
+        "李典、許褚保護眾謀士"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "faction_cao_counselors",
+      "type": "保護",
+      "description": "許褚保護曹操眾謀士來到。",
+      "evidence": [
+        "李典、許褚保護眾謀士"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_cao_jun",
+      "type": "命令劫糧",
+      "description": "曹操命軍士往村落中劫糧找火種。",
+      "evidence": [
+        "令軍士往村落中劫掠糧食"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhang_fei",
+      "target": "char_cao_cao",
+      "type": "伏擊/攻擊",
+      "description": "張飛在葫蘆口後殺出攔曹操。",
+      "evidence": [
+        "燕人張翼德",
+        "操賊走那裡去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "char_zhang_fei",
+      "type": "交戰",
+      "description": "許褚騎無鞍馬來戰張飛。",
+      "evidence": [
+        "許褚騎無鞍馬來戰張飛"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_zhang_fei",
+      "type": "交戰",
+      "description": "張遼與徐晃夾攻張飛。",
+      "evidence": [
+        "張遼、徐晃二將...夾攻"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_zhang_fei",
+      "type": "交戰",
+      "description": "徐晃與張遼夾攻張飛。",
+      "evidence": [
+        "張遼、徐晃二將...夾攻"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_huarongdao",
+      "type": "選路/行軍",
+      "description": "曹操選擇較近但險窄的華容道小路。",
+      "evidence": [
+        "小路投華容道，卻近五十餘裡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strategy_false_true",
+      "type": "使用策略判斷",
+      "description": "曹操以虛實之說判斷諸葛亮伏兵位置。",
+      "evidence": [
+        "虛則實之，實則虛之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strategy_open_road_bridge",
+      "type": "下令執行",
+      "description": "曹操命軍士砍竹木填塞泥濘山路。",
+      "evidence": [
+        "砍伐竹木，填塞山路"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "faction_cao_jun",
+      "type": "督促行軍",
+      "description": "張遼執刀督促遲緩者。",
+      "evidence": [
+        "張遼、許褚、徐晃引百騎執刀"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_xu_chu",
+      "target": "faction_cao_jun",
+      "type": "督促行軍",
+      "description": "許褚執刀督促遲緩者。",
+      "evidence": [
+        "遲緩者便斬之"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "faction_cao_jun",
+      "type": "督促行軍",
+      "description": "徐晃執刀督促遲緩者。",
+      "evidence": [
+        "遲緩者便斬之"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "char_cao_cao",
+      "type": "獻策/勸說",
+      "description": "程昱建議曹操親自向雲長求情。",
+      "evidence": [
+        "今隻親自告之"
+      ],
+      "confidence": 0.89
+    },
+    {
+      "source": "char_cheng_yu",
+      "target": "strategy_old_kindness",
+      "type": "提出策略",
+      "description": "程昱主張用昔日之情與信義求免。",
+      "evidence": [
+        "昔日之情為重",
+        "信義為重"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "source": "char_guan_yunchang",
+      "target": "char_cao_cao",
+      "type": "放走/救免",
+      "description": "關雲長在華容道放曹操及眾將過去。",
+      "evidence": [
+        "放曹操的意思",
+        "並皆放去"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yunchang",
+      "target": "army_wubai_xiaodaoshou",
+      "type": "統領",
+      "description": "華容道兩邊校刀手隨雲長擺開、散開。",
+      "evidence": [
+        "五百校刀手擺開",
+        "謂眾軍曰：四散擺開"
+      ],
+      "confidence": 0.83
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_guan_yunchang",
+      "type": "觸動故舊",
+      "description": "張遼到來使關雲長又動故舊之情。",
+      "evidence": [
+        "張遼縱馬而至",
+        "又動故舊之情"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "battle_huarong_disaster",
+      "type": "脫離",
+      "description": "曹操脫離華容道危難。",
+      "evidence": [
+        "曹操既脫華容之難"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "char_cao_cao",
+      "type": "接應",
+      "description": "曹仁軍馬在南郡附近攔路後接著曹操。",
+      "evidence": [
+        "曹仁接著"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_nanjun",
+      "type": "入駐/安歇",
+      "description": "曹操與殘部進入南郡安歇。",
+      "evidence": [
+        "引眾入南郡安歇"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_guo_fengxiao",
+      "type": "悼念",
+      "description": "曹操到南郡後痛哭郭奉孝。",
+      "evidence": [
+        "吾哭郭奉孝耳"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_cao_ren",
+      "type": "任命/託付",
+      "description": "曹操命曹仁保全南郡。",
+      "evidence": [
+        "汝可保全南郡"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_secret_plan",
+      "type": "留下",
+      "description": "曹操將密計留在南郡給曹仁急時開用。",
+      "evidence": [
+        "吾有一計，密留在此"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_secret_plan",
+      "target": "strategy_secure_nanjun",
+      "type": "內容關聯",
+      "description": "密計用於使東吳不敢正視南郡。",
+      "evidence": [
+        "使東吳不敢正視南郡"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_ren",
+      "target": "char_cao_hong",
+      "type": "遣派",
+      "description": "曹仁遣曹洪據守彝陵、南郡。",
+      "evidence": [
+        "曹仁自遣曹洪據守彝陵、南郡"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "loc_yiling",
+      "type": "據守",
+      "description": "曹洪據守彝陵以防周瑜。",
+      "evidence": [
+        "據守彝陵、南郡"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "loc_nanjun",
+      "type": "據守",
+      "description": "曹洪據守南郡以防周瑜。",
+      "evidence": [
+        "據守彝陵、南郡"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "char_zhou_yu",
+      "type": "防備",
+      "description": "曹洪據守彝陵、南郡的目的在防周瑜。",
+      "evidence": [
+        "以防周瑜"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_xudu",
+      "type": "返回",
+      "description": "曹操暫回許都收拾軍馬。",
+      "evidence": [
+        "吾今暫回許都"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "faction_jingzhou_surrendered_officials",
+      "target": "loc_xuchang",
+      "type": "調用/遷往",
+      "description": "荊州原降官員被帶回許昌調用。",
+      "evidence": [
+        "帶回許昌調用"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_guan_yunchang",
+      "target": "loc_xiakou",
+      "type": "返回",
+      "description": "關雲長放曹操後回夏口。",
+      "evidence": [
+        "已回夏口",
+        "獨雲長不獲一人一騎"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_guan_yunchang",
+      "target": "char_liu_bei",
+      "type": "回見",
+      "description": "關雲長空身回見玄德。",
+      "evidence": [
+        "空身迴見玄德"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_guan_yunchang",
+      "type": "迎問/質問",
+      "description": "孔明迎接雲長，追問是否拿得曹操將士。",
+      "evidence": [
+        "執杯相迎",
+        "拿得甚將士來"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_zhuge_liang",
+      "target": "char_liu_bei",
+      "type": "同在夏口",
+      "description": "孔明與玄德同席作賀時雲長到。",
+      "evidence": [
+        "孔明正與玄德作賀"
+      ],
+      "confidence": 0.94
+    }
+  ],
+  "events": [
+    {
+      "id": "event_huang_gai_rescued",
+      "name": "黃蓋負箭獲救",
+      "summary": "張遼射黃蓋落水，韓當聽見其呼救後將他救起、剜出箭頭並送回大寨醫治。",
+      "participants": [
+        "char_zhang_liao",
+        "char_huang_gai",
+        "char_han_dang"
+      ],
+      "locations": [
+        "loc_shuizhai"
+      ],
+      "evidence": [
+        "張遼一箭射黃蓋下水",
+        "急教救起"
+      ]
+    },
+    {
+      "id": "event_red_cliff_rout",
+      "name": "赤壁鏖兵曹軍大敗",
+      "summary": "東吳多路船軍自赤壁東西與正中殺到，火攻配合水戰，曹軍焚燒水溺者甚眾。",
+      "participants": [
+        "char_han_dang",
+        "char_jiang_qin",
+        "char_zhou_tai",
+        "char_chen_wu",
+        "char_zhou_yu",
+        "char_cheng_pu",
+        "char_xu_sheng",
+        "char_ding_feng",
+        "faction_cao_jun",
+        "faction_dongwu"
+      ],
+      "locations": [
+        "loc_chibi"
+      ],
+      "evidence": [
+        "三江水戰，赤壁鏖兵",
+        "曹軍...不計其數"
+      ]
+    },
+    {
+      "id": "event_caozhai_fire",
+      "name": "甘寧入曹寨放火",
+      "summary": "甘寧令蔡中引入曹寨深處後殺蔡中放火，呂蒙、潘璋、董襲等分頭接應放火。",
+      "participants": [
+        "char_gan_ning",
+        "char_cai_zhong",
+        "char_lu_meng",
+        "char_pan_zhang",
+        "char_dong_xi"
+      ],
+      "locations": [
+        "loc_caozhai"
+      ],
+      "evidence": [
+        "蔡中一刀砍於馬下",
+        "放十數處火"
+      ]
+    },
+    {
+      "id": "event_wulin_escape",
+      "name": "曹操奔烏林遭追截",
+      "summary": "曹操與張遼率百餘騎奔烏林，先後遭呂蒙、凌統追截，徐晃趕來救援後奪路北走。",
+      "participants": [
+        "char_cao_cao",
+        "char_zhang_liao",
+        "char_lu_meng",
+        "char_ling_tong",
+        "char_xu_huang"
+      ],
+      "locations": [
+        "loc_wulin"
+      ],
+      "evidence": [
+        "操徑奔烏林",
+        "凌統在此",
+        "徐晃在此"
+      ]
+    },
+    {
+      "id": "event_beidi_troops_cut_down",
+      "name": "北地軍馬開路被甘寧截殺",
+      "summary": "曹操接得馬延、張顗三千北地軍馬，命二將開路，不久二人被甘寧斬殺。",
+      "participants": [
+        "char_cao_cao",
+        "char_ma_yan",
+        "char_zhang_yi",
+        "char_gan_ning",
+        "army_beidi_junma"
+      ],
+      "locations": [
+        "loc_wulin"
+      ],
+      "evidence": [
+        "三千北地軍馬",
+        "甘寧一刀斬於馬下"
+      ]
+    },
+    {
+      "id": "event_hefei_route_blocked",
+      "name": "合淝路口東吳合兵",
+      "summary": "曹操指望合淝救應，孫權卻在合淝路口命陸遜舉火，太史慈與陸遜合兵衝殺，曹操轉走彝陵。",
+      "participants": [
+        "char_cao_cao",
+        "char_sun_quan",
+        "char_lu_xun",
+        "char_taishi_ci"
+      ],
+      "locations": [
+        "loc_hefei_lukou",
+        "loc_yiling"
+      ],
+      "evidence": [
+        "孫權在合淝路口",
+        "只得望彝陵而走"
+      ]
+    },
+    {
+      "id": "event_zhao_yun_ambush",
+      "name": "趙雲奉令伏擊",
+      "summary": "曹操在烏林以西、宜都以北大笑周瑜諸葛亮不伏兵，趙雲奉軍師將令殺出，徐晃、張郃抵敵，曹操逃脫。",
+      "participants": [
+        "char_cao_cao",
+        "char_zhao_yun",
+        "char_zhuge_liang",
+        "char_xu_huang",
+        "char_zhang_he"
+      ],
+      "locations": [
+        "loc_wulin",
+        "loc_yidu"
+      ],
+      "evidence": [
+        "趙子龍奉軍師將令",
+        "曹操得脫"
+      ]
+    },
+    {
+      "id": "event_hulukou_ambush",
+      "name": "葫蘆口張飛伏擊",
+      "summary": "曹軍在葫蘆口飢疲造飯時，張飛軍從山口擺開殺出，許褚、張遼、徐晃迎戰，曹操先走脫。",
+      "participants": [
+        "char_cao_cao",
+        "char_zhang_fei",
+        "char_xu_chu",
+        "char_zhang_liao",
+        "char_xu_huang"
+      ],
+      "locations": [
+        "loc_hulukou"
+      ],
+      "evidence": [
+        "行至葫蘆口",
+        "燕人張翼德"
+      ]
+    },
+    {
+      "id": "event_huarong_release",
+      "name": "華容道義釋曹操",
+      "summary": "曹操選走華容道小路，遇關雲長攔截；程昱勸其以舊恩求免，關雲長念舊義與不忍之心放曹操及眾將通過。",
+      "participants": [
+        "char_cao_cao",
+        "char_guan_yunchang",
+        "char_cheng_yu",
+        "char_zhang_liao",
+        "army_wubai_xiaodaoshou"
+      ],
+      "locations": [
+        "loc_huarongdao",
+        "loc_huarong"
+      ],
+      "evidence": [
+        "放曹操的意思",
+        "並皆放去"
+      ]
+    },
+    {
+      "id": "event_nanjun_arrival",
+      "name": "曹操抵南郡",
+      "summary": "曹操脫華容後只剩二十七騎，近南郡時遇曹仁軍馬接應，入南郡安歇並哭郭奉孝。",
+      "participants": [
+        "char_cao_cao",
+        "char_cao_ren",
+        "char_guo_fengxiao",
+        "army_cao_ren_junma"
+      ],
+      "locations": [
+        "loc_gukou",
+        "loc_nanjun"
+      ],
+      "evidence": [
+        "止有二十七騎",
+        "曹仁接著",
+        "吾哭郭奉孝耳"
+      ]
+    },
+    {
+      "id": "event_nanjun_secret_plan",
+      "name": "曹操留計保南郡",
+      "summary": "曹操打算暫回許都整軍復仇，命曹仁保全南郡，留下密計；曹仁遣曹洪據守彝陵、南郡以防周瑜。",
+      "participants": [
+        "char_cao_cao",
+        "char_cao_ren",
+        "char_cao_hong",
+        "char_zhou_yu"
+      ],
+      "locations": [
+        "loc_nanjun",
+        "loc_xudu",
+        "loc_yiling"
+      ],
+      "evidence": [
+        "汝可保全南郡",
+        "密留在此",
+        "以防周瑜"
+      ]
+    },
+    {
+      "id": "event_guan_returns_xiakou",
+      "name": "關雲長空身回夏口",
+      "summary": "關雲長放走曹操後回夏口，未獲一人一騎；孔明迎問，雲長承認被曹操走脫。",
+      "participants": [
+        "char_guan_yunchang",
+        "char_zhuge_liang",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_xiakou"
+      ],
+      "evidence": [
+        "空身迴見玄德",
+        "被他走脫"
+      ]
+    }
+  ],
+  "notes": [
+    "章節檔案中華容道前後有重複與缺漏，已只抽取由回目與可見正文片段支持的內容。",
+    "正文同一人名出現「張顗」與「張鋇」字形差異，已將「張鋇」列為張顗 aliases。"
+  ]
+}

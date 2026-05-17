@@ -1,0 +1,1802 @@
+{
+  "book": "三國演義",
+  "chapter_no": 26,
+  "chapter_title": "袁本初敗兵折將　關雲長掛印封金",
+  "model": "gpt-5.5",
+  "entities": [
+    {
+      "id": "char_yuan_shao",
+      "name": "袁紹",
+      "type": "character",
+      "aliases": [
+        "袁本初",
+        "明公",
+        "紹"
+      ],
+      "description": "河北主帥，先後因關羽斬顏良、文醜而疑怒劉備，後退軍武陽。",
+      "evidence": [
+        "袁紹欲斬玄德",
+        "紹令退軍武陽"
+      ]
+    },
+    {
+      "id": "char_liu_bei",
+      "name": "劉備",
+      "type": "character",
+      "aliases": [
+        "玄德",
+        "劉玄德",
+        "皇叔",
+        "備"
+      ],
+      "description": "關羽故主，在袁紹處；隨文醜後軍出兵，後遣書召關羽。",
+      "evidence": [
+        "玄德從容進曰",
+        "玄德領三萬軍"
+      ]
+    },
+    {
+      "id": "char_guan_yu",
+      "name": "關羽",
+      "type": "character",
+      "aliases": [
+        "關雲長",
+        "關公",
+        "雲長",
+        "羽"
+      ],
+      "description": "受封漢壽亭侯，斬文醜，平汝南後得知劉備音信，掛印封金離曹。",
+      "evidence": [
+        "封雲長為漢壽亭侯",
+        "關公馬快，趕上文醜"
+      ]
+    },
+    {
+      "id": "char_cao_cao",
+      "name": "曹操",
+      "type": "character",
+      "aliases": [
+        "操",
+        "曹公",
+        "丞相",
+        "曹賊"
+      ],
+      "description": "統領曹軍，以糧草誘文醜，賞關羽之功，後避見關羽辭行。",
+      "evidence": [
+        "曹操見雲長斬了顏良",
+        "昔日吾以糧草在前者"
+      ]
+    },
+    {
+      "id": "char_wen_chou",
+      "name": "文醜",
+      "type": "character",
+      "aliases": [
+        "河北名將文醜"
+      ],
+      "description": "袁紹大將，為顏良報仇渡黃河，於延津敗亂後被關羽斬殺。",
+      "evidence": [
+        "乃河北名將文醜也",
+        "將文醜斬下馬來"
+      ]
+    },
+    {
+      "id": "char_yan_liang",
+      "name": "顏良",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹將領，已被關羽所殺；其仇引發文醜請戰。",
+      "evidence": [
+        "顏良與我如兄弟",
+        "報顏良之仇"
+      ]
+    },
+    {
+      "id": "char_guo_tu",
+      "name": "郭圖",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀士，與審配入見袁紹，指稱劉備佯裝不知關羽。",
+      "evidence": [
+        "郭圖、審配入見袁紹"
+      ]
+    },
+    {
+      "id": "char_shen_pei",
+      "name": "審配",
+      "type": "character",
+      "aliases": [],
+      "description": "袁紹謀士，與郭圖一同進讒劉備。",
+      "evidence": [
+        "郭圖、審配入見袁紹"
+      ]
+    },
+    {
+      "id": "char_lu_qian",
+      "name": "呂虔",
+      "type": "character",
+      "aliases": [
+        "虔"
+      ],
+      "description": "曹操部下，質疑糧草先行之令，後聽曹操解釋餌敵之計。",
+      "evidence": [
+        "呂虔曰：糧草在先"
+      ]
+    },
+    {
+      "id": "char_xun_you",
+      "name": "荀攸",
+      "type": "character",
+      "aliases": [
+        "荀公達",
+        "攸"
+      ],
+      "description": "曹操謀士，看出糧草誘敵之意並阻止退馬。",
+      "evidence": [
+        "荀攸急止之曰",
+        "惟荀公達知吾心"
+      ]
+    },
+    {
+      "id": "char_zhang_liao",
+      "name": "張遼",
+      "type": "character",
+      "aliases": [
+        "遼"
+      ],
+      "description": "曹操將領，追文醜時被箭射中頭盔與戰馬；後受命探關羽心意。",
+      "evidence": [
+        "張遼、徐晃飛馬齊出",
+        "操令張遼來探關公意"
+      ]
+    },
+    {
+      "id": "char_xu_huang",
+      "name": "徐晃",
+      "type": "character",
+      "aliases": [
+        "晃"
+      ],
+      "description": "曹操將領，與張遼追擊文醜，後截住廝殺而退。",
+      "evidence": [
+        "徐晃大叫",
+        "撥馬而回"
+      ]
+    },
+    {
+      "id": "char_xiahou_dun",
+      "name": "夏侯惇",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操命其守住官渡隘口。",
+      "evidence": [
+        "使夏侯惇領兵守住官渡隘口"
+      ]
+    },
+    {
+      "id": "char_xun_yu",
+      "name": "荀彧",
+      "type": "character",
+      "aliases": [],
+      "description": "提醒曹操關羽有歸劉之心，不宜頻令出征。",
+      "evidence": [
+        "荀彧密謂操曰"
+      ]
+    },
+    {
+      "id": "char_cao_hong",
+      "name": "曹洪",
+      "type": "character",
+      "aliases": [],
+      "description": "在汝南與劉闢、龔都作戰不利，向曹操求援。",
+      "evidence": [
+        "曹洪累戰不利"
+      ]
+    },
+    {
+      "id": "char_liu_pi",
+      "name": "劉闢",
+      "type": "character",
+      "aliases": [],
+      "description": "汝南黃巾，收留孫乾，與龔都歸順袁紹並助攻曹。",
+      "evidence": [
+        "黃巾劉闢、龔都",
+        "幸得劉闢收留"
+      ]
+    },
+    {
+      "id": "char_gong_du",
+      "name": "龔都",
+      "type": "character",
+      "aliases": [
+        "都"
+      ],
+      "description": "汝南黃巾，出陣對關羽，暗示故主之恩並讓汝南。",
+      "evidence": [
+        "龔都披掛出陣",
+        "我讓汝南"
+      ]
+    },
+    {
+      "id": "char_sun_qian",
+      "name": "孫乾",
+      "type": "character",
+      "aliases": [
+        "乾"
+      ],
+      "description": "劉備舊屬，在汝南被劉闢收留，奉命作細作向關羽報信。",
+      "evidence": [
+        "乃孫乾也",
+        "教某為細作"
+      ]
+    },
+    {
+      "id": "char_gan_furen",
+      "name": "甘夫人",
+      "type": "character",
+      "aliases": [],
+      "description": "劉備夫人之一，追問關羽是否得知劉備音信。",
+      "evidence": [
+        "甘夫人曰"
+      ]
+    },
+    {
+      "id": "char_er_furen",
+      "name": "二夫人",
+      "type": "character",
+      "aliases": [
+        "二嫂"
+      ],
+      "description": "劉備兩位夫人，由關羽保護，最後同車離開許昌。",
+      "evidence": [
+        "參拜二嫂於門外",
+        "請二夫人上車"
+      ]
+    },
+    {
+      "id": "char_yu_jin",
+      "name": "於禁",
+      "type": "character",
+      "aliases": [
+        "禁"
+      ],
+      "description": "曹操將領，任關羽征汝南副將；後探知劉備在河北並報曹操。",
+      "evidence": [
+        "使於禁、樂進為副將",
+        "禁探知劉備在河北"
+      ]
+    },
+    {
+      "id": "char_yue_jin",
+      "name": "樂進",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將領，任關羽征汝南副將。",
+      "evidence": [
+        "於禁、樂進為副將"
+      ]
+    },
+    {
+      "id": "char_chen_zhen",
+      "name": "陳震",
+      "type": "character",
+      "aliases": [
+        "南陽陳震",
+        "震"
+      ],
+      "description": "袁紹部下，奉劉備之書到許昌見關羽，並帶回關羽回書。",
+      "evidence": [
+        "袁紹部下南陽陳震",
+        "震出書一緘"
+      ]
+    },
+    {
+      "id": "char_cai_yang",
+      "name": "蔡陽",
+      "type": "character",
+      "aliases": [],
+      "description": "曹操將軍，請率鐵騎三千追擒關羽。",
+      "evidence": [
+        "乃將軍蔡陽也",
+        "鐵騎三千"
+      ]
+    },
+    {
+      "id": "faction_yuan",
+      "name": "袁紹勢力",
+      "type": "faction",
+      "aliases": [
+        "河北軍",
+        "袁軍"
+      ],
+      "description": "袁紹所部，派文醜、劉備攻曹，延津大敗。",
+      "evidence": [
+        "河北大將文醜兵至",
+        "河北軍大半落水"
+      ]
+    },
+    {
+      "id": "faction_cao",
+      "name": "曹操勢力",
+      "type": "faction",
+      "aliases": [
+        "曹軍",
+        "曹兵"
+      ],
+      "description": "曹操所部，在延津誘破文醜軍，後出兵汝南。",
+      "evidence": [
+        "曹兵圍裹將來",
+        "曹操奪回"
+      ]
+    },
+    {
+      "id": "faction_han_court",
+      "name": "朝廷",
+      "type": "faction",
+      "aliases": [],
+      "description": "受曹操表奏，封關羽為漢壽亭侯。",
+      "evidence": [
+        "表奏朝廷"
+      ]
+    },
+    {
+      "id": "faction_yellow_turban",
+      "name": "黃巾",
+      "type": "faction",
+      "aliases": [
+        "汝南賊寇"
+      ],
+      "description": "劉闢、龔都所屬，在汝南活動並歸順袁紹攻曹。",
+      "evidence": [
+        "汝南有黃巾劉闢、龔都"
+      ]
+    },
+    {
+      "id": "loc_xuzhou",
+      "name": "徐州",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備與關羽失散的背景地點。",
+      "evidence": [
+        "備自徐州失散"
+      ]
+    },
+    {
+      "id": "loc_huanghe",
+      "name": "黃河",
+      "type": "location",
+      "aliases": [],
+      "description": "文醜奉袁紹命渡河攻曹。",
+      "evidence": [
+        "便渡黃河"
+      ]
+    },
+    {
+      "id": "loc_yanjin",
+      "name": "延津",
+      "type": "location",
+      "aliases": [],
+      "description": "文醜據守、曹操設伏誘敵的要地。",
+      "evidence": [
+        "已據延津之上"
+      ]
+    },
+    {
+      "id": "loc_guandu",
+      "name": "官渡",
+      "type": "location",
+      "aliases": [
+        "官渡隘口"
+      ],
+      "description": "袁紹接應下寨處，曹操命夏侯惇防守隘口。",
+      "evidence": [
+        "接應至官渡",
+        "守住官渡隘口"
+      ]
+    },
+    {
+      "id": "loc_xihe",
+      "name": "西河",
+      "type": "location",
+      "aliases": [],
+      "description": "曹操先移徙居民至此，再迎文醜。",
+      "evidence": [
+        "移徙居民於西河"
+      ]
+    },
+    {
+      "id": "loc_tufu",
+      "name": "土阜",
+      "type": "location",
+      "aliases": [
+        "南阜"
+      ],
+      "description": "曹操軍暫避並伏擊文醜軍之處。",
+      "evidence": [
+        "急奔土阜",
+        "操在土阜上"
+      ]
+    },
+    {
+      "id": "loc_baima",
+      "name": "白馬",
+      "type": "location",
+      "aliases": [],
+      "description": "曹軍諸將曾欲退回之地。",
+      "evidence": [
+        "退回白馬"
+      ]
+    },
+    {
+      "id": "loc_wuyang",
+      "name": "武陽",
+      "type": "location",
+      "aliases": [],
+      "description": "袁紹退軍按兵之處。",
+      "evidence": [
+        "紹令退軍武陽"
+      ]
+    },
+    {
+      "id": "loc_xudu",
+      "name": "許都",
+      "type": "location",
+      "aliases": [
+        "許昌"
+      ],
+      "description": "曹操班師與關羽辭曹離去的所在地。",
+      "evidence": [
+        "回許都",
+        "班師回許昌"
+      ]
+    },
+    {
+      "id": "loc_runan",
+      "name": "汝南",
+      "type": "location",
+      "aliases": [
+        "汝南州縣"
+      ],
+      "description": "劉闢、龔都活動之地，關羽奉命征討並奪得州縣。",
+      "evidence": [
+        "將近汝南",
+        "讓汝南"
+      ]
+    },
+    {
+      "id": "loc_hebei",
+      "name": "河北",
+      "type": "location",
+      "aliases": [],
+      "description": "劉備在袁紹處的所在地稱呼。",
+      "evidence": [
+        "劉備在河北"
+      ]
+    },
+    {
+      "id": "loc_xiangfu",
+      "name": "相府",
+      "type": "location",
+      "aliases": [],
+      "description": "關羽前往拜辭曹操之處。",
+      "evidence": [
+        "隨即至相府"
+      ]
+    },
+    {
+      "id": "loc_beimen",
+      "name": "北門",
+      "type": "location",
+      "aliases": [],
+      "description": "關羽護送二夫人離開許昌時出的城門。",
+      "evidence": [
+        "徑出北門"
+      ]
+    },
+    {
+      "id": "battle_yanjin",
+      "name": "延津之戰",
+      "type": "battle",
+      "aliases": [
+        "文醜渡河之戰"
+      ],
+      "description": "文醜渡黃河據延津，曹操以糧草誘敵，關羽斬文醜，河北軍大敗。",
+      "evidence": [
+        "文醜兵至",
+        "文醜斬下馬來"
+      ]
+    },
+    {
+      "id": "battle_runan",
+      "name": "汝南之役",
+      "type": "battle",
+      "aliases": [
+        "關羽征汝南"
+      ],
+      "description": "關羽奉曹操命征汝南，劉闢、龔都佯敗讓城。",
+      "evidence": [
+        "破汝南賊寇",
+        "奪得州縣"
+      ]
+    },
+    {
+      "id": "event_hanging_seal",
+      "name": "掛印封金",
+      "type": "event",
+      "aliases": [
+        "關雲長掛印封金"
+      ],
+      "description": "關羽辭曹不成後留書，封存曹操所賜金銀，懸漢壽亭侯印，護二夫人北去。",
+      "evidence": [
+        "金銀，一一封置庫中",
+        "印懸於堂上"
+      ]
+    },
+    {
+      "id": "title_hanshou",
+      "name": "漢壽亭侯",
+      "type": "title",
+      "aliases": [],
+      "description": "朝廷封給關羽的爵號，後其印被關羽懸於堂上。",
+      "evidence": [
+        "封雲長為漢壽亭侯"
+      ]
+    },
+    {
+      "id": "title_huangshu",
+      "name": "皇叔",
+      "type": "title",
+      "aliases": [],
+      "description": "甘夫人稱劉備的稱號。",
+      "evidence": [
+        "可知皇叔音信否"
+      ]
+    },
+    {
+      "id": "obj_hanshou_seal",
+      "name": "漢壽亭侯印",
+      "type": "object",
+      "aliases": [
+        "印"
+      ],
+      "description": "曹操鑄送關羽的侯印；關羽離去時懸於堂上。",
+      "evidence": [
+        "鑄印送關公",
+        "印懸於堂上"
+      ]
+    },
+    {
+      "id": "obj_grain_baggage",
+      "name": "糧草輜重",
+      "type": "object",
+      "aliases": [
+        "糧草",
+        "糧食輜重"
+      ],
+      "description": "曹操故意放在前軍作誘餌，後被奪回。",
+      "evidence": [
+        "糧草先行",
+        "仍被曹操奪回"
+      ]
+    },
+    {
+      "id": "obj_secret_letter",
+      "name": "密書",
+      "type": "object",
+      "aliases": [
+        "玄德書",
+        "書一緘"
+      ],
+      "description": "劉備遣陳震帶給關羽的書信，促其回歸。",
+      "evidence": [
+        "持密書去見雲長",
+        "乃玄德書也"
+      ]
+    },
+    {
+      "id": "obj_reply_letter",
+      "name": "關羽回書",
+      "type": "object",
+      "aliases": [
+        "答書"
+      ],
+      "description": "關羽寫給劉備的回信，說明暫依曹操與即將奉二嫂相見。",
+      "evidence": [
+        "關公寫書答雲"
+      ]
+    },
+    {
+      "id": "obj_farewell_letter",
+      "name": "辭曹書",
+      "type": "object",
+      "aliases": [
+        "奉書告辭"
+      ],
+      "description": "關羽留給曹操的辭別書，表明新恩雖厚、舊義難忘。",
+      "evidence": [
+        "即寫書一封",
+        "奉書告辭"
+      ]
+    },
+    {
+      "id": "obj_red_hare",
+      "name": "赤兔馬",
+      "type": "object",
+      "aliases": [],
+      "description": "關羽離開許昌時所騎之馬。",
+      "evidence": [
+        "關公上赤兔馬"
+      ]
+    },
+    {
+      "id": "obj_green_dragon_blade",
+      "name": "青龍刀",
+      "type": "object",
+      "aliases": [],
+      "description": "關羽離開許昌時手提之刀。",
+      "evidence": [
+        "手提青龍刀"
+      ]
+    },
+    {
+      "id": "obj_gold_silver",
+      "name": "金銀等物",
+      "type": "object",
+      "aliases": [
+        "所賜金銀"
+      ],
+      "description": "曹操累次所賜，關羽離去前封存不帶。",
+      "evidence": [
+        "所受金銀，一一封置"
+      ]
+    },
+    {
+      "id": "obj_avoidance牌",
+      "name": "迴避牌",
+      "type": "object",
+      "aliases": [],
+      "description": "曹操懸於門上以避開關羽拜辭。",
+      "evidence": [
+        "懸迴避牌於門"
+      ]
+    },
+    {
+      "id": "strategy_bait",
+      "name": "餌敵之計",
+      "type": "strategy",
+      "aliases": [
+        "以糧草誘敵"
+      ],
+      "description": "曹操將糧草置前，誘文醜軍搶掠失序後反擊。",
+      "evidence": [
+        "此正可以餌敵",
+        "乃餌敵之計也"
+      ]
+    },
+    {
+      "id": "strategy_yanjin_guandu",
+      "name": "留屯延津、分兵官渡",
+      "type": "strategy",
+      "aliases": [
+        "延津官渡守策"
+      ],
+      "description": "袁營謀士建議袁紹勿輕渡黃河，應留屯延津並分兵官渡。",
+      "evidence": [
+        "留屯延津，分兵官渡"
+      ]
+    },
+    {
+      "id": "strategy_feigned_defeat",
+      "name": "佯輸詐敗",
+      "type": "strategy",
+      "aliases": [
+        "讓汝南"
+      ],
+      "description": "劉闢、龔都表面敗走，實際讓關羽奪汝南。",
+      "evidence": [
+        "佯輸詐敗",
+        "我讓汝南"
+      ]
+    },
+    {
+      "id": "strategy_avoid_meeting",
+      "name": "避見關羽",
+      "type": "strategy",
+      "aliases": [
+        "懸迴避牌"
+      ],
+      "description": "曹操知道關羽來意後避不相見，試圖拖延其離去。",
+      "evidence": [
+        "操知來意，乃懸迴避牌"
+      ]
+    },
+    {
+      "id": "army_yuan_100k",
+      "name": "袁紹十萬軍兵",
+      "type": "army",
+      "aliases": [
+        "十萬軍兵"
+      ],
+      "description": "袁紹授予文醜渡河追殺曹操的軍隊總數。",
+      "evidence": [
+        "吾與十萬軍兵"
+      ]
+    },
+    {
+      "id": "army_wenchou_70k",
+      "name": "文醜七萬軍",
+      "type": "army",
+      "aliases": [
+        "七萬軍"
+      ],
+      "description": "文醜自領先行的袁軍前部。",
+      "evidence": [
+        "文醜自領七萬軍先行"
+      ]
+    },
+    {
+      "id": "army_liubei_30k",
+      "name": "劉備三萬軍",
+      "type": "army",
+      "aliases": [
+        "三萬軍"
+      ],
+      "description": "文醜分給劉備隨後的後部兵馬。",
+      "evidence": [
+        "令玄德引三萬軍隨後"
+      ]
+    },
+    {
+      "id": "army_runan_50k",
+      "name": "關羽征汝南五萬軍",
+      "type": "army",
+      "aliases": [
+        "五萬兵"
+      ],
+      "description": "曹操撥給關羽征汝南的兵力。",
+      "evidence": [
+        "點兵五萬"
+      ]
+    },
+    {
+      "id": "army_caiyang_3000",
+      "name": "蔡陽鐵騎三千",
+      "type": "army",
+      "aliases": [
+        "鐵騎三千"
+      ],
+      "description": "蔡陽請命追擒關羽的騎兵。",
+      "evidence": [
+        "願將鐵騎三千"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "char_wen_chou",
+      "target": "char_yan_liang",
+      "type": "如兄弟",
+      "description": "文醜稱自己與顏良情同兄弟，欲為其報仇。",
+      "evidence": [
+        "顏良與我如兄弟"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_wen_chou",
+      "type": "任命出戰",
+      "description": "袁紹命文醜率軍渡黃河追殺曹操。",
+      "evidence": [
+        "非汝不能報顏良之仇",
+        "便渡黃河"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "army_yuan_100k",
+      "type": "授予兵力",
+      "description": "袁紹將十萬軍兵交文醜出戰。",
+      "evidence": [
+        "吾與十萬軍兵"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_wen_chou",
+      "target": "army_wenchou_70k",
+      "type": "統領",
+      "description": "文醜自領七萬軍先行。",
+      "evidence": [
+        "自領七萬軍先行"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "army_liubei_30k",
+      "type": "統領",
+      "description": "劉備引三萬軍隨文醜後行。",
+      "evidence": [
+        "玄德引三萬軍隨後"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "char_liu_bei",
+      "type": "疑罪欲斬",
+      "description": "袁紹兩度因關羽殺將而欲斬劉備。",
+      "evidence": [
+        "袁紹欲斬玄德",
+        "紹令推出斬之"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_yanjin_guandu",
+      "target": "char_yuan_shao",
+      "type": "進言",
+      "description": "袁營謀士勸袁紹留屯延津、分兵官渡，不宜輕渡黃河。",
+      "evidence": [
+        "今宜留屯延津，分兵官渡"
+      ],
+      "confidence": 0.82
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "faction_han_court",
+      "type": "表奏",
+      "description": "曹操向朝廷表奏關羽之功。",
+      "evidence": [
+        "表奏朝廷"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_han_court",
+      "target": "char_guan_yu",
+      "type": "封爵",
+      "description": "朝廷封關羽為漢壽亭侯。",
+      "evidence": [
+        "封雲長為漢壽亭侯"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "title_hanshou",
+      "type": "擁有稱號",
+      "description": "關羽受封漢壽亭侯。",
+      "evidence": [
+        "漢壽亭侯關雲長"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "obj_hanshou_seal",
+      "type": "鑄送",
+      "description": "曹操鑄印並送給關羽。",
+      "evidence": [
+        "鑄印送關公"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "obj_hanshou_seal",
+      "target": "char_guan_yu",
+      "type": "授予",
+      "description": "漢壽亭侯印授給關羽。",
+      "evidence": [
+        "鑄印送關公"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_wen_chou",
+      "target": "loc_huanghe",
+      "type": "渡河進軍",
+      "description": "文醜奉袁紹命渡黃河攻曹。",
+      "evidence": [
+        "文醜渡黃河"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_wen_chou",
+      "target": "loc_yanjin",
+      "type": "據守",
+      "description": "文醜軍已據延津之上。",
+      "evidence": [
+        "已據延津之上"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_xihe",
+      "type": "移徙居民",
+      "description": "曹操先將居民移至西河。",
+      "evidence": [
+        "移徙居民於西河"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strategy_bait",
+      "type": "使用計策",
+      "description": "曹操以糧草先行誘文醜軍搶掠。",
+      "evidence": [
+        "乃餌敵之計也"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "strategy_bait",
+      "target": "obj_grain_baggage",
+      "type": "以物為餌",
+      "description": "餌敵之計以糧草輜重作誘餌。",
+      "evidence": [
+        "此正可以餌敵"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xun_you",
+      "target": "strategy_bait",
+      "type": "識破計意",
+      "description": "荀攸看出曹操誘敵之意。",
+      "evidence": [
+        "攸知其意"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_lu_qian",
+      "target": "char_cao_cao",
+      "type": "詢問軍令",
+      "description": "呂虔問曹操為何令糧草在先、軍兵在後。",
+      "evidence": [
+        "何意也"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_wen_chou",
+      "target": "obj_grain_baggage",
+      "type": "搶奪",
+      "description": "文醜軍取得糧草車仗並搶馬，因而雜亂。",
+      "evidence": [
+        "既得糧草車仗"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "faction_cao",
+      "target": "army_wenchou_70k",
+      "type": "伏擊擊潰",
+      "description": "曹操令軍將從土阜擊下，文醜軍大亂。",
+      "evidence": [
+        "文醜軍大亂"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_wen_chou",
+      "type": "追擊",
+      "description": "張遼與徐晃追趕文醜。",
+      "evidence": [
+        "文醜休走"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_xu_huang",
+      "target": "char_wen_chou",
+      "type": "追擊廝殺",
+      "description": "徐晃追擊並截住文醜廝殺。",
+      "evidence": [
+        "截住廝殺"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_wen_chou",
+      "target": "char_zhang_liao",
+      "type": "射傷戰馬",
+      "description": "文醜射中張遼頭盔，又射中其坐騎臉頰。",
+      "evidence": [
+        "一箭射中頭盔",
+        "戰馬又被射中"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_wen_chou",
+      "type": "斬殺",
+      "description": "關羽追上文醜，腦後一刀將其斬下馬。",
+      "evidence": [
+        "將文醜斬下馬來"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "battle_yanjin",
+      "type": "指揮",
+      "description": "曹操在延津指揮誘敵與反擊。",
+      "evidence": [
+        "操在土阜上"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "battle_yanjin",
+      "type": "參戰立功",
+      "description": "關羽在延津斬殺文醜。",
+      "evidence": [
+        "關公砍了文醜"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "char_guan_yu",
+      "type": "故主與兄弟之義",
+      "description": "劉備見旗號確認關羽在曹操處，後以桃園盟義召還。",
+      "evidence": [
+        "原來吾弟果然在曹操處",
+        "自桃園締盟"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_bei",
+      "target": "obj_secret_letter",
+      "type": "遣送",
+      "description": "劉備請以心腹人持密書去見關羽。",
+      "evidence": [
+        "持密書去見雲長"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_chen_zhen",
+      "target": "obj_secret_letter",
+      "type": "送達",
+      "description": "陳震將劉備書信遞給關羽。",
+      "evidence": [
+        "震出書一緘，遞與關公"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_secret_letter",
+      "target": "char_guan_yu",
+      "type": "召喚歸劉",
+      "description": "劉備書中以桃園盟義責問關羽，促其歸來。",
+      "evidence": [
+        "今何中道相違"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guo_tu",
+      "target": "char_liu_bei",
+      "type": "進讒",
+      "description": "郭圖稱劉備佯推不知關羽殺文醜。",
+      "evidence": [
+        "劉備佯推不知"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_shen_pei",
+      "target": "char_liu_bei",
+      "type": "進讒",
+      "description": "審配與郭圖一同入見袁紹進言。",
+      "evidence": [
+        "郭圖、審配入見"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source": "char_yuan_shao",
+      "target": "loc_wuyang",
+      "type": "退軍駐紮",
+      "description": "袁紹退軍武陽，連營數十里。",
+      "evidence": [
+        "退軍武陽，連營數十里"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_xiahou_dun",
+      "type": "命守官渡",
+      "description": "曹操命夏侯惇領兵守官渡隘口。",
+      "evidence": [
+        "使夏侯惇領兵守住官渡隘口"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "loc_xudu",
+      "type": "班師",
+      "description": "曹操回許都大宴眾官，賀關羽之功。",
+      "evidence": [
+        "自己班師回許都"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_guan_yu",
+      "type": "賞功欽敬",
+      "description": "曹操因關羽斬顏良、文醜而欽敬賞賀。",
+      "evidence": [
+        "倍加欽敬",
+        "賀雲長之功"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_pi",
+      "target": "faction_yellow_turban",
+      "type": "隸屬",
+      "description": "劉闢被稱為汝南黃巾。",
+      "evidence": [
+        "黃巾劉闢"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_gong_du",
+      "target": "faction_yellow_turban",
+      "type": "隸屬",
+      "description": "龔都被稱為汝南黃巾。",
+      "evidence": [
+        "黃巾劉闢、龔都"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_liu_pi",
+      "target": "char_sun_qian",
+      "type": "收留",
+      "description": "孫乾逃難到汝南，被劉闢收留。",
+      "evidence": [
+        "幸得劉闢收留"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_pi",
+      "target": "char_yuan_shao",
+      "type": "歸順",
+      "description": "劉闢歸順袁紹並相助攻曹。",
+      "evidence": [
+        "劉、龔二人歸順袁紹"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gong_du",
+      "target": "char_yuan_shao",
+      "type": "歸順",
+      "description": "龔都歸順袁紹並相助攻曹。",
+      "evidence": [
+        "歸順袁紹，相助攻曹"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_hong",
+      "target": "faction_yellow_turban",
+      "type": "作戰不利",
+      "description": "曹洪與汝南黃巾作戰屢不利，請求援兵。",
+      "evidence": [
+        "曹洪累戰不利"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "battle_runan",
+      "type": "請戰",
+      "description": "關羽自請征討汝南賊寇。",
+      "evidence": [
+        "願施犬馬之勞"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "army_runan_50k",
+      "type": "撥兵",
+      "description": "曹操點兵五萬給關羽征汝南。",
+      "evidence": [
+        "點兵五萬"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "army_runan_50k",
+      "type": "統領",
+      "description": "關羽領五萬兵征汝南。",
+      "evidence": [
+        "雲長領兵將近汝南"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "char_guan_yu",
+      "type": "副將",
+      "description": "於禁任關羽征汝南副將。",
+      "evidence": [
+        "於禁、樂進為副將"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_yue_jin",
+      "target": "char_guan_yu",
+      "type": "副將",
+      "description": "樂進任關羽征汝南副將。",
+      "evidence": [
+        "於禁、樂進為副將"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_xun_yu",
+      "target": "char_cao_cao",
+      "type": "諫言",
+      "description": "荀彧提醒曹操關羽常有歸劉之心。",
+      "evidence": [
+        "不可頻令出征"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_liu_bei",
+      "type": "歸心",
+      "description": "荀彧判斷關羽常有歸劉之心，關羽後也表明舊義難忘。",
+      "evidence": [
+        "常有歸劉之心",
+        "舊義難忘"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_sun_qian",
+      "target": "char_guan_yu",
+      "type": "密報消息",
+      "description": "孫乾作細作來報關羽劉備在袁紹處。",
+      "evidence": [
+        "來報將軍",
+        "玄德公在袁紹處"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gong_du",
+      "target": "strategy_feigned_defeat",
+      "type": "執行",
+      "description": "龔都告知關羽速進並讓汝南，隨後佯敗。",
+      "evidence": [
+        "公當速進，我讓汝南"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_liu_pi",
+      "target": "strategy_feigned_defeat",
+      "type": "執行",
+      "description": "劉闢與龔都一起佯輸詐敗。",
+      "evidence": [
+        "劉、龔二人佯輸詐敗"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "loc_runan",
+      "type": "奪取安民",
+      "description": "關羽奪得汝南州縣並安民。",
+      "evidence": [
+        "奪得州縣，安民已定"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_gan_furen",
+      "target": "char_guan_yu",
+      "type": "追問音信",
+      "description": "甘夫人問關羽是否知道劉備音信。",
+      "evidence": [
+        "可知皇叔音信否"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_er_furen",
+      "type": "保護護送",
+      "description": "關羽因二嫂之重暫依曹操，最後請二夫人上車離去。",
+      "evidence": [
+        "奈有二嫂之重",
+        "請二夫人上車"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_yu_jin",
+      "target": "char_cao_cao",
+      "type": "報信",
+      "description": "於禁探知劉備在河北，報與曹操。",
+      "evidence": [
+        "報與曹操"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "char_zhang_liao",
+      "type": "派遣試探",
+      "description": "曹操令張遼探問關羽意向。",
+      "evidence": [
+        "操令張遼來探關公意"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_zhang_liao",
+      "target": "char_guan_yu",
+      "type": "試探心意",
+      "description": "張遼以賀喜為名探關羽對劉備消息的反應。",
+      "evidence": [
+        "特來賀喜"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_reply_letter",
+      "type": "撰寫",
+      "description": "關羽寫回書給劉備，稱即當面辭曹公、奉二嫂相見。",
+      "evidence": [
+        "關公寫書答雲"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "obj_reply_letter",
+      "target": "char_liu_bei",
+      "type": "回覆",
+      "description": "關羽回書向劉備解釋暫在曹營的原因。",
+      "evidence": [
+        "故爾暫且羈身"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "char_cao_cao",
+      "type": "拜辭",
+      "description": "關羽得劉備信後至相府拜辭曹操。",
+      "evidence": [
+        "至相府，拜辭曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cao_cao",
+      "target": "strategy_avoid_meeting",
+      "type": "使用",
+      "description": "曹操知道關羽來辭行，懸迴避牌避見。",
+      "evidence": [
+        "操知來意，乃懸迴避牌"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_farewell_letter",
+      "type": "撰寫",
+      "description": "關羽寫辭曹書，表明探知故主後不能違背舊盟。",
+      "evidence": [
+        "寫書一封，詞謝曹操"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_gold_silver",
+      "type": "封存不帶",
+      "description": "關羽將曹操所賜金銀全部封置庫中。",
+      "evidence": [
+        "一一封置庫中"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_hanshou_seal",
+      "type": "懸印辭爵",
+      "description": "關羽將漢壽亭侯印懸於堂上而去。",
+      "evidence": [
+        "懸漢壽亭侯印於堂上"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_red_hare",
+      "type": "騎乘",
+      "description": "關羽離開許昌時騎赤兔馬。",
+      "evidence": [
+        "上赤兔馬"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "obj_green_dragon_blade",
+      "type": "持有",
+      "description": "關羽離開許昌時手提青龍刀。",
+      "evidence": [
+        "手提青龍刀"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_guan_yu",
+      "target": "loc_beimen",
+      "type": "出城",
+      "description": "關羽護送車仗徑出北門。",
+      "evidence": [
+        "徑出北門"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cai_yang",
+      "target": "army_caiyang_3000",
+      "type": "請求統領",
+      "description": "蔡陽請率鐵騎三千追擒關羽。",
+      "evidence": [
+        "願將鐵騎三千"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "source": "char_cai_yang",
+      "target": "char_guan_yu",
+      "type": "請追擒",
+      "description": "蔡陽請命追趕並生擒關羽。",
+      "evidence": [
+        "生擒關某"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_yuan_wants_kill_liubei_1",
+      "name": "袁紹初疑劉備",
+      "summary": "袁紹因顏良被關羽所殺而欲斬劉備，劉備以徐州失散、未明關羽存否辯解。",
+      "participants": [
+        "char_yuan_shao",
+        "char_liu_bei",
+        "char_guan_yu"
+      ],
+      "locations": [
+        "loc_xuzhou"
+      ],
+      "evidence": [
+        "袁紹欲斬玄德",
+        "備自徐州失散"
+      ]
+    },
+    {
+      "id": "evt_wenchou_campaign",
+      "name": "文醜渡河攻曹",
+      "summary": "文醜為報顏良之仇請戰，袁紹給十萬兵，文醜自領七萬先行，劉備領三萬為後部。",
+      "participants": [
+        "char_wen_chou",
+        "char_yuan_shao",
+        "char_liu_bei",
+        "army_yuan_100k",
+        "army_wenchou_70k",
+        "army_liubei_30k"
+      ],
+      "locations": [
+        "loc_huanghe",
+        "loc_yanjin"
+      ],
+      "evidence": [
+        "報顏良之仇",
+        "自領七萬軍先行"
+      ]
+    },
+    {
+      "id": "evt_cao_bait_plan",
+      "name": "曹操設餌敵之計",
+      "summary": "曹操命糧草先行、軍兵在後，於土阜暫避，誘文醜軍搶糧奪馬而失序。",
+      "participants": [
+        "char_cao_cao",
+        "char_lu_qian",
+        "char_xun_you",
+        "char_wen_chou"
+      ],
+      "locations": [
+        "loc_yanjin",
+        "loc_tufu"
+      ],
+      "evidence": [
+        "糧草先行",
+        "此正可以餌敵"
+      ]
+    },
+    {
+      "id": "evt_yanjin_victory",
+      "name": "關羽斬文醜",
+      "summary": "曹軍反擊文醜軍，張遼、徐晃追擊失利，關羽突至斬殺文醜，曹操奪回糧草馬匹。",
+      "participants": [
+        "char_guan_yu",
+        "char_wen_chou",
+        "char_cao_cao",
+        "char_zhang_liao",
+        "char_xu_huang"
+      ],
+      "locations": [
+        "loc_yanjin",
+        "loc_huanghe"
+      ],
+      "evidence": [
+        "腦後一刀",
+        "河北軍大半落水"
+      ]
+    },
+    {
+      "id": "evt_liubei_sees_banner",
+      "name": "劉備望見關羽旗號",
+      "summary": "劉備領後軍到河邊，望見「漢壽亭侯關雲長」旗號，確認關羽在曹操處。",
+      "participants": [
+        "char_liu_bei",
+        "char_guan_yu"
+      ],
+      "locations": [
+        "loc_huanghe"
+      ],
+      "evidence": [
+        "旗上寫著",
+        "原來吾弟果然在曹操處"
+      ]
+    },
+    {
+      "id": "evt_yuan_wants_kill_liubei_2",
+      "name": "袁紹再欲斬劉備",
+      "summary": "郭圖、審配指稱劉備佯裝不知，袁紹大怒又命斬劉備；劉備辯稱曹操借關羽殺將離間。",
+      "participants": [
+        "char_yuan_shao",
+        "char_liu_bei",
+        "char_guo_tu",
+        "char_shen_pei",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_guandu"
+      ],
+      "evidence": [
+        "劉備佯推不知",
+        "紹令推出斬之"
+      ]
+    },
+    {
+      "id": "evt_cao_returns_xudu",
+      "name": "曹操回許都賀功",
+      "summary": "袁紹退武陽，曹操命夏侯惇守官渡隘口，自己班師許都宴賀關羽之功，並說明餌敵之計。",
+      "participants": [
+        "char_cao_cao",
+        "char_xiahou_dun",
+        "char_guan_yu",
+        "char_lu_qian",
+        "char_xun_you"
+      ],
+      "locations": [
+        "loc_wuyang",
+        "loc_guandu",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "班師回許都",
+        "賀雲長之功"
+      ]
+    },
+    {
+      "id": "evt_runan_request",
+      "name": "關羽請征汝南",
+      "summary": "汝南黃巾劉闢、龔都猖獗，曹洪求救；關羽請戰，曹操撥五萬兵，以於禁、樂進為副。",
+      "participants": [
+        "char_guan_yu",
+        "char_cao_cao",
+        "char_cao_hong",
+        "char_liu_pi",
+        "char_gong_du",
+        "char_yu_jin",
+        "char_yue_jin"
+      ],
+      "locations": [
+        "loc_runan"
+      ],
+      "evidence": [
+        "破汝南賊寇",
+        "點兵五萬"
+      ]
+    },
+    {
+      "id": "evt_sunqian_secret_report",
+      "name": "孫乾密報劉備消息",
+      "summary": "關羽營外拿住細作，認出孫乾；孫乾告知劉備在袁紹處，劉闢、龔都歸袁攻曹。",
+      "participants": [
+        "char_guan_yu",
+        "char_sun_qian",
+        "char_liu_bei",
+        "char_liu_pi",
+        "char_gong_du",
+        "char_yuan_shao"
+      ],
+      "locations": [
+        "loc_runan",
+        "loc_hebei"
+      ],
+      "evidence": [
+        "乃孫乾也",
+        "玄德公在袁紹處"
+      ]
+    },
+    {
+      "id": "evt_runan_feigned_defeat",
+      "name": "劉闢龔都讓汝南",
+      "summary": "龔都出陣提醒關羽不可忘故主，隨後劉闢、龔都佯輸詐敗，關羽奪得州縣安民。",
+      "participants": [
+        "char_guan_yu",
+        "char_liu_pi",
+        "char_gong_du"
+      ],
+      "locations": [
+        "loc_runan"
+      ],
+      "evidence": [
+        "故主之恩，不可忘",
+        "佯輸詐敗"
+      ]
+    },
+    {
+      "id": "evt_family_learns_liubei",
+      "name": "二夫人得知劉備在河北",
+      "summary": "關羽回許昌後，甘夫人詢問劉備音信；老軍漏言後，關羽向二夫人承認劉備在河北。",
+      "participants": [
+        "char_guan_yu",
+        "char_gan_furen",
+        "char_er_furen",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_xudu",
+        "loc_hebei"
+      ],
+      "evidence": [
+        "可知皇叔音信否",
+        "兄今委實在河北"
+      ]
+    },
+    {
+      "id": "evt_zhangliao_probe",
+      "name": "張遼探關羽意",
+      "summary": "於禁探知劉備在河北報曹操，曹操命張遼試探關羽；關羽表明與劉備是主臣之義。",
+      "participants": [
+        "char_yu_jin",
+        "char_cao_cao",
+        "char_zhang_liao",
+        "char_guan_yu",
+        "char_liu_bei"
+      ],
+      "locations": [
+        "loc_xudu",
+        "loc_hebei"
+      ],
+      "evidence": [
+        "操令張遼來探",
+        "主臣者也"
+      ]
+    },
+    {
+      "id": "evt_chenzhen_delivers_letter",
+      "name": "陳震送劉備書",
+      "summary": "南陽陳震到訪關羽，遞交劉備書信；關羽回書說明暫依曹操緣由，並表示將辭曹奉二嫂相見。",
+      "participants": [
+        "char_chen_zhen",
+        "char_guan_yu",
+        "char_liu_bei",
+        "char_er_furen"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "震出書一緘",
+        "關公寫書答雲"
+      ]
+    },
+    {
+      "id": "evt_guanyu_resigns_cao",
+      "name": "關羽拜辭曹操不遇",
+      "summary": "關羽到相府拜辭曹操，曹操知其來意而懸迴避牌，關羽怏怏而回。",
+      "participants": [
+        "char_guan_yu",
+        "char_cao_cao"
+      ],
+      "locations": [
+        "loc_xiangfu",
+        "loc_xudu"
+      ],
+      "evidence": [
+        "拜辭曹操",
+        "懸迴避牌於門"
+      ]
+    },
+    {
+      "id": "evt_hanging_seal_departure",
+      "name": "關羽掛印封金離許昌",
+      "summary": "關羽留辭曹書，封存所賜金銀，懸漢壽亭侯印，請二夫人上車，騎赤兔、提青龍刀，自北門離去。",
+      "participants": [
+        "char_guan_yu",
+        "char_cao_cao",
+        "char_er_furen"
+      ],
+      "locations": [
+        "loc_xudu",
+        "loc_beimen"
+      ],
+      "evidence": [
+        "舊義難忘",
+        "徑出北門"
+      ]
+    },
+    {
+      "id": "evt_caiyang_requests_pursuit",
+      "name": "蔡陽請追關羽",
+      "summary": "曹操得知關羽離去後，蔡陽請率鐵騎三千生擒關羽。",
+      "participants": [
+        "char_cao_cao",
+        "char_cai_yang",
+        "char_guan_yu",
+        "army_caiyang_3000"
+      ],
+      "locations": [
+        "loc_xudu"
+      ],
+      "evidence": [
+        "雲長去矣",
+        "生擒關某"
+      ]
+    }
+  ],
+  "notes": [
+    "原文局部有疑似重複與錯字；關係抽取以本章可辨識上下文為準。",
+    "『留屯延津，分兵官渡』一段的進言者姓名在原文顯示不清，未抽為人物實體。"
+  ]
+}
