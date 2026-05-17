@@ -234,9 +234,40 @@
     .workspace {
       min-height: 0;
       display: grid;
-      grid-template-columns: 292px minmax(0, 1fr) 356px;
+      grid-template-columns: minmax(0, 1.15fr) minmax(420px, 0.85fr);
+      grid-template-rows: minmax(260px, 1fr) minmax(280px, 1.1fr);
+      grid-template-areas:
+        "map    guide"
+        "map    story";
       gap: 12px;
       padding: 12px;
+    }
+    .workspace > .roster { display: none !important; }
+    .workspace > .map-zone { grid-area: map; min-height: 0; min-width: 0; }
+    .workspace > .guide { grid-area: guide; min-height: 0; min-width: 0; }
+    .workspace > .story-card { grid-area: story; min-height: 0; min-width: 0; }
+    /* story-card 進 workspace 後，自身不再 absolute，需重置幾個樣式 */
+    .workspace > .story-card {
+      position: relative !important;
+      max-height: none !important;
+      width: auto !important;
+      margin: 0 !important;
+      box-shadow: 0 12px 28px rgba(39, 61, 52, 0.08);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 253, 247, 0.92);
+      overflow: hidden auto;
+      display: flex !important;
+      flex-direction: column;
+      grid-template-columns: none !important;
+      transform: none !important;
+    }
+    .workspace > .story-card .story-section { padding: 14px 16px; }
+    .workspace > .story-card .story-section + .story-section {
+      border-top: 1px dashed var(--line);
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
     }
 
     .panel {
@@ -2548,6 +2579,26 @@
           </section>
         </div>
       </aside>
+      <section class="story-card" aria-label="故事卡片">
+        <div class="story-section">
+          <div class="selected-head">
+            <div id="selectedBadge" class="selected-badge camp-shu">劉</div>
+            <div class="selected-title">
+              <h2 id="selectedName">劉備</h2>
+              <span id="selectedMeta">劉蜀・人物</span>
+            </div>
+          </div>
+          <p class="intro" id="selectedIntro"></p>
+          <button type="button" id="openThought" class="thought-trigger" aria-label="想一想" hidden style="display:none"></button>
+          <div class="trait-list" id="traitList"></div>
+          <div class="attribute-list" id="attributeList"></div>
+        </div>
+        <div class="story-section">
+          <h3>📜 走過的故事</h3>
+          <p class="story-hint" id="storyHint">依出場章節順序，把這個角色的關鍵時刻串起來。</p>
+          <div class="event-list" id="eventList"></div>
+        </div>
+      </section>
     </main>
 
     <nav class="mobile-mode-nav" id="mobileModeNav" aria-label="手機探索模式">
@@ -2557,26 +2608,6 @@
       <button type="button" data-mobile-mode="notebook"><span>事件簿</span><small>讀重點</small></button>
     </nav>
 
-    <section class="story-card" aria-label="故事卡片">
-      <div class="story-section">
-        <div class="selected-head">
-          <div id="selectedBadge" class="selected-badge camp-shu">劉</div>
-          <div class="selected-title">
-            <h2 id="selectedName">劉備</h2>
-            <span id="selectedMeta">劉蜀・人物</span>
-          </div>
-        </div>
-        <p class="intro" id="selectedIntro"></p>
-        <button type="button" id="openThought" class="thought-trigger" aria-label="想一想" hidden style="display:none"></button>
-        <div class="trait-list" id="traitList"></div>
-        <div class="attribute-list" id="attributeList"></div>
-      </div>
-      <div class="story-section">
-        <h3>📜 走過的故事</h3>
-        <p class="story-hint" id="storyHint">依出場章節順序，把這個角色的關鍵時刻串起來。</p>
-        <div class="event-list" id="eventList"></div>
-      </div>
-    </section>
     <div id="drawerScrim" class="drawer-scrim" aria-hidden="true"></div>
     <div id="shareToast" class="share-toast" role="status" aria-live="polite">已複製目前視角連結</div>
     <aside id="settingsDrawer" class="settings-drawer" aria-label="顯示設定" aria-hidden="true">
@@ -3756,6 +3787,41 @@
       updateHashState();
     }
 
+    // 計算全體角色每類關係的百分位門檻（5★/4★/3★/2★/1★）
+    // 5★ = 全體前 5%，4★ = 前 15%，3★ = 前 35%，2★ = 前 60%
+    const ABILITY_THRESHOLDS = (function () {
+      const cats = ["military", "strategy", "command", "ally", "family"];
+      const result = {};
+      cats.forEach(cat => {
+        const counts = nodes
+          .filter(n => (n.type === "character" || n.type === "faction") && n.kind === "entity")
+          .map(n => (relsByNode.get(n.id) || []).filter(r => r.category === cat).length)
+          .filter(c => c > 0)
+          .sort((a, b) => a - b);
+        if (counts.length === 0) {
+          result[cat] = [99, 99, 99, 99];
+          return;
+        }
+        const pct = p => counts[Math.floor(counts.length * (1 - p))] || counts[counts.length - 1];
+        result[cat] = [pct(0.05), pct(0.15), pct(0.35), pct(0.60)];
+      });
+      return result;
+    })();
+
+    function abilityStars(cat, count) {
+      if (!count) return 0;
+      const t = ABILITY_THRESHOLDS[cat] || [99, 99, 99, 99];
+      if (count >= t[0]) return 5;
+      if (count >= t[1]) return 4;
+      if (count >= t[2]) return 3;
+      if (count >= t[3]) return 2;
+      return 1;
+    }
+    function starText(n) {
+      if (!n) return "";
+      return "★".repeat(n) + "☆".repeat(5 - n);
+    }
+
     function renderAttributes(selected, preset) {
       const el = document.getElementById("attributeList");
       if (!el) return;
@@ -3775,36 +3841,43 @@
       if (selected.isTrunk) {
         parts.push(`<span class="attr-item" style="background:#FDE8C8;color:#7A4500"><span class="attr-key">⭐</span>重要英雄</span>`);
       }
-      // 最強的 3 段關係（依 rel weight 或 score）
+      // 最強的 3 個關係對象（去重：累加同一對象的所有關係 weight）
       const myRels = (relsByNode.get(selected.id) || []);
       if (myRels.length) {
-        const top = myRels
-          .map(r => {
-            const oid = r.source === selected.id ? r.target : r.source;
-            const other = nodeById.get(oid);
-            if (!other) return null;
-            return { other, weight: (r.weight || 1) + (other.score || 0) * 0.001 };
-          })
-          .filter(Boolean)
-          .sort((a, b) => b.weight - a.weight)
+        const agg = new Map(); // otherId → {other, weight, count}
+        myRels.forEach(r => {
+          const oid = r.source === selected.id ? r.target : r.source;
+          const other = nodeById.get(oid);
+          if (!other) return;
+          const cur = agg.get(oid) || { other, weight: 0, count: 0 };
+          cur.weight += (r.weight || 1);
+          cur.count += 1;
+          agg.set(oid, cur);
+        });
+        const top = [...agg.values()]
+          .sort((a, b) => (b.weight + b.count * 0.5) - (a.weight + a.count * 0.5))
           .slice(0, 3);
         if (top.length) {
-          parts.push(`<span class="attr-item"><span class="attr-key">最強關係</span>${top.map(t => escapeText(t.other.name)).join("、")}</span>`);
+          parts.push(`<span class="attr-item"><span class="attr-key">最常互動</span>${top.map(t => escapeText(t.other.name) + `（${t.count}次）`).join("、")}</span>`);
         }
       }
-      // 推估能力（依關係 category 數）
-      const catCount = { military: 0, strategy: 0, command: 0, ally: 0, family: 0, story: 0 };
+      // 推估能力（用百分位排名 vs 全體角色，避免大家都 5★）
+      const catCount = { military: 0, strategy: 0, command: 0, ally: 0, family: 0 };
       myRels.forEach(r => { if (r.category in catCount) catCount[r.category]++; });
       const abilityBits = [];
-      const star = n => "★".repeat(Math.min(5, Math.max(1, Math.round(n / 6)))) || "★";
-      if (catCount.military > 0) abilityBits.push(`武力${star(catCount.military)}`);
-      if (catCount.strategy > 0) abilityBits.push(`謀略${star(catCount.strategy)}`);
-      if (catCount.command > 0) abilityBits.push(`領導${star(catCount.command)}`);
-      if (catCount.ally > 0 || catCount.family > 0) {
-        abilityBits.push(`人緣${star(catCount.ally + catCount.family)}`);
-      }
+      const wuli = abilityStars("military", catCount.military);
+      const moulve = abilityStars("strategy", catCount.strategy);
+      const lingdao = abilityStars("command", catCount.command);
+      const renyuan = abilityStars(
+        catCount.ally >= catCount.family ? "ally" : "family",
+        catCount.ally + catCount.family
+      );
+      if (wuli)    abilityBits.push(`武力 <span class="ab-stars">${starText(wuli)}</span>`);
+      if (moulve)  abilityBits.push(`謀略 <span class="ab-stars">${starText(moulve)}</span>`);
+      if (lingdao) abilityBits.push(`領導 <span class="ab-stars">${starText(lingdao)}</span>`);
+      if (renyuan) abilityBits.push(`人緣 <span class="ab-stars">${starText(renyuan)}</span>`);
       if (abilityBits.length) {
-        parts.push(`<span class="attr-item"><span class="attr-key">推估能力</span>${escapeText(abilityBits.join(" · "))}</span>`);
+        parts.push(`<span class="attr-item"><span class="attr-key">推估能力</span>${abilityBits.join("　")}</span>`);
       }
       el.innerHTML = parts.join("");
     }
