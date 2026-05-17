@@ -419,6 +419,99 @@
       display: grid;
     }
 
+    .control-panel {
+      display: grid;
+      gap: 8px;
+    }
+
+    .path-builder-panel {
+      display: none;
+      gap: 10px;
+      padding: 12px;
+      border: 1px solid rgba(122,174,212,0.38);
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, rgba(189,215,240,0.34), rgba(255,255,255,0.9));
+    }
+
+    .path-builder-panel.is-visible {
+      display: grid;
+    }
+
+    .path-builder-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .path-builder-head strong {
+      font-size: 15px;
+      font-weight: 900;
+      line-height: 1.25;
+    }
+
+    .path-builder-head span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .path-input-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .path-input-grid label {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .path-input-grid input {
+      width: 100%;
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      color: var(--ink);
+      padding: 0 10px;
+      font-weight: 800;
+    }
+
+    .quick-paths {
+      display: grid;
+      gap: 6px;
+    }
+
+    .quick-path-btn {
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 7px 10px;
+      background: rgba(255,255,255,0.82);
+      font-weight: 900;
+      text-align: left;
+    }
+
+    .quick-path-btn small {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .path-builder-actions {
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 8px;
+    }
+
     .search-wrap {
       position: relative;
     }
@@ -452,7 +545,7 @@
       resize: vertical;
     }
 
-    .camp-filters, .category-filters {
+    .camp-filters, .category-filters, .density-filters, .relation-preset-filters {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
@@ -474,6 +567,12 @@
     .chip.camp-wu.is-active { background: var(--wu-bg); color: var(--wu-text); border-color: var(--wu-border); }
     .chip.camp-lords.is-active { background: var(--lords-bg); color: var(--lords-text); border-color: var(--lords-border); }
     .chip.camp-others.is-active { background: var(--mixed-bg); color: var(--mixed-text); border-color: var(--mixed-border); }
+    .chip.density-chip.is-active { background: var(--wei-bg); color: var(--wei-text); border-color: var(--wei-border); }
+    .chip.preset-core.is-active { background: var(--neutral-bg); color: var(--neutral-text); border-color: var(--neutral-border); }
+    .chip.preset-conflict.is-active { background: #FCE6E8; color: #7D1A26; border-color: var(--link-defeat); }
+    .chip.preset-ally.is-active { background: #E7F4FC; color: #1A4A72; border-color: var(--link-ally); }
+    .chip.preset-strategy.is-active { background: #FFF2CC; color: #6E4B00; border-color: var(--link-strategy); }
+    .chip.preset-all.is-active { background: var(--mixed-bg); color: var(--mixed-text); border-color: var(--mixed-border); }
 
     .roster-list {
       overflow: auto;
@@ -954,6 +1053,14 @@
       margin-top: 8px;
     }
 
+    .path-result-card {
+      display: none;
+    }
+
+    .path-result-card.is-visible {
+      display: block;
+    }
+
     .primary-btn {
       background: var(--shu-bg);
       border-color: var(--shu-border);
@@ -1314,7 +1421,7 @@
         <button type="button" data-mode="relation"><span class="mode-name">關係路徑</span><span class="mode-desc">找兩人怎麼連上</span></button>
       </nav>
       <div class="top-actions">
-        <select id="chapterSelect" class="chapter-select" aria-label="選擇章節範圍"></select>
+        <select id="chapterSelect" class="chapter-select" aria-label="全部章節"></select>
         <button type="button" id="teacherToggle" class="icon-btn" aria-label="老師設定">設</button>
       </div>
     </header>
@@ -1331,6 +1438,30 @@
               <span>選一位主角</span>
             </div>
             <div class="starter-grid" id="starterPeople"></div>
+          </div>
+          <div class="path-builder-panel" id="pathBuilderPanel">
+            <div class="path-builder-head">
+              <strong>建立一條關係路徑</strong>
+              <span>選兩端</span>
+            </div>
+            <div class="path-input-grid">
+              <label for="pathFrom"><span>從誰</span><input id="pathFrom" value="劉備" autocomplete="off"></label>
+              <label for="pathTo"><span>到誰</span><input id="pathTo" value="曹操" autocomplete="off"></label>
+            </div>
+            <div class="quick-paths" id="quickPathPairs"></div>
+            <div class="path-builder-actions">
+              <button type="button" id="findPath" class="primary-btn">尋找路徑</button>
+              <button type="button" id="swapPath" class="secondary-btn">交換</button>
+              <button type="button" id="clearPath" class="secondary-btn">清除</button>
+            </div>
+          </div>
+          <div class="control-panel" id="densityControl">
+            <div class="filter-label"><span>顯示人數</span><span>先少後多</span></div>
+            <div class="density-filters" id="densityFilters"></div>
+          </div>
+          <div class="control-panel" id="relationPresetControl">
+            <div class="filter-label"><span>關係重點</span><span>選一種看法</span></div>
+            <div class="relation-preset-filters" id="relationPresetFilters"></div>
           </div>
           <label class="field-label" id="searchLabel" for="searchInput">直接搜尋人物</label>
           <div class="search-wrap">
@@ -1376,25 +1507,17 @@
               <input id="battleSearchInput" type="search" placeholder="搜尋：赤壁、官渡、長坂、三英" autocomplete="off">
             </div>
           </section>
-          <section class="info-card">
-            <h2>關係路徑</h2>
-            <p>輸入兩個名字，找出圖譜中最短的故事連線。</p>
-            <div class="path-row">
-              <input id="pathFrom" value="劉備" aria-label="路徑起點">
-              <input id="pathTo" value="關羽" aria-label="路徑終點">
-            </div>
-            <div class="path-actions">
-              <button type="button" id="findPath" class="primary-btn">尋找路徑</button>
-              <button type="button" id="clearPath" class="secondary-btn">清除</button>
-            </div>
+          <section class="info-card path-result-card" id="pathResultCard">
+            <h2>路徑結果</h2>
+            <p>左側選兩個人物後，這裡會列出中間經過的人與關係。</p>
             <div class="path-result" id="pathResult"></div>
           </section>
           <section class="info-card teacher-panel" id="teacherPanel">
             <h2>老師設定</h2>
             <p>調整節點數量與關係類型，適合投影或小組討論時使用。</p>
             <div class="teacher-row">
-              <label for="nodeLimit">節點上限 <span id="nodeLimitValue">42</span></label>
-              <input id="nodeLimit" type="range" min="18" max="60" step="6" value="42">
+              <label for="nodeLimit">節點上限 <span id="nodeLimitValue">20</span></label>
+              <input id="nodeLimit" type="range" min="12" max="30" step="1" value="20">
             </div>
             <div class="check-list" id="categoryChecks"></div>
           </section>
@@ -1479,6 +1602,26 @@
       others: "其他群雄",
     };
     const DEFAULT_CATEGORIES = new Set(["story", "enemy", "defeat", "ally", "strategy", "command", "family"]);
+    const DEFAULT_NODE_LIMIT = 20;
+    const DEFAULT_RELATION_PRESET = "core";
+    const DENSITY_LEVELS = [
+      { id: "light", label: "12人", value: 12 },
+      { id: "clear", label: "20人", value: 20 },
+      { id: "rich", label: "30人", value: 30 },
+    ];
+    const RELATION_PRESETS = [
+      { id: "core", label: "主幹", categories: ["story", "command", "ally", "family"] },
+      { id: "conflict", label: "衝突", categories: ["enemy", "defeat"] },
+      { id: "ally", label: "合作", categories: ["ally", "command", "family"] },
+      { id: "strategy", label: "計策", categories: ["strategy", "command", "story"] },
+      { id: "all", label: "全部", categories: [...DEFAULT_CATEGORIES] },
+    ];
+    const QUICK_PATH_PAIRS = [
+      { from: "劉備", to: "曹操", label: "劉備 → 曹操", hint: "仁義與霸業" },
+      { from: "劉備", to: "孫權", label: "劉備 → 孫權", hint: "孫劉合作" },
+      { from: "曹操", to: "周瑜", label: "曹操 → 周瑜", hint: "赤壁對手" },
+      { from: "關羽", to: "曹操", label: "關羽 → 曹操", hint: "義與知遇" },
+    ];
     const DEFAULT_PERSON = "劉備";
     const STARTER_PEOPLE = ["劉備", "曹操", "孫權", "諸葛亮", "關羽", "張飛"];
     const THINKING_PROMPTS = {
@@ -1499,8 +1642,9 @@
       battleQuery: "",
       selectedId: findNodeId(DEFAULT_PERSON) || nodes[0].id,
       pathIds: [],
-      nodeLimit: 42,
-      enabledCategories: new Set(DEFAULT_CATEGORIES),
+      nodeLimit: DEFAULT_NODE_LIMIT,
+      relationPreset: DEFAULT_RELATION_PRESET,
+      enabledCategories: new Set(RELATION_PRESETS.find(preset => preset.id === DEFAULT_RELATION_PRESET)?.categories || DEFAULT_CATEGORIES),
     };
 
     let svg;
@@ -1515,6 +1659,12 @@
       chapterSelect: document.getElementById("chapterSelect"),
       campFilters: document.getElementById("campFilters"),
       campFilterPanel: document.getElementById("campFilterPanel"),
+      densityControl: document.getElementById("densityControl"),
+      densityFilters: document.getElementById("densityFilters"),
+      relationPresetControl: document.getElementById("relationPresetControl"),
+      relationPresetFilters: document.getElementById("relationPresetFilters"),
+      pathBuilderPanel: document.getElementById("pathBuilderPanel"),
+      quickPathPairs: document.getElementById("quickPathPairs"),
       starterPanel: document.getElementById("starterPanel"),
       starterPeople: document.getElementById("starterPeople"),
       rosterList: document.getElementById("rosterList"),
@@ -1541,9 +1691,11 @@
       nodeLimit: document.getElementById("nodeLimit"),
       nodeLimitValue: document.getElementById("nodeLimitValue"),
       categoryChecks: document.getElementById("categoryChecks"),
+      pathResultCard: document.getElementById("pathResultCard"),
       pathFrom: document.getElementById("pathFrom"),
       pathTo: document.getElementById("pathTo"),
       findPath: document.getElementById("findPath"),
+      swapPath: document.getElementById("swapPath"),
       clearPath: document.getElementById("clearPath"),
       pathResult: document.getElementById("pathResult"),
       zoomIn: document.getElementById("zoomIn"),
@@ -1591,7 +1743,7 @@
       dom.chapterSelect.replaceChildren(...DATA.chapterPresets.map(preset => {
         const option = document.createElement("option");
         option.value = preset.id;
-        option.textContent = preset.id === "all" ? "選擇章節範圍" : `${preset.shortLabel} ${preset.label}`;
+        option.textContent = preset.id === "all" ? "全部章節" : `${preset.shortLabel} ${preset.label}`;
         return option;
       }));
 
@@ -1601,6 +1753,38 @@
         button.className = `chip camp-${item.id}${item.id === "all" ? " is-active" : ""}`;
         button.dataset.camp = item.id;
         button.textContent = item.label;
+        return button;
+      }));
+
+      dom.densityFilters.replaceChildren(...DENSITY_LEVELS.map(level => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `chip density-chip${level.value === state.nodeLimit ? " is-active" : ""}`;
+        button.dataset.limit = String(level.value);
+        button.textContent = level.label;
+        return button;
+      }));
+
+      dom.relationPresetFilters.replaceChildren(...RELATION_PRESETS.map(preset => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `chip preset-${preset.id}${preset.id === state.relationPreset ? " is-active" : ""}`;
+        button.dataset.preset = preset.id;
+        button.textContent = preset.label;
+        return button;
+      }));
+
+      dom.quickPathPairs.replaceChildren(...QUICK_PATH_PAIRS.map(pair => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "quick-path-btn";
+        button.dataset.from = pair.from;
+        button.dataset.to = pair.to;
+        const label = document.createElement("span");
+        label.textContent = pair.label;
+        const hint = document.createElement("small");
+        hint.textContent = pair.hint;
+        button.append(label, hint);
         return button;
       }));
 
@@ -1658,6 +1842,25 @@
         rebuildGraph("campFilter");
       });
 
+      dom.densityFilters.addEventListener("click", event => {
+        const button = event.target.closest("button[data-limit]");
+        if (!button) return;
+        state.nodeLimit = Number(button.dataset.limit);
+        dom.nodeLimit.value = String(state.nodeLimit);
+        dom.nodeLimitValue.textContent = String(state.nodeLimit);
+        syncDensityButtons();
+        rebuildGraph("limit");
+        updatePanels();
+      });
+
+      dom.relationPresetFilters.addEventListener("click", event => {
+        const button = event.target.closest("button[data-preset]");
+        if (!button) return;
+        applyRelationPreset(button.dataset.preset);
+        rebuildGraph("categories");
+        updatePanels();
+      });
+
       dom.searchInput.addEventListener("input", debounce(() => {
         state.query = dom.searchInput.value.trim();
         renderRoster();
@@ -1674,6 +1877,14 @@
         renderRelationGroups(nodeById.get(state.selectedId) || nodes[0], currentPreset());
       }, 120));
 
+      dom.quickPathPairs.addEventListener("click", event => {
+        const button = event.target.closest("button[data-from][data-to]");
+        if (!button) return;
+        dom.pathFrom.value = button.dataset.from;
+        dom.pathTo.value = button.dataset.to;
+        runPathSearch();
+      });
+
       dom.teacherToggle.addEventListener("click", () => {
         dom.teacherPanel.classList.toggle("is-open");
       });
@@ -1681,33 +1892,27 @@
       dom.nodeLimit.addEventListener("input", debounce(() => {
         state.nodeLimit = Number(dom.nodeLimit.value);
         dom.nodeLimitValue.textContent = String(state.nodeLimit);
+        syncDensityButtons();
         rebuildGraph("limit");
+        updatePanels();
       }, 180));
 
       dom.categoryChecks.addEventListener("change", () => {
         state.enabledCategories = new Set(
           [...dom.categoryChecks.querySelectorAll("input:checked")].map(input => input.value)
         );
+        state.relationPreset = "custom";
+        syncRelationPresetButtons();
         rebuildGraph("categories");
+        updatePanels();
       });
 
-      dom.findPath.addEventListener("click", () => {
-        const from = findNodeId(dom.pathFrom.value.trim());
-        const to = findNodeId(dom.pathTo.value.trim());
-        if (!from || !to) {
-          renderPathResult([], "找不到其中一個名字，請試試完整人物名。");
-          return;
-        }
-        const path = shortestPath(from, to);
-        if (!path.length) {
-          renderPathResult([], "這個章回範圍內找不到可讀的路徑。");
-          return;
-        }
-        setMode("relation");
-        state.pathIds = path;
-        state.selectedId = from;
-        rebuildGraph("path");
-        updatePanels();
+      dom.findPath.addEventListener("click", () => runPathSearch());
+
+      dom.swapPath.addEventListener("click", () => {
+        const from = dom.pathFrom.value;
+        dom.pathFrom.value = dom.pathTo.value;
+        dom.pathTo.value = from;
       });
 
       dom.clearPath.addEventListener("click", () => {
@@ -1752,6 +1957,55 @@
       });
     }
 
+    function syncDensityButtons() {
+      [...dom.densityFilters.children].forEach(child => {
+        child.classList.toggle("is-active", Number(child.dataset.limit) === state.nodeLimit);
+      });
+    }
+
+    function syncRelationPresetButtons() {
+      [...dom.relationPresetFilters.children].forEach(child => {
+        child.classList.toggle("is-active", child.dataset.preset === state.relationPreset);
+      });
+    }
+
+    function syncCategoryChecks() {
+      dom.categoryChecks.querySelectorAll("input").forEach(input => {
+        input.checked = state.enabledCategories.has(input.value);
+      });
+    }
+
+    function applyRelationPreset(id) {
+      const preset = RELATION_PRESETS.find(item => item.id === id) || RELATION_PRESETS[0];
+      state.relationPreset = preset.id;
+      state.enabledCategories = new Set(preset.categories);
+      syncRelationPresetButtons();
+      syncCategoryChecks();
+    }
+
+    function runPathSearch() {
+      const from = findNodeId(dom.pathFrom.value.trim());
+      const to = findNodeId(dom.pathTo.value.trim());
+      if (!from || !to) {
+        state.pathIds = [];
+        setMode("relation");
+        renderPathResult([], "找不到其中一個名字，請試試完整人物名。");
+        return;
+      }
+      const path = shortestPath(from, to);
+      if (!path.length) {
+        state.pathIds = [];
+        setMode("relation");
+        renderPathResult([], "這個章回範圍內找不到可讀的路徑。");
+        return;
+      }
+      setMode("relation");
+      state.pathIds = path;
+      state.selectedId = from;
+      rebuildGraph("path");
+      updatePanels();
+    }
+
     function startFromPerson(name) {
       const id = findNodeId(name);
       if (!id) return;
@@ -1785,11 +2039,15 @@
       dom.searchLabel.textContent = copy.searchLabel;
       dom.searchInput.placeholder = copy.placeholder;
       dom.campFilterPanel.classList.toggle("is-visible", state.mode === "person");
-      dom.starterPanel.style.display = state.mode === "battle" ? "none" : "";
+      dom.pathBuilderPanel.classList.toggle("is-visible", state.mode === "relation");
+      dom.pathResultCard.classList.toggle("is-visible", state.mode === "relation" || state.pathIds.length > 0);
+      dom.starterPanel.style.display = state.mode === "person" ? "" : "none";
+      dom.densityControl.style.display = state.mode === "relation" ? "none" : "";
+      dom.relationPresetControl.style.display = state.mode === "battle" ? "none" : "";
       dom.searchLabel.style.display = state.mode === "battle" ? "none" : "";
       dom.searchInput.parentElement.style.display = state.mode === "battle" ? "none" : "";
       dom.battleSearchCard.classList.toggle("is-visible", state.mode === "battle");
-      dom.eventBookTitle.textContent = state.mode === "battle" ? "推薦故事與戰役" : "關係分類";
+      dom.eventBookTitle.textContent = state.mode === "battle" ? "推薦故事與戰役" : (state.mode === "relation" ? "路徑中的關係" : "關係分類");
       [...dom.starterPeople.children].forEach(child => {
         const id = findNodeId(child.dataset.person);
         child.classList.toggle("is-active", id === state.selectedId && state.mode === "person");
@@ -2132,7 +2390,7 @@
       }
       const groups = relationGroupsFor(selected.id, preset);
       if (!groups.length) {
-        dom.relationGroups.replaceChildren(emptyState("這個範圍內沒有足夠的可分類關係，可以先重新選擇章節範圍。"));
+        dom.relationGroups.replaceChildren(emptyState("這個範圍內沒有足夠的可分類關係，可以先切換章節。"));
         return;
       }
       dom.relationGroups.replaceChildren(...groups.map(group => {
@@ -2441,9 +2699,31 @@
         if (isStoryNode(node)) {
           setMode("battle");
         }
+        if (state.mode === "relation" && !isStoryNode(node)) {
+          fillPathEndpoint(node.name);
+          return;
+        }
         selectNode(node.id);
       });
       return button;
+    }
+
+    function fillPathEndpoint(name) {
+      if (document.activeElement === dom.pathFrom) {
+        dom.pathFrom.value = name;
+        dom.pathTo.focus();
+        return;
+      }
+      if (document.activeElement === dom.pathTo) {
+        dom.pathTo.value = name;
+        return;
+      }
+      if (!dom.pathFrom.value.trim()) {
+        dom.pathFrom.value = name;
+        dom.pathTo.focus();
+        return;
+      }
+      dom.pathTo.value = name;
     }
 
     function selectNode(id) {
