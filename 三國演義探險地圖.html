@@ -573,13 +573,24 @@
       border-radius: 4px;
     }
 
-    /* relation 模式下的陣營篩選 chips */
+    /* 推薦關係焦點 header + chips (relation mode only) */
+    .relation-roster-header {
+      display: none;
+      flex-direction: column;
+      gap: 6px;
+      padding: 8px 8px 4px;
+      border-top: 1px dashed rgba(0,0,0,.08);
+      margin-top: 4px;
+    }
+    body[data-mode="relation"] .relation-roster-header { display: flex; }
+    .relation-roster-header .rrh-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--ink);
+    }
     .relation-camp-filter {
       display: flex;
       gap: 4px;
-      margin-top: 4px;
-      padding-top: 6px;
-      border-top: 1px dashed rgba(0,0,0,.08);
     }
     .relation-camp-filter button {
       flex: 1;
@@ -597,6 +608,29 @@
       background: #C85A00;
       color: #fff;
       border-color: #C85A00;
+    }
+    /* relation 模式：path-builder 限高 + roster 雙欄 + 高度分配 */
+    body[data-mode="relation"] .roster {
+      display: flex;
+      flex-direction: column;
+    }
+    body[data-mode="relation"] .roster-controls {
+      max-height: 55%;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    body[data-mode="relation"] .roster-list {
+      flex: 1;
+      min-height: 45%;
+      overflow-y: auto;
+    }
+    body[data-mode="relation"] .roster-list .group-block {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px 6px;
+    }
+    body[data-mode="relation"] .roster-list .group-title {
+      grid-column: 1 / -1;
     }
 
     .quick-path-btn small {
@@ -2593,6 +2627,9 @@
               <button type="button" id="clearPath" class="secondary-btn">清除</button>
             </div>
             <div class="quick-paths" id="quickPathPairs"></div>
+          </div>
+          <div class="relation-roster-header" id="relationRosterHeader" aria-label="推薦關係焦點功能列">
+            <div class="rrh-title">🎯 推薦關係焦點</div>
             <div class="relation-camp-filter" id="relationCampFilter" aria-label="陣營篩選">
               <button type="button" data-rcf="all" class="is-active">全部</button>
               <button type="button" data-rcf="wei">魏</button>
@@ -2840,6 +2877,7 @@
       visualStyle: ["balanced", "clean", "reading"].includes(savedSettings.visualStyle) ? savedSettings.visualStyle : "balanced",
       fontScale: ["small", "normal", "large"].includes(savedSettings.fontScale) ? savedSettings.fontScale : "normal",
       enabledCategories: new Set(RELATION_PRESETS.find(preset => preset.id === DEFAULT_RELATION_PRESET)?.categories || DEFAULT_CATEGORIES),
+      lastPathFocus: "from",
     };
 
     let svg;
@@ -2941,6 +2979,7 @@
       applyDisplaySettings(false);
       setMobileSheetSnap("peek");
       applyHashState();
+      document.body.setAttribute("data-mode", state.mode);
       syncMobileModeNav();
       updateScenarioChrome();
       bindEvents();
@@ -3212,6 +3251,10 @@
 
       dom.findPath.addEventListener("click", () => runPathSearch());
 
+      // 追蹤最近 focus 的 path input（決定點清單填到哪）
+      dom.pathFrom.addEventListener("focus", () => { state.lastPathFocus = "from"; });
+      dom.pathTo.addEventListener("focus", () => { state.lastPathFocus = "to"; });
+
       dom.swapPath.addEventListener("click", () => {
         const from = dom.pathFrom.value;
         dom.pathFrom.value = dom.pathTo.value;
@@ -3448,10 +3491,14 @@
 
     function setMode(mode) {
       state.mode = mode;
+      document.body.setAttribute("data-mode", mode);
       if (state.mobileMode !== "notebook") state.mobileMode = mode;
       if (mode !== "person") {
         state.campFilter = "all";
         [...dom.campFilters.children].forEach(child => child.classList.toggle("is-active", child.dataset.camp === "all"));
+        // 同步 relation chips
+        const rcf = document.getElementById("relationCampFilter");
+        if (rcf) [...rcf.children].forEach(c => c.classList.toggle("is-active", c.dataset.rcf === "all"));
       }
       if (mode === "battle") {
         const event = topEventForPreset(currentPreset());
@@ -4590,9 +4637,10 @@
           setMode("battle");
         }
         if (state.mode === "relation" && !isStoryNode(node)) {
-          // 點清單 = 換主角焦點：selectNode + 把該人設為路徑起點（焦點在前）
+          // 依據最近 focus 的 input 決定填到哪
           selectNode(node.id);
-          if (dom.pathFrom) dom.pathFrom.value = node.name;
+          const target = state.lastPathFocus === "to" ? dom.pathTo : dom.pathFrom;
+          if (target) target.value = node.name;
           showPathToast(node.name);
           return;
         }
