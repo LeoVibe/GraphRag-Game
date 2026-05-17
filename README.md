@@ -4,6 +4,8 @@
 
 🌍 **線上版**：https://leovibe.github.io/GraphRag-Game/
 
+[![三國演義探險地圖](docs/images/cover.png)](https://leovibe.github.io/GraphRag-Game/)
+
 ## 內容（5 大區塊）
 
 | 區塊 | 內容 | 大小 |
