@@ -4091,7 +4091,8 @@
     function renderTraits(node) {
       const entries = Object.entries(node.traits || {});
       if (!entries.length) {
-        dom.traitList.replaceChildren(emptyState("這個人物還沒有手動設定能力標籤，先用關係線觀察他的行動。"));
+        // 沒有手動標籤就清空，能力推估改由 renderAttributes（推估能力）提供
+        dom.traitList.replaceChildren();
         return;
       }
       dom.traitList.replaceChildren(...entries.map(([label, value]) => {
