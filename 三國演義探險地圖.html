@@ -506,8 +506,8 @@
 
     .path-builder-panel {
       display: none;
-      gap: 10px;
-      padding: 12px;
+      gap: 6px;
+      padding: 8px;
       border: 1px solid rgba(122,174,212,0.38);
       border-radius: var(--radius);
       background: linear-gradient(135deg, rgba(189,215,240,0.34), rgba(255,255,255,0.9));
@@ -517,66 +517,86 @@
       display: grid;
     }
 
-    .path-builder-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-    }
-
-    .path-builder-head strong {
-      font-size: 15px;
-      font-weight: 900;
-      line-height: 1.25;
-    }
-
-    .path-builder-head span {
-      color: var(--muted);
-      font-size: 13px;
-      font-weight: 900;
-      white-space: nowrap;
-    }
-
     .path-input-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 8px;
-    }
-
-    .path-input-grid label {
-      display: grid;
-      gap: 5px;
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 900;
+      gap: 6px;
     }
 
     .path-input-grid input {
       width: 100%;
-      min-height: 44px;
+      min-height: 30px;
       border: 1px solid var(--line);
-      border-radius: var(--radius);
+      border-radius: 6px;
       background: #fff;
       color: var(--ink);
-      padding: 0 10px;
-      font-weight: 800;
+      padding: 0 8px;
+      font-size: 13px;
+      font-weight: 700;
     }
+    .path-input-grid input::placeholder {
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 12px;
+    }
+
+    .path-builder-actions {
+      display: flex;
+      gap: 4px;
+    }
+    .path-builder-actions .primary-btn,
+    .path-builder-actions .secondary-btn {
+      min-height: 28px;
+      padding: 0 10px;
+      font-size: 12px;
+      font-weight: 700;
+      flex: 1;
+    }
+    .path-builder-actions .primary-btn { flex: 2; }
 
     .quick-paths {
       display: grid;
-      gap: 6px;
+      gap: 3px;
     }
 
     .quick-path-btn {
-      min-height: 42px;
+      min-height: 28px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 8px;
-      padding: 7px 10px;
+      gap: 6px;
+      padding: 3px 8px;
       background: rgba(255,255,255,0.82);
-      font-weight: 900;
+      font-weight: 700;
+      font-size: 12px;
       text-align: left;
+      border-radius: 4px;
+    }
+
+    /* relation 模式下的陣營篩選 chips */
+    .relation-camp-filter {
+      display: flex;
+      gap: 4px;
+      margin-top: 4px;
+      padding-top: 6px;
+      border-top: 1px dashed rgba(0,0,0,.08);
+    }
+    .relation-camp-filter button {
+      flex: 1;
+      min-height: 24px;
+      padding: 2px 4px;
+      font-size: 11px;
+      font-weight: 700;
+      border: 1px solid var(--line);
+      border-radius: 99px;
+      background: #fff;
+      color: var(--muted);
+      cursor: pointer;
+    }
+    .relation-camp-filter button.is-active {
+      background: #C85A00;
+      color: #fff;
+      border-color: #C85A00;
     }
 
     .quick-path-btn small {
@@ -2563,19 +2583,22 @@
             <div class="starter-grid" id="starterPeople"></div>
           </div>
           <div class="path-builder-panel" id="pathBuilderPanel">
-            <div class="path-builder-head">
-              <strong>建立一條關係路徑</strong>
-              <span>選兩端</span>
-            </div>
             <div class="path-input-grid">
-              <label for="pathFrom"><span>從誰</span><input id="pathFrom" value="劉備" autocomplete="off"></label>
-              <label for="pathTo"><span>到誰</span><input id="pathTo" value="曹操" autocomplete="off"></label>
+              <input id="pathFrom" value="劉備" placeholder="從誰：例如 劉備" autocomplete="off">
+              <input id="pathTo" value="曹操" placeholder="到誰：例如 曹操" autocomplete="off">
             </div>
-            <div class="quick-paths" id="quickPathPairs"></div>
             <div class="path-builder-actions">
               <button type="button" id="findPath" class="primary-btn">尋找路徑</button>
               <button type="button" id="swapPath" class="secondary-btn">交換</button>
               <button type="button" id="clearPath" class="secondary-btn">清除</button>
+            </div>
+            <div class="quick-paths" id="quickPathPairs"></div>
+            <div class="relation-camp-filter" id="relationCampFilter" aria-label="陣營篩選">
+              <button type="button" data-rcf="all" class="is-active">全部</button>
+              <button type="button" data-rcf="wei">魏</button>
+              <button type="button" data-rcf="shu">蜀</button>
+              <button type="button" data-rcf="wu">吳</button>
+              <button type="button" data-rcf="other">其他</button>
             </div>
           </div>
           <div class="control-panel" id="relationPresetControl">
@@ -3051,6 +3074,18 @@
         renderRoster();
         rebuildGraph("campFilter");
       });
+
+      // relation 模式陣營篩選
+      const relCampEl = document.getElementById("relationCampFilter");
+      if (relCampEl) {
+        relCampEl.addEventListener("click", evt => {
+          const btn = evt.target.closest("button[data-rcf]");
+          if (!btn) return;
+          state.campFilter = btn.dataset.rcf;
+          [...relCampEl.children].forEach(c => c.classList.toggle("is-active", c === btn));
+          renderRoster();
+        });
+      }
 
       dom.densityFilters.addEventListener("click", event => {
         const button = event.target.closest("button[data-limit]");
@@ -3538,7 +3573,7 @@
 
     function campMatchesFilter(camp, filter = state.campFilter) {
       if (filter === "all") return true;
-      if (filter === "others") return !CORE_CAMPS.has(camp);
+      if (filter === "others" || filter === "other") return !CORE_CAMPS.has(camp);
       return camp === filter;
     }
 
