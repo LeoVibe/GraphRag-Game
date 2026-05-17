@@ -3247,6 +3247,7 @@
         const from = dom.pathFrom.value;
         dom.pathFrom.value = dom.pathTo.value;
         dom.pathTo.value = from;
+        state.lastPathFocus = state.lastPathFocus === "to" ? "from" : "to";
       });
 
       dom.clearPath.addEventListener("click", () => {
@@ -3482,13 +3483,14 @@
     }
 
     function setMode(mode) {
+      const prevMode = state.mode;
       state.mode = mode;
       document.body.setAttribute("data-mode", mode);
       if (state.mobileMode !== "notebook") state.mobileMode = mode;
-      if (mode !== "person") {
+      // 只有「從 person 真的離開」才重設 camp filter；在 relation/battle 內反覆觸發不該洗掉使用者選擇
+      if (mode !== "person" && prevMode === "person") {
         state.campFilter = "all";
         [...dom.campFilters.children].forEach(child => child.classList.toggle("is-active", child.dataset.camp === "all"));
-        // 同步 relation chips
         const rcf = document.getElementById("relationCampFilter");
         if (rcf) [...rcf.children].forEach(c => c.classList.toggle("is-active", c.dataset.rcf === "all"));
       }
@@ -4629,10 +4631,12 @@
           setMode("battle");
         }
         if (state.mode === "relation" && !isStoryNode(node)) {
-          // 依據最近 focus 的 input 決定填到哪
-          selectNode(node.id);
+          // 依據最近 focus 的 input 決定填到哪，填完自動切換另一個欄位
           const target = state.lastPathFocus === "to" ? dom.pathTo : dom.pathFrom;
           if (target) target.value = node.name;
+          state.lastPathFocus = state.lastPathFocus === "to" ? "from" : "to";
+          state.selectedId = node.id;
+          updateVisualState();
           showPathToast(node.name);
           return;
         }
