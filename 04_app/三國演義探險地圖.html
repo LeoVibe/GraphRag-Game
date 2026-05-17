@@ -862,6 +862,23 @@
     .node.camp-lords .node-shape { fill: var(--lords-bg); stroke: var(--lords-border); }
     .node.camp-mixed .node-shape { fill: var(--mixed-bg); stroke: var(--mixed-border); }
     .node.camp-neutral .node-shape { fill: var(--neutral-bg); stroke: var(--neutral-border); }
+    /* 勢力/戰役/策略 用較粗邊框強化形狀辨識 */
+    .node.shape-hex .node-shape,
+    .node.shape-diamond .node-shape,
+    .node.shape-star .node-shape {
+      stroke-width: 2.5;
+    }
+    /* 各特殊形狀的填色：用淺紫/粉色作底，比一般圓更醒目 */
+    .node.shape-hex .node-shape   { fill: #E8DAEF; stroke: #B39DCC; }
+    .node.shape-diamond .node-shape { fill: #F4B8C1; stroke: #C8556A; }
+    .node.shape-star .node-shape  { fill: #FDE8C8; stroke: #E8B86D; }
+    /* 仍允許 camp 顏色覆寫，但用透明度減弱 */
+    .node.shape-hex.camp-wei .node-shape    { fill: #BDD7F0; stroke: #5B8AAE; }
+    .node.shape-hex.camp-shu .node-shape    { fill: #B8E8CA; stroke: #4F9F73; }
+    .node.shape-hex.camp-wu .node-shape     { fill: #F4B8C1; stroke: #C8556A; }
+    .node.shape-diamond.camp-wei .node-shape { fill: #99C2DE; stroke: #2A5C7E; }
+    .node.shape-diamond.camp-shu .node-shape { fill: #9ED9B0; stroke: #1F7A47; }
+    .node.shape-diamond.camp-wu .node-shape  { fill: #ED99A8; stroke: #98273C; }
     .node.type-event .node-shape, .node.type-battle .node-shape {
       fill: rgba(255, 253, 247, 0.96);
       stroke: var(--neutral-border);
@@ -1446,19 +1463,126 @@
       margin-top: 10px;
     }
 
-    .thought-trigger {
-      min-width: 108px;
-      min-height: 42px;
+    .thought-trigger,
+    .thought-drawer,
+    .selected-actions {
+      display: none !important;
+    }
+    /* 圖面上的人數選擇浮層 */
+    .density-overlay {
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      gap: 7px;
-      padding: 0 12px;
-      background: var(--mixed-bg);
-      border-color: var(--mixed-border);
-      color: var(--mixed-text);
-      font-weight: 900;
-      white-space: nowrap;
+      gap: 4px;
+      padding: 4px 6px 4px 10px;
+      margin-right: 4px;
+      background: rgba(253,240,213,.94);
+      border: 1.5px solid var(--hairline-strong, rgba(100,70,40,.32));
+      border-radius: 99px;
+      backdrop-filter: blur(6px);
+    }
+    .density-overlay .density-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--ink-soft, #8B6E5A);
+      margin-right: 2px;
+    }
+    .density-overlay .density-pick {
+      min-width: 30px;
+      height: 26px;
+      padding: 0 8px;
+      border: 0;
+      border-radius: 99px;
+      background: transparent;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--ink-soft, #8B6E5A);
+      cursor: pointer;
+      transition: background .12s, color .12s;
+    }
+    .density-overlay .density-pick:hover {
+      background: rgba(0,0,0,.05);
+    }
+    .density-overlay .density-pick.is-active {
+      background: #C85A00;
+      color: #FFFBF2;
+    }
+    .story-hint {
+      font-size: 12.5px;
+      color: var(--ink-soft);
+      margin: 4px 0 8px;
+      line-height: 1.55;
+    }
+    /* 時間軸：走過的故事 */
+    .timeline-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      padding: 6px 8px 8px;
+      border-left: 3px solid var(--hairline-strong, rgba(100,70,40,.32));
+      margin-left: 4px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -6px;
+      top: 12px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #C85A00;
+      border: 2px solid #FFFBF2;
+      box-shadow: 0 0 0 1px var(--hairline-strong, rgba(100,70,40,.32));
+    }
+    .timeline-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 0;
+      background: transparent;
+      padding: 0;
+      font-weight: 700;
+      color: var(--ink);
+      cursor: pointer;
+      text-align: left;
+    }
+    .timeline-btn .tl-ch {
+      font-family: "Fredoka", monospace;
+      font-size: 11px;
+      color: #C85A00;
+      background: rgba(200,90,0,.1);
+      padding: 1px 6px;
+      border-radius: 99px;
+    }
+    .timeline-btn .tl-ico { font-size: 14px; }
+    .timeline-btn .tl-name {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .timeline-btn:hover .tl-name { color: #C85A00; }
+    .tl-meta {
+      font-size: 12px;
+      color: var(--ink-soft);
+      line-height: 1.5;
+      padding-left: 4px;
+    }
+    .attribute-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      margin-top: 8px;
+      font-size: 12.5px;
+      color: var(--ink-soft);
+    }
+    .attribute-list .attr-key {
+      color: var(--ink);
+      font-weight: 700;
+      margin-right: 4px;
+    }
+    .attribute-list .attr-item {
+      padding: 3px 9px;
+      border-radius: 99px;
+      background: rgba(0,0,0,.04);
     }
 
     .thought-trigger svg {
@@ -2359,21 +2483,21 @@
               <button type="button" id="clearPath" class="secondary-btn">清除</button>
             </div>
           </div>
-          <div class="control-panel" id="densityControl">
-            <div class="filter-label"><span>顯示人數</span><span>先少後多</span></div>
-            <div class="density-filters" id="densityFilters"></div>
-          </div>
           <div class="control-panel" id="relationPresetControl">
-            <div class="filter-label"><span>關係重點</span><span>選一種看法</span></div>
+            <div class="filter-label"><span>看哪種關係</span><span>朋友 · 對手 · 戰場</span></div>
             <div class="relation-preset-filters" id="relationPresetFilters"></div>
           </div>
-          <label class="field-label" id="searchLabel" for="searchInput">直接搜尋人物</label>
-          <div class="search-wrap">
-            <input id="searchInput" type="search" placeholder="搜尋：劉備、關羽、曹操" autocomplete="off">
-          </div>
           <div class="camp-filter-panel is-visible" id="campFilterPanel">
-            <div class="filter-label"><span>縮小關係圖</span><span>只看某一方</span></div>
+            <div class="filter-label"><span>只看陣營</span><span>蜀 · 魏 · 吳</span></div>
             <div class="camp-filters" id="campFilters"></div>
+          </div>
+          <!-- Hidden legacy elements (kept for JS compatibility) -->
+          <div class="control-panel" id="densityControl" hidden style="display:none">
+            <div class="density-filters" id="densityFilters"></div>
+          </div>
+          <label class="field-label" id="searchLabel" for="searchInput" hidden style="display:none">直接搜尋人物</label>
+          <div class="search-wrap" hidden style="display:none">
+            <input id="searchInput" type="search" placeholder="搜尋：劉備、關羽、曹操" autocomplete="off">
           </div>
         </div>
         <div class="roster-list" id="rosterList"></div>
@@ -2385,6 +2509,12 @@
             <strong id="mapTitle">劉備：人物關係</strong>
           </div>
           <div class="map-tools" aria-label="地圖工具">
+            <div class="density-overlay" id="densityOverlay" role="group" aria-label="顯示人數">
+              <span class="density-label">人數</span>
+              <button type="button" data-density-pick="10" class="density-pick">10</button>
+              <button type="button" data-density-pick="20" class="density-pick is-active">20</button>
+              <button type="button" data-density-pick="40" class="density-pick">40</button>
+            </div>
             <button type="button" id="zoomIn" aria-label="放大">+</button>
             <button type="button" id="zoomOut" aria-label="縮小">-</button>
             <button type="button" id="zoomReset" aria-label="回到全圖">□</button>
@@ -2398,7 +2528,7 @@
 
       <aside class="panel guide">
         <div class="panel-head">
-          <div class="panel-title">重點事件簿</div>
+          <div class="panel-title">🗂️ 關係分類</div>
         </div>
         <div class="guide-scroll">
           <section class="info-card path-result-card" id="pathResultCard">
@@ -2407,7 +2537,7 @@
             <div class="path-result" id="pathResult"></div>
           </section>
           <section class="info-card">
-            <h2 id="eventBookTitle">關係分類</h2>
+            <h2 id="eventBookTitle">這個人的關係</h2>
             <div class="relation-groups" id="relationGroups"></div>
           </section>
           <section class="info-card battle-search" id="battleSearchCard">
@@ -2437,16 +2567,13 @@
           </div>
         </div>
         <p class="intro" id="selectedIntro"></p>
-        <div class="selected-actions">
-          <button type="button" id="openThought" class="thought-trigger" aria-label="想一想">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a7 7 0 0 0-4 12.74V18h8v-2.26A7 7 0 0 0 12 3Z"></path><path d="M9 21h6"></path><path d="M10 18h4"></path></svg>
-            <span>想一想</span>
-          </button>
-        </div>
+        <button type="button" id="openThought" class="thought-trigger" aria-label="想一想" hidden style="display:none"></button>
         <div class="trait-list" id="traitList"></div>
+        <div class="attribute-list" id="attributeList"></div>
       </div>
       <div class="story-section">
-        <h3>重要時刻</h3>
+        <h3>📜 走過的故事</h3>
+        <p class="story-hint" id="storyHint">依出場章節順序，把這個角色的關鍵時刻串起來。</p>
         <div class="event-list" id="eventList"></div>
       </div>
     </section>
@@ -2548,14 +2675,14 @@
     const DEFAULT_NODE_LIMIT = 20;
     const DEFAULT_RELATION_PRESET = "core";
     const DENSITY_LEVELS = [
-      { id: "light", label: "12人", value: 12 },
+      { id: "light", label: "10人", value: 10 },
       { id: "clear", label: "20人", value: 20 },
-      { id: "rich", label: "30人", value: 30 },
+      { id: "rich", label: "40人", value: 40 },
     ];
     const RELATION_PRESETS = [
-      { id: "core", label: "主幹", categories: ["story", "command", "ally", "family"] },
-      { id: "conflict", label: "衝突", categories: ["enemy", "defeat"] },
-      { id: "ally", label: "合作", categories: ["ally", "command", "family"] },
+      { id: "core", label: "重要英雄", categories: ["story", "command", "ally", "family"] },
+      { id: "conflict", label: "對手", categories: ["enemy", "defeat"] },
+      { id: "ally", label: "朋友", categories: ["ally", "command", "family"] },
       { id: "strategy", label: "計策", categories: ["strategy", "command", "story"] },
       { id: "all", label: "全部", categories: [...DEFAULT_CATEGORIES] },
     ];
@@ -2834,6 +2961,7 @@
         dom.nodeLimit.value = String(state.nodeLimit);
         dom.nodeLimitValue.textContent = String(state.nodeLimit);
         syncDensityButtons();
+        syncDensityOverlay();
         rebuildGraph("limit");
         updatePanels();
       });
@@ -2845,6 +2973,33 @@
         rebuildGraph("categories");
         updatePanels();
       });
+
+      // 圖面上的人數浮層 (10/20/40)
+      const densityOverlayEl = document.getElementById("densityOverlay");
+      if (densityOverlayEl) {
+        densityOverlayEl.addEventListener("click", event => {
+          const button = event.target.closest("button[data-density-pick]");
+          if (!button) return;
+          const newLimit = Number(button.dataset.densityPick);
+          state.nodeLimit = newLimit;
+          if (dom.nodeLimit) dom.nodeLimit.value = String(newLimit);
+          if (dom.nodeLimitValue) dom.nodeLimitValue.textContent = String(newLimit);
+          syncDensityButtons();
+          syncDensityOverlay();
+          rebuildGraph("limit");
+          updatePanels();
+        });
+      }
+      function syncDensityOverlay() {
+        if (!densityOverlayEl) return;
+        [...densityOverlayEl.querySelectorAll("button[data-density-pick]")].forEach(btn => {
+          btn.classList.toggle("is-active", Number(btn.dataset.densityPick) === state.nodeLimit);
+        });
+      }
+      // 初始同步一次
+      syncDensityOverlay();
+      // 把 sync 函數掛到 window，讓 setupBindings 外的程式碼也能呼叫
+      window.__syncDensityOverlay = syncDensityOverlay;
 
       dom.searchInput.addEventListener("input", debounce(() => {
         state.query = dom.searchInput.value.trim();
@@ -3383,29 +3538,54 @@
         .join(
           enter => {
             const g = enter.append("g")
-              .attr("class", d => nodeClass(d))
+              .attr("class", d => nodeClass(d) + " " + nodeShapeClass(d))
               .on("click", (event, d) => selectNode(d.id))
               .call(dragBehavior());
             g.append("circle").attr("class", "node-shape circle-shape");
             g.append("rect").attr("class", "node-shape rect-shape");
+            g.append("path").attr("class", "node-shape sym-shape");
             g.append("text").attr("class", "node-label");
             g.append("title");
             return g;
           },
-          update => update.attr("class", d => nodeClass(d)),
+          update => update.attr("class", d => nodeClass(d) + " " + nodeShapeClass(d)),
           exit => exit.remove()
         );
 
+      // 動態決定使用哪種形狀
+      function shapeKind(d) {
+        const t = (d.type || "").toLowerCase();
+        if (t === "faction") return "hex";    // 六角形
+        if (t === "battle") return "diamond"; // 菱形
+        if (t === "strategy") return "star";  // 星形
+        if (t === "location") return "rect";  // 圓角矩形
+        if (isStoryNode(d)) return "rect";    // 故事節點維持矩形
+        return "circle";                      // 人物 / army / event 預設圓
+      }
       nodeSel.select("circle")
-        .style("display", d => isStoryNode(d) ? "none" : null)
+        .style("display", d => shapeKind(d) === "circle" ? null : "none")
         .attr("r", d => d.r);
       nodeSel.select("rect")
-        .style("display", d => isStoryNode(d) ? null : "none")
+        .style("display", d => shapeKind(d) === "rect" ? null : "none")
         .attr("x", d => -Math.min(66, Math.max(42, d.name.length * 13)) / 2)
         .attr("y", d => -18)
         .attr("width", d => Math.min(66, Math.max(42, d.name.length * 13)))
         .attr("height", 36)
         .attr("rx", 12);
+      // d3.symbol 路徑：hex / diamond / star
+      nodeSel.select("path")
+        .style("display", d => {
+          const k = shapeKind(d);
+          return (k === "hex" || k === "diamond" || k === "star") ? null : "none";
+        })
+        .attr("d", d => {
+          const kind = shapeKind(d);
+          const size = Math.PI * d.r * d.r * 1.7; // d3.symbol 用面積
+          if (kind === "diamond") return d3.symbol(d3.symbolDiamond, size)();
+          if (kind === "star")    return d3.symbol(d3.symbolStar, size * 0.95)();
+          if (kind === "hex")     return d3.symbol(d3.symbolWye, size * 1.2)();
+          return null;
+        });
       nodeSel.select("text")
         .text(d => labelForNode(d))
         .attr("font-size", d => labelSize(d))
@@ -3569,10 +3749,64 @@
       renderRelationGroups(selected, preset);
       renderEvents(selected, preset);
       renderTraits(selected);
+      renderAttributes(selected, preset);
       renderEvidenceTags(selected, preset);
       updateMapTitle(selected, preset);
       renderPathResult(state.pathIds);
       updateHashState();
+    }
+
+    function renderAttributes(selected, preset) {
+      const el = document.getElementById("attributeList");
+      if (!el) return;
+      const parts = [];
+      // 別號/字
+      const aliases = (selected.aliases || []).filter(a => a && a !== selected.name);
+      if (aliases.length) {
+        parts.push(`<span class="attr-item"><span class="attr-key">別號</span>${escapeText(aliases.slice(0, 4).join("、"))}</span>`);
+      }
+      // 出場章節
+      const chs = selected.chapters || [];
+      if (chs.length) {
+        const cmin = chs[0], cmax = chs[chs.length - 1];
+        parts.push(`<span class="attr-item"><span class="attr-key">出場</span>第 ${cmin}-${cmax} 回（共 ${chs.length} 回）</span>`);
+      }
+      // 主幹標記
+      if (selected.isTrunk) {
+        parts.push(`<span class="attr-item" style="background:#FDE8C8;color:#7A4500"><span class="attr-key">⭐</span>重要英雄</span>`);
+      }
+      // 最強的 3 段關係（依 rel weight 或 score）
+      const myRels = (relsByNode.get(selected.id) || []);
+      if (myRels.length) {
+        const top = myRels
+          .map(r => {
+            const oid = r.source === selected.id ? r.target : r.source;
+            const other = nodeById.get(oid);
+            if (!other) return null;
+            return { other, weight: (r.weight || 1) + (other.score || 0) * 0.001 };
+          })
+          .filter(Boolean)
+          .sort((a, b) => b.weight - a.weight)
+          .slice(0, 3);
+        if (top.length) {
+          parts.push(`<span class="attr-item"><span class="attr-key">最強關係</span>${top.map(t => escapeText(t.other.name)).join("、")}</span>`);
+        }
+      }
+      // 推估能力（依關係 category 數）
+      const catCount = { military: 0, strategy: 0, command: 0, ally: 0, family: 0, story: 0 };
+      myRels.forEach(r => { if (r.category in catCount) catCount[r.category]++; });
+      const abilityBits = [];
+      const star = n => "★".repeat(Math.min(5, Math.max(1, Math.round(n / 6)))) || "★";
+      if (catCount.military > 0) abilityBits.push(`武力${star(catCount.military)}`);
+      if (catCount.strategy > 0) abilityBits.push(`謀略${star(catCount.strategy)}`);
+      if (catCount.command > 0) abilityBits.push(`領導${star(catCount.command)}`);
+      if (catCount.ally > 0 || catCount.family > 0) {
+        abilityBits.push(`人緣${star(catCount.ally + catCount.family)}`);
+      }
+      if (abilityBits.length) {
+        parts.push(`<span class="attr-item"><span class="attr-key">推估能力</span>${escapeText(abilityBits.join(" · "))}</span>`);
+      }
+      el.innerHTML = parts.join("");
     }
 
     function updateMapTitle(selected, preset) {
@@ -3773,27 +4007,60 @@
     }
 
     function renderEvents(selected, preset) {
-      const events = connectedEvents(selected.id, preset).slice(0, 8);
+      // 走過的故事：依章節順序排列該角色出現的事件
+      const events = connectedEvents(selected.id, preset);
       if (!events.length) {
         dom.eventList.replaceChildren(emptyState("還沒有找到明確的事件連線。可以切換全局或戰役模式。"));
         return;
       }
-      dom.eventList.replaceChildren(...events.map(item => {
+      // 依章節升冪排序（時間軸）
+      const sorted = [...events].sort((a, b) => {
+        const ca = chapterStartOf(a);
+        const cb = chapterStartOf(b);
+        return ca - cb || b.score - a.score;
+      }).slice(0, 12);
+
+      dom.eventList.replaceChildren(...sorted.map((item, idx) => {
         const row = document.createElement("div");
-        row.className = "event-item";
+        row.className = "event-item timeline-item";
+        const ch = chapterStartOf(item);
+        const icon = eventIcon(item.node);
+        const stub = (item.node.kidIntro || item.node.description || "")
+          .replace(/\s+/g, " ").trim().slice(0, 48);
         const btn = document.createElement("button");
         btn.type = "button";
-        btn.textContent = item.node.name;
+        btn.className = "timeline-btn";
+        btn.innerHTML = '<span class="tl-ch">c' + String(ch).padStart(3, "0") + '</span>'
+                      + '<span class="tl-ico">' + icon + '</span>'
+                      + '<span class="tl-name">' + escapeText(item.node.name) + '</span>';
         btn.addEventListener("click", () => {
           setMode("battle");
           selectNode(item.node.id);
         });
         const meta = document.createElement("span");
-        meta.className = "event-meta";
-        meta.textContent = `第 ${chapterLabel(item.rel || item.node)} 回｜${item.node.kidIntro || item.node.description || ""}`;
+        meta.className = "event-meta tl-meta";
+        meta.textContent = stub;
         row.append(btn, meta);
         return row;
       }));
+    }
+
+    function chapterStartOf(item) {
+      const src = item.rel || item.node || {};
+      if (Array.isArray(src.chapters) && src.chapters.length) return src.chapters[0];
+      if (typeof src.chapterStart === "number") return src.chapterStart;
+      return 999;
+    }
+    function eventIcon(node) {
+      const t = (node.type || "").toLowerCase();
+      if (t === "battle") return "⚔️";
+      if (t === "event") return "📜";
+      if (t === "strategy") return "💡";
+      if (t === "location") return "🏞️";
+      return "🌱";
+    }
+    function escapeText(s) {
+      return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     }
 
     function connectedEvents(nodeId, preset) {
@@ -4365,6 +4632,14 @@
 
     function nodeClass(node) {
       return `node camp-${node.camp || "neutral"} type-${node.type}${node.id === state.selectedId ? " is-selected" : ""}`;
+    }
+    function nodeShapeClass(node) {
+      const t = (node.type || "").toLowerCase();
+      if (t === "faction") return "shape-hex";
+      if (t === "battle") return "shape-diamond";
+      if (t === "strategy") return "shape-star";
+      if (t === "location") return "shape-rect";
+      return "shape-circle";
     }
 
     function linkDistance(link) {
