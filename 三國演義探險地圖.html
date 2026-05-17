@@ -234,40 +234,51 @@
     .workspace {
       min-height: 0;
       display: grid;
-      grid-template-columns: minmax(0, 1.15fr) minmax(420px, 0.85fr);
-      grid-template-rows: minmax(260px, 1fr) minmax(280px, 1.1fr);
+      /* 3 欄：A(25%) | B-1(56%) | B-2(19%) */
+      grid-template-columns: minmax(240px, 0.25fr) minmax(420px, 0.56fr) minmax(260px, 0.19fr);
+      /* 上方 65% 給圖+事件簿；下方 35% 給人物資訊+重要時刻 */
+      grid-template-rows: 65fr 35fr;
       grid-template-areas:
-        "map    guide"
-        "map    story";
+        "roster  map      guide"
+        "roster  person   moments";
       gap: 12px;
       padding: 12px;
     }
-    .workspace > .roster { display: none !important; }
+    .workspace > .roster { grid-area: roster; min-height: 0; min-width: 0; }
     .workspace > .map-zone { grid-area: map; min-height: 0; min-width: 0; }
+    .workspace > .person-card { grid-area: person; min-height: 0; min-width: 0; }
     .workspace > .guide { grid-area: guide; min-height: 0; min-width: 0; }
-    .workspace > .story-card { grid-area: story; min-height: 0; min-width: 0; }
-    /* story-card 進 workspace 後，自身不再 absolute，需重置幾個樣式 */
-    .workspace > .story-card {
-      position: relative !important;
-      max-height: none !important;
-      width: auto !important;
-      margin: 0 !important;
-      box-shadow: 0 12px 28px rgba(39, 61, 52, 0.08);
+    .workspace > .moments-card { grid-area: moments; min-height: 0; min-width: 0; }
+    /* 將原本的 story-card 完全隱藏（DOM 還保留給 JS 相容） */
+    .story-card[hidden] { display: none !important; }
+    /* 新的人物資訊卡片 (B-1 下) */
+    .workspace > .person-card,
+    .workspace > .moments-card {
+      background: rgba(255, 253, 247, 0.92);
       border: 1px solid var(--line);
       border-radius: var(--radius);
-      background: rgba(255, 253, 247, 0.92);
+      box-shadow: 0 12px 28px rgba(39, 61, 52, 0.08);
+      padding: 14px 16px;
       overflow: hidden auto;
-      display: flex !important;
+      display: flex;
       flex-direction: column;
-      grid-template-columns: none !important;
-      transform: none !important;
+      gap: 8px;
     }
-    .workspace > .story-card .story-section { padding: 14px 16px; }
-    .workspace > .story-card .story-section + .story-section {
-      border-top: 1px dashed var(--line);
+    .workspace > .moments-card h3 {
+      margin: 0 0 4px;
+      font-size: 16px;
+      font-weight: 800;
+    }
+    .workspace > .moments-card .event-list {
       flex: 1;
       min-height: 0;
       overflow-y: auto;
+    }
+    /* 重新顯示搜尋（之前隱藏） */
+    .workspace > .roster .search-wrap[hidden],
+    .workspace > .roster #searchLabel[hidden] {
+      display: block !important;
+      visibility: visible !important;
     }
 
     .panel {
@@ -2522,13 +2533,14 @@
             <div class="filter-label"><span>只看陣營</span><span>蜀 · 魏 · 吳</span></div>
             <div class="camp-filters" id="campFilters"></div>
           </div>
-          <!-- Hidden legacy elements (kept for JS compatibility) -->
+          <!-- Hidden density filter (人數按鈕已浮到圖上) -->
           <div class="control-panel" id="densityControl" hidden style="display:none">
             <div class="density-filters" id="densityFilters"></div>
           </div>
-          <label class="field-label" id="searchLabel" for="searchInput" hidden style="display:none">直接搜尋人物</label>
-          <div class="search-wrap" hidden style="display:none">
-            <input id="searchInput" type="search" placeholder="搜尋：劉備、關羽、曹操" autocomplete="off">
+          <!-- 搜尋人名（A 區用） -->
+          <label class="field-label" id="searchLabel" for="searchInput">🔍 搜尋人名</label>
+          <div class="search-wrap">
+            <input id="searchInput" type="search" placeholder="例：劉備、關羽、曹操" autocomplete="off">
           </div>
         </div>
         <div class="roster-list" id="rosterList"></div>
@@ -2559,7 +2571,7 @@
 
       <aside class="panel guide">
         <div class="panel-head">
-          <div class="panel-title">🗂️ 關係分類</div>
+          <div class="panel-title">📒 重點事件簿</div>
         </div>
         <div class="guide-scroll">
           <section class="info-card path-result-card" id="pathResultCard">
@@ -2579,27 +2591,28 @@
           </section>
         </div>
       </aside>
-      <section class="story-card" aria-label="故事卡片">
-        <div class="story-section">
-          <div class="selected-head">
-            <div id="selectedBadge" class="selected-badge camp-shu">劉</div>
-            <div class="selected-title">
-              <h2 id="selectedName">劉備</h2>
-              <span id="selectedMeta">劉蜀・人物</span>
-            </div>
+      <section class="person-card" aria-label="人物資訊">
+        <div class="selected-head">
+          <div id="selectedBadge" class="selected-badge camp-shu">劉</div>
+          <div class="selected-title">
+            <h2 id="selectedName">劉備</h2>
+            <span id="selectedMeta">劉蜀・人物</span>
           </div>
-          <p class="intro" id="selectedIntro"></p>
-          <button type="button" id="openThought" class="thought-trigger" aria-label="想一想" hidden style="display:none"></button>
-          <div class="trait-list" id="traitList"></div>
-          <div class="attribute-list" id="attributeList"></div>
         </div>
-        <div class="story-section">
-          <h3>📜 走過的故事</h3>
-          <p class="story-hint" id="storyHint">依出場章節順序，把這個角色的關鍵時刻串起來。</p>
-          <div class="event-list" id="eventList"></div>
-        </div>
+        <p class="intro" id="selectedIntro"></p>
+        <button type="button" id="openThought" class="thought-trigger" aria-label="想一想" hidden style="display:none"></button>
+        <div class="trait-list" id="traitList"></div>
+        <div class="attribute-list" id="attributeList"></div>
+      </section>
+      <section class="moments-card" aria-label="重要時刻">
+        <h3>⏳ 重要時刻</h3>
+        <p class="story-hint" id="storyHint">依出場章節順序，把這個角色的關鍵時刻串起來。</p>
+        <div class="event-list" id="eventList"></div>
       </section>
     </main>
+
+    <!-- 隱藏：保留 story-card 結構供 JS 引用相容（不顯示）-->
+    <section class="story-card" aria-label="故事卡片" hidden style="display:none"></section>
 
     <nav class="mobile-mode-nav" id="mobileModeNav" aria-label="手機探索模式">
       <button type="button" class="is-active" data-mobile-mode="person"><span>人物</span><small>看關係</small></button>
