@@ -573,24 +573,15 @@
       border-radius: 4px;
     }
 
-    /* 推薦關係焦點 header + chips (relation mode only) */
-    .relation-roster-header {
-      display: none;
-      flex-direction: column;
-      gap: 6px;
-      padding: 8px 8px 4px;
-      border-top: 1px dashed rgba(0,0,0,.08);
-      margin-top: 4px;
-    }
-    body[data-mode="relation"] .relation-roster-header { display: flex; }
-    .relation-roster-header .rrh-title {
-      font-size: 13px;
-      font-weight: 800;
-      color: var(--ink);
+    /* relation mode 才顯示陣營篩選 chips（放在 roster-list 上方）*/
+    body[data-mode="relation"] .relation-camp-filter {
+      display: flex !important;
     }
     .relation-camp-filter {
-      display: flex;
+      display: none;
       gap: 4px;
+      padding: 6px 8px 8px;
+      border-top: 1px dashed rgba(0,0,0,.08);
     }
     .relation-camp-filter button {
       flex: 1;
@@ -2628,16 +2619,6 @@
             </div>
             <div class="quick-paths" id="quickPathPairs"></div>
           </div>
-          <div class="relation-roster-header" id="relationRosterHeader" aria-label="推薦關係焦點功能列">
-            <div class="rrh-title">🎯 推薦關係焦點</div>
-            <div class="relation-camp-filter" id="relationCampFilter" aria-label="陣營篩選">
-              <button type="button" data-rcf="all" class="is-active">全部</button>
-              <button type="button" data-rcf="wei">魏</button>
-              <button type="button" data-rcf="shu">蜀</button>
-              <button type="button" data-rcf="wu">吳</button>
-              <button type="button" data-rcf="other">其他</button>
-            </div>
-          </div>
           <div class="control-panel" id="relationPresetControl">
             <div class="filter-label"><span>看哪種關係</span><span>朋友 · 對手 · 戰場</span></div>
             <div class="relation-preset-filters" id="relationPresetFilters"></div>
@@ -2655,6 +2636,13 @@
           <div class="search-wrap">
             <input id="searchInput" type="search" placeholder="例：劉備、關羽、曹操" autocomplete="off">
           </div>
+        </div>
+        <div class="relation-camp-filter" id="relationCampFilter" aria-label="陣營篩選" style="display:none">
+          <button type="button" data-rcf="all" class="is-active">全部</button>
+          <button type="button" data-rcf="wei">魏</button>
+          <button type="button" data-rcf="shu">蜀</button>
+          <button type="button" data-rcf="wu">吳</button>
+          <button type="button" data-rcf="other">其他</button>
         </div>
         <div class="roster-list" id="rosterList"></div>
       </aside>
@@ -3263,6 +3251,10 @@
 
       dom.clearPath.addEventListener("click", () => {
         state.pathIds = [];
+        if (dom.pathFrom) dom.pathFrom.value = "";
+        if (dom.pathTo) dom.pathTo.value = "";
+        state.lastPathFocus = "from";
+        if (dom.pathFrom) dom.pathFrom.focus();
         rebuildGraph("clearPath");
         updatePanels();
       });
