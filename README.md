@@ -1,4 +1,4 @@
-# GraphRag-Game · 三國演義探險地圖
+# GraphRag-Game · 三國演義探索地圖
 
 把《三國演義》原文，用 GraphRAG 萃取成可探索的知識圖譜，再做成兒童友善的互動網頁。
 
