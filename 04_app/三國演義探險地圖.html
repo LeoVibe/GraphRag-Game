@@ -1626,6 +1626,28 @@
       border-radius: 99px;
       background: rgba(0,0,0,.04);
     }
+    /* 出場文字（description） */
+    .person-desc {
+      margin-top: 6px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: rgba(0,0,0,.03);
+      border-left: 3px solid #C85A00;
+      font-size: 13px;
+      line-height: 1.65;
+      color: var(--ink);
+      max-height: 7em;
+      overflow-y: auto;
+    }
+    .person-desc:empty { display: none; }
+    .person-desc::before {
+      content: "📜 出場文字";
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--ink-soft);
+      margin-bottom: 4px;
+    }
 
     .thought-trigger svg {
       width: 18px;
@@ -2600,9 +2622,10 @@
           </div>
         </div>
         <p class="intro" id="selectedIntro"></p>
+        <div class="person-desc" id="personDesc"></div>
         <button type="button" id="openThought" class="thought-trigger" aria-label="想一想" hidden style="display:none"></button>
-        <div class="trait-list" id="traitList"></div>
-        <div class="attribute-list" id="attributeList"></div>
+        <div class="trait-list" id="traitList" hidden style="display:none"></div>
+        <div class="attribute-list" id="attributeList" hidden style="display:none"></div>
       </section>
       <section class="moments-card" aria-label="重要時刻">
         <h3>⏳ 重要時刻</h3>
@@ -3836,8 +3859,17 @@
     }
 
     function renderAttributes(selected, preset) {
+      // 出場文字 — 用 description 拆出第一段 / 限制長度
+      const descEl = document.getElementById("personDesc");
+      if (descEl) {
+        const raw = (selected.description || "").trim();
+        // 取前兩段（；分隔），避免太長
+        const text = raw.split(/[；;]/).filter(Boolean).slice(0, 2).join("；");
+        descEl.textContent = text;
+      }
+      // attributeList 已隱藏，不再渲染 — 以下程式碼保留供未來重啟使用
       const el = document.getElementById("attributeList");
-      if (!el) return;
+      if (!el || el.hidden) return;
       const parts = [];
       // 別號/字
       const aliases = (selected.aliases || []).filter(a => a && a !== selected.name);
@@ -4110,13 +4142,17 @@
         const row = document.createElement("div");
         row.className = "event-item timeline-item";
         const ch = chapterStartOf(item);
+        const chs = chaptersOf(item);  // 多個章節（取最多 3 個）
         const icon = eventIcon(item.node);
         const stub = (item.node.kidIntro || item.node.description || "")
-          .replace(/\s+/g, " ").trim().slice(0, 48);
+          .replace(/\s+/g, " ").trim().slice(0, 60);
+        const chLabel = chs.length > 1
+          ? `第${chs[0]}回（+${chs.length - 1}回）`
+          : `第${ch}回`;
         const btn = document.createElement("button");
         btn.type = "button";
         btn.className = "timeline-btn";
-        btn.innerHTML = '<span class="tl-ch">c' + String(ch).padStart(3, "0") + '</span>'
+        btn.innerHTML = '<span class="tl-ch" title="' + chs.join(",") + '">' + chLabel + '</span>'
                       + '<span class="tl-ico">' + icon + '</span>'
                       + '<span class="tl-name">' + escapeText(item.node.name) + '</span>';
         btn.addEventListener("click", () => {
@@ -4129,6 +4165,11 @@
         row.append(btn, meta);
         return row;
       }));
+    }
+    function chaptersOf(item) {
+      const src = item.rel || item.node || {};
+      const arr = Array.isArray(src.chapters) ? src.chapters : [];
+      return arr.slice(0, 5);
     }
 
     function chapterStartOf(item) {
