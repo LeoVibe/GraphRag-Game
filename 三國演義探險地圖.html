@@ -690,20 +690,21 @@
 
     .role-btn {
       width: 100%;
-      min-height: 48px;
+      min-height: 30px;
       display: grid;
-      grid-template-columns: 12px minmax(0, 1fr) auto;
+      grid-template-columns: 10px minmax(0, 1fr) auto;
       align-items: center;
-      gap: 10px;
-      padding: 8px 10px;
-      margin-bottom: 6px;
+      gap: 8px;
+      padding: 4px 8px;
+      margin-bottom: 2px;
       text-align: left;
       background: #fff;
+      border-radius: 6px;
     }
 
     .role-dot {
-      width: 12px;
-      height: 12px;
+      width: 10px;
+      height: 10px;
       border-radius: 50%;
       background: var(--neutral-bg);
       border: 2px solid var(--neutral-border);
@@ -717,32 +718,39 @@
 
     .role-main {
       min-width: 0;
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
     }
 
     .role-name {
-      display: block;
-      font-size: 16px;
-      font-weight: 900;
+      font-size: 13px;
+      font-weight: 800;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      flex-shrink: 0;
     }
 
     .role-meta {
-      display: block;
-      margin-top: 1px;
       color: var(--muted);
-      font-size: 12px;
+      font-size: 11px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
 
     .role-score {
-      font-family: var(--font-title);
-      font-weight: 800;
+      font-family: var(--font-num, var(--font-title));
+      font-weight: 700;
       color: var(--muted);
-      font-size: 15px;
+      font-size: 11px;
+      white-space: nowrap;
+    }
+    .role-score::after {
+      content: " 條";
+      font-weight: 500;
+      opacity: .75;
     }
 
     .role-btn.is-selected {
@@ -3543,7 +3551,8 @@
       dom.pathBuilderPanel.classList.toggle("is-visible", state.mode === "relation");
       dom.pathResultCard.classList.toggle("is-visible", state.mode === "relation" || state.pathIds.length > 0);
       dom.starterPanel.style.display = state.mode === "person" ? "" : "none";
-      dom.densityControl.style.display = state.mode === "relation" ? "none" : "";
+      // 人數浮層已在圖右上，永遠隱藏左側 densityControl
+      dom.densityControl.style.display = "none";
       dom.relationPresetControl.style.display = state.mode === "battle" ? "none" : "";
       const hideMainSearch = state.mode === "battle" && !isMobileLayout();
       dom.searchLabel.style.display = hideMainSearch ? "none" : "";
@@ -4301,7 +4310,7 @@
           renderMobileBattleRoster(preset);
           return;
         }
-        dom.rosterList.replaceChildren(emptyState("從右側「重點事件簿」選一場戰役或事件開始。"));
+        renderBattleDesktopRoster(preset);
         return;
       }
 
@@ -4346,6 +4355,98 @@
       });
 
       dom.rosterList.replaceChildren(...(blocks.length ? blocks : [emptyState("找不到符合條件的角色或故事。")]));
+    }
+
+    // battle mode 桌面：左側顯示「重要戰役年表」+ 選戰役後顯示「該戰役雙方陣容」
+    function renderBattleDesktopRoster(preset) {
+      const list = dom.rosterList;
+      list.replaceChildren();
+
+      // 1) 重要戰役清單（依時期分組：1-30 / 31-60）
+      const battles = nodes
+        .filter(n => isStoryNode(n))
+        .filter(n => overlaps(n, preset))
+        .sort((a, b) => (a.chapterStart || 0) - (b.chapterStart || 0) || (b.score || 0) - (a.score || 0));
+
+      // 依章節時期分群
+      const ERAS = [
+        { id: "era1", label: "🌱 黃巾與群雄", min: 1, max: 20 },
+        { id: "era2", label: "⚔️ 官渡爭霸", min: 21, max: 40 },
+        { id: "era3", label: "🔥 赤壁與三分", min: 41, max: 60 },
+      ];
+
+      const sel = nodeById.get(state.selectedId);
+      const isBattleSelected = sel && isStoryNode(sel);
+
+      // 上方：戰役清單
+      const eraGroups = ERAS.map(era => {
+        const items = battles.filter(b => {
+          const ch = b.chapterStart || (b.chapters && b.chapters[0]) || 0;
+          return ch >= era.min && ch <= era.max;
+        }).slice(0, 8);
+        return { era, items };
+      }).filter(g => g.items.length > 0);
+
+      eraGroups.forEach(({ era, items }) => {
+        const block = document.createElement("div");
+        block.className = "group-block";
+        const title = document.createElement("div");
+        title.className = "group-title";
+        const left = document.createElement("span");
+        left.textContent = era.label;
+        const right = document.createElement("span");
+        right.textContent = String(items.length);
+        title.append(left, right);
+        block.append(title);
+        items.forEach(b => block.append(roleButton(b)));
+        list.append(block);
+      });
+
+      // 下方：選了戰役後，顯示參戰雙方陣容
+      if (isBattleSelected) {
+        const participants = (relsByNode.get(sel.id) || [])
+          .map(rel => {
+            const otherId = rel.source === sel.id ? rel.target : rel.source;
+            const node = nodeById.get(otherId);
+            return node && !isStoryNode(node) ? { node, rel } : null;
+          })
+          .filter(Boolean);
+
+        // 按 camp 分組
+        const campGroups = new Map();
+        participants.forEach(({ node }) => {
+          const k = node.camp || "neutral";
+          if (!campGroups.has(k)) campGroups.set(k, []);
+          if (!campGroups.get(k).some(n => n.id === node.id)) {
+            campGroups.get(k).push(node);
+          }
+        });
+
+        if (campGroups.size > 0) {
+          const header = document.createElement("div");
+          header.className = "group-title";
+          header.style.marginTop = "12px";
+          header.innerHTML = `<span>⚔️ 此戰參戰雙方</span><span>${participants.length}</span>`;
+          list.append(header);
+
+          CAMP_ORDER.forEach(camp => {
+            const arr = campGroups.get(camp);
+            if (!arr || arr.length === 0) return;
+            const block = document.createElement("div");
+            block.className = "group-block";
+            const t = document.createElement("div");
+            t.className = "group-title group-title-sub";
+            t.innerHTML = `<span>${rosterGroupLabel(camp)}</span><span>${arr.length}</span>`;
+            block.append(t);
+            arr.slice(0, 12).forEach(n => block.append(roleButton(n)));
+            list.append(block);
+          });
+        }
+      }
+
+      if (list.children.length === 0) {
+        list.replaceChildren(emptyState("從右側「重點事件簿」選一場戰役開始。"));
+      }
     }
 
     function renderMobileBattleRoster(preset) {
@@ -4435,11 +4536,9 @@
       const meta = document.createElement("span");
       meta.className = "role-meta";
       if (isStoryNode(node)) {
-        meta.textContent = `${node.typeLabel || "故事"}・第 ${chapterLabel(node)} 回・${node.kidIntro || node.description || ""}`;
-      } else if (state.mode === "relation") {
-        meta.textContent = `${node.campLabel || "未分類"}・${node.typeLabel || ""}・${(relsByNode.get(node.id) || []).length} 條關係`;
+        meta.textContent = `${node.typeLabel || "故事"}・第 ${chapterLabel(node)} 回`;
       } else {
-        meta.textContent = `${node.campLabel || "未分類"}・${node.typeLabel || ""}・第 ${chapterLabel(node)} 回`;
+        meta.textContent = `${node.campLabel || ""}・${node.typeLabel || ""}`;
       }
       main.append(name, meta);
       const score = document.createElement("span");
@@ -4451,9 +4550,9 @@
           setMode("battle");
         }
         if (state.mode === "relation" && !isStoryNode(node)) {
-          // 同時：選取節點（讓主圖反應）+ 填入路徑端點 + 提示
+          // 點清單 = 換主角焦點：selectNode + 把該人設為路徑起點（焦點在前）
           selectNode(node.id);
-          fillPathEndpoint(node.name);
+          if (dom.pathFrom) dom.pathFrom.value = node.name;
           showPathToast(node.name);
           return;
         }
@@ -4465,18 +4564,15 @@
     function showPathToast(name) {
       const toast = document.getElementById("shareToast");
       if (!toast) return;
-      const from = (dom.pathFrom && dom.pathFrom.value || "").trim();
       const to = (dom.pathTo && dom.pathTo.value || "").trim();
-      let msg = "已選：" + name;
-      if (from && to) {
-        msg = "已設定路徑：" + from + " → " + to + "（點「尋找路徑」搜尋）";
-      } else if (from && !to) {
-        msg = "起點：" + from + "（再點一人當終點）";
+      let msg = "焦點：" + name;
+      if (to) {
+        msg = "焦點：" + name + " → 終點：" + to + "（點「尋找路徑」）";
       }
       toast.textContent = msg;
       toast.classList.add("is-visible");
       clearTimeout(showPathToast._t);
-      showPathToast._t = setTimeout(() => toast.classList.remove("is-visible"), 2400);
+      showPathToast._t = setTimeout(() => toast.classList.remove("is-visible"), 2200);
     }
 
     function fillPathEndpoint(name) {
