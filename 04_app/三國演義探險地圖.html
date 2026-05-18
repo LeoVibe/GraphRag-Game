@@ -696,11 +696,13 @@
     .relation-preset-filters .chip {
       min-width: 0;
       min-height: 28px;
-      padding: 0 4px;
-      font-size: 12px;
+      padding: 0 6px;
+      font-size: 11px;
       line-height: 1;
       text-align: center;
       border-radius: 12px;
+      white-space: nowrap;
+      letter-spacing: -0.5px;
     }
 
     .chip.is-active { color: var(--ink); border-color: var(--strong-line); }
@@ -3575,19 +3577,62 @@
         renderPathResult([], "找不到其中一個名字，請試試完整人物名。");
         return;
       }
-      const path = shortestPath(from, to);
-      if (!path.length) {
-        state.pathIds = [];
-        setMode("relation");
-        renderPathResult([], "這個章回範圍內找不到可讀的路徑。");
-        return;
+      let path = shortestPath(from, to);
+      // 若目前 preset 找不到路徑，嘗試自動展開到「全部」類別 fallback
+      let fellBackToAll = false;
+      if (!path.length && state.relationPreset !== "all") {
+        path = shortestPathWithAllCategories(from, to);
+        fellBackToAll = path.length > 0;
       }
       setMode("relation");
-      state.pathIds = path;
       state.selectedId = from;
+      if (!path.length) {
+        state.pathIds = [];
+        rebuildGraph("path-empty");
+        updatePanels();
+        renderPathResult([], "這個章回範圍內找不到可讀的路徑，可試試切換「全部」關係類別。");
+        return;
+      }
+      if (fellBackToAll) applyRelationPreset("all");
+      state.pathIds = path;
       rebuildGraph("path");
       updatePanels();
       if (isMobileLayout()) openMobileNotebook();
+    }
+
+    function shortestPathWithAllCategories(fromId, toId) {
+      const preset = currentPreset();
+      const usableRels = relationships.filter(rel =>
+        overlaps(rel, preset) &&
+        nodeById.has(rel.source) &&
+        nodeById.has(rel.target)
+      );
+      const adjacency = new Map();
+      usableRels.forEach(rel => {
+        if (!adjacency.has(rel.source)) adjacency.set(rel.source, []);
+        if (!adjacency.has(rel.target)) adjacency.set(rel.target, []);
+        adjacency.get(rel.source).push(rel.target);
+        adjacency.get(rel.target).push(rel.source);
+      });
+      const queue = [fromId];
+      const prev = new Map([[fromId, null]]);
+      while (queue.length) {
+        const id = queue.shift();
+        if (id === toId) break;
+        for (const next of adjacency.get(id) || []) {
+          if (prev.has(next)) continue;
+          prev.set(next, id);
+          queue.push(next);
+        }
+      }
+      if (!prev.has(toId)) return [];
+      const path = [];
+      let cursor = toId;
+      while (cursor) {
+        path.push(cursor);
+        cursor = prev.get(cursor);
+      }
+      return path.reverse().slice(0, 9);
     }
 
     function startFromPerson(name) {
