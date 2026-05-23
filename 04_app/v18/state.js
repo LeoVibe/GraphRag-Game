@@ -1,5 +1,5 @@
 import { BATTLES, getBattleByKey } from './battle-presets.js';
-import { nodeName, resolveCharacterId } from './data.js';
+import { nodeName, resolveCharacterId } from './data.js?v=2';
 
 export const DEFAULT_PERSON = 'entity:character_劉備';
 export const DEFAULT_FROM = 'entity:character_諸葛亮';

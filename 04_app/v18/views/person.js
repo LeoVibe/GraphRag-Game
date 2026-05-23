@@ -13,7 +13,7 @@ import {
   firstSentence,
   isCharacterId,
   splitDescription
-} from '../data.js';
+} from '../data.js?v=2';
 
 const RELATION_FILTERS = ['全部', '朋友', '對手', '主從', '講話', '挫折'];
 const CAMP_FILTERS = [

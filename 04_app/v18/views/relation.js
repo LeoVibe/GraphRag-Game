@@ -9,7 +9,7 @@ import {
   escapeAttr,
   escapeHtml,
   sharedChapters
-} from '../data.js';
+} from '../data.js?v=2';
 import { segmentTag, shortestPath } from '../pathfinder.js';
 
 // 5 組「需要中間人」的有趣配對 — 看似不認識的兩人，可透過 1-2 個關鍵人物連起來

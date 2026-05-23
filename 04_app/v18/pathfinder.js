@@ -1,4 +1,4 @@
-import { data } from './data.js';
+import { data } from './data.js?v=2';
 
 /**
  * BFS 找最短路徑。預設 minHops=2（必經中間人），找不到才 fallback 1 跳。

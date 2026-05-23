@@ -1,4 +1,4 @@
-import { loadData, resolveCharacterId } from './data.js';
+import { loadData, resolveCharacterId } from './data.js?v=2';
 import { FONT_KEY, applyFont, bindSettingsEvents } from './settings.js';
 import { applyHashToState, state, syncHash } from './state.js';
 import { renderBattle } from './views/battle.js';

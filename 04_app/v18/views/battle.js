@@ -13,7 +13,7 @@ import {
   range,
   resolveAnyId,
   resolveAnyNode
-} from '../data.js';
+} from '../data.js?v=2';
 
 export function renderBattle(root, ctx) {
   destroyExistingForceGraph(root);
