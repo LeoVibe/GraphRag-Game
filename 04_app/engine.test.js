@@ -13,6 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const nodes = JSON.parse(readFileSync(`${REPO_ROOT}/03_graphrag/nodes.json`));
 const rels = JSON.parse(readFileSync(`${REPO_ROOT}/03_graphrag/rels.json`));
+const personality = JSON.parse(readFileSync(`${REPO_ROOT}/03_graphrag/character_personality.json`));
 const byId = new Map(nodes.map(n => [n.id, n]));
 const EMPTY_PROFILE = { unlockedPacks: ['ch001_010'], characters: {}, totalStars: 0, recentQuestions: [] };
 
@@ -137,4 +138,78 @@ test('每條 choice 都有 name 屬性', () => {
   const edge = pickEdge(cao, rels, CHAPTER_PACKS[0], EMPTY_PROFILE);
   const q = buildQuestion({ subject: cao, edge, allNodes: nodes, type: 'who-is-this', byId });
   for (const c of q.choices) assert.ok(c.name);
+});
+
+test('buildQuestion relation-chain 結構正確', () => {
+  const cao = nodes.find(n => n.name === '曹操' && n.type === 'character');
+  const q = buildQuestion({
+    subject: cao, edge: null, allNodes: nodes, type: 'relation-chain',
+    byId, rels, profile: EMPTY_PROFILE,
+  });
+  assert.ok(q, '應該建得起 relation-chain');
+  assert.equal(q.type, 'relation-chain');
+  assert.equal(q.choices.length, 4);
+  assert.equal(q.correctChoiceId, q.middleNode.id);
+  assert.ok(q.choices.find(c => c.id === q.correctChoiceId));
+  assert.ok(q.prompt.includes(cao.name));
+});
+
+test('relation-chain 中間人不為 subject 自己', () => {
+  const cao = nodes.find(n => n.name === '曹操' && n.type === 'character');
+  const q = buildQuestion({
+    subject: cao, edge: null, allNodes: nodes, type: 'relation-chain',
+    byId, rels, profile: EMPTY_PROFILE,
+  });
+  assert.ok(q, '應該建得起 relation-chain');
+  assert.notEqual(q.correctChoiceId, cao.id);
+});
+
+test('relation-chain 三個干擾項都不是答案', () => {
+  const cao = nodes.find(n => n.name === '曹操' && n.type === 'character');
+  const q = buildQuestion({
+    subject: cao, edge: null, allNodes: nodes, type: 'relation-chain',
+    byId, rels, profile: EMPTY_PROFILE,
+  });
+  assert.ok(q, '應該建得起 relation-chain');
+  const pathIds = new Set(q.path);
+  const distractors = q.choices.filter(c => c.id !== q.correctChoiceId);
+  assert.equal(distractors.length, 3);
+  for (const d of distractors) {
+    assert.notEqual(d.id, q.correctChoiceId);
+    assert.equal(pathIds.has(d.id), false);
+  }
+});
+
+test('buildQuestion personality-match 有 4 對配對', () => {
+  const q = buildQuestion({
+    subject: null, edge: null, allNodes: nodes, type: 'personality-match',
+    byId, rels, profile: EMPTY_PROFILE, personality, pack: CHAPTER_PACKS[0],
+  });
+  assert.ok(q, '應該建得起 personality-match');
+  assert.equal(q.type, 'personality-match');
+  assert.equal(q.matchPairs.length, 4);
+  for (const p of q.matchPairs) {
+    assert.ok(p.characterId);
+    assert.ok(p.traitLabel);
+  }
+});
+
+test('personality-match 4 個 traits 不重複', () => {
+  const q = buildQuestion({
+    subject: null, edge: null, allNodes: nodes, type: 'personality-match',
+    byId, rels, profile: EMPTY_PROFILE, personality, pack: CHAPTER_PACKS[0],
+  });
+  assert.ok(q, '應該建得起 personality-match');
+  assert.equal(new Set(q.matchPairs.map(p => p.traitLabel)).size, 4);
+});
+
+test('personality-match 全部 character 都是 isTrunk', () => {
+  const q = buildQuestion({
+    subject: null, edge: null, allNodes: nodes, type: 'personality-match',
+    byId, rels, profile: EMPTY_PROFILE, personality, pack: CHAPTER_PACKS[0],
+  });
+  assert.ok(q, '應該建得起 personality-match');
+  for (const pair of q.matchPairs) {
+    assert.equal(byId.get(pair.characterId)?.isTrunk, true);
+  }
 });

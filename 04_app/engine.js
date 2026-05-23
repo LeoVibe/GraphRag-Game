@@ -14,14 +14,23 @@ export const CHAPTER_PACKS = [
     focus: '三方勢力各自延伸，準備走向三足鼎立' },
 ];
 
-const QUESTION_TYPES = ['who-is-this', 'what-relation', 'who-doesnt-belong'];
-// MVP 先實作三種，'relation-chain', 'personality-match' 留待 Phase 3
+const QUESTION_TYPES = [
+  'who-is-this',
+  'what-relation',
+  'who-doesnt-belong',
+  'relation-chain',
+  'personality-match',
+];
 
 export function chooseQuestionType(profile, subjectLevel = 0) {
-  // 簡化：依據人物熟識度選題型；MVP 跑 3 種
   if (subjectLevel === 0) return 'who-is-this';
-  if (subjectLevel === 1) return 'what-relation';
-  return 'who-doesnt-belong';
+  if (subjectLevel === 1) {
+    return Math.random() < 0.5 ? 'what-relation' : 'who-doesnt-belong';
+  }
+  const r = Math.random();
+  if (subjectLevel >= 3 && r < 0.25) return 'personality-match';
+  if (r < 0.35) return 'relation-chain';
+  return ['who-is-this', 'what-relation', 'who-doesnt-belong'][Math.floor(Math.random() * 3)];
 }
 
 export function chapterOverlap(chapters, range) {
@@ -82,9 +91,20 @@ export function pickDistractors(correctNode, allNodes, edge, count = 3) {
   return pool.slice(0, count);
 }
 
-export function buildQuestion({ subject, edge, allNodes, type, byId }) {
-  const correctTarget = edge ? byId.get(edge.target) : null;
-  if (type !== 'who-doesnt-belong' && !correctTarget) return null;
+export function buildQuestion({
+  subject,
+  edge,
+  allNodes,
+  type,
+  byId,
+  personality = null,
+  pack = null,
+  rels = null,
+  profile = null,
+}) {
+  const nodeIndex = byId || new Map((allNodes || []).map(n => [n.id, n]));
+  const correctTarget = edge ? nodeIndex.get(edge.target) : null;
+  if ((type === 'who-is-this' || type === 'what-relation') && !correctTarget) return null;
   let question;
   switch (type) {
     case 'who-is-this': {
@@ -135,10 +155,107 @@ export function buildQuestion({ subject, edge, allNodes, type, byId }) {
       };
       break;
     }
+    case 'relation-chain': {
+      question = buildRelationChainQuestion(subject, allNodes, rels, nodeIndex, profile);
+      if (!question) return null;
+      break;
+    }
+    case 'personality-match': {
+      question = buildPersonalityMatchQuestion(allNodes, personality, profile, pack);
+      if (!question) return null;
+      break;
+    }
     default:
       return null;
   }
   return question;
+}
+
+function buildRelationChainQuestion(subject, allNodes, rels, byId, profile) {
+  if (!subject || !Array.isArray(rels) || !byId) return null;
+  const characterIds = new Set((allNodes || [])
+    .filter(n => n.type === 'character')
+    .map(n => n.id));
+  const subjectOutgoing = uniqueById(rels
+    .filter(r => r.source === subject.id && characterIds.has(r.target) && r.target !== subject.id)
+    .map(r => ({ edge: r, node: byId.get(r.target) }))
+    .filter(x => x.node));
+  if (subjectOutgoing.length < 4) return null;
+
+  for (const candidate of shuffle(subjectOutgoing)) {
+    const middleNode = candidate.node;
+    const middleOutgoing = shuffle(rels.filter(r =>
+      r.source === middleNode.id
+      && characterIds.has(r.target)
+      && r.target !== subject.id
+      && r.target !== middleNode.id
+    ));
+    for (const secondEdge of middleOutgoing) {
+      const endNode = byId.get(secondEdge.target);
+      if (!endNode) continue;
+      const pathIds = new Set([subject.id, middleNode.id, endNode.id]);
+      const distractors = subjectOutgoing
+        .map(x => x.node)
+        .filter(n => !pathIds.has(n.id))
+        .slice(0, 3);
+      if (distractors.length < 3) continue;
+      return {
+        type: 'relation-chain',
+        subject,
+        edge: candidate.edge,
+        secondEdge,
+        middleNode,
+        endNode,
+        path: [subject.id, middleNode.id, endNode.id],
+        prompt: `「${subject.name}」想找「${endNode.name}」說事，要經過誰才認得？`,
+        clue: `${subject.name} 跟 ${middleNode.name} ${candidate.edge.relationType}；${middleNode.name} 跟 ${endNode.name} ${secondEdge.relationType}。`,
+        choices: shuffle([middleNode, ...distractors]),
+        correctChoiceId: middleNode.id,
+      };
+    }
+  }
+  return null;
+}
+
+function buildPersonalityMatchQuestion(allNodes, personality, profile, pack) {
+  if (!Array.isArray(allNodes) || !personality) return null;
+  const candidates = allNodes.filter(n =>
+    n.type === 'character'
+    && n.isTrunk
+    && (!pack || chapterOverlap(n.chapters, pack))
+    && Array.isArray(personality[n.id]?.traits)
+    && personality[n.id].traits.length > 0
+  );
+  if (candidates.length < 4) return null;
+
+  const usedTraits = new Set();
+  const picked = [];
+  for (const node of shuffle(candidates)) {
+    const traitLabel = personality[node.id].traits.find(t => !usedTraits.has(t));
+    if (!traitLabel) continue;
+    usedTraits.add(traitLabel);
+    picked.push({ node, traitLabel });
+    if (picked.length === 4) break;
+  }
+  if (picked.length < 4) return null;
+
+  return {
+    type: 'personality-match',
+    subject: picked[0].node,
+    edge: null,
+    prompt: '把每個個性敘述拖到對應的人物身上',
+    clue: '',
+    choices: shuffle(picked.map(({ node, traitLabel }) => ({
+      id: node.id,
+      name: node.name,
+      traitLabel,
+    }))),
+    correctChoiceId: 'matched',
+    matchPairs: picked.map(({ node, traitLabel }) => ({
+      characterId: node.id,
+      traitLabel,
+    })),
+  };
 }
 
 const CATEGORY_DISPLAY = {
@@ -160,6 +277,18 @@ function shuffle(arr) {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+function uniqueById(items) {
+  const seen = new Set();
+  const result = [];
+  for (const item of items) {
+    const id = item.node?.id || item.id;
+    if (!id || seen.has(id)) continue;
+    seen.add(id);
+    result.push(item);
+  }
+  return result;
 }
 
 export function questionFingerprint(q) {
