@@ -159,6 +159,47 @@
     cursor: pointer;
     color: var(--color-text-soft);
   }
+  .settings-wrap { position: relative; }
+  .settings-btn {
+    width: 36px; height: 36px;
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    border-radius: 8px; cursor: pointer; font-size: 16px;
+    color: var(--color-text-soft); font: inherit; line-height: 1;
+    transition: all 0.2s;
+  }
+  .settings-btn:hover { border-color: var(--color-primary); color: var(--color-primary); }
+  .settings-popover {
+    position: absolute; top: calc(100% + 10px); right: 0;
+    background: var(--color-surface); border: 1px solid var(--color-border);
+    border-radius: 14px; padding: 12px; min-width: 280px;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.18);
+    z-index: 80;
+  }
+  .settings-section { padding: 4px 0; }
+  .settings-section + .settings-section { margin-top: 4px; padding-top: 12px;
+    border-top: 1px solid var(--color-border); }
+  .settings-section h4 { font-size: 11px; color: var(--color-text-soft);
+    letter-spacing: 0.12em; margin: 0 0 8px; text-transform: uppercase; font-weight: 700; }
+  .game-link { display: flex; align-items: center; gap: 12px;
+    padding: 10px 12px; border-radius: 10px;
+    background: var(--color-bg-deep); text-decoration: none;
+    color: var(--color-text); transition: all 0.2s;
+    border: 1px solid var(--color-border);
+  }
+  .game-link:hover { background: var(--color-primary); color: #fff;
+    border-color: var(--color-primary); transform: translateX(2px); }
+  .game-link:hover .game-text small,
+  .game-link:hover .game-arrow { color: rgba(255,255,255,0.9); }
+  .game-icon { font-size: 28px; flex-shrink: 0; }
+  .game-text { display: flex; flex-direction: column; line-height: 1.3; flex: 1; min-width: 0; }
+  .game-text strong { font-weight: 700; font-size: 14px;
+    font-family: "Noto Serif TC", serif; }
+  .game-text small { font-size: 11px; color: var(--color-text-soft); margin-top: 2px; }
+  .game-arrow { font-size: 18px; color: var(--color-text-soft); font-weight: 700; }
+  .settings-desc { font-size: 12px; line-height: 1.6; color: var(--color-text-soft); margin: 0; }
+  body[data-theme="warroom"] .settings-popover { background: var(--color-surface); color: var(--color-text); }
+  body[data-theme="warroom"] .game-link { background: var(--color-bg-deep); color: var(--color-text); }
   .font-scale button.is-active {
     background: var(--color-primary);
     color: #fff;
@@ -986,6 +1027,26 @@
       <button type="button" data-font="medium" class="is-active">中</button>
       <button type="button" data-font="large">大</button>
     </div>
+    <div class="settings-wrap">
+      <button type="button" class="settings-btn" id="settingsBtn" aria-haspopup="true" aria-label="設定">⚙</button>
+      <div class="settings-popover" id="settingsPopover" role="menu" hidden>
+        <div class="settings-section">
+          <h4>更多體驗</h4>
+          <a class="game-link" href="./index.html">
+            <span class="game-icon">🎴</span>
+            <span class="game-text">
+              <strong>人物圖鑑挑戰</strong>
+              <small>用題目認識 60 位三國人物</small>
+            </span>
+            <span class="game-arrow">→</span>
+          </a>
+        </div>
+        <div class="settings-section">
+          <h4>關於</h4>
+          <p class="settings-desc">三國探險地圖 — 用 GraphRAG 把《三國演義》變成可以走、可以推、可以串的故事圖。</p>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -1201,6 +1262,29 @@ function bindGlobalEvents() {
     if (!button) return;
     applyFont(button.dataset.font);
   });
+  const settingsBtn = document.getElementById('settingsBtn');
+  const settingsPopover = document.getElementById('settingsPopover');
+  if (settingsBtn && settingsPopover) {
+    settingsBtn.addEventListener('click', event => {
+      event.stopPropagation();
+      const isOpen = !settingsPopover.hidden;
+      settingsPopover.hidden = isOpen;
+      settingsBtn.setAttribute('aria-expanded', String(!isOpen));
+    });
+    document.addEventListener('click', event => {
+      if (settingsPopover.hidden) return;
+      if (settingsPopover.contains(event.target) || event.target === settingsBtn) return;
+      settingsPopover.hidden = true;
+      settingsBtn.setAttribute('aria-expanded', 'false');
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !settingsPopover.hidden) {
+        settingsPopover.hidden = true;
+        settingsBtn.setAttribute('aria-expanded', 'false');
+        settingsBtn.focus();
+      }
+    });
+  }
   app.addEventListener('click', handleAppClick);
   app.addEventListener('input', handleAppInput);
   window.addEventListener('popstate', () => {
