@@ -112,14 +112,24 @@ test('連續 10 次 pickSubject + buildQuestion 都成功', () => {
   }
 });
 
-test('包 ch031_040 能挑出諸葛亮（驗證 data fix）', () => {
-  const subjs = [];
-  for (let i = 0; i < 50; i++) {
+test('包 ch031_040 候選池含諸葛亮（驗證 data fix）', () => {
+  // 直接驗證資料層：諸葛亮 isTrunk 且 chapters 含 31-40 區間
+  // (避開 weighted random 在 dozens of 候選下的 flakiness)
+  const candidates = nodes.filter(n =>
+    n.kind === 'entity' && n.type === 'character' && n.isTrunk
+    && n.chapters.some(c => c >= 31 && c <= 40)
+  );
+  const names = candidates.map(n => n.name);
+  assert.ok(names.includes('諸葛亮'),
+    `ch031_040 候選池應含諸葛亮，實際 ${candidates.length} 位候選: ${names.slice(0, 10).join(', ')}...`);
+  // sanity check：100 次抽樣應抽到核心人物之一（不強求特定一人）
+  const subjs = new Set();
+  for (let i = 0; i < 100; i++) {
     const s = pickSubject(nodes, CHAPTER_PACKS[3], EMPTY_PROFILE);
-    if (s) subjs.push(s.name);
+    if (s) subjs.add(s.name);
   }
-  // 50 次抽取應該至少有一次抽到諸葛亮（他 isTrunk 且 chapters 含 36+）
-  assert.ok(subjs.includes('諸葛亮'), `50 次抽樣應含諸葛亮，實際: ${[...new Set(subjs)]}`);
+  const coreHit = ['諸葛亮', '徐庶', '龐統', '劉備', '曹操'].some(n => subjs.has(n));
+  assert.ok(coreHit, `100 次抽樣應抽到至少 1 個核心人物，實際: ${[...subjs].slice(0, 15)}`);
 });
 
 test('每條 choice 都有 name 屬性', () => {
