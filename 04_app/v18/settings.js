@@ -1,4 +1,4 @@
-export const FONT_KEY = 'sanguo-explore-v2-font';
+export const FONT_KEY = 'sanguo-v18-font';
 
 export function bindSettingsEvents() {
   document.querySelector('.font-scale').addEventListener('click', event => {
