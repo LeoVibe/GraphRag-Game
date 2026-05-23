@@ -1,0 +1,3176 @@
+{
+  "entity:character_曹操": {
+    "id": "entity:character_曹操",
+    "name": "曹操",
+    "ratios": {
+      "command": 0.3233,
+      "military": 0.4737,
+      "strategy": 0.1654,
+      "kinship": 0.0376
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_劉備": {
+    "id": "entity:character_劉備",
+    "name": "劉備",
+    "ratios": {
+      "military": 0.3148,
+      "strategy": 0.1667,
+      "command": 0.3704,
+      "kinship": 0.1481
+    },
+    "traits": [
+      "會帶人",
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_關羽": {
+    "id": "entity:character_關羽",
+    "name": "關羽",
+    "ratios": {
+      "military": 0.6,
+      "strategy": 0.0727,
+      "kinship": 0.0727,
+      "command": 0.2545
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_呂布": {
+    "id": "entity:character_呂布",
+    "name": "呂布",
+    "ratios": {
+      "military": 0.7436,
+      "command": 0.1282,
+      "kinship": 0.1026,
+      "strategy": 0.0256
+    },
+    "traits": [
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_周瑜": {
+    "id": "entity:character_周瑜",
+    "name": "周瑜",
+    "ratios": {
+      "military": 0.2895,
+      "strategy": 0.2632,
+      "command": 0.4474
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_袁紹": {
+    "id": "entity:character_袁紹",
+    "name": "袁紹",
+    "ratios": {
+      "strategy": 0.1562,
+      "command": 0.375,
+      "military": 0.3438,
+      "kinship": 0.125
+    },
+    "traits": [
+      "會帶人",
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_張飛": {
+    "id": "entity:character_張飛",
+    "name": "張飛",
+    "ratios": {
+      "military": 0.6863,
+      "kinship": 0.0196,
+      "command": 0.2353,
+      "strategy": 0.0588
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_孫權": {
+    "id": "entity:character_孫權",
+    "name": "孫權",
+    "ratios": {
+      "strategy": 0.125,
+      "military": 0.4375,
+      "command": 0.4375
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_趙雲": {
+    "id": "entity:character_趙雲",
+    "name": "趙雲",
+    "ratios": {
+      "military": 0.7317,
+      "command": 0.2195,
+      "kinship": 0.0244,
+      "strategy": 0.0244
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_董卓": {
+    "id": "entity:character_董卓",
+    "name": "董卓",
+    "ratios": {
+      "command": 0.6,
+      "kinship": 0.2,
+      "strategy": 0.1,
+      "military": 0.1
+    },
+    "traits": [
+      "會帶人",
+      "重感情"
+    ]
+  },
+  "entity:character_劉表": {
+    "id": "entity:character_劉表",
+    "name": "劉表",
+    "ratios": {
+      "command": 0.75,
+      "military": 0.25
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_孫策": {
+    "id": "entity:character_孫策",
+    "name": "孫策",
+    "ratios": {
+      "kinship": 0.0909,
+      "military": 0.6364,
+      "command": 0.2727
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_袁術": {
+    "id": "entity:character_袁術",
+    "name": "袁術",
+    "ratios": {
+      "military": 0.2727,
+      "strategy": 0.1818,
+      "kinship": 0.1818,
+      "command": 0.3636
+    },
+    "traits": [
+      "會帶人",
+      "重感情"
+    ]
+  },
+  "entity:character_張遼": {
+    "id": "entity:character_張遼",
+    "name": "張遼",
+    "ratios": {
+      "military": 0.8261,
+      "command": 0.087,
+      "strategy": 0.087
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_曹仁": {
+    "id": "entity:character_曹仁",
+    "name": "曹仁",
+    "ratios": {
+      "command": 0.75,
+      "military": 0.1667,
+      "strategy": 0.0833
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_魯肅": {
+    "id": "entity:character_魯肅",
+    "name": "魯肅",
+    "ratios": {
+      "strategy": 0.8333,
+      "command": 0.1667
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_孫堅": {
+    "id": "entity:character_孫堅",
+    "name": "孫堅",
+    "ratios": {
+      "military": 0.1818,
+      "command": 0.3636,
+      "kinship": 0.3636,
+      "strategy": 0.0909
+    },
+    "traits": [
+      "會帶人",
+      "重感情"
+    ]
+  },
+  "entity:character_李傕": {
+    "id": "entity:character_李傕",
+    "name": "李傕",
+    "ratios": {
+      "military": 0.8182,
+      "command": 0.0909,
+      "strategy": 0.0909
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_夏侯惇": {
+    "id": "entity:character_夏侯惇",
+    "name": "夏侯惇",
+    "ratios": {
+      "command": 0.381,
+      "military": 0.5714,
+      "strategy": 0.0476
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_徐晃": {
+    "id": "entity:character_徐晃",
+    "name": "徐晃",
+    "ratios": {
+      "military": 0.7857,
+      "command": 0.2143
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_馬超": {
+    "id": "entity:character_馬超",
+    "name": "馬超",
+    "ratios": {
+      "kinship": 0.05,
+      "military": 0.5,
+      "command": 0.3,
+      "strategy": 0.15
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_許褚": {
+    "id": "entity:character_許褚",
+    "name": "許褚",
+    "ratios": {
+      "military": 0.8095,
+      "command": 0.1905
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_孫乾": {
+    "id": "entity:character_孫乾",
+    "name": "孫乾",
+    "ratios": {
+      "strategy": 0.75,
+      "command": 0.25
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_蔡瑁": {
+    "id": "entity:character_蔡瑁",
+    "name": "蔡瑁",
+    "ratios": {
+      "command": 0.3333,
+      "military": 0.3333,
+      "strategy": 0.3333
+    },
+    "traits": [
+      "會算計",
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_曹洪": {
+    "id": "entity:character_曹洪",
+    "name": "曹洪",
+    "ratios": {
+      "command": 0.3333,
+      "military": 0.5556,
+      "strategy": 0.1111
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_荀彧": {
+    "id": "entity:character_荀彧",
+    "name": "荀彧",
+    "ratios": {
+      "strategy": 0.7857,
+      "military": 0.0714,
+      "command": 0.1429
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_甘寧": {
+    "id": "entity:character_甘寧",
+    "name": "甘寧",
+    "ratios": {
+      "military": 0.7222,
+      "command": 0.1111,
+      "strategy": 0.1667
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_程昱": {
+    "id": "entity:character_程昱",
+    "name": "程昱",
+    "ratios": {
+      "strategy": 0.8333,
+      "military": 0.1111,
+      "command": 0.0556
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_陳宮": {
+    "id": "entity:character_陳宮",
+    "name": "陳宮",
+    "ratios": {
+      "military": 0.375,
+      "strategy": 0.625
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_李典": {
+    "id": "entity:character_李典",
+    "name": "李典",
+    "ratios": {
+      "command": 0.2941,
+      "military": 0.5882,
+      "strategy": 0.1176
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_馬騰": {
+    "id": "entity:character_馬騰",
+    "name": "馬騰",
+    "ratios": {
+      "command": 0.3333,
+      "military": 0.3333,
+      "kinship": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_黃蓋": {
+    "id": "entity:character_黃蓋",
+    "name": "黃蓋",
+    "ratios": {
+      "command": 0.25,
+      "military": 0.6667,
+      "strategy": 0.0833
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_郭汜": {
+    "id": "entity:character_郭汜",
+    "name": "郭汜",
+    "ratios": {
+      "military": 0.8333,
+      "command": 0.1667
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_張繡": {
+    "id": "entity:character_張繡",
+    "name": "張繡",
+    "ratios": {
+      "command": 0.4,
+      "military": 0.6
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_王允": {
+    "id": "entity:character_王允",
+    "name": "王允",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_程普": {
+    "id": "entity:character_程普",
+    "name": "程普",
+    "ratios": {
+      "command": 0.2353,
+      "military": 0.6471,
+      "strategy": 0.1176
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_陳登": {
+    "id": "entity:character_陳登",
+    "name": "陳登",
+    "ratios": {
+      "strategy": 0.6667,
+      "kinship": 0.1667,
+      "military": 0.1667
+    },
+    "traits": [
+      "會算計",
+      "重感情"
+    ]
+  },
+  "entity:character_劉琦": {
+    "id": "entity:character_劉琦",
+    "name": "劉琦",
+    "ratios": {
+      "kinship": 0.3333,
+      "command": 0.6667
+    },
+    "traits": [
+      "會帶人",
+      "重感情"
+    ]
+  },
+  "entity:character_於禁": {
+    "id": "entity:character_於禁",
+    "name": "於禁",
+    "ratios": {
+      "strategy": 0.1111,
+      "military": 0.6667,
+      "command": 0.2222
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_何進": {
+    "id": "entity:character_何進",
+    "name": "何進",
+    "ratios": {
+      "military": 0.4286,
+      "command": 0.4286,
+      "strategy": 0.1429
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_太史慈": {
+    "id": "entity:character_太史慈",
+    "name": "太史慈",
+    "ratios": {
+      "military": 0.8,
+      "command": 0.2
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_袁譚": {
+    "id": "entity:character_袁譚",
+    "name": "袁譚",
+    "ratios": {
+      "kinship": 0.2,
+      "command": 0.2,
+      "military": 0.4,
+      "strategy": 0.2
+    },
+    "traits": [
+      "會算計",
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_公孫瓚": {
+    "id": "entity:character_公孫瓚",
+    "name": "公孫瓚",
+    "ratios": {
+      "military": 0.5714,
+      "kinship": 0.1429,
+      "command": 0.2857
+    },
+    "traits": [
+      "會帶人",
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_劉璋": {
+    "id": "entity:character_劉璋",
+    "name": "劉璋",
+    "ratios": {
+      "kinship": 0.25,
+      "command": 0.25,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會帶人",
+      "重感情"
+    ]
+  },
+  "entity:character_糜竺": {
+    "id": "entity:character_糜竺",
+    "name": "糜竺",
+    "ratios": {
+      "strategy": 0.5,
+      "command": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_黃祖": {
+    "id": "entity:character_黃祖",
+    "name": "黃祖",
+    "ratios": {
+      "command": 0.3333,
+      "military": 0.6667
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_徐庶": {
+    "id": "entity:character_徐庶",
+    "name": "徐庶",
+    "ratios": {
+      "strategy": 0.6,
+      "military": 0.2,
+      "kinship": 0.2
+    },
+    "traits": [
+      "會算計",
+      "重感情"
+    ]
+  },
+  "entity:character_袁尚": {
+    "id": "entity:character_袁尚",
+    "name": "袁尚",
+    "ratios": {
+      "military": 0.5714,
+      "kinship": 0.1429,
+      "command": 0.2857
+    },
+    "traits": [
+      "會帶人",
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_賈詡": {
+    "id": "entity:character_賈詡",
+    "name": "賈詡",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_韓遂": {
+    "id": "entity:character_韓遂",
+    "name": "韓遂",
+    "ratios": {
+      "command": 0.3333,
+      "kinship": 0.1111,
+      "military": 0.2222,
+      "strategy": 0.3333
+    },
+    "traits": [
+      "會算計",
+      "會帶人",
+      "重感情"
+    ]
+  },
+  "entity:character_龐統": {
+    "id": "entity:character_龐統",
+    "name": "龐統",
+    "ratios": {
+      "strategy": 0.8571,
+      "military": 0.1429
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_張昭": {
+    "id": "entity:character_張昭",
+    "name": "張昭",
+    "ratios": {
+      "strategy": 0.7778,
+      "military": 0.1111,
+      "command": 0.1111
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_楊奉": {
+    "id": "entity:character_楊奉",
+    "name": "楊奉",
+    "ratios": {
+      "strategy": 0.4286,
+      "command": 0.1429,
+      "military": 0.4286
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_韓當": {
+    "id": "entity:character_韓當",
+    "name": "韓當",
+    "ratios": {
+      "command": 0.3571,
+      "military": 0.6429
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_董承": {
+    "id": "entity:character_董承",
+    "name": "董承",
+    "ratios": {
+      "military": 0.25,
+      "strategy": 0.5,
+      "command": 0.25
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_郭嘉": {
+    "id": "entity:character_郭嘉",
+    "name": "郭嘉",
+    "ratios": {
+      "strategy": 0.8889,
+      "command": 0.1111
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_夏侯淵": {
+    "id": "entity:character_夏侯淵",
+    "name": "夏侯淵",
+    "ratios": {
+      "command": 0.3333,
+      "military": 0.6667
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_審配": {
+    "id": "entity:character_審配",
+    "name": "審配",
+    "ratios": {
+      "strategy": 0.6,
+      "military": 0.4
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_典韋": {
+    "id": "entity:character_典韋",
+    "name": "典韋",
+    "ratios": {
+      "military": 0.75,
+      "command": 0.25
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_吳國太": {
+    "id": "entity:character_吳國太",
+    "name": "吳國太",
+    "ratios": {
+      "strategy": 0.5,
+      "kinship": 0.5
+    },
+    "traits": [
+      "會算計",
+      "重感情"
+    ]
+  },
+  "entity:character_孔融": {
+    "id": "entity:character_孔融",
+    "name": "孔融",
+    "ratios": {
+      "command": 0.1667,
+      "military": 0.1667,
+      "strategy": 0.6667
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_張濟": {
+    "id": "entity:character_張濟",
+    "name": "張濟",
+    "ratios": {
+      "command": 0.4,
+      "strategy": 0.2,
+      "military": 0.4
+    },
+    "traits": [
+      "會算計",
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_朱儁": {
+    "id": "entity:character_朱儁",
+    "name": "朱儁",
+    "ratios": {
+      "strategy": 0.3333,
+      "military": 0.6667
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_李儒": {
+    "id": "entity:character_李儒",
+    "name": "李儒",
+    "ratios": {
+      "strategy": 0.875,
+      "military": 0.125
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_陶謙": {
+    "id": "entity:character_陶謙",
+    "name": "陶謙",
+    "ratios": {
+      "command": 0.75,
+      "military": 0.25
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_周泰": {
+    "id": "entity:character_周泰",
+    "name": "周泰",
+    "ratios": {
+      "military": 0.5455,
+      "command": 0.4545
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_樂進": {
+    "id": "entity:character_樂進",
+    "name": "樂進",
+    "ratios": {
+      "command": 0.25,
+      "military": 0.75
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_荀攸": {
+    "id": "entity:character_荀攸",
+    "name": "荀攸",
+    "ratios": {
+      "strategy": 0.8889,
+      "military": 0.1111
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_蔡夫人": {
+    "id": "entity:character_蔡夫人",
+    "name": "蔡夫人",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_張松": {
+    "id": "entity:character_張松",
+    "name": "張松",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_文醜": {
+    "id": "entity:character_文醜",
+    "name": "文醜",
+    "ratios": {
+      "command": 0.3333,
+      "military": 0.5,
+      "kinship": 0.1667
+    },
+    "traits": [
+      "會帶人",
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_紀靈": {
+    "id": "entity:character_紀靈",
+    "name": "紀靈",
+    "ratios": {
+      "command": 0.5,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_孫夫人": {
+    "id": "entity:character_孫夫人",
+    "name": "孫夫人",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_蔣欽": {
+    "id": "entity:character_蔣欽",
+    "name": "蔣欽",
+    "ratios": {
+      "military": 0.5,
+      "command": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_劉琮": {
+    "id": "entity:character_劉琮",
+    "name": "劉琮",
+    "ratios": {
+      "kinship": 0.5,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "重感情"
+    ]
+  },
+  "entity:character_李肅": {
+    "id": "entity:character_李肅",
+    "name": "李肅",
+    "ratios": {
+      "strategy": 0.25,
+      "military": 0.75
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_臧霸": {
+    "id": "entity:character_臧霸",
+    "name": "臧霸",
+    "ratios": {
+      "military": 0.75,
+      "command": 0.25
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_貂蟬": {
+    "id": "entity:character_貂蟬",
+    "name": "貂蟬",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_郭圖": {
+    "id": "entity:character_郭圖",
+    "name": "郭圖",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_高順": {
+    "id": "entity:character_高順",
+    "name": "高順",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_黃忠": {
+    "id": "entity:character_黃忠",
+    "name": "黃忠",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_丁奉": {
+    "id": "entity:character_丁奉",
+    "name": "丁奉",
+    "ratios": {
+      "command": 0.7143,
+      "military": 0.2857
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_徐盛": {
+    "id": "entity:character_徐盛",
+    "name": "徐盛",
+    "ratios": {
+      "command": 0.7143,
+      "military": 0.2857
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_田豐": {
+    "id": "entity:character_田豐",
+    "name": "田豐",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_許攸": {
+    "id": "entity:character_許攸",
+    "name": "許攸",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_顏良": {
+    "id": "entity:character_顏良",
+    "name": "顏良",
+    "ratios": {
+      "command": 0.1667,
+      "military": 0.8333
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_韓暹": {
+    "id": "entity:character_韓暹",
+    "name": "韓暹",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_劉闢": {
+    "id": "entity:character_劉闢",
+    "name": "劉闢",
+    "ratios": {
+      "command": 0.6667,
+      "military": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_呂曠": {
+    "id": "entity:character_呂曠",
+    "name": "呂曠",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_呂翔": {
+    "id": "entity:character_呂翔",
+    "name": "呂翔",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_張纮": {
+    "id": "entity:character_張纮",
+    "name": "張纮",
+    "ratios": {
+      "strategy": 0.6667,
+      "command": 0.3333
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_張郃": {
+    "id": "entity:character_張郃",
+    "name": "張郃",
+    "ratios": {
+      "military": 0.6667,
+      "command": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_文聘": {
+    "id": "entity:character_文聘",
+    "name": "文聘",
+    "ratios": {
+      "military": 0.75,
+      "command": 0.25
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_甘夫人": {
+    "id": "entity:character_甘夫人",
+    "name": "甘夫人",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_袁熙": {
+    "id": "entity:character_袁熙",
+    "name": "袁熙",
+    "ratios": {
+      "kinship": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_陳武": {
+    "id": "entity:character_陳武",
+    "name": "陳武",
+    "ratios": {
+      "military": 0.4286,
+      "command": 0.5714
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_陳珪": {
+    "id": "entity:character_陳珪",
+    "name": "陳珪",
+    "ratios": {
+      "military": 0.3333,
+      "strategy": 0.6667
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_魏延": {
+    "id": "entity:character_魏延",
+    "name": "魏延",
+    "ratios": {
+      "military": 0.8,
+      "command": 0.2
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_凌統": {
+    "id": "entity:character_凌統",
+    "name": "凌統",
+    "ratios": {
+      "kinship": 0.2,
+      "military": 0.4,
+      "command": 0.4
+    },
+    "traits": [
+      "會帶人",
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_劉曄": {
+    "id": "entity:character_劉曄",
+    "name": "劉曄",
+    "ratios": {
+      "strategy": 0.75,
+      "military": 0.25
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_呂蒙": {
+    "id": "entity:character_呂蒙",
+    "name": "呂蒙",
+    "ratios": {
+      "military": 0.4286,
+      "command": 0.2857,
+      "strategy": 0.2857
+    },
+    "traits": [
+      "會算計",
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_少帝": {
+    "id": "entity:character_少帝",
+    "name": "少帝",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_張角": {
+    "id": "entity:character_張角",
+    "name": "張角",
+    "ratios": {
+      "command": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_楊彪": {
+    "id": "entity:character_楊彪",
+    "name": "楊彪",
+    "ratios": {
+      "strategy": 0.6667,
+      "kinship": 0.3333
+    },
+    "traits": [
+      "會算計",
+      "重感情"
+    ]
+  },
+  "entity:character_樊稠": {
+    "id": "entity:character_樊稠",
+    "name": "樊稠",
+    "ratios": {
+      "command": 0.5,
+      "strategy": 0.25,
+      "military": 0.25
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_焦觸": {
+    "id": "entity:character_焦觸",
+    "name": "焦觸",
+    "ratios": {
+      "command": 0.6667,
+      "military": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_韓馥": {
+    "id": "entity:character_韓馥",
+    "name": "韓馥",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_伊籍": {
+    "id": "entity:character_伊籍",
+    "name": "伊籍",
+    "ratios": {
+      "military": 0.3333,
+      "strategy": 0.6667
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_劉岱": {
+    "id": "entity:character_劉岱",
+    "name": "劉岱",
+    "ratios": {
+      "military": 0.5,
+      "command": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_張寶": {
+    "id": "entity:character_張寶",
+    "name": "張寶",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_毛玠": {
+    "id": "entity:character_毛玠",
+    "name": "毛玠",
+    "ratios": {
+      "command": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_盧植": {
+    "id": "entity:character_盧植",
+    "name": "盧植",
+    "ratios": {
+      "strategy": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_華雄": {
+    "id": "entity:character_華雄",
+    "name": "華雄",
+    "ratios": {
+      "military": 0.8333,
+      "strategy": 0.1667
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_車冑": {
+    "id": "entity:character_車冑",
+    "name": "車冑",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_逢紀": {
+    "id": "entity:character_逢紀",
+    "name": "逢紀",
+    "ratios": {
+      "strategy": 0.6667,
+      "military": 0.3333
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_馬岱": {
+    "id": "entity:character_馬岱",
+    "name": "馬岱",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_馬延": {
+    "id": "entity:character_馬延",
+    "name": "馬延",
+    "ratios": {
+      "military": 0.25,
+      "command": 0.75
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_龔都": {
+    "id": "entity:character_龔都",
+    "name": "龔都",
+    "ratios": {
+      "command": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_公孫康": {
+    "id": "entity:character_公孫康",
+    "name": "公孫康",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_劉封": {
+    "id": "entity:character_劉封",
+    "name": "劉封",
+    "ratios": {
+      "command": 0.6667,
+      "military": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_呂範": {
+    "id": "entity:character_呂範",
+    "name": "呂範",
+    "ratios": {
+      "command": 0.5,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_呂虔": {
+    "id": "entity:character_呂虔",
+    "name": "呂虔",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_喬國老": {
+    "id": "entity:character_喬國老",
+    "name": "喬國老",
+    "ratios": {
+      "kinship": 0.5,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "重感情"
+    ]
+  },
+  "entity:character_張允": {
+    "id": "entity:character_張允",
+    "name": "張允",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_張讓": {
+    "id": "entity:character_張讓",
+    "name": "張讓",
+    "ratios": {
+      "command": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_曹嵩": {
+    "id": "entity:character_曹嵩",
+    "name": "曹嵩",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_潘璋": {
+    "id": "entity:character_潘璋",
+    "name": "潘璋",
+    "ratios": {
+      "military": 0.3333,
+      "command": 0.5,
+      "strategy": 0.1667
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_牛輔": {
+    "id": "entity:character_牛輔",
+    "name": "牛輔",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_皇甫嵩": {
+    "id": "entity:character_皇甫嵩",
+    "name": "皇甫嵩",
+    "ratios": {
+      "strategy": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_簡雍": {
+    "id": "entity:character_簡雍",
+    "name": "簡雍",
+    "ratios": {
+      "command": 0.5,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_蒯良": {
+    "id": "entity:character_蒯良",
+    "name": "蒯良",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_蒯越": {
+    "id": "entity:character_蒯越",
+    "name": "蒯越",
+    "ratios": {
+      "military": 0.5,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_蔣幹": {
+    "id": "entity:character_蔣幹",
+    "name": "蔣幹",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_諸葛瑾": {
+    "id": "entity:character_諸葛瑾",
+    "name": "諸葛瑾",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_韓嵩": {
+    "id": "entity:character_韓嵩",
+    "name": "韓嵩",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_龐德": {
+    "id": "entity:character_龐德",
+    "name": "龐德",
+    "ratios": {
+      "command": 0.2,
+      "military": 0.8
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_何後": {
+    "id": "entity:character_何後",
+    "name": "何後",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_單福": {
+    "id": "entity:character_單福",
+    "name": "單福",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_嚴白虎": {
+    "id": "entity:character_嚴白虎",
+    "name": "嚴白虎",
+    "ratios": {
+      "command": 0.5,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會帶人"
+    ]
+  },
+  "entity:character_宋憲": {
+    "id": "entity:character_宋憲",
+    "name": "宋憲",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_張南": {
+    "id": "entity:character_張南",
+    "name": "張南",
+    "ratios": {
+      "command": 0.6667,
+      "military": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_王忠": {
+    "id": "entity:character_王忠",
+    "name": "王忠",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_王植": {
+    "id": "entity:character_王植",
+    "name": "王植",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_蔡邕": {
+    "id": "entity:character_蔡邕",
+    "name": "蔡邕",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_蔡陽": {
+    "id": "entity:character_蔡陽",
+    "name": "蔡陽",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_闞澤": {
+    "id": "entity:character_闞澤",
+    "name": "闞澤",
+    "ratios": {
+      "military": 0.5,
+      "command": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_陳震": {
+    "id": "entity:character_陳震",
+    "name": "陳震",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_韓福": {
+    "id": "entity:character_韓福",
+    "name": "韓福",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_顧雍": {
+    "id": "entity:character_顧雍",
+    "name": "顧雍",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_魏續": {
+    "id": "entity:character_魏續",
+    "name": "魏續",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_黃奎": {
+    "id": "entity:character_黃奎",
+    "name": "黃奎",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_劉焉": {
+    "id": "entity:character_劉焉",
+    "name": "劉焉",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_劉賢": {
+    "id": "entity:character_劉賢",
+    "name": "劉賢",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_卞喜": {
+    "id": "entity:character_卞喜",
+    "name": "卞喜",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_吉平": {
+    "id": "entity:character_吉平",
+    "name": "吉平",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_張顗": {
+    "id": "entity:character_張顗",
+    "name": "張顗",
+    "ratios": {
+      "military": 0.25,
+      "command": 0.75
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_李樂": {
+    "id": "entity:character_李樂",
+    "name": "李樂",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_王威": {
+    "id": "entity:character_王威",
+    "name": "王威",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_皇甫酈": {
+    "id": "entity:character_皇甫酈",
+    "name": "皇甫酈",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_糜芳": {
+    "id": "entity:character_糜芳",
+    "name": "糜芳",
+    "ratios": {
+      "command": 0.6667,
+      "military": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_董襲": {
+    "id": "entity:character_董襲",
+    "name": "董襲",
+    "ratios": {
+      "command": 0.3333,
+      "strategy": 0.3333,
+      "military": 0.3333
+    },
+    "traits": [
+      "會算計",
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_趙範": {
+    "id": "entity:character_趙範",
+    "name": "趙範",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_邢道榮": {
+    "id": "entity:character_邢道榮",
+    "name": "邢道榮",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_陸遜": {
+    "id": "entity:character_陸遜",
+    "name": "陸遜",
+    "ratios": {
+      "command": 0.3333,
+      "military": 0.6667
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_雷薄": {
+    "id": "entity:character_雷薄",
+    "name": "雷薄",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_傅嬰": {
+    "id": "entity:character_傅嬰",
+    "name": "傅嬰",
+    "ratios": {
+      "military": 0.6667,
+      "command": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_凌操": {
+    "id": "entity:character_凌操",
+    "name": "凌操",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_劉馥": {
+    "id": "entity:character_劉馥",
+    "name": "劉馥",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_媯覽": {
+    "id": "entity:character_媯覽",
+    "name": "媯覽",
+    "ratios": {
+      "military": 0.5,
+      "kinship": 0.5
+    },
+    "traits": [
+      "會打仗",
+      "重感情"
+    ]
+  },
+  "entity:character_孫靜": {
+    "id": "entity:character_孫靜",
+    "name": "孫靜",
+    "ratios": {
+      "strategy": 0.3333,
+      "kinship": 0.3333,
+      "command": 0.3333
+    },
+    "traits": [
+      "會算計",
+      "會帶人",
+      "重感情"
+    ]
+  },
+  "entity:character_孫高": {
+    "id": "entity:character_孫高",
+    "name": "孫高",
+    "ratios": {
+      "military": 0.6667,
+      "command": 0.3333
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_張燕": {
+    "id": "entity:character_張燕",
+    "name": "張燕",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_曹豹": {
+    "id": "entity:character_曹豹",
+    "name": "曹豹",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_朱靈": {
+    "id": "entity:character_朱靈",
+    "name": "朱靈",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_李蒙": {
+    "id": "entity:character_李蒙",
+    "name": "李蒙",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_楊秋": {
+    "id": "entity:character_楊秋",
+    "name": "楊秋",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_橋蕤": {
+    "id": "entity:character_橋蕤",
+    "name": "橋蕤",
+    "ratios": {
+      "military": 0.5,
+      "command": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_段煨": {
+    "id": "entity:character_段煨",
+    "name": "段煨",
+    "ratios": {
+      "military": 0.5,
+      "command": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_沮授": {
+    "id": "entity:character_沮授",
+    "name": "沮授",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_牛金": {
+    "id": "entity:character_牛金",
+    "name": "牛金",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_王子服": {
+    "id": "entity:character_王子服",
+    "name": "王子服",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_賈華": {
+    "id": "entity:character_賈華",
+    "name": "賈華",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_趙弘": {
+    "id": "entity:character_趙弘",
+    "name": "趙弘",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_週倉": {
+    "id": "entity:character_週倉",
+    "name": "週倉",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_關平": {
+    "id": "entity:character_關平",
+    "name": "關平",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_陳應": {
+    "id": "entity:character_陳應",
+    "name": "陳應",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_陳琳": {
+    "id": "entity:character_陳琳",
+    "name": "陳琳",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_高覽": {
+    "id": "entity:character_高覽",
+    "name": "高覽",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_鮑信": {
+    "id": "entity:character_鮑信",
+    "name": "鮑信",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_伍習": {
+    "id": "entity:character_伍習",
+    "name": "伍習",
+    "ratios": {
+      "military": 0.5,
+      "command": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_何苗": {
+    "id": "entity:character_何苗",
+    "name": "何苗",
+    "ratios": {
+      "strategy": 0.5,
+      "kinship": 0.5
+    },
+    "traits": [
+      "會算計",
+      "重感情"
+    ]
+  },
+  "entity:character_劉氏": {
+    "id": "entity:character_劉氏",
+    "name": "劉氏",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_孟坦": {
+    "id": "entity:character_孟坦",
+    "name": "孟坦",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_戈定": {
+    "id": "entity:character_戈定",
+    "name": "戈定",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_戴員": {
+    "id": "entity:character_戴員",
+    "name": "戴員",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_曲義": {
+    "id": "entity:character_曲義",
+    "name": "曲義",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_曹植": {
+    "id": "entity:character_曹植",
+    "name": "曹植",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_李豐": {
+    "id": "entity:character_李豐",
+    "name": "李豐",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_段珪": {
+    "id": "entity:character_段珪",
+    "name": "段珪",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_王匡": {
+    "id": "entity:character_王匡",
+    "name": "王匡",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_王方": {
+    "id": "entity:character_王方",
+    "name": "王方",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_王朗": {
+    "id": "entity:character_王朗",
+    "name": "王朗",
+    "ratios": {
+      "military": 0.5,
+      "strategy": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_祖茂": {
+    "id": "entity:character_祖茂",
+    "name": "祖茂",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_胡班": {
+    "id": "entity:character_胡班",
+    "name": "胡班",
+    "ratios": {
+      "command": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_虞翻": {
+    "id": "entity:character_虞翻",
+    "name": "虞翻",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_裴元紹": {
+    "id": "entity:character_裴元紹",
+    "name": "裴元紹",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_蹇碩": {
+    "id": "entity:character_蹇碩",
+    "name": "蹇碩",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_郝萌": {
+    "id": "entity:character_郝萌",
+    "name": "郝萌",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_鞏志": {
+    "id": "entity:character_鞏志",
+    "name": "鞏志",
+    "ratios": {
+      "strategy": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_韓玄": {
+    "id": "entity:character_韓玄",
+    "name": "韓玄",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_黃權": {
+    "id": "entity:character_黃權",
+    "name": "黃權",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_黃琬": {
+    "id": "entity:character_黃琬",
+    "name": "黃琬",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_何儀": {
+    "id": "entity:character_何儀",
+    "name": "何儀",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_劉度": {
+    "id": "entity:character_劉度",
+    "name": "劉度",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_史渙": {
+    "id": "entity:character_史渙",
+    "name": "史渙",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_吳夫人之妹": {
+    "id": "entity:character_吳夫人之妹",
+    "name": "吳夫人之妹",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_呂公": {
+    "id": "entity:character_呂公",
+    "name": "呂公",
+    "ratios": {
+      "strategy": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_孫翊": {
+    "id": "entity:character_孫翊",
+    "name": "孫翊",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_孫觀": {
+    "id": "entity:character_孫觀",
+    "name": "孫觀",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_崔琰": {
+    "id": "entity:character_崔琰",
+    "name": "崔琰",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_張楊": {
+    "id": "entity:character_張楊",
+    "name": "張楊",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_張武": {
+    "id": "entity:character_張武",
+    "name": "張武",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_張英": {
+    "id": "entity:character_張英",
+    "name": "張英",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_張輳": {
+    "id": "entity:character_張輳",
+    "name": "張輳??",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_徐榮": {
+    "id": "entity:character_徐榮",
+    "name": "徐榮",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_徐璆": {
+    "id": "entity:character_徐璆",
+    "name": "徐璆",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_曹安民": {
+    "id": "entity:character_曹安民",
+    "name": "曹安民",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_曹性": {
+    "id": "entity:character_曹性",
+    "name": "曹性",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_曹昂": {
+    "id": "entity:character_曹昂",
+    "name": "曹昂",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_李封": {
+    "id": "entity:character_李封",
+    "name": "李封",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_楊修": {
+    "id": "entity:character_楊修",
+    "name": "楊修",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_淳於導": {
+    "id": "entity:character_淳於導",
+    "name": "淳於導",
+    "ratios": {
+      "military": 0.5,
+      "command": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_王修": {
+    "id": "entity:character_王修",
+    "name": "王修",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_王琰": {
+    "id": "entity:character_王琰",
+    "name": "王琰",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_王累": {
+    "id": "entity:character_王累",
+    "name": "王累",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_程遠志": {
+    "id": "entity:character_程遠志",
+    "name": "程遠志",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_耿武": {
+    "id": "entity:character_耿武",
+    "name": "耿武",
+    "ratios": {
+      "strategy": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會算計",
+      "會打仗"
+    ]
+  },
+  "entity:character_胡赤兒": {
+    "id": "entity:character_胡赤兒",
+    "name": "胡赤兒",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_薛蘭": {
+    "id": "entity:character_薛蘭",
+    "name": "薛蘭",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_路昭": {
+    "id": "entity:character_路昭",
+    "name": "路昭",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_道袍竹冠之人": {
+    "id": "entity:character_道袍竹冠之人",
+    "name": "道袍竹冠之人",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_邊洪": {
+    "id": "entity:character_邊洪",
+    "name": "邊洪",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_鄒氏": {
+    "id": "entity:character_鄒氏",
+    "name": "鄒氏",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_閔貢": {
+    "id": "entity:character_閔貢",
+    "name": "閔貢",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_關定": {
+    "id": "entity:character_關定",
+    "name": "關定",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_陳孫": {
+    "id": "entity:character_陳孫",
+    "name": "陳孫",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_養馬後槽": {
+    "id": "entity:character_養馬後槽",
+    "name": "養馬後槽",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_馬良": {
+    "id": "entity:character_馬良",
+    "name": "馬良",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_黃劭": {
+    "id": "entity:character_黃劭",
+    "name": "黃劭",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_丁管": {
+    "id": "entity:character_丁管",
+    "name": "丁管",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_伍瓊": {
+    "id": "entity:character_伍瓊",
+    "name": "伍瓊",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_傅巽": {
+    "id": "entity:character_傅巽",
+    "name": "傅巽",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_劉陶": {
+    "id": "entity:character_劉陶",
+    "name": "劉陶",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_吳匡": {
+    "id": "entity:character_吳匡",
+    "name": "吳匡",
+    "ratios": {
+      "command": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_吳夫人": {
+    "id": "entity:character_吳夫人",
+    "name": "吳夫人",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_吳敦": {
+    "id": "entity:character_吳敦",
+    "name": "吳敦",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_喬瑁": {
+    "id": "entity:character_喬瑁",
+    "name": "喬瑁",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_嚴政": {
+    "id": "entity:character_嚴政",
+    "name": "嚴政",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_大喬": {
+    "id": "entity:character_大喬",
+    "name": "大喬",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_宋謙": {
+    "id": "entity:character_宋謙",
+    "name": "宋謙",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_小喬": {
+    "id": "entity:character_小喬",
+    "name": "小喬",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_尹禮": {
+    "id": "entity:character_尹禮",
+    "name": "尹禮",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_張衡": {
+    "id": "entity:character_張衡",
+    "name": "張衡",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_張鈞": {
+    "id": "entity:character_張鈞",
+    "name": "張鈞",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_張陵": {
+    "id": "entity:character_張陵",
+    "name": "張陵",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_成宜": {
+    "id": "entity:character_成宜",
+    "name": "成宜",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_晏明": {
+    "id": "entity:character_晏明",
+    "name": "晏明",
+    "ratios": {
+      "command": 0.5,
+      "military": 0.5
+    },
+    "traits": [
+      "會帶人",
+      "會打仗"
+    ]
+  },
+  "entity:character_曹仁之女": {
+    "id": "entity:character_曹仁之女",
+    "name": "曹仁之女",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_曹休": {
+    "id": "entity:character_曹休",
+    "name": "曹休",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_曹節": {
+    "id": "entity:character_曹節",
+    "name": "曹節",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_曹純": {
+    "id": "entity:character_曹純",
+    "name": "曹純",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_李孚": {
+    "id": "entity:character_李孚",
+    "name": "李孚",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_楊阜": {
+    "id": "entity:character_楊阜",
+    "name": "楊阜",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_楊齡": {
+    "id": "entity:character_楊齡",
+    "name": "楊齡",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_王垕": {
+    "id": "entity:character_王垕",
+    "name": "王垕",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_王楷": {
+    "id": "entity:character_王楷",
+    "name": "王楷",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_眭元進": {
+    "id": "entity:character_眭元進",
+    "name": "眭元進",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_程諮": {
+    "id": "entity:character_程諮",
+    "name": "程諮",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_胡華": {
+    "id": "entity:character_胡華",
+    "name": "胡華",
+    "ratios": {
+      "kinship": 1.0
+    },
+    "traits": [
+      "重感情"
+    ]
+  },
+  "entity:character_荀諦": {
+    "id": "entity:character_荀諦",
+    "name": "荀諦",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_許汜": {
+    "id": "entity:character_許汜",
+    "name": "許汜",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_趙睿": {
+    "id": "entity:character_趙睿",
+    "name": "趙睿",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_週毖": {
+    "id": "entity:character_週毖",
+    "name": "週毖",
+    "ratios": {
+      "strategy": 1.0
+    },
+    "traits": [
+      "會算計"
+    ]
+  },
+  "entity:character_邊讓": {
+    "id": "entity:character_邊讓",
+    "name": "邊讓",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_關純": {
+    "id": "entity:character_關純",
+    "name": "關純",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  },
+  "entity:character_趙忠": {
+    "id": "entity:character_趙忠",
+    "name": "趙忠",
+    "ratios": {
+      "command": 1.0
+    },
+    "traits": [
+      "會帶人"
+    ]
+  },
+  "entity:character_郭勝": {
+    "id": "entity:character_郭勝",
+    "name": "郭勝",
+    "ratios": {
+      "military": 1.0
+    },
+    "traits": [
+      "會打仗"
+    ]
+  }
+}
