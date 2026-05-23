@@ -42,3 +42,62 @@
 - **可替換**：例如想換 LLM、換 embedding 模型，只影響對應步驟
 - **可檢查**：每步產出都是人類可讀的 JSON / Markdown，方便抽查品質
 - **可分散**：抽取階段可以多開幾個 process 平行跑
+
+---
+
+## Phase 1 新增：v3 csv → 前端 JSON pipeline
+
+跟上面的「原文 → 萃取」主 pipeline 並行，Phase 1 加了另一條從 GraphRAG v3
+csv 變成前端可 fetch 的 JSON 的轉檔腳本。這個 pipeline 服務「人物圖鑑 ×
+關係偵探」設計的資料層需求。
+
+```
+03_graphrag/sanguo_v3_nodes.csv          (從台科 neo4j v3 匯入)
+03_graphrag/sanguo_v3_relationships.csv
+   │
+   ▼  build_graph.py
+03_graphrag/nodes.json   (typed, prettified, 1534 筆)
+03_graphrag/rels.json    (typed, prettified, 6615 筆)
+   │
+   ▼  precompute_questions.py
+03_graphrag/character_personality.json   (287 位人物的 ratios + traits)
+```
+
+### 跑法
+
+```bash
+python3 05_pipeline/build_graph.py            # csv → nodes.json / rels.json
+python3 05_pipeline/precompute_questions.py   # 預算個性比例
+```
+
+### 兩支腳本
+
+| 檔案 | 輸入 | 輸出 |
+|---|---|---|
+| `build_graph.py` | `sanguo_v3_*.csv` | `nodes.json` / `rels.json` |
+| `precompute_questions.py` | `nodes.json` `rels.json` | `character_personality.json` |
+
+#### build_graph.py
+- `;` 分隔字串轉成 int array（chapters）
+- `|` 分隔字串轉成 string array（aliases）
+- 數字欄位轉成 int / float、isTrunk 轉成 bool
+- UTF-8 prettified（ensure_ascii=False）
+
+#### precompute_questions.py
+對每個 `kind=entity, type=character` 的人物：
+- 統計 outgoing relationship 的 4 個 personality categories（strategy / command / military / kinship）的比例
+- 套用閾值產出 traits（詳見 `docs/superpowers/specs/2026-05-23-sanguo-character-codex-design.md` § 6）
+
+### 測試
+
+```bash
+python3 -m unittest discover -s 05_pipeline/tests -v
+```
+
+預期：15 tests (8 build_graph + 7 precompute) all PASS。需要 Python 3.9+，
+無外部依賴。
+
+### Phase 1 環境需求（比上面主 pipeline 簡單）
+
+- Python 3.9+（macOS 系統內建即可）
+- 無 pip 安裝需求
