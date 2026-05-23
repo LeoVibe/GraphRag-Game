@@ -40,7 +40,7 @@ function renderPersonMode() {
   const visiblePeople = filteredTrunkCharacters();
   const friendRels = personFriendRels(person.id, state.relationFilter);
   return `
-    <section class="panel">
+    <section class="panel" data-region="left">
       <h3 class="panel-title">人物探險</h3>
       <p class="panel-question">想看誰身邊的人？</p>
       <div class="starter-section">
@@ -60,7 +60,7 @@ function renderPersonMode() {
         ${visiblePeople.map(node => personRow(node, person.id)).join('') || `<div class="empty-state">找不到符合條件的人物。</div>`}
       </div>
     </section>
-    <div class="center-stack">
+    <div class="center-stack" data-region="center">
       <section class="panel map-panel">
         <header class="map-header">
           <div>
@@ -71,7 +71,7 @@ function renderPersonMode() {
         </header>
         <div class="map-canvas"></div>
       </section>
-      <section class="panel" style="padding:0;">
+      <section class="panel" data-region="bottom">
         <div class="bottom-tabs">
           <button type="button" class="bottom-tab ${state.personTab === 'friends' ? 'is-active' : ''}" data-action="person-tab" data-value="friends">朋友圈</button>
           <button type="button" class="bottom-tab ${state.personTab === 'moments' ? 'is-active' : ''}" data-action="person-tab" data-value="moments">出場時刻</button>
@@ -81,7 +81,7 @@ function renderPersonMode() {
         </div>
       </section>
     </div>
-    <aside class="panel">
+    <aside class="panel" data-region="right">
       ${renderPersonFile(person)}
     </aside>
   `;
@@ -92,7 +92,6 @@ function starterChip(name, selectedId) {
   if (!node) return '';
   return `
     <button class="starter-chip ${node.id === selectedId ? 'is-selected' : ''}" type="button" data-action="select-person" data-id="${escapeAttr(node.id)}" data-camp="${campKey(node)}">
-      <span class="avatar">${escapeHtml(avatar(node.name))}</span>
       <span class="name">${escapeHtml(node.name)}</span>
       <span class="camp">${escapeHtml(node.campLabel || '其他')}</span>
     </button>
@@ -199,6 +198,7 @@ function renderPersonFile(person) {
   const profile = data.personality[person.id];
   return `
     <h3 class="panel-title">人物檔案</h3>
+    <p class="panel-question">他是誰？做過什麼？</p>
     <div class="file-section">
       <div class="file-header">
         <div class="avatar">${escapeHtml(avatar(person.name))}</div>

@@ -53,6 +53,7 @@ function setMode(mode) {
   state.personTab = 'friends';
   state.relationFilter = '全部';
   state.reasoningStep = 'cause';
+  state.relationTab = 'segments';
   syncHash();
   render();
 }
@@ -97,10 +98,16 @@ function handleAppClick(event) {
     render();
     return;
   }
+  if (action === 'relation-tab') {
+    state.relationTab = button.dataset.value;
+    render();
+    return;
+  }
   if (action === 'preset-pair') {
     state.fromId = resolveCharacterId(button.dataset.from);
     state.toId = resolveCharacterId(button.dataset.to);
     state.mode = 'relation';
+    state.relationTab = 'segments';
     syncHash();
     render();
     return;

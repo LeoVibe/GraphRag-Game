@@ -12,6 +12,10 @@ export function renderForceGraph(container, nodes, links, options = {}) {
     .attr('width', width).attr('height', height)
     .attr('viewBox', `0 0 ${width} ${height}`);
 
+  const fixedPositions = new Map(nodes
+    .filter(node => node.fx != null || node.fy != null)
+    .map(node => [node, { fx: node.fx, fy: node.fy }]));
+
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(linkDistance))
     .force('charge', d3.forceManyBody().strength(-300))
@@ -27,9 +31,18 @@ export function renderForceGraph(container, nodes, links, options = {}) {
     .attr('data-camp', d => d.camp || 'other')
     .style('cursor', 'pointer')
     .call(d3.drag()
-      .on('start', (event, d) => { if (!event.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('start', (event, d) => {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.fx ?? d.x;
+        d.fy = d.fy ?? d.y;
+      })
       .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
-      .on('end', (event, d) => { if (!event.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+      .on('end', (event, d) => {
+        if (!event.active) simulation.alphaTarget(0);
+        const fixed = fixedPositions.get(d);
+        d.fx = fixed ? fixed.fx : null;
+        d.fy = fixed ? fixed.fy : null;
+      })
     );
 
   node.append('rect').attr('rx', 14).attr('ry', 14);

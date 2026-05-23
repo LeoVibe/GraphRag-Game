@@ -16,7 +16,8 @@ export const state = {
   battleSearch: '',
   reasoningStep: 'cause',
   fromId: DEFAULT_FROM,
-  toId: DEFAULT_TO
+  toId: DEFAULT_TO,
+  relationTab: 'segments'
 };
 
 export function setState(patch) {

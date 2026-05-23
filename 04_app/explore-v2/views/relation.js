@@ -1,4 +1,5 @@
 import { state } from '../state.js';
+import { renderForceGraph } from '../force-graph.js';
 import {
   avatar,
   campKey,
@@ -19,7 +20,9 @@ const COMMON_PAIRS = [
 ];
 
 export function renderRelation(root, ctx) {
+  destroyExistingForceGraph(root);
   root.innerHTML = renderRelationMode();
+  mountRelationForceGraph(root);
 }
 
 function renderRelationMode() {
@@ -27,7 +30,7 @@ function renderRelationMode() {
   const to = data.byId.get(state.toId);
   const path = from && to ? shortestPath(state.fromId, state.toId, 3) : null;
   return `
-    <section class="panel">
+    <section class="panel" data-region="left">
       <h3 class="panel-title">關係路徑</h3>
       <p class="panel-question">想知道哪兩人怎麼認識？</p>
       ${endpointBlock('① 起點', from, 'clear-from')}
@@ -36,14 +39,103 @@ function renderRelationMode() {
       <button class="find-btn" type="button">找出路徑 →</button>
       ${presetPairs()}
     </section>
-    <div class="center-stack">
-      ${renderPathFlow(from, to, path)}
-      ${renderSegments(path)}
+    <div class="center-stack" data-region="center">
+      <section class="panel map-panel">
+        <header class="map-header">
+          <div>
+            <h2 class="map-title">${escapeHtml(relationMapTitle(from, to))}</h2>
+            <div class="map-title-sub">${escapeHtml(relationMapSub(from, to, path))}</div>
+          </div>
+          <div class="map-tools"><button type="button">＋</button><button type="button">−</button><button type="button">⤢</button></div>
+        </header>
+        <div class="map-canvas"></div>
+      </section>
+      <section class="panel" data-region="bottom">
+        <div class="bottom-tabs">
+          <button type="button" class="bottom-tab ${state.relationTab === 'stats' ? '' : 'is-active'}" data-action="relation-tab" data-value="segments">分段閱讀</button>
+          <button type="button" class="bottom-tab ${state.relationTab === 'stats' ? 'is-active' : ''}" data-action="relation-tab" data-value="stats">證據統計</button>
+        </div>
+        <div class="bottom-panel">
+          ${state.relationTab === 'stats' ? renderEvidenceStats(path) : renderSegments(path)}
+        </div>
+      </section>
     </div>
-    <aside class="panel">
+    <aside class="panel" data-region="right">
       ${renderPathSummary(from, to, path)}
     </aside>
   `;
+}
+
+function destroyExistingForceGraph(container) {
+  const canvas = container.querySelector('.map-canvas');
+  if (canvas?._forceGraph) {
+    canvas._forceGraph.destroy();
+    canvas._forceGraph = null;
+  }
+}
+
+function relationMapTitle(from, to) {
+  if (!from && !to) return '選擇起點 → 終點';
+  return `${from?.name || '未選擇'} → ${to?.name || '未選擇'}`;
+}
+
+function relationMapSub(from, to, path) {
+  if (!from || !to) return '請先選好起點與終點';
+  if (!path) return '找不到 3 跳內路徑';
+  return `經過 ${Math.max(0, path.nodes.length - 2)} 人 · ${path.edges.length} 段路`;
+}
+
+function mountRelationForceGraph(container) {
+  const canvas = container.querySelector('.map-canvas');
+  if (!canvas) return;
+  if (canvas._forceGraph) {
+    canvas._forceGraph.destroy();
+    canvas._forceGraph = null;
+  }
+
+  const from = data.byId.get(state.fromId);
+  const to = data.byId.get(state.toId);
+  if (!from || !to) {
+    canvas.innerHTML = `<div class="map-empty-state"><div class="empty-state">請先選好起點與終點。找不到時可直接使用左側 5 組常用配對。</div></div>`;
+    return;
+  }
+
+  const path = shortestPath(state.fromId, state.toId, 3);
+  const width = canvas.clientWidth || 640;
+  const height = canvas.clientHeight || 340;
+
+  if (!path) {
+    const startNode = { id: from.id, name: from.name, camp: campKey(from), isFocus: true, fx: 80, fy: height / 2 };
+    const endNode = { id: to.id, name: to.name, camp: campKey(to), isFocus: true, fx: width - 80, fy: height / 2 };
+    canvas._forceGraph = renderForceGraph(canvas, [startNode, endNode], [], { width, height, linkDistance: 140 });
+    return;
+  }
+
+  const startId = path.nodes[0];
+  const endId = path.nodes[path.nodes.length - 1];
+  const start = data.byId.get(startId) || from;
+  const end = data.byId.get(endId) || to;
+  const startNode = path.nodes.length === 1
+    ? { id: startId, name: start.name, camp: campKey(start), isFocus: true, fx: width / 2, fy: height / 2 }
+    : { id: startId, name: start.name, camp: campKey(start), isFocus: true, fx: 80, fy: height / 2 };
+  const endNode = { id: endId, name: end.name, camp: campKey(end), isFocus: true, fx: width - 80, fy: height / 2 };
+  const nodes = path.nodes.map((id, index) => {
+    if (index === 0) return startNode;
+    if (index === path.nodes.length - 1) return endNode;
+    const node = data.byId.get(id);
+    return { id, name: node?.name || id, camp: campKey(node) };
+  });
+  const links = path.edges.map((rel, index) => ({
+    source: path.nodes[index],
+    target: path.nodes[index + 1],
+    category: rel.category
+  }));
+
+  canvas._forceGraph = renderForceGraph(canvas, nodes, links, {
+    width,
+    height,
+    linkDistance: Math.max(110, Math.min(170, width / Math.max(3, nodes.length)))
+  });
 }
 
 function endpointBlock(label, node, clearAction) {
@@ -85,76 +177,39 @@ function presetPairs() {
   `;
 }
 
-function renderPathFlow(from, to, path) {
-  if (!from || !to) {
-    return `
-      <section class="path-flow-panel">
-        <div class="empty-state">請先選好起點與終點。找不到時可直接使用左側 5 組常用配對。</div>
-      </section>
-    `;
-  }
-  if (!path) {
-    return `
-      <section class="path-flow-panel">
-        <div class="path-flow-title">
-          <span class="from-name">${escapeHtml(from.name)}</span><span class="arrow">→</span><span class="to-name">${escapeHtml(to.name)}</span>
-          <span class="label">找不到 3 跳內路徑</span>
-        </div>
-        <div class="empty-state">真實 character→character 關係中，3 跳內沒有找到可連接路徑。可以改用左側常用配對。</div>
-      </section>
-    `;
-  }
-  const nodeHtml = [];
-  path.nodes.forEach((id, index) => {
-    const node = data.byId.get(id);
-    const endpoint = index === 0 || index === path.nodes.length - 1;
-    nodeHtml.push(`
-      <div class="path-node ${endpoint ? 'is-endpoint' : ''}">
-        <span class="num">${index === 0 ? '起' : index === path.nodes.length - 1 ? '終' : index}</span>
-        <div class="avatar">${escapeHtml(avatar(node?.name || '?'))}</div>
-        <div class="name">${escapeHtml(node?.name || id)}</div>
-        <span class="camp ${campKey(node)}">${escapeHtml(node?.campLabel || '其他')}</span>
-      </div>
-    `);
-    if (path.edges[index]) {
-      const rel = path.edges[index];
-      const tag = segmentTag(rel);
-      nodeHtml.push(`
-        <div class="path-edge">
-          <span class="edge-label">${escapeHtml(rel.relationType || rel.categoryLabel || '關係')}</span>
-          <span class="edge-meta">${escapeHtml(chapterLabel(rel))} · ${tag.label}</span>
-        </div>
-      `);
-    }
-  });
-  return `
-    <section class="path-flow-panel">
-      <div class="path-flow-title">
-        <span class="from-name">${escapeHtml(from.name)}</span><span class="arrow">→</span><span class="to-name">${escapeHtml(to.name)}</span>
-        <span class="label">經過 ${Math.max(0, path.nodes.length - 2)} 人 · ${path.edges.length} 段路</span>
-      </div>
-      <div class="path-flow">${nodeHtml.join('')}</div>
-    </section>
-  `;
-}
-
 function renderSegments(path) {
   if (!path) {
     return `
-      <section class="panel segments-panel">
-        <div class="segments-header"><h3>路徑分段閱讀</h3>${legend()}</div>
-        <div class="empty-state">目前沒有可閱讀的分段。</div>
-      </section>
+      <div class="segments-header"><h3>路徑分段閱讀</h3>${legend()}</div>
+      <div class="empty-state">目前沒有可閱讀的分段。</div>
     `;
   }
   return `
-    <section class="panel segments-panel">
-      <div class="segments-header"><h3>路徑分段閱讀</h3>${legend()}</div>
-      <div class="segment-list">
-        ${path.edges.map((rel, index) => segmentCard(rel, path.nodes[index], path.nodes[index + 1], index)).join('') || `<div class="empty-state">起點與終點相同，沒有中間分段。</div>`}
-      </div>
-    </section>
+    <div class="segments-header"><h3>路徑分段閱讀</h3>${legend()}</div>
+    <div class="segment-list">
+      ${path.edges.map((rel, index) => segmentCard(rel, path.nodes[index], path.nodes[index + 1], index)).join('') || `<div class="empty-state">起點與終點相同，沒有中間分段。</div>`}
+    </div>
   `;
+}
+
+function renderEvidenceStats(path) {
+  const ratio = evidenceRatio(path);
+  const total = path ? Math.max(1, path.edges.length) : 1;
+  return `
+    <div class="segments-header"><h3>證據統計</h3>${legend()}</div>
+    <div class="evidence-ratio">
+      ${ratioRow('軍事', 'military', ratio.military, total)}
+      ${ratioRow('互動', 'interact', ratio.interact, total)}
+      ${ratioRow('身分', 'identity', ratio.identity, total)}
+    </div>
+  `;
+}
+
+function evidenceRatio(path) {
+  return path ? path.edges.reduce((acc, rel) => {
+    acc[segmentTag(rel).className] += 1;
+    return acc;
+  }, { military: 0, interact: 0, identity: 0 }) : { military: 0, interact: 0, identity: 0 };
 }
 
 function legend() {
@@ -189,45 +244,28 @@ function segmentCard(rel, fromId, toId, index) {
 }
 
 function renderPathSummary(from, to, path) {
-  const ratio = path ? path.edges.reduce((acc, rel) => {
-    acc[segmentTag(rel).className] += 1;
-    return acc;
-  }, { military: 0, interact: 0, identity: 0 }) : { military: 0, interact: 0, identity: 0 };
-  const total = path ? Math.max(1, path.edges.length) : 1;
   return `
     <h3 class="panel-title">路徑摘要</h3>
-    <p style="margin:0 0 16px; font-size:13px; color:var(--color-text-soft);">兩個人怎麼串起來？</p>
-    <div class="summary-section">
+    <p class="panel-question">兩個人怎麼串起來？</p>
+    <div class="file-section">
       <div class="endpoints-summary">
         ${summaryEndpoint(from)}
         <div class="es-arrow">→</div>
         ${summaryEndpoint(to)}
       </div>
     </div>
-    <div class="summary-section">
+    <div class="file-section">
       <div class="stat-row">
         <div class="stat-cell"><div class="num">${path ? path.edges.length : 0}</div><div class="label">段路</div></div>
         <div class="stat-cell"><div class="num">${path ? Math.max(0, path.nodes.length - 2) : 0}</div><div class="label">中間人</div></div>
         <div class="stat-cell"><div class="num">${path ? sharedChapters(path) : 0}</div><div class="label">共同章回</div></div>
       </div>
     </div>
-    <div class="summary-section">
+    <div class="file-section">
       <h4>中間人物</h4>
       <div class="middle-list">
         ${path && path.nodes.length > 2 ? path.nodes.slice(1, -1).map((id, index) => middleItem(id, index)).join('') : `<div class="empty-state">沒有中間人物。</div>`}
       </div>
-    </div>
-    <div class="summary-section">
-      <h4>三種證據比例</h4>
-      <div class="evidence-ratio">
-        ${ratioRow('軍事', 'military', ratio.military, total)}
-        ${ratioRow('互動', 'interact', ratio.interact, total)}
-        ${ratioRow('身分', 'identity', ratio.identity, total)}
-      </div>
-    </div>
-    <div class="summary-section">
-      <h4>故事意涵</h4>
-      <p class="outcome-text">${path ? '這條路徑完全由真實 character→character 關係組成，可逐段回讀關係描述與章回。' : '目前沒有 3 跳內路徑，請換一組人物或使用常用配對。'}</p>
     </div>
   `;
 }

@@ -24,7 +24,7 @@ function renderBattleMode() {
   const battle = currentBattle();
   const visibleBattles = BATTLES.filter(item => !state.battleSearch.trim() || item.name.includes(state.battleSearch.trim()));
   return `
-    <section class="panel">
+    <section class="panel" data-region="left">
       <h3 class="panel-title">戰役推理</h3>
       <p class="panel-question">想知道哪場戰役怎麼打？</p>
       <input class="battle-search" data-battle-search type="search" placeholder="搜尋戰役..." value="${escapeHtml(state.battleSearch)}">
@@ -32,31 +32,27 @@ function renderBattleMode() {
         ${visibleBattles.map(item => battleCard(item, battle.key)).join('') || `<div class="empty-state">找不到符合的戰役。</div>`}
       </div>
     </section>
-    <div class="center-stack">
-      <div class="core-question-panel">
-        <div class="icon-box">${escapeHtml(avatar(battle.name))}</div>
-        <div class="text-area">
-          <h2 class="battle-name">${escapeHtml(battle.name)}</h2>
-          <p class="battle-q">${escapeHtml(battle.coreQuestion)}</p>
-        </div>
-      </div>
+    <div class="center-stack" data-region="center">
       <section class="panel map-panel">
         <header class="map-header">
-          <h3>戰場關係圖</h3>
+          <div>
+            <h2 class="map-title">${escapeHtml(battle.name)}</h2>
+            <div class="map-title-sub">${escapeHtml(battle.coreQuestion)}</div>
+          </div>
           <div class="map-tools"><button type="button">＋</button><button type="button">−</button><button type="button">⤢</button></div>
         </header>
         <div class="map-canvas"></div>
       </section>
-      <section class="panel reasoning-panel">
-        <div class="reasoning-tabs">
+      <section class="panel" data-region="bottom">
+        <div class="bottom-tabs">
           ${STEP_ORDER.map(key => stepTab(key)).join('')}
         </div>
-        <div class="reasoning-content">
+        <div class="bottom-panel">
           ${renderReasoningContent(battle)}
         </div>
       </section>
     </div>
-    <aside class="panel">
+    <aside class="panel" data-region="right">
       ${renderBattleFile(battle)}
     </aside>
   `;
@@ -80,7 +76,7 @@ function battleCard(battle, selectedKey) {
 function stepTab(key) {
   const meta = STEP_META[key];
   return `
-    <button class="step-tab ${state.reasoningStep === key ? 'is-active' : ''}" type="button" data-action="reasoning-step" data-value="${key}">
+    <button class="bottom-tab ${state.reasoningStep === key ? 'is-active' : ''}" type="button" data-action="reasoning-step" data-value="${key}">
       <span class="step-num">${meta.num}</span>
       <span class="step-label">${meta.label}</span>
       <span class="step-sub">${meta.sub}</span>
@@ -199,7 +195,7 @@ function renderBattleFile(battle) {
   const chapters = chapterPills.length ? chapterPills : range(battle.chapters[0], battle.chapters[1]);
   return `
     <h3 class="panel-title">戰役檔案</h3>
-    <p style="margin:0 0 16px; font-size:13px; color:var(--color-text-muted);">核心問題、參與者與勝負轉折</p>
+    <p class="panel-question">雙方對陣與勝負轉折</p>
     <div class="file-section">
       <h4>雙方對陣</h4>
       <div class="vs-block">
