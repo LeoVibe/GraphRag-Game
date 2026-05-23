@@ -16,11 +16,34 @@ export function renderForceGraph(container, nodes, links, options = {}) {
     .filter(node => node.fx != null || node.fy != null)
     .map(node => [node, { fx: node.fx, fy: node.fy }]));
 
+  // 陣營分群：把 wei/shu/wu/lords 分配到四個象限，加 cluster force 把同陣營吸在一起
+  const clusterCenters = {
+    wei:   { x: width * 0.78, y: height * 0.30 },  // 右上
+    shu:   { x: width * 0.22, y: height * 0.30 },  // 左上
+    wu:    { x: width * 0.50, y: height * 0.82 },  // 下中
+    lords: { x: width * 0.88, y: height * 0.72 },  // 右下
+    mixed: { x: width * 0.12, y: height * 0.72 },  // 左下
+  };
+
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(linkDistance))
-    .force('charge', d3.forceManyBody().strength(-300))
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(36));
+    .force('charge', d3.forceManyBody().strength(-220))
+    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.05))
+    .force('collision', d3.forceCollide().radius(36))
+    .force('cluster', clusterForce(clusterCenters, 0.18));
+
+  function clusterForce(centers, strength) {
+    return function(alpha) {
+      for (const node of nodes) {
+        if (node.isFocus || node.isBattleCenter) continue;
+        if (node.fx != null || node.fy != null) continue;
+        const center = centers[node.camp];
+        if (!center) continue;
+        node.vx -= (node.x - center.x) * alpha * strength;
+        node.vy -= (node.y - center.y) * alpha * strength;
+      }
+    };
+  }
 
   const link = svg.append('g').attr('class', 'force-links')
     .selectAll('line').data(links).join('line');

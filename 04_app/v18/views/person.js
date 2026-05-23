@@ -249,7 +249,22 @@ function renderPersonalityBars(profile) {
     }).join('');
 }
 
+// 經典劇情 neighbors — top 10 核心人物的「該認識的人」按故事重要性排序
+const LEGENDARY_NEIGHBORS = {
+  '劉備': ['關羽', '張飛', '諸葛亮', '趙雲', '徐庶', '龐統', '孫權', '曹操'],
+  '曹操': ['許褚', '典韋', '夏侯惇', '荀彧', '郭嘉', '張遼', '劉備', '袁紹'],
+  '孫權': ['周瑜', '魯肅', '孫策', '張昭', '呂蒙', '黃蓋', '諸葛瑾', '劉備'],
+  '諸葛亮': ['劉備', '周瑜', '魯肅', '龐統', '徐庶', '孫權', '張飛', '關羽'],
+  '關羽': ['劉備', '張飛', '曹操', '黃忠', '趙雲', '徐晃', '魯肅', '諸葛亮'],
+  '張飛': ['劉備', '關羽', '呂布', '曹操', '張郃', '馬超', '趙雲', '諸葛亮'],
+  '趙雲': ['劉備', '張飛', '關羽', '諸葛亮', '公孫瓚', '張郃', '黃忠', '馬超'],
+  '周瑜': ['孫權', '諸葛亮', '魯肅', '孫策', '黃蓋', '曹操', '劉備', '甘寧'],
+  '呂布': ['董卓', '王允', '貂蟬', '丁原', '劉備', '曹操', '陳宮', '張飛'],
+  '袁紹': ['顏良', '文醜', '許攸', '沮授', '田豐', '曹操', '公孫瓚', '袁術'],
+};
+
 function personFriendRels(id, filter) {
+  const node = data.byId.get(id);
   const all = (data.outgoing.get(id) || []).filter(rel => isCharacterId(rel.target));
   // 按 target 去重：同一個人物只保留一條 rel（weight 最高那條）
   const byTarget = new Map();
@@ -257,7 +272,29 @@ function personFriendRels(id, filter) {
     const exist = byTarget.get(rel.target);
     if (!exist || (rel.weight || 0) > (exist.weight || 0)) byTarget.set(rel.target, rel);
   }
-  return [...byTarget.values()].filter(rel => matchRelationChip(rel, filter)).slice(0, 10);
+  const dedup = [...byTarget.values()];
+
+  // 若是核心人物，按劇情排序（從 LEGENDARY_NEIGHBORS 名單）；其他按 weight
+  const legendary = LEGENDARY_NEIGHBORS[node?.name];
+  if (legendary) {
+    const byName = new Map();
+    for (const rel of dedup) {
+      const tnode = data.byId.get(rel.target);
+      if (tnode?.name) byName.set(tnode.name, rel);
+    }
+    const ordered = [];
+    for (const name of legendary) {
+      if (byName.has(name)) {
+        ordered.push(byName.get(name));
+        byName.delete(name);
+      }
+    }
+    const rest = [...byName.values()].sort((a, b) => (b.weight || 0) - (a.weight || 0));
+    return [...ordered, ...rest].filter(rel => matchRelationChip(rel, filter)).slice(0, 10);
+  }
+
+  return dedup.sort((a, b) => (b.weight || 0) - (a.weight || 0))
+    .filter(rel => matchRelationChip(rel, filter)).slice(0, 10);
 }
 
 function matchRelationChip(rel, filter) {
