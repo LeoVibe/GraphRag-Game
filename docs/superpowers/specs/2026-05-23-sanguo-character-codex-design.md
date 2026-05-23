@@ -249,4 +249,14 @@ GraphRag-Game/
 
 ---
 
-附：對應的 implementation plan 將由 superpowers writing-plans skill 在使用者 review 本 spec 後產生。
+## 15. 介面細節（外連）
+
+本 spec 聚焦「整站結構 + 出題引擎 + 資料模型 + 部署架構」。視覺、互動、響應式、a11y 等介面層細節另寫於：
+
+- `docs/superpowers/specs/2026-05-23-sanguo-character-codex-interface-spec.md`
+
+介面 spec 涵蓋：三主題對應三區塊、Design Tokens、桌面 / 手機 mockup、四題型 UI 差異、響應式 breakpoint、兒童 a11y 特別條款、友善設計與卡關保護機制。
+
+---
+
+附：對應的 implementation plan 將由 superpowers writing-plans skill 在主 spec + interface spec 都被使用者 review 後一併產生。
