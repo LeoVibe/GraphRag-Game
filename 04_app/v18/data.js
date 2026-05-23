@@ -50,8 +50,7 @@ export function buildIndexes() {
   data.charByName = new Map(data.characters.map(node => [node.name, node]));
   data.trunkCharacters = data.characters
     .filter(node => node.isTrunk)
-    .sort((a, b) => (b.degree || 0) - (a.degree || 0))
-    .slice(0, 30);
+    .sort((a, b) => (b.degree || 0) - (a.degree || 0));
   data.charCharRels = data.rels.filter(rel => isCharacterId(rel.source) && isCharacterId(rel.target));
   data.outgoing = groupBy(data.rels, rel => rel.source);
   data.adjacency = new Map();
