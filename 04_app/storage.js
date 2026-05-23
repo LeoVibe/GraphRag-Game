@@ -8,6 +8,7 @@ const DEFAULT = {
   onboardingSeen: false,
   wrongStreak: 0,
   hintsUsed: 0,
+  fontScale: 'normal',
 };
 
 export function loadProfile() {
@@ -31,6 +32,10 @@ export function saveProfile(profile) {
 
 export function markOnboardingSeen(profile) {
   return { ...profile, onboardingSeen: true };
+}
+
+export function setFontScale(profile, scale) {
+  return { ...profile, fontScale: scale };
 }
 
 export function applyAnswerOutcome(profile, correct) {

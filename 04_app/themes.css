@@ -1,7 +1,7 @@
 /* themes.css */
 body[data-theme="bamboo"] {
   --color-bg: #F7F1E1; --color-surface: #FBF6E8;
-  --color-text: #3F2D14; --color-text-soft: #8B6F4D;
+  --color-text: #2A1B08; --color-text-soft: #8B6F4D;
   --color-primary: #7C5E2C; --color-primary-strong: #5A3F1C;
   --color-success: #5B8B4A; --color-danger: #A14E3A;
   --color-border: #D4C5A0;
