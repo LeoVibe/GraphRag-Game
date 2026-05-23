@@ -144,19 +144,60 @@ function mountRelationForceGraph(container) {
 
 function endpointBlock(label, node, clearAction) {
   const filled = Boolean(node);
+  const role = clearAction === 'clear-from' ? 'from' : 'to';
   return `
-    <div class="endpoint-block ${filled ? 'is-filled' : 'is-empty'}">
+    <div class="endpoint-block ${filled ? 'is-filled' : 'is-empty'}" data-role="${role}">
       <span class="ep-label">${label}</span>
       <div class="ep-content">
         <div class="ep-avatar">${filled ? escapeHtml(avatar(node.name)) : '?'}</div>
         <div class="ep-info">
-          <div class="ep-name">${filled ? escapeHtml(node.name) : '尚未選擇人物'}</div>
-          <div class="ep-camp">${filled ? `${escapeHtml(node.campLabel || '其他')} · 出場 ${node.chapterCount || 0} 章` : '可用下方常用配對重新帶入'}</div>
+          <div class="ep-name">${filled ? escapeHtml(node.name) : '點這裡選人物'}</div>
+          <div class="ep-camp">${filled ? `${escapeHtml(node.campLabel || '其他')} · 出場 ${node.chapterCount || 0} 章` : '可搜尋或從常用配對選'}</div>
         </div>
+        <button class="ep-edit" type="button" data-action="ep-edit" data-role="${role}" aria-label="${filled ? '換人' : '選人'}">${filled ? '換' : '＋'}</button>
         ${filled ? `<button class="ep-clear" type="button" data-action="${clearAction}" aria-label="清除">×</button>` : ''}
+      </div>
+      <div class="ep-picker" data-picker-role="${role}" hidden>
+        <input type="search" class="ep-search" data-ep-search="${role}" placeholder="搜尋人物名（如：諸葛亮、許褚...）" autocomplete="off">
+        <div class="ep-suggestions" data-suggestions="${role}">
+          ${suggestionList(role, '')}
+        </div>
       </div>
     </div>
   `;
+}
+
+// 常用快選清單 — 沒打字時的預設建議（高 degree 主要人物）
+const QUICK_PICK_NAMES = [
+  '劉備', '曹操', '孫權', '諸葛亮', '關羽', '張飛',
+  '趙雲', '周瑜', '呂布', '袁紹', '司馬懿', '魯肅',
+  '徐庶', '龐統', '黃忠', '馬超', '貂蟬', '董卓'
+];
+
+export function refreshSuggestions(listEl, role, keyword) {
+  listEl.innerHTML = suggestionList(role, keyword);
+}
+
+function suggestionList(role, keyword) {
+  const k = keyword.trim();
+  let candidates;
+  if (!k) {
+    candidates = QUICK_PICK_NAMES.map(name => data.charByName.get(name)).filter(Boolean);
+  } else {
+    candidates = data.trunkCharacters
+      .filter(node => node.name.includes(k) || (node.aliases || []).some(a => a.includes(k)))
+      .slice(0, 12);
+  }
+  if (!candidates.length) {
+    return `<div class="ep-suggestion-empty">找不到「${escapeHtml(k)}」相關人物</div>`;
+  }
+  return candidates.map(node => `
+    <button class="ep-suggestion" type="button" data-action="ep-pick" data-role="${role}" data-id="${escapeAttr(node.id)}">
+      <span class="dot ${campKey(node)}"></span>
+      <span class="nm">${escapeHtml(node.name)}</span>
+      <span class="meta">${escapeHtml(node.campLabel || '其他')}</span>
+    </button>
+  `).join('');
 }
 
 function presetPairs() {

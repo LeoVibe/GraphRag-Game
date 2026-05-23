@@ -5,7 +5,10 @@ import { renderBattle } from './views/battle.js';
 import { renderPerson } from './views/person.js';
 import { renderRelation } from './views/relation.js';
 
-const MODE_THEME = { person: 'bamboo', battle: 'warroom', relation: 'classic' };
+// 統一配色：三 mode 用同一個視覺主題（classic 馬卡龍橘），不再 mode-by-mode 換色
+// 之前 bamboo / warroom / classic 隨 mode 換的設計造成「不同 mode 像不同產品」，
+// 視覺一致性差。改回單一主題後三 mode 共用同套色票、字體、卡片質感。
+const UNIFIED_THEME = 'classic';
 const MODE_LABEL = { person: '人物探險', battle: '戰役推理', relation: '關係路徑' };
 
 const app = document.getElementById('app');
@@ -134,6 +137,27 @@ function handleAppClick(event) {
     state.toId = '';
     syncHash();
     render();
+    return;
+  }
+  if (action === 'ep-edit') {
+    // 開啟 inline 選人器
+    const role = button.dataset.role;
+    const block = button.closest('.endpoint-block');
+    const picker = block?.querySelector('.ep-picker');
+    if (picker) {
+      picker.hidden = !picker.hidden;
+      if (!picker.hidden) picker.querySelector('input')?.focus();
+    }
+    return;
+  }
+  if (action === 'ep-pick') {
+    // 從建議清單選一個人物 → 填進對應 endpoint
+    const role = button.dataset.role;
+    const id = button.dataset.id;
+    if (role === 'from') state.fromId = id;
+    if (role === 'to') state.toId = id;
+    syncHash();
+    render();
   }
 }
 
@@ -146,10 +170,21 @@ function handleAppInput(event) {
     state.battleSearch = event.target.value;
     render();
   }
+  if (event.target.matches('[data-ep-search]')) {
+    // inline 選人器搜尋 — 不 re-render 整頁，只 update 建議清單
+    const role = event.target.dataset.epSearch;
+    const block = event.target.closest('.endpoint-block');
+    const list = block?.querySelector(`[data-suggestions="${role}"]`);
+    if (list) {
+      import('./views/relation.js').then(m => {
+        if (m.refreshSuggestions) m.refreshSuggestions(list, role, event.target.value);
+      });
+    }
+  }
 }
 
 function render() {
-  document.body.dataset.theme = MODE_THEME[state.mode];
+  document.body.dataset.theme = UNIFIED_THEME;
   document.querySelectorAll('[data-mode-tab]').forEach(button => {
     button.classList.toggle('is-active', button.dataset.modeTab === state.mode);
   });

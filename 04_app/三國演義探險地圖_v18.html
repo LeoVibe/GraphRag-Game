@@ -909,8 +909,46 @@
   .ep-name { font-size: 17px; font-weight: 700; font-family: "Noto Serif TC", serif; color: var(--color-text); }
   .ep-camp { font-size: 12px; color: var(--color-text-soft); }
   .ep-clear { background: transparent; border: 0; cursor: pointer; color: var(--color-text-muted); font-size: 16px; padding: 4px; }
+  .ep-edit {
+    background: var(--color-surface-soft); border: 1px solid var(--color-border);
+    cursor: pointer; padding: 4px 10px; border-radius: 999px;
+    font-size: 12px; font-weight: 700; color: var(--color-primary-strong);
+  }
+  .ep-edit:hover { background: var(--color-primary); color: #fff; border-color: var(--color-primary); }
   .endpoint-block.is-empty .ep-content { color: var(--color-text-muted); font-style: italic; }
   .endpoint-block.is-empty .ep-avatar { background: transparent; border: 2px dashed var(--color-border-strong); color: var(--color-text-muted); }
+  /* Inline picker — 點「換」或「＋」打開 */
+  .ep-picker {
+    margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--color-border);
+  }
+  .ep-search {
+    width: 100%; padding: 8px 12px; border: 1px solid var(--color-border-strong);
+    border-radius: 8px; font: inherit; font-size: 13px;
+    background: var(--color-surface-strong); color: var(--color-text);
+  }
+  .ep-search:focus { outline: 2px solid var(--color-primary); outline-offset: 1px; }
+  .ep-suggestions {
+    margin-top: 8px; max-height: 220px; overflow-y: auto;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
+  }
+  .ep-suggestion {
+    display: flex; align-items: center; gap: 6px;
+    padding: 6px 8px; border-radius: 6px;
+    border: 1px solid transparent; background: var(--color-surface-soft);
+    cursor: pointer; font: inherit; font-size: 12px; text-align: left;
+  }
+  .ep-suggestion:hover { border-color: var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface)); }
+  .ep-suggestion .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0;
+    background: var(--color-border-strong); }
+  .ep-suggestion .dot.wei { background: var(--color-faction-wei); }
+  .ep-suggestion .dot.shu { background: var(--color-faction-shu); }
+  .ep-suggestion .dot.wu  { background: var(--color-faction-wu); }
+  .ep-suggestion .dot.lords { background: var(--color-faction-lords); }
+  .ep-suggestion .nm { font-weight: 600; color: var(--color-text); }
+  .ep-suggestion .meta { font-size: 10px; color: var(--color-text-soft); margin-left: auto; }
+  .ep-suggestion-empty { padding: 12px; color: var(--color-text-muted);
+    text-align: center; font-size: 12px; grid-column: 1 / -1; }
   .swap-row { display: flex; justify-content: center; margin: -4px 0 4px; }
   .swap-btn {
     background: var(--color-surface);
