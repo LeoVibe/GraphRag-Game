@@ -1,4 +1,5 @@
-import { DEFAULT_PERSON, state } from '../state.js';
+import { renderForceGraph } from '../force-graph.js';
+import { DEFAULT_PERSON, state, syncHash } from '../state.js';
 import {
   avatar,
   campKey,
@@ -10,7 +11,6 @@ import {
   escapeHtml,
   firstSentence,
   isCharacterId,
-  lineAttrs,
   splitDescription
 } from '../data.js';
 
@@ -24,7 +24,14 @@ const CAMP_FILTERS = [
 ];
 
 export function renderPerson(root, ctx) {
+  destroyExistingForceGraph(root);
   root.innerHTML = renderPersonMode();
+  mountPersonForceGraph(root, state, data, {
+    onPersonChange: () => {
+      syncHash();
+      renderPerson(root, ctx);
+    }
+  });
 }
 
 function renderPersonMode() {
@@ -32,7 +39,6 @@ function renderPersonMode() {
   if (!person) return `<section class="panel empty-state">找不到預設人物資料。</section>`;
   const visiblePeople = filteredTrunkCharacters();
   const friendRels = personFriendRels(person.id, state.relationFilter);
-  const mapRels = personFriendRels(person.id, '全部').slice(0, 7);
   return `
     <section class="panel">
       <h3 class="panel-title">人物探險</h3>
@@ -63,9 +69,7 @@ function renderPersonMode() {
           </div>
           <div class="map-tools"><button type="button">＋</button><button type="button">−</button><button type="button">⤢</button></div>
         </header>
-        <div class="map-canvas">
-          ${renderPersonMap(person, mapRels)}
-        </div>
+        <div class="map-canvas"></div>
       </section>
       <section class="panel" style="padding:0;">
         <div class="bottom-tabs">
@@ -114,21 +118,40 @@ function filteredTrunkCharacters() {
   });
 }
 
-function renderPersonMap(person, rels) {
-  const positions = [
-    [30, 30], [32, 65], [70, 32], [75, 60], [18, 48], [80, 80], [55, 85]
+function destroyExistingForceGraph(container) {
+  const canvas = container.querySelector('.map-canvas');
+  if (canvas?._forceGraph) {
+    canvas._forceGraph.destroy();
+    canvas._forceGraph = null;
+  }
+}
+
+function mountPersonForceGraph(container, viewState, graphData, handlers = {}) {
+  const canvas = container.querySelector('.map-canvas');
+  if (!canvas) return;
+  if (canvas._forceGraph) {
+    canvas._forceGraph.destroy();
+    canvas._forceGraph = null;
+  }
+
+  const person = graphData.byId.get(viewState.personId) || graphData.byId.get(DEFAULT_PERSON);
+  if (!person) return;
+
+  const rels = personFriendRels(person.id, '全部').slice(0, 7);
+  const targets = rels.map(rel => graphData.byId.get(rel.target)).filter(Boolean);
+  const nodes = [
+    { id: person.id, name: person.name, camp: campKey(person), isFocus: true },
+    ...targets.map(node => ({ id: node.id, name: node.name, camp: campKey(node) }))
   ];
-  const center = [50, 50];
-  const lines = [];
-  const nodes = [`<button type="button" class="map-node is-focus" data-action="select-person" data-id="${escapeAttr(person.id)}" style="left:50%; top:50%;">${escapeHtml(person.name)}</button>`];
-  rels.forEach((rel, index) => {
-    const node = data.byId.get(rel.target);
-    if (!node) return;
-    const [x, y] = positions[index] || [50, 50];
-    lines.push(`<line ${lineAttrs(center[0], center[1], x, y)} />`);
-    nodes.push(`<button type="button" class="map-node" data-action="select-person" data-id="${escapeAttr(node.id)}" data-camp="${campKey(node)}" style="left:${x}%; top:${y}%;">${escapeHtml(node.name)}</button>`);
+  const links = targets.map(node => ({ source: person.id, target: node.id }));
+
+  canvas._forceGraph = renderForceGraph(canvas, nodes, links, {
+    onNodeClick: node => {
+      if (!node.id || node.id === viewState.personId) return;
+      viewState.personId = node.id;
+      handlers.onPersonChange?.(node);
+    }
   });
-  return `<svg class="map-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">${lines.join('')}</svg>${nodes.join('')}`;
 }
 
 function renderFriendPanel(rels) {

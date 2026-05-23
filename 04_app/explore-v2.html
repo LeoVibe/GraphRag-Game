@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>三國探險地圖 · 三模式探索</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 <style>
   body[data-theme="bamboo"] {
     --color-bg: #F7F1E1;
@@ -440,6 +441,27 @@
   body[data-theme="warroom"] .map-lines line {
     stroke: rgba(245, 158, 11, 0.35);
   }
+  .force-svg { display: block; width: 100%; height: 100%; }
+  .force-svg .force-links line {
+    stroke: color-mix(in srgb, var(--color-primary) 35%, transparent);
+    stroke-width: 2; stroke-linecap: round;
+  }
+  body[data-theme="warroom"] .force-svg .force-links line { stroke: rgba(245,158,11,0.35); }
+  .force-svg .force-node rect { fill: var(--color-surface); stroke: var(--color-border); stroke-width: 2; }
+  .force-svg .force-node text { fill: var(--color-text); font-size: 13px; font-weight: 700; font-family: "Noto Serif TC", serif; pointer-events: none; }
+  .force-svg .force-node.is-focus rect { fill: var(--color-primary); stroke: var(--color-primary-strong); }
+  .force-svg .force-node.is-focus text { fill: #fff; }
+  .force-svg .force-node[data-camp="wei"] rect { stroke: var(--color-faction-wei); }
+  .force-svg .force-node[data-camp="wei"] text { fill: var(--color-faction-wei); }
+  .force-svg .force-node[data-camp="shu"] rect { stroke: var(--color-faction-shu); }
+  .force-svg .force-node[data-camp="shu"] text { fill: var(--color-faction-shu); }
+  .force-svg .force-node[data-camp="wu"]  rect { stroke: var(--color-faction-wu); }
+  .force-svg .force-node[data-camp="wu"]  text { fill: var(--color-faction-wu); }
+  .force-svg .force-node[data-camp="lords"] rect { stroke: var(--color-faction-lords); }
+  .force-svg .force-node[data-camp="lords"] text { fill: var(--color-faction-lords); }
+  .force-svg .force-node.is-focus[data-camp] text { fill: #fff; }
+  .force-svg .battle-center rect { fill: var(--color-primary); stroke: var(--color-primary-strong); }
+  .force-svg .battle-center text { fill: #fff; font-size: 15px; }
   .map-node, .battle-center-node { z-index: 2; }
   .map-side-label {
     position: absolute;

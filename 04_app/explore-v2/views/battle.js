@@ -1,4 +1,5 @@
 import { STEP_CATEGORIES, STEP_META, STEP_ORDER, BATTLES } from '../battle-presets.js';
+import { renderForceGraph } from '../force-graph.js';
 import { currentBattle, state } from '../state.js';
 import {
   avatar,
@@ -6,7 +7,6 @@ import {
   chapterLabel,
   data,
   escapeHtml,
-  lineAttrs,
   mergeRels,
   nodeName,
   range,
@@ -15,7 +15,9 @@ import {
 } from '../data.js';
 
 export function renderBattle(root, ctx) {
+  destroyExistingForceGraph(root);
   root.innerHTML = renderBattleMode();
+  mountBattleForceGraph(root.querySelector('.map-canvas'), currentBattle(), ctx);
 }
 
 function renderBattleMode() {
@@ -43,7 +45,7 @@ function renderBattleMode() {
           <h3>戰場關係圖</h3>
           <div class="map-tools"><button type="button">＋</button><button type="button">−</button><button type="button">⤢</button></div>
         </header>
-        <div class="map-canvas">${renderBattleMap(battle)}</div>
+        <div class="map-canvas"></div>
       </section>
       <section class="panel reasoning-panel">
         <div class="reasoning-tabs">
@@ -142,30 +144,53 @@ function evidenceForBattle(battle, step) {
     .slice(0, 6);
 }
 
-function renderBattleMap(battle) {
+function destroyExistingForceGraph(container) {
+  const canvas = container.querySelector('.map-canvas');
+  if (canvas?._forceGraph) {
+    canvas._forceGraph.destroy();
+    canvas._forceGraph = null;
+  }
+}
+
+function mountBattleForceGraph(canvas, battle, handlers = {}) {
+  if (!canvas) return;
+  if (canvas._forceGraph) {
+    canvas._forceGraph.destroy();
+    canvas._forceGraph = null;
+  }
+
+  const centerId = 'battle-center';
   const left = [battle.sideA.leader, ...battle.sideA.members].slice(0, 5);
   const right = [battle.sideB.leader, ...battle.sideB.members].slice(0, 5);
-  const leftPos = [[18, 30], [14, 60], [18, 80], [32, 50], [32, 72]];
-  const rightPos = [[82, 30], [86, 60], [82, 80], [68, 50], [68, 72]];
-  const lines = [];
-  const nodes = [
-    `<span class="map-side-label left">${escapeHtml(battle.sideA.label)}</span>`,
-    `<span class="map-side-label right">${escapeHtml(battle.sideB.label)}</span>`,
-    `<div class="battle-center-node" style="left:50%; top:50%;">${escapeHtml(battle.name)}</div>`
+  const commanders = [
+    ...left.map((name, index) => commanderForceNode(name, battle.sideA, 'left', index)),
+    ...right.map((name, index) => commanderForceNode(name, battle.sideB, 'right', index))
   ];
-  left.forEach((name, index) => {
-    const node = resolveAnyNode(name) || { name, camp: battle.sideA.camp };
-    const [x, y] = leftPos[index];
-    lines.push(`<line ${lineAttrs(x, y, 50, 50)} />`);
-    nodes.push(`<div class="map-node" data-camp="${campKey(node)}" style="left:${x}%; top:${y}%;">${escapeHtml(name)}</div>`);
-  });
-  right.forEach((name, index) => {
-    const node = resolveAnyNode(name) || { name, camp: battle.sideB.camp };
-    const [x, y] = rightPos[index];
-    lines.push(`<line ${lineAttrs(x, y, 50, 50)} />`);
-    nodes.push(`<div class="map-node" data-camp="${campKey(node)}" style="left:${x}%; top:${y}%;">${escapeHtml(name)}</div>`);
-  });
-  return `<svg class="map-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">${lines.join('')}</svg>${nodes.join('')}`;
+  const nodes = [
+    { id: centerId, name: battle.name || battle.id || battle.key, isBattleCenter: true },
+    ...commanders
+  ];
+  const links = commanders.map(node => ({ source: centerId, target: node.id }));
+
+  canvas._forceGraph = renderForceGraph(canvas, nodes, links, { linkDistance: 100 });
+  canvas.insertAdjacentHTML('beforeend', battleSideLabels(battle));
+}
+
+function commanderForceNode(name, side, sideKey, index) {
+  const node = resolveAnyNode(name);
+  const campSource = node || { camp: side.camp };
+  return {
+    id: `${sideKey}:${node?.id || name}:${index}`,
+    name: node?.name || name,
+    camp: campKey(campSource)
+  };
+}
+
+function battleSideLabels(battle) {
+  return `
+    <span class="map-side-label left">${escapeHtml(battle.sideA.label)}</span>
+    <span class="map-side-label right">${escapeHtml(battle.sideB.label)}</span>
+  `;
 }
 
 function renderBattleFile(battle) {
