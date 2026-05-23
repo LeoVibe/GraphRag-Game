@@ -8,15 +8,25 @@
 
 ## 內容（5 大區塊）
 
-| 區塊 | 內容 | 大小 |
-|---|---|---|
-| `01_source/` | 原始全文（壓縮）| 666 K |
-| `02_chapters/` | 章節切分後的 .md（120 個）| 1.7 M |
-| `03_graphrag/` | 萃取 + 合併 + 向量化的完整結果 | 14 M |
-| `04_app/` | 最終互動網頁（單檔可分享）| 3.3 M |
-| `05_pipeline/` | 從原文到網頁的完整流程說明與程式 | 240 K |
+| 區塊 | 內容 |
+|---|---|
+| `01_source/` | 原始全文（壓縮）|
+| `02_chapters/` | 章節切分後的 .md（60 回） |
+| `03_graphrag/` | 萃取結果（csv + json）+ 向量化資料 |
+| `04_app/` | 互動網頁（v17 主檔 + `_archive/` 歷史版本） |
+| `05_pipeline/` | 原文 → 圖譜 → 網頁的流程說明與 Python 腳本 |
 
-總計約 **20 MB**。
+### 03_graphrag 內容（Phase 1 後）
+
+```
+sanguo_v3_nodes.csv              GraphRAG v3 抽取的節點 (1534)
+sanguo_v3_relationships.csv      v3 關係 (6615)
+metadata.json                    社群、章節、統計 metadata
+nodes.json                       前端 fetch 用，由 pipeline 產出
+rels.json                        同上
+character_personality.json       人物個性比例 + traits（287 位）
+embeddings/  extract/  prompts/  unified/  settings.yaml   原有 GraphRAG 產出物
+```
 
 ## 資料規模
 
@@ -35,15 +45,41 @@
 ## 怎麼使用
 
 ### 想直接玩網頁
-打開 `04_app/三國演義探險地圖.html`，或上面的線上版連結。
+打開根目錄的 `三國演義探險地圖.html`（會自動轉址到當前主檔），或線上版連結。
 
 ### 想用這份資料做自己的應用
-- 圖譜原始檔：`03_graphrag/unified/unified_entities.jsonl` + `unified_relationships.jsonl`
-- 向量檔：`03_graphrag/embeddings/embeddings.parquet`
-- 章節原文：`02_chapters/c001.md ~ c120.md`
+- 前端友善版本：`03_graphrag/nodes.json` + `rels.json` + `character_personality.json`
+- 原始 csv：`03_graphrag/sanguo_v3_nodes.csv` + `sanguo_v3_relationships.csv`
+- 章節原文：`02_chapters/c001.md ~ c060.md`
+- 既有合併圖：`03_graphrag/unified/unified_entities.jsonl` + `unified_relationships.jsonl`
 
-### 想完整重跑這個流程
+### 想重新產生 JSON（修改演算法或閾值時）
+
+```bash
+python3 05_pipeline/build_graph.py            # csv → nodes.json / rels.json
+python3 05_pipeline/precompute_questions.py   # → character_personality.json
+```
+
+需要 Python 3.9+，無外部依賴（只用標準庫）。
+
+### 跑測試
+
+```bash
+python3 -m unittest discover -s 05_pipeline/tests -v
+```
+
+### 想完整重跑萃取流程
 看 `05_pipeline/README.md`，五個步驟對照五個程式。
+
+## 當前設計
+
+進行中的「人物圖鑑 × 關係偵探」設計脈絡：
+
+- `docs/superpowers/specs/2026-05-23-sanguo-character-codex-design.md` — 整站結構、出題引擎、資料模型
+- `docs/superpowers/specs/2026-05-23-sanguo-character-codex-interface-spec.md` — 三主題視覺、桌面與手機 layout、兒童 a11y
+- `docs/superpowers/plans/2026-05-23-sanguo-codex-phase1-repo-and-data.md` — Phase 1 plan（已完成）
+
+歷史 spec（v14-v17）在 `docs/spec_sanguo_v*.md` 保留供參。
 
 ## 授權
 
