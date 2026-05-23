@@ -181,7 +181,55 @@
   .settings-section + .settings-section { margin-top: 4px; padding-top: 12px;
     border-top: 1px solid var(--color-border); }
   .settings-section h4 { font-size: 11px; color: var(--color-text-soft);
-    letter-spacing: 0.12em; margin: 0 0 8px; text-transform: uppercase; font-weight: 700; }
+    letter-spacing: 0.12em; margin: 0 0 10px; text-transform: uppercase; font-weight: 700; }
+  /* 統一 row layout：左 label + 右 control */
+  .settings-row {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 0;
+  }
+  .settings-row + .settings-row { margin-top: 2px; }
+  .settings-row-label {
+    font-size: 13px;
+    color: var(--color-text-soft);
+    font-weight: 600;
+  }
+  .settings-control {
+    width: 100%;
+    min-height: 36px;
+  }
+  .settings-control.chapter-select {
+    padding: 6px 12px;
+    border: 1px solid var(--color-border-strong);
+    border-radius: 8px;
+    background: var(--color-surface-strong);
+    color: var(--color-text);
+  }
+  body[data-theme="warroom"] .settings-control.chapter-select { background: var(--color-bg-deep); }
+  .settings-control.settings-segment {
+    display: flex;
+    gap: 2px;
+    border: 1px solid var(--color-border-strong);
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 36px;
+  }
+  .settings-control.settings-segment button {
+    flex: 1;
+    background: transparent;
+    border: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+    color: var(--color-text-soft);
+  }
+  .settings-control.settings-segment button.is-active {
+    background: var(--color-primary);
+    color: #fff;
+    font-weight: 700;
+  }
+  body[data-theme="warroom"] .settings-control.settings-segment button.is-active { color: var(--color-bg-deep); }
   .game-link { display: flex; align-items: center; gap: 12px;
     padding: 10px 12px; border-radius: 10px;
     background: var(--color-bg-deep); text-decoration: none;
@@ -1046,23 +1094,32 @@
     </button>
   </nav>
   <div class="top-right">
-    <select class="chapter-select" aria-label="章節">
-      <option>全部章節（1-60 回）</option>
-      <option>1-10 英雄起義</option>
-      <option>11-20 群雄角力</option>
-      <option>21-30 官渡前後</option>
-      <option>31-40 三顧茅廬</option>
-      <option>41-50 赤壁鏖兵</option>
-      <option>51-60 荊南西川</option>
-    </select>
-    <div class="font-scale" aria-label="字級切換">
-      <button type="button" data-font="small">小</button>
-      <button type="button" data-font="medium" class="is-active">中</button>
-      <button type="button" data-font="large">大</button>
-    </div>
     <div class="settings-wrap">
       <button type="button" class="settings-btn" id="settingsBtn" aria-haspopup="true" aria-label="設定">⚙</button>
       <div class="settings-popover" id="settingsPopover" role="menu" hidden>
+        <div class="settings-section">
+          <h4>顯示</h4>
+          <div class="settings-row">
+            <span class="settings-row-label">章節範圍</span>
+            <select class="settings-control chapter-select" aria-label="章節">
+              <option>全部（1-60 回）</option>
+              <option>1-10 英雄起義</option>
+              <option>11-20 群雄角力</option>
+              <option>21-30 官渡前後</option>
+              <option>31-40 三顧茅廬</option>
+              <option>41-50 赤壁鏖兵</option>
+              <option>51-60 荊南西川</option>
+            </select>
+          </div>
+          <div class="settings-row">
+            <span class="settings-row-label">字體大小</span>
+            <div class="settings-control settings-segment font-scale" aria-label="字級切換">
+              <button type="button" data-font="small">小</button>
+              <button type="button" data-font="medium" class="is-active">中</button>
+              <button type="button" data-font="large">大</button>
+            </div>
+          </div>
+        </div>
         <div class="settings-section">
           <h4>更多體驗</h4>
           <a class="game-link" href="./index.html">
