@@ -1,0 +1,414 @@
+{
+  "raw_chapters": 60,
+  "raw_entity_nodes": 2900,
+  "kept_nodes": 1534,
+  "entity_nodes": 1055,
+  "story_nodes": 479,
+  "trunk_nodes": 666,
+  "relationships": 6615,
+  "raw_relationships_considered": 4253,
+  "relationship_categories": {
+    "command": 414,
+    "other": 1727,
+    "military": 728,
+    "strategy": 295,
+    "place": 128,
+    "kinship": 77,
+    "office": 140,
+    "object": 12,
+    "story": 3094
+  },
+  "relationship_kinds": {
+    "entity_relation": 3521,
+    "story_link": 3094
+  },
+  "top_nodes": [
+    {
+      "id": "entity:character_曹操",
+      "name": "曹操",
+      "score": 1770,
+      "degree": 691
+    },
+    {
+      "id": "entity:character_劉備",
+      "name": "劉備",
+      "score": 1264,
+      "degree": 448
+    },
+    {
+      "id": "entity:character_關羽",
+      "name": "關羽",
+      "score": 705,
+      "degree": 189
+    },
+    {
+      "id": "entity:character_呂布",
+      "name": "呂布",
+      "score": 588,
+      "degree": 177
+    },
+    {
+      "id": "entity:character_張飛",
+      "name": "張飛",
+      "score": 572,
+      "degree": 129
+    },
+    {
+      "id": "entity:character_袁紹",
+      "name": "袁紹",
+      "score": 558,
+      "degree": 150
+    },
+    {
+      "id": "entity:character_周瑜",
+      "name": "周瑜",
+      "score": 534,
+      "degree": 154
+    },
+    {
+      "id": "entity:character_孫權",
+      "name": "孫權",
+      "score": 487,
+      "degree": 118
+    },
+    {
+      "id": "entity:character_趙雲",
+      "name": "趙雲",
+      "score": 466,
+      "degree": 108
+    },
+    {
+      "id": "entity:character_董卓",
+      "name": "董卓",
+      "score": 398,
+      "degree": 96
+    },
+    {
+      "id": "entity:character_孫策",
+      "name": "孫策",
+      "score": 370,
+      "degree": 81
+    },
+    {
+      "id": "entity:character_袁術",
+      "name": "袁術",
+      "score": 336,
+      "degree": 59
+    },
+    {
+      "id": "entity:character_魯肅",
+      "name": "魯肅",
+      "score": 326,
+      "degree": 52
+    },
+    {
+      "id": "entity:character_劉表",
+      "name": "劉表",
+      "score": 282,
+      "degree": 82
+    },
+    {
+      "id": "entity:character_黃蓋",
+      "name": "黃蓋",
+      "score": 270,
+      "degree": 32
+    },
+    {
+      "id": "entity:character_馬超",
+      "name": "馬超",
+      "score": 258,
+      "degree": 42
+    },
+    {
+      "id": "entity:character_龐統",
+      "name": "龐統",
+      "score": 235,
+      "degree": 25
+    },
+    {
+      "id": "entity:character_張遼",
+      "name": "張遼",
+      "score": 220,
+      "degree": 57
+    },
+    {
+      "id": "entity:character_曹仁",
+      "name": "曹仁",
+      "score": 210,
+      "degree": 56
+    },
+    {
+      "id": "entity:character_夏侯惇",
+      "name": "夏侯惇",
+      "score": 196,
+      "degree": 43
+    },
+    {
+      "id": "entity:faction_曹操勢力",
+      "name": "曹操勢力",
+      "score": 194,
+      "degree": 39
+    },
+    {
+      "id": "entity:character_孫乾",
+      "name": "孫乾",
+      "score": 186,
+      "degree": 40
+    },
+    {
+      "id": "entity:character_許褚",
+      "name": "許褚",
+      "score": 184,
+      "degree": 41
+    },
+    {
+      "id": "entity:location_荊州",
+      "name": "荊州",
+      "score": 184,
+      "degree": 38
+    },
+    {
+      "id": "entity:character_曹洪",
+      "name": "曹洪",
+      "score": 178,
+      "degree": 38
+    },
+    {
+      "id": "entity:character_荀彧",
+      "name": "荀彧",
+      "score": 174,
+      "degree": 38
+    },
+    {
+      "id": "entity:character_程昱",
+      "name": "程昱",
+      "score": 172,
+      "degree": 35
+    },
+    {
+      "id": "entity:character_徐晃",
+      "name": "徐晃",
+      "score": 170,
+      "degree": 42
+    },
+    {
+      "id": "entity:character_李典",
+      "name": "李典",
+      "score": 168,
+      "degree": 33
+    },
+    {
+      "id": "entity:character_司馬懿",
+      "name": "司馬懿",
+      "score": 164,
+      "degree": 1
+    },
+    {
+      "id": "entity:character_於禁",
+      "name": "於禁",
+      "score": 146,
+      "degree": 28
+    },
+    {
+      "id": "entity:character_李傕",
+      "name": "李傕",
+      "score": 144,
+      "degree": 45
+    },
+    {
+      "id": "entity:faction_東吳",
+      "name": "東吳",
+      "score": 144,
+      "degree": 34
+    },
+    {
+      "id": "entity:character_糜竺",
+      "name": "糜竺",
+      "score": 142,
+      "degree": 26
+    },
+    {
+      "id": "entity:character_獻帝",
+      "name": "獻帝",
+      "score": 140,
+      "degree": 43
+    },
+    {
+      "id": "entity:character_程普",
+      "name": "程普",
+      "score": 136,
+      "degree": 29
+    },
+    {
+      "id": "entity:character_蔡瑁",
+      "name": "蔡瑁",
+      "score": 134,
+      "degree": 40
+    },
+    {
+      "id": "entity:character_陳宮",
+      "name": "陳宮",
+      "score": 134,
+      "degree": 34
+    },
+    {
+      "id": "entity:character_孫堅",
+      "name": "孫堅",
+      "score": 132,
+      "degree": 45
+    },
+    {
+      "id": "entity:character_甘寧",
+      "name": "甘寧",
+      "score": 132,
+      "degree": 37
+    }
+  ],
+  "chapter_presets": [
+    {
+      "label": "001-010 黃巾董卓",
+      "start": 1,
+      "end": 10
+    },
+    {
+      "label": "011-020 徐州呂布",
+      "start": 11,
+      "end": 20
+    },
+    {
+      "label": "021-030 官渡前後",
+      "start": 21,
+      "end": 30
+    },
+    {
+      "label": "031-040 荊州伏龍",
+      "start": 31,
+      "end": 40
+    },
+    {
+      "label": "041-050 赤壁鏖兵",
+      "start": 41,
+      "end": 50
+    },
+    {
+      "label": "051-060 荊南西川",
+      "start": 51,
+      "end": 60
+    }
+  ],
+  "canonical_aliases": {
+    "劉備": [
+      "劉備",
+      "玄德",
+      "劉玄德",
+      "劉皇叔",
+      "劉使君",
+      "劉豫州",
+      "大耳兒"
+    ],
+    "曹操": [
+      "曹操",
+      "孟德",
+      "曹孟德",
+      "曹公",
+      "曹丞相",
+      "曹阿瞞",
+      "阿瞞",
+      "曹賊",
+      "操賊",
+      "魏武"
+    ],
+    "孫權": [
+      "孫權",
+      "仲謀",
+      "孫仲謀",
+      "碧眼兒"
+    ],
+    "孫策": [
+      "孫策",
+      "伯符",
+      "孫伯符",
+      "小霸王"
+    ],
+    "董卓": [
+      "董卓",
+      "仲穎",
+      "董太師",
+      "董相國",
+      "董賊"
+    ],
+    "袁紹": [
+      "袁紹",
+      "本初",
+      "袁本初"
+    ],
+    "袁術": [
+      "袁術",
+      "公路",
+      "袁公路"
+    ],
+    "呂布": [
+      "呂布",
+      "呂佈",
+      "奉先",
+      "呂奉先",
+      "溫侯",
+      "呂溫侯"
+    ],
+    "關羽": [
+      "關羽",
+      "雲長",
+      "關雲長",
+      "關公",
+      "美髯公"
+    ],
+    "張飛": [
+      "張飛",
+      "翼德",
+      "張翼德",
+      "燕人張飛"
+    ],
+    "趙雲": [
+      "趙雲",
+      "子龍",
+      "趙子龍"
+    ],
+    "諸葛亮": [
+      "諸葛亮",
+      "孔明",
+      "諸葛孔明",
+      "伏龍",
+      "臥龍",
+      "臥龍先生"
+    ],
+    "周瑜": [
+      "周瑜",
+      "公瑾",
+      "周公瑾",
+      "周郎"
+    ],
+    "魯肅": [
+      "魯肅",
+      "子敬",
+      "魯子敬"
+    ],
+    "龐統": [
+      "龐統",
+      "士元",
+      "鳳雛"
+    ],
+    "馬超": [
+      "馬超",
+      "孟起",
+      "馬孟起"
+    ],
+    "黃蓋": [
+      "黃蓋",
+      "公覆"
+    ],
+    "司馬懿": [
+      "司馬懿",
+      "仲達"
+    ]
+  }
+}
