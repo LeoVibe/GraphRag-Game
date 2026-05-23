@@ -10,7 +10,7 @@ import {
   escapeHtml,
   firstSentence,
   isCharacterId,
-  lineStyle,
+  lineAttrs,
   splitDescription
 } from '../data.js';
 
@@ -125,10 +125,10 @@ function renderPersonMap(person, rels) {
     const node = data.byId.get(rel.target);
     if (!node) return;
     const [x, y] = positions[index] || [50, 50];
-    lines.push(`<div class="map-line" style="${lineStyle(center[0], center[1], x, y)}"></div>`);
+    lines.push(`<line ${lineAttrs(center[0], center[1], x, y)} />`);
     nodes.push(`<button type="button" class="map-node" data-action="select-person" data-id="${escapeAttr(node.id)}" data-camp="${campKey(node)}" style="left:${x}%; top:${y}%;">${escapeHtml(node.name)}</button>`);
   });
-  return `${lines.join('')}${nodes.join('')}`;
+  return `<svg class="map-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">${lines.join('')}</svg>${nodes.join('')}`;
 }
 
 function renderFriendPanel(rels) {
@@ -227,8 +227,14 @@ function renderPersonalityBars(profile) {
 }
 
 function personFriendRels(id, filter) {
-  const base = (data.outgoing.get(id) || []).filter(rel => isCharacterId(rel.target));
-  return base.filter(rel => matchRelationChip(rel, filter)).slice(0, 10);
+  const all = (data.outgoing.get(id) || []).filter(rel => isCharacterId(rel.target));
+  // 按 target 去重：同一個人物只保留一條 rel（weight 最高那條）
+  const byTarget = new Map();
+  for (const rel of all) {
+    const exist = byTarget.get(rel.target);
+    if (!exist || (rel.weight || 0) > (exist.weight || 0)) byTarget.set(rel.target, rel);
+  }
+  return [...byTarget.values()].filter(rel => matchRelationChip(rel, filter)).slice(0, 10);
 }
 
 function matchRelationChip(rel, filter) {

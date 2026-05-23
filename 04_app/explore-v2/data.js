@@ -165,13 +165,15 @@ export function sharedChapters(path) {
   return all.size;
 }
 
-export function lineStyle(x1, y1, x2, y2) {
-  const dx = x2 - x1;
-  const dy = y2 - y1;
-  const width = Math.sqrt(dx * dx + dy * dy);
-  const angle = Math.atan2(dy, dx) * 180 / Math.PI;
-  return `left:${x1}%; top:${y1}%; width:${width}%; transform:rotate(${angle}deg);`;
+export function lineAttrs(x1, y1, x2, y2) {
+  return `x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"`;
 }
+
+// 舊 div-based lineStyle 已棄用：% 對角線在非正方形 canvas 上不對齊。
+// 新方案：用 SVG <line> + viewBox 100×100 + preserveAspectRatio="none"，
+// 線自然會接到節點位置（節點用 left/top % 同樣 100 為基準）。
+// 留 lineStyle 作 alias 以防遺漏 import，但不該再用。
+export function lineStyle() { return ''; }
 
 export function range(start, end) {
   return Array.from({ length: Math.max(0, end - start + 1) }, (_, index) => start + index);

@@ -6,7 +6,7 @@ import {
   chapterLabel,
   data,
   escapeHtml,
-  lineStyle,
+  lineAttrs,
   mergeRels,
   nodeName,
   range,
@@ -156,16 +156,16 @@ function renderBattleMap(battle) {
   left.forEach((name, index) => {
     const node = resolveAnyNode(name) || { name, camp: battle.sideA.camp };
     const [x, y] = leftPos[index];
-    lines.push(`<div class="map-line" style="${lineStyle(x + 5, y, 50, 50)}"></div>`);
+    lines.push(`<line ${lineAttrs(x, y, 50, 50)} />`);
     nodes.push(`<div class="map-node" data-camp="${campKey(node)}" style="left:${x}%; top:${y}%;">${escapeHtml(name)}</div>`);
   });
   right.forEach((name, index) => {
     const node = resolveAnyNode(name) || { name, camp: battle.sideB.camp };
     const [x, y] = rightPos[index];
-    lines.push(`<div class="map-line" style="${lineStyle(x - 5, y, 50, 50)}"></div>`);
+    lines.push(`<line ${lineAttrs(x, y, 50, 50)} />`);
     nodes.push(`<div class="map-node" data-camp="${campKey(node)}" style="left:${x}%; top:${y}%;">${escapeHtml(name)}</div>`);
   });
-  return `${lines.join('')}${nodes.join('')}`;
+  return `<svg class="map-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">${lines.join('')}</svg>${nodes.join('')}`;
 }
 
 function renderBattleFile(battle) {
