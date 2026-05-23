@@ -1,0 +1,17 @@
+# Playwright MCP transient snapshots
+.playwright-mcp/
+
+# macOS
+.DS_Store
+
+# Python caches (if pipeline scripts compile)
+__pycache__/
+*.pyc
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Local env
+.env
+.env.local

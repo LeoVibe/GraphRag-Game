@@ -1,0 +1,45 @@
+/* themes.css */
+body[data-theme="bamboo"] {
+  --color-bg: #F7F1E1; --color-surface: #FBF6E8;
+  --color-text: #3F2D14; --color-text-soft: #8B6F4D;
+  --color-primary: #7C5E2C; --color-primary-strong: #5A3F1C;
+  --color-success: #5B8B4A; --color-danger: #A14E3A;
+  --color-border: #D4C5A0;
+  --color-faction-wei: #3F6F8E; --color-faction-shu: #A14E3A;
+  --color-faction-wu: #5B8B4A; --color-faction-lords: #6B5D7E;
+  --font-display: "Noto Serif TC", "Source Han Serif TC", serif;
+}
+body[data-theme="bamboo"] .top-bar { background: #FBF6E8; border-bottom-color: #D4C5A0; }
+body[data-theme="bamboo"] .card { background: #FBF6E8;
+  box-shadow: 0 1px 2px rgba(63,45,20,.1); border-color: #D4C5A0; }
+body[data-theme="bamboo"] main { background: #F7F1E1; }
+
+body[data-theme="warroom"] {
+  --color-bg: #1E293B; --color-surface: #334155;
+  --color-text: #F8FAFC; --color-text-soft: #94A3B8;
+  --color-primary: #F59E0B; --color-primary-strong: #D97706;
+  --color-success: #10B981; --color-danger: #EF4444;
+  --color-border: #475569;
+  --color-faction-wei: #60A5FA; --color-faction-shu: #FBBF24;
+  --color-faction-wu: #34D399; --color-faction-lords: #C4B5FD;
+}
+body[data-theme="warroom"] .top-bar { background: #0F172A; border-bottom-color: #475569; }
+body[data-theme="warroom"] .card { background: #334155;
+  box-shadow: 0 2px 8px rgba(0,0,0,.4); border-color: #475569; color: var(--color-text); }
+body[data-theme="warroom"] main {
+  background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+  background-image: linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+body[data-theme="warroom"] .clue-card { background: #422006; color: #FDE68A; border-color: #92400E; }
+
+body[data-theme="classic"] {
+  /* 已是 styles.css 預設，這裡只 explicit 設一次方便切回 */
+  --color-bg: #FFF7ED; --color-surface: #FFFFFF;
+  --color-text: #1E293B; --color-text-soft: #64748B;
+  --color-primary: #F97316; --color-primary-strong: #C2410C;
+  --color-border: #E2E8F0;
+  --color-faction-wei: #2563EB; --color-faction-shu: #F97316;
+  --color-faction-wu: #16A34A; --color-faction-lords: #8B5CF6;
+}

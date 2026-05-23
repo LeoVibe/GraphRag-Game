@@ -13,6 +13,7 @@ async function init() {
   try {
     const data = await loadData();
     setState({ data });
+    document.body.dataset.theme = 'bamboo';
     setupRouter();
     updateProgress();
     subscribe(state => renderRoute(state));
