@@ -24,6 +24,7 @@ V17/V18 的「戰役推理」面板存在三個無法靠微調修復的問題：
 - **情境**：學生**自學**為主，沒有老師或家長從旁說明
 - **學習目標**：**認識人物個性與關係網**（不是因果推理、不是視角扮演、不是寫死的知識傳遞）
 - **節奏**：一輪學習循環 1–3 分鐘可走完，孩子可在零碎時間進站
+- **內容範圍**：**三國演義前 60 回**（手頭原文僅 c001-c060）。涵蓋黃巾之亂、董卓進京、群雄逐鹿、官渡、赤壁、荊南西川。**不涵蓋**諸葛亮北伐、五丈原、姜維、鄧艾、鍾會等 61 回以後的戲份。因此司馬懿、姜維、鄧艾等後期人物在資料層 degree 極低，會在前端圖鑑被歸為「次要角色」而非「熟識目標」。
 
 ## 3. 終態總覽
 
@@ -73,7 +74,7 @@ V17/V18 的「戰役推理」面板存在三個無法靠微調修復的問題：
 
 ## 6. GraphRAG 出題引擎
 
-**資料金礦**（沿用 `台科課程實作/graphrag-sanguo/sanguo_neo4j_v3/`）：
+**資料金礦**（從 `03_graphrag/extract/c001-c060_graph.json` 經 `merge_extracts.py` 合併產出，**取代** v3 csv 與 unified jsonl 兩個有 bug 的中間產物——詳見 `docs/superpowers/plans/2026-05-23-sanguo-codex-phase1-data-fix.md`）：
 
 | 欄位 | 用途 |
 |---|---|
@@ -105,8 +106,8 @@ generateQuestion(currentPack, learnerProfile) {
 **干擾項策略**：3 個跟正確答案同 camp 但不同 relationType 的人物（degree 由高到低）——這是孩子最容易混淆的選項。
 
 **個性配對題**（L4）特別：
-- 統計人物 X 所有 outgoing relationship 的 category 比例
-- 對應到敘述。初版閾值（plan 階段可調）：`strategy > 20%` → 「會算計」；`command > 25%` → 「會帶人」；`military > 30%` → 「會打仗」；`kinship > 10%` → 「重感情」
+- 統計人物 X 所有 outgoing relationship 中**屬於 4 個 personality categories 的比例**（分母為 strategy/command/military/kinship 之和而非全部 9 類——這樣 traits 才會在實際資料 fire，story/other 比例太大會稀釋）
+- 對應到敘述。閾值：`strategy ≥ 20%` → 「會算計」；`command ≥ 25%` → 「會帶人」；`military ≥ 30%` → 「會打仗」；`kinship ≥ 10%` → 「重感情」
 - 4 個人物各算一組敘述，孩子拖拉配對
 
 ## 7. 進度資料模型

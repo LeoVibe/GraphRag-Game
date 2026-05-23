@@ -16,17 +16,20 @@
 | `04_app/` | 互動網頁（v17 主檔 + `_archive/` 歷史版本） |
 | `05_pipeline/` | 原文 → 圖譜 → 網頁的流程說明與 Python 腳本 |
 
-### 03_graphrag 內容（Phase 1 後）
+### 03_graphrag 內容（Phase 1 + data fix 後）
 
 ```
-sanguo_v3_nodes.csv              GraphRAG v3 抽取的節點 (1534)
-sanguo_v3_relationships.csv      v3 關係 (6615)
+extract/c001-c060_graph.json     原始 LLM 抽取結果（ground truth）
+nodes.json                       前端 fetch 用，2669 nodes（merge_extracts.py 產出）
+rels.json                        5113 relationships
+character_personality.json       人物個性比例 + traits（336 位）
+sanguo_v3_nodes.csv              台科 v3 抽取（保留作 camp 對映 + 備用）
+sanguo_v3_relationships.csv      同上
 metadata.json                    社群、章節、統計 metadata
-nodes.json                       前端 fetch 用，由 pipeline 產出
-rels.json                        同上
-character_personality.json       人物個性比例 + traits（287 位）
-embeddings/  extract/  prompts/  unified/  settings.yaml   原有 GraphRAG 產出物
+embeddings/  prompts/  unified/  settings.yaml   原有 GraphRAG 產出物
 ```
+
+> **資料層歷程**：原本 `build_graph.py` 把 v3 csv 轉成 JSON，但 v3 csv 漏抽諸葛亮、司馬懿、于禁的 character node。Data fix 階段改用 `merge_extracts.py` 從 raw extract（每章獨立的 c0XX_graph.json）重新合併，徹底解決。v3 csv 保留作為 camp 對映參考。
 
 ## 資料規模
 
