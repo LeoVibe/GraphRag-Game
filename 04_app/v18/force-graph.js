@@ -45,8 +45,22 @@ export function renderForceGraph(container, nodes, links, options = {}) {
     };
   }
 
-  const link = svg.append('g').attr('class', 'force-links')
-    .selectAll('line').data(links).join('line');
+  // 連線：依 category 染色 + 依 weight 加粗，讓不同人物的圖譜長相差異化
+  const linkLayer = svg.append('g').attr('class', 'force-links');
+  const link = linkLayer.selectAll('line').data(links).join('line')
+    .attr('class', d => `force-link cat-${d.category || 'other'}`)
+    .attr('stroke-width', d => {
+      const w = d.weight || 1;
+      return Math.min(4, 1.5 + Math.log2(w + 1) * 0.8);
+    });
+
+  // 連線文字 label（關係動詞），力導圖跑後沿線中點顯示
+  const linkLabel = svg.append('g').attr('class', 'force-link-labels')
+    .selectAll('text').data(links.filter(l => l.label)).join('text')
+    .attr('class', 'force-link-label')
+    .attr('text-anchor', 'middle')
+    .attr('dy', -2)
+    .text(d => d.label);
 
   const node = svg.append('g').attr('class', 'force-nodes')
     .selectAll('g').data(nodes).join('g')
@@ -84,6 +98,9 @@ export function renderForceGraph(container, nodes, links, options = {}) {
     link
       .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
       .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    linkLabel
+      .attr('x', d => (d.source.x + d.target.x) / 2)
+      .attr('y', d => (d.source.y + d.target.y) / 2);
     node.attr('transform', d => `translate(${d.x},${d.y})`);
   });
 

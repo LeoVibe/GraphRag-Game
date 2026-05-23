@@ -140,12 +140,20 @@ function mountPersonForceGraph(container, viewState, graphData, handlers = {}) {
   if (!person) return;
 
   const rels = personFriendRels(person.id, '全部').slice(0, 7);
-  const targets = rels.map(rel => graphData.byId.get(rel.target)).filter(Boolean);
+  const targetRels = rels
+    .map(rel => ({ rel, node: graphData.byId.get(rel.target) }))
+    .filter(item => item.node);
   const nodes = [
     { id: person.id, name: person.name, camp: campKey(person), isFocus: true },
-    ...targets.map(node => ({ id: node.id, name: node.name, camp: campKey(node) }))
+    ...targetRels.map(({ node }) => ({ id: node.id, name: node.name, camp: campKey(node) }))
   ];
-  const links = targets.map(node => ({ source: person.id, target: node.id }));
+  const links = targetRels.map(({ rel, node }) => ({
+    source: person.id,
+    target: node.id,
+    category: rel.category || 'other',
+    weight: rel.weight || 1,
+    label: rel.relationType || '',
+  }));
 
   canvas._forceGraph = renderForceGraph(canvas, nodes, links, {
     onNodeClick: node => {

@@ -598,9 +598,35 @@
   .force-svg { display: block; width: 100%; height: 100%; }
   .force-svg .force-links line {
     stroke: color-mix(in srgb, var(--color-primary) 35%, transparent);
-    stroke-width: 2; stroke-linecap: round;
+    stroke-linecap: round;
   }
-  body[data-theme="warroom"] .force-svg .force-links line { stroke: rgba(245,158,11,0.35); }
+  /* 連線顏色按 category 區分，讓不同人物的關係圈視覺各異 */
+  .force-svg .force-links line.cat-kinship  { stroke: rgba(220, 38, 38, 0.7);  }  /* 紅：結義/親族 */
+  .force-svg .force-links line.cat-command  { stroke: rgba(124, 94, 44, 0.7);  }  /* 棕：主從/統率 */
+  .force-svg .force-links line.cat-military { stroke: rgba(249, 115, 22, 0.7); }  /* 橘：軍事衝突 */
+  .force-svg .force-links line.cat-strategy { stroke: rgba(37, 99, 235, 0.7);  }  /* 藍：謀略 */
+  .force-svg .force-links line.cat-office   { stroke: rgba(124, 58, 237, 0.6); }  /* 紫：官職 */
+  .force-svg .force-links line.cat-story    { stroke: rgba(100, 116, 139, 0.55);} /* 灰：故事 */
+  .force-svg .force-links line.cat-place,
+  .force-svg .force-links line.cat-object,
+  .force-svg .force-links line.cat-other    { stroke: rgba(148, 163, 184, 0.45);} /* 淡灰：其他 */
+  body[data-theme="warroom"] .force-svg .force-links line { opacity: 0.85; }
+  /* 關係動詞 label */
+  .force-svg .force-link-label {
+    font-size: 10px;
+    fill: var(--color-text-soft);
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 600;
+    pointer-events: none;
+    paint-order: stroke;
+    stroke: var(--color-surface);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+  }
+  body[data-theme="warroom"] .force-svg .force-link-label {
+    fill: var(--color-text-soft);
+    stroke: var(--color-bg-deep);
+  }
   .force-svg .force-node rect { fill: var(--color-surface); stroke: var(--color-border); stroke-width: 2; }
   .force-svg .force-node text { fill: var(--color-text); font-size: 13px; font-weight: 700; font-family: "Noto Serif TC", serif; pointer-events: none; }
   .force-svg .force-node.is-focus rect { fill: var(--color-primary); stroke: var(--color-primary-strong); }

@@ -2,8 +2,8 @@ import { BATTLES, getBattleByKey } from './battle-presets.js';
 import { nodeName, resolveCharacterId } from './data.js';
 
 export const DEFAULT_PERSON = 'entity:character_劉備';
-export const DEFAULT_FROM = 'entity:character_關羽';
-export const DEFAULT_TO = 'entity:character_周瑜';
+export const DEFAULT_FROM = 'entity:character_諸葛亮';
+export const DEFAULT_TO = 'entity:character_曹操';
 
 export const state = {
   mode: 'person',
