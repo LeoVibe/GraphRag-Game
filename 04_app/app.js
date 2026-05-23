@@ -15,9 +15,15 @@ async function init() {
     setState({ data });
     document.body.dataset.theme = 'bamboo';
     setupRouter();
-    updateProgress();
     subscribe(state => renderRoute(state));
-    renderRoute(getState());
+    updateProgress();
+    const profile = loadProfile();
+    if (!profile.onboardingSeen) {
+      const { showOnboarding } = await import('./views/onboarding.js');
+      showOnboarding(() => renderRoute(getState()));
+    } else {
+      renderRoute(getState());
+    }
   } catch (e) {
     console.error('init failed', e);
     mainEl.innerHTML = `<p style="color:#EF4444;">資料載入失敗：${e.message}</p>`;

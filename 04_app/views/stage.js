@@ -1,8 +1,10 @@
 import { CHAPTER_PACKS, pickSubject, pickEdge, buildQuestion, chooseQuestionType, questionFingerprint } from '../engine.js';
 import { getState, setState } from '../state.js';
-import { loadProfile, saveProfile, recordAnswer, unlockPack } from '../storage.js';
+import { shouldShowHint, shouldForceAdvance } from '../safeguards.js';
+import { loadProfile, saveProfile, recordAnswer, unlockPack, applyAnswerOutcome } from '../storage.js';
 import { goto } from '../router.js';
 import { updateProgress } from './components.js';
+import { flashCardOnCorrect, toastNewCharacter, confettiBurst } from './celebrations.js';
 import { makeDraggable, makeDropZone } from './dnd.js';
 
 export function renderStage(mainEl) {
@@ -56,7 +58,7 @@ function generateNewQuestion(state, pack) {
         subject: null, edge: null, allNodes: nodes, type, byId,
         rels, personality, pack, profile,
       });
-      if (q && !profile.recentQuestions.includes(questionFingerprint(q))) return q;
+      if (q && !profile.recentQuestions.includes(questionFingerprint(q))) return withHintMode(q, profile);
       continue;
     }
     if (type === 'who-doesnt-belong' || type === 'relation-chain') {
@@ -64,7 +66,7 @@ function generateNewQuestion(state, pack) {
         subject, edge: null, allNodes: nodes, type, byId,
         rels, personality, pack, profile,
       });
-      if (q) return q;
+      if (q) return withHintMode(q, profile);
       continue;
     }
     const edge = pickEdge(subject, rels, pack, profile);
@@ -75,9 +77,13 @@ function generateNewQuestion(state, pack) {
     });
     if (!q) continue;
     if (profile.recentQuestions.includes(questionFingerprint(q))) continue;
-    return q;
+    return withHintMode(q, profile);
   }
   return null;
+}
+
+function withHintMode(q, profile) {
+  return shouldShowHint(profile) ? { ...q, hintMode: true } : q;
 }
 
 function setupStageEvents(mainEl, q, pack) {
@@ -135,14 +141,31 @@ function submit(q, pack, mainEl) {
   const profile = loadProfile();
   const subject = q.subject;
   const explanation = buildExplanation(q);
+  const beforeLevel = profile.characters[subject?.id]?.level ?? 0;
   const updated = recordAnswer(profile, {
     nodeId: subject.id,
     correct,
     questionFingerprint: questionFingerprint(q),
     edge: q.edge,
   });
-  saveProfile(updated);
-  showVerdict(mainEl, { correct, explanation, q, pack, updated });
+  const withOutcome = applyAnswerOutcome(updated, correct);
+  saveProfile(withOutcome);
+  const afterLevel = withOutcome.characters[subject?.id]?.level ?? 0;
+
+  if (correct) {
+    const choiceEl = mainEl.querySelector('.choice.is-selected');
+    if (choiceEl) flashCardOnCorrect(choiceEl);
+    if (afterLevel > beforeLevel) toastNewCharacter(subject.name);
+    const knownNow = Object.values(withOutcome.characters).filter(c => c.level >= 1).length;
+    const knownBefore = Object.values(profile.characters).filter(c => c.level >= 1).length;
+    if (knownBefore < knownNow && knownNow % 10 === 0) confettiBurst();
+  }
+
+  if (!correct && shouldForceAdvance(withOutcome)) {
+    showVerdict(mainEl, { correct: true, forced: true, explanation: '沒關係，這場我們先過去，回頭再來 🌱', q, pack, updated: withOutcome });
+    return;
+  }
+  showVerdict(mainEl, { correct, explanation, q, pack, updated: withOutcome });
 }
 
 function showVerdict(mainEl, { correct, explanation, q, pack, updated }) {

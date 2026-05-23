@@ -5,6 +5,9 @@ const DEFAULT = {
   characters: {},                // { [nodeId]: { level: 1, correctAnswers: 0, wrongAnswers: 0, discoveredEdges: [] } }
   totalStars: 0,
   recentQuestions: [],           // [questionFingerprint] 最近 20 題防重出
+  onboardingSeen: false,
+  wrongStreak: 0,
+  hintsUsed: 0,
 };
 
 export function loadProfile() {
@@ -24,6 +27,15 @@ export function saveProfile(profile) {
   } catch (e) {
     console.warn('saveProfile failed', e);
   }
+}
+
+export function markOnboardingSeen(profile) {
+  return { ...profile, onboardingSeen: true };
+}
+
+export function applyAnswerOutcome(profile, correct) {
+  if (correct) return { ...profile, wrongStreak: 0 };
+  return { ...profile, wrongStreak: profile.wrongStreak + 1 };
 }
 
 export function recordAnswer(profile, { nodeId, correct, questionFingerprint, edge }) {
