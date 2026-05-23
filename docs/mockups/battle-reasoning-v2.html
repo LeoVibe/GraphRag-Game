@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>v17 → v2 戰役推理 重設計 mockup</title>
+<style>
+  :root {
+    --color-bg: #1E293B;
+    --color-bg-deep: #0F172A;
+    --color-surface: #334155;
+    --color-surface-strong: #475569;
+    --color-text: #F8FAFC;
+    --color-text-soft: #CBD5E1;
+    --color-text-muted: #94A3B8;
+    --color-primary: #F59E0B;
+    --color-primary-strong: #D97706;
+    --color-accent: #FBBF24;
+    --color-border: #475569;
+    --color-success: #10B981;
+    --color-danger: #EF4444;
+    --color-faction-wei: #60A5FA;
+    --color-faction-shu: #F87171;
+    --color-faction-wu: #34D399;
+    --color-faction-lords: #C4B5FD;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Noto Sans TC", -apple-system, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-size: 16px;
+    line-height: 1.6;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+  .annotate-bar {
+    background: #FBBF24; color: #1E293B; padding: 12px 24px;
+    display: flex; gap: 24px; align-items: center; font-size: 14px;
+    font-family: -apple-system, sans-serif;
+  }
+  .annotate-bar h1 { margin: 0; font-size: 16px; font-weight: 700; color: #1E293B; }
+  .annotate-bar .note { color: #1E293B; }
+
+  /* top bar — warroom 配色 */
+  .top-bar {
+    background: var(--color-bg-deep);
+    border-bottom: 1px solid var(--color-border);
+    padding: 12px 24px;
+    display: flex; align-items: center; gap: 20px;
+  }
+  .brand { font-size: 20px; font-weight: 700; color: var(--color-accent);
+    font-family: "Noto Serif TC", serif; letter-spacing: 0.05em; }
+  .mode-tabs { display: flex; gap: 8px; margin-left: 16px; }
+  .mode-tab {
+    background: transparent; border: 1.5px solid transparent;
+    padding: 8px 16px; border-radius: 999px; cursor: pointer;
+    font: inherit; color: var(--color-text-muted);
+    display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2;
+  }
+  .mode-tab strong { font-size: 14px; color: var(--color-text-soft); }
+  .mode-tab span { font-size: 12px; color: var(--color-text-muted); }
+  .mode-tab.is-active { background: var(--color-surface);
+    border-color: var(--color-primary); }
+  .mode-tab.is-active strong { color: var(--color-accent); }
+  .mode-tab.is-active span { color: var(--color-text-soft); }
+  .top-right { margin-left: auto; display: flex; gap: 12px; align-items: center;
+    color: var(--color-text-muted); font-size: 14px; }
+  .chapter-select { padding: 6px 12px; border: 1px solid var(--color-border);
+    border-radius: 8px; background: var(--color-surface); color: var(--color-text);
+    font: inherit; }
+  .font-scale { display: flex; gap: 2px; border: 1px solid var(--color-border);
+    border-radius: 8px; overflow: hidden; }
+  .font-scale button { background: transparent; border: 0; padding: 6px 10px;
+    font: inherit; cursor: pointer; color: var(--color-text-muted); }
+  .font-scale button.is-active { background: var(--color-primary); color: var(--color-bg-deep);
+    font-weight: 700; }
+
+  /* main */
+  main {
+    display: grid;
+    grid-template-columns: 300px 1fr 320px;
+    gap: 16px;
+    padding: 16px 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: start;
+  }
+  .panel { background: var(--color-surface); border: 1px solid var(--color-border);
+    border-radius: 14px; padding: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  }
+  .panel-title { font-size: 12px; color: var(--color-accent);
+    letter-spacing: 0.1em; margin: 0 0 4px; text-transform: uppercase; font-weight: 700; }
+  .panel-question { font-family: "Noto Serif TC", serif; font-size: 18px;
+    color: var(--color-accent); margin: 0 0 16px; line-height: 1.4; }
+
+  /* LEFT: 選戰役 — 卡片化變主角 */
+  .battle-search {
+    width: 100%; padding: 10px 12px; border: 1px solid var(--color-border);
+    border-radius: 10px; font: inherit; background: var(--color-bg-deep);
+    color: var(--color-text); font-size: 14px; margin-bottom: 14px;
+  }
+  .battle-list { display: flex; flex-direction: column; gap: 10px; }
+  .battle-card {
+    background: var(--color-bg-deep);
+    border: 2px solid var(--color-border);
+    border-radius: 12px;
+    padding: 12px 14px;
+    cursor: pointer;
+    text-align: left;
+    color: var(--color-text);
+    font: inherit;
+    transition: all 0.2s;
+    position: relative;
+  }
+  .battle-card:hover { transform: translateX(2px); border-color: var(--color-primary); }
+  .battle-card.is-selected { border-color: var(--color-primary);
+    background: linear-gradient(135deg, var(--color-bg-deep) 0%, rgba(245,158,11,0.08) 100%);
+    box-shadow: 0 0 0 3px rgba(245,158,11,0.15); }
+  .battle-card .bc-name { font-size: 15px; font-weight: 700;
+    font-family: "Noto Serif TC", serif; color: var(--color-text); margin-bottom: 2px; }
+  .battle-card.is-selected .bc-name { color: var(--color-accent); }
+  .battle-card .bc-period { font-size: 11px; color: var(--color-text-muted); margin-bottom: 6px; }
+  .battle-card .bc-vs { font-size: 12px; color: var(--color-text-soft);
+    display: flex; align-items: center; gap: 6px; }
+  .battle-card .vs-side { font-weight: 600; }
+  .battle-card .vs-side.shu { color: var(--color-faction-shu); }
+  .battle-card .vs-side.wei { color: var(--color-faction-wei); }
+  .battle-card .vs-side.wu  { color: var(--color-faction-wu); }
+  .battle-card .vs-side.lords { color: var(--color-faction-lords); }
+  .battle-card .vs-sep { color: var(--color-text-muted); }
+  .battle-card .bc-chapters { position: absolute; top: 10px; right: 12px;
+    font-size: 10px; padding: 2px 8px; background: var(--color-surface);
+    border-radius: 999px; color: var(--color-text-muted); }
+
+  /* CENTER */
+  .center-stack { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+
+  /* 戰役主標 + 核心問題 */
+  .core-question-panel {
+    background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-strong) 100%);
+    border: 1px solid var(--color-primary);
+    border-radius: 14px;
+    padding: 18px 22px;
+    display: flex; align-items: center; gap: 20px;
+    box-shadow: 0 2px 16px rgba(245,158,11,0.15);
+  }
+  .core-question-panel .icon-box {
+    width: 64px; height: 64px; flex-shrink: 0;
+    background: var(--color-primary); color: var(--color-bg-deep);
+    border-radius: 14px; display: flex; align-items: center; justify-content: center;
+    font-size: 32px; font-family: "Noto Serif TC", serif; font-weight: 700;
+  }
+  .core-question-panel .text-area { flex: 1; min-width: 0; }
+  .core-question-panel .battle-name {
+    font-family: "Noto Serif TC", serif; font-size: 22px; font-weight: 700;
+    color: var(--color-accent); margin: 0 0 4px;
+  }
+  .core-question-panel .battle-q {
+    font-size: 16px; color: var(--color-text); margin: 0; line-height: 1.5;
+  }
+
+  /* map */
+  .map-panel { padding: 0; overflow: hidden; }
+  .map-header { display: flex; align-items: center; gap: 12px;
+    padding: 12px 18px; border-bottom: 1px solid var(--color-border); }
+  .map-header h3 { margin: 0; font-size: 14px; color: var(--color-text-soft);
+    flex: 1; font-weight: 600; }
+  .map-tools { display: flex; gap: 4px; }
+  .map-tools button { width: 30px; height: 30px; padding: 0; border: 1px solid var(--color-border);
+    border-radius: 6px; background: var(--color-bg-deep); cursor: pointer;
+    color: var(--color-text-soft); font: inherit; }
+  .map-canvas { height: 260px; position: relative;
+    background:
+      radial-gradient(circle at 50% 50%, rgba(245,158,11,0.05), transparent 60%),
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 32px),
+      repeating-linear-gradient(90deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 32px);
+  }
+  .battle-center-node {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    padding: 10px 22px; background: var(--color-primary); color: var(--color-bg-deep);
+    border-radius: 12px; font-weight: 700; font-size: 15px;
+    font-family: "Noto Serif TC", serif;
+    box-shadow: 0 4px 16px rgba(245,158,11,0.4);
+  }
+  .map-node { position: absolute; padding: 5px 12px; border-radius: 999px;
+    border: 2px solid var(--color-border); background: var(--color-surface);
+    font-size: 12px; font-weight: 600; transform: translate(-50%, -50%); }
+  .map-node[data-camp="wei"] { border-color: var(--color-faction-wei); color: var(--color-faction-wei); }
+  .map-node[data-camp="shu"] { border-color: var(--color-faction-shu); color: var(--color-faction-shu); }
+  .map-node[data-camp="wu"]  { border-color: var(--color-faction-wu); color: var(--color-faction-wu); }
+  .map-node[data-camp="lords"] { border-color: var(--color-faction-lords); color: var(--color-faction-lords); }
+  .map-line { position: absolute; height: 1.5px; background: rgba(245,158,11,0.25);
+    transform-origin: 0 0; pointer-events: none; }
+  .map-side-label { position: absolute; padding: 2px 10px; border-radius: 6px;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.1em; }
+  .map-side-label.left { left: 16px; top: 16px;
+    background: rgba(96,165,250,0.15); color: var(--color-faction-wei); }
+  .map-side-label.right { right: 16px; top: 16px;
+    background: rgba(248,113,113,0.15); color: var(--color-faction-shu); }
+
+  /* 四步推理板 — 核心特徵 */
+  .reasoning-panel { padding: 0; }
+  .reasoning-tabs {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    background: var(--color-bg-deep); border-bottom: 2px solid var(--color-primary);
+    border-radius: 14px 14px 0 0; overflow: hidden;
+  }
+  .step-tab {
+    background: transparent; border: 0; padding: 14px 8px; cursor: pointer;
+    font: inherit; color: var(--color-text-muted);
+    display: flex; flex-direction: column; align-items: center; gap: 4px;
+    border-right: 1px solid var(--color-border);
+    position: relative;
+    transition: all 0.2s;
+  }
+  .step-tab:last-child { border-right: 0; }
+  .step-tab:hover { background: rgba(245,158,11,0.05); }
+  .step-tab.is-active { background: var(--color-primary); color: var(--color-bg-deep); }
+  .step-tab .step-num {
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--color-surface); color: var(--color-text-soft);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 13px; font-family: "Noto Serif TC", serif;
+  }
+  .step-tab.is-active .step-num { background: var(--color-bg-deep); color: var(--color-accent); }
+  .step-tab .step-label { font-size: 14px; font-weight: 700;
+    font-family: "Noto Serif TC", serif; }
+  .step-tab .step-sub { font-size: 11px; opacity: 0.85; }
+
+  .reasoning-content { padding: 18px; min-height: 200px; }
+  .step-q {
+    font-family: "Noto Serif TC", serif; font-size: 18px;
+    color: var(--color-accent); margin: 0 0 14px; line-height: 1.4;
+  }
+  .evidence-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .evidence-card {
+    background: var(--color-bg-deep);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    display: flex; gap: 10px; align-items: flex-start;
+    cursor: pointer;
+  }
+  .evidence-card:hover { border-color: var(--color-primary); }
+  .evidence-card .who-avatar {
+    width: 32px; height: 32px; border-radius: 50%;
+    background: var(--color-surface);
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Noto Serif TC", serif; font-weight: 700; flex-shrink: 0;
+    font-size: 14px;
+  }
+  .evidence-card .who-avatar[data-camp="wei"] { background: rgba(96,165,250,0.2); color: var(--color-faction-wei); }
+  .evidence-card .who-avatar[data-camp="shu"] { background: rgba(248,113,113,0.2); color: var(--color-faction-shu); }
+  .evidence-card .who-avatar[data-camp="wu"]  { background: rgba(52,211,153,0.2); color: var(--color-faction-wu); }
+  .evidence-card .who-avatar[data-camp="lords"] { background: rgba(196,181,253,0.2); color: var(--color-faction-lords); }
+  .evidence-card .ev-text { flex: 1; min-width: 0; font-size: 13px; line-height: 1.55; }
+  .evidence-card .ev-text .who { font-weight: 700; color: var(--color-text); }
+  .evidence-card .ev-text .what { color: var(--color-text-soft); }
+  .evidence-card .ev-text .ch { font-size: 11px; color: var(--color-text-muted);
+    margin-top: 4px; display: block; }
+  .evidence-card .ev-action {
+    align-self: center; color: var(--color-text-muted); flex-shrink: 0;
+  }
+
+  /* RIGHT: 戰役檔案 */
+  .file-section { margin-bottom: 16px; }
+  .file-section h4 { margin: 0 0 10px; font-size: 12px; color: var(--color-text-muted);
+    font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
+  .vs-block {
+    background: var(--color-bg-deep);
+    border-radius: 10px;
+    padding: 12px;
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px;
+  }
+  .vs-side-block { text-align: center; }
+  .vs-side-block .side-label {
+    font-size: 11px; padding: 2px 8px; border-radius: 999px;
+    font-weight: 700; display: inline-block; margin-bottom: 6px;
+  }
+  .vs-side-block.wei .side-label { background: rgba(96,165,250,0.15); color: var(--color-faction-wei); }
+  .vs-side-block.shu .side-label { background: rgba(248,113,113,0.15); color: var(--color-faction-shu); }
+  .vs-side-block .commanders { font-size: 13px; color: var(--color-text); line-height: 1.6; }
+  .vs-side-block .commanders strong { display: block; font-weight: 700; }
+  .vs-sep-big { font-size: 24px; color: var(--color-primary); font-weight: 700;
+    font-family: "Noto Serif TC", serif; }
+
+  .outcome-badge {
+    display: inline-block; padding: 4px 12px;
+    background: rgba(96,165,250,0.15); color: var(--color-faction-wei);
+    border-radius: 999px; font-size: 13px; font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .outcome-text { font-size: 13px; line-height: 1.6; color: var(--color-text-soft); }
+
+  .ch-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+  .ch-pill { padding: 4px 10px; background: var(--color-bg-deep);
+    border: 1px solid var(--color-border); border-radius: 999px;
+    font-size: 12px; color: var(--color-text-soft); cursor: pointer; }
+  .ch-pill:hover { border-color: var(--color-primary); color: var(--color-accent); }
+</style>
+</head>
+<body>
+
+<div class="annotate-bar">
+  <h1>v17 → v2 戰役推理 重設計 mockup</h1>
+  <span class="note">改動點：① 整體換 warroom 沙盤主題（深墨藍+沙盤金）跟人物探險差異明顯 ② 左側戰役卡片化變主角（取代小小選擇區）③ 中央加「核心問題」一句問句 panel ④ 四步推理板做成大 Tab（① 原因 ② 決策 ③ 行動 ④ 結果）⑤ 證據卡按陣營色標頭像 ⑥ 右側戰役檔案放真內容（雙方對陣 / 勝負 / 關鍵章回）</span>
+</div>
+
+<header class="top-bar">
+  <div class="brand">三國探險地圖</div>
+  <nav class="mode-tabs">
+    <button class="mode-tab">
+      <strong>人物探險</strong>
+      <span>看他身邊的人</span>
+    </button>
+    <button class="mode-tab is-active">
+      <strong>戰役推理</strong>
+      <span>看為什麼會發生</span>
+    </button>
+    <button class="mode-tab">
+      <strong>關係路徑</strong>
+      <span>看兩人怎麼認識</span>
+    </button>
+  </nav>
+  <div class="top-right">
+    <select class="chapter-select">
+      <option>全部章節（1-60 回）</option>
+    </select>
+    <div class="font-scale">
+      <button>小</button>
+      <button class="is-active">中</button>
+      <button>大</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- LEFT: 戰役選擇 -->
+  <section class="panel">
+    <h3 class="panel-title">戰役推理</h3>
+    <p class="panel-question">想知道哪場戰役怎麼打？</p>
+
+    <input class="battle-search" type="search" placeholder="搜尋戰役...">
+
+    <div class="battle-list">
+      <button class="battle-card is-selected">
+        <div class="bc-chapters">第 22-30 回</div>
+        <div class="bc-name">官渡之戰</div>
+        <div class="bc-period">21-30 章 · 官渡前後</div>
+        <div class="bc-vs">
+          <span class="vs-side lords">袁紹</span>
+          <span class="vs-sep">⚔</span>
+          <span class="vs-side wei">曹操</span>
+        </div>
+      </button>
+      <button class="battle-card">
+        <div class="bc-chapters">第 43-50 回</div>
+        <div class="bc-name">赤壁之戰</div>
+        <div class="bc-period">41-50 章 · 赤壁鏖兵</div>
+        <div class="bc-vs">
+          <span class="vs-side wei">曹操</span>
+          <span class="vs-sep">⚔</span>
+          <span class="vs-side wu">孫</span><span class="vs-sep">+</span><span class="vs-side shu">劉</span>
+        </div>
+      </button>
+      <button class="battle-card">
+        <div class="bc-chapters">第 41-42 回</div>
+        <div class="bc-name">長坂坡之戰</div>
+        <div class="bc-period">41-50 章 · 撤退與保全</div>
+        <div class="bc-vs">
+          <span class="vs-side shu">劉備</span>
+          <span class="vs-sep">⚔</span>
+          <span class="vs-side wei">曹操</span>
+        </div>
+      </button>
+      <button class="battle-card">
+        <div class="bc-chapters">第 5-6 回</div>
+        <div class="bc-name">虎牢關之戰</div>
+        <div class="bc-period">1-10 章 · 英雄起義</div>
+        <div class="bc-vs">
+          <span class="vs-side lords">十八路諸侯</span>
+          <span class="vs-sep">⚔</span>
+          <span class="vs-side lords">呂布</span>
+        </div>
+      </button>
+      <button class="battle-card">
+        <div class="bc-chapters">第 14-19 回</div>
+        <div class="bc-name">下邳之戰</div>
+        <div class="bc-period">11-20 章 · 群雄角力</div>
+        <div class="bc-vs">
+          <span class="vs-side wei">曹操</span><span class="vs-sep">+</span><span class="vs-side shu">劉備</span>
+          <span class="vs-sep">⚔</span>
+          <span class="vs-side lords">呂布</span>
+        </div>
+      </button>
+      <button class="battle-card">
+        <div class="bc-chapters">第 52-53 回</div>
+        <div class="bc-name">荊南四郡之戰</div>
+        <div class="bc-period">51-60 章 · 荊南西川</div>
+        <div class="bc-vs">
+          <span class="vs-side shu">劉備</span>
+          <span class="vs-sep">⚔</span>
+          <span class="vs-side lords">劉表舊部</span>
+        </div>
+      </button>
+    </div>
+  </section>
+
+  <!-- CENTER: 核心問題 + 地圖 + 四步推理板 -->
+  <div class="center-stack">
+
+    <div class="core-question-panel">
+      <div class="icon-box">官</div>
+      <div class="text-area">
+        <h2 class="battle-name">官渡之戰</h2>
+        <p class="battle-q">袁紹兵多糧足，為什麼最後被曹操打敗？</p>
+      </div>
+    </div>
+
+    <section class="panel map-panel">
+      <header class="map-header">
+        <h3>戰場關係圖</h3>
+        <div class="map-tools">
+          <button>＋</button>
+          <button>−</button>
+          <button>⤢</button>
+        </div>
+      </header>
+      <div class="map-canvas">
+        <span class="map-side-label left">袁紹方</span>
+        <span class="map-side-label right">曹操方</span>
+
+        <div class="battle-center-node">官渡之戰</div>
+
+        <div class="map-node" data-camp="lords" style="left:18%; top:30%;">袁紹</div>
+        <div class="map-node" data-camp="lords" style="left:14%; top:60%;">顏良</div>
+        <div class="map-node" data-camp="lords" style="left:18%; top:80%;">文醜</div>
+        <div class="map-node" data-camp="lords" style="left:32%; top:50%;">許攸</div>
+
+        <div class="map-node" data-camp="wei" style="left:82%; top:30%;">曹操</div>
+        <div class="map-node" data-camp="wei" style="left:86%; top:60%;">荀彧</div>
+        <div class="map-node" data-camp="wei" style="left:82%; top:80%;">張遼</div>
+        <div class="map-node" data-camp="wei" style="left:68%; top:50%;">荀攸</div>
+
+        <div class="map-line" style="left:22%; top:30%; width: 28%; transform: rotate(20deg);"></div>
+        <div class="map-line" style="left:22%; top:60%; width: 28%; transform: rotate(-5deg);"></div>
+        <div class="map-line" style="left:78%; top:30%; width: 28%; transform: rotate(160deg);"></div>
+        <div class="map-line" style="left:78%; top:60%; width: 28%; transform: rotate(185deg);"></div>
+      </div>
+    </section>
+
+    <!-- 四步推理板 — 核心特徵 -->
+    <section class="panel reasoning-panel">
+      <div class="reasoning-tabs">
+        <button class="step-tab is-active">
+          <span class="step-num">1</span>
+          <span class="step-label">原因</span>
+          <span class="step-sub">為什麼會發生</span>
+        </button>
+        <button class="step-tab">
+          <span class="step-num">2</span>
+          <span class="step-label">決策</span>
+          <span class="step-sub">誰做了選擇</span>
+        </button>
+        <button class="step-tab">
+          <span class="step-num">3</span>
+          <span class="step-label">行動</span>
+          <span class="step-sub">用了什麼計策</span>
+        </button>
+        <button class="step-tab">
+          <span class="step-num">4</span>
+          <span class="step-label">結果</span>
+          <span class="step-sub">局勢怎麼變</span>
+        </button>
+      </div>
+      <div class="reasoning-content">
+        <h4 class="step-q">為什麼袁紹和曹操要在官渡決戰？</h4>
+        <div class="evidence-grid">
+          <div class="evidence-card">
+            <div class="who-avatar" data-camp="lords">袁</div>
+            <div class="ev-text">
+              <span class="who">袁紹</span>
+              <span class="what">想南下取許都，奪回對天子的控制。</span>
+              <span class="ch">第 22 回</span>
+            </div>
+            <div class="ev-action">→</div>
+          </div>
+          <div class="evidence-card">
+            <div class="who-avatar" data-camp="wei">曹</div>
+            <div class="ev-text">
+              <span class="who">曹操</span>
+              <span class="what">挾天子以令諸侯，必須擋下袁紹保住政權。</span>
+              <span class="ch">第 22 回</span>
+            </div>
+            <div class="ev-action">→</div>
+          </div>
+          <div class="evidence-card">
+            <div class="who-avatar" data-camp="lords">袁</div>
+            <div class="ev-text">
+              <span class="who">袁紹</span>
+              <span class="what">兵多糧足，自認穩贏。</span>
+              <span class="ch">第 22 回</span>
+            </div>
+            <div class="ev-action">→</div>
+          </div>
+          <div class="evidence-card">
+            <div class="who-avatar" data-camp="wei">荀</div>
+            <div class="ev-text">
+              <span class="who">荀彧</span>
+              <span class="what">勸曹操「不可避戰」，主張正面對決。</span>
+              <span class="ch">第 22 回</span>
+            </div>
+            <div class="ev-action">→</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- RIGHT: 戰役檔案 -->
+  <aside class="panel">
+    <h3 class="panel-title">戰役檔案</h3>
+    <p style="margin: 0 0 16px; font-size: 13px; color: var(--color-text-muted);">核心問題、參與者與勝負轉折</p>
+
+    <div class="file-section">
+      <h4>雙方對陣</h4>
+      <div class="vs-block">
+        <div class="vs-side-block wei">
+          <div class="side-label">曹魏</div>
+          <div class="commanders">
+            <strong>曹操</strong>
+            <div style="font-size:11px; color:var(--color-text-muted);">荀彧 · 荀攸 · 張遼 · 許褚</div>
+          </div>
+        </div>
+        <div class="vs-sep-big">⚔</div>
+        <div class="vs-side-block shu">
+          <div class="side-label" style="background: rgba(196,181,253,0.15); color: var(--color-faction-lords);">群雄</div>
+          <div class="commanders">
+            <strong>袁紹</strong>
+            <div style="font-size:11px; color:var(--color-text-muted);">顏良 · 文醜 · 許攸 · 沮授</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="file-section">
+      <h4>勝負與轉折</h4>
+      <span class="outcome-badge">✓ 曹操勝</span>
+      <p class="outcome-text">
+        關鍵在「<strong style="color:var(--color-accent);">烏巢燒糧</strong>」——
+        許攸投曹獻計，曹操親領精兵夜襲袁紹糧草營地，
+        袁軍軍心崩潰，從此一蹶不振。
+      </p>
+    </div>
+
+    <div class="file-section">
+      <h4>關鍵章回</h4>
+      <div class="ch-pills">
+        <span class="ch-pill">第 22 回</span>
+        <span class="ch-pill">第 24 回</span>
+        <span class="ch-pill">第 25 回</span>
+        <span class="ch-pill">第 26 回</span>
+        <span class="ch-pill">第 30 回</span>
+      </div>
+    </div>
+
+    <div class="file-section">
+      <h4>故事意涵</h4>
+      <p style="margin: 0; font-size: 13px; line-height: 1.7; color: var(--color-text-soft);">
+        三國演義裡<strong style="color: var(--color-accent);">「以少勝多」</strong>的代表戰役。
+        說明<strong style="color: var(--color-text);">資源不是決定勝負的唯一原因</strong>——
+        會聽諫言、能用人才的領袖，才是真的強。
+      </p>
+    </div>
+  </aside>
+</main>
+
+</body>
+</html>

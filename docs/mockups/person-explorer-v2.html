@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>v17 → v2 人物探險 重設計 mockup</title>
+<style>
+  :root {
+    --color-bg: #F7F1E1;
+    --color-surface: #FBF6E8;
+    --color-surface-strong: #FFFFFF;
+    --color-text: #2A1B08;
+    --color-text-soft: #8B6F4D;
+    --color-primary: #7C5E2C;
+    --color-primary-strong: #5A3F1C;
+    --color-accent: #A14E3A;
+    --color-border: #D4C5A0;
+    --color-faction-wei: #3F6F8E;
+    --color-faction-shu: #A14E3A;
+    --color-faction-wu: #5B8B4A;
+    --color-faction-lords: #6B5D7E;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Noto Serif TC", "Noto Sans TC", -apple-system, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .annotate-bar {
+    background: #1E293B; color: #F8FAFC; padding: 12px 24px;
+    display: flex; gap: 24px; align-items: center; font-size: 14px;
+    font-family: -apple-system, sans-serif;
+  }
+  .annotate-bar h1 { margin: 0; font-size: 16px; font-weight: 700; color: #FBBF24; }
+  .annotate-bar .note { color: #94A3B8; }
+
+  /* ========== top bar ========== */
+  .top-bar {
+    background: var(--color-surface-strong);
+    border-bottom: 1px solid var(--color-border);
+    padding: 12px 24px;
+    display: flex; align-items: center; gap: 20px;
+  }
+  .brand { font-size: 20px; font-weight: 700; color: var(--color-primary-strong);
+    font-family: "Noto Serif TC", serif; letter-spacing: 0.05em; }
+  .mode-tabs { display: flex; gap: 8px; margin-left: 16px; }
+  .mode-tab {
+    background: transparent; border: 1.5px solid transparent;
+    padding: 8px 16px; border-radius: 999px; cursor: pointer;
+    font: inherit; color: var(--color-text-soft);
+    display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2;
+  }
+  .mode-tab strong { font-size: 14px; color: var(--color-text); }
+  .mode-tab span { font-size: 12px; color: var(--color-text-soft); }
+  .mode-tab.is-active { background: var(--color-surface);
+    border-color: var(--color-primary); }
+  .mode-tab.is-active strong { color: var(--color-primary-strong); }
+  .top-right { margin-left: auto; display: flex; gap: 12px; align-items: center;
+    color: var(--color-text-soft); font-size: 14px; }
+  .chapter-select { padding: 6px 12px; border: 1px solid var(--color-border);
+    border-radius: 8px; background: var(--color-surface-strong); font: inherit; }
+  .font-scale { display: flex; gap: 2px; border: 1px solid var(--color-border);
+    border-radius: 8px; overflow: hidden; }
+  .font-scale button { background: transparent; border: 0; padding: 6px 10px;
+    font: inherit; cursor: pointer; color: var(--color-text-soft); }
+  .font-scale button.is-active { background: var(--color-primary); color: #fff; }
+
+  /* ========== main layout ========== */
+  main {
+    display: grid;
+    grid-template-columns: 280px 1fr 320px;
+    gap: 16px;
+    padding: 16px 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: start;
+  }
+
+  /* ========== left: who to explore ========== */
+  .panel { background: var(--color-surface); border: 1px solid var(--color-border);
+    border-radius: 16px; padding: 16px; }
+  .panel-title { font-size: 12px; color: var(--color-text-soft);
+    letter-spacing: 0.1em; margin: 0 0 4px; text-transform: uppercase; font-weight: 600; }
+  .panel-question { font-family: "Noto Serif TC", serif; font-size: 18px;
+    color: var(--color-primary-strong); margin: 0 0 16px; line-height: 1.4; }
+
+  .starter-section { margin-bottom: 20px; }
+  .starter-hint { font-size: 13px; color: var(--color-text-soft); margin: 0 0 8px; }
+  .starters { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .starter-chip { background: var(--color-surface-strong); border: 2px solid var(--color-border);
+    border-radius: 12px; padding: 12px 8px; cursor: pointer;
+    text-align: center; font: inherit; line-height: 1.3;
+    transition: all 0.2s; position: relative;
+  }
+  .starter-chip:hover { border-color: var(--color-primary); transform: translateY(-2px); }
+  .starter-chip .avatar { font-size: 28px; display: block; margin-bottom: 4px; }
+  .starter-chip .name { font-size: 15px; font-weight: 700; color: var(--color-text); }
+  .starter-chip .camp { font-size: 11px; color: var(--color-text-soft); }
+  .starter-chip[data-camp="shu"] { border-color: rgba(161,78,58,0.3); }
+  .starter-chip[data-camp="wei"] { border-color: rgba(63,111,142,0.3); }
+  .starter-chip[data-camp="wu"]  { border-color: rgba(91,139,74,0.3); }
+
+  .search-row { display: flex; gap: 8px; margin-bottom: 12px; }
+  .search-row input { flex: 1; padding: 10px 12px; border: 1px solid var(--color-border);
+    border-radius: 10px; font: inherit; background: var(--color-surface-strong);
+    font-size: 14px; }
+  .camp-filter { display: flex; gap: 4px; margin-bottom: 12px; flex-wrap: wrap; }
+  .camp-filter button { padding: 4px 10px; border: 1px solid var(--color-border);
+    border-radius: 999px; background: var(--color-surface-strong);
+    font: inherit; font-size: 12px; cursor: pointer; color: var(--color-text-soft); }
+  .camp-filter button.is-active { background: var(--color-primary);
+    color: #fff; border-color: var(--color-primary); }
+
+  .person-list-title { font-size: 12px; color: var(--color-text-soft);
+    margin: 0 0 6px; font-weight: 600; }
+  .person-list { display: flex; flex-direction: column; gap: 4px; max-height: 360px;
+    overflow-y: auto; }
+  .person-row { display: flex; align-items: center; gap: 8px;
+    padding: 8px 10px; border-radius: 8px; cursor: pointer; background: transparent;
+    border: 0; font: inherit; text-align: left; width: 100%; }
+  .person-row:hover { background: var(--color-surface-strong); }
+  .person-row.is-selected { background: var(--color-primary); color: #fff; }
+  .person-row.is-selected .meta { color: rgba(255,255,255,0.85); }
+  .person-row .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .person-row[data-camp="shu"] .dot { background: var(--color-faction-shu); }
+  .person-row[data-camp="wei"] .dot { background: var(--color-faction-wei); }
+  .person-row[data-camp="wu"]  .dot { background: var(--color-faction-wu); }
+  .person-row[data-camp="lords"] .dot { background: var(--color-faction-lords); }
+  .person-row .name { flex: 1; font-size: 14px; font-weight: 600; }
+  .person-row .meta { font-size: 11px; color: var(--color-text-soft); }
+
+  /* ========== middle: map + bottom tab ========== */
+  .center-stack { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+
+  .map-panel { padding: 0; overflow: hidden; }
+  .map-header { display: flex; align-items: center; gap: 12px;
+    padding: 14px 18px; border-bottom: 1px solid var(--color-border); }
+  .map-title { font-family: "Noto Serif TC", serif; font-size: 20px; font-weight: 700;
+    color: var(--color-primary-strong); margin: 0; flex: 1; }
+  .map-title-sub { font-size: 13px; color: var(--color-text-soft); }
+  .map-tools { display: flex; gap: 4px; }
+  .map-tools button { width: 32px; height: 32px; padding: 0; border: 1px solid var(--color-border);
+    border-radius: 8px; background: var(--color-surface-strong); cursor: pointer;
+    font: inherit; }
+  .map-canvas { height: 360px; background:
+    radial-gradient(circle at 30% 30%, rgba(124,94,44,0.06), transparent 50%),
+    radial-gradient(circle at 70% 70%, rgba(161,78,58,0.06), transparent 50%),
+    repeating-linear-gradient(0deg, rgba(124,94,44,0.04) 0 1px, transparent 1px 32px),
+    repeating-linear-gradient(90deg, rgba(124,94,44,0.04) 0 1px, transparent 1px 32px);
+    position: relative;
+  }
+  .map-node { position: absolute; padding: 6px 14px; border-radius: 999px;
+    border: 2px solid var(--color-border); background: var(--color-surface);
+    font-size: 13px; font-weight: 700; transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+  .map-node.is-focus { background: var(--color-primary); color: #fff; border-color: var(--color-primary-strong);
+    font-size: 14px; padding: 8px 16px; }
+  .map-node[data-camp="shu"] { border-color: var(--color-faction-shu); color: var(--color-faction-shu); }
+  .map-node[data-camp="wei"] { border-color: var(--color-faction-wei); color: var(--color-faction-wei); }
+  .map-node[data-camp="wu"] { border-color: var(--color-faction-wu); color: var(--color-faction-wu); }
+  .map-node[data-camp="lords"] { border-color: var(--color-faction-lords); color: var(--color-faction-lords); }
+  .map-line { position: absolute; height: 2px; background: rgba(124,94,44,0.3);
+    transform-origin: 0 0; pointer-events: none; }
+
+  /* ========== bottom tab area ========== */
+  .bottom-tabs { display: flex; gap: 4px; padding: 8px 8px 0; border-bottom: 1px solid var(--color-border); }
+  .bottom-tab { padding: 10px 16px; border: 0; background: transparent;
+    cursor: pointer; font: inherit; border-radius: 8px 8px 0 0;
+    font-size: 15px; color: var(--color-text-soft); font-weight: 600;
+    border-bottom: 3px solid transparent; }
+  .bottom-tab.is-active { color: var(--color-primary-strong);
+    border-bottom-color: var(--color-primary); background: var(--color-surface-strong); }
+
+  .bottom-panel { padding: 16px; min-height: 240px; }
+
+  /* friends tab content */
+  .relation-chips { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+  .relation-chip { padding: 6px 14px; border-radius: 999px; border: 1px solid var(--color-border);
+    background: var(--color-surface-strong); font: inherit; font-size: 13px; cursor: pointer;
+    color: var(--color-text-soft); }
+  .relation-chip.is-active { background: var(--color-accent); color: #fff;
+    border-color: var(--color-accent); }
+  .relation-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .relation-item { background: var(--color-surface-strong); border: 1px solid var(--color-border);
+    border-radius: 10px; padding: 10px 12px; display: flex; align-items: center; gap: 10px;
+    cursor: pointer; }
+  .relation-item:hover { border-color: var(--color-primary); }
+  .relation-item .avatar { width: 36px; height: 36px; border-radius: 50%;
+    background: var(--color-surface); display: flex; align-items: center; justify-content: center;
+    font-size: 18px; flex-shrink: 0; }
+  .relation-item .meta { flex: 1; min-width: 0; }
+  .relation-item .meta .who { font-size: 14px; font-weight: 700; color: var(--color-text); }
+  .relation-item .meta .desc { font-size: 12px; color: var(--color-text-soft);
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  /* story tab content */
+  .story-list { display: flex; flex-direction: column; gap: 8px; }
+  .story-row { display: flex; gap: 12px; padding: 10px 12px;
+    background: var(--color-surface-strong); border: 1px solid var(--color-border);
+    border-radius: 10px; align-items: flex-start; }
+  .story-row .ch { font-family: "Noto Serif TC", serif; font-weight: 700;
+    color: var(--color-accent); font-size: 14px; flex-shrink: 0; min-width: 60px; }
+  .story-row .text { font-size: 13px; line-height: 1.6; color: var(--color-text); }
+  .show-more { display: block; width: 100%; padding: 10px;
+    background: transparent; border: 1px dashed var(--color-border); border-radius: 10px;
+    cursor: pointer; font: inherit; color: var(--color-text-soft); font-size: 13px;
+    margin-top: 8px; }
+
+  /* ========== right: 人物檔案 ========== */
+  .file-section { margin-bottom: 16px; }
+  .file-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+  .file-header .avatar { width: 56px; height: 56px; border-radius: 50%;
+    background: var(--color-primary); color: #fff; display: flex; align-items: center;
+    justify-content: center; font-size: 28px; font-family: "Noto Serif TC", serif;
+    font-weight: 700; }
+  .file-header .info .name { font-size: 22px; font-weight: 700; font-family: "Noto Serif TC", serif; }
+  .file-header .info .meta { font-size: 12px; color: var(--color-text-soft); }
+  .badge-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+  .badge { padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+  .badge.appearance { background: rgba(124,94,44,0.12); color: var(--color-primary-strong); }
+  .badge.faction-shu { background: rgba(161,78,58,0.12); color: var(--color-faction-shu); }
+  .badge.degree { background: rgba(91,139,74,0.12); color: var(--color-faction-wu); }
+  .alias-line { font-size: 12px; color: var(--color-text-soft); margin-bottom: 12px; line-height: 1.5; }
+  .alias-line strong { color: var(--color-text); }
+
+  .stat-row { display: flex; gap: 12px; margin-bottom: 14px; }
+  .stat-cell { flex: 1; text-align: center; padding: 10px;
+    background: var(--color-surface-strong); border-radius: 10px; }
+  .stat-cell .num { font-size: 22px; font-weight: 700; color: var(--color-primary-strong);
+    font-family: "Noto Serif TC", serif; }
+  .stat-cell .label { font-size: 11px; color: var(--color-text-soft); }
+
+  .personality-bar { margin-bottom: 8px; }
+  .personality-bar .label-row { display: flex; justify-content: space-between;
+    font-size: 12px; color: var(--color-text-soft); margin-bottom: 2px; }
+  .personality-bar .bar { height: 6px; background: var(--color-border); border-radius: 3px;
+    overflow: hidden; }
+  .personality-bar .fill { height: 100%; background: var(--color-primary); }
+
+  .quote-card { background: var(--color-surface-strong); border-left: 3px solid var(--color-accent);
+    padding: 10px 12px; border-radius: 0 10px 10px 0; font-size: 13px; line-height: 1.6;
+    color: var(--color-text); margin-top: 12px; }
+  .quote-card .source { display: block; font-size: 11px; color: var(--color-text-soft);
+    margin-top: 6px; }
+
+  /* annotation */
+  .anno { position: relative; }
+  .anno::before { content: attr(data-anno); position: absolute; top: -10px; left: 50%;
+    transform: translateX(-50%); background: #FBBF24; color: #1E293B;
+    padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700;
+    white-space: nowrap; }
+
+</style>
+</head>
+<body>
+
+<div class="annotate-bar">
+  <h1>v17 → v2 人物探險 重設計 mockup</h1>
+  <span class="note">改動點：① 站名拿掉 GraphRAG ② 起點 + 列表整合 ③ 下方合二為一 Tab ④ 計數從「691 條」改「出場 60 章」 ⑤ 右側人物檔案放真內容（個性條 / 名言）</span>
+</div>
+
+<header class="top-bar">
+  <div class="brand">三國探險地圖</div>
+  <nav class="mode-tabs">
+    <button class="mode-tab is-active">
+      <strong>人物探險</strong>
+      <span>看他身邊的人</span>
+    </button>
+    <button class="mode-tab">
+      <strong>戰役推理</strong>
+      <span>看為什麼會發生</span>
+    </button>
+    <button class="mode-tab">
+      <strong>關係路徑</strong>
+      <span>看兩人怎麼認識</span>
+    </button>
+  </nav>
+  <div class="top-right">
+    <select class="chapter-select">
+      <option>全部章節（1-60 回）</option>
+      <option>1-10 英雄起義</option>
+    </select>
+    <div class="font-scale">
+      <button>小</button>
+      <button class="is-active">中</button>
+      <button>大</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- LEFT: 選一位英雄 -->
+  <section class="panel">
+    <h3 class="panel-title">人物探險</h3>
+    <p class="panel-question">想看誰身邊的人？</p>
+
+    <div class="starter-section">
+      <p class="starter-hint">初次試試 — 從三大陣營主公開始</p>
+      <div class="starters">
+        <button class="starter-chip" data-camp="shu">
+          <span class="avatar">劉</span>
+          <span class="name">劉備</span>
+          <span class="camp">劉蜀</span>
+        </button>
+        <button class="starter-chip" data-camp="wei">
+          <span class="avatar">曹</span>
+          <span class="name">曹操</span>
+          <span class="camp">曹魏</span>
+        </button>
+        <button class="starter-chip" data-camp="wu">
+          <span class="avatar">孫</span>
+          <span class="name">孫權</span>
+          <span class="camp">東吳</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="search-row">
+      <input type="search" placeholder="搜尋人物...">
+    </div>
+    <div class="camp-filter">
+      <button class="is-active">全部</button>
+      <button>魏</button>
+      <button>蜀</button>
+      <button>吳</button>
+      <button>群雄</button>
+    </div>
+
+    <p class="person-list-title">所有人物 · 共 146 位</p>
+    <div class="person-list">
+      <button class="person-row is-selected" data-camp="shu">
+        <span class="dot"></span>
+        <div class="name">劉備</div>
+        <div class="meta">出場 53 章</div>
+      </button>
+      <button class="person-row" data-camp="wei">
+        <span class="dot"></span>
+        <div class="name">曹操</div>
+        <div class="meta">出場 58 章</div>
+      </button>
+      <button class="person-row" data-camp="shu">
+        <span class="dot"></span>
+        <div class="name">關羽</div>
+        <div class="meta">出場 42 章</div>
+      </button>
+      <button class="person-row" data-camp="shu">
+        <span class="dot"></span>
+        <div class="name">張飛</div>
+        <div class="meta">出場 39 章</div>
+      </button>
+      <button class="person-row" data-camp="shu">
+        <span class="dot"></span>
+        <div class="name">諸葛亮</div>
+        <div class="meta">出場 22 章</div>
+      </button>
+      <button class="person-row" data-camp="shu">
+        <span class="dot"></span>
+        <div class="name">趙雲</div>
+        <div class="meta">出場 23 章</div>
+      </button>
+      <button class="person-row" data-camp="wu">
+        <span class="dot"></span>
+        <div class="name">周瑜</div>
+        <div class="meta">出場 17 章</div>
+      </button>
+      <button class="person-row" data-camp="wu">
+        <span class="dot"></span>
+        <div class="name">孫權</div>
+        <div class="meta">出場 23 章</div>
+      </button>
+      <button class="person-row" data-camp="lords">
+        <span class="dot"></span>
+        <div class="name">呂布</div>
+        <div class="meta">出場 28 章</div>
+      </button>
+      <button class="person-row" data-camp="lords">
+        <span class="dot"></span>
+        <div class="name">袁紹</div>
+        <div class="meta">出場 25 章</div>
+      </button>
+    </div>
+  </section>
+
+  <!-- CENTER: 地圖 + 下方 Tab -->
+  <div class="center-stack">
+    <section class="panel map-panel">
+      <header class="map-header">
+        <div>
+          <h2 class="map-title">劉備 的人物關係</h2>
+          <div class="map-title-sub">桃園結義 · 漢室宗親 · 三顧茅廬</div>
+        </div>
+        <div class="map-tools">
+          <button>＋</button>
+          <button>−</button>
+          <button>⤢</button>
+        </div>
+      </header>
+      <div class="map-canvas">
+        <div class="map-node is-focus" style="left:50%; top:50%;">劉備</div>
+        <div class="map-node" data-camp="shu" style="left:30%; top:30%;">關羽</div>
+        <div class="map-node" data-camp="shu" style="left:32%; top:65%;">張飛</div>
+        <div class="map-node" data-camp="shu" style="left:70%; top:32%;">諸葛亮</div>
+        <div class="map-node" data-camp="shu" style="left:75%; top:60%;">趙雲</div>
+        <div class="map-node" data-camp="lords" style="left:18%; top:48%;">呂布</div>
+        <div class="map-node" data-camp="wei" style="left:80%; top:80%;">曹操</div>
+        <div class="map-node" data-camp="wu" style="left:55%; top:85%;">孫權</div>
+        <div class="map-line" style="left:50%; top:50%; width:25%; transform: rotate(-30deg);"></div>
+        <div class="map-line" style="left:50%; top:50%; width:23%; transform: rotate(30deg);"></div>
+        <div class="map-line" style="left:50%; top:50%; width:26%; transform: rotate(-20deg) translateX(0px);"></div>
+        <div class="map-line" style="left:50%; top:50%; width:28%; transform: rotate(15deg);"></div>
+      </div>
+    </section>
+
+    <section class="panel" style="padding: 0;">
+      <div class="bottom-tabs">
+        <button class="bottom-tab is-active">朋友圈</button>
+        <button class="bottom-tab">出場時刻</button>
+      </div>
+      <div class="bottom-panel">
+        <div class="relation-chips">
+          <button class="relation-chip is-active">全部</button>
+          <button class="relation-chip">朋友</button>
+          <button class="relation-chip">對手</button>
+          <button class="relation-chip">主從</button>
+          <button class="relation-chip">講話</button>
+          <button class="relation-chip">挫折</button>
+        </div>
+        <div class="relation-list">
+          <div class="relation-item">
+            <div class="avatar">關</div>
+            <div class="meta">
+              <div class="who">關羽 · 桃園結義</div>
+              <div class="desc">桃園結為兄弟，誓共生死（第 1 回）</div>
+            </div>
+          </div>
+          <div class="relation-item">
+            <div class="avatar">張</div>
+            <div class="meta">
+              <div class="who">張飛 · 桃園結義</div>
+              <div class="desc">桃園結為兄弟，誓共生死（第 1 回）</div>
+            </div>
+          </div>
+          <div class="relation-item">
+            <div class="avatar">諸</div>
+            <div class="meta">
+              <div class="who">諸葛亮 · 三顧茅廬</div>
+              <div class="desc">三訪臥龍岡，請出山相助（第 38 回）</div>
+            </div>
+          </div>
+          <div class="relation-item">
+            <div class="avatar">趙</div>
+            <div class="meta">
+              <div class="who">趙雲 · 平原相見</div>
+              <div class="desc">公孫瓚帳下初識，後追隨入蜀（第 7 回）</div>
+            </div>
+          </div>
+          <div class="relation-item">
+            <div class="avatar">曹</div>
+            <div class="meta">
+              <div class="who">曹操 · 煮酒論英雄</div>
+              <div class="desc">青梅煮酒，互探心意（第 21 回）</div>
+            </div>
+          </div>
+          <div class="relation-item">
+            <div class="avatar">孫</div>
+            <div class="meta">
+              <div class="who">孫權 · 連吳抗曹</div>
+              <div class="desc">赤壁前合作，後爭荊州（第 43 回）</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- RIGHT: 人物檔案 -->
+  <aside class="panel">
+    <h3 class="panel-title">人物檔案</h3>
+
+    <div class="file-section">
+      <div class="file-header">
+        <div class="avatar">劉</div>
+        <div class="info">
+          <div class="name">劉備</div>
+          <div class="meta">玄德 · 漢室宗親</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge faction-shu">劉蜀</span>
+        <span class="badge appearance">出場 53 章</span>
+        <span class="badge degree">關係 527 條</span>
+      </div>
+      <div class="alias-line">
+        <strong>別名：</strong>劉玄德、劉皇叔、玄德、豫州牧、平原劉玄德 ⋯⋯
+      </div>
+    </div>
+
+    <div class="file-section">
+      <h4 style="margin: 0 0 8px; font-size: 13px; color: var(--color-text-soft);">關係統計</h4>
+      <div class="stat-row">
+        <div class="stat-cell">
+          <div class="num">53</div>
+          <div class="label">出場章</div>
+        </div>
+        <div class="stat-cell">
+          <div class="num">146</div>
+          <div class="label">關係人</div>
+        </div>
+        <div class="stat-cell">
+          <div class="num">42</div>
+          <div class="label">朋友</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="file-section">
+      <h4 style="margin: 0 0 10px; font-size: 13px; color: var(--color-text-soft);">個性</h4>
+      <div class="personality-bar">
+        <div class="label-row"><span>會帶人</span><span>36%</span></div>
+        <div class="bar"><div class="fill" style="width: 36%"></div></div>
+      </div>
+      <div class="personality-bar">
+        <div class="label-row"><span>會打仗</span><span>28%</span></div>
+        <div class="bar"><div class="fill" style="width: 28%"></div></div>
+      </div>
+      <div class="personality-bar">
+        <div class="label-row"><span>重感情</span><span>20%</span></div>
+        <div class="bar"><div class="fill" style="width: 20%"></div></div>
+      </div>
+      <div class="personality-bar">
+        <div class="label-row"><span>會算計</span><span>16%</span></div>
+        <div class="bar"><div class="fill" style="width: 16%"></div></div>
+      </div>
+    </div>
+
+    <div class="quote-card">
+      漢室宗親，與關羽、張飛結義，初立軍功。
+      <span class="source">第 1 回 · 桃園結義</span>
+    </div>
+  </aside>
+</main>
+
+</body>
+</html>

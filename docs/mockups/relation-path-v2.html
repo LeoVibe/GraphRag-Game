@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>v17 → v2 關係路徑 重設計 mockup</title>
+<style>
+  :root {
+    --color-bg: #FFF7ED;
+    --color-surface: #FFFFFF;
+    --color-surface-soft: #FFFBF2;
+    --color-text: #1E293B;
+    --color-text-soft: #64748B;
+    --color-text-muted: #94A3B8;
+    --color-primary: #F97316;
+    --color-primary-strong: #C2410C;
+    --color-primary-soft: #FED7AA;
+    --color-accent: #FB923C;
+    --color-border: #FED7AA;
+    --color-border-strong: #E2E8F0;
+
+    --color-faction-wei: #2563EB;
+    --color-faction-shu: #F97316;
+    --color-faction-wu: #16A34A;
+    --color-faction-lords: #8B5CF6;
+
+    --color-tag-battle: #EF4444;
+    --color-tag-interact: #3B82F6;
+    --color-tag-identity: #16A34A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Noto Sans TC", -apple-system, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .annotate-bar {
+    background: #1E293B; color: #F8FAFC; padding: 12px 24px;
+    display: flex; gap: 24px; align-items: center; font-size: 14px;
+    font-family: -apple-system, sans-serif;
+  }
+  .annotate-bar h1 { margin: 0; font-size: 16px; font-weight: 700; color: #FB923C; }
+  .annotate-bar .note { color: #94A3B8; }
+
+  /* top bar — classic 馬卡龍 */
+  .top-bar {
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding: 12px 24px;
+    display: flex; align-items: center; gap: 20px;
+  }
+  .brand { font-size: 20px; font-weight: 700; color: var(--color-primary-strong);
+    font-family: "Noto Serif TC", serif; letter-spacing: 0.05em; }
+  .mode-tabs { display: flex; gap: 8px; margin-left: 16px; }
+  .mode-tab {
+    background: transparent; border: 1.5px solid transparent;
+    padding: 8px 16px; border-radius: 999px; cursor: pointer;
+    font: inherit; color: var(--color-text-soft);
+    display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2;
+  }
+  .mode-tab strong { font-size: 14px; color: var(--color-text); }
+  .mode-tab span { font-size: 12px; color: var(--color-text-soft); }
+  .mode-tab.is-active { background: rgba(249,115,22,0.08);
+    border-color: var(--color-primary); }
+  .mode-tab.is-active strong { color: var(--color-primary-strong); }
+  .top-right { margin-left: auto; display: flex; gap: 12px; align-items: center;
+    color: var(--color-text-soft); font-size: 14px; }
+  .chapter-select { padding: 6px 12px; border: 1px solid var(--color-border-strong);
+    border-radius: 8px; background: var(--color-surface); font: inherit; }
+  .font-scale { display: flex; gap: 2px; border: 1px solid var(--color-border-strong);
+    border-radius: 8px; overflow: hidden; }
+  .font-scale button { background: transparent; border: 0; padding: 6px 10px;
+    font: inherit; cursor: pointer; color: var(--color-text-soft); }
+  .font-scale button.is-active { background: var(--color-primary); color: #fff; font-weight: 700; }
+
+  /* main */
+  main {
+    display: grid;
+    grid-template-columns: 300px 1fr 320px;
+    gap: 16px;
+    padding: 16px 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: start;
+  }
+  .panel { background: var(--color-surface); border: 1px solid var(--color-border);
+    border-radius: 16px; padding: 16px;
+    box-shadow: 0 2px 8px rgba(249,115,22,0.06);
+  }
+  .panel-title { font-size: 12px; color: var(--color-primary);
+    letter-spacing: 0.1em; margin: 0 0 4px; text-transform: uppercase; font-weight: 700; }
+  .panel-question { font-family: "Noto Serif TC", serif; font-size: 18px;
+    color: var(--color-primary-strong); margin: 0 0 16px; line-height: 1.4; }
+
+  /* LEFT: 選兩個人 */
+  .endpoint-block {
+    background: var(--color-surface-soft);
+    border: 2px dashed var(--color-border);
+    border-radius: 14px;
+    padding: 14px;
+    position: relative;
+    margin-bottom: 8px;
+  }
+  .endpoint-block.is-filled { border-style: solid; border-color: var(--color-primary);
+    background: #fff; }
+  .endpoint-block .ep-label {
+    position: absolute; top: -10px; left: 12px;
+    background: var(--color-primary); color: #fff;
+    padding: 2px 10px; border-radius: 999px;
+    font-size: 11px; font-weight: 700;
+  }
+  .endpoint-block .ep-content {
+    display: flex; align-items: center; gap: 10px; min-height: 48px;
+  }
+  .endpoint-block .ep-avatar {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--color-primary); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Noto Serif TC", serif; font-size: 22px; font-weight: 700;
+    flex-shrink: 0;
+  }
+  .endpoint-block .ep-info { flex: 1; min-width: 0; }
+  .endpoint-block .ep-name { font-size: 17px; font-weight: 700;
+    font-family: "Noto Serif TC", serif; color: var(--color-text); }
+  .endpoint-block .ep-camp { font-size: 12px; color: var(--color-text-soft); }
+  .endpoint-block .ep-clear {
+    background: transparent; border: 0; cursor: pointer;
+    color: var(--color-text-muted); font-size: 16px; padding: 4px;
+  }
+  .endpoint-block.is-empty .ep-content { color: var(--color-text-muted); font-style: italic; }
+  .endpoint-block.is-empty .ep-avatar { background: transparent;
+    border: 2px dashed var(--color-border-strong); color: var(--color-text-muted); }
+
+  .swap-row { display: flex; justify-content: center; margin: -4px 0 4px; }
+  .swap-btn {
+    background: var(--color-surface); border: 1.5px solid var(--color-primary);
+    color: var(--color-primary); width: 36px; height: 36px; border-radius: 50%;
+    cursor: pointer; font: inherit; font-size: 16px; font-weight: 700;
+    box-shadow: 0 2px 6px rgba(249,115,22,0.15);
+  }
+
+  .find-btn {
+    width: 100%; padding: 12px;
+    background: var(--color-primary); color: #fff; border: 0;
+    border-radius: 12px; cursor: pointer; font: inherit;
+    font-size: 15px; font-weight: 700; margin-top: 12px;
+    box-shadow: 0 4px 12px rgba(249,115,22,0.3);
+  }
+
+  .preset-section { margin-top: 18px; padding-top: 16px;
+    border-top: 1px solid var(--color-border-strong); }
+  .preset-title { font-size: 12px; color: var(--color-text-soft);
+    margin: 0 0 8px; font-weight: 600; }
+  .preset-list { display: flex; flex-direction: column; gap: 6px; }
+  .preset-row {
+    background: var(--color-surface-soft);
+    border: 1px solid var(--color-border-strong);
+    border-radius: 10px;
+    padding: 8px 12px;
+    display: flex; align-items: center; gap: 6px;
+    cursor: pointer; font: inherit;
+    text-align: left;
+  }
+  .preset-row:hover { border-color: var(--color-primary); }
+  .preset-row .pr-name { font-weight: 600; font-size: 13px; }
+  .preset-row .pr-name.shu { color: var(--color-faction-shu); }
+  .preset-row .pr-name.wei { color: var(--color-faction-wei); }
+  .preset-row .pr-name.wu  { color: var(--color-faction-wu); }
+  .preset-row .pr-name.lords { color: var(--color-faction-lords); }
+  .preset-row .pr-arrow { color: var(--color-text-muted); margin: 0 2px; }
+  .preset-row .pr-hint { font-size: 11px; color: var(--color-text-muted);
+    margin-left: auto; }
+
+  /* CENTER */
+  .center-stack { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+
+  /* 路徑視覺化 — 橫向流動 */
+  .path-flow-panel {
+    background: linear-gradient(135deg, #fff 0%, var(--color-surface-soft) 100%);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 24px 20px 28px;
+  }
+  .path-flow-title {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 18px;
+  }
+  .path-flow-title .from-name, .path-flow-title .to-name {
+    font-family: "Noto Serif TC", serif; font-size: 20px; font-weight: 700;
+    color: var(--color-primary-strong);
+  }
+  .path-flow-title .arrow {
+    color: var(--color-primary); font-size: 20px; font-weight: 700;
+  }
+  .path-flow-title .label {
+    margin-left: auto; font-size: 13px; color: var(--color-text-soft);
+    padding: 4px 10px; background: var(--color-primary-soft);
+    color: var(--color-primary-strong); border-radius: 999px;
+    font-weight: 700;
+  }
+
+  .path-flow {
+    display: flex; align-items: center; justify-content: space-between; gap: 0;
+    padding: 8px 4px 16px;
+  }
+  .path-node {
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    z-index: 2; position: relative; min-width: 88px;
+  }
+  .path-node .num {
+    position: absolute; top: -8px; right: -4px;
+    width: 22px; height: 22px; border-radius: 50%;
+    background: var(--color-primary); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 700;
+    font-family: "Noto Serif TC", serif;
+    z-index: 3;
+  }
+  .path-node .avatar {
+    width: 72px; height: 72px; border-radius: 50%;
+    background: var(--color-surface);
+    border: 4px solid var(--color-primary);
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Noto Serif TC", serif; font-size: 32px; font-weight: 700;
+    color: var(--color-primary-strong);
+    box-shadow: 0 4px 12px rgba(249,115,22,0.25);
+  }
+  .path-node.is-endpoint .avatar {
+    background: var(--color-primary); color: #fff; border-color: var(--color-primary-strong);
+  }
+  .path-node .name {
+    font-family: "Noto Serif TC", serif; font-size: 15px; font-weight: 700;
+    color: var(--color-text);
+  }
+  .path-node .camp {
+    font-size: 11px; padding: 1px 8px; border-radius: 999px;
+  }
+  .path-node .camp.shu { background: rgba(249,115,22,0.12); color: var(--color-faction-shu); }
+  .path-node .camp.wei { background: rgba(37,99,235,0.12); color: var(--color-faction-wei); }
+  .path-node .camp.wu  { background: rgba(22,163,74,0.12); color: var(--color-faction-wu); }
+
+  .path-edge {
+    flex: 1; height: 56px; position: relative;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    min-width: 60px;
+  }
+  .path-edge::before {
+    content: ''; position: absolute; top: 50%; left: 0; right: 0;
+    height: 3px; background: var(--color-primary-soft);
+    transform: translateY(-50%);
+    border-radius: 999px;
+  }
+  .path-edge .edge-label {
+    position: relative; z-index: 2;
+    background: var(--color-surface); padding: 4px 10px;
+    border-radius: 999px; font-size: 12px; font-weight: 700;
+    color: var(--color-primary-strong);
+    border: 1.5px solid var(--color-primary);
+    white-space: nowrap;
+  }
+  .path-edge .edge-meta {
+    position: relative; z-index: 2;
+    font-size: 10px; color: var(--color-text-muted); margin-top: 4px;
+    background: var(--color-surface); padding: 1px 6px; border-radius: 4px;
+  }
+
+  /* 路徑分段閱讀 */
+  .segments-panel { padding-bottom: 8px; }
+  .segments-header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+  .segments-header h3 { margin: 0; font-family: "Noto Serif TC", serif;
+    font-size: 17px; color: var(--color-primary-strong); }
+  .segments-header .legend { display: flex; gap: 10px; margin-left: auto;
+    font-size: 11px; }
+  .legend-item { display: flex; align-items: center; gap: 4px; color: var(--color-text-soft); }
+  .legend-item .swatch { width: 10px; height: 10px; border-radius: 3px; }
+  .legend-item .swatch.battle { background: var(--color-tag-battle); }
+  .legend-item .swatch.interact { background: var(--color-tag-interact); }
+  .legend-item .swatch.identity { background: var(--color-tag-identity); }
+
+  .segment-list { display: flex; flex-direction: column; gap: 10px; }
+  .segment {
+    background: var(--color-surface-soft);
+    border: 1px solid var(--color-border-strong);
+    border-radius: 12px;
+    padding: 12px 14px;
+    display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center;
+  }
+  .segment .seg-num {
+    width: 32px; height: 32px; border-radius: 50%;
+    background: var(--color-primary); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Noto Serif TC", serif; font-weight: 700; font-size: 14px;
+  }
+  .segment .seg-body { min-width: 0; }
+  .segment .seg-pair {
+    display: flex; align-items: center; gap: 6px; margin-bottom: 4px;
+    font-family: "Noto Serif TC", serif; font-size: 15px; font-weight: 700;
+  }
+  .segment .seg-pair .arrow { color: var(--color-primary); }
+  .segment .seg-pair .name.shu { color: var(--color-faction-shu); }
+  .segment .seg-pair .name.wei { color: var(--color-faction-wei); }
+  .segment .seg-pair .name.wu  { color: var(--color-faction-wu); }
+  .segment .seg-desc { font-size: 13px; color: var(--color-text-soft); line-height: 1.5; }
+  .segment .seg-meta { display: flex; gap: 6px; margin-top: 6px; font-size: 11px;
+    color: var(--color-text-muted); }
+  .segment .seg-tag {
+    align-self: flex-start;
+    padding: 4px 10px; border-radius: 999px;
+    font-size: 11px; font-weight: 700;
+    white-space: nowrap;
+  }
+  .segment .seg-tag.battle { background: rgba(239,68,68,0.12); color: var(--color-tag-battle); }
+  .segment .seg-tag.interact { background: rgba(59,130,246,0.12); color: var(--color-tag-interact); }
+  .segment .seg-tag.identity { background: rgba(22,163,74,0.12); color: var(--color-tag-identity); }
+
+  /* RIGHT: 路徑摘要 */
+  .summary-section { margin-bottom: 16px; }
+  .summary-section h4 { margin: 0 0 10px; font-size: 12px; color: var(--color-text-soft);
+    letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; }
+
+  .endpoints-summary {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--color-surface-soft);
+    border-radius: 12px; padding: 12px;
+  }
+  .endpoints-summary .es-side { flex: 1; text-align: center; }
+  .endpoints-summary .es-side .ava {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--color-primary); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 4px;
+    font-family: "Noto Serif TC", serif; font-size: 20px; font-weight: 700;
+  }
+  .endpoints-summary .es-side .nm { font-weight: 700; font-size: 14px;
+    font-family: "Noto Serif TC", serif; }
+  .endpoints-summary .es-side .cp { font-size: 11px; color: var(--color-text-soft); }
+  .endpoints-summary .es-arrow { font-size: 18px; color: var(--color-primary); font-weight: 700; }
+
+  .stat-row { display: flex; gap: 8px; }
+  .stat-cell { flex: 1; text-align: center; padding: 10px;
+    background: var(--color-surface-soft); border-radius: 10px; }
+  .stat-cell .num { font-size: 24px; font-weight: 700; color: var(--color-primary-strong);
+    font-family: "Noto Serif TC", serif; }
+  .stat-cell .label { font-size: 11px; color: var(--color-text-soft); }
+
+  .middle-list { display: flex; flex-direction: column; gap: 6px; }
+  .middle-item {
+    display: flex; align-items: center; gap: 8px;
+    padding: 6px 10px; border-radius: 8px;
+    background: var(--color-surface-soft);
+    font-size: 13px;
+  }
+  .middle-item .mi-num { width: 20px; height: 20px; border-radius: 50%;
+    background: var(--color-primary); color: #fff;
+    font-size: 11px; font-weight: 700; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center; }
+  .middle-item .mi-name { font-weight: 600; }
+  .middle-item .mi-camp { font-size: 11px; color: var(--color-text-muted); margin-left: auto; }
+
+  /* 三證據類型比例條 */
+  .evidence-ratio { display: flex; flex-direction: column; gap: 8px; }
+  .evi-row { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+  .evi-row .lbl { min-width: 70px; color: var(--color-text-soft); }
+  .evi-row .bar { flex: 1; height: 8px; background: var(--color-border-strong);
+    border-radius: 4px; overflow: hidden; }
+  .evi-row .bar .fill { height: 100%; }
+  .evi-row .bar .fill.battle { background: var(--color-tag-battle); }
+  .evi-row .bar .fill.interact { background: var(--color-tag-interact); }
+  .evi-row .bar .fill.identity { background: var(--color-tag-identity); }
+  .evi-row .pct { font-weight: 700; font-size: 12px; min-width: 36px; text-align: right; }
+</style>
+</head>
+<body>
+
+<div class="annotate-bar">
+  <h1>v17 → v2 關係路徑 重設計 mockup</h1>
+  <span class="note">改動點：① 整體換 classic 馬卡龍主題（暖白+橘）跟其他 mode 差異明顯 ② 左側「①起點 ②終點」兩格大區取代亂的人物列表 ③ 中間「交換 ⇄」按鈕 ④ 加「常用配對」推薦 ⑤ 中央路徑視覺化改橫向流動（節點+序號+邊上有關係 label）⑥ 下方分段閱讀卡片化、三證據類型用三色 tag（戰役紅/互動藍/身分綠）⑦ 右側摘要放真內容（起終點頭像 / 段數 / 中間人 / 三證據比例）</span>
+</div>
+
+<header class="top-bar">
+  <div class="brand">三國探險地圖</div>
+  <nav class="mode-tabs">
+    <button class="mode-tab">
+      <strong>人物探險</strong>
+      <span>看他身邊的人</span>
+    </button>
+    <button class="mode-tab">
+      <strong>戰役推理</strong>
+      <span>看為什麼會發生</span>
+    </button>
+    <button class="mode-tab is-active">
+      <strong>關係路徑</strong>
+      <span>看兩人怎麼認識</span>
+    </button>
+  </nav>
+  <div class="top-right">
+    <select class="chapter-select">
+      <option>全部章節（1-60 回）</option>
+    </select>
+    <div class="font-scale">
+      <button>小</button>
+      <button class="is-active">中</button>
+      <button>大</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- LEFT: 選兩個人 -->
+  <section class="panel">
+    <h3 class="panel-title">關係路徑</h3>
+    <p class="panel-question">想知道哪兩人怎麼認識？</p>
+
+    <div class="endpoint-block is-filled">
+      <span class="ep-label">① 起點</span>
+      <div class="ep-content">
+        <div class="ep-avatar">關</div>
+        <div class="ep-info">
+          <div class="ep-name">關羽</div>
+          <div class="ep-camp">劉蜀 · 出場 42 章</div>
+        </div>
+        <button class="ep-clear">×</button>
+      </div>
+    </div>
+
+    <div class="swap-row">
+      <button class="swap-btn" title="交換起點與終點">⇅</button>
+    </div>
+
+    <div class="endpoint-block is-filled">
+      <span class="ep-label">② 終點</span>
+      <div class="ep-content">
+        <div class="ep-avatar" style="background: var(--color-faction-wu);">周</div>
+        <div class="ep-info">
+          <div class="ep-name">周瑜</div>
+          <div class="ep-camp">東吳 · 出場 17 章</div>
+        </div>
+        <button class="ep-clear">×</button>
+      </div>
+    </div>
+
+    <button class="find-btn">找出路徑 →</button>
+
+    <div class="preset-section">
+      <h4 class="preset-title">常用配對 · 點一下立即試</h4>
+      <div class="preset-list">
+        <button class="preset-row">
+          <span class="pr-name shu">劉備</span>
+          <span class="pr-arrow">→</span>
+          <span class="pr-name wei">曹操</span>
+          <span class="pr-hint">煮酒論英雄</span>
+        </button>
+        <button class="preset-row">
+          <span class="pr-name shu">諸葛亮</span>
+          <span class="pr-arrow">→</span>
+          <span class="pr-name wu">孫權</span>
+          <span class="pr-hint">舌戰群儒</span>
+        </button>
+        <button class="preset-row">
+          <span class="pr-name lords">呂布</span>
+          <span class="pr-arrow">→</span>
+          <span class="pr-name shu">劉備</span>
+          <span class="pr-hint">三國亂世</span>
+        </button>
+        <button class="preset-row">
+          <span class="pr-name shu">關羽</span>
+          <span class="pr-arrow">→</span>
+          <span class="pr-name wei">曹操</span>
+          <span class="pr-hint">過五關斬六將</span>
+        </button>
+        <button class="preset-row">
+          <span class="pr-name wu">周瑜</span>
+          <span class="pr-arrow">→</span>
+          <span class="pr-name shu">諸葛亮</span>
+          <span class="pr-hint">既生瑜何生亮</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CENTER -->
+  <div class="center-stack">
+
+    <!-- 路徑視覺化 -->
+    <section class="path-flow-panel">
+      <div class="path-flow-title">
+        <span class="from-name">關羽</span>
+        <span class="arrow">→</span>
+        <span class="to-name">周瑜</span>
+        <span class="label">經過 1 人 · 2 段路</span>
+      </div>
+      <div class="path-flow">
+        <div class="path-node is-endpoint">
+          <span class="num">起</span>
+          <div class="avatar">關</div>
+          <div class="name">關羽</div>
+          <span class="camp shu">劉蜀</span>
+        </div>
+        <div class="path-edge">
+          <span class="edge-label">桃園結義</span>
+          <span class="edge-meta">第 1 回 · 身分</span>
+        </div>
+        <div class="path-node">
+          <span class="num">1</span>
+          <div class="avatar">劉</div>
+          <div class="name">劉備</div>
+          <span class="camp shu">劉蜀</span>
+        </div>
+        <div class="path-edge">
+          <span class="edge-label">赤壁聯吳</span>
+          <span class="edge-meta">第 43 回 · 戰役</span>
+        </div>
+        <div class="path-node is-endpoint">
+          <span class="num">終</span>
+          <div class="avatar" style="background: var(--color-faction-wu); border-color: #14532D;">周</div>
+          <div class="name">周瑜</div>
+          <span class="camp wu">東吳</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 分段閱讀 -->
+    <section class="panel segments-panel">
+      <div class="segments-header">
+        <h3>路徑分段閱讀</h3>
+        <div class="legend">
+          <div class="legend-item"><span class="swatch battle"></span>戰役</div>
+          <div class="legend-item"><span class="swatch interact"></span>互動</div>
+          <div class="legend-item"><span class="swatch identity"></span>身分</div>
+        </div>
+      </div>
+      <div class="segment-list">
+        <div class="segment">
+          <div class="seg-num">1</div>
+          <div class="seg-body">
+            <div class="seg-pair">
+              <span class="name shu">關羽</span>
+              <span class="arrow">→</span>
+              <span class="name shu">劉備</span>
+            </div>
+            <div class="seg-desc">桃園三結義，立誓共生死。後關羽護劉備四處轉戰，是劉備最信任的兄弟。</div>
+            <div class="seg-meta">第 1 回 · 共出現 38 章</div>
+          </div>
+          <span class="seg-tag identity">身分</span>
+        </div>
+
+        <div class="segment">
+          <div class="seg-num">2</div>
+          <div class="seg-body">
+            <div class="seg-pair">
+              <span class="name shu">劉備</span>
+              <span class="arrow">→</span>
+              <span class="name wu">周瑜</span>
+            </div>
+            <div class="seg-desc">赤壁前，劉備派諸葛亮赴江東結盟。周瑜作為東吳主將，與劉備合兵對抗曹操。</div>
+            <div class="seg-meta">第 43-50 回 · 共出現 7 章</div>
+          </div>
+          <span class="seg-tag battle">戰役</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- RIGHT: 路徑摘要 -->
+  <aside class="panel">
+    <h3 class="panel-title">路徑摘要</h3>
+    <p style="margin: 0 0 16px; font-size: 13px; color: var(--color-text-soft);">兩個人怎麼串起來？</p>
+
+    <div class="summary-section">
+      <div class="endpoints-summary">
+        <div class="es-side">
+          <div class="ava">關</div>
+          <div class="nm">關羽</div>
+          <div class="cp">劉蜀</div>
+        </div>
+        <div class="es-arrow">→</div>
+        <div class="es-side">
+          <div class="ava" style="background: var(--color-faction-wu);">周</div>
+          <div class="nm">周瑜</div>
+          <div class="cp">東吳</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-section">
+      <div class="stat-row">
+        <div class="stat-cell">
+          <div class="num">2</div>
+          <div class="label">段路</div>
+        </div>
+        <div class="stat-cell">
+          <div class="num">1</div>
+          <div class="label">中間人</div>
+        </div>
+        <div class="stat-cell">
+          <div class="num">8</div>
+          <div class="label">共同章回</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-section">
+      <h4>中間人物</h4>
+      <div class="middle-list">
+        <div class="middle-item">
+          <span class="mi-num">1</span>
+          <span class="mi-name">劉備</span>
+          <span class="mi-camp">劉蜀</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-section">
+      <h4>三種證據比例</h4>
+      <div class="evidence-ratio">
+        <div class="evi-row">
+          <span class="lbl">戰役</span>
+          <div class="bar"><div class="fill battle" style="width: 50%;"></div></div>
+          <span class="pct">1 段</span>
+        </div>
+        <div class="evi-row">
+          <span class="lbl">互動</span>
+          <div class="bar"><div class="fill interact" style="width: 0%;"></div></div>
+          <span class="pct">0 段</span>
+        </div>
+        <div class="evi-row">
+          <span class="lbl">身分</span>
+          <div class="bar"><div class="fill identity" style="width: 50%;"></div></div>
+          <span class="pct">1 段</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-section">
+      <h4>故事意涵</h4>
+      <p style="margin: 0; font-size: 13px; line-height: 1.7; color: var(--color-text-soft);">
+        看起來不熟的兩個人，
+        <strong style="color: var(--color-primary-strong);">透過一個共同的朋友（劉備）</strong>
+        就連上了。
+        三國裡的人際網絡比想像中緊密——
+        <strong style="color: var(--color-text);">只要 1-2 個中間人，幾乎所有英雄都認得到。</strong>
+      </p>
+    </div>
+  </aside>
+</main>
+
+</body>
+</html>
