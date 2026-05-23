@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三國演義探險地圖 — 人物圖鑑</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="loading">
+  <header class="top-bar">
+    <h1 class="brand">三國演義探險地圖</h1>
+    <div class="progress" id="topProgress" aria-label="圖鑑進度">
+      <span class="progress-bar"><span class="progress-fill" id="progressFill"></span></span>
+      <span class="progress-text" id="progressText">0 / 60 ★0</span>
+    </div>
+    <nav class="view-tabs" aria-label="主要區塊切換">
+      <button data-route="map" class="tab is-active">地圖</button>
+      <button data-route="stage" class="tab" disabled>任務</button>
+      <button data-route="codex" class="tab">圖鑑</button>
+    </nav>
+  </header>
+  <main id="appMain" aria-live="polite">
+    <p class="loading-msg">載入資料中…</p>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
