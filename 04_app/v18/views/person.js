@@ -1,4 +1,5 @@
 import { renderForceGraph } from '../force-graph.js';
+import { hintChipHtml, bindHintChip } from '../hint-chip.js';
 import { DEFAULT_PERSON, state, syncHash } from '../state.js';
 import {
   avatar,
@@ -26,6 +27,7 @@ const CAMP_FILTERS = [
 export function renderPerson(root, ctx) {
   destroyExistingForceGraph(root);
   root.innerHTML = renderPersonMode();
+  bindHintChip(root);
   mountPersonForceGraph(root, state, data, {
     onPersonChange: () => {
       syncHash();
@@ -69,6 +71,7 @@ function renderPersonMode() {
           </div>
           <div class="map-tools"><button type="button">＋</button><button type="button">−</button><button type="button">⤢</button></div>
         </header>
+        ${hintChipHtml('person')}
         <div class="map-canvas"></div>
       </section>
       <section class="panel" data-region="bottom">
@@ -230,6 +233,10 @@ function renderPersonFile(person) {
       ${escapeHtml(firstSentence(person.description) || '真實資料暫無人物描述。')}
       <span class="source">${escapeHtml(chapterRangeLabel(person))} · ${escapeHtml(person.typeLabel || '人物')}</span>
     </div>
+    <div class="file-teaching">
+      <h4>為什麼這 7 個人？</h4>
+      <p>${getTeachingNote(person.name)}</p>
+    </div>
   `;
 }
 
@@ -247,6 +254,24 @@ function renderPersonalityBars(profile) {
         </div>
       `;
     }).join('');
+}
+
+// 教學文案：解釋這個人物的關係圈為什麼長這樣
+const TEACHING_NOTES = {
+  '劉備': '身邊圍著「兄弟」（關羽、張飛）+「軍師」（諸葛亮、龐統）+「保鏢」（趙雲）+「對手」（曹操、孫權）—— 這就是「仁義」領袖的人脈邏輯。',
+  '曹操': '他的圈子裡有「武將」（許褚、典韋、夏侯惇）+「謀士」（荀彧、郭嘉、賈詡）+「對手」（劉備、袁紹）—— 這就是「能用人、能打仗」的領袖。',
+  '孫權': '繼承哥哥孫策的江東基業，身邊都是「父兄留下的老臣」（魯肅、黃蓋、張昭）+「自己提拔的新人」（呂蒙、諸葛瑾）。',
+  '諸葛亮': '出身臥龍崗的書生，被劉備三顧茅廬請出山。連到的人物大都跟「赤壁聯盟」（周瑜、魯肅、孫權）+「蜀漢治理」（劉備、龐統）有關。',
+  '關羽': '劉備的義弟與第一武將。連到的人有「兄弟」（劉備、張飛）+「故主曹操」+「對手徐晃」—— 看到的就是他「義氣」這條主線。',
+  '張飛': '劉備的義弟、性格直率猛將。圖譜裡跟他連結的多是戰場關係（呂布、曹操、馬超、張郃）。',
+  '趙雲': '劉備帳下的「保鏢」與名將。從公孫瓚跳到劉備陣營後，長坂坡單騎救主成名。連到的人多跟「保護劉氏」有關。',
+  '周瑜': '東吳少壯派統帥、赤壁之戰主角。連到的有東吳君臣（孫權、魯肅、孫策）+ 對手（曹操、諸葛亮）。',
+  '呂布': '武力第一但反覆無常。連到的多是「曾經的盟友後來的對手」（董卓、王允、貂蟬、劉備）—— 看到的是「沒原則」的反面教材。',
+  '袁紹': '北方最大諸侯但用人不力。連到的人有「謀士被冷落」（沮授、田豐、許攸）+「武將被擊敗」（顏良、文醜）—— 看到的是「會用人」有多重要的反證。',
+};
+
+function getTeachingNote(name) {
+  return TEACHING_NOTES[name] || '從這個人的關係網，可以看到他在三國裡扮演什麼角色、跟誰結盟、跟誰對抗。點任一個人物可以切換成他的視角繼續探險。';
 }
 
 // 經典劇情 neighbors — top 10 核心人物的「該認識的人」按故事重要性排序

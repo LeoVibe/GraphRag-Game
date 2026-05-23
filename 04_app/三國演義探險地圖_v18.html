@@ -434,6 +434,7 @@
     color: var(--color-text-soft);
   }
   body[data-theme="warroom"] .map-tools button { background: var(--color-bg-deep); }
+  .map-panel { position: relative; }
   .map-canvas {
     height: 340px;
     background:
@@ -442,6 +443,104 @@
       repeating-linear-gradient(0deg, color-mix(in srgb, var(--color-primary) 7%, transparent) 0 1px, transparent 1px 32px),
       repeating-linear-gradient(90deg, color-mix(in srgb, var(--color-primary) 7%, transparent) 0 1px, transparent 1px 32px);
     position: relative;
+  }
+  /* === Map hint chip === */
+  .map-hint {
+    position: absolute; top: 10px; left: 10px;
+    background: var(--color-surface-strong);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: 6px 4px 6px 14px;
+    display: flex; align-items: center; gap: 6px;
+    font-size: 12px; color: var(--color-text-soft);
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+    z-index: 5;
+    max-width: 78%;
+  }
+  body[data-theme="warroom"] .map-hint {
+    background: rgba(15, 23, 42, 0.85);
+    color: var(--color-text-soft);
+    border-color: var(--color-border-strong);
+  }
+  .map-hint-icon { flex-shrink: 0; font-size: 14px; }
+  .map-hint-text { line-height: 1.4; }
+  .map-hint-close {
+    background: transparent; border: 0; cursor: pointer;
+    color: var(--color-text-muted); font-size: 16px; line-height: 1;
+    padding: 2px 6px; margin-left: 4px; border-radius: 50%;
+  }
+  .map-hint-close:hover { background: rgba(0,0,0,0.05); color: var(--color-text); }
+  .map-hint.is-hidden { display: none; }
+
+  /* === File teaching note === */
+  .file-teaching {
+    background: var(--color-surface-soft);
+    border-left: 3px solid var(--color-primary);
+    border-radius: 0 10px 10px 0;
+    padding: 12px 14px;
+    margin-top: 14px;
+  }
+  .file-teaching h4 {
+    margin: 0 0 6px;
+    font-size: 13px;
+    color: var(--color-primary-strong);
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  body[data-theme="warroom"] .file-teaching h4 { color: var(--color-accent); }
+  .file-teaching p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--color-text-soft);
+  }
+  .file-teaching strong { color: var(--color-text); }
+
+  /* === Onboarding overlay === */
+  .onboarding-overlay {
+    position: fixed; inset: 0;
+    background: rgba(15, 23, 42, 0.55);
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px; z-index: 200;
+    animation: ob-fade-in 200ms ease-out;
+  }
+  @keyframes ob-fade-in { from { opacity: 0; } to { opacity: 1; } }
+  .onboarding-panel {
+    background: var(--color-surface-strong);
+    border-radius: 20px;
+    padding: 28px 24px;
+    max-width: 380px; width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.25);
+  }
+  .onboarding-icon { font-size: 44px; margin-bottom: 12px; line-height: 1; }
+  .onboarding-panel h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    font-family: "Noto Serif TC", serif;
+    color: var(--color-primary-strong);
+  }
+  .onboarding-panel p { margin: 0 0 20px; color: var(--color-text-soft); line-height: 1.6; font-size: 14px; }
+  .onboarding-actions { display: flex; gap: 10px; justify-content: center; margin-bottom: 14px; }
+  .onboarding-btn {
+    padding: 10px 20px; border-radius: 999px;
+    font-size: 14px; font-weight: 600; cursor: pointer;
+    border: 1px solid var(--color-border-strong);
+    background: transparent;
+    color: var(--color-text-soft);
+  }
+  .onboarding-btn.is-primary {
+    background: var(--color-primary); color: #fff;
+    border-color: var(--color-primary);
+  }
+  .onboarding-dots { display: flex; gap: 6px; justify-content: center; }
+  .onboarding-dots span {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--color-border);
+  }
+  .onboarding-dots span.is-active {
+    width: 22px; border-radius: 999px;
+    background: var(--color-primary);
   }
   .map-empty-state {
     height: 100%;

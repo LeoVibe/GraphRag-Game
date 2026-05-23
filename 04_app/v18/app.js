@@ -27,6 +27,12 @@ async function init() {
   loadState.hidden = true;
   app.hidden = false;
   render();
+
+  // 首次進站顯示 onboarding（3 步引導，可跳過、看過後不再顯示）
+  const { hasSeenOnboarding, showOnboarding } = await import('./onboarding.js');
+  if (!hasSeenOnboarding()) {
+    showOnboarding();
+  }
 }
 
 function bindGlobalEvents() {

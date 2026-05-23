@@ -1,5 +1,6 @@
 import { STEP_CATEGORIES, STEP_META, STEP_ORDER, BATTLES } from '../battle-presets.js';
 import { renderForceGraph } from '../force-graph.js';
+import { hintChipHtml, bindHintChip } from '../hint-chip.js';
 import { currentBattle, state } from '../state.js';
 import {
   avatar,
@@ -17,6 +18,7 @@ import {
 export function renderBattle(root, ctx) {
   destroyExistingForceGraph(root);
   root.innerHTML = renderBattleMode();
+  bindHintChip(root);
   mountBattleForceGraph(root.querySelector('.map-canvas'), currentBattle(), ctx);
 }
 
@@ -41,6 +43,7 @@ function renderBattleMode() {
           </div>
           <div class="map-tools"><button type="button">＋</button><button type="button">−</button><button type="button">⤢</button></div>
         </header>
+        ${hintChipHtml('battle')}
         <div class="map-canvas"></div>
       </section>
       <section class="panel" data-region="bottom">
@@ -216,6 +219,10 @@ function renderBattleFile(battle) {
     <div class="file-section">
       <h4>故事意涵</h4>
       <p class="outcome-text">${escapeHtml(battle.meaning)}</p>
+    </div>
+    <div class="file-teaching">
+      <h4>怎麼看一場戰役？</h4>
+      <p>按下方<strong>四步推理板</strong>從原因看到結果：先看<strong>為什麼會發生</strong>，再看<strong>誰做了關鍵決策</strong>，再看<strong>用了什麼計策</strong>，最後是<strong>局勢怎麼變</strong>。歷史不只是「誰贏」，而是這 4 步串起來的故事。</p>
     </div>
   `;
 }

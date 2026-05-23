@@ -1,5 +1,6 @@
 import { state } from '../state.js';
 import { renderForceGraph } from '../force-graph.js';
+import { hintChipHtml, bindHintChip } from '../hint-chip.js';
 import {
   avatar,
   campKey,
@@ -22,6 +23,7 @@ const COMMON_PAIRS = [
 export function renderRelation(root, ctx) {
   destroyExistingForceGraph(root);
   root.innerHTML = renderRelationMode();
+  bindHintChip(root);
   mountRelationForceGraph(root);
 }
 
@@ -48,6 +50,7 @@ function renderRelationMode() {
           </div>
           <div class="map-tools"><button type="button">＋</button><button type="button">−</button><button type="button">⤢</button></div>
         </header>
+        ${hintChipHtml('relation')}
         <div class="map-canvas"></div>
       </section>
       <section class="panel" data-region="bottom">
@@ -266,6 +269,10 @@ function renderPathSummary(from, to, path) {
       <div class="middle-list">
         ${path && path.nodes.length > 2 ? path.nodes.slice(1, -1).map((id, index) => middleItem(id, index)).join('') : `<div class="empty-state">沒有中間人物。</div>`}
       </div>
+    </div>
+    <div class="file-teaching">
+      <h4>六度分隔的三國世界</h4>
+      <p>看起來不熟的兩個人，<strong>透過 1-2 個共同朋友</strong>就連上了 — 三國的人際網絡比想像中緊密，<strong>幾乎所有英雄都認得到</strong>。試試從常用配對找看看哪兩人之間有意想不到的橋樑。</p>
     </div>
   `;
 }
