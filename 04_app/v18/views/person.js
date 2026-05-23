@@ -57,7 +57,7 @@ function renderPersonMode() {
       <div class="camp-filter">
         ${CAMP_FILTERS.map(([value, label]) => `<button type="button" data-action="camp-filter" data-value="${value}" class="${state.campFilter === value ? 'is-active' : ''}">${label}</button>`).join('')}
       </div>
-      <p class="person-list-title">主要人物 · 共 ${visiblePeople.length} 位</p>
+      <p class="person-list-title">前 60 回人物 · 共 ${visiblePeople.length} 位</p>
       <div class="person-list">
         ${visiblePeople.map(node => personRow(node, person.id)).join('') || `<div class="empty-state">找不到符合條件的人物。</div>`}
       </div>

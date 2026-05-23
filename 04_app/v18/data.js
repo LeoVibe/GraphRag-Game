@@ -48,8 +48,9 @@ export function buildIndexes() {
   }
   data.characters = data.nodes.filter(node => node.type === 'character');
   data.charByName = new Map(data.characters.map(node => [node.name, node]));
+  // 前 60 回所有 character entity（含 isTrunk + 非 trunk），按 degree 排序
   data.trunkCharacters = data.characters
-    .filter(node => node.isTrunk)
+    .slice()
     .sort((a, b) => (b.degree || 0) - (a.degree || 0));
   data.charCharRels = data.rels.filter(rel => isCharacterId(rel.source) && isCharacterId(rel.target));
   data.outgoing = groupBy(data.rels, rel => rel.source);
