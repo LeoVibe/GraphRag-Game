@@ -15,3 +15,7 @@ __pycache__/
 # Local env
 .env
 .env.local
+
+# Local screenshots / debug artifacts (only at repo root, allow docs/images/*.png etc.)
+/*.png
+
