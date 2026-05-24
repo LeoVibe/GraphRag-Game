@@ -19,3 +19,11 @@ __pycache__/
 # Local screenshots / debug artifacts (only at repo root, allow docs/images/*.png etc.)
 /*.png
 
+# === pj_memory ===
+# private memory 不上 git
+/docs/private_memory/
+
+# distill 暫存 temp 檔不該進 git
+/docs/project_memory/**/*.tmp
+# === end pj_memory ===
+

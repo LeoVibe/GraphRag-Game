@@ -1,0 +1,29 @@
+schema_version: "2.0"
+project_name: "GraphRag-Game · 三國演義探險地圖"
+created: "2026-05-24"
+
+# Briefing rebase 觸發條件（物理量 — 不改 status，不違反 A6/A7）
+briefing_rebase:
+  delta_size_kb: 2
+  days_since_last: 7
+  decision_ledger_max_entries: 50
+
+# Distill 流程設定
+distill:
+  max_candidates_per_session: 5
+  similarity_threshold: 0.85       # 新 vs 既有 active 矛盾偵測
+  candidate_review_dedupe_hours: 24
+
+# Stale 偵測訊號（只偵測，不自動改 status — A6+A7）
+stale_signals:
+  anchor_check: true               # 訊號 A
+  content_hash_diff_threshold: 0.3 # 訊號 B（30% diff 才提）
+  similarity_conflict: true        # 訊號 C
+  decay_hint_weak_reminder: true   # 訊號 D 弱
+  weekly_retro_top_n: 3
+
+# Anchor 型別
+anchors:
+  - commit
+  - path
+  - job
