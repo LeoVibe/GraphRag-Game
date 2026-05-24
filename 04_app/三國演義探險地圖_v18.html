@@ -1076,6 +1076,22 @@
   .evi-row .fill { height: 100%; }
   .evi-row .pct { font-weight: 700; font-size: 12px; min-width: 36px; text-align: right; }
 
+  /* Nav icon link — header 上小 icon 通往 v1.0 卡牌遊戲 / v17 經典版 */
+  .nav-icon-link {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 36px; height: 36px; border-radius: 8px;
+    text-decoration: none; color: var(--color-text-soft);
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    transition: all 0.2s;
+  }
+  .nav-icon-link:hover {
+    border-color: var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface));
+    transform: translateY(-1px);
+  }
+  .nav-icon { font-size: 18px; line-height: 1; }
+
   @media (max-width: 1100px) {
     .top-bar { align-items: flex-start; flex-wrap: wrap; }
     .mode-tabs { order: 3; width: 100%; margin-left: 0; overflow-x: auto; }
@@ -1084,12 +1100,48 @@
     .relation-list, .evidence-grid { grid-template-columns: 1fr; }
   }
   @media (max-width: 720px) {
-    .top-bar { padding: 10px 14px; }
-    main { padding: 12px; }
-    .mode-tab { min-width: 110px; padding: 8px 12px; }
-    .top-right { width: 100%; justify-content: space-between; }
-    .chapter-select { max-width: 180px; }
-    .bottom-tab { flex: 1 1 120px; }
+    .top-bar { padding: 10px 12px; gap: 10px; }
+    .brand { font-size: 18px; }
+    main { padding: 10px; gap: 10px; }
+    .panel { padding: 12px; border-radius: 12px; }
+    /* mode tabs 改更窄、字小 */
+    .mode-tabs { gap: 4px; padding-bottom: 4px; }
+    .mode-tab { min-width: 0; padding: 6px 10px; flex: 1; }
+    .mode-tab strong { font-size: 13px; }
+    .mode-tab span { font-size: 11px; }
+    .top-right { gap: 6px; }
+    /* icons 在手機保留但縮小 */
+    .nav-icon-link { width: 32px; height: 32px; }
+    .nav-icon { font-size: 16px; }
+    .settings-btn { width: 32px; height: 32px; font-size: 14px; }
+    .settings-popover { right: -8px; min-width: 260px; max-width: calc(100vw - 24px); }
+    .bottom-tab { flex: 1 1 auto; padding: 8px 10px; font-size: 13px; }
+    /* starter chips 不要 3 欄擠死 */
+    .starters { grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+    .starter-chip { padding: 8px 4px; }
+    .starter-chip .name { font-size: 14px; }
+    .starter-chip .camp { font-size: 10px; }
+    /* 人物列表更緊湊 + 高度限制讓地圖區看得到 */
+    .person-list { max-height: 280px; }
+    /* 主標題 + 副標題字小 */
+    .panel-question { font-size: 16px; margin-bottom: 12px; }
+    .map-title { font-size: 16px; }
+    .map-title-sub { font-size: 12px; }
+    .map-canvas { height: 280px; }
+    /* 設定 popover 內 row label 縮小避免擠 */
+    .settings-row { grid-template-columns: 70px 1fr; gap: 8px; }
+    .settings-row-label { font-size: 12px; }
+    /* relation endpoint 略緊 */
+    .endpoint-block { padding: 12px 10px; }
+    .ep-avatar { width: 40px; height: 40px; font-size: 18px; }
+    .ep-name { font-size: 15px; }
+  }
+  @media (max-width: 420px) {
+    /* 極窄手機：mode tab 顯示只剩主標題、副標題收起來 */
+    .mode-tab span { display: none; }
+    .mode-tab { padding: 8px 6px; }
+    .mode-tab strong { font-size: 12px; }
+    .starter-chip .camp { display: none; }
   }
 </style>
 </head>
@@ -1111,6 +1163,12 @@
     </button>
   </nav>
   <div class="top-right">
+    <a class="nav-icon-link" href="./index.html" title="人物圖鑑挑戰（答題遊戲）" aria-label="人物圖鑑挑戰">
+      <span class="nav-icon">🎴</span>
+    </a>
+    <a class="nav-icon-link" href="./三國演義探險地圖_v17.html" title="v17 經典版" aria-label="v17 經典版">
+      <span class="nav-icon">📜</span>
+    </a>
     <div class="settings-wrap">
       <button type="button" class="settings-btn" id="settingsBtn" aria-haspopup="true" aria-label="設定">⚙</button>
       <div class="settings-popover" id="settingsPopover" role="menu" hidden>
